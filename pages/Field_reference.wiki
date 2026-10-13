@@ -1,0 +1,32 @@
+{{Draft}}
+The field reference explains every field of every form in openCR: what it means, what to enter, and which values are allowed. It complements the guide pages, which explain how the forms are used.
+
+== Parts of the reference ==
+{| class="wikitable"
+! Page !! Covers
+|-
+| '''[[Field reference/Objects|Objects]]''' || The artwork form and all its sections, from titles and measurements to provenance and exhibitions
+|-
+| [[Field reference/Artists|Artists]] || ''coming soon''
+|-
+| [[Field reference/Publications|Publications]] || ''coming soon''
+|-
+| [[Field reference/Events|Events]] || ''coming soon''
+|-
+| [[Field reference/Directory|Directory]] || ''coming soon''
+|-
+| [[Field reference/Dealers and offers|Dealers and offers]] || ''coming soon''
+|-
+| [[Field reference/Base tables|Base tables]] || ''coming soon'': the shared lists behind the dropdowns, such as object types, materials, qualifiers and countries
+|}
+
+== How to read it ==
+Each section of a form has a table with four columns:
+* '''Field''': the name as it appears in the form. Some forms show the same field under different names; the other names are given in brackets. A few names are known to be unclear or misspelt in the forms; the reference shows them as they are, and the meaning column explains them.
+* '''Meaning''': what the field is for and what to enter.
+* '''Input''': ''text'', ''long text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record, such as an artwork or a directory entry. '''Required''' fields must be filled in before saving.
+* '''Values''': for lists, the possible values. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+Fields that openCR fills in by itself (who created or changed an entry, and when) are not listed. Fields marked ''(not in the forms)'' exist but are set automatically or by other tools.
+
+{{Editor guide}}

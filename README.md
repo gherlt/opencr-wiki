@@ -30,6 +30,34 @@ with MediaWiki's `edit` maintenance script:
 ssh opencr-wiki -p 222 'cd ~/public_html/opencr_com/w && php84 maintenance/run.php edit --user "OpenCR Claude" --bot --summary "Update sidebar" "MediaWiki:Sidebar"' < pages/MediaWiki__Sidebar.wiki
 ```
 
+## Field reference
+
+The pages `Field reference/…` are generated, not written by hand. Their
+sources are deliberately **not** in this public repository, because they
+name database tables and columns:
+
+- the field descriptions and the page configuration live in the private
+  application repository (`docs/tooltips/*.md` and
+  `docs/tooltips/wiki-reference.json` in open.cr_reports);
+- the live schema and the vocabularies are read from the database with
+  read-only queries;
+- the field captions come from the English admin forms.
+
+Working files go to `data/`, which is ignored by Git. The steps:
+
+```bash
+python tools/extract_form_labels.py C:/xampp/open_ENG data/form_labels.tsv
+python tools/build_field_data.py data TOOLTIPS/wiki-reference.json
+python tools/vocab_sql.py data/columns.tsv data/fks.tsv TOOLTIPS/wiki-reference.json > data/vocab.sql
+python tools/gen_field_reference.py data TOOLTIPS Objects
+```
+
+(`TOOLTIPS` = the `docs/tooltips` folder of open.cr_reports; `columns.tsv`,
+`fks.tsv` and `vocab.tsv` come from read-only queries on the database.)
+`tools/apply_field_texts.py` writes new field descriptions into the field
+notes. `gen_field_reference.py` lists fields whose description is missing
+in `data/review_<page>.tsv`.
+
 ## Conventions
 
 - Field and section names are written as they appear in the forms, never as

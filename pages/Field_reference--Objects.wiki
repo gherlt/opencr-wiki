@@ -1,0 +1,526 @@
+{{Draft}}
+Every field of the [[Objects]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving.
+
+== Main form ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist'''<br /><small>(not in the forms)</small> || The artist whose catalogue the artwork belongs to. Set automatically when the artwork is created in the artist's catalogue. || link to an artist || 
+|-
+| '''Record type''' || "main data" for the artwork itself. "correction data" or "supplementary data" for an additional record that corrects or supplements another artwork's data; such records never appear as artworks of their own. || list || main data, correction data, supplementary data
+|-
+| '''Parent object''' || For correction or supplementary data: the artwork (main data) this record belongs to. Leave empty for normal artworks. Not used for suites. || link to an artwork || 
+|-
+| '''Data source type''' || The kind of source the information on this artwork comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
+|-
+| '''Data source ID''' || The specific source the information comes from. || link to a source || 
+|-
+| '''Internal reference''' || The artwork's number in the catalogue raisonné, or another stable reference. Searchable and shown prominently; use one consistent scheme. || text || 
+|-
+| '''Has title ?''' || Tick if the work has a title. Untick for untitled works: the catalogue then shows "No title", and Title should stay empty. || tick box || 
+|-
+| '''Title''' || The main title of the work, in the catalogue's main language. Further titles go into the Titles section. || text || 
+|-
+| '''Object type''' || What kind of work it is. Decides which of the fields for prints, sculptures or unique works apply. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+|-
+| '''StatusWeb''' || Editorial status of the artwork for the website, for teams that track review steps. It does not show or hide anything; only Public does. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requieres verification
+|-
+| '''StatusPrint''' || Editorial status of the artwork for the printed catalogue raisonné, for teams that track review steps. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requieres verification
+|-
+| '''Public''' || Tick to publish the artwork. As long as it is unticked, only editors see it. || tick box || 
+|-
+| '''Is it a Suite ?''' || Tick if this record is a suite: a series of separately catalogued works, such as a portfolio of prints. The members point to it with "ID parent suite". || tick box || 
+|-
+| '''All Grouping ID'''<br /><small>(Type of grouping)</small> || Groups works together in the layout of a printed catalogue (suite, folder, installation, group, book). Has no further meaning. || list || Suite, Folder, Installation, Group, Book
+|-
+| '''ID parent suite''' || For a member of a suite: the suite it belongs to. || link to an artwork || 
+|-
+| '''Secuential number in suite''' || For a member of a suite: its position in the series, for example 3 for the third of twelve sheets. || number || 
+|-
+| '''Creation date (day)''' || Day of creation (1 to 31), if known. || number || 
+|-
+| '''Creation month''' || Month of creation, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Year creation''' || Year of creation. For a period of several years: the last year. || number || 
+|-
+| '''All Creation Year From''' || For a period of several years: the first year. Leave empty for a single year. || number || 
+|-
+| '''All CreationDateQualifierID'''<br /><small>(Qualifier of creation date)</small> || How certain the creation date is, for example approximate, before or after. Use it instead of leaving the date empty. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Notes''' || Internal notes for editors. Never published; notes for readers go into the Notes section. || long text || 
+|-
+| '''Location of creation''' || Place where the work was made. || text || 
+|-
+| '''All Creation Country'''<br /><small>(Country of creation)</small> || Country where the work was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Print PaperID'''<br /><small>(Used print paper)</small> || For prints: the paper. An edition can record a different paper. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+|-
+| '''Watermark''' || For prints: the watermark of the paper. || list || 46 entries, see [[Field reference/Base tables#Print paper watermarks|Print paper watermarks]]
+|-
+| '''Paper weight''' || For prints: weight of the paper in grams per square metre. || number || 
+|-
+| '''No. o fused plates''' || For prints: how many plates, stones or blocks were used. || number || 
+|-
+| '''No of used colours''' || For prints: how many colours were printed. || number || 
+|-
+| '''Print Tirage'''<br /><small>(Total number of prints)</small> || For prints: the total print run as known. Text, so it can include remarks. || text || 
+|-
+| '''Print TirageQualifierID'''<br /><small>(Qualifier for total number of prints)</small> || How certain the print run is: approximate, estimate, minimum, maximum, exact and so on. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Sculpture: Material''' || Intended for the material of a sculpture, but the field currently accepts only a number. Record the material in the Components section. || number || 
+|-
+| '''Sculpture: Material of model''' || Intended for the material of the sculpture's model, but the field currently accepts only a number. Record it in the Components section or the notes. || number || 
+|-
+| '''Sculpture: Model exists''' || For sculptures: tick if the model still exists. || tick box || 
+|-
+| '''Sculpture: is multiple (Y/N)''' || For sculptures: tick if the work is a multiple rather than a unique piece. || tick box || 
+|-
+| '''Present location''' || For unique works: where the work is now (city or institution). || text || 
+|-
+| '''Unique PresentLocationCountryID'''<br /><small>(Current Location of object)</small> || For unique works: the country where the work is now. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Conservation State''' || For unique works: the state of conservation, such as condition and restorations. || text || 
+|-
+| '''Comments''' || Internal comments for editors. Not published. || text || 
+|-
+| '''Lido Record Id'''<br /><small>(ID of the LIDO record)</small> || Identifier of the record in the LIDO file the artwork was imported from (LIDO is a data exchange format for museum objects). Filled by imports. || text || 
+|-
+| '''Lido Source'''<br /><small>(Source of the LIDO record)</small> || Source of the LIDO record the artwork was imported from. Filled by imports. || text || 
+|}
+
+== Titles ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || Language of this title. || list || 113 entries, see [[Field reference/Base tables#Languages|Languages]]
+|-
+| '''Title''' || The further title. || text<br />'''required''' || 
+|-
+| '''Qualifier measure 1'''<br /><small>(Qualifier)</small> || How this title relates to the main title, for example preferred, alternate or translated. || list || preferred, alternate, translated, from owner, by artist, inscription on work, historical, descriptive, obsolete, erroneous
+|-
+| '''Comments''' || Note on the source or context of this title. || text || 
+|-
+| '''Publication''' || The publication in which this title is used, if any. || link to a publication || 
+|-
+| '''Directory ID''' || The person or institution that uses this title, if any. || link to a directory entry || 
+|-
+| '''Public''' || Tick to publish this title. || tick box || 
+|}
+
+== Components ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+|-
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+|-
+| '''Position'''<br /><small>(Sort Order)</small> || Order of the entries in the list. || number<br />'''required''' || 
+|-
+| '''Component'''<br /><small>(Component ID)</small> || The material, support or technique, for example oil, canvas or etching. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components|Components]]
+|-
+| '''Quantity''' || How many, for example 2 for two panels. || number || 
+|-
+| '''OPENCR_QuantityQualifier'''<br /><small>(Quantity Qualifier)</small> || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Unit'''<br /><small>(Unit ID)</small> || Unit of the quantity. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+|-
+| '''Brand''' || Manufacturer or brand, if known. || text || 
+|-
+| '''Country of origin'''<br /><small>(Country Of Origin ID)</small> || Country where the material was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Comments'''<br /><small>(Comment)</small> || Further detail on this component. || text || 
+|-
+| '''Type paper'''<br /><small>(Component Paper Type ID)</small> || If the component is paper: its type. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+|-
+| '''Model'''<br /><small>(Component Paper Model)</small> || If the component is paper: its model or variety. || text || 
+|-
+| '''Paper weight'''<br /><small>(Component Paper Weight)</small> || If the component is paper: its weight in grams per square metre. || number || 
+|}
+
+== Object Measurements ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''EditionID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+|-
+| '''Sculpture Edition ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+|-
+| '''PartID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+|-
+| '''Position'''<br /><small>(Sort Order)</small> || Order of the entries in the list. || number || 
+|-
+| '''Measurement 1'''<br /><small>(Value 1)</small> || The third measured value, typically height, width or depth. || text<br />'''required''' || 
+|-
+| '''unit'''<br /><small>(Type ID 1)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+|-
+| '''Clasific. measure 1'''<br /><small>(Qualifier ID 1; QualifierID 1)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Measurement 2'''<br /><small>(Value 2)</small> || The third measured value, typically height, width or depth. || text || 
+|-
+| '''unit'''<br /><small>(Type ID 2)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+|-
+| '''Qualifier measure 2'''<br /><small>(Qualifier ID 2; QualifierID 2)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Measurement 3'''<br /><small>(Value 3)</small> || The third measured value, typically height, width or depth. || text || 
+|-
+| '''unit'''<br /><small>(Type ID 3)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+|-
+| '''Qualifier measure 3'''<br /><small>(Qualifier ID 3; QualifierID 3)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Unit'''<br /><small>(OPENCR_UnitID1; Unit ID)</small> || Unit of all values in this entry, for example cm. || list<br />'''required''' || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+|-
+| '''Meas. extent'''<br /><small>(Extend ID)</small> || What was measured: image, sheet, plate, frame and so on. || list || 45 entries, see [[Field reference/Base tables#Measurement extents|Measurement extents]]
+|-
+| '''Qualifier global meas.'''<br /><small>(Qualifier measure 1; Qualifier ID)</small> || A qualifier for the measurement as a whole, for example sight size or framed. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''By user''' || The editor who recorded the measurement. || link to a user || 
+|-
+| '''Data Source Type ID'''<br /><small>(Data source type)</small> || The specific source the measurement comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
+|-
+| '''Data Source ID'''<br /><small>(ID data source)</small> || The specific source the measurement comes from. || number || 
+|}
+
+== Object attributes ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Print edition'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a print edition || 
+|-
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a sculpture edition || 
+|-
+| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a part of the artwork || 
+|-
+| '''Object / Edition / Sculpture edition / Part / Edition repository'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || number || 
+|-
+| '''Attribute'''<br /><small>(Attribute ID)</small> || The kind of mark: signed, dated, numbered, stamped, monogrammed, watermark and many more. || list<br />'''required''' || 46 entries, see [[Field reference/Base tables#Attributes|Attributes]]
+|-
+| '''Location'''<br /><small>(Location ID)</small> || Where on the work the mark is: front or back, in a grid of positions, corners and borders. || list || 35 entries, see [[Field reference/Base tables#Locations|Locations]]
+|-
+| '''OPENCR_AttributeText'''<br /><small>(Attribute Text)</small> || The transcription of the mark, or a description of it. || text || 
+|}
+
+== Parts ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Sort Order''' || Order of the parts. || number || 
+|-
+| '''Part name''' || Name of the part, for example "Left panel" or "Pedestal". || text<br />'''required''' || 
+|}
+
+== Images ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Edition ID''' || The print edition the image shows, if not the whole work. || link to a print edition || 
+|-
+| '''Sculpture Edition ID''' || The sculpture edition the image shows, if not the whole work. || link to a sculpture edition || 
+|-
+| '''Part ID''' || The part of the work the image shows, if not the whole work. || link to a part of the artwork || 
+|-
+| '''Repository ID''' || The recorded copy (for example a particular impression) the image shows, if any. || link to a repository record || 
+|-
+| '''Sort Order''' || Order in the image gallery; lower numbers come first. || number || 
+|-
+| '''Use For Web''' || Tick to show the image on the website. || tick box || 
+|-
+| '''Is Main Image Web''' || Tick for the image used as the thumbnail in lists and galleries. Exactly one image per work. || tick box || 
+|-
+| '''Use For CR''' || Tick to use the image in the printed catalogue raisonné. || tick box || 
+|-
+| '''File Description''' || What the image shows: front, back, detail, signature and so on. || text || 
+|-
+| '''Identification''' || Inventory or identification number of the photograph itself. || text || 
+|-
+| '''Photographer ID''' || Who took the photograph. || link to a directory entry || 
+|-
+| '''Show Photographer''' || Tick to credit the photographer in the published caption. || tick box || 
+|-
+| '''File Name''' || The stored file name, set automatically on upload. Never change it by hand. || text<br />'''required''' || 
+|-
+| '''Original Filename''' || The name of the file when it was uploaded. For reference only. || text || 
+|-
+| '''Public''' || Tick to publish the image. || tick box || 
+|-
+| '''Occasion''' || The occasion on which the photograph was taken, for example an exhibition. || text || 
+|-
+| '''Date Year''' || Year the photograph was taken (not the date of the work). || number || 
+|-
+| '''Date Month''' || Month the photograph was taken. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Date Day''' || Day the photograph was taken. || number || 
+|-
+| '''Source ID''' || The source the image comes from. || link to a source || 
+|-
+| '''Owner ID''' || Who owns the photograph, for example an archive. || link to a directory entry || 
+|}
+
+== Editions ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Edition name''' || Name of the edition as published, for example "Regular edition of 75". || text<br />'''required''' || 
+|-
+| '''Internal name''' || Short internal name for editors. Not published. || text || 
+|-
+| '''Position''' || Order of the editions. || number || 
+|-
+| '''Editin type''' || The kind of edition or proof: regular edition, artist's proof (A.P., E.A.), hors commerce (H.C.), printer's proof (P.P.), bon à tirer and so on, in the spelling used on the prints. || list || 53 entries, see [[Field reference/Base tables#Edition proof types|Edition proof types]]
+|-
+| '''Number impressions''' || Number of impressions in this edition. || number || 
+|-
+| '''OPENCR_NumberImpressionsValueIs''' || How certain the number of impressions is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Nunbered ?''' || Tick if the impressions are numbered individually. || tick box || 
+|-
+| '''Numbering''' || How the impressions are numbered, for example "1/75 to 75/75". || text || 
+|-
+| '''Destinatation''' || For whom the edition was intended, for example a publisher or a gallery. || link to a directory entry || 
+|-
+| '''Is Posthumous Edition''' || Tick if the edition was printed after the artist's death. || tick box || 
+|-
+| '''Autorized by'''<br /><small>(OPENCR_AuthorizedBy ID)</small> || Who authorised the edition, especially for posthumous editions. || link to a directory entry || 
+|-
+| '''Paper''' || The paper of this edition, if different from the artwork's. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+|-
+| '''Watermark''' || The watermark of this edition's paper. || list || 46 entries, see [[Field reference/Base tables#Print paper watermarks|Print paper watermarks]]
+|}
+
+== Sculpture editions ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Edition name''' || Name of the edition as published. || text || 
+|-
+| '''Internal name'''<br /><small>(EditionNameInternal)</small> || Short internal name for editors. Not published. || text || 
+|-
+| '''Edition order''' || Order label of this edition among the casts. || text || 
+|-
+| '''Edition Proof Type ID''' || The kind of edition or proof, for example artist's proof. || list || 53 entries, see [[Field reference/Base tables#Edition proof types|Edition proof types]]
+|-
+| '''Edition mark''' || Marks or stamps that identify this edition. || text || 
+|-
+| '''Number Casts''' || Number of casts in this edition. || number || 
+|-
+| '''Number Casts Value Is''' || How certain the number of casts is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Is Numbered''' || Tick if the casts are numbered individually. || tick box || 
+|-
+| '''Numbering''' || How the casts are numbered. || text || 
+|-
+| '''Is Posthumous Edition''' || Tick if the edition was cast after the artist's death. || tick box || 
+|-
+| '''Autorized by'''<br /><small>(OPENCR_Authorized By; Authorized By)</small> || Who authorised the edition. || link to a directory entry || 
+|}
+
+== Agents ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Edition'''<br /><small>(not in the forms)</small> || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
+|-
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+|-
+| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+|-
+| '''DirectoryID'''<br /><small>(Contact; Directory ID)</small> || The person or institution. || link to a directory entry || 
+|-
+| '''ActivityID'''<br /><small>(Activity ID)</small> || Their role: printer, publisher, foundry, photographer, co-author and so on. || list<br />'''required''' || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+|-
+| '''AuthorItself'''<br /><small>(By the author himself; Author Itself)</small> || Tick if the artist themselves had this role; the person field is then ignored. || tick box || 
+|-
+| '''Comment'''<br /><small>(Comments)</small> || Further detail, such as dates or the exact role. || text || 
+|}
+
+== Reference ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Position''' || Order of the references. || number || 
+|-
+| '''Reference''' || A citation as free text, only when the publication cannot be picked from the list. || text || 
+|-
+| '''Contact''' || The author or institution, when the source is not a publication. || link to a directory entry || 
+|-
+| '''Publication''' || The publication in which the work appears. || link to a publication || 
+|-
+| '''Volume''' || The volume, if the publication has several. || text || 
+|-
+| '''Page''' || Page or pages where the work is mentioned, for example 12–14. || text || 
+|-
+| '''Illustr. reference''' || Number of the figure or plate. || text || 
+|-
+| '''Illustr. page''' || Page of the illustration, if different from the text. || text || 
+|-
+| '''Ilustr. colour''' || Tick if the illustration is in colour. || tick box || 
+|-
+| '''Comments''' || Further detail. || text || 
+|-
+| '''Public''' || Tick to publish this reference. || tick box || 
+|}
+
+== Objects provenance ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Position''' || Order of the owners; keeps the sequence right when dates are incomplete. || number || 
+|-
+| '''Author Itself''' || Tick if the artist owned the work during this period; the owner field is then ignored. || tick box || 
+|-
+| '''Contact''' || The owner. || link to a directory entry || 
+|-
+| '''From day''' || Start of the ownership, as far as known. || number || 
+|-
+| '''From MOnth''' || Start of the ownership, as far as known. || number || 
+|-
+| '''From year''' || Start of the ownership, as far as known. || number || 
+|-
+| '''From Date Qualifier'''<br /><small>(Qualifier for start date)</small> || How certain the start date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Until (day)''' || End of the ownership, as far as known. || number || 
+|-
+| '''Until (month)''' || End of the ownership, as far as known. || number || 
+|-
+| '''Until (year)''' || End of the ownership, as far as known. || number || 
+|-
+| '''To Date Qualifier'''<br /><small>(Qualifier for end date)</small> || How certain the end date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''Public''' || Tick to publish this entry. Publish ownership only with the owner's consent. || tick box || 
+|}
+
+== Objects transactions ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Public''' || Tick to publish this sale. Publish sales only with the consent of those involved. || tick box || 
+|-
+| '''Transaction Type ID''' || The kind of sale. || list || sale by artist, sale at exhibition/art fair, private sale, auction (floor), auction (internet), Gallery sale, Sale by publisher
+|-
+| '''Day''' || Date of the sale. || number || 
+|-
+| '''Month''' || Date of the sale. || number || 
+|-
+| '''Year''' || Date of the sale. || number || 
+|-
+| '''Value''' || The price, as a whole number. || number || 
+|-
+| '''Currency ID''' || Currency of the price. || list || Australian Dollar, Canadian Dollar, Swiss Franc, Euro, British Pound, Japanese Yen, US Dollar
+|-
+| '''Event ID''' || The auction or fair, if it is recorded as an event. || link to an event || 
+|-
+| '''Event Name''' || Name of the auction or fair, if it is not recorded as an event. || text || 
+|-
+| '''Venue''' || Auction house, gallery or place. || text || 
+|-
+| '''City''' || City of the sale. || text || 
+|-
+| '''Country ID''' || Country of the sale. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Lot Number''' || Lot number at auction. || text || 
+|-
+| '''Intermediary ID''' || Agent or broker involved. || link to a directory entry || 
+|-
+| '''Seller ID''' || The seller. || link to a directory entry || 
+|-
+| '''Buyer ID''' || The buyer. || link to a directory entry || 
+|-
+| '''Low Estim''' || Low estimate before the sale. || number || 
+|-
+| '''High Estim''' || High estimate before the sale. || number || 
+|-
+| '''Starting Bid''' || Starting bid at auction. || number || 
+|}
+
+== Exhibitions ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Event''' || The exhibition or fair. || link to an event || 
+|-
+| '''Reference''' || Catalogue or lot number, or the label used at the exhibition. || text || 
+|-
+| '''Lender''' || Who lent the work. || link to a directory entry || 
+|-
+| '''used title''' || Title under which the work was shown, if different from its main title. || text || 
+|}
+
+== Notes ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Print edition'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+|-
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+|-
+| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+|-
+| '''Language'''<br /><small>(Language ID)</small> || Language of the note; one entry per language. || list<br />'''required''' || 113 entries, see [[Field reference/Base tables#Languages|Languages]]
+|-
+| '''Description''' || Heading of the note, for example "Inscription". || text || 
+|-
+| '''Notes''' || The text of the note, as published. || long text || 
+|}
+
+== Object tags ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Tag''' || One of the artist's tags. || link to a tag of the artist || 
+|-
+| '''Tag type''' || Not used: the type comes from the tag itself. || number || 
+|}
+
+== Relation with other objects ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Related object''' || The other artwork. || link to an artwork<br />'''required''' || 
+|-
+| '''Relation type''' || How the two works are related, seen from this work: is study of, version is and so on. See the Relations page. || list<br />'''required''' || 37 entries, see [[Field reference/Base tables#Object relation types|Object relation types]]
+|}
+
+== Objects Actions ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''EditionID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+|-
+| '''Sculpture Edition ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+|-
+| '''Part ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+|-
+| '''Date Eventype'''<br /><small>(Date Event Type ID; Event type)</small> || The kind of event: finished, printed, signed, exhibited, restored and so on. || list || Finished, Bon A Tire (BAT), Printed, Plate created, Drafted, Crafted, Issued, Happened, Realized, Produced, Shown, Exhibited, Published, Met, Destroyed, Put on sale, Signed, Altered, Broadcast, Commissioned, Discovered, Performed, Restored, Designed, Viewed, Other, Plate destroyed
+|-
+| '''Begin date (day)'''<br /><small>(From (day); Begin Date Day)</small> || Start date, as far as known. || number || 
+|-
+| '''Begin date (month)'''<br /><small>(From (month); Begin Date Month)</small> || Start date, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Begin date (year)'''<br /><small>(From (year); Begin Date Year)</small> || Start date, as far as known. || number || 
+|-
+| '''Qualifier for start date'''<br /><small>(Begin Date Qualifier)</small> || How certain the start date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''End date (day)'''<br /><small>(Until date (day); End Date Day)</small> || End date; the same as the start date for a single day. || number || 
+|-
+| '''End date (month)'''<br /><small>(Until date (month); End Date Month)</small> || End date; the same as the start date for a single day. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''End date (year)'''<br /><small>(Until date (year); End Date Year)</small> || End date; the same as the start date for a single day. || number<br />'''required''' || 
+|-
+| '''Qualifier for end date'''<br /><small>(End Date Qualifier)</small> || How certain the end date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+|-
+| '''City''' || City where it took place. || text || 
+|-
+| '''Country'''<br /><small>(Country ID)</small> || Country where it took place. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Agent'''<br /><small>(Agent ID)</small> || Who performed the action. || link to a directory entry || 
+|-
+| '''By the author himself'''<br /><small>(Author Itself)</small> || Tick if the artist themselves performed it; the agent field is then ignored. || tick box || 
+|}
+
+== See also ==
+* [[Objects]]: how the objects forms are used
+* [[Field reference]]
+
+{{Editor guide}}

@@ -43,7 +43,7 @@ Artworks have the richest set of links among themselves. Each kind has its own p
 |}
 
 === Catalogue relations ===
-The ''Relation with other objects'' section offers these links (shown here with their reverse wording):
+The ''Relation with other objects'' section offers these links. The list contains both wordings of each pair, so a link can be entered on either of the two works: on the drawing choose ''is study of'' and pick the painting, or on the painting choose ''study is'' and pick the drawing. Either way, enter it only once; the other work shows the reverse wording automatically.
 {| class="wikitable"
 ! Link !! Shown on the other work as
 |-
