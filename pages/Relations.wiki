@@ -1,0 +1,221 @@
+{{Draft}}
+A catalogue raisonné is a web of links: an artwork is a study for another, was owned by a collector, was shown in an exhibition and illustrated in a book. openCR records each of these links once, in a defined place, and shows it from both sides.
+
+This page lists every kind of link. There are two families:
+* '''links between records of the same kind''', for example artwork to artwork;
+* '''links between different kinds of records''', for example artwork to publication.
+
+For the building blocks themselves, see [[How openCR is structured]].
+
+== Two rules for all links ==
+'''Enter each link once.''' A link between two records is stored once, and openCR shows it from both sides. Where a link has a direction, the other side shows the reverse wording automatically: if a drawing ''is study of'' a painting, the painting shows the reverse wording, ''study is''. Entering the reverse link as well makes it appear twice.
+
+'''Mind the direction.''' "A ''is study of'' B" means that A is the study. Entered the wrong way round, every displayed phrase is reversed. For symmetric links, such as ''is similar to'', the direction does not matter, but they are still entered only once.
+
+== Links between artworks ==
+Artworks have the richest set of links among themselves. Each kind has its own place, and they are not interchangeable.
+
+{| class="wikitable"
+! Kind of link !! Where !! Use it for
+|-
+| '''Parts''' || ''Parts'' section || One work made of several pieces, such as a triptych or an assembly
+|-
+| '''Suite''' || ''Is it a Suite ?'' on the suite, ''ID parent suite'' on each member || Separately catalogued works forming a series, such as a portfolio of prints
+|-
+| '''Print editions''' || ''Editions'' section || The impressions of a print: regular edition, artist's proofs, trial proofs and so on
+|-
+| '''Sculpture editions''' || ''Sculpture editions'' section || The casts of a sculpture
+|-
+| '''Catalogue relations''' || ''Relation with other objects'' || Art-historical links: study, version, copy, model and so on
+|-
+| '''Correction and supplementary records''' || ''Record type'' and ''Parent object'' || Additional records that correct or supplement a main record
+|-
+| '''Grouping''' || ''All Grouping ID'' || Presenting works together in the layout of a printed catalogue; no meaning beyond that
+|}
+
+=== Parts or suite? ===
+{| class="wikitable"
+! Question !! Then use
+|-
+| Is it one work in several pieces, sharing one title and one date? || '''Parts'''
+|-
+| Are they separate works, each with its own title and date, that form a series? || '''Suite'''
+|}
+
+=== Catalogue relations ===
+The ''Relation with other objects'' section offers these links (shown here with their reverse wording):
+{| class="wikitable"
+! Link !! Shown on the other work as
+|-
+| is study of || study is
+|-
+| is study for rendering of || study for rendering is
+|-
+| is model of || model is
+|-
+| is plan of || plan is
+|-
+| is cartoon of || cartoon is
+|-
+| is printing plate for || printing plate is
+|-
+| is version of || version is
+|-
+| is copy of || copy is
+|-
+| replica of || replica is
+|-
+| facsimile of || facsimile is
+|-
+| derived from || source for
+|-
+| is based on || is preparatory for
+|-
+| is base for || is based on
+|-
+| is part of || is larger context for
+|-
+| was part of || was larger context of
+|-
+| designed for || context is
+|-
+| depicts || is depicted
+|-
+| is similar to || is similar to
+|-
+| pendant of || pendant of
+|-
+| is related to || is related to
+|}
+
+A study for a painting is a catalogue relation, not a member of a suite. Plate 3 of a portfolio of twelve is a member of a suite, not a catalogue relation.
+
+=== Entries for a single part or edition ===
+Many sections of an artwork can refer either to the whole work or to one of its parts or editions. Leave the part or edition empty for entries that apply to the whole work; choose one to narrow the entry down.
+
+{| class="wikitable"
+! Section !! Part !! Print edition !! Sculpture edition
+|-
+| Images || ✓ || ✓ || ✓
+|-
+| Agents || ✓ || ✓ || ✓
+|-
+| Objects Actions || ✓ || ✓ || ✓
+|-
+| Object attributes || ✓ || ✓ || ✓
+|-
+| Notes || ✓ || ✓ || ✓
+|-
+| Object Measurements || ✓ || ✓ || ✓
+|-
+| Components || ✓ || – || ✓
+|-
+| Objects provenance, Objects transactions, Reference || – || – || –
+|}
+
+Ownership, sales and literature always refer to the work as a whole. Create parts and editions '''before''' the entries that refer to them.
+
+== Links between publications ==
+''Publications Relations'' links a publication to another one: is part of, is a version of, is copy of, facsimile of, is based on, is preparatory for, derived from, is similar to, is related to. The same rules apply: one entry per link, the reverse wording is shown automatically. See [[Publications#Events, languages and related publications|Publications]].
+
+== Links between directory entries ==
+''Directory Relations'' links people and institutions to each other: works for, is member of, is colleague of, is founder of, is funder of, is owner of, is sponsor of, is teacher of / is student of, is child of, is sibling of, is related (family, emotional or abstract), is successor of / is predecessor of, has taken over, has absorbed, has met, knows. A relation can carry the period during which it existed. See [[Directory#Sections|Directory]].
+
+== Artists and events ==
+Artists are not linked to other artists directly, and events not to other events. Artists meet in shared records instead: a group exhibition lists all its participating artists, a publication all the artists it is about.
+
+== Links between different kinds of records ==
+The table lists, for each kind of record, the links it holds to other kinds and the section in which they are entered.
+
+=== From an artwork ===
+{| class="wikitable"
+! To !! Section !! Meaning
+|-
+| Artist || (main form) || The catalogue the work belongs to
+|-
+| [[Directory]] || ''Agents'' || Printer, publisher, foundry, photographer, co-author and other people involved
+|-
+| Directory || ''Objects provenance'' || The owners
+|-
+| Directory || ''Objects transactions'' || Seller, buyer and intermediary of a sale
+|-
+| Directory || ''Objects Actions'' || Who performed a dated action, such as a restoration
+|-
+| Directory || ''Images'' || The photographer and the owner of a photograph
+|-
+| [[Publications]] || ''Reference'' || The literature that mentions or illustrates the work
+|-
+| Publications or directory || ''Titles'' || The publication or person that uses a further title
+|-
+| [[Events]] || ''Exhibitions'' || The exhibitions where the work was shown, with the lender (a directory entry)
+|-
+| Events || ''Objects transactions'' || The auction or fair at which a sale took place
+|-
+| Tags || ''Object tags'' || The artist's keywords that apply to the work
+|}
+
+=== From a publication ===
+{| class="wikitable"
+! To !! Section !! Meaning
+|-
+| [[Artists]] || ''Featured artists'' || The artists the publication is about, and whether it is in their bibliography
+|-
+| Artists || ''Publications Artist References'' (separate form) || Page ranges per artist
+|-
+| [[Directory]] || ''Publications Agents'' || Authors, editors, publishers and other contributors
+|-
+| [[Events]] || ''Related events'' || The events the publication documents
+|-
+| [[Objects|Artworks]] || ''Reference'' || The artworks it mentions or illustrates (the same link as the artwork's ''Reference'')
+|}
+
+=== From an event ===
+{| class="wikitable"
+! To !! Section !! Meaning
+|-
+| [[Artists]] || ''Events Artists'' || The participating artists and their roles
+|-
+| [[Directory]] || ''Events Agents'' || Organisers, curators, galleries, sponsors and others
+|-
+| [[Objects|Artworks]] || ''Exhibited objects'' || The works shown (the same link as the artwork's ''Exhibitions'')
+|-
+| [[Publications]] || ''Related publications'' || Publications about the event (the same link as the publication's ''Related events'')
+|}
+
+=== From an artist ===
+{| class="wikitable"
+! To !! Section !! Meaning
+|-
+| [[Directory]] || ''Relations'' || Gallerist, publisher, collector, mentor, family, heir and others
+|-
+| Directory || ''Collections'' || Institutions holding works by the artist
+|-
+| Directory || ''Collecting Society'' (main form) || The society managing the artist's rights
+|-
+| Directory || alternative names || The source of an alternative name
+|}
+
+=== From a directory entry ===
+{| class="wikitable"
+! To !! Setting !! Meaning
+|-
+| [[Artists]] || ''Directory Artists'' || In which artists' catalogues the entry is used. A visibility setting, not a relationship.
+|-
+| Artists || ''Limited To Artist ID'' || Restricts the entry to one artist's catalogue
+|}
+
+=== Dealers and offers ===
+A dealer is linked to a directory entry and to the artists they are cleared for; an offer points to an artist and to the work offered. See [[Dealers and offers]].
+
+== Common pitfalls ==
+* '''Mirror links.''' Each link is entered once; the other side is shown automatically.
+* '''Wrong direction.''' Check which record is the study, the copy or the model before choosing the link.
+* '''Suites and relations mixed up.''' Series membership goes into the suite fields, art-historical links into ''Relation with other objects''.
+* '''Relationship versus visibility.''' To connect a gallery with an artist, use the artist's ''Relations'', not ''Directory Artists''.
+* '''The artist as a directory entry.''' When the artist themselves owned a work or performed an action, tick the box for the artist in that entry instead of linking a directory entry.
+
+== See also ==
+* [[How openCR is structured]]
+* [[Objects]] · [[Publications]] · [[Events]] · [[Directory]] · [[Artists]]
+
+{{Editor guide}}
