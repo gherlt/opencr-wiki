@@ -7,7 +7,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné, letter and so on. Visitors can filter the bibliography by it. || list || 35 entries, see [[Field reference/Base tables#Publication types|Publication types]]
+| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné, letter and so on. In the PRO menu, the bibliography can be filtered and sorted by it. || list || 35 entries, see [[Field reference/Base tables#Publication types|Publication types]]
 |-
 | '''Public''' || Tick to publish the publication. || tick box || 
 |-

@@ -10,7 +10,7 @@ Publications are shared: one book about three artists is a single record, linked
 
 == The main form ==
 === Identity ===
-* '''IDPublicationtype''': the kind of publication. There are around 35 kinds, among them Book, Article in magazine, Newspaper article, Exhibition Catalogue, Works Catalogue, Catalogue, Article in catalogue, Magazine, Brochure, Flyer, Interview, Thesis, Press release, Letter, Manuscript, Video, Audio and Internet (blog, review and similar). Pick the closest one; visitors can filter the bibliography by it.
+* '''IDPublicationtype''': the kind of publication. There are around 35 kinds, among them Book, Article in magazine, Newspaper article, Exhibition Catalogue, Works Catalogue, Catalogue, Article in catalogue, Magazine, Brochure, Flyer, Interview, Thesis, Press release, Letter, Manuscript, Video, Audio and Internet (blog, review and similar). Pick the closest one; in the PRO menu, the bibliography can be filtered and sorted by it.
 * '''Title''' and '''Subtitle'''.
 * '''Alias''': the short name (see above).
 * '''Abbreviation''': a short form for footnotes, if the catalogue uses one.
