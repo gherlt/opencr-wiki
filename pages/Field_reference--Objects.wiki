@@ -1,7 +1,7 @@
 {{Draft}}
 Every field of the [[Objects]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
 
-'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving.
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
 
 == Main form ==
 {| class="wikitable" style="width:100%"
@@ -47,7 +47,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''All Creation Year From''' || For a period of several years: the first year. Leave empty for a single year. || number || 
 |-
-| '''All CreationDateQualifierID'''<br /><small>(Qualifier of creation date)</small> || How certain the creation date is, for example approximate, before or after. Use it instead of leaving the date empty. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''All CreationDateQualifierID'''<br /><small>(Qualifier of creation date)</small> || How certain the creation date is, for example approximate, before or after. Use it instead of leaving the date empty. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''Notes''' || Internal notes for editors. Never published; notes for readers go into the Notes section. || long text || 
 |-
@@ -57,7 +57,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Print PaperID'''<br /><small>(Used print paper)</small> || For prints: the paper. An edition can record a different paper. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
-| '''Watermark''' || For prints: the watermark of the paper. || list || 46 entries, see [[Field reference/Base tables#Print paper watermarks|Print paper watermarks]]
+| '''Watermark''' || For prints: the watermark of the paper. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
 |-
 | '''Paper weight''' || For prints: weight of the paper in grams per square metre. || number || 
 |-
@@ -67,7 +67,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Print Tirage'''<br /><small>(Total number of prints)</small> || For prints: the total print run as known. Text, so it can include remarks. || text || 
 |-
-| '''Print TirageQualifierID'''<br /><small>(Qualifier for total number of prints)</small> || How certain the print run is: approximate, estimate, minimum, maximum, exact and so on. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Print TirageQualifierID'''<br /><small>(Qualifier for total number of prints)</small> || How certain the print run is: approximate, estimate, minimum, maximum, exact and so on. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Sculpture: Material''' || Intended for the material of a sculpture, but the field currently accepts only a number. Record the material in the Components section. || number || 
 |-
@@ -94,7 +94,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Language''' || Language of this title. || list || 113 entries, see [[Field reference/Base tables#Languages|Languages]]
+| '''Language''' || Language of this title. || list || German, English, French, Italian, Spanish
 |-
 | '''Title''' || The further title. || text<br />'''required''' || 
 |-
@@ -113,17 +113,17 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
 | '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
 |-
 | '''Position'''<br /><small>(Sort Order)</small> || Order of the entries in the list. || number<br />'''required''' || 
 |-
-| '''Component'''<br /><small>(Component ID)</small> || The material, support or technique, for example oil, canvas or etching. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components|Components]]
+| '''Component'''<br /><small>(Component ID)</small> || The material, support or technique, for example oil, canvas or etching. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
 | '''Quantity''' || How many, for example 2 for two panels. || number || 
 |-
-| '''OPENCR_QuantityQualifier'''<br /><small>(Quantity Qualifier)</small> || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''OPENCR_QuantityQualifier'''<br /><small>(Quantity Qualifier)</small> || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Unit'''<br /><small>(Unit ID)</small> || Unit of the quantity. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |-
@@ -144,41 +144,41 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''EditionID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+| '''EditionID''' || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
 |-
-| '''Sculpture Edition ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+| '''Sculpture Edition ID''' || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
 |-
 | '''PartID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
 | '''Position'''<br /><small>(Sort Order)</small> || Order of the entries in the list. || number || 
 |-
-| '''Measurement 1'''<br /><small>(Value 1)</small> || The third measured value, typically height, width or depth. || text<br />'''required''' || 
+| '''Measurement 1'''<br /><small>(Value 1)</small> || The first measured value, typically height, width or depth. || text<br />'''required''' || 
 |-
-| '''unit'''<br /><small>(Type ID 1)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+| '''unit'''<br /><small>(Type ID 1)</small> || What the first value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
 |-
-| '''Clasific. measure 1'''<br /><small>(Qualifier ID 1; QualifierID 1)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Clasific. measure 1'''<br /><small>(Qualifier ID 1; QualifierID 1)</small> || How exact the first value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Measurement 2'''<br /><small>(Value 2)</small> || The third measured value, typically height, width or depth. || text || 
+| '''Measurement 2'''<br /><small>(Value 2)</small> || The second measured value, typically height, width or depth. || text || 
 |-
-| '''unit'''<br /><small>(Type ID 2)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+| '''unit'''<br /><small>(Type ID 2)</small> || What the second value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
 |-
-| '''Qualifier measure 2'''<br /><small>(Qualifier ID 2; QualifierID 2)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Qualifier measure 2'''<br /><small>(Qualifier ID 2; QualifierID 2)</small> || How exact the second value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Measurement 3'''<br /><small>(Value 3)</small> || The third measured value, typically height, width or depth. || text || 
 |-
 | '''unit'''<br /><small>(Type ID 3)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
 |-
-| '''Qualifier measure 3'''<br /><small>(Qualifier ID 3; QualifierID 3)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Qualifier measure 3'''<br /><small>(Qualifier ID 3; QualifierID 3)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Unit'''<br /><small>(OPENCR_UnitID1; Unit ID)</small> || Unit of all values in this entry, for example cm. || list<br />'''required''' || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |-
 | '''Meas. extent'''<br /><small>(Extend ID)</small> || What was measured: image, sheet, plate, frame and so on. || list || 45 entries, see [[Field reference/Base tables#Measurement extents|Measurement extents]]
 |-
-| '''Qualifier global meas.'''<br /><small>(Qualifier measure 1; Qualifier ID)</small> || A qualifier for the measurement as a whole, for example sight size or framed. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Qualifier global meas.'''<br /><small>(Qualifier measure 1; Qualifier ID)</small> || A qualifier for the measurement as a whole, for example sight size or framed. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''By user''' || The editor who recorded the measurement. || link to a user || 
 |-
-| '''Data Source Type ID'''<br /><small>(Data source type)</small> || The specific source the measurement comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
+| '''Data Source Type ID'''<br /><small>(Data source type)</small> || The kind of source the measurement comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
 |-
 | '''Data Source ID'''<br /><small>(ID data source)</small> || The specific source the measurement comes from. || number || 
 |}
@@ -187,17 +187,17 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Print edition'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a print edition || 
+| '''Edition'''<br /><small>(not in the forms)</small> || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
 |-
-| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a sculpture edition || 
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
 |-
-| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a part of the artwork || 
+| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
-| '''Object / Edition / Sculpture edition / Part / Edition repository'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || number || 
+| '''Copy'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || number || 
 |-
-| '''Attribute'''<br /><small>(Attribute ID)</small> || The kind of mark: signed, dated, numbered, stamped, monogrammed, watermark and many more. || list<br />'''required''' || 46 entries, see [[Field reference/Base tables#Attributes|Attributes]]
+| '''Attribute'''<br /><small>(Attribute ID)</small> || The kind of mark: signed, dated, numbered, stamped, monogrammed, watermark and many more. || list<br />'''required''' || 46 entries, see [[Field reference/Base tables#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]]
 |-
-| '''Location'''<br /><small>(Location ID)</small> || Where on the work the mark is: front or back, in a grid of positions, corners and borders. || list || 35 entries, see [[Field reference/Base tables#Locations|Locations]]
+| '''Location'''<br /><small>(Location ID)</small> || Where on the work the mark is: front or back, in a grid of positions, corners and borders. || list || 35 entries, see [[Field reference/Base tables#Positions on the work|Positions on the work]]
 |-
 | '''OPENCR_AttributeText'''<br /><small>(Attribute Text)</small> || The transcription of the mark, or a description of it. || text || 
 |}
@@ -268,11 +268,11 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Position''' || Order of the editions. || number || 
 |-
-| '''Editin type''' || The kind of edition or proof: regular edition, artist's proof (A.P., E.A.), hors commerce (H.C.), printer's proof (P.P.), bon à tirer and so on, in the spelling used on the prints. || list || 53 entries, see [[Field reference/Base tables#Edition proof types|Edition proof types]]
+| '''Editin type''' || The kind of edition or proof: regular edition, artist's proof (A.P., E.A.), hors commerce (H.C.), printer's proof (P.P.), bon à tirer and so on, in the spelling used on the prints. || list || 53 entries, see [[Field reference/Base tables#Edition types|Edition types]]
 |-
 | '''Number impressions''' || Number of impressions in this edition. || number || 
 |-
-| '''OPENCR_NumberImpressionsValueIs''' || How certain the number of impressions is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''OPENCR_NumberImpressionsValueIs''' || How certain the number of impressions is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Nunbered ?''' || Tick if the impressions are numbered individually. || tick box || 
 |-
@@ -286,7 +286,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Paper''' || The paper of this edition, if different from the artwork's. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
-| '''Watermark''' || The watermark of this edition's paper. || list || 46 entries, see [[Field reference/Base tables#Print paper watermarks|Print paper watermarks]]
+| '''Watermark''' || The watermark of this edition's paper. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
 |}
 
 == Sculpture editions ==
@@ -299,13 +299,13 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Edition order''' || Order label of this edition among the casts. || text || 
 |-
-| '''Edition Proof Type ID''' || The kind of edition or proof, for example artist's proof. || list || 53 entries, see [[Field reference/Base tables#Edition proof types|Edition proof types]]
+| '''Edition Proof Type ID''' || The kind of edition or proof, for example artist's proof. || list || 53 entries, see [[Field reference/Base tables#Edition types|Edition types]]
 |-
 | '''Edition mark''' || Marks or stamps that identify this edition. || text || 
 |-
 | '''Number Casts''' || Number of casts in this edition. || number || 
 |-
-| '''Number Casts Value Is''' || How certain the number of casts is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Number Casts Value Is''' || How certain the number of casts is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Is Numbered''' || Tick if the casts are numbered individually. || tick box || 
 |-
@@ -372,21 +372,21 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Contact''' || The owner. || link to a directory entry || 
 |-
-| '''From day''' || Start of the ownership, as far as known. || number || 
+| '''From day''' || Start of the ownership, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''From MOnth''' || Start of the ownership, as far as known. || number || 
 |-
 | '''From year''' || Start of the ownership, as far as known. || number || 
 |-
-| '''From Date Qualifier'''<br /><small>(Qualifier for start date)</small> || How certain the start date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''From Date Qualifier'''<br /><small>(Qualifier for start date)</small> || How certain the start date is. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
-| '''Until (day)''' || End of the ownership, as far as known. || number || 
+| '''Until (day)''' || End of the ownership, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Until (month)''' || End of the ownership, as far as known. || number || 
 |-
 | '''Until (year)''' || End of the ownership, as far as known. || number || 
 |-
-| '''To Date Qualifier'''<br /><small>(Qualifier for end date)</small> || How certain the end date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''To Date Qualifier'''<br /><small>(Qualifier for end date)</small> || How certain the end date is. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''Public''' || Tick to publish this entry. Publish ownership only with the owner's consent. || tick box || 
 |}
@@ -399,7 +399,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Transaction Type ID''' || The kind of sale. || list || sale by artist, sale at exhibition/art fair, private sale, auction (floor), auction (internet), Gallery sale, Sale by publisher
 |-
-| '''Day''' || Date of the sale. || number || 
+| '''Day''' || Date of the sale. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Month''' || Date of the sale. || number || 
 |-
@@ -451,13 +451,13 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Print edition'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+| '''Edition'''<br /><small>(not in the forms)</small> || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
 |-
-| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
 |-
-| '''Part of the artwork'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
-| '''Language'''<br /><small>(Language ID)</small> || Language of the note; one entry per language. || list<br />'''required''' || 113 entries, see [[Field reference/Base tables#Languages|Languages]]
+| '''Language'''<br /><small>(Language ID)</small> || Language of the note; one entry per language. || list<br />'''required''' || German, English, French, Italian, Spanish
 |-
 | '''Description''' || Heading of the note, for example "Inscription". || text || 
 |-
@@ -479,28 +479,28 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Related object''' || The other artwork. || link to an artwork<br />'''required''' || 
 |-
-| '''Relation type''' || How the two works are related, seen from this work: is study of, version is and so on. See the Relations page. || list<br />'''required''' || 37 entries, see [[Field reference/Base tables#Object relation types|Object relation types]]
+| '''Relation type''' || How the two works are related, seen from this work: is study of, version is and so on. See the Relations page. || list<br />'''required''' || 37 entries, see [[Field reference/Base tables#Artwork relation types|Artwork relation types]]
 |}
 
 == Objects Actions ==
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''EditionID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a print edition || 
+| '''EditionID''' || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
 |-
-| '''Sculpture Edition ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+| '''Sculpture Edition ID''' || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
 |-
 | '''Part ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
 | '''Date Eventype'''<br /><small>(Date Event Type ID; Event type)</small> || The kind of event: finished, printed, signed, exhibited, restored and so on. || list || Finished, Bon A Tire (BAT), Printed, Plate created, Drafted, Crafted, Issued, Happened, Realized, Produced, Shown, Exhibited, Published, Met, Destroyed, Put on sale, Signed, Altered, Broadcast, Commissioned, Discovered, Performed, Restored, Designed, Viewed, Other, Plate destroyed
 |-
-| '''Begin date (day)'''<br /><small>(From (day); Begin Date Day)</small> || Start date, as far as known. || number || 
+| '''Begin date (day)'''<br /><small>(From (day); Begin Date Day)</small> || Start date, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Begin date (month)'''<br /><small>(From (month); Begin Date Month)</small> || Start date, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Begin date (year)'''<br /><small>(From (year); Begin Date Year)</small> || Start date, as far as known. || number || 
 |-
-| '''Qualifier for start date'''<br /><small>(Begin Date Qualifier)</small> || How certain the start date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Qualifier for start date'''<br /><small>(Begin Date Qualifier)</small> || How certain the start date is. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''End date (day)'''<br /><small>(Until date (day); End Date Day)</small> || End date; the same as the start date for a single day. || number || 
 |-
@@ -508,7 +508,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''End date (year)'''<br /><small>(Until date (year); End Date Year)</small> || End date; the same as the start date for a single day. || number<br />'''required''' || 
 |-
-| '''Qualifier for end date'''<br /><small>(End Date Qualifier)</small> || How certain the end date is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, earliest, after, before, at latest, few, visible, unverified, unlimited, in part
+| '''Qualifier for end date'''<br /><small>(End Date Qualifier)</small> || How certain the end date is. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''City''' || City where it took place. || text || 
 |-
@@ -521,6 +521,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 
 == See also ==
 * [[Objects]]: how the objects forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
 * [[Field reference]]
 
 {{Editor guide}}

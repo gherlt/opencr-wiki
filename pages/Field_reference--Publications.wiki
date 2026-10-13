@@ -1,0 +1,138 @@
+{{Draft}}
+Every field of the [[Publications]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Main form ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné, letter and so on. Visitors can filter the bibliography by it. || list || 35 entries, see [[Field reference/Base tables#Publication types|Publication types]]
+|-
+| '''Public''' || Tick to publish the publication. || tick box || 
+|-
+| '''Title''' || Title of the publication; for an article, the title of the article. || text || 
+|-
+| '''Subtitle''' || Subtitle. || text || 
+|-
+| '''Publication''' || For an article or contribution: the magazine, newspaper or book it appears in. Empty for a stand-alone book. || text || 
+|-
+| '''Series''' || The series the publication belongs to. || text || 
+|-
+| '''Alias''' || Short name shown in every list where the publication can be picked; the lists are sorted by it. Use a consistent pattern, such as author and year. || text || 
+|-
+| '''Abbreviation''' || Short form for footnotes, if the catalogue uses one. || text || 
+|-
+| '''Publication date (day)''' || Day of publication, if known. || number || 
+|-
+| '''Publication month''' || Month of publication, if known. Leave it empty when unknown; never use January as a placeholder. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Year of publication''' || Year of publication. || number || 
+|-
+| '''Publication city''' || Place of publication. || text || 
+|-
+| '''Published in country''' || Country of publication. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Number Copies''' || Print run, if known. || number || 
+|-
+| '''Volume''' || Volume number, for a work in several volumes. || number || 
+|-
+| '''Total Volumes''' || Number of volumes of the whole work. || number || 
+|-
+| '''Number Pages''' || Number of pages. || number || 
+|-
+| '''Page''' || For an extract: its page or pages. || text || 
+|-
+| '''Illustration''' || For an extract: the number of the figure or plate. || text || 
+|-
+| '''Coloured ?''' || For an extract: tick if the illustration is in colour. || tick box || 
+|-
+| '''Reference''' || A citation key or reference code. Searchable. || text || 
+|-
+| '''Comments''' || Internal notes for editors. Not published. || text || 
+|-
+| '''ISBN (books)''' || ISBN of a book. || text || 
+|-
+| '''ISSN (magazines)''' || ISSN of a magazine or series. || text || 
+|-
+| '''Link''' || Web address of the publication or of its record, for example in a library. || text || 
+|}
+
+== Publications Agents ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Agent'''<br /><small>(Agent ID)</small> || The contributor, as a directory entry. || link to a directory entry || 
+|-
+| '''Activity ID'''<br /><small>(Activity)</small> || The contributor's role. The byline shows only authors and editors, so record those roles as such. || list<br />'''required''' || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+|-
+| '''Publication Part ID'''<br /><small>(Part)</small> || The part the contributor wrote, such as an essay, the introduction or the preface. Leave empty when the role applies to the whole publication. || list || Essay, Introduction, Prologue, Epigraph, Text, Epilogue, Afterword, Conclusion, Preface
+|-
+| '''Publication Part Name''' || Name of the part, when it does not fit the list. || text || 
+|}
+
+== Featured artists ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist ID'''<br /><small>(Artist)</small> || An artist the publication is about. Only artists listed here get the publication in their bibliography. || link to an artist || 
+|-
+| '''Use In Web'''<br /><small>(For use in web)</small> || Tick to show the publication in the artist's bibliography on the website. || tick box || 
+|-
+| '''Use In CR'''<br /><small>(For use in CR)</small> || Tick to include the publication in the artist's printed catalogue raisonné. || tick box || 
+|-
+| '''Use As Ref CR''' || Tick if the publication is one of the authoritative references of the catalogue raisonné. || tick box || 
+|}
+
+== Publications Artist References ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist ID''' || The artist discussed on these pages. || link to an artist<br />'''required''' || 
+|-
+| '''Page''' || Page or pages where the artist is discussed. || text || 
+|-
+| '''Illustration''' || Figure or plate number, if it is an illustration. || text || 
+|-
+| '''Reference''' || A citation key for this passage. || text || 
+|-
+| '''Comment''' || Further detail. || text || 
+|}
+
+== Related events ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Event'''<br /><small>(EventID)</small> || An event the publication documents, such as the exhibition of an exhibition catalogue. || link to an event || 
+|-
+| '''Page''' || Page or pages about the event. || text || 
+|-
+| '''Illustration''' || Figure or plate number of an illustration of the event. || text || 
+|-
+| '''Reference''' || A citation key for this entry. || text || 
+|-
+| '''Comments'''<br /><small>(Comment)</small> || Further detail. || text || 
+|}
+
+== Used languages ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language'''<br /><small>(LanguageID)</small> || A language the publication is written in. || list || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
+|}
+
+== Publications Relations ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Publication IDrelated'''<br /><small>(PublicationIDrelated)</small> || The other publication. || link to a publication<br />'''required''' || 
+|-
+| '''Relation Type ID'''<br /><small>(RelationTypeID)</small> || How the two publications are related, seen from this publication. Enter each link only once. || list<br />'''required''' || is part of, is copy of, is related to, is a version of, is similar to, is based on, is preparatory for, derived from, facsimile of
+|}
+
+== See also ==
+* [[Publications]]: how the publications forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

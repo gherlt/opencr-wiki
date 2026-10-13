@@ -53,8 +53,11 @@ def main(columns_path, fks_path, config_path):
         if text:
             names = {c["COLUMN_NAME"].lower(): c["COLUMN_NAME"] for c in cols[text]}
             text_key = names.get(key.lower())
-            text_lang = names.get("languageid")
-            text_label = label_col(text, {key.lower(), "languageid", "id"})
+            # the language column: usually LanguageID, but where that is the key
+            # itself (the languages table), another column naming a language
+            text_lang = next((names[n] for n in names if "lang" in n and n != key.lower()
+                              and n in ("languageid", "translationlangid")), None)
+            text_label = label_col(text, {key.lower(), "id"} | ({text_lang.lower()} if text_lang else set()))
         label_expr = f"CONVERT(b.`{base_label}` USING utf8mb4)" if base_label else "NULL"
         join = ""
         if text and text_key and text_lang and text_label:

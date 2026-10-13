@@ -7,17 +7,17 @@ The field reference explains every field of every form in openCR: what it means,
 |-
 | '''[[Field reference/Objects|Objects]]''' || The artwork form and all its sections, from titles and measurements to provenance and exhibitions
 |-
-| [[Field reference/Artists|Artists]] || ''coming soon''
+| '''[[Field reference/Artists|Artists]]''' || The artist form: names, life dates, address, catalogue settings, biographies, alternative names, contacts, relations, collections, tags, languages, categories and object templates
 |-
-| [[Field reference/Publications|Publications]] || ''coming soon''
+| '''[[Field reference/Publications|Publications]]''' || The publication form: bibliographic data, contributors, featured artists, related events, languages and related publications
 |-
-| [[Field reference/Events|Events]] || ''coming soon''
+| '''[[Field reference/Events|Events]]''' || The event form: names and descriptions, locations and dates, participating artists and directory entries, exhibited artworks
 |-
-| [[Field reference/Directory|Directory]] || ''coming soon''
+| '''[[Field reference/Directory|Directory]]''' || The directory form: names, privacy settings, activities, addresses, contacts, relations and catalogues
 |-
-| [[Field reference/Dealers and offers|Dealers and offers]] || ''coming soon''
+| '''[[Field reference/Dealers and offers|Dealers and offers]]''' || The dealer and offer pages: dealers, clearances, offers and their texts
 |-
-| [[Field reference/Base tables|Base tables]] || ''coming soon'': the shared lists behind the dropdowns, such as object types, materials, qualifiers and countries
+| '''[[Field reference/Base tables|Base tables]]''' || The shared lists behind the dropdowns, such as object types, materials, qualifiers and countries, with all their entries
 |}
 
 == How to read it ==

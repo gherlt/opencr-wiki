@@ -1,0 +1,105 @@
+{{Draft}}
+Every field of the [[Events]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Main form ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist'''<br /><small>(not in the forms)</small> || The artist the event was created for. Set automatically from the artist's catalogue. || link to an artist || 
+|-
+| '''DirectoryID'''<br /><small>(not in the forms)</small> || An institution connected with the event. Not shown in the forms; record participants in Events Agents. || number || 
+|-
+| '''Event type'''<br /><small>(Event Type ID)</small> || The kind of event: solo or group exhibition, fair, award, lecture, birth, move and so on. Decides which sections make sense. || list || 63 entries, see [[Field reference/Base tables#Event types|Event types]]
+|-
+| '''Public''' || Tick to publish the event. || tick box || 
+|-
+| '''Event name'''<br /><small>(Event Name)</small> || Name of the event. Used in every language for which the Event description has no name of its own. || text || 
+|-
+| '''Alias''' || Short name shown in every list where the event can be picked. Use a consistent pattern, such as place and year. || text<br />'''required''' || 
+|-
+| '''Reference''' || A citation key or reference code. || text || 
+|}
+
+== Event description ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || Language of the name and description; one entry per language. || list<br />'''required''' || German, English, French, Italian, Spanish
+|-
+| '''Event Name'''<br /><small>(Event name)</small> || Name of the event in this language. Replaces the main Event name in this language. || text<br />'''required''' || 
+|-
+| '''Description'''<br /><small>(Event description)</small> || Description of the event in this language. || long text || 
+|}
+
+== Locations ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Location''' || The venue, for example a museum or gallery. || text || 
+|-
+| '''City''' || City of the venue. || text || 
+|-
+| '''Country''' || Country of the venue. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''From (day)''' || Day the event at this venue began, if known. || number || 
+|-
+| '''From (month)''' || Month the event at this venue began, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''From (year)''' || Year the event at this venue began. || number || 
+|-
+| '''Qualifier for start date''' || How certain the start date is, for example approximate, before or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Until date (day)''' || Day the event at this venue ended, if known. || number || 
+|-
+| '''Until date (month)''' || Month the event at this venue ended, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Until date (year)''' || Year the event at this venue ended. || number || 
+|-
+| '''Qualifier for end date''' || How certain the end date is, for example approximate, before or at latest. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Duration''' || For events measured in time rather than dates: how long the event lasted. || number || 
+|-
+| '''Time unit''' || Unit of the duration, such as min. or h. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+|}
+
+== Events Artists ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''ArtistID'''<br /><small>(Artist)</small> || An artist who took part. || link to an artist || 
+|-
+| '''RelationID'''<br /><small>(Relation type)</small> || The artist's role, for example exhibiting artist, invited artist, author or recipient of an award. || list || Relation, Exhibiting artist, Inspired, Guest, Organizer, Sponsor, Promoter, Doer, Author, Co-Author, Helper, Receives award, Participant, Invited artist, Curator, Moderator, Is honored, Lender
+|}
+
+== Events Agents ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''DirectoryID'''<br /><small>(Contact)</small> || A person or institution involved, as a directory entry. || link to a directory entry || 
+|-
+| '''RelationID'''<br /><small>(Relation type)</small> || Their role, for example organiser, curator, exhibiting gallery, sponsor or lender. || list<br />'''required''' || Relation, Inspired, Guest, Organizer, Sponsor, Promoter, Doer, Participant, Curator, Moderator, Exhibiting gallery, Lender
+|-
+| '''EventLocationID'''<br /><small>(not in the forms)</small> || For a touring exhibition: the one venue the role applies to. Leave empty for the whole event. || link to a location of the event || 
+|}
+
+== Exhibited objects ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Object''' || The artwork shown. || link to an artwork || 
+|-
+| '''Reference''' || Catalogue or lot number, or the label used at the exhibition. || text || 
+|-
+| '''Lender''' || Who lent the work. || link to a directory entry || 
+|-
+| '''used title''' || Title under which the work was shown, if different from its main title. || text || 
+|}
+
+== See also ==
+* [[Events]]: how the events forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

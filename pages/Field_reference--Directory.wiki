@@ -1,0 +1,141 @@
+{{Draft}}
+Every field of the [[Directory]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Main form ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Public''' || Tick to publish the entry. || tick box || 
+|-
+| '''TypeOfID''' || Person, private organization or public organization. || list<br />'''required''' || Person, Private organization, Public organization
+|-
+| '''Name 1''' || For a person: the first name. For an organisation: the full name. || text || 
+|-
+| '''Name 2''' || For a person: the surname. Empty for an organisation. || text || 
+|-
+| '''Alias''' || Short name shown in every list where the entry can be picked, and the directory is picked everywhere. Make it unique and recognisable. || text<br />'''required''' || 
+|-
+| '''Comments''' || Internal notes for editors. Not published. || long text || 
+|-
+| '''Piravte collection''' || Tick to keep the entry out of artists' lists of collections holding their works. || tick box || 
+|-
+| '''Provenance: private ?''' || Tick to keep the entry out of the ownership histories of all artworks. || tick box || 
+|-
+| '''transactions: private ?''' || Tick to keep the entry out of the sales records of all artworks. || tick box || 
+|-
+| '''Limited To Artist ID''' || Restricts the entry to one artist's catalogue; it is then invisible to all others. Use sparingly. || link to an artist || 
+|}
+
+== Activities ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Activity'''<br /><small>(ActivityID)</small> || What the person or institution does: gallery, publisher, photographer, curator and so on. Several activities are possible. || list || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+|-
+| '''Comments'''<br /><small>(Comment)</small> || Further detail, such as a period or the exact role. || text || 
+|}
+
+== Directory Addresses ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Address Type ID''' || The kind of address: legal address, mailing address, residence, studio, office, showroom, workshop or storage. || list || Legal address, Mailing / Correspondence, Residence, Studio / Atelier, Office / Administration, Exhibition space / Showroom, Workshop / Production, Storage / Depot
+|-
+| '''Address Line1''' || First address line. || text || 
+|-
+| '''Address Line2''' || Second address line. || text || 
+|-
+| '''Address Street''' || Street and number. || text || 
+|-
+| '''Address City''' || City. || text || 
+|-
+| '''Address ZIP''' || Postal code. || text || 
+|-
+| '''Address State''' || State, province or region. || text || 
+|-
+| '''Address Country ID''' || Country. || text || 
+|-
+| '''Date From Day''' || Day from which the address was valid, if known. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date From Month''' || Month from which the address was valid, if known. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date From Year''' || Year from which the address was valid. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date From Qualifier''' || How certain the start date is, for example approximate, before or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date To Day''' || Day up to which the address was valid, if known. || number || 
+|-
+| '''Date To Month''' || Month up to which the address was valid, if known. || number || 
+|-
+| '''Date To Year''' || Year up to which the address was valid. || number || 
+|-
+| '''Date To Qualifier''' || How certain the end date is, for example approximate, before or at latest. || number || 
+|-
+| '''Date Note''' || A note on the dates, when they are too vague to enter, for example "in the 1950s". || text || 
+|-
+| '''Is Primary''' || Tick for the main address. Lists of directory entries show the city and country of this address, so mark exactly one. || tick box || 
+|-
+| '''Is Valid''' || Tick if the address is still current. || tick box || 
+|-
+| '''Public''' || Tick to publish this address. || tick box || 
+|-
+| '''Source ID''' || Where the address comes from. || link to a source || 
+|-
+| '''Comment''' || Further detail. || long text || 
+|}
+
+== Contact inform. ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Public''' || Tick to publish this contact detail. || tick box || 
+|-
+| '''Communication types'''<br /><small>(CommType)</small> || The kind of contact: phone, email, website, social media and so on. || list || Phone, Fax, Email, Web, Mobile, Skype, IM, Twitter, Other, Facebook
+|-
+| '''value/ID'''<br /><small>(CommValue)</small> || The phone number, email address, web address or account name. || text<br />'''required''' || 
+|}
+
+== Directory Relations ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''To Directory ID'''<br /><small>(ToDirectoryID)</small> || The other directory entry. || link to a directory entry<br />'''required''' || 
+|-
+| '''Relation Type ID'''<br /><small>(RelationTypeID)</small> || How the two are related, seen from this entry: works for, is member of, is teacher of and so on. Enter each relation only once. || list<br />'''required''' || has met, is teacher of, is student of, is related (family), is related (abstract), is related (emotional), is successor of, is predecessor of, has taken over, has absorbed, is sibling of, is sponsor of, is owner of, is member of, is child of, works for, is founder of, is funder of, knows, is colleague of
+|-
+| '''Date From Day''' || Day the relation began, if known. || number || 
+|-
+| '''Date From Month''' || Month the relation began, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Date From Year''' || Year the relation began. || number || 
+|-
+| '''Date From Qualifier''' || How certain the start date is, for example approximate, before or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date To Day''' || Day the relation ended, if known. || number || 
+|-
+| '''Date To Month''' || Month the relation ended, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Date To Year''' || Year the relation ended. || number || 
+|-
+| '''Date To Qualifier''' || How certain the end date is, for example approximate, before or at latest. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Source ID''' || Where the relation is documented. || link to a source || 
+|-
+| '''Public''' || Tick to publish this relation. || tick box || 
+|}
+
+== Directory Artists ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist ID''' || An artist's catalogue in which the entry is used. A visibility setting, not a relationship: relations to an artist are recorded in the artist's Relations. || link to an artist || 
+|}
+
+== See also ==
+* [[Directory]]: how the directory forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

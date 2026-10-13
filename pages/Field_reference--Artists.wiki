@@ -1,0 +1,237 @@
+{{Draft}}
+Every field of the [[Artists]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Main form ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Last name''' || The artist's surname as used in the catalogue. || text || 
+|-
+| '''First name''' || The artist's first name or names as used in the catalogue. || text || 
+|-
+| '''Alias''' || Short name of the artist shown in lists and dropdowns. Choose it once and keep it. Other names of the artist go into the alternative names. || text || 
+|-
+| '''Gender''' || The artist's gender. || list<br />'''required''' || female, male, other, trans to female, trans to male, hermaphrodite, undecided, not known, not applicable
+|-
+| '''Nationality''' || The artist's nationality. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Address Line1''' || First line of the artist's postal address. Published only if Is Address Public is ticked. || text || 
+|-
+| '''Address Line2''' || Second line of the postal address. || text || 
+|-
+| '''Address Street''' || Street and number. || text || 
+|-
+| '''Address City''' || City of the postal address. || text || 
+|-
+| '''Address ZIP''' || Postal code. || text || 
+|-
+| '''Address State''' || State, province or region. || text || 
+|-
+| '''Address Country ID''' || Country of the postal address. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Born in City''' || Place of birth. || text || 
+|-
+| '''Bonr in country''' || Country of birth. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Day of birthdate''' || Day of birth, if known. || number || 
+|-
+| '''Month of birthdate''' || Month of birth, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Year of birthdate''' || Year of birth. || number || 
+|-
+| '''Qualifier birth date''' || How certain the date of birth is, for example approximate or before. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Died in city''' || Place of death. Leave empty for a living artist. || text || 
+|-
+| '''Died in country''' || Country of death. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Day of deathdate''' || Day of death, if known. || number || 
+|-
+| '''Month of deathdate''' || Month of death, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
+|-
+| '''Year of deathdate''' || Year of death. || number || 
+|-
+| '''OPENCR_DiedDateQualifier''' || How certain the date of death is, for example approximate or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Default language''' || The main language of the artist's catalogue. || list || German, English, French, Italian, Spanish
+|-
+| '''CR web publicationstates''' || Workflow code for publishing scripts. Leave it at its default unless your project has agreed on values. || number || 
+|-
+| '''CROffline Publication State ID''' || Workflow code for the printed catalogue. Leave it at its default unless your project has agreed on values. || number || 
+|-
+| '''Is Address Public''' || Tick to publish the postal address. Independent of Public, so a published artist can keep the address private. || tick box || 
+|-
+| '''Images directory'''<br /><small>(not in the forms)</small> || The folder for the artist's image files, set up when the artist is created. Never renamed. || text || 
+|-
+| '''Is member of Collecting Society''' || Tick if the artist's rights are managed by a collecting society, such as VG Bild-Kunst or SIAE. || tick box || 
+|-
+| '''Collecting Society''' || The collecting society, as a directory entry. || link to a directory entry || 
+|-
+| '''Public''' || Tick to publish the artist. As long as it is unticked, only editors see the artist. || tick box || 
+|}
+
+== Biographies ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || Language of the biography; one entry per language and type. || list || German, English, French, Italian, Spanish
+|-
+| '''Biography text''' || The text of the biography. Simple formatting is possible; keep it plain. || long text || 
+|-
+| '''Biography type''' || "Live" for the life biography (vita), "Art" for the art-historical biography. || list || Live, Art
+|}
+
+== Alternative names ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Public''' || Tick to publish this name. || tick box || 
+|-
+| '''Alias''' || The alternative name. || text<br />'''required''' || 
+|-
+| '''Alias Category ID''' || The kind of name: translated, pseudonym, a spelling used by the artist, or one used by others. || list<br />'''required''' || Translated, Pseudonym, Alternative (by artist), Alternative (by 3rd parties)
+|-
+| '''Source ID''' || Where the name was found, as a directory entry. || link to a source || 
+|}
+
+== Communications ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Communication types'''<br /><small>(CommType)</small> || The kind of contact: phone, email, website, social media and so on. || list || Phone, Fax, Email, Web, Mobile, Skype, IM, Twitter, Other, Facebook
+|-
+| '''value/ID'''<br /><small>(CommValue)</small> || The phone number, email address, web address or account name. || text || 
+|-
+| '''Public''' || Tick to publish this contact detail. || tick box || 
+|}
+
+== Relations ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Contact'''<br /><small>(DirectoryID)</small> || The person or institution. || link to a directory entry || 
+|-
+| '''Public''' || Tick to publish this relation. || tick box || 
+|-
+| '''Art Dir Rel Type ID''' || How the person or institution relates to the artist: gallerist, publisher, collector, friend, mentor, family, heir and others. || list || Publisher, Gallerist, Family, Descendant, Collector, Friend, Mentor, Disciple, Owner, Employee, Parent, Family (close), Lover, Customer, Commissioner, Consort/Partner, Representative, Patron, Gallerist (coop.), Heir, has public collection, Cataloguer
+|-
+| '''Event ID''' || An event connected with the relation, if any. || link to an event || 
+|}
+
+== Collections ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Contact'''<br /><small>(DirectoryID)</small> || The institution or collection that holds works by the artist. || link to a directory entry || 
+|-
+| '''Position'''<br /><small>(SortOrder)</small> || Order in the artist's list of collections. || number || 
+|-
+| '''Public''' || Tick to publish this entry. || tick box || 
+|}
+
+== Tags ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Tag''' || Internal name of the tag, for editors. The labels visitors see are entered per language under the tag's labels. || text || 
+|-
+| '''Tag Type ID'''<br /><small>(OPENCR_TagTypeID1)</small> || The kind of tag: art epoch, style, period, topic or location. || list<br />'''required''' || Art epoch, Style, Period, Topic, Location
+|-
+| '''Year From''' || First year the tag applies to, for periods and epochs. Leave empty otherwise. || number || 
+|-
+| '''Year Upto''' || Last year the tag applies to. || number || 
+|-
+| '''ID Type''' || Used by imports. Leave empty for tags created in openCR. || text || 
+|}
+
+== Tag labels ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language ID'''<br /><small>(Language)</small> || Language of the label. || list || German, English, French, Italian, Spanish
+|-
+| '''Tag Text'''<br /><small>(Tag name)</small> || The label of the tag as visitors see it in this language. || text || 
+|}
+
+== Selected Languages ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language'''<br /><small>(LanguageID)</small> || A language the artist's catalogue is meant to be published in. Records the plan; the texts in each language still have to be written. || list || German, English, French, Italian, Spanish
+|}
+
+== Definition of categories ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''ObjectTypeID''' || An object type used by the artist. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+|-
+| '''CategoryID''' || A category offered for filtering the artist's works of that object type. || list<br />'''required''' || Painting, Print, Sculpture, Sketch, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Print (Lithography), Print (Etching), Print (Serigraphy), Print (Linocut), Print (Woodcut), Multiple
+|}
+
+== Object Templates ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Template Name''' || Name of the template, for example "Etching on Arches 300 g". || text<br />'''required''' || 
+|-
+| '''Object Type ID''' || The object type the template is for. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+|-
+| '''Print Paper ID''' || Default paper for prints. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+|-
+| '''Print Watermark ID''' || Default watermark for prints. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
+|-
+| '''Print Paperweight''' || Default paper weight in grams per square metre. || number || 
+|-
+| '''Print Number Plates''' || Default number of plates, stones or blocks. || number || 
+|-
+| '''Print Number Colors''' || Default number of colours. || number || 
+|-
+| '''Print Tirage''' || Default print run. || text || 
+|-
+| '''Print Tirage Qualifier ID''' || Default qualifier of the print run. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
+|-
+| '''Sculpture Material''' || Like the same field on the artwork: currently accepts only a number. || number || 
+|-
+| '''Sculpture Modelmaterial''' || Like the same field on the artwork: currently accepts only a number. || number || 
+|-
+| '''Sculpture Modelexists''' || Default for "model exists". || tick box || 
+|-
+| '''Sculpture Multiple''' || Default for "is multiple". || tick box || 
+|}
+
+== Components of a template ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Sort Order''' || Order of the components. || number<br />'''required''' || 
+|-
+| '''Component ID''' || A material, support or technique the template adds to new artworks. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
+|-
+| '''Quantity''' || How many. || number || 
+|-
+| '''Quantity Qualifier''' || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
+|-
+| '''Unit ID''' || Unit of the quantity. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+|-
+| '''Brand''' || Manufacturer or brand. || text || 
+|-
+| '''Country Of Origin ID''' || Country where the material was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Comment''' || Further detail. || text || 
+|-
+| '''Component Paper Type ID''' || If the component is paper: its type. || number || 
+|-
+| '''Component Paper Model''' || If the component is paper: its model or variety. || text || 
+|-
+| '''Component Paper Weight''' || If the component is paper: its weight in grams per square metre. || number || 
+|}
+
+== See also ==
+* [[Artists]]: how the artists forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

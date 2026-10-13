@@ -1,0 +1,79 @@
+{{Draft}}
+Every field of the [[Dealers and offers]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Dealers ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Login user''' || The openCR login of the dealer; one dealer per login. || link to a user<br />'''required''' || 
+|-
+| '''Directory record''' || The directory entry of the dealer, which is how visitors see the dealer; one dealer per directory entry. || link to a directory entry<br />'''required''' || 
+|-
+| '''Active''' || Tick while the dealer is active. Offers of an inactive dealer are not shown to visitors. || tick box || 
+|-
+| '''Active from (optional)''' || Start of the agreement with the dealer; the dealer's offers are shown only from this day. Leave empty for no limit. || date || 
+|-
+| '''Active to (optional)''' || End of the agreement with the dealer; the dealer's offers are shown only up to this day. Leave empty for no limit. || date || 
+|-
+| '''Monthly budget (optional)''' || Monthly budget for the dealer's adverts, if any. || number || 
+|-
+| '''Budget currency''' || Currency of the monthly budget. || list || Australian Dollar, Canadian Dollar, Swiss Franc, Euro, British Pound, Japanese Yen, US Dollar
+|}
+
+== Clearance ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Cleared to advertise these artists''' || An artist the dealer may create offers for. The clearance alone does not create an offer. || link to an artist || 
+|}
+
+== Offers ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Artist''' || The artist whose work is offered. Always required, also for dealers' offers. || link to an artist<br />'''required''' || 
+|-
+| '''Selling dealer (leave blank = artist sells own work)''' || The dealer who sells. Leave empty when the artist sells their own work. || link to a dealer || 
+|-
+| '''Work type''' || What is offered. Choose "Object" for an artwork; offers of other kinds are saved but currently not shown to visitors. || list || Artist, Directory, Event, Object Attribution, Object, ObjectPart, Print Edition, PhotoEdition, Object Repository, SculptureEdition, Publication
+|-
+| '''Work ID''' || The number of the work offered, for example the artwork's ID. || number || 
+|-
+| '''Reference / order no. (cross-reference)''' || The seller's own item or order number. || text || 
+|-
+| '''Price''' || The asking price. || number || 
+|-
+| '''Currency''' || Currency of the price. || list || Australian Dollar, Canadian Dollar, Swiss Franc, Euro, British Pound, Japanese Yen, US Dollar
+|-
+| '''Price on request''' || Tick to show "price on request" instead of the price. || tick box || 
+|-
+| '''Object condition''' || The condition of the offered work. || list || pristine, near pristine, very good, good, fair, poor, Very poor
+|-
+| '''Runs from (optional)''' || First day the offer is shown. Leave empty for no limit. || date || 
+|-
+| '''Runs to (optional)''' || Last day the offer is shown. Leave empty for no limit. || date || 
+|-
+| '''Default text''' || Text of the advert, used in every language without a text of its own. || text || 
+|-
+| '''Default URL''' || Link to the seller's own page about the offer, used in every language without a link of its own. || text || 
+|}
+
+== Offer texts per language ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || Language of this text. || list || German, English, French, Italian, Spanish
+|-
+| '''Text''' || Text of the advert in this language. || text || 
+|-
+| '''URL''' || Link for visitors reading in this language. || text || 
+|}
+
+== See also ==
+* [[Dealers and offers]]: how the dealers and offers forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

@@ -1,0 +1,1967 @@
+{{Draft}}
+Base tables are the shared lists behind the dropdowns of the forms: object types, materials, qualifiers, countries, languages, types of relations and many more. They are shared by all catalogues and translated into the interface languages; this page shows the English entries. Because a change affects every catalogue, new entries are best agreed with the platform administrator.
+
+Each list below names the fields that use it. Some fields offer only part of a list; the field reference of the form shows exactly which entries.
+
+== Overview ==
+* [[#Action types|Action types]] (27)
+* [[#Activities|Activities]] (87)
+* [[#Address types|Address types]] (8)
+* [[#Artist relation types|Artist relation types]] (22)
+* [[#Artwork relation types|Artwork relation types]] (37)
+* [[#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]] (46)
+* [[#Biography types|Biography types]] (2)
+* [[#Communication types|Communication types]] (10)
+* [[#Components (materials and techniques)|Components (materials and techniques)]] (333)
+* [[#Countries|Countries]] (265)
+* [[#Currencies|Currencies]] (7)
+* [[#Data source types|Data source types]] (10)
+* [[#Directory relation types|Directory relation types]] (20)
+* [[#Directory types|Directory types]] (3)
+* [[#Edition types|Edition types]] (53)
+* [[#Editorial status|Editorial status]] (5)
+* [[#Event roles|Event roles]] (19)
+* [[#Event types|Event types]] (63)
+* [[#Genders|Genders]] (9)
+* [[#Groupings|Groupings]] (5)
+* [[#Kinds of alternative names|Kinds of alternative names]] (4)
+* [[#Languages|Languages]] (109)
+* [[#Measurement extents|Measurement extents]] (45)
+* [[#Measurement types|Measurement types]] (21)
+* [[#Months|Months]] (12)
+* [[#Object categories|Object categories]] (20)
+* [[#Object conditions|Object conditions]] (7)
+* [[#Object types|Object types]] (25)
+* [[#Positions on the work|Positions on the work]] (35)
+* [[#Print papers|Print papers]] (119)
+* [[#Publication parts|Publication parts]] (9)
+* [[#Publication relation types|Publication relation types]] (9)
+* [[#Publication types|Publication types]] (35)
+* [[#Qualifiers|Qualifiers]] (29)
+* [[#Record kinds|Record kinds]] (11)
+* [[#Record types|Record types]] (3)
+* [[#Tag types|Tag types]] (5)
+* [[#Title qualifiers|Title qualifiers]] (10)
+* [[#Transaction types|Transaction types]] (7)
+* [[#Units|Units]] (21)
+* [[#Watermarks|Watermarks]] (46)
+
+== Action types ==
+'''Used in:''' [[Field reference/Objects#Objects Actions|Objects → Objects Actions]]: ''Date Eventype''.
+
+27 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Finished
+* Bon A Tire (BAT)
+* Printed
+* Plate created
+* Drafted
+* Crafted
+* Issued
+* Happened
+* Realized
+* Produced
+* Shown
+* Exhibited
+* Published
+* Met
+* Destroyed
+* Put on sale
+* Signed
+* Altered
+* Broadcast
+* Commissioned
+* Discovered
+* Performed
+* Restored
+* Designed
+* Viewed
+* Other
+* Plate destroyed
+</div>
+
+== Activities ==
+'''Used in:''' [[Field reference/Objects#Agents|Objects → Agents]]: ''ActivityID''; [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Activity ID''; [[Field reference/Directory#Activities|Directory → Activities]]: ''Activity''.
+
+87 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Gallery
+* Printer
+* Publisher
+* Museum
+* Exhibition Hall
+* Fundation
+* Collector circle
+* Artist
+* Private Person
+* Public Institution
+* Association
+* Government
+* Bodies / institutions under public law
+* Private Company
+* Art dealer
+* Heir
+* Association
+* Family
+* Academy
+* University
+* Bank (public)
+* Bank (private)
+* Print Medium (Newspaper, Magazine, etc)
+* Writer
+* Journalist
+* Collector
+* Art critic
+* Auction house
+* Web site
+* Arts centre
+* Photographer
+* Author
+* Foundry
+* Commissioneer
+* Editor
+* Visit
+* collaborator
+* Lender
+* helper
+* Letterpress printer
+* art club
+* Translator
+* Collecting society
+* School
+* Typography
+* Fair
+* Religious organization
+* Sponsor
+* Organizer
+* Printer workshop
+* Performer
+* Composer
+* Director
+* Producer
+* Presenter
+* Interviewer
+* Attorney
+* Agent
+* Curator
+* co-artist
+* co-author
+* Cultural Centre
+* Actor
+* Cinematographer
+* Compiler
+* Depicted
+* Filmmaker
+* Honoree
+* Host
+* Host institution
+* Illustrator
+* Musician
+* Narrator
+* Performer
+* Researcher
+* Rights holder
+* Screenwriter
+* Singer
+* Speaker
+* Copyright holder
+* Creator
+* Designer
+* Donor
+* Interviewee
+* Interviewer
+* Lyricist
+* Subject
+</div>
+
+== Address types ==
+'''Used in:''' [[Field reference/Directory#Directory Addresses|Directory → Directory Addresses]]: ''Address Type ID''.
+
+8 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Legal address
+* Mailing / Correspondence
+* Residence
+* Studio / Atelier
+* Office / Administration
+* Exhibition space / Showroom
+* Workshop / Production
+* Storage / Depot
+</div>
+
+== Artist relation types ==
+'''Used in:''' [[Field reference/Artists#Relations|Artists → Relations]]: ''Art Dir Rel Type ID''.
+
+22 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Publisher
+* Gallerist
+* Family
+* Descendant
+* Collector
+* Friend
+* Mentor
+* Disciple
+* Owner
+* Employee
+* Parent
+* Family (close)
+* Lover
+* Customer
+* Commissioner
+* Consort/Partner
+* Representative
+* Patron
+* Gallerist (coop.)
+* Heir
+* has public collection
+* Cataloguer
+</div>
+
+== Artwork relation types ==
+'''Used in:''' [[Field reference/Objects#Relation with other objects|Objects → Relation with other objects]]: ''Relation type''.
+
+Each link has a reverse wording, which the other artwork shows. The list contains both wordings, so a link can be entered on either work. See [[Relations]].
+
+37 entries:
+<div style="column-width:15em; column-gap:2em;">
+* is part of
+* is larger context for
+* is model of
+* model is
+* is study of
+* is study for rendering of
+* is copy of
+* is related to
+* Is version of
+* is similar to
+* was part of
+* was larger context of
+* is based on
+* is preparatory for
+* is plan of
+* plan is
+* is cartoon of
+* cartoon is
+* is printing plate for
+* printing plate is
+* study is
+* copy is
+* version is
+* study for rendering is
+* designed for
+* context is
+* pendant of
+* depicts
+* is depicted
+* derived from
+* source for
+* facsimile of
+* facsimile is
+* replica of
+* replica is
+* is based on
+* is base for
+</div>
+
+== Attributes (marks and inscriptions) ==
+'''Used in:''' [[Field reference/Objects#Object attributes|Objects → Object attributes]]: ''Attribute''.
+
+46 entries:
+<div style="column-width:15em; column-gap:2em;">
+* signed
+* titled
+* numbered (arabic)
+* dated
+* stamped
+* die stamp
+* numbered (roman)
+* numbered with letters
+* watermark
+* marked
+* numbered
+* written
+* bestowed
+* not signed
+* not numbered
+* hand signed in pencil
+* hand signed in ink
+* signed in the plate
+* stamped signature
+* posthumously - estate/heir stamp
+* posthumously - stamped signature
+* monogrammed in pencil
+* Monogrammed in ink
+* hand signed
+* hands
+* Avant la lettre
+* Numbered on plate
+* monogrammed
+* handcoloured
+* folded
+* unfolded
+* in colour
+* in black and white
+* monochrome
+* Not llimited
+* numbered on the certificate
+* posthumously - estate / heir signature
+* signed on the certificate
+* stamped on the certificate
+* dated on the certificate
+* Printed signature
+* on both sides
+* stamp numbered
+* destroyed
+* overpainted
+* label
+</div>
+
+== Biography types ==
+'''Used in:''' [[Field reference/Artists#Biographies|Artists → Biographies]]: ''Biography type''.
+
+2 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Live
+* Art
+</div>
+
+== Communication types ==
+'''Used in:''' [[Field reference/Artists#Communications|Artists → Communications]]: ''Communication types''; [[Field reference/Directory#Contact inform.|Directory → Contact inform.]]: ''Communication types''.
+
+10 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Phone
+* Fax
+* Email
+* Web
+* Mobile
+* Skype
+* IM
+* Twitter
+* Other
+* Facebook
+</div>
+
+== Components (materials and techniques) ==
+'''Used in:''' [[Field reference/Objects#Components|Objects → Components]]: ''Component''; [[Field reference/Artists#Components of a template|Artists → Components of a template]]: ''Component ID''.
+
+333 entries:
+<div style="column-width:15em; column-gap:2em;">
+* oil
+* acrylic
+* tempera
+* mixed media
+* enamel
+* on
+* in
+* canvas
+* glass
+* polycarbonate
+* over
+* wood
+* pencil
+* paper
+* glued to
+* with
+* primer
+* carton paper
+* photographic paper
+* ILUMINACION
+* copper
+* steel
+* iron
+* gypsum
+* Granite
+* copper
+* gold
+* ILUMINACION BY THE ARTIST
+* watercolor
+* gouache
+* cotton
+* asphalt
+* ballpoint pen
+* caoutchouc/rubber
+* ribbon
+* glue
+* collage
+* color
+* drawing
+* strings
+* graphite
+* metal mesh
+* matter
+* pastel
+* pigments
+* painting
+* pyrography
+* resin
+* dip pen
+* ink
+* triptych
+* diptych
+* indian ink
+* cloth/textile
+* cotton textile
+* steel mesh
+* hardboard (HDF)
+* plastic laminate
+* paper (handmade)
+* transparent acetate paper
+* fibre cement
+* plywood
+* asphalt emulsion
+* ink (diluted)
+* india ink (diluted)
+* watercolor (dliuted)
+* wash drawing
+* ink (sepia)
+* drawing (colored)
+* drawing (monochrome)
+* mineral paint
+* methacrylate
+* gold pigments
+* coal
+* color pencil
+* paper (recycled)
+* aquatint (one color)
+* aquatints in colors
+* Etching, aquatint (one color)
+* Etching, aquatint in colors
+* silkscreen (one color)
+* silkscreen in colors
+* engraving
+* etching in colors
+* lithograph in colors
+* etching (one color)
+* lithograph (one color)
+* print in colors
+* print (one color)
+* woodcut (one color)
+* woodcut in colors
+* linocut (one color)
+* drypoint (one color)
+* Multiple
+* Heliography
+* poster (one color)
+* color poster
+* offset (one color)
+* Photocopy
+* Photolithograph
+* Offset lithograph (one color)
+* Offset lithograph in colors
+* Offset in colors
+* linocut in colors
+* Other
+* copper plate
+* metal plate
+* aluminium plate
+* stone plate
+* wood plate
+* linoleum plate
+* copper
+* metal
+* aluminium
+* stone
+* linoleum
+* Zinc
+* Zinc plate
+* ,
+* (
+* )
+* medium density fibreboard (MDF)
+* of
+* wrapping paper
+* Formica®
+* Print, a la poupée
+* crayon / chalk
+* drawing (tecnical)
+* Airbrush
+* drawing (Architectural)
+* Blind stamping
+* digital print
+* Calligraphy
+* carborundum
+* ex libris
+* charcoal
+* composition
+* cut-out paper
+* monotype
+* polyptych
+* free text
+* soft ground (one color)
+* soft ground in colors
+* etching
+* soft ground
+* aquatint
+* lithograph
+* silkscreen
+* SANGUINE
+* Papier-mâché
+* etching by sugar
+* PLANTILLA DE PLÁSTICO
+* GRABADO AL AZÚCAR (UN COLOR)
+* GRABADO AL AZÚCAR (COLORES)
+* APAREJO
+* black paper
+* mounting board
+* white cardboard
+* burlap
+* sheet
+* drypoint
+* aquatint (soap)
+* aquatint (sugar-lift)
+* aquatint (resin)
+* aquatint (asphaltum/tar)
+* aquatint (varnish )
+* aquatint (spit-bite)
+* chine collé
+* or
+* and
+* template
+* plastic template
+* wood template
+* CDROM
+* box
+* specimen
+* piece
+* etching (eau-forte)
+* blind emboss
+* sugar
+* grattage
+* bas-relief
+* dry seal/blindstamp
+* book
+* suite
+* folder/portfolio
+* cloth
+* Flock
+* craquelure/craquelé
+* stone etching/lithogravure
+* die
+* monotype
+* offset
+* polymer emulsion
+* document
+* enhanced
+* revised
+* tabla
+* coloured writing ink
+* stencil
+* intaglio with burin
+* Mezzotint
+* cardboard relief print
+* Rhodoïd™
+* digital print
+* like
+* inking
+* wrapping paper
+* blotting paper
+* newsprint
+* silk paper
+* Marble powder
+* Braille text
+* Facsimile
+* reproduction
+* replica
+* photography
+* knife scrape
+* cut-out plate
+* tracing paper
+* paperboard
+* acetate paper
+* sketch
+* structure
+* frame
+* support
+* Patinated bronze
+* patina
+* x-ray plate
+* Sanguine
+* Pressboard
+* chipboard
+* crayon
+* corrugated fiberboard
+* Wood (cedar)
+* Sheet metal
+* Black Sand
+* sculpture
+* metal structure
+* mounted on
+* Terracotta
+* Light box
+* Soil
+* Polyester
+* Graphite pencil
+* wax crayon
+* rabbit-skin glue
+* chocolate
+* bottle
+* felt
+* Linen cloth
+* Text
+* ***Katalog-Kassette
+* ***Kassette
+* Woodbox
+* Film
+* sledge
+* belt
+* grease
+* Flashlight
+* magnetic tape
+* album
+* LP box
+* print
+* margarine
+* plastic sleeve
+* manual note
+* postcard
+* proof sheet
+* stamped
+* sewn
+* cassette recorder
+* adhesive tape
+* fishbone
+* parchment paper
+* stationery
+* label
+* wooden broom
+* silver plate
+* gauze
+* sulphur
+* zinc cliché
+* postal envelope
+* butter
+* wax
+* plastic box
+* tin can
+* boxing glove
+* blood sausage
+* rabbit blood
+* gelatine
+* construction paper
+* whiteprint
+* letterpress
+* magazine
+* briefcase
+* screwdriver
+* slate
+* cardboard box
+* plastic bag
+* wool
+* metal clamp
+* cast iron
+* graduated cylinder
+* photographic camera
+* PVC gold laminate
+* cut-out
+* long-playing record
+* by
+* match box
+* shoe polish
+* sugar sachet
+* toy train
+* flag
+* thread
+* violin
+* bank note
+* magnet
+* tea
+* mirror
+* index card
+* bowl
+* tea bag
+* band-aid pack
+* pancake bag
+* plastic
+* wire
+* ceramic
+* intaglio ink
+* background
+* gel pen
+* charcoal pencil
+* Varnish
+</div>
+
+== Countries ==
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]).
+
+265 entries:
+<div style="column-width:15em; column-gap:2em;">
+* ASCENSION
+* Andorra
+* United Arab Emirates
+* Afghanistan
+* Antigua and Barbuda
+* Anguilla
+* Albania
+* Armenia
+* Netherlands Antilles
+* Angola
+* Antarctica
+* Argentina
+* American Samoa
+* Austria
+* Australia
+* Aruba
+* ÅLAND
+* Azerbaijan
+* Bosnia And Herzegovina
+* Barbados
+* Bangladesh
+* Belgium
+* Burkina Faso
+* Bulgaria
+* Bahrain
+* Burundi
+* Benin
+* Saint Barthélemy
+* Bermuda
+* Brunei Darussalam
+* Bolivia
+* BQ
+* Brazil
+* Bahamas
+* Bhutan
+* Bouvet Island
+* Botswana
+* Belarus
+* Belize
+* Canada
+* Cocos (Keeling) Islands
+* Congo, The Democratic Republic
+* CE
+* Central African Republic
+* Congo
+* Switzerland
+* Cote D'ivoire
+* Cook Islands
+* Chile
+* Cameroon
+* China
+* Colombia
+* CP
+* Costa Rica
+* CS
+* Cuba
+* Cape Verde
+* Curaçao
+* Christmas Island
+* Cyprus
+* Czech Republic
+* Germany
+* DG
+* Djibouti
+* Denmark
+* Dominica
+* Dominican Republic
+* Algeria
+* EA
+* Ecuador
+* Estonia
+* Egypt
+* Western Sahara
+* Eritrea
+* Spain
+* Ethiopia
+* European Union
+* Finland
+* Fiji
+* Falkland Islands (Malvinas)
+* Micronesia, Federated States O
+* Faroe Islands
+* France
+* FX
+* Gabon
+* United Kingdom
+* Grenada
+* Georgia
+* French Guiana
+* Guernesey
+* Ghana
+* Gibraltar
+* Greenland
+* Gambia
+* Guinea
+* Guadeloupe
+* Equatorial Guinea
+* Greece
+* South Georgia And The South Sa
+* Guatemala
+* Guam
+* Guinea-Bissau
+* Guyana
+* Hong Kong
+* Heard Island And Mcdonald Isla
+* Honduras
+* Croatia
+* Haiti
+* Hungary
+* IC
+* Indonesia
+* Ireland
+* Israel
+* Isla De Man
+* India
+* British Indian Ocean Territory
+* Iraq
+* Iran, Islamic Republic Of
+* Iceland
+* Italy
+* Jersey
+* Jamaica
+* Jordan
+* Japan
+* Kenya
+* Kyrgyzstan
+* Cambodia
+* Kiribati
+* Comoros
+* Saint Kitts And Nevis
+* Korea, Democratic People's Rep
+* Korea, Republic Of
+* Kuwait
+* Cayman Islands
+* Kazakstan
+* Lao People's Democratic Republ
+* Lebanon
+* Saint Lucia
+* Liechtenstein
+* Sri Lanka
+* Liberia
+* Lesotho
+* Lithuania
+* Luxembourg
+* Latvia
+* Libyan Arab Jamahiriya
+* Morocco
+* Monaco
+* Moldova, Republic Of
+* Montenegro
+* Saint-Martin (French)
+* Madagascar
+* Marshall Islands
+* Macedonia, The Former Yugoslav
+* Mali
+* Myanmar
+* Mongolia
+* Macau
+* Northern Mariana Islands
+* Martinique
+* Mauritania
+* Montserrat
+* Malta
+* Mauritius
+* Maldives
+* Malawi
+* Mexico
+* Malaysia
+* Mozambique
+* Namibia
+* New Caledonia
+* Niger
+* Norfolk Island
+* Nigeria
+* Nicaragua
+* Netherlands
+* Norway
+* Nepal
+* Nauru
+* NT
+* Niue
+* New Zealand
+* Oman
+* Panama
+* Peru
+* French Polynesia
+* Papua New Guinea
+* Philippines
+* Pakistan
+* Poland
+* Saint Pierre And Miquelon
+* Pitcairn
+* Puerto Rico
+* Palestinian Territory, Occupie
+* Portugal
+* Palau
+* Paraguay
+* Qatar
+* Reunion
+* Romania
+* Serbia
+* Russian Federation
+* Rwanda
+* Saudi Arabia
+* Solomon Islands
+* Seychelles
+* Sudan
+* Sweden
+* Singapore
+* Saint Helena
+* Slovenia
+* Svalbard And Jan Mayen
+* Slovakia
+* Sierra Leone
+* San Marino
+* Senegal
+* Somalia
+* Suriname
+* SS
+* Sao Tome And Principe
+* Urss - Soviet Union
+* El Salvador
+* Saint Martin (Dutch)
+* Syrian Arab Republic
+* Swaziland
+* TA
+* Turks And Caicos Islands
+* Chad
+* French Southern Territories
+* Togo
+* Thailand
+* Tajikistan
+* Tokelau
+* East Timor
+* Turkmenistan
+* Tunisia
+* Tonga
+* East Timor
+* Turkey
+* Trinidad And Tobago
+* Tuvalu
+* Taiwan, Province Of China
+* Tanzania, United Republic Of
+* Ukraine
+* Uganda
+* United Kingdom
+* United States Minor Outlying I
+* United States
+* Uruguay
+* Uzbekistan
+* Holy See (Vatican City State)
+* Saint Vincent And The Grenadin
+* Venezuela
+* Virgin Islands, British
+* Virgin Islands, U.s.
+* Viet Nam
+* Vanuatu
+* Wallis And Futuna
+* Samoa
+* Yemen
+* Mayotte
+* Yugoslavia
+* South Africa
+* Zambia
+* Zimbabwe
+</div>
+
+== Currencies ==
+'''Used in:''' [[Field reference/Objects#Objects transactions|Objects → Objects transactions]]: ''Currency ID''; [[Field reference/Dealers and offers#Dealers|Dealers and offers → Dealers]]: ''Budget currency''; [[Field reference/Dealers and offers#Offers|Dealers and offers → Offers]]: ''Currency''.
+
+7 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Australian Dollar
+* Canadian Dollar
+* Swiss Franc
+* Euro
+* British Pound
+* Japanese Yen
+* US Dollar
+</div>
+
+== Data source types ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Data source type''; [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''Data Source Type ID''.
+
+10 entries:
+<div style="column-width:15em; column-gap:2em;">
+* artist
+* catalogue raisonne
+* exhibition catalogue
+* physical examination
+* printer
+* publisher
+* owner
+* literature
+* documents from
+* heirs of the artist
+</div>
+
+== Directory relation types ==
+'''Used in:''' [[Field reference/Directory#Directory Relations|Directory → Directory Relations]]: ''Relation Type ID''.
+
+20 entries:
+<div style="column-width:15em; column-gap:2em;">
+* has met
+* is teacher of
+* is student of
+* is related (family)
+* is related (abstract)
+* is related (emotional)
+* is successor of
+* is predecessor of
+* has taken over
+* has absorbed
+* is sibling of
+* is sponsor of
+* is owner of
+* is member of
+* is child of
+* works for
+* is founder of
+* is funder of
+* knows
+* is colleague of
+</div>
+
+== Directory types ==
+'''Used in:''' [[Field reference/Directory#Main form|Directory → Main form]]: ''TypeOfID''.
+
+3 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Person
+* Private organization
+* Public organization
+</div>
+
+== Edition types ==
+'''Used in:''' [[Field reference/Objects#Editions|Objects → Editions]]: ''Editin type''; [[Field reference/Objects#Sculpture editions|Objects → Sculpture editions]]: ''Edition Proof Type ID''.
+
+53 entries:
+<div style="column-width:15em; column-gap:2em;">
+* A.P.
+* AP
+* a.p.
+* ap
+* E.A.
+* EA
+* e.a.
+* ea
+* H.C.
+* HC
+* h.c.
+* hc
+* Probe
+* Probedruck
+* assai
+* BAT
+* bon a tire
+* Gut zum Druck
+* bon a tirer
+* b.a.t.
+* good to print
+* p.a.
+* P.A.
+* pa
+* PA
+* numbered (arabic)
+* numbered (roman)
+* lettered
+* Cancellation proof
+* Artist Proof (generic)
+* P.E.
+* P.T.
+* P.C.
+* F.T.
+* FAT
+* EI
+* proof (generic)
+* P.G.C.
+* Trial proof
+* T.P.
+* Künstlerhandabzug
+* state proof
+* printer proof
+* P.P
+* PP
+* p.p.
+* pp
+* working proof
+* color trial proof
+* CTP
+* color proof
+* Re-strike
+* E/C
+</div>
+
+== Editorial status ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''StatusWeb''; [[Field reference/Objects#Main form|Objects → Main form]]: ''StatusPrint''.
+
+Editorial status for teams that track review steps. It does not show or hide anything; only Public does.
+
+5 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Not ready for publication
+* Ready for publication
+* Approved for publication
+* NOT approved for publication
+* Requieres verification
+</div>
+
+== Event roles ==
+'''Used in:''' [[Field reference/Events#Events Artists|Events → Events Artists]]: ''RelationID''; [[Field reference/Events#Events Agents|Events → Events Agents]]: ''RelationID''.
+
+The participating artists (Events Artists) and the participating directory entries (Events Agents) each offer only the roles that fit them; some roles are in both.
+
+19 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Relation
+* Exhibiting artist
+* Inspired
+* Guest
+* Organizer
+* Sponsor
+* Promoter
+* Doer
+* Author
+* Co-Author
+* Helper
+* Receives award
+* Participant
+* Invited artist
+* Curator
+* Moderator
+* Exhibiting gallery
+* Is honored
+* Lender
+</div>
+
+== Event types ==
+'''Used in:''' [[Field reference/Events#Main form|Events → Main form]]: ''Event type''.
+
+63 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Birth
+* Death
+* Marriage
+* Divorce
+* Education
+* Exhibition
+* Group exhibition
+* Solo exhibition
+* Birth of child
+* Stroke
+* Award
+* Trip
+* Move / Migration
+* Professional
+* Illness
+* Colaboration
+* Religion
+* Other
+* Commission/order
+* Visit
+* Reading
+* Period
+* Friendship
+* Politics
+* Sale
+* Exhibition at fair
+* Exhibition (biography only)
+* Acquisition
+* Collecting
+* Restoration
+* Transformation
+* Type creation
+* Use
+* Loss
+* Type assignment
+* Creation
+* Designing
+* Destruction
+* Excavation
+* Finding
+* Modification
+* Part addition
+* Part removal
+* Performance
+* Planning
+* Production
+* Provenance
+* Publication
+* Printing
+* Foundation
+* Meeting
+* Grant
+* Lecturer activity
+* Illustration
+* Honour
+* Lecture
+* Jury participation
+* Debate
+* Presentation
+* Contest
+* Competition
+* Dissolution
+* Closure
+</div>
+
+== Genders ==
+'''Used in:''' [[Field reference/Artists#Main form|Artists → Main form]]: ''Gender''.
+
+9 entries:
+<div style="column-width:15em; column-gap:2em;">
+* female
+* male
+* other
+* trans to female
+* trans to male
+* hermaphrodite
+* undecided
+* not known
+* not applicable
+</div>
+
+== Groupings ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''All Grouping ID''.
+
+5 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Suite
+* Folder
+* Installation
+* Group
+* Book
+</div>
+
+== Kinds of alternative names ==
+'''Used in:''' [[Field reference/Artists#Alternative names|Artists → Alternative names]]: ''Alias Category ID''.
+
+4 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Translated
+* Pseudonym
+* Alternative (by artist)
+* Alternative (by 3rd parties)
+</div>
+
+== Languages ==
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]], [[Field reference/Objects#Notes|Notes]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]).
+
+The list holds the languages of the world. Most language fields offer only the five system languages (German, English, French, Italian, Spanish); the languages a publication is written in can be any language. The openCR interface itself is available in English, Spanish and German.
+
+109 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Akan
+* Amharic
+* Assamese
+* Awadhi
+* Azerbaijani
+* Baluchi
+* Belarusian
+* Bengali
+* Bhojpuri
+* Burmese
+* Catalan
+* Cebuano
+* Central Khmer
+* Chhattisgarhi
+* Chittagonian
+* Czech
+* Danish
+* Deccan
+* German
+* Dhundari
+* Dutch
+* English
+* Spanish
+* Finnish
+* French
+* Fulah
+* Gan Chinese
+* Gujarati
+* Haitian
+* Hakka Chinese
+* Haryanvi
+* Hausa
+* Hebrew
+* Hiligaynon
+* Hindi
+* Hmong Daw
+* Hmong Dô
+* Hmong Njua
+* Hmong Shua
+* Hungarian
+* Igbo
+* Iloko
+* Italian
+* Japanese
+* Javanese
+* Jinyu Chinese
+* Kannada
+* Kazakh
+* Kinyarwanda
+* Konkani
+* Korean
+* Kurdish
+* Lasi
+* Madurese
+* Magahi
+* Maithili
+* Malagasy
+* Malayalam
+* Mandarin Chinese
+* Marathi
+* Marwari
+* Min Bei Chinese
+* Min Dong Chinese
+* Min Nan Chinese
+* Modern Greek
+* Mossi
+* Nepali
+* Chewa o Nyanja
+* Oriya
+* Oromo
+* Panjabi
+* Persian
+* Polish
+* Portuguese
+* Pushto
+* Quechua
+* Romanian
+* Rundi
+* Russian
+* Seraiki
+* Serbo-Croatian
+* Shona
+* Sindhi
+* Sindhi Bhil
+* Sinhala
+* Slovak
+* Somali
+* Sundanese
+* Swahili
+* Swedish
+* Sylheti
+* Tabassaran
+* Tagalog
+* Tamil
+* Telugu
+* Thai
+* Turkish
+* Uighur
+* Ukrainian
+* Urdu
+* Uzbek
+* Vietnamese
+* Wu Chinese
+* Xhosa
+* Xiang Chinese
+* Yoruba
+* Yue Chinese
+* Zhuang
+* Zulu
+</div>
+
+== Measurement extents ==
+'''Used in:''' [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''Meas. extent''.
+
+45 entries:
+<div style="column-width:15em; column-gap:2em;">
+* overall
+* platemark
+* sheet
+* secondary support
+* mat
+* mount
+* frame
+* pattern repeat
+* lid
+* base
+* footprint
+* tessera
+* laid lines
+* with base
+* plate
+* paper
+* book
+* magazine
+* catalogue
+* folder
+* cardboard
+* box
+* cassette
+* fabric
+* wood
+* case
+* Envelope
+* cover
+* dust jacket
+* Album
+* poster
+* China paper
+* wood plate
+* part
+* certificate
+* with mount
+* folded
+* image
+* object with base
+* object with mount
+* object
+* unmounted
+* unfolded
+* folded sheet
+* print area
+</div>
+
+== Measurement types ==
+'''Used in:''' [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''unit''.
+
+21 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Height
+* Width
+* Depth
+* Length
+* Diameter
+* Volume
+* Weight
+* Area
+* Running time
+* Circumference
+* Size
+* Duration
+* Scale
+* Distance
+* Count
+* bit-depth
+* KBytes
+* MBytes
+* Resolution
+* Scale
+* Material thickness
+</div>
+
+== Months ==
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Images|Images]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Relations|Directory Relations]]).
+
+12 entries:
+<div style="column-width:15em; column-gap:2em;">
+* January
+* February
+* March
+* April
+* May
+* June
+* July
+* August
+* September
+* October
+* November
+* December
+</div>
+
+== Object categories ==
+'''Used in:''' [[Field reference/Artists#Definition of categories|Artists → Definition of categories]]: ''CategoryID''.
+
+20 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Painting
+* Print
+* Sculpture
+* Sketch
+* Multimedia
+* Photography
+* Audio
+* Watercolour
+* Other
+* Happening
+* Book
+* Text
+* Installation
+* Work on paper
+* Print (Lithography)
+* Print (Etching)
+* Print (Serigraphy)
+* Print (Linocut)
+* Print (Woodcut)
+* Multiple
+</div>
+
+== Object conditions ==
+'''Used in:''' [[Field reference/Dealers and offers#Offers|Dealers and offers → Offers]]: ''Object condition''.
+
+7 entries:
+<div style="column-width:15em; column-gap:2em;">
+* pristine
+* near pristine
+* very good
+* good
+* fair
+* poor
+* Very poor
+</div>
+
+== Object types ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Object type''; [[Field reference/Artists#Definition of categories|Artists → Definition of categories]]: ''ObjectTypeID''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Object Type ID''.
+
+25 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Painting
+* Print
+* Sculpture
+* Drawing
+* Multimedia
+* Photography
+* Audio
+* Watercolour
+* Other
+* Happening
+* Book
+* Text
+* Installation
+* Work on paper
+* Lithography
+* Etching
+* Serigraphy
+* Linocut
+* Woodcut
+* Multiple
+* Digital print
+* Poster
+* Draft
+* Monotype
+* Colour Drawing
+</div>
+
+== Positions on the work ==
+'''Used in:''' [[Field reference/Objects#Object attributes|Objects → Object attributes]]: ''Location''.
+
+35 entries:
+<div style="column-width:15em; column-gap:2em;">
+* front bottom left
+* front bottom center
+* front bottom right
+* front center left
+* front center center
+* front center right
+* front top left
+* front top center
+* front top right
+* verso bottom left
+* verso bottom center
+* verso bottom right
+* verso top left
+* verso top center
+* verso top right
+* verso center left
+* verso center center
+* verso center right
+* left border
+* right border
+* upper border
+* lower border
+* Front lower left corner
+* Front lower right corner
+* Front upper left corner
+* Front upper right corner
+* verso lower left corner
+* verso lower right corner
+* verso upper left corner
+* verso upper right corner
+* Front
+* verso
+* bottom
+* top
+* cover
+</div>
+
+== Print papers ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Print PaperID''; [[Field reference/Objects#Components|Objects → Components]]: ''Type paper''; [[Field reference/Objects#Editions|Objects → Editions]]: ''Paper''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Print Paper ID''.
+
+119 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Arches
+* BFK Rives
+* Hahnemuehle
+* Velin d'Arches
+* Velin BFK Rives
+* Velin Johannot
+* Zerkall
+* Cartiera Magnani
+* Japan
+* Somerset
+* Bockingford
+* Fabriano
+* Saunders
+* Ripple
+* Saint Armand
+* Stonehenge
+* Maidstone
+* Moulin du Gue
+* Canson
+* Michel
+* Guarro
+* V. PIERA
+* Creysse
+* Sala Gaspar
+* Rives
+* Tàpies
+* Tàpies-Sala Gaspar
+* Johannot
+* Edizioni del Cinquale
+* Paperki
+* Guarro "Super Alfa"
+* Van Ginkel
+* Chiffon de Mandeure
+* Filicarta di Brughero
+* Richard de Bas
+* Chiffon de la Dore
+* Guarro "Alfa"
+* Japan "Gasenshi"
+* Japan "Goyu"
+* Japan "Kaji Natural"
+* Japan "Hosho/Mitsumata"
+* Japan "Hosokawa Ohban"
+* Japan "Inomachi" (Japan Nacre)
+* Japan "Iyo"
+* Japan "Kochi"
+* Japan "Moriki"
+* Japan "Okawara"
+* Japan "Suzuki"
+* Japan "Torinoko"
+* Japan "Kozo"
+* Japan "Gampi"
+* Strathmore
+* Fabriano
+* Guarro-Casas
+* Auvergne
+* Moulin de Larroque
+* Capellades
+* Aquari
+* Lafranca
+* Santos
+* Biblos
+* Tumba-Bütten Goya
+* Japan "Kozo Torinoko"
+* Alejandre
+* Chiffon del Moulin de Larroque
+* Old Mill
+* Ivory
+* BFK
+* Eskulan
+* Modigliani
+* Magnani
+* Kraft
+* Vélin Chiffon
+* Lana
+* Holanda Van Gelder
+* Vitela
+* Ile de France
+* Montval
+* Sarrió
+* Schoeller Turm
+* Chiffon de Arches
+* Japon ancien
+* Japon nacré
+* Ingres
+* Chine
+* Van Gelder Zonen
+* Hollande
+* Vélin Bouffant
+* Vergé d'Arches
+* Nontvale
+* Turner
+* Mandeure
+* Japan Imperial
+* pergamino
+* Montval
+* Roy Louis
+* Japan "Misumi"
+* Sirène
+* Bristol
+* Hosho
+* Piera
+* Japan "Bun Koshi"
+* estrassa
+* Manila
+* Iris de Larroque
+* Molivell Guarro
+* Auverge Richard-de-Bas
+* Japan "Hodomura"
+* Vitela de Arches
+* Offset
+* Vitela de Rives
+* Vitela de Lana
+* Arches BFK
+* Duchene
+* Tracing paper
+* Roca
+* Lucisioni
+* Connoisseur
+* Epson
+</div>
+
+== Publication parts ==
+'''Used in:''' [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Publication Part ID''.
+
+9 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Essay
+* Introduction
+* Prologue
+* Epigraph
+* Text
+* Epilogue
+* Afterword
+* Conclusion
+* Preface
+</div>
+
+== Publication relation types ==
+'''Used in:''' [[Field reference/Publications#Publications Relations|Publications → Publications Relations]]: ''Relation Type ID''.
+
+9 entries:
+<div style="column-width:15em; column-gap:2em;">
+* is part of
+* is copy of
+* is related to
+* is a version of
+* is similar to
+* is based on
+* is preparatory for
+* derived from
+* facsimile of
+</div>
+
+== Publication types ==
+'''Used in:''' [[Field reference/Publications#Main form|Publications → Main form]]: ''ID Publication type''.
+
+35 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Book
+* Article in magazine
+* Newspaper article
+* Internet (blog/review/etc)
+* Video
+* Audio
+* Other media
+* Works Catalogue
+* Exhibition Catalogue
+* Brochure
+* Flyer
+* Article in book
+* Conference proceedings
+* book of arrivals
+* Inventory catalogue
+* book series
+* Catalogue
+* Article in catalogue
+* Magazine
+* Supplement
+* Letter
+* Report
+* Document
+* Certificate
+* Conference Paper
+* Email
+* Interview
+* Manuscript
+* Thesis
+* Press release
+* diary
+* letter
+* notes
+* shipping list
+* invoice
+</div>
+
+== Qualifiers ==
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Object Measurements|Object Measurements]], [[Field reference/Objects#Editions|Editions]], [[Field reference/Objects#Sculpture editions|Sculpture editions]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Object Templates|Object Templates]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Addresses|Directory Addresses]], [[Field reference/Directory#Directory Relations|Directory Relations]]).
+
+Date fields offer only the date qualifiers: approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part. Fields for quantities, measurements and print runs offer the others.
+
+29 entries:
+<div style="column-width:15em; column-gap:2em;">
+* approximate
+* sight
+* maximum
+* largest
+* smallest
+* average
+* variable
+* assembled
+* before restoration
+* at corners
+* rounded
+* framed
+* with base
+* exact
+* estimate
+* minimum
+* unknown
+* some
+* many
+* irregular
+* earliest
+* after
+* before
+* at latest
+* few
+* visible
+* unverified
+* unlimited
+* in part
+</div>
+
+== Record kinds ==
+'''Used in:''' [[Field reference/Dealers and offers#Offers|Dealers and offers → Offers]]: ''Work type''.
+
+For offers, only the kind Object (an artwork) is currently shown to visitors.
+
+11 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Artist
+* Directory
+* Event
+* Object Attribution
+* Object
+* ObjectPart
+* Print Edition
+* PhotoEdition
+* Object Repository
+* SculptureEdition
+* Publication
+</div>
+
+== Record types ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Record type''.
+
+Only main data appear as artworks; correction and supplementary data are attached to a main record.
+
+3 entries:
+<div style="column-width:15em; column-gap:2em;">
+* main data
+* correction data
+* supplementary data
+</div>
+
+== Tag types ==
+'''Used in:''' [[Field reference/Artists#Tags|Artists → Tags]]: ''Tag Type ID''.
+
+5 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Art epoch
+* Style
+* Period
+* Topic
+* Location
+</div>
+
+== Title qualifiers ==
+'''Used in:''' [[Field reference/Objects#Titles|Objects → Titles]]: ''Qualifier measure 1''.
+
+10 entries:
+<div style="column-width:15em; column-gap:2em;">
+* preferred
+* alternate
+* translated
+* from owner
+* by artist
+* inscription on work
+* historical
+* descriptive
+* obsolete
+* erroneous
+</div>
+
+== Transaction types ==
+'''Used in:''' [[Field reference/Objects#Objects transactions|Objects → Objects transactions]]: ''Transaction Type ID''.
+
+7 entries:
+<div style="column-width:15em; column-gap:2em;">
+* sale by artist
+* sale at exhibition/art fair
+* private sale
+* auction (floor)
+* auction (internet)
+* Gallery sale
+* Sale by publisher
+</div>
+
+== Units ==
+'''Used in:''' [[Field reference/Objects#Components|Objects → Components]]: ''Unit''; [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''Unit''; [[Field reference/Artists#Components of a template|Artists → Components of a template]]: ''Unit ID''; [[Field reference/Events#Locations|Events → Locations]]: ''Time unit''.
+
+21 entries:
+<div style="column-width:15em; column-gap:2em;">
+* unit
+* kg
+* gr
+* cm
+* inch
+* m
+* feet
+* cm²
+* m²
+* square inch
+* square feet
+* sec.
+* min.
+* h.
+* m:s
+* h:m:s
+* liter
+* cm³
+* mm³
+* m³
+* mm
+</div>
+
+== Watermarks ==
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Watermark''; [[Field reference/Objects#Editions|Objects → Editions]]: ''Watermark''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Print Watermark ID''.
+
+46 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Arches
+* BFK Rives
+* Hahnemuehle
+* Velin d'Arches
+* Velin BFK Rives
+* Velin Johannot
+* Zerkall
+* Cartiera Magnani
+* Japon
+* Somerset
+* Bockingford
+* Fabriano
+* Saunders
+* Ripple
+* Saint Armand
+* Stonehenge
+* Maidstone
+* Moulin du Gue
+* Canson
+* Michel
+* Guarro
+* V. PIERA
+* Creysse
+* Sala Gaspar
+* Rives
+* Tàpies
+* Tàpies-Sala Gaspar
+* Johannot
+* Edizioni del Cinquale
+* Grafica Uno
+* La Cometa
+* Piera
+* Maeght
+* Richard de Bas
+* Arte
+* CM Fabriano cotone
+* Tàpies-Foix-Taché
+* Aquari
+* Museu Paperer
+* F. Amatruda Amaldi
+* Les annonay Ancne Manufre Canson Montgolfier Vidalon
+* Asociacion de Bibliofilos de Barcelona
+* Miró
+* ME
+* Roca
+* Tricorne
+</div>
+
+== See also ==
+* [[Field reference]]
+* [[How openCR is structured]]
+
+{{Editor guide}}

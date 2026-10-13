@@ -44,14 +44,14 @@ An offer records:
 |}
 
 == What visitors see ==
-On the page of an artwork, offers for that work appear under '''Adverts related to this object''', while the offer's run period includes today. Each offer shows the seller (the dealer's directory entry, or the artist), the condition, the price or "price on request", the text and a link to the offer.
+On the page of an artwork, offers for that work appear under '''Adverts related to this object''', while the offer's run period includes today. A dealer's offers are shown only while the dealer is ''Active'' and today lies within the dealer's own period (''Active from'', ''Active to''). Each offer shows the seller (the dealer's directory entry, or the artist), the condition, the price or "price on request", the text and a link to the offer.
 
 Currently, offers are shown on the pages of whole artworks.
 
 == Common pitfalls ==
 * '''Clearance first.''' A dealer's offer for an artist they are not cleared for cannot be saved. Ask the platform administrator to add the clearance.
 * '''Artist missing.''' Every offer needs its artist, even when a dealer sells.
-* '''Ending an offer.''' To stop showing an offer, set ''Runs to'' to the last day it should appear.
+* '''Ending an offer.''' To stop showing an offer, set ''Runs to'' to the last day it should appear. To stop all offers of a dealer, the platform administrator unticks ''Active''.
 
 == See also ==
 * [[Directory]]

@@ -49,11 +49,16 @@ Working files go to `data/`, which is ignored by Git. The steps:
 python tools/extract_form_labels.py C:/xampp/open_ENG data/form_labels.tsv
 python tools/build_field_data.py data TOOLTIPS/wiki-reference.json
 python tools/vocab_sql.py data/columns.tsv data/fks.tsv TOOLTIPS/wiki-reference.json > data/vocab.sql
-python tools/gen_field_reference.py data TOOLTIPS Objects
+python tools/gen_field_reference.py data TOOLTIPS Objects          # one entity page
+python tools/gen_field_reference.py data TOOLTIPS "Base tables"    # all vocabularies in use
 ```
 
-(`TOOLTIPS` = the `docs/tooltips` folder of open.cr_reports; `columns.tsv`,
-`fks.tsv` and `vocab.tsv` come from read-only queries on the database.)
+(`TOOLTIPS` = the `docs/tooltips` folder of open.cr_reports. `columns.tsv`,
+`fks.tsv`, `vocab.tsv` and the small filter files `qualifier_flags.tsv`,
+`system_languages.tsv` and `event_relation_flags.tsv` come from read-only
+queries on the database. The filters reproduce what the forms offer: date
+fields only date qualifiers, language fields only the system languages,
+event roles per kind of participant.)
 `tools/apply_field_texts.py` writes new field descriptions into the field
 notes. `gen_field_reference.py` lists fields whose description is missing
 in `data/review_<page>.tsv`.
