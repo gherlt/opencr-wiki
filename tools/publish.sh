@@ -3,8 +3,9 @@
 #
 #   tools/publish.sh pages/Main_Page.wiki [more files…]
 #
-# The page title comes from the file name: "__" becomes ":" and "_" becomes
-# a space (Template__Draft.wiki -> "Template:Draft").
+# The page title comes from the file name: "__" becomes ":", "--" becomes "/"
+# (subpages) and "_" becomes a space (Template__Draft.wiki -> "Template:Draft",
+# A--B.wiki -> "A/B").
 # Credentials are read from bot.env (WIKI_API, WIKI_BOT_USER, WIKI_BOT_PASS),
 # by default ~/.config/opencr-wiki/bot.env; the password is never printed.
 # MediaWiki: pages need interface-admin rights the bot does not have; they
@@ -37,6 +38,7 @@ CSRF=$(api "$API?action=query&meta=tokens&format=xml" | grep -oE 'csrftoken="[^"
 for f in "$@"; do
 	name=$(basename "$f" .wiki)
 	title="${name//__/:}"
+	title="${title//--//}"
 	title="${title//_/ }"
 	if [[ "$title" == MediaWiki:* ]]; then
 		echo "SKIP  $title (interface page, publish on the server)"

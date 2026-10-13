@@ -37,122 +37,12 @@ Two kinds of supporting records complete the picture:
 == Records and their sections ==
 Every record has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
 
-The sections below are named as they appear in the forms.
+Artworks have the most sections, from ''Titles'' and ''Components'' to ''Objects provenance'', ''Exhibitions'' and ''Relation with other objects''. Artists, publications, events and directory entries each have their own.
 
-=== Objects (artworks) ===
-{| class="wikitable"
-! Section !! What goes there
-|-
-| Titles || Further titles of the work: alternative, translated, or as used in a particular publication
-|-
-| Components || What the work is made of: oil, canvas, paper, acrylic, etching and so on
-|-
-| Object Measurements || Dimensions, one entry per measured extent (for example image, sheet, frame)
-|-
-| Object attributes || Marks and inscriptions: signed, dated, numbered, stamped, with their position and transcription
-|-
-| Parts || The named parts of a multi-part work, such as the panels of a triptych
-|-
-| Images || Photographs of the work
-|-
-| Editions || The editions of a print: regular edition, artist's proofs, trial proofs and so on
-|-
-| Sculpture editions || The casts of a sculpture
-|-
-| Agents || People and institutions involved with the work: printer, publisher, foundry, photographer, co-author
-|-
-| Reference || The literature that mentions or reproduces the work
-|-
-| Objects provenance || The ownership history
-|-
-| Objects transactions || Sales and auctions
-|-
-| Exhibitions || The exhibitions where the work was shown
-|-
-| Notes || Notes about the work meant for publication
-|-
-| Object tags || The artist's tags that apply to this work
-|-
-| Relation with other objects || Links to other works: study for, copy of, version of and similar
-|-
-| Objects Actions || Dated events in the life of the work, such as signing, printing or restoration
-|}
-
-=== Artists ===
-{| class="wikitable"
-! Section !! What goes there
-|-
-| Biographies || The biography texts, one per language and type (life biography or art-historical biography)
-|-
-| Communications || Phone numbers, email addresses, websites, social media
-|-
-| Relations || Links to people and institutions: gallerist, publisher, family, mentor, heir and others
-|-
-| Collections || Institutions that hold works by the artist
-|-
-| Tags || The artist's own keywords for grouping artworks
-|-
-| Selected Languages || The languages the artist's catalogue is meant to be published in
-|-
-| Definition of categories || The artist's own sub-categories of artworks, used for filtering the catalogue
-|-
-| Object Templates || Default values for new artworks, for example the usual paper of a print series
-|-
-| External file || Documents attached to the artist
-|}
-
-=== Publications ===
-{| class="wikitable"
-! Section !! What goes there
-|-
-| Publications Agents || Authors, editors, publishers and other contributors
-|-
-| Featured artists || The artists the publication is about, and whether it appears on the website or in the printed catalogue
-|-
-| Related events || Events the publication documents, for example the exhibition an exhibition catalogue accompanies
-|-
-| Used languages || The languages the publication is written in
-|-
-| Publications Relations || Links to other publications: part of, version of, copy or facsimile of, based on and similar
-|-
-| Reference || The artworks that cite this publication
-|-
-| Externalfiles || Attached files, such as scans
-|}
-
-=== Events ===
-{| class="wikitable"
-! Section !! What goes there
-|-
-| Event description || The name and description of the event, per language
-|-
-| Locations || Where and when the event took place; a touring exhibition has several
-|-
-| Events Artists || The artists who took part, and in which role
-|-
-| Events Agents || The people and institutions involved: organiser, curator, gallery, sponsor
-|-
-| Exhibited objects || The artworks shown, with lender and the title used in the exhibition
-|-
-| Related publications || Publications documenting the event
-|}
-
-=== Directory ===
-{| class="wikitable"
-! Section !! What goes there
-|-
-| Activities || What the person or institution does: gallery, publisher, photographer, curator and so on
-|-
-| Contact inform. || Phone numbers, email addresses, websites
-|-
-| Directory Relations || Links between directory entries, for example between a person and an institution
-|-
-| Directory Artists || The artists' catalogues in which this entry is used
-|}
-The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
+'''→ [[/Records and their sections|All sections of each entity]]'''
 
 == How the pieces connect ==
-The entities are connected through the sections above. Seen from the artwork, the most important links are:
+The entities are connected through these sections. Seen from the artwork, the most important links are:
 
 * '''Artwork → artist:''' every artwork belongs to one artist's catalogue.
 * '''Artwork → directory:''' owners in the ownership history, buyers and sellers in transactions, printers and photographers as agents.

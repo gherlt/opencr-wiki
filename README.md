@@ -6,8 +6,10 @@ pages here are the reference version; the wiki is published from them.
 ## Layout
 
 - `pages/` — one file per wiki page, in wikitext. The file name is the page
-  title with `:` written as `__` and spaces as `_`
-  (`Template__Draft.wiki` → `Template:Draft`).
+  title with `:` written as `__`, `/` (subpages) as `--` and spaces as `_`
+  (`Template__Draft.wiki` → `Template:Draft`,
+  `How_openCR_is_structured--Records_and_their_sections.wiki` →
+  `How openCR is structured/Records and their sections`).
 - `tools/publish.sh` — publishes page files through the bot account.
 
 ## Publishing
