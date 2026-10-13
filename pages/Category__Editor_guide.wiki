@@ -1,0 +1,1 @@
+Pages of the guide for catalogue editors (artist administrators and artist experts). Start with [[How openCR is structured]] and [[Building a catalogue raisonné]].
