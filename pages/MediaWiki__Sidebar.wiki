@@ -1,0 +1,19 @@
+
+* navigation
+** mainpage|mainpage-description
+** recentchanges-url|recentchanges
+* Editor guide
+** How openCR is structured|Structure of openCR
+** Building a catalogue raisonné|Building a catalogue
+** Relations|Relations
+** Field reference|Field reference
+* Entities
+** Artists|Artists
+** Objects|Objects (artworks)
+** Publications|Publications
+** Events|Events
+** Directory|Directory
+** Dealers and offers|Dealers and offers
+* SEARCH
+* TOOLBOX
+* LANGUAGES

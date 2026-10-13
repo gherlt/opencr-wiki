@@ -1,0 +1,185 @@
+{{Draft}}
+openCR does not store a catalogue raisonné as one long document. It stores it as many connected '''records''': one record per artwork, per publication, per exhibition, per person or institution, and so on. The records point to each other, and the published catalogue is assembled from them.
+
+This page explains which kinds of records exist, what each one holds, and how they fit together. Knowing this makes the daily work faster: you enter each fact once, in the right place, and link to it from everywhere else.
+
+== One platform, many catalogues ==
+openCR hosts the catalogues of several artists side by side. Some information belongs to a single artist's catalogue; other information is shared, so that it exists only once:
+
+* '''Belongs to one artist:''' the artworks, the artist's tags and the settings of the artist's catalogue.
+* '''Shared:''' people and institutions, publications and the vocabularies behind the dropdown lists. A museum holding works by three artists is one directory entry, not three. A book about several artists is one publication, linked to each of them.
+
+Shared records are a strength, but they need care: a change to a shared record shows up in every catalogue that uses it.
+
+== The building blocks ==
+openCR calls the main kinds of records '''entities'''. Each has its own form and its own page in this guide.
+
+{| class="wikitable"
+! Entity !! What it records !! Scope
+|-
+| '''[[Artists]]''' || The artist whose work is catalogued: names, life dates, biographies, contact details, and the settings of their catalogue. || The starting point of each catalogue
+|-
+| '''[[Objects]]''' || The artworks: title, type, dates, materials, measurements, inscriptions, images, editions, ownership history, exhibitions and literature. In the forms they are called ''Objects''. || One artist's catalogue
+|-
+| '''[[Publications]]''' || Books, articles, exhibition catalogues, catalogues raisonnés and other documents that discuss the artist or the works. || Shared; linked to one or more artists
+|-
+| '''[[Events]]''' || Anything with a date: exhibitions, fairs, awards, commissions, lectures, and events in the artist's life. || Created for an artist; other artists can take part
+|-
+| '''[[Directory]]''' || Every person, organisation and institution that appears anywhere: owners and collectors, galleries, museums, printers, publishers, photographers, authors, curators. || Shared by all catalogues
+|-
+| '''[[Dealers and offers]]''' || Galleries and dealers who offer works for sale, and their offers. || A separate area for sellers
+|}
+
+Two kinds of supporting records complete the picture:
+* '''Vocabularies''' are the lists behind the dropdowns: object types, materials (''components''), date qualifiers such as ''approximate'' or ''before'', countries, languages, types of relations, and many more. They are shared by all catalogues and translated into the interface languages. Because a change affects everyone, new entries are best agreed with the platform administrator.
+* '''Tags''' are each artist's own keywords, such as epochs, styles, periods, topics and places, used to group and filter the artworks of one catalogue.
+
+== Records and their sections ==
+Every record has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
+
+The sections below are named as they appear in the forms.
+
+=== Objects (artworks) ===
+{| class="wikitable"
+! Section !! What goes there
+|-
+| Titles || Further titles of the work: alternative, translated, or as used in a particular publication
+|-
+| Components || What the work is made of: oil, canvas, paper, acrylic, etching and so on
+|-
+| Object Measurements || Dimensions, one entry per measured extent (for example image, sheet, frame)
+|-
+| Object attributes || Marks and inscriptions: signed, dated, numbered, stamped, with their position and transcription
+|-
+| Parts || The named parts of a multi-part work, such as the panels of a triptych
+|-
+| Images || Photographs of the work
+|-
+| Editions || The editions of a print: regular edition, artist's proofs, trial proofs and so on
+|-
+| Sculpture editions || The casts of a sculpture
+|-
+| Agents || People and institutions involved with the work: printer, publisher, foundry, photographer, co-author
+|-
+| Reference || The literature that mentions or reproduces the work
+|-
+| Objects provenance || The ownership history
+|-
+| Objects transactions || Sales and auctions
+|-
+| Exhibitions || The exhibitions where the work was shown
+|-
+| Notes || Notes about the work meant for publication
+|-
+| Object tags || The artist's tags that apply to this work
+|-
+| Relation with other objects || Links to other works: study for, copy of, version of and similar
+|-
+| Objects Actions || Dated events in the life of the work, such as signing, printing or restoration
+|}
+
+=== Artists ===
+{| class="wikitable"
+! Section !! What goes there
+|-
+| Biographies || The biography texts, one per language and type (life biography or art-historical biography)
+|-
+| Communications || Phone numbers, email addresses, websites, social media
+|-
+| Relations || Links to people and institutions: gallerist, publisher, family, mentor, heir and others
+|-
+| Collections || Institutions that hold works by the artist
+|-
+| Tags || The artist's own keywords for grouping artworks
+|-
+| Selected Languages || The languages the artist's catalogue is meant to be published in
+|-
+| Definition of categories || The artist's own sub-categories of artworks, used for filtering the catalogue
+|-
+| Object Templates || Default values for new artworks, for example the usual paper of a print series
+|-
+| External file || Documents attached to the artist
+|}
+
+=== Publications ===
+{| class="wikitable"
+! Section !! What goes there
+|-
+| Publications Agents || Authors, editors, publishers and other contributors
+|-
+| Featured artists || The artists the publication is about, and whether it appears on the website or in the printed catalogue
+|-
+| Related events || Events the publication documents, for example the exhibition an exhibition catalogue accompanies
+|-
+| Used languages || The languages the publication is written in
+|-
+| Publications Relations || Links to other publications: part of, version of, copy or facsimile of, based on and similar
+|-
+| Reference || The artworks that cite this publication
+|-
+| Externalfiles || Attached files, such as scans
+|}
+
+=== Events ===
+{| class="wikitable"
+! Section !! What goes there
+|-
+| Event description || The name and description of the event, per language
+|-
+| Locations || Where and when the event took place; a touring exhibition has several
+|-
+| Events Artists || The artists who took part, and in which role
+|-
+| Events Agents || The people and institutions involved: organiser, curator, gallery, sponsor
+|-
+| Exhibited objects || The artworks shown, with lender and the title used in the exhibition
+|-
+| Related publications || Publications documenting the event
+|}
+
+=== Directory ===
+{| class="wikitable"
+! Section !! What goes there
+|-
+| Activities || What the person or institution does: gallery, publisher, photographer, curator and so on
+|-
+| Contact inform. || Phone numbers, email addresses, websites
+|-
+| Directory Relations || Links between directory entries, for example between a person and an institution
+|-
+| Directory Artists || The artists' catalogues in which this entry is used
+|}
+The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
+
+== How the pieces connect ==
+The entities are connected through the sections above. Seen from the artwork, the most important links are:
+
+* '''Artwork → artist:''' every artwork belongs to one artist's catalogue.
+* '''Artwork → directory:''' owners in the ownership history, buyers and sellers in transactions, printers and photographers as agents.
+* '''Artwork → publications:''' the literature in which the work appears.
+* '''Artwork → events:''' the exhibitions in which the work was shown.
+* '''Artwork → other artworks:''' studies, versions and copies, the members of a suite, the parts of a multi-part work, the editions of a print or sculpture.
+
+Publications, events and directory entries are linked to each other in the same way: a publication has authors from the directory and can document an event; an event has participants from the directory and shows artworks. The page [[Relations]] describes every kind of link in detail.
+
+== What the public sees ==
+Nothing is published by accident. Several settings decide what a visitor sees:
+
+* '''Public''' on every main form: as long as it is not ticked, only editors see the record. This is the everyday switch between draft and published.
+* '''Public''' in many sections: single entries can stay hidden while the record itself is published. An artwork can be public while one entry of its ownership history stays private.
+* '''Privacy settings in the directory''': a directory entry can be hidden from collection lists, from ownership histories or from sales records, each separately, or limited to a single artist's catalogue. This lets a collector appear in the catalogue without their purchases becoming public.
+* '''Record type''' on artworks: ''main data'' are the artworks themselves. ''Correction data'' and ''supplementary data'' are additional records attached to a main record (through ''Parent object''); they never appear as artworks of their own in lists and reports.
+* '''Internal fields''': some fields are for editors only. Note that the artwork's main form has a field called ''Notes'' for internal notes, while the '''Notes''' section holds the notes meant for publication.
+
+== Languages ==
+The openCR interface is available in '''English''', '''Spanish''' and '''German'''. Catalogue content is translated in two different ways:
+
+* '''Vocabularies''' are translated once, centrally. If a translation is missing, visitors see the English term instead of an empty space.
+* '''Texts written by editors''', such as biographies, event descriptions, further titles and published notes, are entered separately for each language. A biography that has not been written in the visitor's language is '''not''' shown at all, so decide early which languages each catalogue will cover. The artist's ''Selected Languages'' section records that decision.
+
+== See also ==
+* [[Building a catalogue raisonné]]: in which order to enter all of this
+* [[Relations]]: every kind of link between records
+* [[Field reference]]: what each field means
+
+{{Editor guide}}

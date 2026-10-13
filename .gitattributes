@@ -1,0 +1,4 @@
+# Wiki sources and the publish script must keep LF line endings
+*.wiki text eol=lf
+*.sh text eol=lf
+*.md text eol=lf

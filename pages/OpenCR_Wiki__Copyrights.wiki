@@ -1,0 +1,14 @@
+The texts of this wiki and the screenshots of the openCR software are published under the '''[https://creativecommons.org/licenses/by-nc-sa/4.0/ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence]''' (CC BY-NC-SA 4.0), unless a page says otherwise.
+
+== What you may do ==
+You may copy, quote and adapt the content for '''non-commercial''' purposes, for example in research, teaching or museum documentation, provided that you:
+* '''credit''' the openCR Wiki and link to the page you used;
+* '''share''' adapted versions under the same licence;
+* do '''not''' use the content for commercial purposes.
+
+For any other use, please ask for permission.
+
+== What the licence does not cover ==
+'''Images of artworks''' that appear in this wiki, including artworks visible in screenshots, are '''not''' covered by this licence. The rights to them belong to the artists, their estates or other rights holders. They are shown for documentation purposes only and may not be reused.
+
+[[Category:About this wiki]]

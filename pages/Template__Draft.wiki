@@ -1,0 +1,5 @@
+<div style="border:1px solid #c79100; border-left:6px solid #c79100; background:#fff8e1; color:#202122; padding:0.5em 1em; margin:0 0 1em 0;">'''Draft.''' This page is still being written and may change. Corrections and questions are welcome.</div><noinclude>
+Marks a page as a draft. Place <code><nowiki>{{Draft}}</nowiki></code> at the top of the page; remove it when the page is reviewed.
+
+[[Category:Templates]]
+</noinclude>
