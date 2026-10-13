@@ -112,6 +112,8 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | Directory Relations || Links between directory entries, for example between a person and an institution
 |-
 | Directory Artists || The artists' catalogues in which this entry is used
+|-
+| Directory Addresses || The addresses of the entry, each with type and period of validity (a separate form)
 |}
 The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
 

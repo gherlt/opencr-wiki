@@ -25,6 +25,16 @@ Quick creation is also possible with '''Easy directory creation''' in the ''PRO 
 
 The form also shows where the entry appears elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
 
+== Addresses ==
+Addresses are kept in their own form, '''Directory Addresses''', because an entry can have several, and they change over time. Each address has:
+* a type: Legal address, Mailing / Correspondence, Residence, Studio / Atelier, Office / Administration, Exhibition space / Showroom, Workshop / Production, or Storage / Depot;
+* the address lines, street, ZIP code, city, state and country;
+* a period of validity (from and to, each with a qualifier) and a note on the dates;
+* '''Is Primary''': the main address of the entry. Lists of directory entries show the city and country of the primary address, so mark exactly one address as primary;
+* '''Is Valid''': whether the address is still current;
+* its own '''Public''' tick, so an address can be recorded without being published;
+* the source of the information.
+
 == What the public sees ==
 The directory holds sensitive information: who owns what, who bought what and for how much. Several settings work together:
 
@@ -59,7 +69,7 @@ Changes to a shared entry show up in every catalogue that uses it. Entries used 
 * Type, names and alias are complete.
 * Activities are recorded.
 * The privacy ticks match what the person or institution has agreed to.
-* Only contact details that may be public are ticked ''Public''.
+* Only contact details and addresses that may be public are ticked ''Public''.
 Then tick ''Public''.
 
 == Common pitfalls ==
