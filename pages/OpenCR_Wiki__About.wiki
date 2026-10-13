@@ -1,0 +1,16 @@
+The '''openCR Wiki''' explains [https://open.cr openCR], the platform for catalogues raisonnés. It has two parts:
+* the '''editor guide''' for the people who build catalogues on openCR, starting with [[How openCR is structured]], and the [[Field reference]];
+* the '''visitor guide''' for everyone who consults the catalogues, starting with [[Visiting openCR]].
+
+== How the wiki is written ==
+The wiki is maintained by the openCR team. Only authorised editors can change pages. The English pages are the reference version; translations will follow.
+
+The descriptions are checked against the openCR software and its forms. The [[Field reference]] is generated from the forms and the field notes of the software, so that it stays in step with them. Pages marked as ''draft'' are still being reviewed.
+
+== Feedback ==
+Questions, corrections and suggestions are welcome through the contact form on [https://open.cr open.cr].
+
+== Reuse ==
+See [[OpenCR Wiki:Copyrights|Copyrights]] for how the texts of this wiki may be reused.
+
+[[Category:About this wiki]]
