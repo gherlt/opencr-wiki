@@ -1,0 +1,85 @@
+{{Draft}}
+'''Publications''' are the literature of a catalogue: books, articles, exhibition catalogues, catalogues raisonnés, newspaper articles, brochures, letters, manuscripts, interviews, videos and any other document that discusses the artist or reproduces the works. Together they form the artist's '''bibliography''', and they are the sources the artworks cite.
+
+Publications are shared: one book about three artists is a single record, linked to each of them. This page explains how a publication is recorded and connected. For the list of sections, see [[How openCR is structured/Records and their sections#Publications|Records and their sections]]; for every single field, see the [[Field reference]].
+
+== Before creating a publication ==
+* '''Search first.''' The publication may already exist, entered for another artist. Use the existing record and add your artist to it (see [[#Featured artists|Featured artists]]) rather than creating a duplicate.
+* '''Authors and publishers''' are [[Directory|directory]] entries. Create the ones you need first, so you can pick them from the list.
+* '''Choose the short name.''' The ''Alias'' identifies the publication in every list where it can be picked, for example when an artwork cites it, and those lists are sorted by it. Use a consistent pattern, such as author and year.
+
+== The main form ==
+=== Identity ===
+* '''IDPublicationtype''': the kind of publication. There are around 35 kinds, among them Book, Article in magazine, Newspaper article, Exhibition Catalogue, Works Catalogue, Catalogue, Article in catalogue, Magazine, Brochure, Flyer, Interview, Thesis, Press release, Letter, Manuscript, Video, Audio and Internet (blog, review and similar). Pick the closest one; visitors can filter the bibliography by it.
+* '''Title''' and '''Subtitle'''.
+* '''Alias''': the short name (see above).
+* '''Abbreviation''': a short form for footnotes, if the catalogue uses one.
+* '''Reference''': a citation key or external reference code. It is searchable.
+
+=== Bibliographic data ===
+* '''Publication''': for an article or a contribution, the work it appears in, such as the magazine, newspaper or book. For a stand-alone book, leave it empty.
+* '''Series''', '''Volume''' and '''Total Volumes'''.
+* Date: '''Publication date (day)''', '''Publicationmonth''' and '''Year of publication'''. Leave the day and month empty when unknown; never use January as a placeholder.
+* Place: '''Publication city''' and '''Published in country'''.
+* '''Number Pages''' and '''Number Copies''' (the print run, if known).
+* '''ISBN (books)''', '''ISSN (magazines)''' and '''Link''' (a web address of the publication or of its record).
+
+=== Extracts ===
+When the record describes a specific extract rather than a whole work, '''Page''', '''Illustration''' and '''Coloured ?''' record its page range, the figure or plate number, and whether the illustration is in colour.
+
+=== Internal ===
+'''Comments''' is for internal notes and is not published. '''Public''' publishes the publication; leave it unticked until the record is complete.
+
+== Contributors ==
+'''Publications Agents''' lists everyone who contributed: author, editor, co-author, writer, journalist, publisher, gallery, organiser, sponsor and so on. Each entry points to a [[Directory|directory]] entry and gives the role.
+* The byline shown with the publication is made up of the '''authors''' and '''editors'''. Record those roles as such, or the byline stays empty.
+* A contributor can be limited to one part of the publication: an essay, the introduction, the preface, the afterword and so on. Leave this empty when the role applies to the whole publication.
+
+== Featured artists ==
+'''Featured artists''' lists the artists the publication is about. This is what puts a publication into an artist's bibliography: '''a publication without an entry here does not appear in the artist's bibliography''', even if it is public.
+
+Each entry has three independent switches:
+{| class="wikitable"
+! Switch !! Effect
+|-
+| '''Use In Web''' || The publication appears in the artist's bibliography on the website.
+|-
+| '''Use In CR''' || The publication is included in the artist's printed catalogue raisonné.
+|-
+| '''Use As Ref CR''' || The publication is one of the authoritative references of the catalogue raisonné.
+|}
+The switches do not depend on each other: ''Use In CR'' alone does not put the publication on the website, and ''Use In Web'' alone does not put it in the printed catalogue.
+
+When a publication discusses several artists on different pages, the page ranges per artist are recorded in a separate form, ''Publications Artist References''.
+
+== Events, languages and related publications ==
+* '''Related events''': the events the publication documents, for example the exhibition an exhibition catalogue accompanies, with page and illustration references where useful.
+* '''Used languages''': the languages the publication is written in. This describes the publication itself and has nothing to do with the languages of the openCR catalogue.
+* '''Publications Relations''': links to other publications: part of, version of, copy of, facsimile of, based on, preparatory for, derived from, similar to, related to. Enter each link once, on one of the two publications; the reverse direction is shown automatically.
+
+== Artworks cited ==
+The '''Reference''' section lists the artworks the publication mentions or illustrates, with page, illustration number and whether the illustration is in colour. It is the same list as the ''Reference'' section of an [[Objects|artwork]], seen from the other side. When you work through a publication, it is often quickest to add all its artworks here in one go.
+
+== Images and files ==
+Images of the publication, such as its cover, are uploaded with the image upload and belong to the publication. ''Externalfiles'' holds other documents connected to the publication.
+
+== Before publishing ==
+* Type, title, date and place are complete, as far as they are known.
+* Authors and editors are recorded with those roles.
+* Each artist the publication is about is listed in ''Featured artists'', with the right switches.
+Then tick ''Public''.
+
+== Common pitfalls ==
+* '''Duplicates.''' Before creating a publication, search for it; it may have been entered for another artist.
+* '''Missing from the bibliography.''' When a publication does not appear in an artist's bibliography, check ''Featured artists'' first: usually the artist's entry, or its ''Use In Web'' switch, is missing.
+* '''Empty byline.''' Authors entered with another role, such as ''writer'', do not appear in the byline.
+* '''Title and containing work mixed up.''' For an article, the article's title goes into ''Title'', the magazine or book into ''Publication''.
+* '''Mirror relations.''' A relation between two publications is entered once.
+
+== See also ==
+* [[Objects#Literature and exhibitions|Literature and exhibitions of an artwork]]
+* [[Events]]
+* [[Directory]]
+* [[Field reference]]
+
+{{Editor guide}}
