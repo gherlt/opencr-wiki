@@ -1,0 +1,59 @@
+{{Draft}}
+The page of an artwork (''Object details'') brings together everything the catalogue knows about one work. Not every work has every section: a section appears only when the catalogue has information for it.
+
+== At the top ==
+* '''Images''' of the work. Click an image to enlarge it. For a suite, the page shows the images of the works in the suite.
+* The '''artist''' and the work's '''Reference''': its number in the catalogue raisonné.
+* The '''title''', the '''type of work''' (painting, print, sculpture and so on), the '''date''' and the '''place''' of creation. Dates can be approximate; words such as ''approximate'', ''before'' or ''after'' say how certain they are.
+* For works in a '''suite''' (a series such as a portfolio of prints): the suite they belong to and their position in it. On the suite itself: the works it includes.
+* The '''materials and techniques''', for example oil on canvas or etching on paper.
+
+== Description ==
+{| class="wikitable"
+! Section !! What it contains
+|-
+| '''Attributes''' || Signatures, dates, numbers, stamps and other marks on the work, with what they say and where they are, for example ''signed and dated, front bottom right''
+|-
+| '''Dimensions''' || The measurements, for example height × width × depth in cm, often several: for the image, the sheet or the frame. Qualifiers such as ''sight'' (measured within the frame) or ''approximate'' say how they were taken.
+|-
+| '''Parts of the object''' || For works made of several pieces, such as a triptych: each part with its own data
+|-
+| '''Editions''' || For prints and sculptures: the editions, such as the regular edition, artist's proofs or casts, with their number and numbering
+|-
+| '''Location''' || Where the work is today, where this may be published
+|-
+| '''Other Titles''' || Further titles of the work: translations, alternative titles, or titles used in particular publications or by particular owners
+|-
+| '''Notes''' || Further information from the catalogue's authors
+|}
+
+== History ==
+{| class="wikitable"
+! Section !! What it contains
+|-
+| '''Agents''' || People and institutions involved in making the work: printer, publisher, foundry, collaborators
+|-
+| '''Dates''' || Dated events in the work's life: when it was finished, printed, signed, restored and so on
+|-
+| '''Exhibitions''' || The exhibitions where the work was shown
+|-
+| '''Provenance''' || The previous and present owners, with their periods of ownership, as far as they may be published
+|-
+| '''References''' || The publications in which the work is mentioned or illustrated, with page and illustration number
+|-
+| '''Related objects''' || Links to other works: studies, versions, copies, models and similar
+|-
+| '''Tags''' || The artist's keywords for the work; click one to see all works with it
+|}
+
+Names of people, institutions, exhibitions and publications are usually links: they lead to the respective page, for example to everything the catalogue holds about a gallery.
+
+== At the bottom ==
+* Who provided the data, and the '''copyright''' notice for the images.
+* '''Share with others''': links to share the page.
+* '''Contact the artist''': ways to contact the artist or the catalogue's authors, as far as they publish them. ''email through open.cr'' opens your own email program with a message to the artist's address at openCR. Use it to ask a question about the work or to share information, for example if you own the work or know of an exhibition that is missing.
+
+== Works for sale ==
+If a work is offered for sale by a gallery, a dealer or the artist, the page shows the offer under '''Adverts related to this object''', with the seller, the condition, the price or "price on request", and a link to the seller.
+
+{{Visitor guide}}

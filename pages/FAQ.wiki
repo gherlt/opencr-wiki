@@ -1,0 +1,51 @@
+{{Draft}}
+== About openCR ==
+; What is openCR?
+: A platform on which artists, their heirs and catalogue editors compile and publish catalogues raisonnés. See [[Visiting openCR]] for a tour, and ''About the project'' on [https://open.cr open.cr].
+
+; Is it free?
+: Consulting the catalogues is free, and you do not need an account.
+
+; Do I need an account?
+: Only for the personal tools, such as bookmarking works, and to work on a catalogue. See [[Your account]].
+
+; Is openCR a shop?
+: No. openCR documents works; it does not sell them. Galleries, dealers or the artist can show offers for single works, which then appear on the work's page with a link to the seller.
+
+== Using the catalogues ==
+; In which languages can I use openCR?
+: The site can be shown in English, Spanish and German. Standard terms, such as the types of works and materials, follow the language you choose; texts written by the catalogue's authors appear in the languages in which they were written.
+
+; Why are some items of an artist's menu grey?
+: The catalogue has no entries of that kind yet, for example no exhibitions.
+
+; Why can't I find a particular work?
+: Check the filters on the artist's ''Objects'' page; works without a known year only appear with ''with Unknown date''. Catalogues are built up over time, so the work may not be published yet. See [[Browsing a catalogue]].
+
+; Where does the information come from, and how reliable is it?
+: From the artist, the heirs or the catalogue's editors, who decide what is published. Each work's page says who provided the data. Uncertain information is marked as such, for example with ''approximate'' or ''before''.
+
+; Why does a work's history show no owner names?
+: Owners are named only with their consent. Many collectors prefer to remain anonymous.
+
+; Can I use the images?
+: No. The images of works are protected by copyright, which belongs to the artists or their heirs. The texts of this wiki are under a [[OpenCR Wiki:Copyrights|separate licence]] that does not cover images of works.
+
+== Contributing information ==
+; I own a work by an artist on openCR. What can I do?
+: Use '''Contact the artist''' on a page of the artist's work, or the contact form of openCR. The catalogue's authors decide whether and how your work is included, and whether your name is published.
+
+; I have found a mistake.
+: Write to the artist or the catalogue's authors through '''Contact the artist''' on the work's page, or use the contact form of openCR.
+
+== For artists and heirs ==
+; Can I have my catalogue on openCR?
+: Artists and the heirs of an artist can. Because images of works may only be published by their rightful owners, new catalogue editors are verified before they can enter data, and they accept the legal conditions. Get in touch through the contact form of openCR.
+
+; I already have a list of works in a spreadsheet or a database. Does that help?
+: Yes. Structured data can be imported; describe your case through the contact form.
+
+; Where do I learn how to build a catalogue?
+: In the editor guide of this wiki, starting with [[How openCR is structured]] and [[Building a catalogue raisonné]].
+
+{{Visitor guide}}

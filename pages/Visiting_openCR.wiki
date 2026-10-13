@@ -1,0 +1,51 @@
+{{Draft}}
+[https://open.cr openCR] publishes the catalogues raisonnés of several artists: complete, documented records of their works, with images, materials, measurements, ownership history, exhibitions and literature. Everything you can see on the site is free to consult; you do not need an account.
+
+This page is a short tour. The following pages go into detail: [[Browsing a catalogue]], [[Reading an artwork page]] and [[Biography, bibliography and exhibitions]].
+
+== The start page ==
+The start page lists every artist whose catalogue is published, with their years of birth and death, and shows how many works the site contains in total. Click an artist to open their catalogue.
+
+The menu at the top leads to:
+* '''Home''': the start page;
+* '''About the project''': what openCR is and who it is for;
+* '''Artists''': the list of all artists;
+* '''Contact''': a form to write to the openCR team;
+* '''Log in''' and '''Register''': see [[Your account]];
+* the '''language''' of the site.
+
+== Languages ==
+The site can be shown in '''English''', '''Spanish''' or '''German'''; switch with the language entry in the menu. The interface, the names of types and materials and most other standard terms change with the language. Texts written by the catalogue's authors, such as titles, biographies and descriptions, appear in the languages in which they were written. A biography that has not been written in your language is not shown, so if a page seems to lack its biography, try another language.
+
+== An artist's catalogue ==
+Each artist's page opens with a menu that leads through their catalogue:
+
+{| class="wikitable"
+! Menu item !! What it shows
+|-
+| '''Biography''' || The artist's chronology: dated events of their life and career, such as grants, commissions, lectures and foundations
+|-
+| '''Objects''' || The works, with a search form to filter and sort them (see [[Browsing a catalogue]])
+|-
+| '''Bibliography''' || The literature about the artist and the works
+|-
+| '''Exhibitions''' || The exhibitions in which the artist took part
+|-
+| '''Awards''' || Prizes and distinctions
+|-
+| '''PRO menu''' || The working area for the catalogue's editors (only for registered editors)
+|}
+
+A menu item shown in '''grey''' means that the catalogue has no entries of that kind yet.
+
+Below the menu, the artist's page shows the basic data and the biography text, and offers quick ways into the works: '''Discover by object type''', '''Discover by years''' and '''Discover by tags''', and the '''Last added objects'''. '''More artist details''' leads to a fuller page with contact details, other names and relations of the artist, as far as they are published.
+
+== Searching ==
+The '''search''' field at the top of the page (a magnifying glass on the start page) searches all published catalogues at once. Enter a word, for example part of a title, a name or a place. The results are grouped by kind (artists, objects, events, publications and directory entries such as galleries or collectors) with the number of hits for each; open a group to see the entries.
+
+To search within one artist's works, with filters for type, year and keywords, use the artist's '''Objects''' page instead (see [[Browsing a catalogue]]).
+
+== What you see, and what you don't ==
+A catalogue is built up over time, and its authors decide what is published. Some information is deliberately not shown, for example private owners who wish to remain anonymous, or the prices of sales. A work that is not yet on the site may simply not be published yet. If you have information about a work, you can write to the artist or the catalogue's authors (see [[FAQ]]).
+
+{{Visitor guide}}

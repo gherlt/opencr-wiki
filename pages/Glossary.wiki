@@ -1,0 +1,88 @@
+{{Draft}}
+Terms used in catalogues raisonnés and on openCR, in alphabetical order.
+
+; Agent
+: A person or institution involved in making or publishing a work: printer, publisher, foundry, photographer, collaborator. On openCR, agents are [[#Directory|directory]] entries.
+
+; Artist's proof (A.P., E.A., P.A.)
+: Impressions of a print set aside for the artist, outside the numbered edition. Marked ''A.P.'' (artist's proof), ''E.A.'' (épreuve d'artiste) or ''P.A.'' (prueba de artista).
+
+; Attribute
+: On openCR, any mark on a work: signature, monogram, date, number, stamp, die stamp, watermark, inscription. Recorded with its position on the work and, where possible, a transcription.
+
+; Bon à tirer (BAT)
+: "Good to print": the proof approved by the artist as the model for the whole edition.
+
+; Cast
+: One copy of a sculpture made from a mould, for example in bronze. A sculpture edition consists of a number of casts.
+
+; Catalogue raisonné
+: A complete, scholarly record of all known works of an artist (or of all works of one kind, such as the prints), with images, technical data, dates, ownership history, exhibitions and literature for each work.
+
+; Component
+: On openCR, a material, support or technique of a work, for example oil, canvas, paper or etching.
+
+; Directory
+: On openCR, the register of all people and institutions: owners, galleries, museums, printers, publishers, photographers, authors. One entry can appear in several catalogues.
+
+; Edition
+: The set of impressions printed from one plate, stone or block (for prints), or of casts made from one model (for sculptures), usually limited and numbered, for example ''1/75 to 75/75''.
+
+; Hors commerce (H.C.)
+: "Not for sale": impressions outside the numbered edition, originally intended for the printer, publisher or promotion.
+
+; Impression
+: A single print taken from a plate, stone or block.
+
+; Internal reference
+: The number of a work in the catalogue raisonné.
+
+; LIDO
+: A data format for exchanging information about museum objects. Some openCR records were imported from LIDO files.
+
+; Measurement extent
+: What a measurement refers to: the image, the sheet, the plate, the frame and so on. A print can have several measurements, one per extent.
+
+; Monogram
+: Initials of the artist used instead of a full signature.
+
+; Multiple
+: A work produced in several identical copies by design, often in an edition.
+
+; Multi-part work
+: One work consisting of several pieces, such as a diptych or a triptych. On openCR, its pieces are ''parts''.
+
+; Posthumous edition
+: An edition printed or cast after the artist's death, usually authorised by the heirs or the estate.
+
+; Printer's proof (P.P.)
+: An impression set aside for the printer.
+
+; Print run (tirage)
+: The total number of impressions of a print.
+
+; Provenance
+: The history of a work's ownership, from the artist to the present owner.
+
+; Qualifier
+: A word that states how certain or how exact a value is: ''approximate'', ''before'', ''after'', ''at the earliest'', ''at latest'' for dates; ''sight'', ''maximum'', ''framed'' and others for measurements.
+
+; Recto, verso
+: The front and the back of a sheet or a painting.
+
+; Sight size
+: The measurement of the visible part of a framed work, taken within the frame or mount.
+
+; Suite
+: A series of separately catalogued works conceived as a whole, such as a portfolio of prints. On openCR, a suite is a record of its own, and each member shows its position in the suite.
+
+; Tag
+: A keyword the artist's catalogue uses to group works, for example a period, a style, a topic or a place.
+
+; Trial proof
+: An impression printed while the plate is still being worked on, to check its state.
+
+; Watermark
+: A design in the paper, visible against the light, that identifies the paper maker or the paper.
+
+{{Visitor guide}}

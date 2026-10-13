@@ -1,0 +1,7 @@
+<div style="border:1px solid #a2a9b1; background:#f8f9fa; color:#202122; padding:0.5em 1em; margin-top:2em; clear:both;">
+'''Visitor guide:''' [[Visiting openCR]] · [[Browsing a catalogue]] · [[Reading an artwork page]] · [[Biography, bibliography and exhibitions]] · [[Your account]] · [[Glossary]] · [[FAQ]]
+</div><includeonly>[[Category:Visitor guide]]</includeonly><noinclude>
+Navigation box for the pages of the visitor guide. Place <code><nowiki>{{Visitor guide}}</nowiki></code> at the bottom of each visitor page; it also adds the page to [[:Category:Visitor guide]].
+
+[[Category:Templates]]
+</noinclude>

@@ -3,7 +3,7 @@ __NOTOC__
 '''openCR''' is a platform for compiling, publishing and consulting '''catalogues raisonnés''': complete, scholarly records of an artist's work. For every artwork, a catalogue raisonné documents its images, materials, measurements, inscriptions, ownership history, exhibitions and the literature that mentions it.
 </div>
 
-This wiki explains how openCR works. It is written first for the people who build catalogues on openCR, the '''artist administrators''', and will later also cover visitors who consult the catalogues.
+This wiki explains how openCR works. It is written for the people who build catalogues on openCR, the '''artist administrators''', and for the visitors who consult them.
 
 <div style="border:1px solid #a2a9b1; background:#f8f9fa; color:#202122; padding:0.5em 1em; margin:1em 0;">The wiki is under construction. Pages marked as ''draft'' may still change.</div>
 
@@ -15,7 +15,12 @@ This wiki explains how openCR works. It is written first for the people who buil
 * '''[[Field reference]]''': every field of every form, explained
 
 == For visitors ==
-Coming later: how to find an artist, browse and search the artworks of a catalogue, and read an artwork page.
+* '''[[Visiting openCR]]''': a short tour of the site, its languages and the search
+* '''[[Browsing a catalogue]]''': finding, filtering and sorting an artist's works
+* '''[[Reading an artwork page]]''': what each section of a work's page tells you
+* '''[[Biography, bibliography and exhibitions]]''': the artist's chronology, literature, exhibitions and awards
+* '''[[Your account]]''': registering, favourites and the cart
+* '''[[Glossary]]''' and '''[[FAQ]]'''
 
 == About this wiki ==
 The English pages are the reference version; translations will follow. See [[OpenCR Wiki:Copyrights|copyright and licence]] for how the content may be reused.
