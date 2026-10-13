@@ -1,0 +1,79 @@
+{{Draft}}
+The '''directory''' is the single register of every person, organisation and institution that appears anywhere in openCR: collectors and owners, galleries and dealers, museums and foundations, auction houses, printers and foundries, publishers, photographers, authors, curators, sponsors and lenders. Every other entity points to it: an artwork's owners and agents, a publication's authors, an event's organisers, an artist's gallerist.
+
+The directory is shared by all catalogues. A museum holding works by several artists exists only once. This page explains how directory entries are recorded and how to control what the public sees of them. For the list of sections, see [[How openCR is structured/Records and their sections#Directory|Records and their sections]]; for every single field, see the [[Field reference]].
+
+== Before creating an entry ==
+* '''Search first.''' The person or institution may already exist, entered for another artist. Duplicates split the information about one owner or gallery across two records.
+* '''Choose the short name carefully.''' The ''Alias'' is what appears in every list where a directory entry can be picked, and the directory is picked everywhere. Make it unique and recognisable. A renamed alias changes in every list at once, which is correct but can surprise others who work with the entry.
+
+== The main form ==
+* '''TypeOfID''': ''Person'', ''Private organization'' or ''Public organization''.
+* '''Name 1''' and '''Name 2''': for a person, typically first name and surname; for an organisation, the full name in ''Name 1'', with ''Name 2'' left empty.
+* '''Alias''': the short name (see above).
+* '''Comments''': internal notes; not published.
+* '''Public''': publishes the entry. Leave it unticked until it is complete.
+* The three privacy ticks described [[#What the public sees|below]].
+
+Quick creation is also possible with '''Easy directory creation''' in the ''PRO menu''.
+
+== Sections ==
+* '''Activities''': what the entry does. The list mixes roles of people with kinds of institutions: Gallery, Publisher, Photographer, Curator, Printer, Writer, Museum, Auction house, Foundry, Foundation, University and many more. An entry can have several activities, for example both ''Gallery'' and ''Publisher''.
+* '''Contact inform.''': phone, mobile, fax, email, website and social media. Each entry has its own ''Public'' tick, so a public website and a private phone number can sit side by side.
+* '''Directory Relations''': links to other directory entries: works for, is member of, is founder of, is owner of, is sponsor of, is teacher of, is colleague of, is successor of, has taken over, has absorbed, is related (family), knows and others. A relation can carry the period during which it existed. Enter each relation once; the reverse direction (such as ''is student of'' for ''is teacher of'') is shown automatically.
+* '''Directory Artists''': the artists' catalogues in which the entry is used (see [[#Shared between catalogues|below]]).
+
+The form also shows where the entry appears elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
+
+== What the public sees ==
+The directory holds sensitive information: who owns what, who bought what and for how much. Several settings work together:
+
+{| class="wikitable"
+! Setting !! Effect
+|-
+| '''Public''' || Unticked: the entry is visible to editors only.
+|-
+| '''Piravte collection''' || The entry does not appear in artists' lists of collections holding their works.
+|-
+| '''Provenance: private ?''' || The entry does not appear in the ownership histories of artworks.
+|-
+| '''transactions: private ?''' || The entry does not appear in the sales history of artworks.
+|-
+| '''Limited To Artist ID''' || The entry is used only within one artist's catalogue and is invisible to all others.
+|-
+| ''Public'' of single entries || Contact details and other single entries can be hidden one by one.
+|}
+
+The settings can be combined freely. A typical case: a collector agrees to be named as the owner of works, but not to have their purchases published. Then the entry is public, while ''transactions: private ?'' is ticked.
+
+The privacy ticks work across all artworks at once. To hide just one entry of one artwork's ownership history, untick ''Public'' on that entry instead.
+
+== Shared between catalogues ==
+Because the directory is shared, an entry can be used in several artists' catalogues. Two settings control this:
+* '''Directory Artists''' lists the catalogues an entry is used in. It is a visibility setting, not a relationship. To record that a gallery represents an artist, add a relation in the [[Artists#Contacts, relations and collections|artist's Relations]] instead.
+* '''Limited To Artist ID''' restricts an entry to a single artist's catalogue. This suits, for example, a private collector known only in connection with one artist. Use it sparingly: such an entry cannot be used by any other catalogue.
+
+Changes to a shared entry show up in every catalogue that uses it. Entries used by several artists' catalogues can only be deleted by someone with editing rights for all of them; in practice, ask the platform administrator.
+
+== Before publishing ==
+* Type, names and alias are complete.
+* Activities are recorded.
+* The privacy ticks match what the person or institution has agreed to.
+* Only contact details that may be public are ticked ''Public''.
+Then tick ''Public''.
+
+== Common pitfalls ==
+* '''Duplicates.''' Search before creating; the entry may exist for another artist.
+* '''Public, but hidden everywhere.''' An entry with ''Public'' ticked but all three privacy ticks set is effectively invisible. When an owner unexpectedly does not show up, check these ticks.
+* '''Directory Artists used as a relationship.''' A gallerist, publisher or collector of an artist is recorded in the artist's ''Relations''.
+* '''Mirror relations.''' A relation between two directory entries is entered once.
+* '''The artist as a directory entry.''' When the artist themselves owned a work or performed an action, use the tick for the artist in that entry (see [[Objects#People and history|Objects]]) instead of creating a directory entry for the artist.
+
+== See also ==
+* [[Objects#People and history|People and history of an artwork]]
+* [[Artists#Contacts, relations and collections|Relations of an artist]]
+* [[Publications]]
+* [[Events]]
+* [[Field reference]]
+
+{{Editor guide}}
