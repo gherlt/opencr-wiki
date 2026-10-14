@@ -1,0 +1,137 @@
+<!--T:Page display title-->
+Werke
+
+<!--T:1-->
+'''Werke''' sind die Kunstwerke eines Werkverzeichnisses: jedes Gemälde, jede Grafik, Skulptur, Zeichnung und Fotografie, jedes Buch und jede Installation, die der Künstler geschaffen hat. Sie sind das Herz eines Werkverzeichnisses und der Datensatz mit den meisten Details. Jedes Werk gehört zum Werkverzeichnis eines Künstlers.
+
+<!--T:2-->
+Diese Seite erklärt, wie ein Werk aufgebaut ist und worauf zu achten ist. Die Liste aller Abschnitte finden Sie unter [[How openCR is structured/Records and their sections/de|Datensätze und ihre Abschnitte]], jedes einzelne Feld in der [[Field reference/de|Feldreferenz]].
+
+<!--T:3-->
+== Ein Werk anlegen ==
+Es gibt mehrere Wege, die alle zum gleichen Datensatz führen:
+* '''Einfache Objekterstellung''' im ''PRO Menü'': der schnelle Weg, ein einzelnes Werk hinzuzufügen.
+* '''Neuen Datensatz einfügen''' im ''PRO Menü'': das vollständige Formular.
+* '''Massen New Objects Upload''': legt für einen ganzen Ordner auf einmal je hochgeladener Abbildung ein Werk an. Sie wählen den Objekttyp und ein vorgegebenes Entstehungsjahr für den ganzen Stapel; Titel, Materialien, Maße und alles andere ergänzen Sie danach Werk für Werk.
+
+<!--T:4-->
+Gleich auf welchem Weg: Ein neues Werk beginnt ohne Haken bei ''Veröffentlichbar'' und bleibt so ein Entwurf, bis Sie es veröffentlichen.
+
+<!--T:5-->
+== Das Hauptformular ==
+Das Hauptformular enthält die Grunddaten des Werks.
+
+<!--T:6-->
+=== Identität und Titel ===
+* '''Titel''' ist der Haupttitel des Werks. Bei Werken ohne Titel entfernen Sie den Haken bei '''Hat Titel''': Das Werkverzeichnis zeigt dann „Ohne Titel“. Lassen Sie ''Titel'' in diesem Fall leer. Ein dort gespeicherter Titel würde trotzdem von der Suche gefunden, was Nutzer verwirrt.
+* '''Interne Referenz''' ist meist die Werkverzeichnisnummer. Sie ist durchsuchbar und wird gut sichtbar angezeigt; verwenden Sie daher durchgehend ein einheitliches Schema (siehe [[Building a catalogue raisonné/de#Vor dem Start: Entscheidungen|Vor dem Start]]).
+* Weitere Titel, etwa übersetzte Titel oder in bestimmten Publikationen verwendete Titel, gehören in den Abschnitt '''Titel''', nicht in den Haupttitel.
+
+<!--T:7-->
+=== Klassifizierung ===
+* '''Art von Werk''' gibt an, was für ein Werk es ist: Gemälde, Grafik, Skulptur, Zeichnung, Fotografie, Installation usw. Das Feld ist Pflicht und entscheidet, welche typspezifischen Felder gelten (siehe unten).
+* '''Art des Datensatzes''' ist ''Hauptdaten'' für das Kunstwerk selbst. Wählen Sie ''Korrekturdaten'' oder ''Ergänzungsdaten'' nur für einen zusätzlichen Datensatz, der ein bestehendes Werk korrigiert oder ergänzt, und verknüpfen Sie ihn über '''Übergeordnetes Objekt''' mit diesem Werk. Solche Datensätze erscheinen nie als eigene Werke.
+* '''Art der Datenquelle''' hält fest, aus welcher Art von Quelle die Angaben stammen: vom Künstler, aus einem Werkverzeichnis, aus einem Ausstellungskatalog, aus einer Untersuchung des Objekts, vom Drucker, vom Eigentümer, von den Erben usw.
+
+<!--T:8-->
+=== Datum und Ort der Entstehung ===
+* Erfassen Sie, was bekannt ist: '''Jahr Erschaffung''' und, soweit bekannt, '''Monat Erschaffung''' und '''Erschaffungsdatum'''.
+* Für einen Zeitraum von mehreren Jahren enthält das Feld ''All Creation Year From'' das erste und ''Jahr Erschaffung'' das letzte Jahr.
+* Klassifizieren Sie unsichere Datierungen (geschätzt, vor, nach, frühestens usw.), statt sie leer zu lassen.
+* '''Ort der Erschaffung''' und das Land halten fest, wo das Werk entstanden ist.
+
+<!--T:9-->
+=== Typspezifische Felder ===
+Je nach Objekttyp gelten weitere Felder:
+* '''Grafiken:''' Papier, Wasserzeichen, Papiergewicht, Zahl der Platten und Farben sowie die Gesamtauflage (''Print Tirage'') mit ihrer Klassifikation.
+* '''Skulpturen:''' Material, Material des Modells, ob ein Modell existiert und ob das Werk ein Multiple ist.
+* '''Unikate:''' der heutige Standort und der Erhaltungszustand.
+
+<!--T:10-->
+=== Interne Notizen ===
+Das Feld '''Anmerkungen''' im Hauptformular ist nur für die Bearbeiter und wird nie veröffentlicht. Notizen für die Leser gehören in den Abschnitt '''Notizen/Kommentare''', ein Eintrag je Sprache.
+
+<!--T:11-->
+== Das Werk beschreiben ==
+* '''Komponenten''': woraus das Werk besteht, etwa Öl auf Leinwand oder Radierung auf Papier. Die Liste der Materialien ist lang; tippen Sie, um darin zu suchen.
+* '''Objektmaße''': die Abmessungen, mit bis zu drei Werten (meist Höhe × Breite × Tiefe), einer Einheit und einer Klassifikation für jeden Wert. Legen Sie einen Eintrag je gemessenem Bezug an, zum Beispiel Bild, Blatt und Rahmen.
+* '''Werkeigenschaften''': jedes Zeichen auf dem Werk: signiert, datiert, nummeriert, gestempelt, monogrammiert, mit Wasserzeichen und vieles mehr. Jeder Eintrag hat eine Position auf dem Werk (Vorder- oder Rückseite, in einem Raster von Positionen, Ecken und Rändern) und die Transkription des Geschriebenen.
+
+<!--T:12-->
+== Mehrteilige Werke, Suiten und Auflagen ==
+Mehrere Strukturen beschreiben Werke, die aus mehr als einem Stück bestehen oder zu einer Gruppe gehören. Die Seite [[Relations/de|Beziehungen]] erklärt sie im Einzelnen; kurz gesagt:
+* '''Bestandteile''': ein Werk aus mehreren Stücken, etwa ein Triptychon. Legen Sie die Bestandteile '''zuerst''' an: Dann können sich andere Abschnitte (Abbildungen, Maße, Werkeigenschaften, Notizen und mehr) auf einen einzelnen Teil beziehen.
+* '''Suiten''': einzeln verzeichnete Werke, die eine Serie bilden, etwa eine Grafikmappe. Die Suite selbst ist ein Datensatz, bei dem '''Ist es eine Suite ?''' angehakt ist; jedes zugehörige Werk verweist auf sie (''ID zugehörige Suite'') und hat seine Position in der Serie.
+* '''Auflagen''' (Grafik): ein Eintrag je Auflage: die reguläre Auflage, Künstlerexemplare, Zustandsdrucke, das ''Bon à tirer'' usw., jeweils mit Zahl der Abzüge und Nummerierung.
+* '''Auflagen Skulptur''': die Güsse einer Skulptur.
+* '''Objektbeziehungen''': Verknüpfungen wie ''Studie für'', ''Kopie von'' oder ''Version von''. Erfassen Sie jede Verknüpfung einmal; die umgekehrte Richtung wird automatisch angezeigt.
+
+<!--T:13-->
+{| class="wikitable"
+! Frage !! Dann verwenden Sie
+|-
+| Ist es ein Werk aus mehreren Stücken, mit einem gemeinsamen Titel und Datum? || '''Bestandteile'''
+|-
+| Sind es eigenständige Werke mit jeweils eigenem Titel und Datum, die eine Serie bilden? || '''Suite'''
+|}
+
+<!--T:14-->
+== Personen und Geschichte ==
+* '''Beteiligte''': die Personen und Institutionen, die mit dem Werk zu tun haben: Drucker, Verleger, Gießerei, Fotograf, Mitautor und andere.
+* '''Provenienz''': die Geschichte der Eigentümer, ein Eintrag je Eigentümer mit dem Besitzzeitraum. Nutzen Sie das Feld für die Reihenfolge, um die Abfolge richtig zu halten, wenn Datierungen unvollständig sind.
+* '''Transaktionen''': Verkäufe und Auktionen, mit Datum, Preis und Währung, Schätzwerten, Losnummer, Verkäufer, Käufer und Vermittler. Die verfügbaren Arten sind Atelierverkauf, Ausstellungs- oder Messeverkauf, Privatverkauf, klassische oder Internet-Auktion, Galerieverkauf und Verkauf durch den Verleger.
+* '''Objects Actions''': datierte Ereignisse im Leben des Werks: fertiggestellt, gedruckt, signiert, ausgestellt, restauriert, zerstört und vieles mehr.
+
+<!--T:15-->
+War der Künstler selbst Eigentümer oder Handelnder, haken Sie das entsprechende Feld an, statt einen Adressbucheintrag für den Künstler anzulegen. Es heißt je nach Abschnitt ''Vom Künstler selbst'' oder ''Author Itself''. Ist es angehakt, zeigt das Werkverzeichnis den Künstler und ignoriert einen im selben Eintrag gewählten Adressbucheintrag.
+
+<!--T:16-->
+Provenienzen und Verkäufe sind heikel. Erfassen Sie sie, ohne ''Veröffentlichbar'' des Eintrags anzuhaken, und veröffentlichen Sie sie nur mit Zustimmung der Eigentümer. Ein Adressbucheintrag kann auch insgesamt aus Provenienzen oder Verkäufen ausgeblendet werden (siehe [[Directory/de|Adressbuch]]).
+
+<!--T:17-->
+== Literatur und Ausstellungen ==
+* '''Referenzen''': jede Publikation, in der das Werk erwähnt oder abgebildet ist, mit Seite, Abbildungsnummer und der Angabe, ob die Abbildung farbig ist. Wählen Sie die Publikation immer aus der Liste; verwenden Sie die Freitext-Referenz nur, wenn die Publikation nicht in openCR erfasst werden kann.
+* '''Ausstellungen''': die Ausstellungen, in denen das Werk gezeigt wurde. Jede Ausstellung ist ein [[Events/de|Ereignis]]. Der Eintrag kann auch den Leihgeber und den Titel festhalten, unter dem das Werk gezeigt wurde.
+
+<!--T:18-->
+Beide Listen lassen sich auch von der anderen Seite aus füllen: von der [[Publications/de|Publikation]] oder vom [[Events/de|Ereignis]] aus.
+
+<!--T:19-->
+== Abbildungen ==
+Laden Sie Abbildungen beim Werk hoch oder für viele Werke auf einmal mit ''Massen New Objects Upload''. Für jede Abbildung gilt:
+* Markieren Sie '''genau eine''' Abbildung je Werk als '''Is Main Image Web''': Sie wird zum Vorschaubild in Listen und Galerien. Ohne eine solche erscheint das Werk als leere Kachel; bei mehreren wird das Vorschaubild unvorhersehbar gewählt.
+* '''Use For Web''' und '''Use For CR''' entscheiden getrennt, ob die Abbildung auf der Website und im gedruckten Werkverzeichnis erscheint.
+* Nennen Sie den Fotografen ('''Fotograf'''), beschreiben Sie, was die Abbildung zeigt (Vorderseite, Rückseite, Detail, Signatur), und verwenden Sie den eigenen Haken ''Veröffentlichbar'' der Abbildung.
+* Eine Abbildung gehört zu genau einer Sache: dem ganzen Werk, einem seiner Bestandteile oder einer seiner Auflagen.
+* Benennen Sie eine Bilddatei nie von Hand um, und entfernen Sie Abbildungen nur über die Bildwerkzeuge. Sonst laufen Werkverzeichnis und gespeicherte Dateien auseinander.
+
+<!--T:20-->
+== Tags ==
+'''Tags Inhalt''' ordnet dem Werk die eigenen Schlagwörter des Künstlers zu (Epochen, Stile, Perioden, Themen, Orte). Die Schlagwörter selbst werden einmal je Künstler festgelegt, im Abschnitt ''Tags'' des [[Artists/de|Künstlers]].
+
+<!--T:21-->
+== Vor dem Veröffentlichen ==
+Prüfen Sie, ob das Werk Folgendes hat:
+* einen Titel oder, bei einem Werk ohne Titel, ''Hat Titel'' ohne Haken;
+* eine ''Art von Werk'';
+* genau ein Hauptbild für das Web;
+* Materialien, Maße und ein Entstehungsjahr, soweit bekannt;
+* nur diejenigen Provenienz- und Verkaufseinträge öffentlich, die öffentlich sein dürfen.
+
+<!--T:22-->
+Das ''PRO Menü'' bietet '''Überprüfungslisten''', die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Haken Sie dann ''Veröffentlichbar'' an.
+
+<!--T:23-->
+== Häufige Fehler ==
+* '''Weitere Titel im Haupttitel.''' Halten Sie den Haupttitel sauber; Übersetzungen und Alternativen gehören in ''Titel''.
+* '''Zu spät angelegte Bestandteile.''' Werden die Bestandteile erst nach den Abbildungen und Maßen angelegt, muss jeder dieser Einträge noch einmal geöffnet werden, um ihn seinem Teil zuzuordnen.
+* '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Werken wird einmal erfasst, bei einem der beiden. Wird auch die Gegenrichtung erfasst, erscheint sie doppelt.
+* '''Umnummerieren.''' Werkverzeichnisnummern und Positionen in einer Suite werden von anderen zitiert. Legen Sie das Schema früh fest und vermeiden Sie spätere Umnummerierungen.
+* '''Löschen statt verbergen.''' Ein Werk zu löschen ist endgültig. Verweist etwas darauf, entfernen Sie stattdessen den Haken bei ''Veröffentlichbar''.
+
+<!--T:24-->
+== Siehe auch ==
+* [[How openCR is structured/Records and their sections/de|Datensätze und ihre Abschnitte]]
+* [[Relations/de|Beziehungen]]
+* [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]]
+* [[Field reference/de|Feldreferenz]]

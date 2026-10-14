@@ -1,0 +1,3 @@
+<!--T:1-->
+'''Guía para editores:''' [[How openCR is structured/es|Cómo está estructurado openCR]] · [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]] · [[Relations/es|Relaciones]] · [[Field reference/es|Referencia de campos]]<br />
+'''Entidades:''' [[Artists/es|Artistas]] · [[Objects/es|Obras]] · [[Publications/es|Publicaciones]] · [[Events/es|Eventos]] · [[Directory/es|Directorio]] · [[Dealers and offers/es|Marchantes y ofertas]]

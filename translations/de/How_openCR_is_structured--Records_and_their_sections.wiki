@@ -1,0 +1,127 @@
+<!--T:Page display title-->
+Datensätze und ihre Abschnitte
+
+<!--T:1-->
+Jeder Datensatz in openCR hat ein '''Hauptformular''' mit seinen Grunddaten und '''Abschnitte''' für Angaben, die mehr als einmal vorkommen können. Ein Werk kann zum Beispiel mehrere Titel, mehrere Maße (Bild, Blatt, Rahmen) und eine lange Provenienz haben; jede dieser Angaben ist eine Liste von Einträgen in einem eigenen Abschnitt.
+
+<!--T:2-->
+Diese Seite listet die Abschnitte jeder Entität auf, so benannt, wie sie in den Formularen erscheinen. Für den Überblick siehe [[How openCR is structured/de|Wie openCR aufgebaut ist]].
+
+<!--T:3-->
+== Werke ==
+{| class="wikitable"
+! Abschnitt !! Was hier erfasst wird
+|-
+| Titel || Weitere Titel des Werks: alternative, übersetzte oder in einer bestimmten Publikation verwendete
+|-
+| Komponenten || Woraus das Werk besteht: Öl, Leinwand, Papier, Acryl, Radierung usw.
+|-
+| Objektmaße || Die Maße, ein Eintrag je gemessenem Bezug (zum Beispiel Bild, Blatt, Rahmen)
+|-
+| Werkeigenschaften || Zeichen und Inschriften: signiert, datiert, nummeriert, gestempelt, mit Position und Transkription
+|-
+| Bestandteile || Die benannten Teile eines mehrteiligen Werks, etwa die Tafeln eines Triptychons
+|-
+| Abbildungen || Fotografien des Werks
+|-
+| Auflagen || Die Auflagen einer Grafik: reguläre Auflage, Künstlerexemplare, Zustandsdrucke usw.
+|-
+| Auflagen Skulptur || Die Güsse einer Skulptur
+|-
+| Beteiligte || Personen und Institutionen, die mit dem Werk zu tun haben: Drucker, Verleger, Gießerei, Fotograf, Mitautor
+|-
+| Referenzen || Die Literatur, die das Werk erwähnt oder abbildet
+|-
+| Provenienz || Die Geschichte der Eigentümer
+|-
+| Transaktionen || Verkäufe und Auktionen
+|-
+| Ausstellungen || Die Ausstellungen, in denen das Werk gezeigt wurde
+|-
+| Notizen/Kommentare || Zur Veröffentlichung bestimmte Notizen zum Werk
+|-
+| Tags Inhalt || Die Tags des Künstlers, die zu diesem Werk passen
+|-
+| Objektbeziehungen || Links zu anderen Werken: Studie für, Kopie von, Version von und Ähnliches
+|-
+| Objects Actions || Datierte Ereignisse im Leben des Werks, etwa Signieren, Drucken oder Restaurieren
+|}
+
+<!--T:4-->
+== Künstler ==
+{| class="wikitable"
+! Abschnitt !! Was hier erfasst wird
+|-
+| Biographien || Die Biographietexte, einer je Sprache und Art (Lebenslauf oder kunsthistorische Biographie)
+|-
+| Kommunikationsmedium || Telefonnummern, E-Mail-Adressen, Websites, soziale Medien
+|-
+| Beziehungen || Verknüpfungen mit Personen und Institutionen: Galerist, Verleger, Familie, Mentor, Erbe und andere
+|-
+| Sammlungen || Institutionen, die Werke des Künstlers besitzen
+|-
+| Tags || Die eigenen Schlagwörter des Künstlers, um Werke zu gruppieren
+|-
+| Ausgewählte Sprachen || Die Sprachen, in denen das Werkverzeichnis des Künstlers veröffentlicht werden soll
+|-
+| Kategoriendefinition || Die eigenen Unterkategorien von Werken des Künstlers, mit denen das Werkverzeichnis gefiltert wird
+|-
+| Object Templates || Vorgabewerte für neue Werke, zum Beispiel das übliche Papier einer Grafikserie
+|-
+| Externe Dateien || Dem Künstler beigefügte Dokumente
+|}
+
+<!--T:5-->
+== Publikationen ==
+{| class="wikitable"
+! Abschnitt !! Was hier erfasst wird
+|-
+| Publications Agents || Autoren, Herausgeber, Verlage und andere Mitwirkende
+|-
+| Erwähnte Künstler || Die Künstler, von denen die Publikation handelt, und ob sie auf der Website oder im gedruckten Werkverzeichnis erscheint
+|-
+| Erwähnte Ereignisse || Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint
+|-
+| Verwendete Sprachen || Die Sprachen, in denen die Publikation geschrieben ist
+|-
+| Publications Relations || Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie oder Faksimile von, basiert auf und Ähnliches
+|-
+| Referenzen || Die Werke, die diese Publikation zitieren
+|-
+| Externalfiles || Beigefügte Dateien, etwa Scans
+|}
+
+<!--T:6-->
+== Ereignisse ==
+{| class="wikitable"
+! Abschnitt !! Was hier erfasst wird
+|-
+| Beschreibung des Events || Name und Beschreibung des Ereignisses, je Sprache
+|-
+| Position || Wo und wann das Ereignis stattfand; eine Wanderausstellung hat mehrere
+|-
+| Events Artists || Die Künstler, die teilgenommen haben, und in welcher Rolle
+|-
+| Events Agents || Die beteiligten Personen und Institutionen: Veranstalter, Kurator, Galerie, Sponsor
+|-
+| Ausgestellte Werke || Die gezeigten Werke, mit Leihgeber und dem in der Ausstellung verwendeten Titel
+|-
+| In Beziehung stehende Publikationen || Publikationen, die das Ereignis dokumentieren
+|}
+
+<!--T:7-->
+== Adressbuch ==
+{| class="wikitable"
+! Abschnitt !! Was hier erfasst wird
+|-
+| Aktivitäten || Was die Person oder Institution tut: Galerie, Verlag, Fotograf, Kurator usw.
+|-
+| Kommunikationswege || Telefonnummern, E-Mail-Adressen, Websites
+|-
+| Directory Relations || Verknüpfungen zwischen Adressbucheinträgen, zum Beispiel zwischen einer Person und einer Institution
+|-
+| Directory Artists || Die Werkverzeichnisse der Künstler, in denen dieser Eintrag verwendet wird
+|-
+| Directory Addresses || Die Adressen des Eintrags, jede mit Art und Gültigkeitszeitraum (ein eigenes Formular)
+|}
+Das Adressbuchformular zeigt auch, wo ein Eintrag anderswo verwendet wird: in Provenienzen (''Provenienz''), bei Verkäufen (''Transaktionen''), bei Ereignissen (''Events Agents'') und in Publikationen (''Publications Agents'').

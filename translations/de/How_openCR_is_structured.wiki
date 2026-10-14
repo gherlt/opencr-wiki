@@ -1,0 +1,94 @@
+<!--T:Page display title-->
+Wie openCR aufgebaut ist
+
+<!--T:1-->
+openCR speichert ein Werkverzeichnis nicht als ein langes Dokument, sondern als viele verknüpfte '''Datensätze''': einen Datensatz je Werk, je Publikation, je Ausstellung, je Person oder Institution usw. Die Datensätze verweisen aufeinander, und das veröffentlichte Werkverzeichnis wird aus ihnen zusammengesetzt.
+
+<!--T:2-->
+Diese Seite erklärt, welche Arten von Datensätzen es gibt, was jede enthält und wie sie zusammenhängen. Wer das weiß, arbeitet schneller: Jede Tatsache wird einmal erfasst, an der richtigen Stelle, und von überall sonst verknüpft.
+
+<!--T:3-->
+== Eine Plattform, viele Werkverzeichnisse ==
+openCR beherbergt die Werkverzeichnisse mehrerer Künstler nebeneinander. Manche Informationen gehören zum Werkverzeichnis eines einzelnen Künstlers; andere sind gemeinsam, sodass sie nur einmal existieren:
+
+<!--T:4-->
+* '''Gehört zu einem Künstler:''' die Werke, die Tags des Künstlers und die Einstellungen seines Werkverzeichnisses.
+* '''Gemeinsam:''' Personen und Institutionen, Publikationen und die Vokabulare hinter den Auswahllisten. Ein Museum mit Werken von drei Künstlern ist ein einziger Adressbucheintrag, nicht drei. Ein Buch über mehrere Künstler ist eine einzige Publikation, die mit jedem von ihnen verknüpft ist.
+
+<!--T:5-->
+Gemeinsame Datensätze sind eine Stärke, verlangen aber Sorgfalt: Eine Änderung an einem gemeinsamen Datensatz zeigt sich in jedem Werkverzeichnis, das ihn verwendet.
+
+<!--T:6-->
+== Die Bausteine ==
+openCR nennt die wichtigsten Arten von Datensätzen '''Entitäten'''. Jede hat ihr eigenes Formular und ihre eigene Seite in diesem Leitfaden.
+
+<!--T:7-->
+{| class="wikitable"
+! Entität !! Was sie erfasst !! Reichweite
+|-
+| '''[[Artists/de|Künstler]]''' || Der Künstler, dessen Werk verzeichnet wird: Namen, Lebensdaten, Biographien, Kontaktdaten und die Einstellungen seines Werkverzeichnisses. || Der Ausgangspunkt jedes Werkverzeichnisses
+|-
+| '''[[Objects/de|Werke]]''' || Die Kunstwerke: Titel, Typ, Datierungen, Materialien, Maße, Inschriften, Abbildungen, Auflagen, Provenienz, Ausstellungen und Literatur. In den Formularen heißen sie ''Werke''. || Das Werkverzeichnis eines Künstlers
+|-
+| '''[[Publications/de|Publikationen]]''' || Bücher, Artikel, Ausstellungskataloge, Werkverzeichnisse und andere Dokumente über den Künstler oder die Werke. || Gemeinsam; mit einem oder mehreren Künstlern verknüpft
+|-
+| '''[[Events/de|Ereignisse]]''' || Alles mit einem Datum: Ausstellungen, Messen, Auszeichnungen, Aufträge, Vorträge und Ereignisse im Leben des Künstlers. || Für einen Künstler angelegt; andere Künstler können teilnehmen
+|-
+| '''[[Directory/de|Adressbuch]]''' || Jede Person, Organisation und Institution, die irgendwo vorkommt: Eigentümer und Sammler, Galerien, Museen, Drucker, Verlage, Fotografen, Autoren, Kuratoren. || Gemeinsam für alle Werkverzeichnisse
+|-
+| '''[[Dealers and offers/de|Händler und Angebote]]''' || Galerien und Kunsthändler, die Werke zum Verkauf anbieten, und ihre Angebote. || Ein eigener Bereich für Verkäufer
+|}
+
+<!--T:8-->
+Zwei Arten unterstützender Datensätze vervollständigen das Bild:
+* '''Vokabulare''' sind die Listen hinter den Auswahlfeldern: Objekttypen, Materialien (''Komponenten''), Klassifikationen von Datumsangaben wie ''geschätzt'' oder ''vor'', Länder, Sprachen, Arten von Beziehungen und vieles mehr. Alle Werkverzeichnisse teilen sie, und sie sind in die Sprachen der Oberfläche übersetzt. Da eine Änderung alle betrifft, stimmen Sie neue Einträge am besten mit dem Plattform-Administrator ab.
+* '''Tags''' sind die eigenen Schlagwörter jedes Künstlers, etwa Epochen, Stile, Perioden, Themen und Orte, mit denen die Werke eines Werkverzeichnisses gruppiert und gefiltert werden.
+
+<!--T:9-->
+== Datensätze und ihre Abschnitte ==
+Jeder Datensatz hat ein '''Hauptformular''' mit seinen Grunddaten und '''Abschnitte''' für Angaben, die mehr als einmal vorkommen können. Ein Werk kann zum Beispiel mehrere Titel, mehrere Maße (Bild, Blatt, Rahmen) und eine lange Provenienz haben; jede dieser Angaben ist eine Liste von Einträgen in einem eigenen Abschnitt.
+
+<!--T:10-->
+Werke haben die meisten Abschnitte, von ''Titel'' und ''Komponenten'' bis ''Provenienz'', ''Ausstellungen'' und ''Objektbeziehungen''. Künstler, Publikationen, Ereignisse und Adressbucheinträge haben jeweils ihre eigenen.
+
+<!--T:11-->
+'''→ [[How openCR is structured/Records and their sections/de|Alle Abschnitte jeder Entität]]'''
+
+<!--T:12-->
+== Wie die Teile zusammenhängen ==
+Die Entitäten sind über diese Abschnitte verbunden. Vom Werk aus gesehen sind die wichtigsten Verknüpfungen:
+
+<!--T:13-->
+* '''Werk → Künstler:''' Jedes Werk gehört zum Werkverzeichnis eines Künstlers.
+* '''Werk → Adressbuch:''' Eigentümer in der Provenienz, Käufer und Verkäufer in Transaktionen, Drucker und Fotografen als Beteiligte.
+* '''Werk → Publikationen:''' die Literatur, in der das Werk vorkommt.
+* '''Werk → Ereignisse:''' die Ausstellungen, in denen das Werk gezeigt wurde.
+* '''Werk → andere Werke:''' Studien, Versionen und Kopien, die Werke einer Suite, die Teile eines mehrteiligen Werks, die Auflagen einer Grafik oder Skulptur.
+
+<!--T:14-->
+Publikationen, Ereignisse und Adressbucheinträge sind auf die gleiche Weise miteinander verknüpft: Eine Publikation hat Autoren aus dem Adressbuch und kann ein Ereignis dokumentieren; ein Ereignis hat Teilnehmer aus dem Adressbuch und zeigt Werke. Die Seite [[Relations/de|Beziehungen]] beschreibt jede Art von Verknüpfung im Einzelnen.
+
+<!--T:15-->
+== Was die Öffentlichkeit sieht ==
+Nichts wird versehentlich veröffentlicht. Mehrere Einstellungen entscheiden, was Besucher sehen:
+
+<!--T:16-->
+* '''Veröffentlichbar''' in jedem Hauptformular: Solange es nicht angehakt ist, sehen nur die Bearbeiter den Datensatz. Das ist der alltägliche Schalter zwischen Entwurf und veröffentlicht.
+* '''Veröffentlichbar''' in vielen Abschnitten: Einzelne Einträge können verborgen bleiben, während der Datensatz selbst veröffentlicht ist. Ein Werk kann öffentlich sein, während ein Eintrag seiner Provenienz privat bleibt.
+* '''Datenschutzeinstellungen im Adressbuch''': Ein Adressbucheintrag kann aus Sammlungslisten, aus Provenienzen oder aus Verkaufsdaten ausgeblendet werden, jeweils getrennt, oder auf das Werkverzeichnis eines einzigen Künstlers beschränkt werden. So kann ein Sammler im Werkverzeichnis erscheinen, ohne dass seine Käufe öffentlich werden.
+* '''Art des Datensatzes''' bei Werken: ''Hauptdaten'' sind die Werke selbst. ''Korrekturdaten'' und ''Ergänzungsdaten'' sind zusätzliche Datensätze, die einem Hauptdatensatz zugeordnet sind (über ''Übergeordnetes Objekt''); sie erscheinen in Listen und Berichten nie als eigene Werke.
+* '''Interne Felder''': Manche Felder sind nur für die Bearbeiter. Beachten Sie, dass das Hauptformular des Werks ein Feld ''Anmerkungen'' für interne Notizen hat, während der Abschnitt '''Notizen/Kommentare''' die zur Veröffentlichung bestimmten Notizen enthält.
+
+<!--T:17-->
+== Sprachen ==
+Die Oberfläche von openCR gibt es auf '''Englisch''', '''Spanisch''' und '''Deutsch'''. Die Inhalte der Werkverzeichnisse werden auf zwei verschiedene Arten übersetzt:
+
+<!--T:18-->
+* '''Vokabulare''' werden einmal zentral übersetzt. Fehlt eine Übersetzung, sehen Besucher den englischen Begriff statt einer leeren Stelle.
+* '''Von den Bearbeitern geschriebene Texte''', etwa Biographien, Beschreibungen von Ereignissen, weitere Titel und veröffentlichte Notizen, werden für jede Sprache getrennt erfasst. Eine Biographie, die nicht in der Sprache des Besuchers verfasst wurde, wird '''gar nicht''' angezeigt; legen Sie daher früh fest, welche Sprachen jedes Werkverzeichnis abdecken soll. Der Abschnitt ''Ausgewählte Sprachen'' des Künstlers hält diese Entscheidung fest.
+
+<!--T:19-->
+== Siehe auch ==
+* [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]]: in welcher Reihenfolge Sie all das erfassen
+* [[Relations/de|Beziehungen]]: jede Art von Verknüpfung zwischen Datensätzen
+* [[Field reference/de|Feldreferenz]]: was jedes Feld bedeutet

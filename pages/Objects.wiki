@@ -23,7 +23,7 @@ The main form holds the basic data of the work.
 
 <!--T:6-->
 === Identity and title ===
-* '''Title''' is the work's main title. For untitled works, untick '''Has title ?''': the catalogue then shows "No title". Leave ''Title'' empty in that case. A title stored there would still be found by the search, which confuses users.
+* '''Title''' is the work's main title. For untitled works, untick '''Has title ?''': the catalogue then shows "Untitled". Leave ''Title'' empty in that case. A title stored there would still be found by the search, which confuses users.
 * '''Internal reference''' is typically the catalogue raisonné number. It is searchable and shown prominently, so use one consistent scheme throughout (see [[Building a catalogue raisonné#Before you start: decisions|Before you start]]).
 * Further titles, such as translated titles or titles used in particular publications, go into the '''Titles''' section, not into the main title.
 

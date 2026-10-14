@@ -1,0 +1,94 @@
+<!--T:Page display title-->
+Cómo está estructurado openCR
+
+<!--T:1-->
+openCR no guarda un catálogo razonado como un único documento largo. Lo guarda como muchos '''registros''' conectados: un registro por obra, por publicación, por exposición, por persona o institución, etc. Los registros remiten unos a otros, y el catálogo publicado se compone a partir de ellos.
+
+<!--T:2-->
+Esta página explica qué tipos de registros existen, qué contiene cada uno y cómo encajan. Saberlo agiliza el trabajo diario: cada dato se introduce una sola vez, en el lugar adecuado, y se enlaza desde todos los demás.
+
+<!--T:3-->
+== Una plataforma, muchos catálogos ==
+openCR alberga los catálogos de varios artistas, uno junto a otro. Parte de la información pertenece al catálogo de un solo artista; otra es compartida, de modo que solo existe una vez:
+
+<!--T:4-->
+* '''Pertenece a un artista:''' las obras, los marcadores de contenido del artista y la configuración de su catálogo.
+* '''Compartido:''' las personas e instituciones, las publicaciones y los vocabularios de las listas desplegables. Un museo que posee obras de tres artistas es una sola entrada del directorio, no tres. Un libro sobre varios artistas es una sola publicación, enlazada con cada uno de ellos.
+
+<!--T:5-->
+Los registros compartidos son una ventaja, pero requieren cuidado: un cambio en un registro compartido aparece en todos los catálogos que lo usan.
+
+<!--T:6-->
+== Las piezas básicas ==
+openCR llama '''entidades''' a los tipos principales de registros. Cada una tiene su propio formulario y su propia página en esta guía.
+
+<!--T:7-->
+{| class="wikitable"
+! Entidad !! Qué registra !! Alcance
+|-
+| '''[[Artists/es|Artistas]]''' || El artista cuya obra se cataloga: nombres, fechas de vida, biografías, datos de contacto y la configuración de su catálogo. || El punto de partida de cada catálogo
+|-
+| '''[[Objects/es|Obras]]''' || Las obras de arte: título, tipo, fechas, materiales, medidas, inscripciones, imágenes, ediciones, historial de propiedad, exposiciones y bibliografía. En los formularios se llaman ''Obras''. || El catálogo de un artista
+|-
+| '''[[Publications/es|Publicaciones]]''' || Libros, artículos, catálogos de exposición, catálogos razonados y otros documentos que tratan del artista o de las obras. || Compartidas; enlazadas con uno o varios artistas
+|-
+| '''[[Events/es|Eventos]]''' || Todo lo que tiene fecha: exposiciones, ferias, premios, encargos, conferencias y acontecimientos de la vida del artista. || Se crean para un artista; otros artistas pueden participar
+|-
+| '''[[Directory/es|Directorio]]''' || Todas las personas, organizaciones e instituciones que aparecen en cualquier parte: propietarios y coleccionistas, galerías, museos, imprentas, editoriales, fotógrafos, autores, comisarios. || Compartido por todos los catálogos
+|-
+| '''[[Dealers and offers/es|Marchantes y ofertas]]''' || Galerías y marchantes que ofrecen obras en venta, y sus ofertas. || Un área aparte para los vendedores
+|}
+
+<!--T:8-->
+Dos tipos de registros auxiliares completan el cuadro:
+* Los '''vocabularios''' son las listas de los desplegables: tipos de obra, materiales (''componentes''), clasificaciones de fecha como ''aproximado'' o ''antes de'', países, idiomas, tipos de relaciones y muchas más. Los comparten todos los catálogos y están traducidos a los idiomas de la interfaz. Como un cambio afecta a todos, conviene acordar las entradas nuevas con el administrador de la plataforma.
+* Los '''marcadores de contenido''' son las palabras clave propias de cada artista, como épocas, estilos, periodos, temas y lugares, que sirven para agrupar y filtrar las obras de un catálogo.
+
+<!--T:9-->
+== Registros y sus secciones ==
+Cada registro tiene un '''formulario principal''' con sus datos básicos, y '''secciones''' para la información que puede aparecer más de una vez. Una obra, por ejemplo, puede tener varios títulos, varias medidas (imagen, hoja, marco) y un largo historial de propiedad; cada una de estas informaciones es una lista de entradas en su propia sección.
+
+<!--T:10-->
+Las obras son las que más secciones tienen, desde ''Títulos'' y ''Componentes'' hasta ''Historial de propiedad'', ''Exposiciones'' y ''Relac. con otros Objetos''. Los artistas, las publicaciones, los eventos y las entradas del directorio tienen las suyas.
+
+<!--T:11-->
+'''→ [[How openCR is structured/Records and their sections/es|Todas las secciones de cada entidad]]'''
+
+<!--T:12-->
+== Cómo se conectan las piezas ==
+Las entidades se conectan a través de estas secciones. Vistos desde la obra, los enlaces más importantes son:
+
+<!--T:13-->
+* '''Obra → artista:''' cada obra pertenece al catálogo de un artista.
+* '''Obra → directorio:''' los propietarios en el historial de propiedad, los compradores y vendedores en las transacciones, las imprentas y los fotógrafos como partícipes.
+* '''Obra → publicaciones:''' la bibliografía en la que aparece la obra.
+* '''Obra → eventos:''' las exposiciones en las que se mostró la obra.
+* '''Obra → otras obras:''' estudios, versiones y copias, los miembros de una suite, las partes de una obra de varias partes, las ediciones de una estampa o de una escultura.
+
+<!--T:14-->
+Las publicaciones, los eventos y las entradas del directorio se enlazan entre sí de la misma manera: una publicación tiene autores del directorio y puede documentar un evento; un evento tiene participantes del directorio y muestra obras. La página [[Relations/es|Relaciones]] describe en detalle cada tipo de enlace.
+
+<!--T:15-->
+== Lo que ve el público ==
+Nada se publica por accidente. Varios ajustes deciden lo que ve un visitante:
+
+<!--T:16-->
+* '''Publicable''' en cada formulario principal: mientras no esté marcado, solo los editores ven el registro. Es el interruptor habitual entre borrador y publicado.
+* '''Publicable''' en muchas secciones: entradas concretas pueden quedar ocultas aunque el registro esté publicado. Una obra puede ser pública mientras una entrada de su historial de propiedad sigue siendo privada.
+* '''Ajustes de privacidad en el directorio''': una entrada del directorio puede ocultarse de las listas de colecciones, de los historiales de propiedad o de los registros de ventas, cada cosa por separado, o limitarse al catálogo de un solo artista. Así un coleccionista puede aparecer en el catálogo sin que sus compras se hagan públicas.
+* '''Tipo de registro''' en las obras: los ''datos principales'' son las obras mismas. Los ''datos corrección'' y los ''datos suplementarios'' son registros adicionales vinculados a un registro principal (mediante ''Objeto matriz''); nunca aparecen como obras propias en listas e informes.
+* '''Campos internos''': algunos campos son solo para los editores. Tenga en cuenta que el formulario principal de la obra tiene un campo llamado ''Observaciones'' para notas internas, mientras que la sección '''Observaciones''' contiene las notas destinadas a publicarse.
+
+<!--T:17-->
+== Idiomas ==
+La interfaz de openCR está disponible en '''inglés''', '''español''' y '''alemán'''. El contenido de los catálogos se traduce de dos maneras distintas:
+
+<!--T:18-->
+* Los '''vocabularios''' se traducen una vez, de forma centralizada. Si falta una traducción, los visitantes ven el término inglés en lugar de un espacio vacío.
+* Los '''textos escritos por los editores''', como biografías, descripciones de eventos, otros títulos y observaciones publicadas, se introducen por separado para cada idioma. Una biografía que no se ha redactado en el idioma del visitante '''no''' se muestra en absoluto, así que decida pronto qué idiomas cubrirá cada catálogo. La sección ''Idiomas seleccionados'' del artista recoge esa decisión.
+
+<!--T:19-->
+== Véase también ==
+* [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]]: en qué orden introducir todo esto
+* [[Relations/es|Relaciones]]: cada tipo de enlace entre registros
+* [[Field reference/es|Referencia de campos]]: qué significa cada campo

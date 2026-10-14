@@ -1,0 +1,96 @@
+<!--T:Page display title-->
+Elaborar un catálogo razonado
+
+<!--T:1-->
+openCR no impone un orden de trabajo: cada registro y cada sección pueden editarse en cualquier momento. Pero los registros se remiten unos a otros. Un historial de propiedad remite a coleccionistas del directorio, una entrada bibliográfica a una publicación, una entrada de exposición a un evento. Si esos registros ya existen, basta con elegirlos de una lista; si no, hay que interrumpir el trabajo para crearlos antes.
+
+<!--T:2-->
+Esta página describe un orden de trabajo que evita esas interrupciones, dos maneras de abordar el material y cómo pasar del borrador a la publicación. Presupone que conoce las piezas básicas descritas en [[How openCR is structured/es|Cómo está estructurado openCR]].
+
+<!--T:3-->
+== Antes de empezar: decisiones ==
+Algunas decisiones son difíciles de cambiar cuando ya existen cientos de registros. Tómelas primero y déjelas por escrito para todos los que trabajan en el catálogo.
+
+<!--T:4-->
+* '''Numeración.''' Cada obra tiene un campo ''Referencia interna'', que suele usarse para el número del catálogo razonado. Se puede buscar por él y se muestra de forma destacada. Elija un sistema de numeración estable antes de introducir la primera obra.
+* '''Nombres cortos.''' Los artistas, las publicaciones, los eventos y las entradas del directorio tienen un ''Alias'': un nombre corto que aparece en las listas desplegables de todas partes. Acuerden un patrón coherente (por ejemplo ''Apellido, Nombre'' para personas y ''Autor Año'' para publicaciones), porque cambiarlo más tarde modifica todas las listas en las que aparece el registro.
+* '''Idiomas.''' Decida en qué idiomas se publicará el catálogo y quién redacta los textos en cada idioma. Registre la decisión en la sección ''Idiomas seleccionados'' del artista.
+* '''Fechas inciertas.''' Registre lo que se sabe y clasifíquelo (''aproximado'', ''antes de'', ''después de'' y similares) en lugar de dejar una fecha vacía. Los visitantes ven la clasificación; un campo vacío no les dice nada.
+* '''Qué será público.''' Acuerde con el artista o con la sucesión qué tipos de información pueden publicarse, sobre todo los historiales de propiedad y las ventas.
+
+<!--T:5-->
+== El orden recomendado ==
+{| class="wikitable"
+! Paso !! Qué introducir !! Por qué en este momento
+|-
+| 1 || '''El artista''': datos principales, biografías, idiomas seleccionados, marcadores de contenido, categorías, plantillas de obra || Todo lo demás pertenece al catálogo del artista; los marcadores, las categorías y las plantillas agilizan la introducción de las obras.
+|-
+| 2 || '''El directorio''': coleccionistas, galerías, museos, imprentas, editoriales, fotógrafos, autores || Las obras, las publicaciones y los eventos remiten a personas e instituciones.
+|-
+| 3 || '''Publicaciones y eventos''': la bibliografía y las exposiciones || Las obras citan publicaciones y se muestran en exposiciones; ambas deben existir para poder enlazarlas.
+|-
+| 4 || '''Las obras''': primero los datos principales, después las secciones || El núcleo del catálogo; con los pasos 1–3 hechos, la mayoría de las secciones se rellenan eligiendo de listas.
+|-
+| 5 || '''Conexiones''': relaciones entre obras, suites, obras expuestas, citas || Algunos enlaces solo tienen sentido cuando existen ambas partes.
+|-
+| 6 || '''Revisar y publicar''' || Véase [[#Del borrador a la publicación|más abajo]].
+|}
+
+<!--T:6-->
+El orden es una orientación, no una regla. En la práctica, el directorio crece a lo largo de todo el proyecto, y aparece bibliografía nueva constantemente. Se trata de tener listos los registros más usados antes de introducir el grueso de las obras.
+
+<!--T:7-->
+=== Introducir una obra ===
+Dentro de una obra, este orden funciona bien:
+# '''Datos principales:''' título (o desmarque ''Tiene Título'' en las obras sin título), ''Tipo de obra'', fecha de creación, ''Referencia interna''. Deje ''Publicable'' sin marcar.
+# '''Partes''', si la obra consta de varias partes. Otras secciones pueden referirse a una parte concreta, así que las partes deben existir primero.
+# '''Descripción física:''' ''Componentes'', ''Medidas objeto'', ''Atributos de obras'' (firmas e inscripciones).
+# '''Personas e historia:''' ''Partícipes'', ''Historial de propiedad'', ''Historial de ventas'', ''Objects Actions''.
+# '''Bibliografía y exposiciones:''' ''Referencias'', ''Exposiciones''.
+# '''Imágenes''', con una imagen marcada como imagen web principal.
+# '''Ediciones''' para la obra gráfica, '''Ediciones Escultura''' para las esculturas.
+
+<!--T:8-->
+== Dos maneras de abordar el material ==
+=== A partir de las fuentes ===
+Trabaje con una fuente cada vez, por ejemplo un catálogo de exposición: cree la publicación y la exposición, y luego introduzca cada obra que recoge, enlazándola con ambas sobre la marcha. Continúe con la fuente siguiente; las obras que ya están en el catálogo solo reciben la nueva cita o la nueva entrada de exposición.
+
+<!--T:9-->
+Esto conviene a los catálogos que se construyen sobre todo a partir de bibliografía y archivos. Cada paso deja un resultado completo y comprobable, y siempre se sabe qué fuentes se han procesado.
+
+<!--T:10-->
+=== A partir de las imágenes ===
+Empiece por una colección de fotografías, por ejemplo el archivo de un taller o de una sucesión. '''Carga masiva de nuevos objetos''' crea un registro de obra nuevo por cada imagen subida. Después complete cada registro y añada las fuentes a medida que las identifique. Para altas sueltas, '''Creación rápida de objeto''' en el ''Menú PRO'' es la vía rápida.
+
+<!--T:11-->
+Esto conviene a los catálogos en los que las obras se conocen antes que su documentación.
+
+<!--T:12-->
+La mayoría de los proyectos combinan ambas: empiezan por las imágenes para tener una visión general de la producción del artista, y después trabajan las fuentes para documentarla.
+
+<!--T:13-->
+== Del borrador a la publicación ==
+Todo lo que cree es un borrador mientras ''Publicable'' no esté marcado. Los borradores solo los ven los editores.
+
+<!--T:14-->
+# '''Introduzca''' el registro con ''Publicable'' sin marcar y complete sus secciones.
+# '''Revise''' el catálogo en el ''Menú PRO'', que muestra borradores y registros publicados uno junto a otro y permite saltar a la edición.
+# '''Compruebe antes de publicar una obra''' que tenga un título (o esté marcada como sin título), un ''Tipo de obra'' y una imagen web principal. Sin imagen principal, la obra aparece como una casilla vacía en las vistas de galería.
+# '''Compruebe las entradas delicadas''': los historiales de propiedad y las ventas solo deben ser públicos con el consentimiento de los propietarios. Use la casilla ''Publicable'' de la entrada concreta o los ajustes de privacidad de la entrada del directorio.
+# '''Publique''' marcando ''Publicable''.
+
+<!--T:15-->
+== Corregir y borrar ==
+* '''Mejor ocultar que borrar.''' Borrar es definitivo, y los registros que remiten a un registro borrado no se limpian automáticamente. En todo aquello a lo que remiten otros registros, desmarque ''Publicable'' en su lugar.
+* '''Registros compartidos''': una publicación, un evento o una entrada del directorio que usan los catálogos de varios artistas solo puede borrarlos alguien con derechos de edición en todos ellos. En la práctica, pídaselo al administrador de la plataforma.
+* Las '''imágenes''' se eliminan con las herramientas de imágenes, para que los archivos y el catálogo sigan en concordancia.
+
+<!--T:16-->
+== Quién puede hacer qué ==
+Cada editor está asignado a uno o varios artistas. Dentro de esos catálogos, los '''administradores de artista''' y los '''expertos de artista''' tienen actualmente los mismos derechos.
+
+<!--T:17-->
+== Véase también ==
+* [[How openCR is structured/es|Cómo está estructurado openCR]]
+* [[Relations/es|Relaciones]]
+* [[Field reference/es|Referencia de campos]]

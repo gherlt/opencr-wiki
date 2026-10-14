@@ -1,0 +1,127 @@
+<!--T:Page display title-->
+Registros y sus secciones
+
+<!--T:1-->
+Cada registro de openCR tiene un '''formulario principal''' con sus datos básicos, y '''secciones''' para la información que puede aparecer más de una vez. Una obra, por ejemplo, puede tener varios títulos, varias medidas (imagen, hoja, marco) y un largo historial de propiedad; cada una de estas informaciones es una lista de entradas en su propia sección.
+
+<!--T:2-->
+Esta página enumera las secciones de cada entidad, con el nombre que tienen en los formularios. Para la visión de conjunto, véase [[How openCR is structured/es|Cómo está estructurado openCR]].
+
+<!--T:3-->
+== Obras ==
+{| class="wikitable"
+! Sección !! Qué se registra
+|-
+| Títulos || Otros títulos de la obra: alternativos, traducidos o tal como se usan en una publicación determinada
+|-
+| Componentes || De qué está hecha la obra: óleo, lienzo, papel, acrílico, aguafuerte, etc.
+|-
+| Medidas objeto || Las dimensiones, una entrada por cada alcance medido (por ejemplo imagen, hoja, marco)
+|-
+| Atributos de obras || Marcas e inscripciones: firmado, fechado, numerado, sellado, con su posición y su transcripción
+|-
+| Partes || Las partes con nombre de una obra de varias partes, como las tablas de un tríptico
+|-
+| Imágenes || Fotografías de la obra
+|-
+| Ediciones || Las ediciones de una estampa: tirada normal, pruebas de artista, pruebas de estado, etc.
+|-
+| Ediciones Escultura || Las fundiciones de una escultura
+|-
+| Partícipes || Personas e instituciones que intervienen en la obra: imprenta, editorial, fundición, fotógrafo, coautor
+|-
+| Referencias || La bibliografía que menciona o reproduce la obra
+|-
+| Historial de propiedad || El historial de propiedad
+|-
+| Historial de ventas || Ventas y subastas
+|-
+| Exposiciones || Las exposiciones en las que se mostró la obra
+|-
+| Observaciones || Notas sobre la obra destinadas a publicarse
+|-
+| Marcadores de Contenido || Los marcadores de contenido del artista que corresponden a esta obra
+|-
+| Relac. con otros Objetos || Enlaces a otras obras: estudio para, copia de, versión de y similares
+|-
+| Objects Actions || Acontecimientos fechados de la vida de la obra, como la firma, la estampación o la restauración
+|}
+
+<!--T:4-->
+== Artistas ==
+{| class="wikitable"
+! Sección !! Qué se registra
+|-
+| Biografías || Los textos biográficos, uno por idioma y tipo (biografía vital o biografía histórico-artística)
+|-
+| Medios de Comunicación || Teléfonos, direcciones de correo electrónico, sitios web, redes sociales
+|-
+| Relaciones || Enlaces con personas e instituciones: galerista, editor, familia, mentor, heredero y otros
+|-
+| Colecciones || Instituciones que poseen obras del artista
+|-
+| Tags || Las palabras clave propias del artista para agrupar las obras
+|-
+| Idiomas seleccionados || Los idiomas en los que se quiere publicar el catálogo del artista
+|-
+| Definición de Categorías || Las subcategorías de obras propias del artista, usadas para filtrar el catálogo
+|-
+| Object Templates || Valores por defecto para obras nuevas, por ejemplo el papel habitual de una serie de estampas
+|-
+| Ficheros Externos || Documentos adjuntos al artista
+|}
+
+<!--T:5-->
+== Publicaciones ==
+{| class="wikitable"
+! Sección !! Qué se registra
+|-
+| Publications Agents || Autores, editores, editoriales y otros colaboradores
+|-
+| Artistas tratados || Los artistas de los que trata la publicación, y si aparece en el sitio web o en el catálogo impreso
+|-
+| Eventos relacionados || Los eventos que documenta la publicación, por ejemplo la exposición a la que acompaña un catálogo de exposición
+|-
+| Idiomas utilizados || Los idiomas en los que está escrita la publicación
+|-
+| Publications Relations || Enlaces a otras publicaciones: parte de, versión de, copia o facsímil de, basada en y similares
+|-
+| Referencias || Las obras que citan esta publicación
+|-
+| Externalfiles || Archivos adjuntos, como escaneos
+|}
+
+<!--T:6-->
+== Eventos ==
+{| class="wikitable"
+! Sección !! Qué se registra
+|-
+| Descripciones del Evento || El nombre y la descripción del evento, por idioma
+|-
+| Localización || Dónde y cuándo tuvo lugar el evento; una exposición itinerante tiene varias
+|-
+| Events Artists || Los artistas que participaron, y en qué función
+|-
+| Events Agents || Las personas e instituciones implicadas: organizador, comisario, galería, patrocinador
+|-
+| Obras Expuestas || Las obras mostradas, con el prestador y el título usado en la exposición
+|-
+| Publicaciones relacionadas || Publicaciones que documentan el evento
+|}
+
+<!--T:7-->
+== Directorio ==
+{| class="wikitable"
+! Sección !! Qué se registra
+|-
+| Actividades || A qué se dedica la persona o institución: galería, editorial, fotógrafo, comisario, etc.
+|-
+| Información de contacto || Teléfonos, direcciones de correo electrónico, sitios web
+|-
+| Directory Relations || Enlaces entre entradas del directorio, por ejemplo entre una persona y una institución
+|-
+| Directory Artists || Los catálogos de artistas en los que se usa esta entrada
+|-
+| Directory Addresses || Las direcciones de la entrada, cada una con su tipo y su periodo de validez (un formulario aparte)
+|}
+El formulario del directorio también muestra dónde se usa una entrada en otros lugares: en los historiales de propiedad (''Historial de propiedad''), en las ventas (''Historial de ventas''), en los eventos (''Events Agents'') y en las publicaciones (''Publications Agents'').

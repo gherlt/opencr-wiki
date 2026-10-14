@@ -1,0 +1,96 @@
+<!--T:Page display title-->
+Ein Werkverzeichnis aufbauen
+
+<!--T:1-->
+openCR schreibt keine Arbeitsreihenfolge vor: Jeder Datensatz und jeder Abschnitt kann jederzeit bearbeitet werden. Aber Datensätze verweisen aufeinander. Eine Provenienz verweist auf Sammler im Adressbuch, ein Literatureintrag auf eine Publikation, ein Ausstellungseintrag auf ein Ereignis. Gibt es diese Datensätze schon, wählen Sie sie einfach aus einer Liste; wenn nicht, müssen Sie Ihre Arbeit unterbrechen, um sie zuerst anzulegen.
+
+<!--T:2-->
+Diese Seite beschreibt eine Arbeitsreihenfolge, die solche Unterbrechungen vermeidet, zwei Herangehensweisen an das Material und den Weg vom Entwurf zur Veröffentlichung. Sie setzt voraus, dass Sie die in [[How openCR is structured/de|Wie openCR aufgebaut ist]] beschriebenen Bausteine kennen.
+
+<!--T:3-->
+== Vor dem Start: Entscheidungen ==
+Einige Entscheidungen lassen sich kaum noch ändern, wenn Hunderte von Datensätzen existieren. Treffen Sie sie zuerst und halten Sie sie für alle schriftlich fest, die am Werkverzeichnis arbeiten.
+
+<!--T:4-->
+* '''Nummerierung.''' Jedes Werk hat ein Feld ''Interne Referenz'', das meist für die Werkverzeichnisnummer verwendet wird. Es ist durchsuchbar und wird gut sichtbar angezeigt. Wählen Sie ein stabiles Nummerierungsschema, bevor Sie das erste Werk erfassen.
+* '''Kurznamen.''' Künstler, Publikationen, Ereignisse und Adressbucheinträge haben jeweils einen ''Alias'': einen Kurznamen, der überall in den Auswahllisten erscheint. Einigen Sie sich auf ein einheitliches Muster (zum Beispiel ''Nachname, Vorname'' für Personen und ''Autor Jahr'' für Publikationen), denn eine spätere Umbenennung ändert jede Liste, in der der Datensatz erscheint.
+* '''Sprachen.''' Legen Sie fest, in welchen Sprachen das Werkverzeichnis veröffentlicht wird und wer die Texte in jeder Sprache schreibt. Halten Sie die Entscheidung im Abschnitt ''Ausgewählte Sprachen'' des Künstlers fest.
+* '''Unsichere Datierungen.''' Erfassen Sie, was bekannt ist, und klassifizieren Sie es (''geschätzt'', ''vor'', ''nach'' und Ähnliches), statt ein Datum leer zu lassen. Besucher sehen die Klassifikation; ein leeres Feld sagt ihnen nichts.
+* '''Was öffentlich wird.''' Vereinbaren Sie mit dem Künstler oder dem Nachlass, welche Arten von Informationen veröffentlicht werden dürfen, besonders Provenienzen und Verkäufe.
+
+<!--T:5-->
+== Die empfohlene Reihenfolge ==
+{| class="wikitable"
+! Schritt !! Was Sie erfassen !! Warum an dieser Stelle
+|-
+| 1 || '''Der Künstler''': Hauptdaten, Biographien, ausgewählte Sprachen, Tags, Kategorien, Objektvorlagen || Alles andere gehört zum Werkverzeichnis des Künstlers; Tags, Kategorien und Vorlagen beschleunigen die Erfassung der Werke.
+|-
+| 2 || '''Das Adressbuch''': Sammler, Galerien, Museen, Drucker, Verlage, Fotografen, Autoren || Werke, Publikationen und Ereignisse verweisen alle auf Personen und Institutionen.
+|-
+| 3 || '''Publikationen und Ereignisse''': die Literatur und die Ausstellungen || Werke zitieren Publikationen und werden in Ausstellungen gezeigt; beide müssen existieren, um verknüpft zu werden.
+|-
+| 4 || '''Die Werke''': zuerst die Hauptdaten, dann die Abschnitte || Der Kern des Werkverzeichnisses; nach den Schritten 1–3 werden die meisten Abschnitte durch Auswahl aus Listen gefüllt.
+|-
+| 5 || '''Verknüpfungen''': Beziehungen zwischen Werken, Suiten, ausgestellte Werke, Zitate || Manche Verknüpfungen ergeben erst Sinn, wenn beide Seiten existieren.
+|-
+| 6 || '''Prüfen und veröffentlichen''' || Siehe [[#Vom Entwurf zur Veröffentlichung|unten]].
+|}
+
+<!--T:6-->
+Die Reihenfolge ist eine Orientierung, keine Regel. In der Praxis wächst das Adressbuch während des ganzen Projekts, und neue Literatur taucht ständig auf. Entscheidend ist, die meistgenutzten Datensätze bereitzuhaben, bevor der Großteil der Werke erfasst wird.
+
+<!--T:7-->
+=== Ein Werk erfassen ===
+Innerhalb eines Werks hat sich diese Reihenfolge bewährt:
+# '''Hauptdaten:''' Titel (oder bei Werken ohne Titel den Haken bei ''Hat Titel'' entfernen), ''Art von Werk'', Entstehungsdatum, ''Interne Referenz''. Lassen Sie ''Veröffentlichbar'' leer.
+# '''Bestandteile''', wenn das Werk aus mehreren Teilen besteht. Andere Abschnitte können sich auf einen einzelnen Teil beziehen, daher müssen die Teile zuerst existieren.
+# '''Physische Beschreibung:''' ''Komponenten'', ''Objektmaße'', ''Werkeigenschaften'' (Signaturen und Inschriften).
+# '''Personen und Geschichte:''' ''Beteiligte'', ''Provenienz'', ''Transaktionen'', ''Objects Actions''.
+# '''Literatur und Ausstellungen:''' ''Referenzen'', ''Ausstellungen''.
+# '''Abbildungen''', davon eine als Hauptbild für das Web markiert.
+# '''Auflagen''' bei Grafiken, '''Auflagen Skulptur''' bei Skulpturen.
+
+<!--T:8-->
+== Zwei Herangehensweisen an das Material ==
+=== Von den Quellen aus ===
+Arbeiten Sie eine Quelle nach der anderen durch, zum Beispiel einen Ausstellungskatalog: Legen Sie die Publikation und die Ausstellung an und erfassen Sie dann jedes darin aufgeführte Werk, das Sie dabei mit beiden verknüpfen. Machen Sie mit der nächsten Quelle weiter; Werke, die schon im Werkverzeichnis sind, erhalten nur das neue Zitat oder den neuen Ausstellungseintrag.
+
+<!--T:9-->
+Das eignet sich für Werkverzeichnisse, die hauptsächlich auf Literatur und Archiven beruhen. Jeder Schritt hinterlässt ein vollständiges, überprüfbares Ergebnis, und Sie wissen immer, welche Quellen bearbeitet sind.
+
+<!--T:10-->
+=== Von den Abbildungen aus ===
+Beginnen Sie mit einer Sammlung von Fotografien, zum Beispiel einem Atelier- oder Nachlassarchiv. '''Massen New Objects Upload''' legt für jede hochgeladene Abbildung einen neuen Werkdatensatz an. Danach vervollständigen Sie jeden Datensatz und ergänzen die Quellen, sobald Sie sie identifizieren. Für einzelne Ergänzungen ist '''Einfache Objekterstellung''' im ''PRO Menü'' der schnelle Weg.
+
+<!--T:11-->
+Das eignet sich für Werkverzeichnisse, bei denen die Werke bekannt sind, bevor es ihre Dokumentation ist.
+
+<!--T:12-->
+Die meisten Projekte verbinden beides: Sie beginnen mit den Abbildungen, um einen Überblick über das Œuvre zu gewinnen, und arbeiten dann die Quellen durch, um es zu dokumentieren.
+
+<!--T:13-->
+== Vom Entwurf zur Veröffentlichung ==
+Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht angehakt ist. Entwürfe sehen nur die Bearbeiter.
+
+<!--T:14-->
+# '''Erfassen''' Sie den Datensatz, ohne ''Veröffentlichbar'' anzuhaken, und vervollständigen Sie seine Abschnitte.
+# '''Prüfen''' Sie das Werkverzeichnis im ''PRO Menü'', das Entwürfe und veröffentlichte Datensätze nebeneinander zeigt und direkt zum Bearbeiten springen lässt.
+# '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), eine ''Art von Werk'' und ein Hauptbild für das Web. Ohne Hauptbild erscheint das Werk in den Galerieansichten als leere Kachel.
+# '''Heikle Einträge prüfen''': Provenienzen und Verkäufe sollten nur mit Zustimmung der Eigentümer öffentlich sein. Verwenden Sie den Haken ''Veröffentlichbar'' des einzelnen Eintrags oder die Datenschutzeinstellungen des Adressbucheintrags.
+# '''Veröffentlichen''' Sie, indem Sie ''Veröffentlichbar'' anhaken.
+
+<!--T:15-->
+== Korrigieren und löschen ==
+* '''Lieber verbergen als löschen.''' Löschen ist endgültig, und Datensätze, die auf einen gelöschten Datensatz verweisen, werden nicht automatisch bereinigt. Bei allem, worauf andere Datensätze verweisen, entfernen Sie stattdessen den Haken bei ''Veröffentlichbar''.
+* '''Gemeinsame Datensätze''': Eine Publikation, ein Ereignis oder ein Adressbucheintrag, den die Werkverzeichnisse mehrerer Künstler verwenden, kann nur löschen, wer Bearbeitungsrechte für alle diese Werkverzeichnisse hat. In der Praxis wenden Sie sich an den Plattform-Administrator.
+* '''Abbildungen''' werden über die Bildwerkzeuge entfernt, damit Dateien und Werkverzeichnis übereinstimmen.
+
+<!--T:16-->
+== Wer was darf ==
+Jeder Bearbeiter ist einem oder mehreren Künstlern zugeordnet. Innerhalb dieser Werkverzeichnisse haben '''Künstler-Admins''' und '''Künstler-Experten''' derzeit die gleichen Rechte.
+
+<!--T:17-->
+== Siehe auch ==
+* [[How openCR is structured/de|Wie openCR aufgebaut ist]]
+* [[Relations/de|Beziehungen]]
+* [[Field reference/de|Feldreferenz]]
