@@ -1,11 +1,12 @@
-"""Prints one read-only SELECT that lists every vocabulary entry with its English label.
+"""Prints one read-only SELECT that lists every vocabulary entry with its label.
 
     python tools/vocab_sql.py data/columns.tsv data/fks.tsv CONFIG.json | ssh … > data/vocab.tsv
+    python tools/vocab_sql.py data/columns.tsv data/fks.tsv CONFIG.json spa | ssh … > data/vocab_spa.tsv
 
 A vocabulary is a table that is referenced by a foreign key or has a "<name>_text"
 translation table, and is not listed as an entity table in the configuration.
-The English label is the "eng" translation when it is filled, otherwise the base
-table's own name column (the usual fallback rule).
+The label is the translation in the requested language (default "eng") when it
+is filled, otherwise the base table's own name column (the usual fallback rule).
 """
 import csv
 import json
@@ -20,7 +21,7 @@ def read_tsv(path):
         return list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
 
 
-def main(columns_path, fks_path, config_path):
+def main(columns_path, fks_path, config_path, lang="eng"):
     config = json.load(open(config_path, encoding="utf-8"))
     entity = set(config["entity_tables"])
     cols = defaultdict(list)
@@ -62,11 +63,11 @@ def main(columns_path, fks_path, config_path):
         join = ""
         if text and text_key and text_lang and text_label:
             label_expr = f"COALESCE(NULLIF(CONVERT(x.`{text_label}` USING utf8mb4), ''), {label_expr})"
-            join = (f" LEFT JOIN `{text}` x ON x.`{text_key}` = b.`{key}` AND x.`{text_lang}` = 'eng'")
+            join = (f" LEFT JOIN `{text}` x ON x.`{text_key}` = b.`{key}` AND x.`{text_lang}` = '{lang}'")
         parts.append(f"SELECT CONVERT('{t}' USING utf8mb4) AS vocab, CONVERT(b.`{key}` USING utf8mb4) AS id, "
                      f"{label_expr} AS label FROM `{t}` b{join}")
     print("\nUNION ALL\n".join(parts))
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
