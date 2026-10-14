@@ -3,7 +3,7 @@ The '''openCR Wiki''' explains [https://open.cr openCR], the platform for catalo
 * the '''visitor guide''' for everyone who consults the catalogues, starting with [[Visiting openCR]].
 
 == How the wiki is written ==
-The wiki is maintained by the openCR team. Only authorised editors can change pages. The English pages are the reference version; translations will follow.
+The wiki is maintained by the openCR team. Only authorised editors can change pages. The English pages are the reference version; for the Spanish and German translations, see [[OpenCR Wiki:Translations|Translations]].
 
 The descriptions are checked against the openCR software and its forms. The [[Field reference]] is generated from the forms and the field notes of the software, so that it stays in step with them. Pages marked as ''draft'' are still being reviewed.
 

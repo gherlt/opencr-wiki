@@ -23,4 +23,4 @@ This wiki explains how openCR works. It is written for the people who build cata
 * '''[[Glossary]]''' and '''[[FAQ]]'''
 
 == About this wiki ==
-The English pages are the reference version; translations will follow. See [[OpenCR Wiki:Copyrights|copyright and licence]] for how the content may be reused.
+The English pages are the reference version. The visitor guide and the editor guide are also available in Spanish and German; see the [[OpenCR Wiki:Translations|translation status]]. See [[OpenCR Wiki:Copyrights|copyright and licence]] for how the content may be reused.

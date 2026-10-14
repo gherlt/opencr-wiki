@@ -1,0 +1,72 @@
+The English pages of this wiki are the reference version. The pages are being translated into '''Spanish''' and '''German''', the other two languages of the openCR interface.
+
+Each translated page is a subpage of the English one, for example [[Glossary/es]] and [[Glossary/de]]. The language bar at the top of a page links its versions. When an English page changes, the passages concerned are marked as outdated in the translations until they are updated. The progress per language is shown on [[Special:LanguageStats/es]] and [[Special:LanguageStats/de]].
+
+== Status ==
+As of 14 October 2026:
+{| class="wikitable"
+! Part !! Spanish !! German
+|-
+| Visitor guide (7 pages) || translated || translated
+|-
+| Editor guide (10 pages) || translated || translated
+|-
+| Navigation boxes and the draft notice || translated || translated
+|-
+| Main Page, About and Copyrights || not yet || not yet
+|-
+| Side menu || not yet || not yet
+|-
+| [[Field reference]] || not yet || not yet
+|}
+
+== Translated pages ==
+{| class="wikitable"
+! English !! Spanish !! German
+|-
+| colspan="3" | '''Visitor guide'''
+|-
+| [[Visiting openCR]] || [[Visiting openCR/es|Visitar openCR]] || [[Visiting openCR/de|openCR besuchen]]
+|-
+| [[Browsing a catalogue]] || [[Browsing a catalogue/es|Explorar un catálogo]] || [[Browsing a catalogue/de|Ein Werkverzeichnis durchsuchen]]
+|-
+| [[Reading an artwork page]] || [[Reading an artwork page/es|Leer la página de una obra]] || [[Reading an artwork page/de|Eine Werkseite lesen]]
+|-
+| [[Biography, bibliography and exhibitions]] || [[Biography, bibliography and exhibitions/es|Biografía, bibliografía y exposiciones]] || [[Biography, bibliography and exhibitions/de|Biographie, Bibliographie und Ausstellungen]]
+|-
+| [[Your account]] || [[Your account/es|Su cuenta]] || [[Your account/de|Ihr Konto]]
+|-
+| [[Glossary]] || [[Glossary/es|Glosario]] || [[Glossary/de|Glossar]]
+|-
+| [[FAQ]] || [[FAQ/es|Preguntas frecuentes]] || [[FAQ/de|Häufige Fragen]]
+|-
+| colspan="3" | '''Editor guide'''
+|-
+| [[How openCR is structured]] || [[How openCR is structured/es|Cómo está estructurado openCR]] || [[How openCR is structured/de|Wie openCR aufgebaut ist]]
+|-
+| [[How openCR is structured/Records and their sections|Records and their sections]] || [[How openCR is structured/Records and their sections/es|Registros y sus secciones]] || [[How openCR is structured/Records and their sections/de|Datensätze und ihre Abschnitte]]
+|-
+| [[Building a catalogue raisonné]] || [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]] || [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]]
+|-
+| [[Artists]] || [[Artists/es|Artistas]] || [[Artists/de|Künstler]]
+|-
+| [[Objects]] || [[Objects/es|Obras]] || [[Objects/de|Werke]]
+|-
+| [[Publications]] || [[Publications/es|Publicaciones]] || [[Publications/de|Publikationen]]
+|-
+| [[Events]] || [[Events/es|Eventos]] || [[Events/de|Ereignisse]]
+|-
+| [[Directory]] || [[Directory/es|Directorio]] || [[Directory/de|Adressbuch]]
+|-
+| [[Dealers and offers]] || [[Dealers and offers/es|Marchantes y ofertas]] || [[Dealers and offers/de|Händler und Angebote]]
+|-
+| [[Relations]] || [[Relations/es|Relaciones]] || [[Relations/de|Beziehungen]]
+|}
+
+== How the translations are made ==
+* The translations use the terms that openCR shows in Spanish and German: the names of menus, sections and fields as they appear on the site and in the forms, and the entries of the lists. The address is formal (''usted'', ''Sie'').
+* German follows the Duden spelling, for example ''Werkverzeichnis''.
+* Mistakes found in the Spanish and German interface while translating are being corrected in openCR itself. Until that correction is published, a few names in the translated pages can differ slightly from what the site shows.
+* Forms that exist only in English, such as those for dealers and offers, are quoted with their English names.
+
+[[Category:About this wiki]]
