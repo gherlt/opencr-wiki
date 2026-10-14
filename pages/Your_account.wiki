@@ -5,13 +5,15 @@ You do not need an account to consult the catalogues on openCR. An account adds 
 '''Register''' in the top menu creates an account; you confirm it through a link sent to your email address. '''Log in''' opens the login window.
 
 Once logged in, the top menu offers:
-* '''Dashboard''': your personal start page;
+* '''Dashboard''': your personal start page, with the link to your favourites;
 * '''Cart''': your selection of works (see below);
 * '''Settings''': your profile and password;
 * '''Log out'''.
 
 == Favourites ==
 In the lists of works, logged-in visitors see a '''heart''' next to each work. Click it to bookmark the work: choose one of your lists, or create a new one ('''Select Object Group or Create New Group'''), and add a comment if you like. A filled heart means the work is already bookmarked; click it to see in which list, and to remove the bookmark.
+
+All your bookmarks are on the '''Favourites List''' page, reached through '''Favourites''' on your dashboard: each work with its picture, title, list and comment. There you can move a work to another list, change the comment or remove the bookmark. Your favourites are visible only to you.
 
 == Cart ==
 The '''cart''' icon next to a work adds it to your selection. The cart lists the selected works; you can change the quantity, remove single works or empty the cart. It is a personal working list, for example to collect works you are interested in. It does not order or buy anything.
