@@ -59,7 +59,7 @@ Namen von Personen, Institutionen, Ausstellungen und Publikationen sind meist Li
 == Unten ==
 * Wer die Daten bereitgestellt hat, und der '''Copyright'''-Hinweis für die Abbildungen.
 * '''Teile diese Seite''': Links, um die Seite zu teilen.
-* '''Kontaktiere den Künstler''': Wege, den Künstler oder die Autoren des Werkverzeichnisses zu erreichen, soweit sie diese veröffentlichen. ''EMail über open.cr'' öffnet Ihr eigenes E-Mail-Programm mit einer Nachricht an die Adresse des Künstlers bei openCR. Nutzen Sie es, um eine Frage zum Werk zu stellen oder Informationen weiterzugeben, etwa wenn Sie das Werk besitzen oder eine fehlende Ausstellung kennen.
+* '''Kontaktiere den Künstler''': Wege, den Künstler oder die Autoren des Werkverzeichnisses zu erreichen, soweit sie diese veröffentlichen. ''E-Mail über open.cr'' öffnet Ihr eigenes E-Mail-Programm mit einer Nachricht an die Adresse des Künstlers bei openCR. Nutzen Sie es, um eine Frage zum Werk zu stellen oder Informationen weiterzugeben, etwa wenn Sie das Werk besitzen oder eine fehlende Ausstellung kennen.
 
 <!--T:7-->
 == Werke zum Verkauf ==

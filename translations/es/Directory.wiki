@@ -22,7 +22,7 @@ El directorio lo comparten todos los catálogos. Un museo que posee obras de var
 * Las tres casillas de privacidad descritas [[#Lo que ve el público|más abajo]].
 
 <!--T:5-->
-También es posible el alta rápida con '''Creación rápida de directory''' en el ''Menú PRO''.
+También es posible el alta rápida con '''Creación rápida de directorio''' en el ''Menú PRO''.
 
 <!--T:6-->
 == Secciones ==

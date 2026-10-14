@@ -16,7 +16,7 @@ Publikationen sind gemeinsam: Ein Buch über drei Künstler ist ein einziger Dat
 <!--T:4-->
 == Das Hauptformular ==
 === Identität ===
-* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt etwa 35 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Interview, Thesis, Pressemitteilung, Brief, Manuscript, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO Menü lässt sich die Bibliographie danach filtern und sortieren.
+* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt etwa 35 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Interview, Thesis, Pressemitteilung, Brief, Manuscript, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO-Menü lässt sich die Bibliographie danach filtern und sortieren.
 * '''Titel''' und '''Untertitel'''.
 * '''Alias''': der Kurzname (siehe oben).
 * '''Abkürzung''': eine Kurzform für Fußnoten, falls das Werkverzeichnis eine verwendet.

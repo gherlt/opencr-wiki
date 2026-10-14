@@ -10,9 +10,9 @@ Diese Seite erklärt, wie ein Werk aufgebaut ist und worauf zu achten ist. Die L
 <!--T:3-->
 == Ein Werk anlegen ==
 Es gibt mehrere Wege, die alle zum gleichen Datensatz führen:
-* '''Einfache Objekterstellung''' im ''PRO Menü'': der schnelle Weg, ein einzelnes Werk hinzuzufügen.
-* '''Neuen Datensatz einfügen''' im ''PRO Menü'': das vollständige Formular.
-* '''Massen New Objects Upload''': legt für einen ganzen Ordner auf einmal je hochgeladener Abbildung ein Werk an. Sie wählen den Objekttyp und ein vorgegebenes Entstehungsjahr für den ganzen Stapel; Titel, Materialien, Maße und alles andere ergänzen Sie danach Werk für Werk.
+* '''Einfache Objekterstellung''' im ''PRO-Menü'': der schnelle Weg, ein einzelnes Werk hinzuzufügen.
+* '''Neuen Datensatz einfügen''' im ''PRO-Menü'': das vollständige Formular.
+* '''Massen-Upload neuer Objekte''': legt für einen ganzen Ordner auf einmal je hochgeladener Abbildung ein Werk an. Sie wählen den Objekttyp und ein vorgegebenes Entstehungsjahr für den ganzen Stapel; Titel, Materialien, Maße und alles andere ergänzen Sie danach Werk für Werk.
 
 <!--T:4-->
 Gleich auf welchem Weg: Ein neues Werk beginnt ohne Haken bei ''Veröffentlichbar'' und bleibt so ein Entwurf, bis Sie es veröffentlichen.
@@ -98,7 +98,7 @@ Beide Listen lassen sich auch von der anderen Seite aus füllen: von der [[Publi
 
 <!--T:19-->
 == Abbildungen ==
-Laden Sie Abbildungen beim Werk hoch oder für viele Werke auf einmal mit ''Massen New Objects Upload''. Für jede Abbildung gilt:
+Laden Sie Abbildungen beim Werk hoch oder für viele Werke auf einmal mit ''Massen-Upload neuer Objekte''. Für jede Abbildung gilt:
 * Markieren Sie '''genau eine''' Abbildung je Werk als '''Is Main Image Web''': Sie wird zum Vorschaubild in Listen und Galerien. Ohne eine solche erscheint das Werk als leere Kachel; bei mehreren wird das Vorschaubild unvorhersehbar gewählt.
 * '''Use For Web''' und '''Use For CR''' entscheiden getrennt, ob die Abbildung auf der Website und im gedruckten Werkverzeichnis erscheint.
 * Nennen Sie den Fotografen ('''Fotograf'''), beschreiben Sie, was die Abbildung zeigt (Vorderseite, Rückseite, Detail, Signatur), und verwenden Sie den eigenen Haken ''Veröffentlichbar'' der Abbildung.
@@ -119,7 +119,7 @@ Prüfen Sie, ob das Werk Folgendes hat:
 * nur diejenigen Provenienz- und Verkaufseinträge öffentlich, die öffentlich sein dürfen.
 
 <!--T:22-->
-Das ''PRO Menü'' bietet '''Überprüfungslisten''', die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Haken Sie dann ''Veröffentlichbar'' an.
+Das ''PRO-Menü'' bietet '''Überprüfungslisten''', die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Haken Sie dann ''Veröffentlichbar'' an.
 
 <!--T:23-->
 == Häufige Fehler ==

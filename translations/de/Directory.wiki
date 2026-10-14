@@ -22,7 +22,7 @@ Das Adressbuch teilen alle Werkverzeichnisse. Ein Museum mit Werken mehrerer Kü
 * Die drei Datenschutz-Haken, die [[#Was die Öffentlichkeit sieht|unten]] beschrieben sind.
 
 <!--T:5-->
-Schnell anlegen lässt sich ein Eintrag auch mit '''Einfache Directory Erstellung''' im ''PRO Menü''.
+Schnell anlegen lässt sich ein Eintrag auch mit '''Einfache Adressbuch-Erstellung''' im ''PRO-Menü''.
 
 <!--T:6-->
 == Abschnitte ==

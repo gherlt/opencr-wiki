@@ -60,7 +60,7 @@ Das eignet sich für Werkverzeichnisse, die hauptsächlich auf Literatur und Arc
 
 <!--T:10-->
 === Von den Abbildungen aus ===
-Beginnen Sie mit einer Sammlung von Fotografien, zum Beispiel einem Atelier- oder Nachlassarchiv. '''Massen New Objects Upload''' legt für jede hochgeladene Abbildung einen neuen Werkdatensatz an. Danach vervollständigen Sie jeden Datensatz und ergänzen die Quellen, sobald Sie sie identifizieren. Für einzelne Ergänzungen ist '''Einfache Objekterstellung''' im ''PRO Menü'' der schnelle Weg.
+Beginnen Sie mit einer Sammlung von Fotografien, zum Beispiel einem Atelier- oder Nachlassarchiv. '''Massen-Upload neuer Objekte''' legt für jede hochgeladene Abbildung einen neuen Werkdatensatz an. Danach vervollständigen Sie jeden Datensatz und ergänzen die Quellen, sobald Sie sie identifizieren. Für einzelne Ergänzungen ist '''Einfache Objekterstellung''' im ''PRO-Menü'' der schnelle Weg.
 
 <!--T:11-->
 Das eignet sich für Werkverzeichnisse, bei denen die Werke bekannt sind, bevor es ihre Dokumentation ist.
@@ -74,7 +74,7 @@ Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht ang
 
 <!--T:14-->
 # '''Erfassen''' Sie den Datensatz, ohne ''Veröffentlichbar'' anzuhaken, und vervollständigen Sie seine Abschnitte.
-# '''Prüfen''' Sie das Werkverzeichnis im ''PRO Menü'', das Entwürfe und veröffentlichte Datensätze nebeneinander zeigt und direkt zum Bearbeiten springen lässt.
+# '''Prüfen''' Sie das Werkverzeichnis im ''PRO-Menü'', das Entwürfe und veröffentlichte Datensätze nebeneinander zeigt und direkt zum Bearbeiten springen lässt.
 # '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), eine ''Art von Werk'' und ein Hauptbild für das Web. Ohne Hauptbild erscheint das Werk in den Galerieansichten als leere Kachel.
 # '''Heikle Einträge prüfen''': Provenienzen und Verkäufe sollten nur mit Zustimmung der Eigentümer öffentlich sein. Verwenden Sie den Haken ''Veröffentlichbar'' des einzelnen Eintrags oder die Datenschutzeinstellungen des Adressbucheintrags.
 # '''Veröffentlichen''' Sie, indem Sie ''Veröffentlichbar'' anhaken.

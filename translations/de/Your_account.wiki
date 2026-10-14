@@ -31,4 +31,4 @@ Das '''Warenkorb'''-Symbol neben einem Werk fügt es Ihrer Auswahl hinzu. Der Wa
 Künstler und die Erben eines Künstlers können ihr Werkverzeichnis auf openCR führen. Da Abbildungen von Werken nur von den Rechteinhabern veröffentlicht werden dürfen, wird die Identität neuer Bearbeiter geprüft, bevor sie Daten eingeben können, und sie akzeptieren die Nutzungsbedingungen. Siehe ''Über das Projekt'' auf [https://open.cr/deu/index open.cr] und die [[FAQ/de|Häufigen Fragen]].
 
 <!--T:8-->
-Nach der Einrichtung arbeiten die Bearbeiter im '''PRO Menü'''; alles dazu steht im [[How openCR is structured/de|Leitfaden für Bearbeiter]].
+Nach der Einrichtung arbeiten die Bearbeiter im '''PRO-Menü'''; alles dazu steht im [[How openCR is structured/de|Leitfaden für Bearbeiter]].

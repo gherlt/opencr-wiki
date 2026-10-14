@@ -42,7 +42,7 @@ Die Seite jedes Künstlers beginnt mit einem Menü, das durch das Werkverzeichni
 |-
 | '''Auszeichnungen''' || Preise und Auszeichnungen
 |-
-| '''PRO Menü''' || Der Arbeitsbereich für die Bearbeiter des Werkverzeichnisses (nur für registrierte Bearbeiter)
+| '''PRO-Menü''' || Der Arbeitsbereich für die Bearbeiter des Werkverzeichnisses (nur für registrierte Bearbeiter)
 |}
 
 <!--T:8-->
