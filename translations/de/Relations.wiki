@@ -1,0 +1,246 @@
+<!--T:Page display title-->
+Beziehungen
+
+<!--T:1-->
+Ein Werkverzeichnis ist ein Netz von Verknüpfungen: Ein Werk ist eine Studie zu einem anderen, gehörte einem Sammler, wurde in einer Ausstellung gezeigt und in einem Buch abgebildet. openCR erfasst jede dieser Verknüpfungen einmal, an einer festgelegten Stelle, und zeigt sie von beiden Seiten.
+
+<!--T:2-->
+Diese Seite listet jede Art von Verknüpfung auf. Es gibt zwei Familien:
+* '''Verknüpfungen zwischen Datensätzen derselben Art''', zum Beispiel von Werk zu Werk;
+* '''Verknüpfungen zwischen verschiedenen Arten von Datensätzen''', zum Beispiel von Werk zu Publikation.
+
+<!--T:3-->
+Zu den Bausteinen selbst siehe [[How openCR is structured/de|Wie openCR aufgebaut ist]].
+
+<!--T:4-->
+== Zwei Regeln für alle Verknüpfungen ==
+'''Jede Verknüpfung einmal erfassen.''' Eine Verknüpfung zwischen zwei Datensätzen wird einmal gespeichert, und openCR zeigt sie von beiden Seiten. Hat eine Verknüpfung eine Richtung, zeigt die andere Seite automatisch die umgekehrte Formulierung: Wenn eine Zeichnung ''ist eine Studie zu'' einem Gemälde, zeigt das Gemälde die umgekehrte Formulierung, ''Studie ist''. Wird auch die umgekehrte Verknüpfung erfasst, erscheint sie doppelt.
+
+<!--T:5-->
+'''Auf die Richtung achten.''' „A ''ist eine Studie zu'' B“ bedeutet, dass A die Studie ist. Falsch herum erfasst, ist jede angezeigte Formulierung umgekehrt. Bei symmetrischen Verknüpfungen wie ''ist ähnlich wie'' spielt die Richtung keine Rolle, aber auch sie werden nur einmal erfasst.
+
+<!--T:6-->
+== Verknüpfungen zwischen Werken ==
+Werke haben untereinander die meisten Arten von Verknüpfungen. Jede Art hat ihren eigenen Ort, und sie sind nicht austauschbar.
+
+<!--T:7-->
+{| class="wikitable"
+! Art der Verknüpfung !! Wo !! Wofür
+|-
+| '''Bestandteile''' || Abschnitt ''Bestandteile'' || Ein Werk aus mehreren Stücken, etwa ein Triptychon oder eine Assemblage
+|-
+| '''Suite''' || ''Ist es eine Suite ?'' bei der Suite, ''ID zugehörige Suite'' bei jedem zugehörigen Werk || Einzeln verzeichnete Werke, die eine Serie bilden, etwa eine Grafikmappe
+|-
+| '''Grafikauflagen''' || Abschnitt ''Auflagen'' || Die Abzüge einer Grafik: reguläre Auflage, Künstlerexemplare, Zustandsdrucke usw.
+|-
+| '''Skulpturauflagen''' || Abschnitt ''Auflagen Skulptur'' || Die Güsse einer Skulptur
+|-
+| '''Werkverzeichnis-Beziehungen''' || ''Objektbeziehungen'' || Kunsthistorische Verknüpfungen: Studie, Version, Kopie, Modell usw.
+|-
+| '''Korrektur- und Ergänzungsdatensätze''' || ''Art des Datensatzes'' und ''Übergeordnetes Objekt'' || Zusätzliche Datensätze, die einen Hauptdatensatz korrigieren oder ergänzen
+|-
+| '''Gruppierung''' || ''All Grouping ID'' || Werke im Layout eines gedruckten Werkverzeichnisses zusammen darstellen; darüber hinaus ohne Bedeutung
+|}
+
+<!--T:8-->
+=== Bestandteile oder Suite? ===
+{| class="wikitable"
+! Frage !! Dann verwenden Sie
+|-
+| Ist es ein Werk aus mehreren Stücken, mit einem gemeinsamen Titel und Datum? || '''Bestandteile'''
+|-
+| Sind es eigenständige Werke mit jeweils eigenem Titel und Datum, die eine Serie bilden? || '''Suite'''
+|}
+
+<!--T:9-->
+=== Werkverzeichnis-Beziehungen ===
+Der Abschnitt ''Objektbeziehungen'' bietet diese Verknüpfungen. Die Liste enthält beide Formulierungen jedes Paars, sodass eine Verknüpfung bei jedem der beiden Werke erfasst werden kann: bei der Zeichnung ''ist eine Studie zu'' wählen und das Gemälde auswählen, oder beim Gemälde ''Studie ist'' wählen und die Zeichnung auswählen. In beiden Fällen nur einmal erfassen; das andere Werk zeigt automatisch die umgekehrte Formulierung.
+{| class="wikitable"
+! Verknüpfung !! Beim anderen Werk angezeigt als
+|-
+| ist eine Studie zu || Studie ist
+|-
+| ist eine Studie zur Darstellung von || Studie zur Darstellung ist
+|-
+| ist ein Modell von || Modell ist
+|-
+| ist ein Plan von || Plan ist
+|-
+| ist ein Karton zu || Karton ist
+|-
+| ist eine Druckplatte für || Druckplatte ist
+|-
+| ist eine Version von || Version ist
+|-
+| ist eine Kopie von || Kopie ist
+|-
+| Replik von || Replik ist
+|-
+| Faksimile von || Faksimile ist
+|-
+| abgeleitet von || Quelle für
+|-
+| basiert auf || ist Vorarbeit für
+|-
+| ist Basis für || basiert auf
+|-
+| ist Teil von || ist ein größerer Kontext für
+|-
+| war Teil von || war ein größerer Kontext von
+|-
+| entwickelt für || Kontext ist
+|-
+| stellt dar || wird dargestellt
+|-
+| ist ähnlich wie || ist ähnlich wie
+|-
+| Pendant zu || Pendant zu
+|-
+| bezieht sich auf || bezieht sich auf
+|}
+
+<!--T:10-->
+Eine Studie zu einem Gemälde ist eine Werkverzeichnis-Beziehung, kein Teil einer Suite. Blatt 3 einer Mappe mit zwölf Blättern gehört zu einer Suite und ist keine Werkverzeichnis-Beziehung.
+
+<!--T:11-->
+=== Einträge für einen einzelnen Bestandteil oder eine Auflage ===
+Viele Abschnitte eines Werks können sich auf das ganze Werk oder auf einen seiner Bestandteile oder eine seiner Auflagen beziehen. Lassen Sie Bestandteil oder Auflage bei Einträgen leer, die für das ganze Werk gelten; wählen Sie eines aus, um den Eintrag einzugrenzen.
+
+<!--T:12-->
+{| class="wikitable"
+! Abschnitt !! Bestandteil !! Grafikauflage !! Skulpturauflage
+|-
+| Abbildungen || ✓ || ✓ || ✓
+|-
+| Beteiligte || ✓ || ✓ || ✓
+|-
+| Objects Actions || ✓ || ✓ || ✓
+|-
+| Werkeigenschaften || ✓ || ✓ || ✓
+|-
+| Notizen/Kommentare || ✓ || ✓ || ✓
+|-
+| Objektmaße || ✓ || ✓ || ✓
+|-
+| Komponenten || ✓ || – || ✓
+|-
+| Provenienz, Transaktionen, Referenzen || – || – || –
+|}
+
+<!--T:13-->
+Eigentum, Verkäufe und Literatur beziehen sich immer auf das Werk als Ganzes. Legen Sie Bestandteile und Auflagen '''vor''' den Einträgen an, die sich auf sie beziehen.
+
+<!--T:14-->
+== Verknüpfungen zwischen Publikationen ==
+''Publications Relations'' verknüpft eine Publikation mit einer anderen: ist Teil von, ist Version von, ist Kopie von, Faksimile von, basiert auf, ist die Vorbereitung für, abgeleitet von, ist ähnlich wie, steht in Beziehung mit. Es gelten dieselben Regeln: ein Eintrag je Verknüpfung, die umgekehrte Formulierung wird automatisch angezeigt. Siehe [[Publications/de#Ereignisse, Sprachen und verwandte Publikationen|Publikationen]].
+
+<!--T:15-->
+== Verknüpfungen zwischen Adressbucheinträgen ==
+''Directory Relations'' verknüpft Personen und Institutionen miteinander: arbeitet für, ist Mitglied von, ist Kollege von, ist Gründer von, ist der Finanzier von, ist Eigentümer von, ist Sponsor von, ist Lehrer von / ist Schüler von, ist Kind von, ist Geschwister von, ist verwandt (Familie, emotional oder abstrakt), ist Nachfolger von / ist Vorgänger von, hat übernommen, hat aufgenommen, hat getroffen, kennt. Eine Beziehung kann den Zeitraum tragen, in dem sie bestand. Siehe [[Directory/de#Abschnitte|Adressbuch]].
+
+<!--T:16-->
+== Künstler und Ereignisse ==
+Künstler werden nicht direkt mit anderen Künstlern verknüpft und Ereignisse nicht mit anderen Ereignissen. Künstler begegnen sich stattdessen in gemeinsamen Datensätzen: Eine Gruppenausstellung listet alle teilnehmenden Künstler auf, eine Publikation alle Künstler, von denen sie handelt.
+
+<!--T:17-->
+== Verknüpfungen zwischen verschiedenen Arten von Datensätzen ==
+Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Arten auf und den Abschnitt, in dem sie erfasst werden.
+
+<!--T:18-->
+=== Von einem Werk aus ===
+{| class="wikitable"
+! Zu !! Abschnitt !! Bedeutung
+|-
+| Künstler || (Hauptformular) || Das Werkverzeichnis, zu dem das Werk gehört
+|-
+| [[Directory/de|Adressbuch]] || ''Beteiligte'' || Drucker, Verleger, Gießerei, Fotograf, Mitautor und andere beteiligte Personen
+|-
+| Adressbuch || ''Provenienz'' || Die Eigentümer
+|-
+| Adressbuch || ''Transaktionen'' || Verkäufer, Käufer und Vermittler eines Verkaufs
+|-
+| Adressbuch || ''Objects Actions'' || Wer eine datierte Handlung vorgenommen hat, etwa eine Restaurierung
+|-
+| Adressbuch || ''Abbildungen'' || Der Fotograf und der Eigentümer einer Fotografie
+|-
+| [[Publications/de|Publikationen]] || ''Referenzen'' || Die Literatur, die das Werk erwähnt oder abbildet
+|-
+| Publikationen oder Adressbuch || ''Titel'' || Die Publikation oder Person, die einen weiteren Titel verwendet
+|-
+| [[Events/de|Ereignisse]] || ''Ausstellungen'' || Die Ausstellungen, in denen das Werk gezeigt wurde, mit dem Leihgeber (einem Adressbucheintrag)
+|-
+| Ereignisse || ''Transaktionen'' || Die Auktion oder Messe, bei der ein Verkauf stattfand
+|-
+| Tags || ''Tags Inhalt'' || Die Schlagwörter des Künstlers, die zum Werk passen
+|}
+
+<!--T:19-->
+=== Von einer Publikation aus ===
+{| class="wikitable"
+! Zu !! Abschnitt !! Bedeutung
+|-
+| [[Artists/de|Künstler]] || ''Erwähnte Künstler'' || Die Künstler, von denen die Publikation handelt, und ob sie in deren Bibliographie steht
+|-
+| Künstler || ''Publications Artist References'' (eigenes Formular) || Seitenbereiche je Künstler
+|-
+| [[Directory/de|Adressbuch]] || ''Publications Agents'' || Autoren, Herausgeber, Verlage und andere Mitwirkende
+|-
+| [[Events/de|Ereignisse]] || ''Erwähnte Ereignisse'' || Die Ereignisse, die die Publikation dokumentiert
+|-
+| [[Objects/de|Werke]] || ''Referenzen'' || Die Werke, die sie erwähnt oder abbildet (dieselbe Verknüpfung wie die ''Referenzen'' des Werks)
+|}
+
+<!--T:20-->
+=== Von einem Ereignis aus ===
+{| class="wikitable"
+! Zu !! Abschnitt !! Bedeutung
+|-
+| [[Artists/de|Künstler]] || ''Events Artists'' || Die teilnehmenden Künstler und ihre Rollen
+|-
+| [[Directory/de|Adressbuch]] || ''Events Agents'' || Veranstalter, Kuratoren, Galerien, Sponsoren und andere
+|-
+| [[Objects/de|Werke]] || ''Ausgestellte Werke'' || Die gezeigten Werke (dieselbe Verknüpfung wie die ''Ausstellungen'' des Werks)
+|-
+| [[Publications/de|Publikationen]] || ''In Beziehung stehende Publikationen'' || Publikationen über das Ereignis (dieselbe Verknüpfung wie die ''Erwähnte Ereignisse'' der Publikation)
+|}
+
+<!--T:21-->
+=== Von einem Künstler aus ===
+{| class="wikitable"
+! Zu !! Abschnitt !! Bedeutung
+|-
+| [[Directory/de|Adressbuch]] || ''Beziehungen'' || Galerist, Verleger, Sammler, Mentor, Familie, Erbe und andere
+|-
+| Adressbuch || ''Sammlungen'' || Institutionen, die Werke des Künstlers besitzen
+|-
+| Adressbuch || ''Verwertungsgesellschaft'' (Hauptformular) || Die Gesellschaft, die die Rechte des Künstlers wahrnimmt
+|-
+| Adressbuch || alternative Namen || Die Quelle eines alternativen Namens
+|}
+
+<!--T:22-->
+=== Von einem Adressbucheintrag aus ===
+{| class="wikitable"
+! Zu !! Einstellung !! Bedeutung
+|-
+| [[Artists/de|Künstler]] || ''Directory Artists'' || In welchen Werkverzeichnissen der Eintrag verwendet wird. Eine Sichtbarkeitseinstellung, keine Beziehung.
+|-
+| Künstler || ''Limited To Artist ID'' || Beschränkt den Eintrag auf das Werkverzeichnis eines einzigen Künstlers
+|}
+
+<!--T:23-->
+=== Händler und Angebote ===
+Ein Händler ist mit einem Adressbucheintrag und mit den Künstlern verknüpft, für die er freigegeben ist; ein Angebot verweist auf einen Künstler und auf das angebotene Werk. Siehe [[Dealers and offers/de|Händler und Angebote]].
+
+<!--T:24-->
+== Häufige Fehler ==
+* '''Gespiegelte Verknüpfungen.''' Jede Verknüpfung wird einmal erfasst; die andere Seite wird automatisch angezeigt.
+* '''Falsche Richtung.''' Prüfen Sie, welcher Datensatz die Studie, die Kopie oder das Modell ist, bevor Sie die Verknüpfung wählen.
+* '''Suiten und Beziehungen verwechselt.''' Die Zugehörigkeit zu einer Serie gehört in die Suite-Felder, kunsthistorische Verknüpfungen in ''Objektbeziehungen''.
+* '''Beziehung oder Sichtbarkeit.''' Um eine Galerie mit einem Künstler zu verbinden, verwenden Sie die ''Beziehungen'' des Künstlers, nicht ''Directory Artists''.
+* '''Der Künstler als Adressbucheintrag.''' Hat der Künstler selbst ein Werk besessen oder eine Handlung vorgenommen, haken Sie das Feld für den Künstler in diesem Eintrag an, statt einen Adressbucheintrag zu verknüpfen.
+
+<!--T:25-->
+== Siehe auch ==
+* [[How openCR is structured/de|Wie openCR aufgebaut ist]]
+* [[Objects/de|Werke]] · [[Publications/de|Publikationen]] · [[Events/de|Ereignisse]] · [[Directory/de|Adressbuch]] · [[Artists/de|Künstler]]

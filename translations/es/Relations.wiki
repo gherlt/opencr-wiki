@@ -1,0 +1,246 @@
+<!--T:Page display title-->
+Relaciones
+
+<!--T:1-->
+Un catálogo razonado es una red de enlaces: una obra es estudio de otra, perteneció a un coleccionista, se mostró en una exposición y se reprodujo en un libro. openCR registra cada uno de estos enlaces una sola vez, en un lugar definido, y lo muestra desde ambos lados.
+
+<!--T:2-->
+Esta página enumera todos los tipos de enlace. Hay dos familias:
+* '''enlaces entre registros del mismo tipo''', por ejemplo de obra a obra;
+* '''enlaces entre registros de distinto tipo''', por ejemplo de obra a publicación.
+
+<!--T:3-->
+Para las piezas básicas en sí, véase [[How openCR is structured/es|Cómo está estructurado openCR]].
+
+<!--T:4-->
+== Dos reglas para todos los enlaces ==
+'''Introduzca cada enlace una sola vez.''' Un enlace entre dos registros se guarda una vez, y openCR lo muestra desde ambos lados. Cuando un enlace tiene dirección, el otro lado muestra automáticamente la formulación inversa: si un dibujo ''es el estudio de'' un cuadro, el cuadro muestra la formulación inversa, ''estudio es''. Si se introduce también el enlace inverso, aparece dos veces.
+
+<!--T:5-->
+'''Atención a la dirección.''' «A ''es el estudio de'' B» significa que A es el estudio. Si se introduce al revés, cada frase mostrada queda invertida. En los enlaces simétricos, como ''es similar a'', la dirección no importa, pero también se introducen una sola vez.
+
+<!--T:6-->
+== Enlaces entre obras ==
+Las obras tienen entre sí el conjunto de enlaces más rico. Cada tipo tiene su propio lugar, y no son intercambiables.
+
+<!--T:7-->
+{| class="wikitable"
+! Tipo de enlace !! Dónde !! Para qué
+|-
+| '''Partes''' || Sección ''Partes'' || Una obra hecha de varias piezas, como un tríptico o un ensamblaje
+|-
+| '''Suite''' || ''Es una Suite (S/N) ?'' en la suite, ''ID Suite perteneciente'' en cada obra que forma parte de ella || Obras catalogadas por separado que forman una serie, como una carpeta de estampas
+|-
+| '''Ediciones de obra gráfica''' || Sección ''Ediciones'' || Los ejemplares de una estampa: tirada normal, pruebas de artista, pruebas de estado, etc.
+|-
+| '''Ediciones de escultura''' || Sección ''Ediciones Escultura'' || Las fundiciones de una escultura
+|-
+| '''Relaciones de catálogo''' || ''Relac. con otros Objetos'' || Enlaces histórico-artísticos: estudio, versión, copia, modelo, etc.
+|-
+| '''Registros de corrección y suplementarios''' || ''Tipo de registro'' y ''Objeto matriz'' || Registros adicionales que corrigen o complementan un registro principal
+|-
+| '''Agrupación''' || ''All Grouping ID'' || Presentar obras juntas en la maquetación de un catálogo impreso; no tiene otro significado
+|}
+
+<!--T:8-->
+=== ¿Partes o suite? ===
+{| class="wikitable"
+! Pregunta !! Entonces use
+|-
+| ¿Es una sola obra en varias piezas, con un mismo título y una misma fecha? || '''Partes'''
+|-
+| ¿Son obras independientes, cada una con su propio título y su propia fecha, que forman una serie? || '''Suite'''
+|}
+
+<!--T:9-->
+=== Relaciones de catálogo ===
+La sección ''Relac. con otros Objetos'' ofrece estos enlaces. La lista contiene las dos formulaciones de cada par, así que un enlace puede introducirse en cualquiera de las dos obras: en el dibujo, elija ''es el estudio de'' y seleccione el cuadro, o en el cuadro, elija ''estudio es'' y seleccione el dibujo. En ambos casos, introdúzcalo una sola vez; la otra obra muestra automáticamente la formulación inversa.
+{| class="wikitable"
+! Enlace !! Se muestra en la otra obra como
+|-
+| es el estudio de || estudio es
+|-
+| es un estudio para la representación de || estudio para la representación es
+|-
+| es modelo de || modelo es
+|-
+| es el plan de || el plan es
+|-
+| es cartón de || cartón es
+|-
+| es una plancha de impresión para || plancha de impresión es
+|-
+| es la versión de || versión es
+|-
+| es copia de || copia es
+|-
+| réplica de || réplica es
+|-
+| facsímil de || facsímil es
+|-
+| derivado de || fuente de
+|-
+| se basa en || es preparatorio para
+|-
+| es la base de || se basa en
+|-
+| forma parte de || es un contexto más amplio para
+|-
+| era parte de || era el contexto más amplio de
+|-
+| diseñado para || el contexto es
+|-
+| representa || está representado
+|-
+| es similar a || es similar a
+|-
+| pendant de || pendant de
+|-
+| está relacionado con || está relacionado con
+|}
+
+<!--T:10-->
+Un estudio para un cuadro es una relación de catálogo, no un miembro de una suite. La lámina 3 de una carpeta de doce es un miembro de una suite, no una relación de catálogo.
+
+<!--T:11-->
+=== Entradas para una sola parte o edición ===
+Muchas secciones de una obra pueden referirse a la obra entera o a una de sus partes o ediciones. Deje vacía la parte o la edición en las entradas que se aplican a toda la obra; elija una para acotar la entrada.
+
+<!--T:12-->
+{| class="wikitable"
+! Sección !! Parte !! Edición de obra gráfica !! Edición de escultura
+|-
+| Imágenes || ✓ || ✓ || ✓
+|-
+| Partícipes || ✓ || ✓ || ✓
+|-
+| Objects Actions || ✓ || ✓ || ✓
+|-
+| Atributos de obras || ✓ || ✓ || ✓
+|-
+| Observaciones || ✓ || ✓ || ✓
+|-
+| Medidas objeto || ✓ || ✓ || ✓
+|-
+| Componentes || ✓ || – || ✓
+|-
+| Historial de propiedad, Historial de ventas, Referencias || – || – || –
+|}
+
+<!--T:13-->
+La propiedad, las ventas y la bibliografía se refieren siempre a la obra en su conjunto. Cree las partes y las ediciones '''antes''' que las entradas que se refieren a ellas.
+
+<!--T:14-->
+== Enlaces entre publicaciones ==
+''Publications Relations'' enlaza una publicación con otra: es parte de, es versión de, es copia de, facsímil de, está basado en, es la preparación para, derivada de, es similar a, está relacionado con. Rigen las mismas reglas: una entrada por enlace, la formulación inversa se muestra automáticamente. Véase [[Publications/es#Eventos, idiomas y publicaciones relacionadas|Publicaciones]].
+
+<!--T:15-->
+== Enlaces entre entradas del directorio ==
+''Directory Relations'' enlaza personas e instituciones entre sí: trabaja para, es miembro de, es colega de, es fundador de, es financiador de, es dueño de, es patrocinador de, es profesor de / es estudiante de, es hijo de, es hermano de, es pariente o está relacionado (familia, emocional o abstracto), es el sucesor de / es el predecesor de, se ha hecho cargo de, ha absorbido, ha conocido, conoce. Una relación puede llevar el periodo en que existió. Véase [[Directory/es#Secciones|Directorio]].
+
+<!--T:16-->
+== Artistas y eventos ==
+Los artistas no se enlazan directamente con otros artistas, ni los eventos con otros eventos. Los artistas se encuentran, en cambio, en registros compartidos: una exposición colectiva enumera a todos sus artistas participantes, y una publicación, a todos los artistas de los que trata.
+
+<!--T:17-->
+== Enlaces entre registros de distinto tipo ==
+Las tablas enumeran, para cada tipo de registro, los enlaces que tiene con otros tipos y la sección en la que se introducen.
+
+<!--T:18-->
+=== Desde una obra ===
+{| class="wikitable"
+! Hacia !! Sección !! Significado
+|-
+| Artista || (formulario principal) || El catálogo al que pertenece la obra
+|-
+| [[Directory/es|Directorio]] || ''Partícipes'' || Imprenta, editorial, fundición, fotógrafo, coautor y otras personas implicadas
+|-
+| Directorio || ''Historial de propiedad'' || Los propietarios
+|-
+| Directorio || ''Historial de ventas'' || Vendedor, comprador e intermediario de una venta
+|-
+| Directorio || ''Objects Actions'' || Quién realizó una acción fechada, como una restauración
+|-
+| Directorio || ''Imágenes'' || El fotógrafo y el propietario de una fotografía
+|-
+| [[Publications/es|Publicaciones]] || ''Referencias'' || La bibliografía que menciona o reproduce la obra
+|-
+| Publicaciones o directorio || ''Títulos'' || La publicación o la persona que usa otro título
+|-
+| [[Events/es|Eventos]] || ''Exposiciones'' || Las exposiciones en las que se mostró la obra, con el prestador (una entrada del directorio)
+|-
+| Eventos || ''Historial de ventas'' || La subasta o la feria en la que tuvo lugar una venta
+|-
+| Marcadores de contenido || ''Marcadores de Contenido'' || Las palabras clave del artista que corresponden a la obra
+|}
+
+<!--T:19-->
+=== Desde una publicación ===
+{| class="wikitable"
+! Hacia !! Sección !! Significado
+|-
+| [[Artists/es|Artistas]] || ''Artistas tratados'' || Los artistas de los que trata la publicación, y si está en su bibliografía
+|-
+| Artistas || ''Publications Artist References'' (formulario aparte) || Intervalos de páginas por artista
+|-
+| [[Directory/es|Directorio]] || ''Publications Agents'' || Autores, editores, editoriales y otros colaboradores
+|-
+| [[Events/es|Eventos]] || ''Eventos relacionados'' || Los eventos que documenta la publicación
+|-
+| [[Objects/es|Obras]] || ''Referencias'' || Las obras que menciona o reproduce (el mismo enlace que las ''Referencias'' de la obra)
+|}
+
+<!--T:20-->
+=== Desde un evento ===
+{| class="wikitable"
+! Hacia !! Sección !! Significado
+|-
+| [[Artists/es|Artistas]] || ''Events Artists'' || Los artistas participantes y sus funciones
+|-
+| [[Directory/es|Directorio]] || ''Events Agents'' || Organizadores, comisarios, galerías, patrocinadores y otros
+|-
+| [[Objects/es|Obras]] || ''Obras Expuestas'' || Las obras mostradas (el mismo enlace que las ''Exposiciones'' de la obra)
+|-
+| [[Publications/es|Publicaciones]] || ''Publicaciones relacionadas'' || Publicaciones sobre el evento (el mismo enlace que los ''Eventos relacionados'' de la publicación)
+|}
+
+<!--T:21-->
+=== Desde un artista ===
+{| class="wikitable"
+! Hacia !! Sección !! Significado
+|-
+| [[Directory/es|Directorio]] || ''Relaciones'' || Galerista, editor, coleccionista, mentor, familia, heredero y otros
+|-
+| Directorio || ''Colecciones'' || Instituciones que poseen obras del artista
+|-
+| Directorio || ''Entidad de gestión'' (formulario principal) || La entidad que gestiona los derechos del artista
+|-
+| Directorio || nombres alternativos || La fuente de un nombre alternativo
+|}
+
+<!--T:22-->
+=== Desde una entrada del directorio ===
+{| class="wikitable"
+! Hacia !! Ajuste !! Significado
+|-
+| [[Artists/es|Artistas]] || ''Directory Artists'' || En qué catálogos de artistas se usa la entrada. Un ajuste de visibilidad, no una relación.
+|-
+| Artistas || ''Limited To Artist ID'' || Restringe la entrada al catálogo de un solo artista
+|}
+
+<!--T:23-->
+=== Marchantes y ofertas ===
+Un marchante está vinculado a una entrada del directorio y a los artistas para los que está autorizado; una oferta remite a un artista y a la obra ofrecida. Véase [[Dealers and offers/es|Marchantes y ofertas]].
+
+<!--T:24-->
+== Errores frecuentes ==
+* '''Enlaces en espejo.''' Cada enlace se introduce una sola vez; el otro lado se muestra automáticamente.
+* '''Dirección equivocada.''' Compruebe qué registro es el estudio, la copia o el modelo antes de elegir el enlace.
+* '''Suites y relaciones confundidas.''' La pertenencia a una serie va en los campos de la suite; los enlaces histórico-artísticos, en ''Relac. con otros Objetos''.
+* '''Relación frente a visibilidad.''' Para vincular una galería con un artista, use las ''Relaciones'' del artista, no ''Directory Artists''.
+* '''El artista como entrada del directorio.''' Cuando el propio artista poseyó una obra o realizó una acción, marque la casilla del artista en esa entrada en lugar de enlazar una entrada del directorio.
+
+<!--T:25-->
+== Véase también ==
+* [[How openCR is structured/es|Cómo está estructurado openCR]]
+* [[Objects/es|Obras]] · [[Publications/es|Publicaciones]] · [[Events/es|Eventos]] · [[Directory/es|Directorio]] · [[Artists/es|Artistas]]

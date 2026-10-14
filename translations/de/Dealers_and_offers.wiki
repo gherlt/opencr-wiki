@@ -1,0 +1,71 @@
+<!--T:Page display title-->
+Händler und Angebote
+
+<!--T:1-->
+'''Händler und Angebote''' ermöglichen es, Werke aus einem Werkverzeichnis zum Verkauf anzubieten. Ein '''Angebot''' ist eine Anzeige für ein Werk, die Besuchern auf der Seite dieses Werks gezeigt wird, oder eine allgemeine Anzeige für das Werk eines Künstlers. Verkäufer ist entweder ein '''Händler''' (eine Galerie oder ein Kunsthändler) oder der '''Künstler''', der sein eigenes Werk verkauft.
+
+<!--T:2-->
+Dieser Bereich ist vom Werkverzeichnis selbst getrennt: Angebote ändern nie die Werkverzeichnisdaten eines Werks, und ein Werk kann im Werkverzeichnis stehen, ohne je angeboten zu werden.
+
+<!--T:3-->
+== Händler ==
+Ein Händler ist ein Verkäufer mit eigenem openCR-Zugang, verknüpft mit einem [[Directory/de|Adressbucheintrag]], unter dem er Besuchern erscheint. Händler werden vom '''Plattform-Administrator''' angelegt und verwaltet:
+* der '''Login user''' und der '''Directory record''' des Händlers (ein Zugang und ein Adressbucheintrag je Händler);
+* ob der Händler '''Active''' ist, und optional der Zeitraum der Vereinbarung (''Active from'', ''Active to'');
+* optional ein '''Monthly budget''' und seine Währung;
+* die Künstler, für die der Händler werben darf ('''Cleared to advertise''').
+
+<!--T:4-->
+Ein Händler kann nur Angebote für Werke von Künstlern anlegen, für die er freigegeben ist. Die Freigabe allein legt noch kein Angebot an.
+
+<!--T:5-->
+== Angebote ==
+Angebote werden auf der Seite '''Works for sale''' angelegt und bearbeitet, die Sie über die Übersicht erreichen; dieser Bereich ist nur auf Englisch verfügbar. Wer dort welche Angebote sieht:
+* ein '''Händler''' sieht und verwaltet seine eigenen Angebote;
+* ein '''Künstler-Admin''' oder '''Künstler-Experte''' sieht und verwaltet die Angebote, in denen seine Künstler ihr eigenes Werk verkaufen;
+* der '''Plattform-Administrator''' sieht und verwaltet alle Angebote.
+
+<!--T:6-->
+Ein Angebot erfasst:
+{| class="wikitable"
+! Feld !! Bedeutung
+|-
+| ''Selling dealer'' || Der verkaufende Händler. Leer lassen, wenn der Künstler sein eigenes Werk verkauft.
+|-
+| ''Artist'' || Der Künstler, dessen Werk angeboten wird. Immer erforderlich, auch bei Angeboten von Händlern.
+|-
+| ''Work type'' und ''Work ID'' || Das angebotene Werk: das Kunstwerk selbst (''Object''), eine seiner Grafik- oder Skulpturauflagen (''Object print edition'', ''SculptureEdition'') oder einer seiner Bestandteile (''ObjectPart''), mit seiner ID. Es muss ein Werk des Künstlers des Angebots sein. Lassen Sie beide leer für eine allgemeine Anzeige für das Werk des Künstlers.
+|-
+| ''Reference / order no.'' || Die eigene Artikel- oder Bestellnummer des Verkäufers.
+|-
+| ''Price'' und ''Currency'' || Der geforderte Preis.
+|-
+| ''Price on request'' || Zeigt „Preis auf Anfrage“ statt des Preises.
+|-
+| ''Object condition'' || Der Zustand des angebotenen Werks.
+|-
+| ''Runs from'' und ''Runs to'' || Der Zeitraum, in dem das Angebot angezeigt wird. Leer lassen für keine Begrenzung.
+|-
+| ''Default text'' und ''Default URL'' || Der Text der Anzeige und der Link zur eigenen Seite des Verkäufers über das Werk. Die URL muss mit ''http://'' oder ''https://'' beginnen.
+|-
+| Texte je Sprache || Optionaler Text und Link in weiteren Sprachen. Gibt es keine für die Sprache des Besuchers, werden der Standardtext und der Standardlink angezeigt.
+|}
+
+<!--T:7-->
+== Was Besucher sehen ==
+Auf der Seite eines Werks erscheinen Angebote unter '''Zum Verkauf''', solange der Zeitraum des Angebots das heutige Datum einschließt: zuerst die Angebote für das Werk selbst, dann die für seine Auflagen und Bestandteile, jeweils mit der Auflage oder dem Bestandteil beschriftet. Die Angebote eines Händlers werden nur angezeigt, solange der Händler ''Active'' ist und das heutige Datum im eigenen Zeitraum des Händlers liegt (''Active from'', ''Active to''). Jedes Angebot zeigt den Verkäufer (''Erhältlich bei'': den Adressbucheintrag des Händlers oder den Künstler), den Zustand, den Preis oder ''Preis auf Anfrage'' und den Text. Sein Link, '''Zur Seite des Verkäufers''', führt zur URL des Angebots; ein Angebot ohne URL zeigt stattdessen '''Beim Verkäufer anfragen''', das eine Seite öffnet, die das Werk nennt und die veröffentlichten Kontaktdaten des Verkäufers auflistet.
+
+<!--T:8-->
+Allgemeine Anzeigen erscheinen unter '''Werke zum Verkauf''' auf der Künstlerseite und auf den Seiten der Werke des Künstlers.
+
+<!--T:9-->
+== Häufige Fehler ==
+* '''Erst die Freigabe.''' Das Angebot eines Händlers für einen Künstler, für den er nicht freigegeben ist, lässt sich nicht speichern. Bitten Sie den Plattform-Administrator, die Freigabe hinzuzufügen.
+* '''Künstler fehlt.''' Jedes Angebot braucht seinen Künstler, auch wenn ein Händler verkauft.
+* '''Werk eines anderen Künstlers.''' Das angebotene Werk muss zum Künstler des Angebots gehören; sonst lässt sich das Angebot nicht speichern.
+* '''Ein Angebot beenden.''' Um ein Angebot nicht mehr anzuzeigen, setzen Sie ''Runs to'' auf den letzten Tag, an dem es erscheinen soll. Um alle Angebote eines Händlers zu stoppen, entfernt der Plattform-Administrator den Haken bei ''Active''.
+
+<!--T:10-->
+== Siehe auch ==
+* [[Directory/de|Adressbuch]]
+* [[Objects/de|Werke]]

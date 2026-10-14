@@ -1,0 +1,71 @@
+<!--T:Page display title-->
+Marchantes y ofertas
+
+<!--T:1-->
+Los '''marchantes y ofertas''' permiten ofrecer en venta obras de un catálogo. Una '''oferta''' es un anuncio de una obra que se muestra a los visitantes en la página de esa obra, o un anuncio general de la obra de un artista. El vendedor es un '''marchante''' (una galería o un marchante de arte) o el propio '''artista''', que vende su obra.
+
+<!--T:2-->
+Esta área es independiente del catálogo: las ofertas nunca modifican los datos de catálogo de una obra, y una obra puede estar en el catálogo sin haberse ofrecido nunca.
+
+<!--T:3-->
+== Marchantes ==
+Un marchante es un vendedor con acceso propio a openCR, vinculado a una entrada del [[Directory/es|directorio]], que es como lo ven los visitantes. Los marchantes los da de alta y los gestiona el '''administrador de la plataforma''':
+* el '''Login user''' y el '''Directory record''' del marchante (un acceso y una entrada del directorio por marchante);
+* si el marchante está '''Active''' y, opcionalmente, el periodo del acuerdo (''Active from'', ''Active to'');
+* opcionalmente un '''Monthly budget''' y su moneda;
+* los artistas para los que el marchante está autorizado a anunciarse ('''Cleared to advertise''').
+
+<!--T:4-->
+Un marchante solo puede crear ofertas de obras de los artistas para los que está autorizado. La autorización por sí sola no crea ninguna oferta.
+
+<!--T:5-->
+== Ofertas ==
+Las ofertas se crean y se editan en la página '''Works for sale''', a la que se llega desde el panel de control; esta área solo está disponible en inglés. Quién ve qué ofertas allí:
+* un '''marchante''' ve y gestiona sus propias ofertas;
+* un '''administrador de artista''' o un '''experto de artista''' ve y gestiona las ofertas en las que sus artistas venden su propia obra;
+* el '''administrador de la plataforma''' ve y gestiona todas las ofertas.
+
+<!--T:6-->
+Una oferta registra:
+{| class="wikitable"
+! Campo !! Significado
+|-
+| ''Selling dealer'' || El marchante que vende. Déjelo vacío cuando el artista vende su propia obra.
+|-
+| ''Artist'' || El artista cuya obra se ofrece. Siempre obligatorio, también en las ofertas de marchantes.
+|-
+| ''Work type'' y ''Work ID'' || La obra ofrecida: la obra misma (''Object''), una de sus ediciones de obra gráfica o de escultura (''Object print edition'', ''SculptureEdition'') o una de sus partes (''ObjectPart''), con su ID. Debe ser una obra del artista de la oferta. Deje ambos vacíos para un anuncio general de la obra del artista.
+|-
+| ''Reference / order no.'' || El número de artículo o de pedido propio del vendedor.
+|-
+| ''Price'' y ''Currency'' || El precio pedido.
+|-
+| ''Price on request'' || Muestra «Precio a consultar» en lugar del precio.
+|-
+| ''Object condition'' || El estado de la obra ofrecida.
+|-
+| ''Runs from'' y ''Runs to'' || El periodo en que se muestra la oferta. Déjelos vacíos para no limitarlo.
+|-
+| ''Default text'' y ''Default URL'' || El texto del anuncio y el enlace a la página propia del vendedor sobre la obra. La URL debe empezar por ''http://'' o ''https://''.
+|-
+| Textos por idioma || Texto y enlace opcionales en otros idiomas. Si no existen para el idioma del visitante, se muestran el texto y el enlace por defecto.
+|}
+
+<!--T:7-->
+== Lo que ven los visitantes ==
+En la página de una obra, las ofertas aparecen bajo '''Obra en venta''' mientras el periodo de la oferta incluye la fecha actual: primero las ofertas de la obra misma, después las de sus ediciones y partes, cada una con el nombre de la edición o de la parte. Las ofertas de un marchante solo se muestran mientras el marchante está ''Active'' y la fecha actual está dentro de su propio periodo (''Active from'', ''Active to''). Cada oferta muestra el vendedor (''Disponible a través de'': la entrada del directorio del marchante, o el artista), el estado, el precio o ''Precio a consultar'', y el texto. Su enlace, '''Ver la página del vendedor''', lleva a la URL de la oferta; una oferta sin URL muestra en su lugar '''Pregunta al vendedor''', que abre una página que nombra la obra y muestra los datos de contacto publicados del vendedor.
+
+<!--T:8-->
+Los anuncios generales aparecen bajo '''Obras en venta''' en la página del artista y en las páginas de sus obras.
+
+<!--T:9-->
+== Errores frecuentes ==
+* '''Primero la autorización.''' La oferta de un marchante para un artista para el que no está autorizado no puede guardarse. Pida al administrador de la plataforma que añada la autorización.
+* '''Falta el artista.''' Toda oferta necesita su artista, también cuando vende un marchante.
+* '''Obra de otro artista.''' La obra ofrecida debe pertenecer al artista de la oferta; si no, la oferta no puede guardarse.
+* '''Terminar una oferta.''' Para dejar de mostrar una oferta, ponga en ''Runs to'' el último día en que debe aparecer. Para detener todas las ofertas de un marchante, el administrador de la plataforma desmarca ''Active''.
+
+<!--T:10-->
+== Véase también ==
+* [[Directory/es|Directorio]]
+* [[Objects/es|Obras]]

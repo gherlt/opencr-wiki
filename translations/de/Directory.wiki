@@ -1,0 +1,106 @@
+<!--T:Page display title-->
+Adressbuch
+
+<!--T:1-->
+Das '''Adressbuch''' ist das zentrale Verzeichnis aller Personen, Organisationen und Institutionen, die irgendwo in openCR vorkommen: Sammler und Eigentümer, Galerien und Kunsthändler, Museen und Stiftungen, Auktionshäuser, Drucker und Gießereien, Verlage, Fotografen, Autoren, Kuratoren, Sponsoren und Leihgeber. Alle anderen Entitäten verweisen darauf: die Eigentümer und Beteiligten eines Werks, die Autoren einer Publikation, die Veranstalter eines Ereignisses, der Galerist eines Künstlers.
+
+<!--T:2-->
+Das Adressbuch teilen alle Werkverzeichnisse. Ein Museum mit Werken mehrerer Künstler existiert nur einmal. Diese Seite erklärt, wie Adressbucheinträge erfasst werden und wie Sie steuern, was die Öffentlichkeit davon sieht. Die Liste der Abschnitte finden Sie unter [[How openCR is structured/Records and their sections/de#Adressbuch|Datensätze und ihre Abschnitte]], jedes einzelne Feld in der [[Field reference/de|Feldreferenz]].
+
+<!--T:3-->
+== Bevor Sie einen Eintrag anlegen ==
+* '''Zuerst suchen.''' Die Person oder Institution existiert vielleicht schon, für einen anderen Künstler erfasst. Duplikate verteilen die Informationen über einen Eigentümer oder eine Galerie auf zwei Datensätze.
+* '''Den Kurznamen sorgfältig wählen.''' Der ''Alias'' erscheint in jeder Liste, in der ein Adressbucheintrag gewählt werden kann, und das Adressbuch wird überall gewählt. Machen Sie ihn eindeutig und wiedererkennbar. Ein umbenannter Alias ändert sich in allen Listen zugleich; das ist richtig, kann aber andere überraschen, die mit dem Eintrag arbeiten.
+
+<!--T:4-->
+== Das Hauptformular ==
+* '''TypeOfID''': ''Privatperson'', ''Private Organisation'' oder ''Öffentliche Organisation''.
+* '''Name 1''' und '''Name 2''': bei einer Person meist Vorname und Nachname; bei einer Organisation der vollständige Name in ''Name 1'', ''Name 2'' bleibt leer.
+* '''Alias''': der Kurzname (siehe oben).
+* '''Kommentare''': interne Notizen; werden nicht veröffentlicht.
+* '''Veröffentlichbar''': veröffentlicht den Eintrag. Lassen Sie es ohne Haken, bis er vollständig ist.
+* Die drei Datenschutz-Haken, die [[#Was die Öffentlichkeit sieht|unten]] beschrieben sind.
+
+<!--T:5-->
+Schnell anlegen lässt sich ein Eintrag auch mit '''Einfache Directory Erstellung''' im ''PRO Menü''.
+
+<!--T:6-->
+== Abschnitte ==
+* '''Aktivitäten''': was der Eintrag tut. Die Liste mischt Rollen von Personen mit Arten von Institutionen: Galerie, Verleger, Fotograf, Kurator, Drucker, Schriftsteller, Museum, Auktionshaus, Gießerei, Stiftung, Universität und vieles mehr. Ein Eintrag kann mehrere Aktivitäten haben, zum Beispiel ''Galerie'' und ''Verleger'' zugleich.
+* '''Kommunikationswege''': Telefon, Handy, Fax, E-Mail, Website und soziale Medien. Jeder Eintrag hat einen eigenen Haken ''Veröffentlichbar'', sodass eine öffentliche Website und eine private Telefonnummer nebeneinanderstehen können.
+* '''Directory Relations''': Verknüpfungen mit anderen Adressbucheinträgen: arbeitet für, ist Mitglied von, ist Gründer von, ist Eigentümer von, ist Sponsor von, ist Lehrer von, ist Kollege von, ist Nachfolger von, hat übernommen, hat aufgenommen, ist verwandt (Familie), kennt und andere. Eine Beziehung kann den Zeitraum tragen, in dem sie bestand. Erfassen Sie jede Beziehung einmal; die umgekehrte Richtung (etwa ''ist Schüler von'' zu ''ist Lehrer von'') wird automatisch angezeigt.
+* '''Directory Artists''': die Werkverzeichnisse der Künstler, in denen der Eintrag verwendet wird (siehe [[#Gemeinsam für mehrere Werkverzeichnisse|unten]]).
+
+<!--T:7-->
+Das Formular zeigt auch, wo der Eintrag anderswo erscheint: in Provenienzen (''Provenienz''), bei Verkäufen (''Transaktionen''), bei Ereignissen (''Events Agents'') und in Publikationen (''Publications Agents'').
+
+<!--T:8-->
+== Adressen ==
+Adressen stehen in einem eigenen Formular, '''Directory Addresses''', weil ein Eintrag mehrere haben kann und sie sich mit der Zeit ändern. Jede Adresse hat:
+* eine Art: Firmensitz, Postanschrift, Wohnadresse, Atelier, Büro / Verwaltung, Ausstellungsraum, Werkstatt oder Lager / Depot;
+* die Adresszeilen, Straße, Postleitzahl, Ort, Bundesland oder Region und Land;
+* einen Gültigkeitszeitraum (von und bis, jeweils mit Klassifikation) und eine Notiz zu den Daten;
+* '''Is Primary''': die Hauptadresse des Eintrags. Listen von Adressbucheinträgen zeigen Ort und Land der Hauptadresse; markieren Sie daher genau eine Adresse als Hauptadresse;
+* '''Is Valid''': ob die Adresse noch gilt;
+* einen eigenen Haken '''Public''', damit eine Adresse erfasst werden kann, ohne veröffentlicht zu werden;
+* die Quelle der Angabe.
+
+<!--T:9-->
+== Was die Öffentlichkeit sieht ==
+Das Adressbuch enthält heikle Informationen: wer was besitzt, wer was gekauft hat und zu welchem Preis. Mehrere Einstellungen wirken zusammen:
+
+<!--T:10-->
+{| class="wikitable"
+! Einstellung !! Wirkung
+|-
+| '''Veröffentlichbar''' || Ohne Haken: Der Eintrag ist nur für Bearbeiter sichtbar.
+|-
+| '''Sammlungen sind''' || Angehakt: Der Eintrag erscheint nicht in den Listen der Sammlungen, die Werke der Künstler besitzen.
+|-
+| '''Provenienzen sind''' || Angehakt: Der Eintrag erscheint nicht in den Provenienzen der Werke.
+|-
+| '''Transaktionen sind''' || Angehakt: Der Eintrag erscheint nicht in der Verkaufsgeschichte der Werke.
+|-
+| '''Limited To Artist ID''' || Der Eintrag wird nur im Werkverzeichnis eines einzigen Künstlers verwendet und ist für alle anderen unsichtbar.
+|-
+| ''Veröffentlichbar'' einzelner Einträge || Kontaktdaten und andere einzelne Einträge lassen sich einzeln verbergen.
+|}
+
+<!--T:11-->
+Die Einstellungen lassen sich frei kombinieren. Ein typischer Fall: Ein Sammler ist einverstanden, als Eigentümer von Werken genannt zu werden, nicht aber, dass seine Käufe veröffentlicht werden. Dann ist der Eintrag öffentlich, und ''Transaktionen sind'' ist angehakt.
+
+<!--T:12-->
+Die Datenschutz-Haken wirken für alle Werke zugleich. Um nur einen Eintrag in der Provenienz eines einzelnen Werks zu verbergen, entfernen Sie stattdessen den Haken ''Veröffentlichbar'' bei diesem Eintrag.
+
+<!--T:13-->
+== Gemeinsam für mehrere Werkverzeichnisse ==
+Da das Adressbuch gemeinsam ist, kann ein Eintrag in den Werkverzeichnissen mehrerer Künstler verwendet werden. Zwei Einstellungen steuern das:
+* '''Directory Artists''' listet die Werkverzeichnisse auf, in denen ein Eintrag verwendet wird. Das ist eine Sichtbarkeitseinstellung, keine Beziehung. Um festzuhalten, dass eine Galerie einen Künstler vertritt, fügen Sie stattdessen eine Beziehung in den [[Artists/de#Kontakte, Beziehungen und Sammlungen|Beziehungen des Künstlers]] hinzu.
+* '''Limited To Artist ID''' beschränkt einen Eintrag auf das Werkverzeichnis eines einzigen Künstlers. Das passt zum Beispiel für einen privaten Sammler, der nur im Zusammenhang mit einem Künstler bekannt ist. Setzen Sie es sparsam ein: Ein solcher Eintrag kann in keinem anderen Werkverzeichnis verwendet werden.
+
+<!--T:14-->
+Änderungen an einem gemeinsamen Eintrag zeigen sich in jedem Werkverzeichnis, das ihn verwendet. Einträge, die mehrere Werkverzeichnisse verwenden, kann nur löschen, wer Bearbeitungsrechte für alle diese hat; in der Praxis wenden Sie sich an den Plattform-Administrator.
+
+<!--T:15-->
+== Vor dem Veröffentlichen ==
+* Art, Namen und Alias sind vollständig.
+* Aktivitäten sind erfasst.
+* Die Datenschutz-Haken entsprechen dem, womit die Person oder Institution einverstanden ist.
+* Nur Kontaktdaten und Adressen, die öffentlich sein dürfen, sind zur Veröffentlichung angehakt.
+Haken Sie dann ''Veröffentlichbar'' an.
+
+<!--T:16-->
+== Häufige Fehler ==
+* '''Duplikate.''' Suchen Sie, bevor Sie anlegen; der Eintrag existiert vielleicht für einen anderen Künstler.
+* '''Öffentlich, aber überall verborgen.''' Ein Eintrag mit Haken bei ''Veröffentlichbar'', bei dem aber alle drei Datenschutz-Haken gesetzt sind, ist praktisch unsichtbar. Erscheint ein Eigentümer unerwartet nicht, prüfen Sie diese Haken.
+* '''Directory Artists als Beziehung verwendet.''' Galerist, Verleger oder Sammler eines Künstlers werden in den ''Beziehungen'' des Künstlers erfasst.
+* '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Adressbucheinträgen wird einmal erfasst.
+* '''Der Künstler als Adressbucheintrag.''' Hat der Künstler selbst ein Werk besessen oder eine Handlung vorgenommen, verwenden Sie den Haken für den Künstler in diesem Eintrag (siehe [[Objects/de#Personen und Geschichte|Werke]]), statt einen Adressbucheintrag für den Künstler anzulegen.
+
+<!--T:17-->
+== Siehe auch ==
+* [[Objects/de#Personen und Geschichte|Personen und Geschichte eines Werks]]
+* [[Artists/de#Kontakte, Beziehungen und Sammlungen|Beziehungen eines Künstlers]]
+* [[Publications/de|Publikationen]]
+* [[Events/de|Ereignisse]]
+* [[Field reference/de|Feldreferenz]]
