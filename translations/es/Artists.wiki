@@ -1,0 +1,122 @@
+<!--T:Page display title-->
+Artistas
+
+<!--T:1-->
+El registro del '''artista''' es el punto de partida de cada catálogo. Contiene los nombres, las fechas de vida y las biografías del artista, y lleva los ajustes que dan forma a todo el catálogo: sus idiomas, sus categorías, sus marcadores de contenido y sus plantillas para obras nuevas. Las obras, los eventos y los marcadores de contenido del artista pertenecen todos al artista.
+
+<!--T:2-->
+Esta página explica qué contiene el registro del artista y cómo configurarlo. Para la lista de secciones, véase [[How openCR is structured/Records and their sections/es#Artistas|Registros y sus secciones]]; para cada campo, la [[Field reference/es|Referencia de campos]].
+
+<!--T:3-->
+== Quién trabaja en un artista ==
+Cada editor está asignado a uno o varios artistas, como '''administrador de artista''' o '''experto de artista'''. Ambos roles tienen actualmente los mismos derechos dentro de los catálogos de sus artistas. Para añadir o quitar editores de un artista, póngase en contacto con el administrador de la plataforma.
+
+<!--T:4-->
+Cuando se da de alta un artista nuevo, se crea también una carpeta para los archivos de imagen del artista. Se gestiona en segundo plano y nunca se renombra, para que las imágenes existentes sigan funcionando.
+
+<!--T:5-->
+== El formulario principal ==
+=== Nombres ===
+* '''Apellido''' y '''Nombre''' son los nombres del artista tal como se usan en el catálogo.
+* '''Alias''' es un nombre corto del artista que aparece en listas y desplegables. Elíjalo una vez y manténgalo.
+* Otras formas del nombre, como seudónimos, traducciones y grafías alternativas, '''no''' se introducen aquí sino como nombres alternativos (véase [[#Nombres alternativos|más abajo]]).
+
+<!--T:6-->
+=== Fechas de vida ===
+* El nacimiento y la muerte tienen cada uno ciudad, país, día, mes y año, además de una clasificación. Introduzca lo que se sabe y clasifique las fechas inciertas (aproximado, antes de, después de, etc.) en lugar de dejarlas vacías.
+* '''Nacionalidad''' y '''Sexo''' proceden de listas compartidas.
+
+<!--T:7-->
+=== Configuración del catálogo ===
+* '''Idioma por defecto''' es el idioma principal del catálogo del artista.
+* '''Crwebpublicationstates''' y ''CROffline Publication State ID'' son códigos de flujo de trabajo para los scripts de publicación. Déjelos en su valor por defecto salvo que su proyecto haya acordado valores para ellos.
+* '''Es miembro en entidad de gestión''' y '''Entidad de gestión''' registran si los derechos del artista los gestiona una entidad de gestión, y cuál (por ejemplo VG Bild-Kunst o SIAE). La entidad misma es una entrada del [[Directory/es|directorio]].
+
+<!--T:8-->
+=== Dirección y visibilidad ===
+* La dirección postal tiene su propio interruptor, '''Is Address Public'''. Está separado de ''Public'' a propósito: un artista vivo puede querer que el catálogo sea público, pero no su dirección.
+* '''Public''' publica el artista. Déjelo sin marcar mientras se configura el catálogo.
+
+<!--T:9-->
+== Biografías ==
+La sección '''Biografías''' contiene los textos biográficos que se muestran en la página del artista. Hay una entrada por idioma y tipo. Hay dos tipos:
+* '''Vida''': la biografía vital;
+* '''Arte''': la biografía histórico-artística.
+
+<!--T:10-->
+Redacte una biografía para cada idioma en que se publique el catálogo. Una biografía que falta '''no''' se sustituye por otro idioma: los visitantes que leen el catálogo en un idioma sin biografía no ven ninguna biografía. Se admite un formato sencillo, pero mantenga el texto sobrio.
+
+<!--T:11-->
+== Nombres alternativos ==
+Toda otra forma conocida del nombre del artista se registra como '''nombre alternativo''', cada una con su tipo:
+* ''Traducido'': el nombre en otro idioma o alfabeto;
+* ''Seudónimo'';
+* ''Alternativa (por el artista)'': una grafía que usó el artista;
+* ''Alternativa (por terceros)'': una grafía que usan otros, por ejemplo en la bibliografía.
+
+<!--T:12-->
+Cada nombre alternativo puede indicar su fuente, una entrada del [[Directory/es|directorio]], y tiene su propia casilla ''Public''.
+
+<!--T:13-->
+== Contactos, relaciones y colecciones ==
+* '''Medios de Comunicación''': teléfonos, direcciones de correo electrónico, sitios web y redes sociales. Cada entrada tiene su propia casilla ''Publicable''; normalmente solo se publica el sitio web o una dirección profesional.
+* '''Relaciones''': las personas e instituciones del entorno del artista, como galerista, editor, coleccionista, amigo, mentor, discípulo, mecenas, representante, familia y heredero. Cada relación remite a una entrada del [[Directory/es|directorio]].
+* '''Colecciones''': las instituciones que poseen obras del artista. Forman la lista de obras del artista en colecciones, en el orden que usted fije.
+
+<!--T:14-->
+Para vincular a una persona o una institución con el artista, use '''Relaciones'''. La sección ''Directory Artists'' de una entrada del directorio es otra cosa: solo decide en qué catálogos de artistas puede usarse esa entrada.
+
+<!--T:15-->
+== Configurar el catálogo ==
+Estas secciones determinan cómo se introducen y se presentan las obras. Configúrelas antes de introducir obras en bloque; después rara vez cambian.
+
+<!--T:16-->
+=== Idiomas seleccionados ===
+Los idiomas en los que se quiere publicar el catálogo del artista. Es una declaración de intenciones: recoge el plan, pero cada texto en cada idioma sigue teniendo que redactarse.
+
+<!--T:17-->
+=== Definición de Categorías ===
+La agrupación propia del artista para filtrar el catálogo. Para cada [[Objects/es#Clasificación|tipo de obra]] que usa el artista, elija qué categorías se aplican. Las categorías disponibles incluyen Cuadro, Obra gráfica, Escultura, Dibujo, Acuarela, Obra sobre papel, Fotografía, Multimedia, Instalación, Libro, Múltiple y las técnicas de estampación (grabado, litografía, serigrafía, linóleo, xilografía).
+
+<!--T:18-->
+=== Tags ===
+Las palabras clave propias del artista para agrupar las obras. Cada marcador tiene un tipo:
+* ''Época artística'' (historia del arte);
+* ''Estilo'';
+* ''Período'';
+* ''Tema'';
+* ''Ubicación''.
+
+<!--T:19-->
+Un marcador puede tener un periodo de validez (desde el año, hasta el año), útil para periodos y épocas. El nombre que introduce es el nombre interno; la etiqueta que ven los visitantes se introduce por idioma. Los marcadores pertenecen a un artista y no pueden compartirse entre catálogos. Se asignan a las obras en la sección ''Marcadores de Contenido'' de la obra.
+
+<!--T:20-->
+=== Object Templates ===
+Plantillas con valores por defecto para obras nuevas de un tipo de obra determinado, por ejemplo «Aguafuerte sobre Arches 300 g» con el papel, la filigrana y la clasificación de la tirada habituales. Cuando se crea una obra a partir de una plantilla, estos campos se rellenan automáticamente. Las plantillas ahorran mucho trabajo en las series de estampas y en las ediciones de escultura.
+
+<!--T:21-->
+=== Ficheros Externos ===
+Documentos adjuntos al artista.
+
+<!--T:22-->
+== Antes de publicar ==
+* Los nombres, las fechas de vida y la nacionalidad están completos, en la medida en que se conocen.
+* Existe una biografía en cada idioma en que se publica el catálogo.
+* Solo tienen marcada la publicación los datos de contacto, nombres alternativos, relaciones y colecciones que pueden ser públicos.
+* ''Is Address Public'' solo está marcado si la dirección puede publicarse de verdad.
+Después marque ''Public''.
+
+<!--T:23-->
+== Errores frecuentes ==
+* '''Alias frente a nombres alternativos.''' El ''Alias'' del formulario principal es el nombre corto del catálogo. Los seudónimos y otros nombres van en los nombres alternativos.
+* '''Dirección publicada junto con el artista.''' ''Public'' e ''Is Address Public'' son interruptores separados; compruebe ambos.
+* '''Relaciones frente a Directory Artists.''' Una relación (galerista, editor, etc.) se introduce en las ''Relaciones'' del artista. ''Directory Artists'' en una entrada del directorio solo controla la visibilidad.
+* '''Biografías en un solo idioma.''' Sin traducción, la biografía desaparece para los visitantes de otros idiomas.
+* '''Borrar un artista.''' Borrar un artista no borra sus obras, eventos ni marcadores; se quedan sin artista. No borre nunca un artista que tenga catálogo; desmarque ''Public'' en su lugar.
+
+<!--T:24-->
+== Véase también ==
+* [[Objects/es|Obras]]
+* [[Directory/es|Directorio]]
+* [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]]
+* [[Field reference/es|Referencia de campos]]

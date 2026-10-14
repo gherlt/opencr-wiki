@@ -1,0 +1,102 @@
+<!--T:Page display title-->
+Publikationen
+
+<!--T:1-->
+'''Publikationen''' sind die Literatur eines Werkverzeichnisses: Bücher, Artikel, Ausstellungskataloge, Werkverzeichnisse, Zeitungsartikel, Broschüren, Briefe, Manuskripte, Interviews, Videos und jedes andere Dokument, das den Künstler behandelt oder die Werke abbildet. Zusammen bilden sie die '''Bibliographie''' des Künstlers, und sie sind die Quellen, die die Werke zitieren.
+
+<!--T:2-->
+Publikationen sind gemeinsam: Ein Buch über drei Künstler ist ein einziger Datensatz, der mit jedem von ihnen verknüpft ist. Diese Seite erklärt, wie eine Publikation erfasst und verknüpft wird. Die Liste der Abschnitte finden Sie unter [[How openCR is structured/Records and their sections/de#Publikationen|Datensätze und ihre Abschnitte]], jedes einzelne Feld in der [[Field reference/de|Feldreferenz]].
+
+<!--T:3-->
+== Bevor Sie eine Publikation anlegen ==
+* '''Zuerst suchen.''' Die Publikation existiert vielleicht schon, für einen anderen Künstler erfasst. Verwenden Sie den vorhandenen Datensatz und fügen Sie Ihren Künstler hinzu (siehe [[#Erwähnte Künstler|Erwähnte Künstler]]), statt ein Duplikat anzulegen.
+* '''Autoren und Verlage''' sind [[Directory/de|Adressbucheinträge]]. Legen Sie die benötigten zuerst an, damit Sie sie aus der Liste wählen können.
+* '''Den Kurznamen wählen.''' Der ''Alias'' kennzeichnet die Publikation in jeder Liste, in der sie gewählt werden kann, zum Beispiel wenn ein Werk sie zitiert, und diese Listen sind danach sortiert. Verwenden Sie ein einheitliches Muster, etwa Autor und Jahr.
+
+<!--T:4-->
+== Das Hauptformular ==
+=== Identität ===
+* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt etwa 35 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Interview, Thesis, Pressemitteilung, Brief, Manuscript, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO Menü lässt sich die Bibliographie danach filtern und sortieren.
+* '''Titel''' und '''Untertitel'''.
+* '''Alias''': der Kurzname (siehe oben).
+* '''Abkürzung''': eine Kurzform für Fußnoten, falls das Werkverzeichnis eine verwendet.
+* '''Referenz''': ein Zitierschlüssel oder ein externer Referenzcode. Er ist durchsuchbar.
+
+<!--T:5-->
+=== Bibliographische Daten ===
+* '''Veröffentlichung''': bei einem Artikel oder Beitrag das Werk, in dem er erscheint, etwa die Zeitschrift, die Zeitung oder das Buch. Bei einem eigenständigen Buch bleibt das Feld leer.
+* '''Series''', '''Volume''' und '''Total Volumes'''.
+* Datum: '''Datum Veröffentlichung (Tag)''', '''Datum Veröffentlichung (Monat)''' und '''Datum Veröffentlichung (Jahr)'''. Lassen Sie Tag und Monat leer, wenn sie unbekannt sind; verwenden Sie nie den Januar als Platzhalter.
+* Ort: '''Ort der Veröffentlichung''' und '''Land der Veröffentlichung'''.
+* '''Number Pages''' und '''Number Copies''' (die Auflagenhöhe, falls bekannt).
+* '''ISBN (Bücher)''', '''ISSN (Zeitschriften)''' und '''Link''' (eine Webadresse der Publikation oder ihres Katalogeintrags).
+
+<!--T:6-->
+=== Auszüge ===
+Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, halten '''Seite''', '''Abbildung''' und '''in Farbe''' den Seitenbereich, die Abbildungs- oder Tafelnummer und die Angabe fest, ob die Abbildung farbig ist.
+
+<!--T:7-->
+=== Intern ===
+'''Kommentare''' ist für interne Notizen und wird nicht veröffentlicht. '''Veröffentlichbar''' veröffentlicht die Publikation; lassen Sie es ohne Haken, bis der Datensatz vollständig ist.
+
+<!--T:8-->
+== Mitwirkende ==
+'''Publications Agents''' listet alle Mitwirkenden auf: Autor, Herausgeber, Mitautor, Schriftsteller, Journalist, Verlag, Galerie, Veranstalter, Sponsor usw. Jeder Eintrag verweist auf einen [[Directory/de|Adressbucheintrag]] und nennt die Rolle.
+* Die Verfasserangabe, die mit der Publikation angezeigt wird, setzt sich aus den '''Autoren''' und '''Herausgebern''' zusammen. Erfassen Sie diese Rollen als solche, sonst bleibt die Verfasserangabe leer.
+* Ein Mitwirkender kann auf einen Teil der Publikation beschränkt werden: einen Essay, die Einleitung, das Vorwort, das Nachwort usw. Lassen Sie das leer, wenn die Rolle für die ganze Publikation gilt.
+
+<!--T:9-->
+== Erwähnte Künstler ==
+'''Erwähnte Künstler''' listet die Künstler auf, von denen die Publikation handelt. Das bringt eine Publikation in die Bibliographie eines Künstlers: '''Eine Publikation ohne Eintrag hier erscheint nicht in der Bibliographie des Künstlers''', auch wenn sie öffentlich ist.
+
+<!--T:10-->
+Jeder Eintrag hat drei unabhängige Schalter:
+{| class="wikitable"
+! Schalter !! Wirkung
+|-
+| '''Use In Web''' || Die Publikation erscheint in der Bibliographie des Künstlers auf der Website.
+|-
+| '''Use In CR''' || Die Publikation wird in das gedruckte Werkverzeichnis des Künstlers aufgenommen.
+|-
+| '''Use As Ref CR''' || Die Publikation ist eine der maßgeblichen Referenzen des Werkverzeichnisses.
+|}
+Die Schalter hängen nicht voneinander ab: ''Use In CR'' allein bringt die Publikation nicht auf die Website, und ''Use In Web'' allein bringt sie nicht in das gedruckte Werkverzeichnis.
+
+<!--T:11-->
+Behandelt eine Publikation mehrere Künstler auf verschiedenen Seiten, werden die Seitenbereiche je Künstler in einem eigenen Formular erfasst, ''Publications Artist References''.
+
+<!--T:12-->
+== Ereignisse, Sprachen und verwandte Publikationen ==
+* '''Erwähnte Ereignisse''': die Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint, wo sinnvoll mit Seiten- und Abbildungsangaben.
+* '''Verwendete Sprachen''': die Sprachen, in denen die Publikation geschrieben ist. Das beschreibt die Publikation selbst und hat nichts mit den Sprachen des openCR-Werkverzeichnisses zu tun.
+* '''Publications Relations''': Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie von, Faksimile von, basiert auf, Vorbereitung für, abgeleitet von, ähnlich wie, steht in Beziehung mit. Erfassen Sie jede Verknüpfung einmal, bei einer der beiden Publikationen; die umgekehrte Richtung wird automatisch angezeigt.
+
+<!--T:13-->
+== Zitierte Werke ==
+Der Abschnitt '''Referenzen''' listet die Werke auf, die die Publikation erwähnt oder abbildet, mit Seite, Abbildungsnummer und der Angabe, ob die Abbildung farbig ist. Es ist dieselbe Liste wie der Abschnitt ''Referenzen'' eines [[Objects/de|Werks]], von der anderen Seite gesehen. Wenn Sie eine Publikation durcharbeiten, ist es oft am schnellsten, alle ihre Werke hier auf einmal hinzuzufügen.
+
+<!--T:14-->
+== Abbildungen und Dateien ==
+Abbildungen der Publikation, etwa ihr Umschlag, werden mit dem Bild-Upload hochgeladen und gehören zur Publikation. ''Externalfiles'' enthält andere Dokumente zur Publikation.
+
+<!--T:15-->
+== Vor dem Veröffentlichen ==
+* Art, Titel, Datum und Ort sind vollständig, soweit bekannt.
+* Autoren und Herausgeber sind mit diesen Rollen erfasst.
+* Jeder Künstler, von dem die Publikation handelt, steht in ''Erwähnte Künstler'', mit den richtigen Schaltern.
+Haken Sie dann ''Veröffentlichbar'' an.
+
+<!--T:16-->
+== Häufige Fehler ==
+* '''Duplikate.''' Suchen Sie eine Publikation, bevor Sie sie anlegen; sie wurde vielleicht für einen anderen Künstler erfasst.
+* '''Fehlt in der Bibliographie.''' Erscheint eine Publikation nicht in der Bibliographie eines Künstlers, prüfen Sie zuerst ''Erwähnte Künstler'': Meist fehlt der Eintrag des Künstlers oder sein Schalter ''Use In Web''.
+* '''Leere Verfasserangabe.''' Autoren, die mit einer anderen Rolle wie ''Schriftsteller'' erfasst sind, erscheinen nicht in der Verfasserangabe.
+* '''Titel und übergeordnetes Werk verwechselt.''' Bei einem Artikel gehört der Titel des Artikels in ''Titel'', die Zeitschrift oder das Buch in ''Veröffentlichung''.
+* '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Publikationen wird einmal erfasst.
+
+<!--T:17-->
+== Siehe auch ==
+* [[Objects/de#Literatur und Ausstellungen|Literatur und Ausstellungen eines Werks]]
+* [[Events/de|Ereignisse]]
+* [[Directory/de|Adressbuch]]
+* [[Field reference/de|Feldreferenz]]

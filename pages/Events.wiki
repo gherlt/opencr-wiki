@@ -16,7 +16,7 @@ An event is created for an artist; other artists can take part in it. This page 
 <!--T:4-->
 == The main form ==
 The main form is deliberately short:
-* '''Eventtype''': the kind of event. There are about 60 kinds, for example Solo exhibition, Group exhibition, Exhibition at fair, Award, Grant, Honour, Commission/order, Lecture, Performance, Publication, Birth, Death, Marriage, Trip and Move / Migration. The kind decides which further sections make sense, such as exhibited artworks for an exhibition.
+* '''Event type''': the kind of event. There are about 60 kinds, for example Solo exhibition, Group exhibition, Exhibition at fair, Award, Grant, Honour, Commission/order, Lecture, Performance, Publication, Birth, Death, Marriage, Trip and Move / Migration. The kind decides which further sections make sense, such as exhibited artworks for an exhibition.
 * '''Event name''': the name of the event. It is used whenever no name has been entered for the visitor's language (see below).
 * '''Alias''': the short name.
 * '''Reference''': a citation key or reference code, if you use one.

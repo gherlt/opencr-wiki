@@ -28,7 +28,7 @@ When a new artist is set up, a folder for the artist's image files is created as
 
 <!--T:7-->
 === Catalogue settings ===
-* '''Defaultlanguage''' is the main language of the artist's catalogue.
+* '''Default language''' is the main language of the artist's catalogue.
 * '''CR web publicationstates''' and ''CROffline Publication State ID'' are workflow codes for publishing scripts. Leave them at their default unless your project has agreed on values for them.
 * '''Is member of Collecting Society''' and '''Collecting Society''' record whether, and with which society, the artist's rights are managed (for example VG Bild-Kunst or SIAE). The society itself is a [[Directory|directory]] entry.
 

@@ -1,0 +1,122 @@
+<!--T:Page display title-->
+Künstler
+
+<!--T:1-->
+Der '''Künstler'''-Datensatz ist der Ausgangspunkt jedes Werkverzeichnisses. Er enthält die Namen, Lebensdaten und Biographien des Künstlers und trägt die Einstellungen, die das ganze Werkverzeichnis prägen: seine Sprachen, seine Kategorien, seine Tags und seine Vorlagen für neue Werke. Werke, Ereignisse und die Tags des Künstlers gehören alle zum Künstler.
+
+<!--T:2-->
+Diese Seite erklärt, was der Künstler-Datensatz enthält und wie man ihn einrichtet. Die Liste der Abschnitte finden Sie unter [[How openCR is structured/Records and their sections/de#Künstler|Datensätze und ihre Abschnitte]], jedes einzelne Feld in der [[Field reference/de|Feldreferenz]].
+
+<!--T:3-->
+== Wer an einem Künstler arbeitet ==
+Jeder Bearbeiter ist einem oder mehreren Künstlern zugeordnet, als '''Künstler-Admin''' oder '''Künstler-Experte'''. Beide Rollen haben derzeit die gleichen Rechte in den Werkverzeichnissen ihrer Künstler. Um Bearbeiter für einen Künstler hinzuzufügen oder zu entfernen, wenden Sie sich an den Plattform-Administrator.
+
+<!--T:4-->
+Wenn ein neuer Künstler angelegt wird, entsteht auch ein Ordner für seine Bilddateien. Er wird im Hintergrund verwaltet und nie umbenannt, damit bestehende Abbildungen weiter funktionieren.
+
+<!--T:5-->
+== Das Hauptformular ==
+=== Namen ===
+* '''Nachname''' und '''Vorname''' sind die Namen des Künstlers, wie sie im Werkverzeichnis verwendet werden.
+* '''Alias''' ist ein Kurzname für den Künstler, der in Listen und Auswahlfeldern erscheint. Wählen Sie ihn einmal und behalten Sie ihn bei.
+* Andere Formen des Namens, etwa Pseudonyme, Übersetzungen und abweichende Schreibweisen, werden '''nicht''' hier erfasst, sondern als alternative Namen (siehe [[#Alternative Namen|unten]]).
+
+<!--T:6-->
+=== Lebensdaten ===
+* Geburt und Tod haben jeweils Ort, Land, Tag, Monat und Jahr sowie eine Klassifikation. Erfassen Sie, was bekannt ist, und klassifizieren Sie unsichere Datierungen (geschätzt, vor, nach usw.), statt sie leer zu lassen.
+* '''Staatsangehörigkeit''' und '''Geschlecht''' stammen aus gemeinsamen Listen.
+
+<!--T:7-->
+=== Einstellungen des Werkverzeichnisses ===
+* '''Standardsprache''' ist die Hauptsprache des Werkverzeichnisses des Künstlers.
+* '''Crwebpublicationstates''' und ''CROffline Publication State ID'' sind Workflow-Codes für Veröffentlichungsskripte. Lassen Sie sie auf ihrem Vorgabewert, sofern Ihr Projekt keine Werte dafür vereinbart hat.
+* '''Mitglied in Verwertungsgesellschaft''' und '''Verwertungsgesellschaft''' halten fest, ob und bei welcher Gesellschaft die Rechte des Künstlers wahrgenommen werden (zum Beispiel VG Bild-Kunst oder SIAE). Die Gesellschaft selbst ist ein [[Directory/de|Adressbucheintrag]].
+
+<!--T:8-->
+=== Adresse und Sichtbarkeit ===
+* Die Postadresse hat einen eigenen Schalter, '''Is Address Public'''. Er ist bewusst von ''Public'' getrennt: Ein lebender Künstler möchte vielleicht, dass das Werkverzeichnis öffentlich ist, nicht aber seine Adresse.
+* '''Public''' veröffentlicht den Künstler. Lassen Sie es ohne Haken, solange das Werkverzeichnis eingerichtet wird.
+
+<!--T:9-->
+== Biographien ==
+Der Abschnitt '''Biographien''' enthält die Biographietexte, die auf der Künstlerseite erscheinen. Es gibt einen Eintrag je Sprache und Art. Es gibt zwei Arten:
+* '''Leben''': der Lebenslauf (Vita);
+* '''Kunst''': die kunsthistorische Biographie.
+
+<!--T:10-->
+Schreiben Sie für jede Sprache, in der das Werkverzeichnis veröffentlicht wird, eine Biographie. Eine fehlende Biographie wird '''nicht''' durch eine andere Sprache ersetzt: Besucher, die das Werkverzeichnis in einer Sprache ohne Biographie lesen, sehen gar keine Biographie. Einfache Formatierungen sind möglich, halten Sie den Text aber schlicht.
+
+<!--T:11-->
+== Alternative Namen ==
+Jede andere bekannte Form des Künstlernamens wird als '''alternativer Name''' erfasst, jeweils mit seiner Art:
+* ''Übersetzt'': der Name in einer anderen Sprache oder Schrift;
+* ''Pseudonym'';
+* ''Alternative (vom Künstler)'': eine Schreibweise, die der Künstler verwendet hat;
+* ''Alternative (von Dritten)'': eine Schreibweise anderer, zum Beispiel in der Literatur.
+
+<!--T:12-->
+Jeder alternative Name kann seine Quelle angeben, einen [[Directory/de|Adressbucheintrag]], und hat einen eigenen Haken ''Public''.
+
+<!--T:13-->
+== Kontakte, Beziehungen und Sammlungen ==
+* '''Kommunikationsmedium''': Telefonnummern, E-Mail-Adressen, Websites und soziale Medien. Jeder Eintrag hat einen eigenen Haken ''Veröffentlichbar''; meist wird nur die Website oder eine berufliche Adresse veröffentlicht.
+* '''Beziehungen''': die Personen und Institutionen im Umfeld des Künstlers, etwa Galerist, Verleger, Sammler, Freund, Mentor, Schüler, Mäzen, Repräsentant, Familie und Erbe. Jede Beziehung verweist auf einen [[Directory/de|Adressbucheintrag]].
+* '''Sammlungen''': die Institutionen, die Werke des Künstlers besitzen. Sie bilden die Liste der Werke des Künstlers in Sammlungen, in der von Ihnen festgelegten Reihenfolge.
+
+<!--T:14-->
+Um eine Person oder Institution mit dem Künstler zu verbinden, verwenden Sie '''Beziehungen'''. Der Abschnitt ''Directory Artists'' eines Adressbucheintrags ist etwas anderes: Er entscheidet nur, in welchen Werkverzeichnissen dieser Eintrag verwendet werden kann.
+
+<!--T:15-->
+== Das Werkverzeichnis einrichten ==
+Diese Abschnitte bestimmen, wie die Werke erfasst und dargestellt werden. Richten Sie sie ein, bevor Sie Werke in großer Zahl erfassen; danach ändern sie sich selten.
+
+<!--T:16-->
+=== Ausgewählte Sprachen ===
+Die Sprachen, in denen das Werkverzeichnis des Künstlers veröffentlicht werden soll. Das ist eine Absichtserklärung: Sie hält den Plan fest, aber jeder Text in jeder Sprache muss trotzdem geschrieben werden.
+
+<!--T:17-->
+=== Kategoriendefinition ===
+Die eigene Gruppierung der Werke durch den Künstler, um das Werkverzeichnis zu filtern. Wählen Sie für jeden [[Objects/de#Klassifizierung|Objekttyp]], den der Künstler verwendet, welche Kategorien gelten. Zu den verfügbaren Kategorien gehören Gemälde, Grafik, Skulptur, Zeichnung, Aquarell, Papierarbeit, Fotografie, Multimedia, Installation, Buch, Multiple und die Drucktechniken (Radierung, Lithographie, Serigraphie, Linolschnitt, Holzschnitt).
+
+<!--T:18-->
+=== Tags ===
+Die eigenen Schlagwörter des Künstlers, um Werke zu gruppieren. Jeder Tag hat eine Art:
+* ''Kunstepoche'' (Kunstgeschichte);
+* ''Stil'';
+* ''Periode'';
+* ''Thema'';
+* ''Ort''.
+
+<!--T:19-->
+Ein Tag kann einen Gültigkeitszeitraum haben (von Jahr, bis Jahr), was für Perioden und Epochen nützlich ist. Der eingegebene Name ist der interne Name; die Bezeichnung, die Besucher sehen, wird je Sprache erfasst. Tags gehören zu einem Künstler und können nicht zwischen Werkverzeichnissen geteilt werden. Sie werden den Werken im Abschnitt ''Tags Inhalt'' des Werks zugeordnet.
+
+<!--T:20-->
+=== Object Templates ===
+Vorlagen mit Vorgabewerten für neue Werke eines bestimmten Objekttyps, zum Beispiel „Radierung auf Arches 300 g“ mit dem üblichen Papier, Wasserzeichen und der Klassifikation der Gesamtauflage. Wird ein Werk aus einer Vorlage angelegt, werden diese Felder automatisch ausgefüllt. Vorlagen ersparen bei Grafikserien und Skulpturauflagen viel Tipparbeit.
+
+<!--T:21-->
+=== Externe Dateien ===
+Dem Künstler beigefügte Dokumente.
+
+<!--T:22-->
+== Vor dem Veröffentlichen ==
+* Die Namen, Lebensdaten und die Staatsangehörigkeit sind vollständig, soweit bekannt.
+* In jeder Sprache, in der das Werkverzeichnis veröffentlicht wird, gibt es eine Biographie.
+* Nur die Kontaktdaten, alternativen Namen, Beziehungen und Sammlungen, die öffentlich sein dürfen, sind zur Veröffentlichung angehakt.
+* ''Is Address Public'' ist nur angehakt, wenn die Adresse wirklich veröffentlicht werden darf.
+Haken Sie dann ''Public'' an.
+
+<!--T:23-->
+== Häufige Fehler ==
+* '''Alias oder alternative Namen.''' Der ''Alias'' im Hauptformular ist der Kurzname im Werkverzeichnis. Pseudonyme und andere Namen gehören zu den alternativen Namen.
+* '''Adresse mit dem Künstler veröffentlicht.''' ''Public'' und ''Is Address Public'' sind getrennte Schalter; prüfen Sie beide.
+* '''Beziehungen oder Directory Artists.''' Eine Beziehung (Galerist, Verleger usw.) wird in den ''Beziehungen'' des Künstlers erfasst. ''Directory Artists'' bei einem Adressbucheintrag steuert nur die Sichtbarkeit.
+* '''Biographien in nur einer Sprache.''' Ohne Übersetzung verschwindet die Biographie für Besucher in anderen Sprachen.
+* '''Einen Künstler löschen.''' Wird ein Künstler gelöscht, bleiben seine Werke, Ereignisse und Tags ohne Künstler zurück. Löschen Sie nie einen Künstler mit Werkverzeichnis; entfernen Sie stattdessen den Haken bei ''Public''.
+
+<!--T:24-->
+== Siehe auch ==
+* [[Objects/de|Werke]]
+* [[Directory/de|Adressbuch]]
+* [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]]
+* [[Field reference/de|Feldreferenz]]

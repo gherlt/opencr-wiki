@@ -1,0 +1,83 @@
+<!--T:Page display title-->
+Eventos
+
+<!--T:1-->
+Los '''eventos''' son todo lo que en un catálogo ocurrió en un momento determinado: exposiciones y ferias, premios y becas, encargos, ponencias, performances y los acontecimientos de la vida del artista, como el nacimiento, los viajes, las mudanzas, el matrimonio y la muerte. Juntos forman la '''cronología''' y el '''historial de exposiciones''' del artista, y son aquello a lo que remiten las obras cuando se mostraron en algún lugar.
+
+<!--T:2-->
+Un evento se crea para un artista; otros artistas pueden participar en él. Esta página explica cómo se registra un evento. Para la lista de secciones, véase [[How openCR is structured/Records and their sections/es#Eventos|Registros y sus secciones]]; para cada campo, la [[Field reference/es|Referencia de campos]].
+
+<!--T:3-->
+== Antes de crear un evento ==
+* '''Busque primero.''' Puede que una exposición colectiva ya exista, introducida para otro artista participante. Añada su artista a ella en lugar de crear un segundo registro.
+* '''Sedes y personas''': las galerías, museos, comisarios, organizadores, patrocinadores y prestadores son entradas del [[Directory/es|directorio]]. Cree primero las que necesite.
+* '''Elija el nombre corto.''' El ''Alias'' identifica el evento allí donde puede elegirse, por ejemplo al introducir las exposiciones de una obra. Use un patrón coherente, como lugar y año.
+
+<!--T:4-->
+== El formulario principal ==
+El formulario principal es breve a propósito:
+* '''Tipificación Evento''': la clase de evento. Hay unas 60 clases, por ejemplo Exposición individual, Exposición colectiva, Exposición en feria, Premio, Beca, Homenaje, Encargo, Ponencia, Performance, Publicación, Nacimiento, Fallecimiento, Matrimonio, Viaje y Mudanza / Emigración. La clase determina qué otras secciones tienen sentido, como las obras expuestas en una exposición.
+* '''Nombre del evento''': el nombre del evento. Se usa siempre que no se ha introducido un nombre para el idioma del visitante (véase más abajo).
+* '''Alias''': el nombre corto.
+* '''Referencia''': una clave de cita o un código de referencia, si los usa.
+* '''Publicable''': publica el evento. Déjelo sin marcar hasta que el registro esté completo.
+
+<!--T:5-->
+== Nombre y descripción en cada idioma ==
+'''Descripciones del Evento''' contiene el nombre y la descripción del evento, una entrada por idioma. Cuando existe una entrada para el idioma del visitante, su nombre sustituye al ''Nombre del evento'' del formulario principal. Así que, cuando corrija el nombre de un evento que tiene descripciones, corríjalo también en la descripción de cada idioma.
+
+<!--T:6-->
+== Dónde y cuándo ==
+'''Localización''' registra dónde y cuándo tuvo lugar el evento: sede, ciudad y país, y las fechas de inicio y fin, cada una con una clasificación para fechas inciertas (aproximado, antes de, después de, etc.). Para eventos que se miden en horas, días o semanas y no en fechas del calendario, puede registrarse en su lugar una duración.
+
+<!--T:7-->
+Una exposición itinerante es '''un solo''' evento con varias localizaciones, una por sede y con sus propias fechas. No es un evento distinto por cada sede.
+
+<!--T:8-->
+== Quién participó ==
+Dos secciones registran a los participantes, cada uno con su función:
+* '''Events Artists''': los artistas implicados, por ejemplo como artista que expone, artista invitado, partícipe, invitado, autor o coautor, o como receptor de un premio.
+* '''Events Agents''': las personas e instituciones implicadas, por ejemplo como organizador, comisario, galería que expone, patrocinador, mecenas, promotor o moderador. Cada una es una entrada del [[Directory/es|directorio]].
+
+<!--T:9-->
+En una exposición itinerante, un participante puede limitarse a una sede, por ejemplo un comisario que solo trabajó en una etapa. Déjelo vacío en las funciones que se aplican a todo el evento.
+
+<!--T:10-->
+== Obras mostradas ==
+'''Obras Expuestas''' enumera las obras mostradas en una exposición o una feria. Para cada obra puede registrar:
+* la '''Referencia''': el número de catálogo o de lote, o la etiqueta usada en la exposición;
+* el '''Prestador''': la entrada del [[Directory/es|directorio]] que prestó la obra;
+* el '''Título utilizado''', cuando la obra se mostró con otro título.
+
+<!--T:11-->
+Es la misma lista que la sección ''Exposiciones'' de una [[Objects/es|obra]], vista desde el otro lado. Para registrar una exposición completa, lo más rápido es añadir aquí todas sus obras. Elegir una exposición como tipo de evento no añade ninguna obra por sí solo.
+
+<!--T:12-->
+== Publicaciones ==
+'''Publicaciones relacionadas''' enumera las publicaciones que documentan el evento, sobre todo su catálogo de exposición, y también reseñas y artículos. Es el mismo enlace que ''Eventos relacionados'' en la [[Publications/es|publicación]].
+
+<!--T:13-->
+== Imágenes y archivos ==
+Las imágenes del evento, como vistas de la instalación, invitaciones o carteles, se suben con la carga de imágenes y pertenecen al evento.
+
+<!--T:14-->
+== Antes de publicar ==
+* Están registrados el tipo, el nombre y al menos una localización con fechas.
+* En las exposiciones: los artistas participantes y, en la medida en que se conozcan, las obras expuestas.
+* Existen nombres y descripciones en los idiomas en que se publica el catálogo.
+* Los participantes que no deben aparecer públicamente están ocultos en sus entradas del [[Directory/es|directorio]].
+Después marque ''Publicable''.
+
+<!--T:15-->
+== Errores frecuentes ==
+* '''Un registro por sede.''' Una gira es un solo evento con varias localizaciones.
+* '''Exposiciones colectivas duplicadas.''' Busque antes de crear; puede que la exposición exista para otro artista.
+* '''Nombre corregido en un solo sitio.''' El nombre de ''Descripciones del Evento'' sustituye al ''Nombre del evento'' principal en ese idioma.
+* '''Exposición sin obras.''' Las obras expuestas hay que añadirlas; no se añade nada automáticamente.
+
+<!--T:16-->
+== Véase también ==
+* [[Objects/es#Bibliografía y exposiciones|Exposiciones de una obra]]
+* [[Publications/es|Publicaciones]]
+* [[Directory/es|Directorio]]
+* [[Field reference/es|Referencia de campos]]
