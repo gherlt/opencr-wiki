@@ -1,0 +1,34 @@
+<!--T:Page display title-->
+Su cuenta
+
+<!--T:1-->
+No necesita una cuenta para consultar los catálogos de openCR. Una cuenta añade algunas herramientas personales y es la puerta de entrada para artistas, herederos y editores de catálogos.
+
+<!--T:2-->
+== Registrarse e iniciar sesión ==
+'''Registrarse''' en el menú superior crea una cuenta; usted la confirma mediante un enlace que se envía a su dirección de correo electrónico. '''Iniciar sesión''' abre la ventana de inicio de sesión.
+
+<!--T:3-->
+Una vez iniciada la sesión, el menú superior ofrece:
+* '''Panel de control''': su página de inicio personal, con el enlace a sus favoritos;
+* '''Carrito''': su selección de obras (véase más abajo);
+* '''Configuración''': su perfil y su contraseña;
+* '''Salir'''.
+
+<!--T:4-->
+== Favoritos ==
+En las listas de obras, quien ha iniciado sesión ve un '''corazón''' junto a cada obra. Haga clic en él para guardar la obra: elija una de sus listas o cree una nueva ('''Seleccione un grupo de objetos o cree uno nuevo''') y, si lo desea, añada un comentario. Un corazón relleno significa que la obra ya está guardada; haga clic en él para ver en qué lista está y para quitarla.
+
+<!--T:5-->
+Todas las obras guardadas están en la página '''Lista de favoritos''', a la que se llega a través de '''Favoritos''' en su panel de control: cada obra con su imagen, título, lista y comentario. Allí puede mover una obra a otra lista, cambiar el comentario o quitar la obra. Sus favoritos solo los ve usted.
+
+<!--T:6-->
+== Carrito ==
+El icono del '''carrito''' junto a una obra la añade a su selección. El carrito muestra las obras seleccionadas; puede cambiar la cantidad, quitar obras sueltas o vaciar el carrito. Es una lista de trabajo personal, por ejemplo para reunir obras que le interesan. No encarga ni compra nada.
+
+<!--T:7-->
+== Para artistas y herederos ==
+Los artistas, y los herederos de un artista, pueden tener su catálogo en openCR. Como las imágenes de las obras solo pueden publicarlas sus legítimos titulares, se verifica la identidad de los nuevos editores de catálogos antes de que puedan introducir datos, y estos aceptan las condiciones legales. Véase ''Acerca del proyecto'' en [https://open.cr/spa/index open.cr] y las [[FAQ/es|Preguntas frecuentes]].
+
+<!--T:8-->
+Una vez dados de alta, los editores de catálogos trabajan en el '''Menú PRO'''; todo lo relativo a ello está en la [[How openCR is structured/es|guía para editores]].

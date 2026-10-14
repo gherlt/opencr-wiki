@@ -1,0 +1,34 @@
+<!--T:Page display title-->
+Ihr Konto
+
+<!--T:1-->
+Um die Werkverzeichnisse auf openCR einzusehen, brauchen Sie kein Konto. Ein Konto bietet einige persönliche Werkzeuge und ist der Zugang für Künstler, Erben und Bearbeiter von Werkverzeichnissen.
+
+<!--T:2-->
+== Registrieren und einloggen ==
+'''Registrieren''' im Menü oben legt ein Konto an; Sie bestätigen es über einen Link, der an Ihre E-Mail-Adresse geschickt wird. '''Einloggen''' öffnet das Anmeldefenster.
+
+<!--T:3-->
+Nach dem Einloggen bietet das Menü oben:
+* '''Übersicht''': Ihre persönliche Startseite, mit dem Link zu Ihren Favoriten;
+* '''Warenkorb''': Ihre Auswahl an Werken (siehe unten);
+* '''Einstellungen''': Ihr Profil und Ihr Passwort;
+* '''Ausloggen'''.
+
+<!--T:4-->
+== Favoriten ==
+In den Werklisten sehen eingeloggte Besucher neben jedem Werk ein '''Herz'''. Klicken Sie darauf, um das Werk zu merken: Wählen Sie eine Ihrer Listen oder legen Sie eine neue an ('''Objektgruppe auswählen oder neue erstellen''') und fügen Sie bei Bedarf einen Kommentar hinzu. Ein gefülltes Herz bedeutet, dass das Werk bereits gemerkt ist; klicken Sie darauf, um zu sehen, in welcher Liste, und um die Markierung zu entfernen.
+
+<!--T:5-->
+Alle gemerkten Werke stehen auf der Seite '''Favoritenliste''', die Sie über '''Favoriten''' in Ihrer Übersicht erreichen: jedes Werk mit Abbildung, Titel, Liste und Kommentar. Dort können Sie ein Werk in eine andere Liste verschieben, den Kommentar ändern oder die Markierung entfernen. Ihre Favoriten sehen nur Sie.
+
+<!--T:6-->
+== Warenkorb ==
+Das '''Warenkorb'''-Symbol neben einem Werk fügt es Ihrer Auswahl hinzu. Der Warenkorb listet die ausgewählten Werke auf; Sie können die Menge ändern, einzelne Werke entfernen oder den Warenkorb leeren. Er ist eine persönliche Arbeitsliste, etwa um Werke zu sammeln, die Sie interessieren. Er bestellt oder kauft nichts.
+
+<!--T:7-->
+== Für Künstler und Erben ==
+Künstler und die Erben eines Künstlers können ihr Werkverzeichnis auf openCR führen. Da Abbildungen von Werken nur von den Rechteinhabern veröffentlicht werden dürfen, wird die Identität neuer Bearbeiter geprüft, bevor sie Daten eingeben können, und sie akzeptieren die Nutzungsbedingungen. Siehe ''Über das Projekt'' auf [https://open.cr/deu/index open.cr] und die [[FAQ/de|Häufigen Fragen]].
+
+<!--T:8-->
+Nach der Einrichtung arbeiten die Bearbeiter im '''PRO Menü'''; alles dazu steht im [[How openCR is structured/de|Leitfaden für Bearbeiter]].

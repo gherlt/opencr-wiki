@@ -1,0 +1,53 @@
+<!--T:Page display title-->
+Ein Werkverzeichnis durchsuchen
+
+<!--T:1-->
+Die Werke eines Künstlers erreichen Sie über den Eintrag '''Werke''' im Menü der Künstlerseite. Er öffnet die Seite '''Suche nach Werken''', auf der Sie wählen, welche Werke angezeigt werden und wie.
+
+<!--T:2-->
+== Werke auswählen ==
+{| class="wikitable"
+! Option !! Wirkung
+|-
+| '''Objekttypen''' / '''Objektkategorie''' || Zeigt nur bestimmte Arten von Werken, zum Beispiel nur Gemälde oder nur Grafik. ''Objekttypen'' verwendet die allgemeinen Typen, ''Objektkategorie'' die eigene Gruppierung des Künstlers, sofern das Werkverzeichnis eine festlegt. Jeder Eintrag zeigt, wie viele Werke er enthält.
+|-
+| '''Jahr der Erstellung''' (''von'', ''bis'') || Beschränkt die Werke auf einen Zeitraum. ''mit Datum unbekannt'' schließt Werke ein, deren Jahr nicht bekannt ist.
+|-
+| '''Tags (Inhaltsmarkierungen)''' || Zeigt die Werke, die eines der Schlagwörter des Künstlers tragen, etwa eine Periode, einen Stil oder ein Thema.
+|-
+| '''Titel beinhaltet''' || Zeigt die Werke, deren Titel die eingegebenen Wörter enthält.
+|}
+
+<!--T:3-->
+Lassen Sie eine Option unverändert, um alles einzuschließen. Klicken Sie dann auf '''Verwenden Sie Kriterien, um Werke auszuwählen'''.
+
+<!--T:4-->
+== Darstellung wählen ==
+'''Ausgabeformat''' bestimmt, wie die Liste aussieht:
+* '''Titelliste (ohne Abb.)''' und '''Kurze Ausgabeliste (ohne Abb.)''': kompakte Textlisten, gut für einen Überblick über viele Werke;
+* '''Ausgabeliste mit Abb. (Miniatur)''', '''Ausgabeliste mit Abb. (kompakt)''', '''Ausgabeliste mit Abb. (mittel)''' und '''Ausgabeliste mit Abb. (groß)''': Listen mit den wichtigsten Daten jedes Werks und einer Abbildung in zunehmender Größe;
+* '''Foto-Galerie''': nur die Abbildungen, als Raster.
+
+<!--T:5-->
+'''Reihenfolge''' sortiert die Liste: '''nach Datum''', '''nach Referenz''' (die Nummer im Werkverzeichnis, alphabetisch oder numerisch sortiert), '''nach Objekttyp, Titel und Datum''', '''nach Titel''' oder '''nach ID'''.
+
+<!--T:6-->
+== Abkürzungen von der Künstlerseite ==
+Die Künstlerseite bietet direkte Links zu den Werken, ohne dass Sie das Formular ausfüllen:
+* '''Entdecken über Objekttyp''': alle Werke eines Typs, mit der Zahl der Werke je Typ;
+* '''Entdecken über Jahre''': alle Werke eines Jahres;
+* '''Entdecken über Inhaltsmarkierung''': alle Werke mit einem der Schlagwörter des Künstlers;
+* '''Zuletzt hinzugefügte Objekte''': die zuletzt in das Werkverzeichnis aufgenommenen Werke.
+
+<!--T:7-->
+== In der Liste ==
+Jeder Eintrag zeigt die wichtigsten Daten des Werks: Titel, Typ und Datum und je nach Darstellung die Nummer im Werkverzeichnis, die Materialien und eine Abbildung. Bei Werken, die zu einer Serie (einer ''Suite'') gehören, nennt der Eintrag die Suite und die Position darin.
+
+<!--T:8-->
+'''► + info''' öffnet die vollständige Seite des Werks; siehe [[Reading an artwork page/de|Eine Werkseite lesen]]. Ein Klick auf eine Abbildung öffnet sie in einer größeren Ansicht.
+
+<!--T:9-->
+== Tipps ==
+* '''Ein Werk fehlt.''' Prüfen Sie den Jahresfilter: Werke ohne bekanntes Jahr erscheinen nur mit ''mit Datum unbekannt''. Andernfalls ist das Werk vielleicht noch nicht veröffentlicht.
+* '''Zu viele Treffer.''' Kombinieren Sie Filter, zum Beispiel einen Objekttyp und einen Zeitraum.
+* '''Werke ohne Titel''' erscheinen als „Ohne Titel“ und lassen sich am einfachsten über Jahr oder Typ finden.

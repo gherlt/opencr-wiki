@@ -30,6 +30,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -112,8 +113,16 @@ class Wiki:
             cont = res["continue"]
 
     def edit(self, title, text, summary):
-        res = self.post(action="edit", title=title, text=text, summary=summary, bot="1", token=self.csrf)
-        return "nochange" in res.get("edit", {})
+        # The wiki allows about 90 edits a minute; wait and retry when it says so.
+        for attempt in range(5):
+            try:
+                res = self.post(action="edit", title=title, text=text, summary=summary, bot="1", token=self.csrf)
+                return "nochange" in res.get("edit", {})
+            except RuntimeError as e:
+                if not str(e).startswith("ratelimited") or attempt == 4:
+                    raise
+                print("  rate limit reached, waiting a minute", flush=True)
+                time.sleep(65)
 
 
 def read_translation(path):

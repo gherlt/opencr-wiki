@@ -1,0 +1,117 @@
+<!--T:Page display title-->
+Glosario
+
+<!--T:1-->
+Términos usados en los catálogos razonados y en openCR, ordenados alfabéticamente según el término inglés, que se indica entre paréntesis.
+
+<!--T:2-->
+; Partícipe (''agent'')
+: Una persona o institución que interviene en la realización o la publicación de una obra: imprenta, editorial, fundición, fotógrafo, colaborador. En openCR, los partícipes son entradas del [[#Directory|directorio]].
+
+<!--T:3-->
+; Prueba de artista (''artist's proof'')
+: Ejemplares de una estampa reservados para el artista, fuera de la tirada numerada. Se marcan ''P.A.'' (prueba de artista), ''E.A.'' (épreuve d'artiste) o ''A.P.'' (artist's proof).
+
+<!--T:4-->
+; Atributo (''attribute'')
+: En openCR, cualquier marca de una obra: firma, monograma, fecha, número, sello, sello seco, filigrana, inscripción. Se registra con su posición en la obra y, cuando es posible, una transcripción.
+
+<!--T:5-->
+; Bon à tirer (BAT)
+: «Bueno para estampar»: la prueba que el artista aprueba como modelo para toda la tirada.
+
+<!--T:6-->
+; Fundición (''cast'')
+: Un ejemplar de una escultura obtenido de un molde, por ejemplo en bronce. Una edición de escultura consta de un número de fundiciones.
+
+<!--T:7-->
+; Catálogo razonado (''catalogue raisonné'')
+: Un registro completo y científico de todas las obras conocidas de un artista (o de todas las obras de un tipo, como la obra gráfica), con imágenes, datos técnicos, fechas, procedencia, exposiciones y bibliografía de cada obra.
+
+<!--T:8-->
+; Componente (''component'')
+: En openCR, un material, soporte o técnica de una obra, por ejemplo óleo, lienzo, papel o aguafuerte.
+
+<!--T:9-->
+; <span id="Directory"></span>Directorio (''directory'')
+: En openCR, el registro de todas las personas e instituciones: propietarios, galerías, museos, imprentas, editoriales, fotógrafos, autores. Una misma entrada puede aparecer en varios catálogos.
+
+<!--T:10-->
+; Edición (''edition'')
+: El conjunto de ejemplares estampados con una misma plancha, piedra o taco (en la obra gráfica), o de fundiciones obtenidas de un mismo modelo (en las esculturas), normalmente limitado y numerado, por ejemplo ''1/75 a 75/75''.
+
+<!--T:11-->
+; Hors commerce (H.C.)
+: «Fuera de comercio»: ejemplares fuera de la tirada numerada, destinados originalmente al impresor, al editor o a la promoción.
+
+<!--T:12-->
+; Ejemplar (''impression'')
+: Una estampa individual obtenida de una plancha, piedra o taco.
+
+<!--T:13-->
+; Referencia interna (''internal reference'')
+: El número de una obra en el catálogo razonado.
+
+<!--T:14-->
+; LIDO
+: Un formato de datos para intercambiar información sobre objetos de museo. Algunos registros de openCR se importaron de archivos LIDO.
+
+<!--T:15-->
+; Alcance de medida (''measurement extent'')
+: A qué se refiere una medida: la imagen, la hoja, la plancha, el marco, etc. Una estampa puede tener varias medidas, una por alcance.
+
+<!--T:16-->
+; Monograma (''monogram'')
+: Iniciales del artista usadas en lugar de la firma completa.
+
+<!--T:17-->
+; Múltiple (''multiple'')
+: Una obra producida intencionadamente en varios ejemplares idénticos, a menudo en una edición.
+
+<!--T:18-->
+; Obra de varias partes (''multi-part work'')
+: Una obra compuesta de varias piezas, como un díptico o un tríptico. En openCR, sus piezas son ''partes''.
+
+<!--T:19-->
+; Edición póstuma (''posthumous edition'')
+: Una edición estampada o fundida tras la muerte del artista, normalmente autorizada por los herederos o la sucesión.
+
+<!--T:20-->
+; Prueba de impresor, P.P. (''printer's proof'')
+: Un ejemplar reservado para el impresor.
+
+<!--T:21-->
+; Tirada total, tiraje (''print run'', ''tirage'')
+: El número total de ejemplares de una estampa.
+
+<!--T:22-->
+; Proveniencia, procedencia (''provenance'')
+: La historia de la propiedad de una obra, desde el artista hasta el propietario actual.
+
+<!--T:23-->
+; Clasificación (''qualifier'')
+: Una palabra que indica lo seguro o lo exacto que es un valor: ''aproximado'', ''antes de'', ''después de'', ''como muy pronto'', ''lo más tarde'' en las fechas; ''vista'', ''máximo'', ''enmarcado'' y otras en las medidas.
+
+<!--T:24-->
+; Recto, verso
+: El anverso y el reverso de una hoja o de una pintura.
+
+<!--T:25-->
+; Medida vista (''sight size'')
+: La medida de la parte visible de una obra enmarcada, tomada dentro del marco o del paspartú.
+
+<!--T:26-->
+; Suite
+: Una serie de obras catalogadas por separado y concebidas como un conjunto, como una carpeta de estampas. En openCR, una suite es un registro propio, y cada obra que forma parte de ella muestra su posición en la suite.
+
+<!--T:27-->
+; Marcador de contenido (''tag'')
+: Una palabra clave que el catálogo del artista usa para agrupar obras, por ejemplo un periodo, un estilo, un tema o un lugar.
+
+<!--T:28-->
+; Prueba de estado (''trial proof'')
+: Un ejemplar estampado mientras la plancha aún se está trabajando, para comprobar su estado.
+
+<!--T:29-->
+; Filigrana, marca de agua (''watermark'')
+: Un dibujo en el papel, visible al trasluz, que identifica al fabricante del papel o el propio papel.

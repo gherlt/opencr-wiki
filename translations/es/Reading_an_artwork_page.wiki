@@ -1,0 +1,69 @@
+<!--T:Page display title-->
+Leer la página de una obra
+
+<!--T:1-->
+La página de una obra (''Detalle obra'') reúne todo lo que el catálogo sabe sobre una obra. No todas las obras tienen todas las secciones: una sección solo aparece cuando el catálogo tiene información para ella.
+
+<!--T:2-->
+== En la parte superior ==
+* '''Imágenes''' de la obra. Haga clic en una imagen para ampliarla. En una suite, la página muestra las imágenes de las obras de la suite.
+* El '''artista''' y la '''Referencia''' de la obra: su número en el catálogo razonado.
+* El '''título''', el '''tipo de obra''' (cuadro, obra gráfica, escultura, etc.), la '''fecha''' y el '''lugar''' de creación. Las fechas pueden ser aproximadas; palabras como ''aproximado'', ''antes de'' o ''después de'' indican su grado de certeza.
+* En las obras de una '''suite''' (una serie, como una carpeta de estampas): la suite a la que pertenecen y su posición en ella. En la propia suite: las obras que incluye.
+* Los '''materiales y técnicas''', por ejemplo óleo sobre lienzo o aguafuerte sobre papel.
+
+<!--T:3-->
+== Descripción ==
+{| class="wikitable"
+! Sección !! Qué contiene
+|-
+| '''Atributos''' || Firmas, fechas, números, sellos y otras marcas de la obra, con lo que dicen y dónde están, por ejemplo ''firmado y fechado, frente abajo derecha''
+|-
+| '''Dimensiones''' || Las medidas, por ejemplo altura × anchura × profundidad en cm, a menudo varias: de la imagen, de la hoja o del marco. Clasificaciones como ''vista'' (medida dentro del marco) o ''aproximado'' indican cómo se tomaron.
+|-
+| '''Partes del objeto''' || En obras compuestas de varias piezas, como un tríptico: cada parte con sus propios datos
+|-
+| '''Ediciones''' || En obra gráfica y esculturas: las ediciones, como la tirada normal, las pruebas de artista o las fundiciones, con su número y numeración
+|-
+| '''Ubicación''' || Dónde se encuentra la obra hoy, cuando puede publicarse
+|-
+| '''Otros títulos''' || Otros títulos de la obra: traducciones, títulos alternativos o títulos usados en determinadas publicaciones o por determinados propietarios
+|-
+| '''Observaciones''' || Información adicional de los autores del catálogo
+|}
+
+<!--T:4-->
+== Historia ==
+{| class="wikitable"
+! Sección !! Qué contiene
+|-
+| '''Partícipes''' || Personas e instituciones que intervinieron en la realización de la obra: imprenta, editorial, fundición, colaboradores
+|-
+| '''Fechas''' || Acontecimientos fechados de la vida de la obra: cuándo se terminó, estampó, firmó, restauró, etc.
+|-
+| '''Exposiciones''' || Las exposiciones en las que se mostró la obra
+|-
+| '''Proveniencia''' || Los propietarios anteriores y actuales, con sus periodos de propiedad, en la medida en que puedan publicarse
+|-
+| '''Referencias''' || Las publicaciones en las que se menciona o reproduce la obra, con página y número de ilustración
+|-
+| '''Obras relacionadas''' || Enlaces a otras obras: estudios, versiones, copias, modelos y similares
+|-
+| '''Marcadores de contenido''' || Las palabras clave del artista para la obra; haga clic en una para ver todas las obras que la llevan
+|}
+
+<!--T:5-->
+Los nombres de personas, instituciones, exposiciones y publicaciones suelen ser enlaces: llevan a la página correspondiente, por ejemplo a todo lo que el catálogo contiene sobre una galería.
+
+<!--T:6-->
+== En la parte inferior ==
+* Quién aportó los datos, y la nota de '''copyright''' de las imágenes.
+* '''Comparte con otros''': enlaces para compartir la página.
+* '''Contacta al artista''': formas de contactar con el artista o con los autores del catálogo, en la medida en que las publiquen. ''EMail a través de open.cr'' abre su propio programa de correo con un mensaje a la dirección del artista en openCR. Utilícelo para hacer una pregunta sobre la obra o para compartir información, por ejemplo si es propietario de la obra o conoce una exposición que falta.
+
+<!--T:7-->
+== Obras en venta ==
+Si una obra está en venta a través de una galería, un marchante o el propio artista, la página muestra la oferta bajo '''Obra en venta''': el vendedor (''Disponible a través de''), el estado, el precio o ''Precio a consultar'', y un texto breve. '''Ver la página del vendedor''' lleva a la página propia del vendedor sobre la oferta; cuando no la hay, '''Pregunta al vendedor''' abre una página que nombra la obra y muestra los datos de contacto publicados del vendedor. Una oferta también puede referirse a una edición o a una parte de la obra; entonces se indica esa edición o parte.
+
+<!--T:8-->
+Los anuncios de la obra del artista en general aparecen bajo '''Obras en venta''', en la página del artista y en las páginas de sus obras.

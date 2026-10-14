@@ -1,0 +1,66 @@
+<!--T:Page display title-->
+Preguntas frecuentes
+
+<!--T:1-->
+== Sobre openCR ==
+; ¿Qué es openCR?
+: Una plataforma en la que artistas, sus herederos y editores de catálogos elaboran y publican catálogos razonados. Véase [[Visiting openCR/es|Visitar openCR]] para un recorrido, y ''Acerca del proyecto'' en [https://open.cr/spa/index open.cr].
+
+<!--T:2-->
+; ¿Es gratuito?
+: Consultar los catálogos es gratuito, y no necesita una cuenta.
+
+<!--T:3-->
+; ¿Necesito una cuenta?
+: Solo para las herramientas personales, como guardar obras, y para trabajar en un catálogo. Véase [[Your account/es|Su cuenta]].
+
+<!--T:4-->
+; ¿Es openCR una tienda?
+: No. openCR documenta obras; no las vende. Las galerías, los marchantes o el propio artista pueden mostrar obras en venta, que aparecen entonces en la página de la obra, o en la página del artista, con un enlace al vendedor.
+
+<!--T:5-->
+== Uso de los catálogos ==
+; ¿En qué idiomas puedo usar openCR?
+: El sitio puede mostrarse en inglés, español y alemán. Los términos estándar, como los tipos de obras y los materiales, siguen el idioma que elija; los textos escritos por los autores del catálogo aparecen en los idiomas en que se redactaron.
+
+<!--T:6-->
+; ¿Por qué algunas entradas del menú de un artista están en gris?
+: El catálogo aún no tiene registros de ese tipo, por ejemplo ninguna exposición.
+
+<!--T:7-->
+; ¿Por qué no encuentro una obra determinada?
+: Compruebe los filtros de la página ''Obras'' del artista; las obras sin año conocido solo aparecen con ''con Fecha desconocida''. Los catálogos se construyen con el tiempo, así que puede que la obra aún no esté publicada. Véase [[Browsing a catalogue/es|Explorar un catálogo]].
+
+<!--T:8-->
+; ¿De dónde procede la información y qué fiabilidad tiene?
+: Del artista, de los herederos o de los editores del catálogo, que deciden qué se publica. La página de cada obra indica quién aportó los datos. La información incierta se marca como tal, por ejemplo con ''aproximado'' o ''antes de''.
+
+<!--T:9-->
+; ¿Por qué la historia de una obra no muestra nombres de propietarios?
+: Los propietarios solo se nombran con su consentimiento. Muchos coleccionistas prefieren permanecer en el anonimato.
+
+<!--T:10-->
+; ¿Puedo usar las imágenes?
+: No. Las imágenes de las obras están protegidas por derechos de autor, que pertenecen a los artistas o a sus herederos. Los textos de esta wiki están bajo una [[OpenCR Wiki:Copyrights/es|licencia aparte]] que no cubre las imágenes de las obras.
+
+<!--T:11-->
+== Aportar información ==
+; Tengo una obra de un artista que está en openCR. ¿Qué puedo hacer?
+: Utilice '''Contacta al artista''' en una página de una obra del artista, o el formulario de contacto de openCR. Los autores del catálogo deciden si incluyen su obra y cómo, y si se publica su nombre.
+
+<!--T:12-->
+; He encontrado un error.
+: Escriba al artista o a los autores del catálogo mediante '''Contacta al artista''' en la página de la obra, o utilice el formulario de contacto de openCR.
+
+<!--T:13-->
+== Para artistas y herederos ==
+; ¿Puedo tener mi catálogo en openCR?
+: Los artistas y los herederos de un artista pueden tenerlo. Como las imágenes de las obras solo pueden publicarlas sus legítimos titulares, los nuevos editores de catálogos se verifican antes de que puedan introducir datos, y aceptan las condiciones legales. Póngase en contacto a través del formulario de contacto de openCR.
+
+<!--T:14-->
+; Ya tengo una lista de obras en una hoja de cálculo o en una base de datos. ¿Sirve de algo?
+: Sí. Los datos estructurados pueden importarse; describa su caso a través del formulario de contacto.
+
+<!--T:15-->
+; ¿Dónde aprendo a crear un catálogo?
+: En la guía para editores de esta wiki, empezando por [[How openCR is structured/es|Cómo está estructurado openCR]] y [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]].

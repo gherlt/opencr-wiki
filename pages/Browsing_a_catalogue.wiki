@@ -1,6 +1,10 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 An artist's works are found through the '''Objects''' entry in the menu of the artist's page. It opens the page '''Search works''', where you choose which works to show and how to show them.
 
+<!--T:2-->
 == Choosing the works ==
 {| class="wikitable"
 ! Option !! What it does
@@ -14,16 +18,20 @@ An artist's works are found through the '''Objects''' entry in the menu of the a
 | '''Title contains''' || Shows the works whose title contains the words you enter.
 |}
 
+<!--T:3-->
 Leave an option untouched to include everything. Then click '''Use criteria for selecting works'''.
 
+<!--T:4-->
 == Choosing the presentation ==
 '''Presentation format''' decides how the list looks:
 * '''Title list w/o images''' and '''Short list w/o images''': compact text lists, good for an overview of many works;
 * '''List with thumb images''', '''List with compact images''', '''List with medium images''' and '''List with big images''': lists with the main data of each work and an image in increasing size;
 * '''Image Gallery''': the images only, as a grid.
 
+<!--T:5-->
 '''Order''' sorts the list: '''by date''', '''by internal reference''' (the catalogue number, sorted alphabetically or numerically), '''by type of work, title and date''', '''by title''' or '''by ID'''.
 
+<!--T:6-->
 == Shortcuts from the artist's page ==
 The artist's page offers direct links into the works, without filling in the form:
 * '''Discover by object type''': all works of one type, with the number of works per type;
@@ -31,14 +39,18 @@ The artist's page offers direct links into the works, without filling in the for
 * '''Discover by tags''': all works with one of the artist's keywords;
 * '''Last added objects''': the works most recently added to the catalogue.
 
+<!--T:7-->
 == In the list ==
 Each entry shows the main data of the work: title, type and date, and depending on the presentation the catalogue number, materials and an image. For works that belong to a series (a ''suite''), the entry says which suite and which position.
 
+<!--T:8-->
 '''► + info''' opens the full page of the work; see [[Reading an artwork page]]. Clicking an image opens it in a larger view.
 
+<!--T:9-->
 == Tips ==
 * '''A work is missing.''' Check the year filter: works without a known year only appear with ''with Unknown date''. Otherwise, the work may not be published yet.
 * '''Too many results.''' Combine filters, for example a type of work and a period.
 * '''Untitled works''' appear as "Untitled" and are easiest to find by year or type.
+</translate>
 
 {{Visitor guide}}

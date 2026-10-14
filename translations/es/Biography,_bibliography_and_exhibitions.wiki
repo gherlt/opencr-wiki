@@ -1,0 +1,38 @@
+<!--T:Page display title-->
+Biografía, bibliografía y exposiciones
+
+<!--T:1-->
+Además de las obras, el catálogo de un artista documenta su vida y su carrera, la bibliografía y las exposiciones. Se accede a ellas a través del menú de la página del artista; una entrada del menú en gris aún no tiene registros.
+
+<!--T:2-->
+== Biografía ==
+La página '''Biografía''' es la '''cronología''' del artista: acontecimientos fechados de su vida y su carrera, año por año, como becas, encargos, colaboraciones, fundaciones, ponencias y homenajes. Cada entrada muestra su tipo y su lugar; '''► + info''' abre la entrada completa.
+
+<!--T:3-->
+El texto biográfico redactado se muestra en la página principal del artista, no aquí. Solo aparece en los idiomas en que se ha redactado.
+
+<!--T:4-->
+== Bibliografía ==
+La '''Bibliografía''' enumera las publicaciones sobre el artista: libros, catálogos de exposición, catálogos razonados, artículos en revistas y periódicos, entrevistas y más, ordenadas por fecha.
+
+<!--T:5-->
+La página de una publicación (''Detalles publicación'') muestra sus datos bibliográficos, los '''Partícipes''' (autores, editores, editorial), los '''Idiomas empleados''', los '''Artistas relacionados''' y las '''Obras referenciadas''': las obras del catálogo que la publicación menciona o reproduce, con página y número de ilustración.
+
+<!--T:6-->
+== Exposiciones ==
+'''Exposiciones''' enumera las exposiciones en las que participó el artista, año por año: exposiciones individuales y colectivas y exposiciones en ferias de arte, cada una con su sede y su lugar. '''► + info''' abre la página de la exposición.
+
+<!--T:7-->
+== Premios ==
+'''Premios''' enumera los premios, medallas y distinciones que recibió el artista, con el año, el lugar y la institución que los concedió.
+
+<!--T:8-->
+== Páginas de exposiciones y otros eventos ==
+La página de un evento (''Detalle evento'') muestra su nombre y su tipo, los '''Artistas relacionados''' con su función (por ejemplo ''Artista que expone''), los '''Lugares y fechas''' y los '''Objetos relacionados''': en una exposición, las obras expuestas.
+
+<!--T:9-->
+== Páginas de personas e instituciones ==
+Las galerías, coleccionistas, museos, imprentas, editoriales y otras personas e instituciones tienen una página propia (''Detalle directorio''). Muestra su tipo, su dirección en la medida en que esté publicada y su relación con las obras de los catálogos: por ejemplo, las obras que poseyeron ('''Obras en propiedad''') o las que imprimieron o editaron. Como estas páginas abarcan todos los catálogos de openCR, la página de una imprenta puede mostrar obras de varios artistas.
+
+<!--T:10-->
+La información sobre los propietarios solo se publica con su consentimiento; los coleccionistas privados aparecen a menudo sin nombre, o no aparecen.

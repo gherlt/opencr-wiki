@@ -1,0 +1,1 @@
+Seiten des Leitfadens für Bearbeiter von Werkverzeichnissen (Künstler-Admins und Künstler-Experten). Beginnen Sie mit [[How openCR is structured/de|Wie openCR aufgebaut ist]] und [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]].

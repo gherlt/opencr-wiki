@@ -1,26 +1,37 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 You do not need an account to consult the catalogues on openCR. An account adds a few personal tools, and it is the way in for artists, heirs and catalogue editors.
 
+<!--T:2-->
 == Registering and logging in ==
 '''Register''' in the top menu creates an account; you confirm it through a link sent to your email address. '''Log in''' opens the login window.
 
+<!--T:3-->
 Once logged in, the top menu offers:
 * '''Dashboard''': your personal start page, with the link to your favourites;
 * '''Cart''': your selection of works (see below);
 * '''Settings''': your profile and password;
 * '''Log out'''.
 
+<!--T:4-->
 == Favourites ==
 In the lists of works, logged-in visitors see a '''heart''' next to each work. Click it to bookmark the work: choose one of your lists, or create a new one ('''Select Object Group or Create New Group'''), and add a comment if you like. A filled heart means the work is already bookmarked; click it to see in which list, and to remove the bookmark.
 
+<!--T:5-->
 All your bookmarks are on the '''Favourites List''' page, reached through '''Favourites''' on your dashboard: each work with its picture, title, list and comment. There you can move a work to another list, change the comment or remove the bookmark. Your favourites are visible only to you.
 
+<!--T:6-->
 == Cart ==
 The '''cart''' icon next to a work adds it to your selection. The cart lists the selected works; you can change the quantity, remove single works or empty the cart. It is a personal working list, for example to collect works you are interested in. It does not order or buy anything.
 
+<!--T:7-->
 == For artists and heirs ==
 Artists, and the heirs of an artist, can have their catalogue on openCR. Because images of works may only be published by their rightful owners, the identity of new catalogue editors is verified before they can enter data, and they accept the legal conditions. See ''About the project'' on [https://open.cr open.cr] and the [[FAQ]].
 
+<!--T:8-->
 Once set up, catalogue editors work in the '''PRO menu'''; everything about that is in the [[How openCR is structured|editor guide]].
+</translate>
 
 {{Visitor guide}}

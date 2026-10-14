@@ -1,28 +1,41 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 Besides the works, an artist's catalogue documents the artist's life and career, the literature and the exhibitions. They are reached through the menu of the artist's page; a menu item shown in grey has no entries yet.
 
+<!--T:2-->
 == Biography ==
 The '''Biography''' page is the artist's '''chronology''': dated events of their life and career, year by year, such as grants, commissions, collaborations, foundations, lectures and honours. Each entry shows its kind and place; '''► + info''' opens the full entry.
 
+<!--T:3-->
 The written biography text is shown on the artist's main page, not here. It appears only in the languages in which it has been written.
 
+<!--T:4-->
 == Bibliography ==
 The '''Bibliography''' lists the publications about the artist: books, exhibition catalogues, catalogues raisonnés, articles in magazines and newspapers, interviews and more, ordered by date.
 
+<!--T:5-->
 The page of a publication (''Publication details'') shows its bibliographic data, the '''Agents''' (authors, editors, publisher), the '''Used Languages''', the '''Related artists''' and the '''Reference objects''': the works of the catalogue that the publication mentions or illustrates, with page and illustration number.
 
+<!--T:6-->
 == Exhibitions ==
 '''Exhibitions''' lists the exhibitions in which the artist took part, year by year: solo and group exhibitions and exhibitions at art fairs, each with its venue and place. '''► + info''' opens the page of the exhibition.
 
+<!--T:7-->
 == Awards ==
 '''Awards''' lists the prizes, medals and distinctions the artist received, with year, place and the awarding institution.
 
+<!--T:8-->
 == Pages of exhibitions and other events ==
 The page of an event (''Event details'') shows its name and kind, the '''Related artists''' with their role (for example ''Exhibiting artist''), the '''places and dates''', and the '''Related objects''': the works shown, for an exhibition.
 
+<!--T:9-->
 == Pages of people and institutions ==
 Galleries, collectors, museums, printers, publishers and other people and institutions have a page of their own (''Directory details''). It shows their kind, their address as far as it is published, and their connection to the works in the catalogues: for example the works they owned ('''Objects in property''') or the works they printed or published. Because these pages cover all catalogues on openCR, a printer's page can list works by several artists.
 
+<!--T:10-->
 Information on owners is published only with their consent; private collectors often appear without a name, or not at all.
+</translate>
 
 {{Visitor guide}}

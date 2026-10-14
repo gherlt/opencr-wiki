@@ -1,0 +1,53 @@
+<!--T:Page display title-->
+Explorar un catálogo
+
+<!--T:1-->
+Las obras de un artista se encuentran a través de la entrada '''Obras''' del menú de la página del artista. Abre la página '''Consulta dinámica de obras''', donde se elige qué obras mostrar y cómo mostrarlas.
+
+<!--T:2-->
+== Elegir las obras ==
+{| class="wikitable"
+! Opción !! Qué hace
+|-
+| '''Tipo de obra''' / '''Categoría de obra''' || Muestra solo ciertas clases de obras, por ejemplo solo cuadros o solo obra gráfica. ''Tipo de obra'' usa los tipos generales; ''Categoría de obra'', la agrupación propia del artista, cuando el catálogo la define. Cada entrada indica cuántas obras contiene.
+|-
+| '''Año de creación''' (''Desde'', ''Hasta'') || Limita las obras a un periodo. ''con Fecha desconocida'' incluye las obras cuyo año no se conoce.
+|-
+| '''Marcadores de contenido''' || Muestra las obras que llevan una de las palabras clave del artista, como un periodo, un estilo o un tema.
+|-
+| '''Título contiene''' || Muestra las obras cuyo título contiene las palabras que introduzca.
+|}
+
+<!--T:3-->
+Deje una opción sin tocar para incluirlo todo. Después haga clic en '''Utilice los criterios para la selección de obras'''.
+
+<!--T:4-->
+== Elegir la presentación ==
+'''Formato de presentación''' determina el aspecto de la lista:
+* '''Listado de títulos (sin imagen)''' y '''Listado corto (sin imagen)''': listas de texto compactas, adecuadas para obtener una visión general de muchas obras;
+* '''Listado con imágenes (miniaturas)''', '''Listado con imágenes (compacto)''', '''Listado con imágenes (medianas)''' y '''Listado con imágenes (grande)''': listas con los datos principales de cada obra y una imagen de tamaño creciente;
+* '''Galería de imágenes''': solo las imágenes, en cuadrícula.
+
+<!--T:5-->
+'''Orden de registros''' ordena la lista: '''por fecha''', '''por referencia interna''' (el número de catálogo, en orden alfabético o numérico), '''por tipo de obra, título y fecha''', '''por título''' o '''por ID'''.
+
+<!--T:6-->
+== Accesos directos desde la página del artista ==
+La página del artista ofrece enlaces directos a las obras, sin rellenar el formulario:
+* '''Descubre por tipo de objeto''': todas las obras de un tipo, con el número de obras de cada tipo;
+* '''Descubre por año''': todas las obras de un año;
+* '''Descubre por marcador''': todas las obras con una de las palabras clave del artista;
+* '''Últimos objetos añadidos''': las obras añadidas más recientemente al catálogo.
+
+<!--T:7-->
+== En la lista ==
+Cada entrada muestra los datos principales de la obra: título, tipo y fecha y, según la presentación, el número de catálogo, los materiales y una imagen. En las obras que pertenecen a una serie (una ''suite''), la entrada indica a qué suite pertenecen y en qué posición.
+
+<!--T:8-->
+'''► + info''' abre la página completa de la obra; véase [[Reading an artwork page/es|Leer la página de una obra]]. Al hacer clic en una imagen, esta se abre en una vista más grande.
+
+<!--T:9-->
+== Consejos ==
+* '''Falta una obra.''' Compruebe el filtro de año: las obras sin año conocido solo aparecen con ''con Fecha desconocida''. Si no es eso, puede que la obra aún no esté publicada.
+* '''Demasiados resultados.''' Combine filtros, por ejemplo un tipo de obra y un periodo.
+* '''Las obras sin título''' aparecen como «Sin título» y se encuentran más fácilmente por año o por tipo.

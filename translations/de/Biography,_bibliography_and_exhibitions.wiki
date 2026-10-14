@@ -1,0 +1,38 @@
+<!--T:Page display title-->
+Biographie, Bibliographie und Ausstellungen
+
+<!--T:1-->
+Neben den Werken dokumentiert das Werkverzeichnis eines Künstlers dessen Leben und Laufbahn, die Literatur und die Ausstellungen. Sie erreichen diese über das Menü der Künstlerseite; ein grau dargestellter Menüpunkt hat noch keine Einträge.
+
+<!--T:2-->
+== Biographie ==
+Die Seite '''Biographie''' ist die '''Chronologie''' des Künstlers: datierte Ereignisse aus Leben und Laufbahn, Jahr für Jahr, etwa Stipendien, Aufträge, Zusammenarbeiten, Gründungen, Vorträge und Ehrungen. Jeder Eintrag zeigt seine Art und seinen Ort; '''► + info''' öffnet den vollständigen Eintrag.
+
+<!--T:3-->
+Der geschriebene Biographietext erscheint auf der Hauptseite des Künstlers, nicht hier. Er wird nur in den Sprachen angezeigt, in denen er verfasst wurde.
+
+<!--T:4-->
+== Bibliographie ==
+Die '''Bibliographie''' listet die Publikationen über den Künstler auf: Bücher, Ausstellungskataloge, Werkverzeichnisse, Artikel in Zeitschriften und Zeitungen, Interviews und mehr, nach Datum geordnet.
+
+<!--T:5-->
+Die Seite einer Publikation (''Details Publikation'') zeigt ihre bibliographischen Daten und die Abschnitte '''Beteiligte''' (Autoren, Herausgeber, Verlag), '''Verwendete Sprachen''', '''Erwähnte Künstler''' und '''Referenzierte Werke''': die Werke des Werkverzeichnisses, die die Publikation erwähnt oder abbildet, mit Seiten- und Abbildungsnummer.
+
+<!--T:6-->
+== Ausstellungen ==
+'''Ausstellungen''' listet die Ausstellungen auf, an denen der Künstler teilgenommen hat, Jahr für Jahr: Einzel- und Gruppenausstellungen sowie Ausstellungen auf Kunstmessen, jeweils mit Veranstaltungsort und Ort. '''► + info''' öffnet die Seite der Ausstellung.
+
+<!--T:7-->
+== Auszeichnungen ==
+'''Auszeichnungen''' listet die Preise, Medaillen und Auszeichnungen auf, die der Künstler erhalten hat, mit Jahr, Ort und verleihender Institution.
+
+<!--T:8-->
+== Seiten von Ausstellungen und anderen Ereignissen ==
+Die Seite eines Ereignisses (''Details Ereignis'') zeigt seinen Namen und seine Art sowie die Abschnitte '''In Beziehung stehende Künstler''' mit ihrer Rolle (zum Beispiel ''Ausstellender Künstler''), '''Orte und Daten''' und '''In Beziehung stehende Werke''': bei einer Ausstellung die gezeigten Werke.
+
+<!--T:9-->
+== Seiten von Personen und Institutionen ==
+Galerien, Sammler, Museen, Drucker, Verlage und andere Personen und Institutionen haben eine eigene Seite (''Details Adressbuch''). Sie zeigt ihre Art, ihre Adresse, soweit sie veröffentlicht ist, und ihre Verbindung zu den Werken der Werkverzeichnisse: zum Beispiel die Werke in ihrem Besitz ('''Werke in Besitz''') oder die Werke, die sie gedruckt oder verlegt haben. Da diese Seiten alle Werkverzeichnisse auf openCR umfassen, kann die Seite eines Druckers Werke mehrerer Künstler auflisten.
+
+<!--T:10-->
+Angaben zu Eigentümern werden nur mit deren Zustimmung veröffentlicht; private Sammler erscheinen oft ohne Namen oder gar nicht.

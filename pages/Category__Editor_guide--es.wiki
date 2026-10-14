@@ -1,0 +1,1 @@
+Páginas de la guía para los editores de catálogos (administradores y expertos de artista). Empiece por [[How openCR is structured/es|Cómo está estructurado openCR]] y [[Building a catalogue raisonné/es|Elaborar un catálogo razonado]].

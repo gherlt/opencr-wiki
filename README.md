@@ -58,6 +58,13 @@ When an English page changes: publish it with its markers, mark it again
 them. Push with `--clear-fuzzy` to keep an outdated translation that needs no
 change. Only Spanish and German are open for translation.
 
+The navigation templates put translated pages into language categories
+(`[[Category:Visitor guide{{#translation:}}]]` gives `Category:Visitor guide/es`).
+Those category pages are ordinary pages in `pages/`
+(`Category__Visitor_guide--es.wiki`); after publishing a new one, set its page
+language with `python tools/translations.py setlang es "Category:Visitor guide/es"`.
+The wiki allows about 90 edits a minute; `push` waits when it hits the limit.
+
 ## Field reference
 
 The pages `Field reference/…` are generated, not written by hand. Their

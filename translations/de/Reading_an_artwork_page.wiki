@@ -1,0 +1,69 @@
+<!--T:Page display title-->
+Eine Werkseite lesen
+
+<!--T:1-->
+Die Seite eines Werks (''Details Werk'') vereint alles, was das Werkverzeichnis über ein Werk weiß. Nicht jedes Werk hat jeden Abschnitt: Ein Abschnitt erscheint nur, wenn das Werkverzeichnis Angaben dazu hat.
+
+<!--T:2-->
+== Oben ==
+* '''Abbildungen''' des Werks. Klicken Sie auf eine Abbildung, um sie zu vergrößern. Bei einer Suite zeigt die Seite die Abbildungen der Werke der Suite.
+* Der '''Künstler''' und die '''Referenz''' des Werks: seine Nummer im Werkverzeichnis.
+* Der '''Titel''', der '''Objekttyp''' (Gemälde, Grafik, Skulptur usw.), das '''Datum''' und der '''Ort''' der Entstehung. Datumsangaben können ungefähr sein; Wörter wie ''geschätzt'', ''vor'' oder ''nach'' zeigen, wie sicher sie sind.
+* Bei Werken einer '''Suite''' (einer Serie, etwa einer Grafikmappe): die Suite, zu der sie gehören, und ihre Position darin. Bei der Suite selbst: die Werke, die sie umfasst.
+* Die '''Materialien und Techniken''', zum Beispiel Öl auf Leinwand oder Radierung auf Papier.
+
+<!--T:3-->
+== Beschreibung ==
+{| class="wikitable"
+! Abschnitt !! Inhalt
+|-
+| '''Attribute''' || Signaturen, Datierungen, Nummern, Stempel und andere Zeichen auf dem Werk, mit ihrem Wortlaut und ihrer Position, zum Beispiel ''signiert und datiert, Frontseite unten rechts''
+|-
+| '''Maße''' || Die Abmessungen, zum Beispiel Höhe × Breite × Tiefe in cm, oft mehrere: für das Bild, das Blatt oder den Rahmen. Klassifikationen wie ''auf Sicht'' (innerhalb des Rahmens gemessen) oder ''geschätzt'' zeigen, wie sie ermittelt wurden.
+|-
+| '''Bestandteile des Objektes''' || Bei Werken aus mehreren Stücken, etwa einem Triptychon: jeder Teil mit eigenen Angaben
+|-
+| '''Auflagen''' || Bei Grafiken und Skulpturen: die Auflagen, etwa die reguläre Auflage, Künstlerexemplare oder Güsse, mit Anzahl und Nummerierung
+|-
+| '''Standort''' || Wo sich das Werk heute befindet, soweit dies veröffentlicht werden darf
+|-
+| '''Weitere Titel''' || Weitere Titel des Werks: Übersetzungen, alternative Titel oder Titel, die in bestimmten Publikationen oder von bestimmten Eigentümern verwendet werden
+|-
+| '''Anmerkungen''' || Weitere Informationen der Autoren des Werkverzeichnisses
+|}
+
+<!--T:4-->
+== Geschichte ==
+{| class="wikitable"
+! Abschnitt !! Inhalt
+|-
+| '''Beteiligte''' || Personen und Institutionen, die an der Entstehung des Werks beteiligt waren: Drucker, Verleger, Gießerei, Mitarbeiter
+|-
+| '''Daten/Dauer''' || Datierte Ereignisse im Leben des Werks: wann es fertiggestellt, gedruckt, signiert, restauriert wurde usw.
+|-
+| '''Ausstellungen''' || Die Ausstellungen, in denen das Werk gezeigt wurde
+|-
+| '''Provenienz''' || Die früheren und heutigen Eigentümer mit ihren Besitzzeiträumen, soweit sie veröffentlicht werden dürfen
+|-
+| '''Referenzen''' || Die Publikationen, in denen das Werk erwähnt oder abgebildet ist, mit Seiten- und Abbildungsnummer
+|-
+| '''Verknüpfte Werke''' || Links zu anderen Werken: Studien, Versionen, Kopien, Modelle und Ähnliches
+|-
+| '''Tags (Inhaltsmarkierungen)''' || Die Schlagwörter des Künstlers für das Werk; klicken Sie auf eines, um alle Werke damit zu sehen
+|}
+
+<!--T:5-->
+Namen von Personen, Institutionen, Ausstellungen und Publikationen sind meist Links: Sie führen zur jeweiligen Seite, zum Beispiel zu allem, was das Werkverzeichnis über eine Galerie enthält.
+
+<!--T:6-->
+== Unten ==
+* Wer die Daten bereitgestellt hat, und der '''Copyright'''-Hinweis für die Abbildungen.
+* '''Teile diese Seite''': Links, um die Seite zu teilen.
+* '''Kontaktiere den Künstler''': Wege, den Künstler oder die Autoren des Werkverzeichnisses zu erreichen, soweit sie diese veröffentlichen. ''EMail über open.cr'' öffnet Ihr eigenes E-Mail-Programm mit einer Nachricht an die Adresse des Künstlers bei openCR. Nutzen Sie es, um eine Frage zum Werk zu stellen oder Informationen weiterzugeben, etwa wenn Sie das Werk besitzen oder eine fehlende Ausstellung kennen.
+
+<!--T:7-->
+== Werke zum Verkauf ==
+Wird ein Werk von einer Galerie, einem Kunsthändler oder dem Künstler zum Verkauf angeboten, zeigt die Seite das Angebot unter '''Zum Verkauf''': den Verkäufer (''Erhältlich bei''), den Zustand, den Preis oder ''Preis auf Anfrage'' und einen kurzen Text. '''Zur Seite des Verkäufers''' führt zur eigenen Seite des Verkäufers über das Angebot; gibt es keine, öffnet '''Beim Verkäufer anfragen''' eine Seite, die das Werk nennt und die veröffentlichten Kontaktdaten des Verkäufers auflistet. Ein Angebot kann auch eine Auflage oder einen Teil des Werks betreffen; es ist dann mit dieser Auflage oder diesem Teil beschriftet.
+
+<!--T:8-->
+Anzeigen für das Werk des Künstlers im Allgemeinen erscheinen unter '''Werke zum Verkauf''', auf der Künstlerseite und auf den Seiten seiner Werke.

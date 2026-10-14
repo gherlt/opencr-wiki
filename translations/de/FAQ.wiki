@@ -1,0 +1,66 @@
+<!--T:Page display title-->
+Häufige Fragen
+
+<!--T:1-->
+== Über openCR ==
+; Was ist openCR?
+: Eine Plattform, auf der Künstler, ihre Erben und Bearbeiter Werkverzeichnisse erstellen und veröffentlichen. Siehe [[Visiting openCR/de|openCR besuchen]] für einen Rundgang und ''Über das Projekt'' auf [https://open.cr/deu/index open.cr].
+
+<!--T:2-->
+; Ist es kostenlos?
+: Die Werkverzeichnisse einzusehen ist kostenlos, und Sie brauchen kein Konto.
+
+<!--T:3-->
+; Brauche ich ein Konto?
+: Nur für die persönlichen Werkzeuge, etwa um Werke zu merken, und um an einem Werkverzeichnis zu arbeiten. Siehe [[Your account/de|Ihr Konto]].
+
+<!--T:4-->
+; Ist openCR ein Shop?
+: Nein. openCR dokumentiert Werke; es verkauft sie nicht. Galerien, Kunsthändler oder der Künstler können Werke zum Verkauf zeigen, die dann auf der Seite des Werks oder auf der Künstlerseite erscheinen, mit einem Link zum Verkäufer.
+
+<!--T:5-->
+== Die Werkverzeichnisse nutzen ==
+; In welchen Sprachen kann ich openCR nutzen?
+: Die Website kann auf Englisch, Spanisch und Deutsch angezeigt werden. Standardbegriffe wie die Objekttypen und Materialien folgen der gewählten Sprache; Texte der Autoren eines Werkverzeichnisses erscheinen in den Sprachen, in denen sie verfasst wurden.
+
+<!--T:6-->
+; Warum sind manche Punkte im Menü eines Künstlers grau?
+: Das Werkverzeichnis hat noch keine Einträge dieser Art, zum Beispiel keine Ausstellungen.
+
+<!--T:7-->
+; Warum finde ich ein bestimmtes Werk nicht?
+: Prüfen Sie die Filter auf der Seite ''Werke'' des Künstlers; Werke ohne bekanntes Jahr erscheinen nur mit ''mit Datum unbekannt''. Werkverzeichnisse entstehen über längere Zeit, das Werk ist also vielleicht noch nicht veröffentlicht. Siehe [[Browsing a catalogue/de|Ein Werkverzeichnis durchsuchen]].
+
+<!--T:8-->
+; Woher stammen die Angaben, und wie verlässlich sind sie?
+: Vom Künstler, von den Erben oder von den Bearbeitern des Werkverzeichnisses, die entscheiden, was veröffentlicht wird. Die Seite jedes Werks nennt, wer die Daten bereitgestellt hat. Unsichere Angaben sind als solche gekennzeichnet, zum Beispiel mit ''geschätzt'' oder ''vor''.
+
+<!--T:9-->
+; Warum zeigt die Geschichte eines Werks keine Namen von Eigentümern?
+: Eigentümer werden nur mit ihrer Zustimmung genannt. Viele Sammler bleiben lieber anonym.
+
+<!--T:10-->
+; Darf ich die Abbildungen verwenden?
+: Nein. Die Abbildungen der Werke sind urheberrechtlich geschützt; die Rechte liegen bei den Künstlern oder ihren Erben. Die Texte dieses Wikis stehen unter einer [[OpenCR Wiki:Copyrights/de|eigenen Lizenz]], die Abbildungen von Werken nicht umfasst.
+
+<!--T:11-->
+== Informationen beitragen ==
+; Ich besitze ein Werk eines Künstlers auf openCR. Was kann ich tun?
+: Nutzen Sie '''Kontaktiere den Künstler''' auf einer Werkseite des Künstlers oder das Kontaktformular von openCR. Die Autoren des Werkverzeichnisses entscheiden, ob und wie Ihr Werk aufgenommen und ob Ihr Name veröffentlicht wird.
+
+<!--T:12-->
+; Ich habe einen Fehler gefunden.
+: Schreiben Sie dem Künstler oder den Autoren des Werkverzeichnisses über '''Kontaktiere den Künstler''' auf der Werkseite, oder nutzen Sie das Kontaktformular von openCR.
+
+<!--T:13-->
+== Für Künstler und Erben ==
+; Kann ich mein Werkverzeichnis auf openCR führen?
+: Künstler und die Erben eines Künstlers können das. Da Abbildungen von Werken nur von den Rechteinhabern veröffentlicht werden dürfen, werden neue Bearbeiter geprüft, bevor sie Daten eingeben können, und sie akzeptieren die Nutzungsbedingungen. Nehmen Sie über das Kontaktformular von openCR Kontakt auf.
+
+<!--T:14-->
+; Ich habe bereits eine Werkliste in einer Tabelle oder einer Datenbank. Hilft das?
+: Ja. Strukturierte Daten können importiert werden; beschreiben Sie Ihren Fall über das Kontaktformular.
+
+<!--T:15-->
+; Wo lerne ich, wie man ein Werkverzeichnis aufbaut?
+: Im Leitfaden für Bearbeiter in diesem Wiki, beginnend mit [[How openCR is structured/de|Wie openCR aufgebaut ist]] und [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]].

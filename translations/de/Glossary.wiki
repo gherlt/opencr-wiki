@@ -1,0 +1,117 @@
+<!--T:Page display title-->
+Glossar
+
+<!--T:1-->
+Begriffe aus Werkverzeichnissen und aus openCR, alphabetisch geordnet nach dem englischen Begriff, der in Klammern steht.
+
+<!--T:2-->
+; Beteiligter (''agent'')
+: Eine Person oder Institution, die an der Herstellung oder Veröffentlichung eines Werks beteiligt ist: Drucker, Verleger, Gießerei, Fotograf, Mitarbeiter. In openCR sind Beteiligte Einträge im [[#Directory|Adressbuch]].
+
+<!--T:3-->
+; Künstlerexemplar (''artist's proof'')
+: Abzüge einer Grafik, die außerhalb der nummerierten Auflage für den Künstler bestimmt sind. Gekennzeichnet mit ''E.A.'' (épreuve d'artiste), ''A.P.'' (artist's proof) oder ''P.A.'' (prueba de artista).
+
+<!--T:4-->
+; Attribut (''attribute'')
+: In openCR jedes Zeichen auf einem Werk: Signatur, Monogramm, Datum, Nummer, Stempel, Trockenstempel, Wasserzeichen, Inschrift. Erfasst mit seiner Position auf dem Werk und, wo möglich, einer Transkription.
+
+<!--T:5-->
+; Bon à tirer (BAT)
+: „Gut zum Druck“: der vom Künstler freigegebene Abzug, der als Vorlage für die ganze Auflage dient.
+
+<!--T:6-->
+; Guss (''cast'')
+: Ein Exemplar einer Skulptur, das in einer Form gegossen wurde, zum Beispiel in Bronze. Eine Skulpturauflage besteht aus einer Anzahl von Güssen.
+
+<!--T:7-->
+; Werkverzeichnis (''catalogue raisonné'')
+: Ein vollständiges, wissenschaftliches Verzeichnis aller bekannten Werke eines Künstlers (oder aller Werke einer Gattung, etwa der Grafik), mit Abbildungen, technischen Daten, Datierungen, Provenienz, Ausstellungen und Literatur zu jedem Werk.
+
+<!--T:8-->
+; Komponente (''component'')
+: In openCR ein Material, ein Bildträger oder eine Technik eines Werks, zum Beispiel Öl, Leinwand, Papier oder Radierung.
+
+<!--T:9-->
+; <span id="Directory"></span>Adressbuch (''directory'')
+: In openCR das Verzeichnis aller Personen und Institutionen: Eigentümer, Galerien, Museen, Drucker, Verlage, Fotografen, Autoren. Ein Eintrag kann in mehreren Werkverzeichnissen vorkommen.
+
+<!--T:10-->
+; Auflage (''edition'')
+: Die Gesamtheit der Abzüge von einer Platte, einem Stein oder einem Stock (bei Grafik) oder der Güsse nach einem Modell (bei Skulpturen), meist limitiert und nummeriert, zum Beispiel ''1/75 bis 75/75''.
+
+<!--T:11-->
+; Hors commerce (H.C.)
+: „Nicht für den Handel“: Abzüge außerhalb der nummerierten Auflage, ursprünglich für den Drucker, den Verleger oder Werbezwecke bestimmt.
+
+<!--T:12-->
+; Abzug (''impression'')
+: Ein einzelner Druck von einer Platte, einem Stein oder einem Stock.
+
+<!--T:13-->
+; Interne Referenz (''internal reference'')
+: Die Nummer eines Werks im Werkverzeichnis.
+
+<!--T:14-->
+; LIDO
+: Ein Datenformat für den Austausch von Informationen über Museumsobjekte. Einige Datensätze in openCR wurden aus LIDO-Dateien importiert.
+
+<!--T:15-->
+; Bezug des Maßes (''measurement extent'')
+: Worauf sich ein Maß bezieht: das Bild, das Blatt, die Platte, den Rahmen usw. Eine Grafik kann mehrere Maße haben, eines je Bezug.
+
+<!--T:16-->
+; Monogramm (''monogram'')
+: Initialen des Künstlers anstelle einer vollständigen Signatur.
+
+<!--T:17-->
+; Multiple (''multiple'')
+: Ein Werk, das bewusst in mehreren identischen Exemplaren hergestellt wird, oft in einer Auflage.
+
+<!--T:18-->
+; Mehrteiliges Werk (''multi-part work'')
+: Ein Werk aus mehreren Stücken, etwa ein Diptychon oder ein Triptychon. In openCR sind seine Stücke ''Bestandteile''.
+
+<!--T:19-->
+; Posthume Auflage (''posthumous edition'')
+: Eine Auflage, die nach dem Tod des Künstlers gedruckt oder gegossen wurde, meist mit Genehmigung der Erben oder des Nachlasses.
+
+<!--T:20-->
+; Druckerexemplar, P.P. (''printer's proof'')
+: Ein Abzug, der für den Drucker bestimmt ist.
+
+<!--T:21-->
+; Gesamtauflage (''print run'', ''tirage'')
+: Die Gesamtzahl der Abzüge einer Grafik.
+
+<!--T:22-->
+; Provenienz (''provenance'')
+: Die Geschichte der Eigentümer eines Werks, vom Künstler bis zum heutigen Eigentümer.
+
+<!--T:23-->
+; Klassifikation (''qualifier'')
+: Ein Wort, das angibt, wie sicher oder genau ein Wert ist: ''geschätzt'', ''vor'', ''nach'', ''frühestens'', ''spätestens'' bei Datumsangaben; ''auf Sicht'', ''maximal'', ''gerahmt'' und andere bei Maßen.
+
+<!--T:24-->
+; Recto, Verso
+: Die Vorder- und die Rückseite eines Blatts oder eines Gemäldes.
+
+<!--T:25-->
+; Lichtmaß (''sight size'')
+: Das Maß des sichtbaren Teils eines gerahmten Werks, innerhalb des Rahmens oder Passepartouts gemessen.
+
+<!--T:26-->
+; Suite
+: Eine Serie einzeln verzeichneter Werke, die als Ganzes konzipiert sind, etwa eine Grafikmappe. In openCR ist eine Suite ein eigener Datensatz, und jedes zugehörige Werk zeigt seine Position in der Suite.
+
+<!--T:27-->
+; Tag (Inhaltsmarkierung) (''tag'')
+: Ein Schlagwort, mit dem das Werkverzeichnis des Künstlers Werke gruppiert, zum Beispiel eine Periode, ein Stil, ein Thema oder ein Ort.
+
+<!--T:28-->
+; Zustandsdruck (''trial proof'')
+: Ein Abzug, der gedruckt wird, während an der Platte noch gearbeitet wird, um ihren Zustand zu prüfen.
+
+<!--T:29-->
+; Wasserzeichen (''watermark'')
+: Ein Muster im Papier, im Gegenlicht sichtbar, das den Papierhersteller oder das Papier kennzeichnet.

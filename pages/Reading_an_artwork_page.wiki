@@ -1,6 +1,10 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 The page of an artwork (''Object details'') brings together everything the catalogue knows about one work. Not every work has every section: a section appears only when the catalogue has information for it.
 
+<!--T:2-->
 == At the top ==
 * '''Images''' of the work. Click an image to enlarge it. For a suite, the page shows the images of the works in the suite.
 * The '''artist''' and the work's '''Reference''': its number in the catalogue raisonné.
@@ -8,6 +12,7 @@ The page of an artwork (''Object details'') brings together everything the catal
 * For works in a '''suite''' (a series such as a portfolio of prints): the suite they belong to and their position in it. On the suite itself: the works it includes.
 * The '''materials and techniques''', for example oil on canvas or etching on paper.
 
+<!--T:3-->
 == Description ==
 {| class="wikitable"
 ! Section !! What it contains
@@ -27,6 +32,7 @@ The page of an artwork (''Object details'') brings together everything the catal
 | '''Notes''' || Further information from the catalogue's authors
 |}
 
+<!--T:4-->
 == History ==
 {| class="wikitable"
 ! Section !! What it contains
@@ -46,16 +52,21 @@ The page of an artwork (''Object details'') brings together everything the catal
 | '''Tags''' || The artist's keywords for the work; click one to see all works with it
 |}
 
+<!--T:5-->
 Names of people, institutions, exhibitions and publications are usually links: they lead to the respective page, for example to everything the catalogue holds about a gallery.
 
+<!--T:6-->
 == At the bottom ==
 * Who provided the data, and the '''copyright''' notice for the images.
 * '''Share with others''': links to share the page.
 * '''Contact the artist''': ways to contact the artist or the catalogue's authors, as far as they publish them. ''email through open.cr'' opens your own email program with a message to the artist's address at openCR. Use it to ask a question about the work or to share information, for example if you own the work or know of an exhibition that is missing.
 
+<!--T:7-->
 == Works for sale ==
 If a work is for sale through a gallery, a dealer or the artist, the page shows the offer under '''Available for sale''': the seller (''Available from''), the condition, the price or ''Price on request'', and a short text. '''See the seller's page''' leads to the seller's own page about the offer; where there is none, '''Ask the seller''' opens a page that names the work and lists the seller's published contact details. An offer can also be for one edition or one part of the work; it is then labelled with that edition or part.
 
+<!--T:8-->
 Adverts for the artist's work in general appear under '''Works by this artist for sale''', on the artist's page and on the pages of the artist's works.
+</translate>
 
 {{Visitor guide}}
