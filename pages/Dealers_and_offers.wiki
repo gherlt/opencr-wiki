@@ -1,5 +1,5 @@
 {{Draft}}
-'''Dealers and offers''' let works from a catalogue be offered for sale. An '''offer''' is an advert for a work, shown to visitors on the page of that work. The seller is either a '''dealer''' (a gallery or art dealer) or the '''artist''' selling their own work.
+'''Dealers and offers''' let works from a catalogue be offered for sale. An '''offer''' is an advert for a work, shown to visitors on the page of that work, or a general advert for an artist's work. The seller is either a '''dealer''' (a gallery or art dealer) or the '''artist''' selling their own work.
 
 This area is separate from the catalogue itself: offers never change the catalogue data of an artwork, and a work can be in the catalogue without ever being offered.
 
@@ -13,7 +13,7 @@ A dealer is a seller with their own openCR login, linked to one [[Directory|dire
 A dealer can only create offers for works by artists they are cleared for. The clearance alone does not create any offer.
 
 == Offers ==
-Offers are created and edited on the '''Offers''' page. Who sees which offers there:
+Offers are created and edited on the '''Works for sale''' page, reached from the dashboard. Who sees which offers there:
 * a '''dealer''' sees and manages their own offers;
 * an '''artist administrator''' or '''artist expert''' sees and manages the offers in which their artists sell their own work;
 * the '''platform administrator''' sees and manages all offers.
@@ -26,7 +26,7 @@ An offer records:
 |-
 | ''Artist'' || The artist whose work is offered. Always required, also for dealers' offers.
 |-
-| ''Work type'' and ''Work ID'' || The work offered.
+| ''Work type'' and ''Work ID'' || The work offered: the artwork itself (''Object''), one of its print or sculpture editions (''Object print edition'', ''SculptureEdition'') or one of its parts (''ObjectPart''), with its ID. It must be a work of the offer's artist. Leave both empty for a general advert for the artist's work.
 |-
 | ''Reference / order no.'' || The seller's own item or order number.
 |-
@@ -38,19 +38,20 @@ An offer records:
 |-
 | ''Runs from'' and ''Runs to'' || The period in which the offer is shown. Leave them empty for no limit.
 |-
-| ''Default text'' and ''Default URL'' || The text of the advert and the link to the seller's own page about it.
+| ''Default text'' and ''Default URL'' || The text of the advert and the link to the seller's own page about it. The URL must start with ''http://'' or ''https://''.
 |-
 | Texts per language || Optional text and link in further languages. Where none exists for the visitor's language, the default text and link are shown.
 |}
 
 == What visitors see ==
-On the page of an artwork, offers for that work appear under '''Adverts related to this object''', while the offer's run period includes today. A dealer's offers are shown only while the dealer is ''Active'' and today lies within the dealer's own period (''Active from'', ''Active to''). Each offer shows the seller (the dealer's directory entry, or the artist), the condition, the price or "price on request", the text and a link to the offer.
+On the page of an artwork, offers appear under '''Available for sale''' while the offer's run period includes today: first the offers for the artwork itself, then those for its editions and parts, each labelled with the edition or part. A dealer's offers are shown only while the dealer is ''Active'' and today lies within the dealer's own period (''Active from'', ''Active to''). Each offer shows the seller (''Available from'': the dealer's directory entry, or the artist), the condition, the price or ''Price on request'', and the text. Its link, '''See the seller's page''', leads to the offer's URL; an offer without a URL shows '''Ask the seller''' instead, which opens a page that names the work and lists the seller's published contact details.
 
-Currently, offers are shown on the pages of whole artworks.
+General adverts appear under '''Works by this artist for sale''' on the artist's page and on the pages of the artist's works.
 
 == Common pitfalls ==
 * '''Clearance first.''' A dealer's offer for an artist they are not cleared for cannot be saved. Ask the platform administrator to add the clearance.
 * '''Artist missing.''' Every offer needs its artist, even when a dealer sells.
+* '''Work of another artist.''' The work offered must belong to the offer's artist; otherwise the offer cannot be saved.
 * '''Ending an offer.''' To stop showing an offer, set ''Runs to'' to the last day it should appear. To stop all offers of a dealer, the platform administrator unticks ''Active''.
 
 == See also ==

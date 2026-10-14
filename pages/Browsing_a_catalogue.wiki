@@ -39,6 +39,6 @@ Each entry shows the main data of the work: title, type and date, and depending 
 == Tips ==
 * '''A work is missing.''' Check the year filter: works without a known year only appear with ''with Unknown date''. Otherwise, the work may not be published yet.
 * '''Too many results.''' Combine filters, for example a type of work and a period.
-* '''Untitled works''' appear as "No title" and are easiest to find by year or type.
+* '''Untitled works''' appear as "Untitled" and are easiest to find by year or type.
 
 {{Visitor guide}}

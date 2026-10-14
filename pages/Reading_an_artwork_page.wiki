@@ -54,6 +54,8 @@ Names of people, institutions, exhibitions and publications are usually links: t
 * '''Contact the artist''': ways to contact the artist or the catalogue's authors, as far as they publish them. ''email through open.cr'' opens your own email program with a message to the artist's address at openCR. Use it to ask a question about the work or to share information, for example if you own the work or know of an exhibition that is missing.
 
 == Works for sale ==
-If a work is offered for sale by a gallery, a dealer or the artist, the page shows the offer under '''Adverts related to this object''', with the seller, the condition, the price or "price on request", and a link to the seller.
+If a work is for sale through a gallery, a dealer or the artist, the page shows the offer under '''Available for sale''': the seller (''Available from''), the condition, the price or ''Price on request'', and a short text. '''See the seller's page''' leads to the seller's own page about the offer; where there is none, '''Ask the seller''' opens a page that names the work and lists the seller's published contact details. An offer can also be for one edition or one part of the work; it is then labelled with that edition or part.
+
+Adverts for the artist's work in general appear under '''Works by this artist for sale''', on the artist's page and on the pages of the artist's works.
 
 {{Visitor guide}}

@@ -10,7 +10,7 @@
 : Only for the personal tools, such as bookmarking works, and to work on a catalogue. See [[Your account]].
 
 ; Is openCR a shop?
-: No. openCR documents works; it does not sell them. Galleries, dealers or the artist can show offers for single works, which then appear on the work's page with a link to the seller.
+: No. openCR documents works; it does not sell them. Galleries, dealers or the artist can show works for sale, which then appear on the work's page, or on the artist's page, with a link to the seller.
 
 == Using the catalogues ==
 ; In which languages can I use openCR?
