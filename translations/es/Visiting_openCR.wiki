@@ -1,0 +1,63 @@
+<!--T:Page display title-->
+Visitar openCR
+
+<!--T:1-->
+[https://open.cr/spa/index openCR] publica los catálogos razonados de varios artistas: registros completos y documentados de sus obras, con imágenes, materiales, medidas, procedencia, exposiciones y bibliografía. Todo lo que puede ver en el sitio es de consulta libre; no necesita una cuenta.
+
+<!--T:2-->
+Esta página es un recorrido breve. Las páginas siguientes entran en detalle: [[Browsing a catalogue/es|Explorar un catálogo]], [[Reading an artwork page/es|Leer la página de una obra]] y [[Biography, bibliography and exhibitions/es|Biografía, bibliografía y exposiciones]].
+
+<!--T:3-->
+== La página de inicio ==
+La página de inicio muestra todos los artistas cuyo catálogo está publicado, con sus años de nacimiento y muerte, e indica cuántas obras contiene el sitio en total. Haga clic en un artista para abrir su catálogo.
+
+<!--T:4-->
+El menú de la parte superior lleva a:
+* '''Inicio''': la página de inicio;
+* '''Acerca del proyecto''': qué es openCR y a quién se dirige;
+* '''Artistas''': la lista de todos los artistas;
+* '''Contacto''': un formulario para escribir al equipo de openCR;
+* '''Iniciar sesión''' y '''Registrarse''': véase [[Your account/es|Su cuenta]];
+* el '''idioma''' del sitio.
+
+<!--T:5-->
+== Idiomas ==
+El sitio puede mostrarse en '''inglés''', '''español''' o '''alemán'''; el idioma se cambia con la entrada de idioma del menú. La interfaz, los nombres de los tipos y materiales y la mayoría de los demás términos estándar cambian con el idioma. Los textos escritos por los autores del catálogo, como títulos, biografías y descripciones, aparecen en los idiomas en que se redactaron. Una biografía que no se ha redactado en su idioma no se muestra; por eso, si a una página parece faltarle la biografía, pruebe con otro idioma.
+
+<!--T:6-->
+== El catálogo de un artista ==
+La página de cada artista se abre con un menú que guía por su catálogo:
+
+<!--T:7-->
+{| class="wikitable"
+! Entrada del menú !! Qué muestra
+|-
+| '''Biografía''' || La cronología del artista: acontecimientos fechados de su vida y su carrera, como becas, encargos, conferencias y fundaciones
+|-
+| '''Obras''' || Las obras, con un formulario de búsqueda para filtrarlas y ordenarlas (véase [[Browsing a catalogue/es|Explorar un catálogo]])
+|-
+| '''Bibliografía''' || Las publicaciones sobre el artista y sus obras
+|-
+| '''Exposiciones''' || Las exposiciones en las que participó el artista
+|-
+| '''Premios''' || Premios y distinciones
+|-
+| '''Menu PRO''' || El área de trabajo de los editores del catálogo (solo para editores registrados)
+|}
+
+<!--T:8-->
+Una entrada del menú en '''gris''' significa que el catálogo aún no tiene registros de ese tipo.
+
+<!--T:9-->
+Debajo del menú, la página del artista muestra los datos básicos y el texto de la biografía, y ofrece accesos rápidos a las obras: '''Descubre por tipo objeto''', '''Descubre por año''' y '''Descubre por marcador''', así como la sección '''Últimos objetos añadidos'''. '''Más detalles del artista''' lleva a una página más completa con los datos de contacto, otros nombres y las relaciones del artista, en la medida en que estén publicados.
+
+<!--T:10-->
+== Buscar ==
+El campo de '''búsqueda''' de la parte superior de la página (una lupa en la página de inicio) busca en todos los catálogos publicados a la vez. Introduzca una palabra, por ejemplo parte de un título, un nombre o un lugar. Los resultados se agrupan por tipo (artistas, objetos, eventos, publicaciones y entradas del directorio, como galerías o coleccionistas), con el número de resultados de cada grupo; abra un grupo para ver sus entradas.
+
+<!--T:11-->
+Para buscar dentro de las obras de un solo artista, con filtros por tipo, año y palabras clave, utilice en cambio la página '''Obras''' del artista (véase [[Browsing a catalogue/es|Explorar un catálogo]]).
+
+<!--T:12-->
+== Lo que se ve y lo que no ==
+Un catálogo se construye con el tiempo, y sus autores deciden qué se publica. Alguna información no se muestra a propósito, por ejemplo los propietarios privados que desean permanecer en el anonimato o los precios de las ventas. Si una obra aún no aparece en el sitio, puede que simplemente no se haya publicado todavía. Si tiene información sobre una obra, puede escribir al artista o a los autores del catálogo (véase [[FAQ/es|Preguntas frecuentes]]).

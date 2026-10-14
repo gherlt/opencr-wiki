@@ -1,0 +1,63 @@
+<!--T:Page display title-->
+openCR besuchen
+
+<!--T:1-->
+[https://open.cr/deu/index openCR] veröffentlicht die Werksverzeichnisse mehrerer Künstler: vollständige, dokumentierte Verzeichnisse ihrer Werke mit Abbildungen, Materialien, Maßen, Provenienz, Ausstellungen und Literatur. Alles, was Sie auf der Website sehen, können Sie frei einsehen; ein Konto ist dafür nicht nötig.
+
+<!--T:2-->
+Diese Seite ist ein kurzer Rundgang. Die folgenden Seiten gehen ins Detail: [[Browsing a catalogue/de|Ein Werksverzeichnis durchsuchen]], [[Reading an artwork page/de|Eine Werkseite lesen]] und [[Biography, bibliography and exhibitions/de|Biographie, Bibliographie und Ausstellungen]].
+
+<!--T:3-->
+== Die Startseite ==
+Die Startseite listet alle Künstler auf, deren Werksverzeichnis veröffentlicht ist, mit ihren Geburts- und Sterbejahren, und zeigt, wie viele Werke die Website insgesamt enthält. Klicken Sie auf einen Künstler, um das Werksverzeichnis zu öffnen.
+
+<!--T:4-->
+Das Menü oben führt zu:
+* '''Startseite''': die Startseite;
+* '''Über das Projekt''': was openCR ist und für wen es gedacht ist;
+* '''Künstler''': die Liste aller Künstler;
+* '''Kontakt''': ein Formular, um dem openCR-Team zu schreiben;
+* '''Einloggen''' und '''Registrieren''': siehe [[Your account/de|Ihr Konto]];
+* die '''Sprache''' der Website.
+
+<!--T:5-->
+== Sprachen ==
+Die Website kann auf '''Englisch''', '''Spanisch''' oder '''Deutsch''' angezeigt werden; die Sprache wechseln Sie über den Spracheintrag im Menü. Die Oberfläche, die Bezeichnungen von Typen und Materialien und die meisten anderen Standardbegriffe wechseln mit der Sprache. Texte, die die Autoren des Werksverzeichnisses geschrieben haben, etwa Titel, Biographien und Beschreibungen, erscheinen in den Sprachen, in denen sie verfasst wurden. Eine Biographie, die nicht in Ihrer Sprache verfasst wurde, wird nicht angezeigt; scheint einer Seite also die Biographie zu fehlen, versuchen Sie es mit einer anderen Sprache.
+
+<!--T:6-->
+== Das Werksverzeichnis eines Künstlers ==
+Die Seite jedes Künstlers beginnt mit einem Menü, das durch das Werksverzeichnis führt:
+
+<!--T:7-->
+{| class="wikitable"
+! Menüpunkt !! Was er zeigt
+|-
+| '''Biographie''' || Die Chronologie des Künstlers: datierte Ereignisse aus Leben und Laufbahn, etwa Stipendien, Aufträge, Vorträge und Gründungen
+|-
+| '''Werke''' || Die Werke, mit einem Suchformular zum Filtern und Sortieren (siehe [[Browsing a catalogue/de|Ein Werksverzeichnis durchsuchen]])
+|-
+| '''Bibliographie''' || Die Literatur über den Künstler und die Werke
+|-
+| '''Ausstellungen''' || Die Ausstellungen, an denen der Künstler teilgenommen hat
+|-
+| '''Auszeichungen''' || Preise und Auszeichnungen
+|-
+| '''PRO Menü''' || Der Arbeitsbereich für die Bearbeiter des Werksverzeichnisses (nur für registrierte Bearbeiter)
+|}
+
+<!--T:8-->
+Ein '''grau''' dargestellter Menüpunkt bedeutet, dass das Werksverzeichnis noch keine Einträge dieser Art enthält.
+
+<!--T:9-->
+Unter dem Menü zeigt die Künstlerseite die Basisdaten und den Text der Biographie und bietet schnelle Zugänge zu den Werken: '''Entdecken über Objekt Typ''', '''Entdecken über Jahre''' und '''Entdecken über Inhaltsmarkierung''' sowie den Bereich '''Zuletzt hinzugefügte Objekte'''. '''Noch mehr Details des Künstlers''' führt zu einer ausführlicheren Seite mit Kontaktdaten, weiteren Namen und Beziehungen des Künstlers, soweit diese veröffentlicht sind.
+
+<!--T:10-->
+== Suchen ==
+Das '''Suchfeld''' oben auf der Seite (eine Lupe auf der Startseite) durchsucht alle veröffentlichten Werksverzeichnisse auf einmal. Geben Sie ein Wort ein, zum Beispiel einen Teil eines Titels, einen Namen oder einen Ort. Die Ergebnisse sind nach Art gruppiert (Künstler, Objekte, Events, Publikationen und Verzeichniseinträge wie Galerien oder Sammler), jeweils mit der Zahl der Treffer; öffnen Sie eine Gruppe, um ihre Einträge zu sehen.
+
+<!--T:11-->
+Um nur in den Werken eines Künstlers zu suchen, mit Filtern für Typ, Jahr und Schlagwörter, verwenden Sie stattdessen die Seite '''Werke''' des Künstlers (siehe [[Browsing a catalogue/de|Ein Werksverzeichnis durchsuchen]]).
+
+<!--T:12-->
+== Was Sie sehen und was nicht ==
+Ein Werksverzeichnis entsteht über längere Zeit, und seine Autoren entscheiden, was veröffentlicht wird. Manche Informationen werden bewusst nicht angezeigt, zum Beispiel private Eigentümer, die anonym bleiben möchten, oder die Preise von Verkäufen. Ein Werk, das noch nicht auf der Website zu finden ist, ist vielleicht einfach noch nicht veröffentlicht. Wenn Sie Informationen zu einem Werk haben, können Sie dem Künstler oder den Autoren des Werksverzeichnisses schreiben (siehe [[FAQ/de|Häufige Fragen]]).

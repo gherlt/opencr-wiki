@@ -30,6 +30,34 @@ with MediaWiki's `edit` maintenance script:
 ssh opencr-wiki -p 222 'cd ~/public_html/opencr_com/w && php84 maintenance/run.php edit --user "OpenCR Claude" --bot --summary "Update sidebar" "MediaWiki:Sidebar"' < pages/MediaWiki__Sidebar.wiki
 ```
 
+## Translations
+
+The guides are translated into Spanish and German with the Translate
+extension. A translatable English page carries `<languages/>` at the top and
+its text inside `<translate>` tags. Marking it for translation splits the text
+into units and numbers them with `<!--T:n-->` markers. The translations appear
+as `Page/es` and `Page/de`. `{{Draft}}` and the navigation templates are
+translatable as well, and a translated page shows them in its own language.
+
+- `translations/es/`, `translations/de/` — one file per page, named like the
+  English file. Each unit starts with a marker line `<!--T:n-->`;
+  `<!--T:Page display title-->` holds the translated title. Links point to
+  the translated page (`[[Glossary/es|Glosario]]`).
+- `tools/translations.py` — marks pages, pulls the marked source back, pushes
+  translations and lists missing or outdated units.
+
+```bash
+python tools/translations.py mark "Glossary"        # templates: add --transclusion --no-title
+python tools/translations.py pull "Glossary"        # the markers belong in pages/ too
+python tools/translations.py push es translations/es/Glossary.wiki
+python tools/translations.py status
+```
+
+When an English page changes: publish it with its markers, mark it again
+(changed units become outdated), pull it, update the translations, and push
+them. Push with `--clear-fuzzy` to keep an outdated translation that needs no
+change. Only Spanish and German are open for translation.
+
 ## Field reference
 
 The pages `Field reference/…` are generated, not written by hand. Their
