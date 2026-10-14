@@ -1,13 +1,19 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 '''Events''' are everything in a catalogue that happened at a certain time: exhibitions and fairs, awards and grants, commissions, lectures, performances, and the events of the artist's life, such as birth, travels, moves, marriage and death. Together they make up the artist's '''chronology''' and '''exhibition history''', and they are what artworks point to when they were shown somewhere.
 
+<!--T:2-->
 An event is created for an artist; other artists can take part in it. This page explains how an event is recorded. For the list of sections, see [[How openCR is structured/Records and their sections#Events|Records and their sections]]; for every single field, see the [[Field reference]].
 
+<!--T:3-->
 == Before creating an event ==
 * '''Search first.''' A group exhibition may already exist, entered for another participating artist. Add your artist to it instead of creating a second record.
 * '''Venues and people''': galleries, museums, curators, organisers, sponsors and lenders are [[Directory|directory]] entries. Create the ones you need first.
 * '''Choose the short name.''' The ''Alias'' identifies the event wherever it can be picked, for example when an artwork's exhibitions are entered. Use a consistent pattern, such as place and year.
 
+<!--T:4-->
 == The main form ==
 The main form is deliberately short:
 * '''Eventtype''': the kind of event. There are about 60 kinds, for example Solo exhibition, Group exhibition, Exhibition at fair, Award, Grant, Honour, Commission/order, Lecture, Performance, Publication, Birth, Death, Marriage, Trip and Move / Migration. The kind decides which further sections make sense, such as exhibited artworks for an exhibition.
@@ -16,35 +22,45 @@ The main form is deliberately short:
 * '''Reference''': a citation key or reference code, if you use one.
 * '''Public''': publishes the event. Leave it unticked until the record is complete.
 
+<!--T:5-->
 == Name and description in each language ==
 '''Event description''' holds the name and the description of the event, one entry per language. Where such an entry exists for the visitor's language, its name replaces the ''Event name'' of the main form. So when you correct the name of an event that has descriptions, correct it in the description of each language as well.
 
+<!--T:6-->
 == Where and when ==
 '''Locations''' records where and when the event took place: venue, city and country, and the dates from and to, each with a qualifier for uncertain dates (approximate, before, after and so on). For events measured in hours, days or weeks rather than calendar dates, a duration can be recorded instead.
 
+<!--T:7-->
 A touring exhibition is '''one''' event with several locations, one per venue and with its own dates. It is not a separate event per venue.
 
+<!--T:8-->
 == Who took part ==
 Two sections record the participants, each with its role:
 * '''Events Artists''': the artists involved, for example as exhibiting artist, invited artist, participant, guest, author or co-author, or as the recipient of an award.
 * '''Events Agents''': the people and institutions involved, for example as organiser, curator, exhibiting gallery, sponsor, patron, promoter or moderator. Each one is a [[Directory|directory]] entry.
 
+<!--T:9-->
 For a touring exhibition, a participant can be limited to one venue, for example a curator who worked on one stop only. Leave this empty for roles that apply to the whole event.
 
+<!--T:10-->
 == Artworks shown ==
 '''Exhibited objects''' lists the artworks shown at an exhibition or fair. For each work it can record:
 * the '''Reference''': the catalogue or lot number, or the label used at the exhibition;
 * the '''Lender''': the [[Directory|directory]] entry that lent the work;
 * the '''used title''', when the work was shown under a different title.
 
+<!--T:11-->
 This is the same list as the ''Exhibitions'' section of an [[Objects|artwork]], seen from the other side. To record a whole exhibition, it is quickest to add all its works here. Choosing an exhibition as the event type does not add any works by itself.
 
+<!--T:12-->
 == Publications ==
 '''Related publications''' lists the publications that document the event, above all its exhibition catalogue, and also reviews and articles. It is the same link as ''Related events'' on the [[Publications|publication]].
 
+<!--T:13-->
 == Images and files ==
 Images of the event, such as installation views, invitations or posters, are uploaded with the image upload and belong to the event.
 
+<!--T:14-->
 == Before publishing ==
 * Type, name and at least one location with dates are recorded.
 * For exhibitions: the participating artists and, as far as known, the exhibited works.
@@ -52,16 +68,19 @@ Images of the event, such as installation views, invitations or posters, are upl
 * Participants who should not appear publicly are hidden in their [[Directory|directory]] entries.
 Then tick ''Public''.
 
+<!--T:15-->
 == Common pitfalls ==
 * '''One record per venue.''' A tour is one event with several locations.
 * '''Duplicate group exhibitions.''' Search before creating; the exhibition may exist for another artist.
 * '''Name corrected in one place only.''' The name in ''Event description'' replaces the main ''Event name'' in that language.
 * '''Exhibition without works.''' The exhibited works have to be added; nothing is added automatically.
 
+<!--T:16-->
 == See also ==
 * [[Objects#Literature and exhibitions|Exhibitions of an artwork]]
 * [[Publications]]
 * [[Directory]]
 * [[Field reference]]
+</translate>
 
 {{Editor guide}}

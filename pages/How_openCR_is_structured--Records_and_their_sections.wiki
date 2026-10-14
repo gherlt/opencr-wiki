@@ -1,8 +1,13 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 Every record in openCR has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
 
+<!--T:2-->
 This page lists the sections of each entity, named as they appear in the forms. For the overall picture, see [[How openCR is structured]].
 
+<!--T:3-->
 == Objects (artworks) ==
 {| class="wikitable"
 ! Section !! What goes there
@@ -42,6 +47,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | Objects Actions || Dated events in the life of the work, such as signing, printing or restoration
 |}
 
+<!--T:4-->
 == Artists ==
 {| class="wikitable"
 ! Section !! What goes there
@@ -65,6 +71,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | External file || Documents attached to the artist
 |}
 
+<!--T:5-->
 == Publications ==
 {| class="wikitable"
 ! Section !! What goes there
@@ -84,6 +91,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | Externalfiles || Attached files, such as scans
 |}
 
+<!--T:6-->
 == Events ==
 {| class="wikitable"
 ! Section !! What goes there
@@ -101,6 +109,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | Related publications || Publications documenting the event
 |}
 
+<!--T:7-->
 == Directory ==
 {| class="wikitable"
 ! Section !! What goes there
@@ -116,5 +125,6 @@ This page lists the sections of each entity, named as they appear in the forms. 
 | Directory Addresses || The addresses of the entry, each with type and period of validity (a separate form)
 |}
 The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
+</translate>
 
 {{Editor guide}}

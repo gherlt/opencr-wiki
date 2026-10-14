@@ -1,19 +1,28 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 openCR does not store a catalogue raisonné as one long document. It stores it as many connected '''records''': one record per artwork, per publication, per exhibition, per person or institution, and so on. The records point to each other, and the published catalogue is assembled from them.
 
+<!--T:2-->
 This page explains which kinds of records exist, what each one holds, and how they fit together. Knowing this makes the daily work faster: you enter each fact once, in the right place, and link to it from everywhere else.
 
+<!--T:3-->
 == One platform, many catalogues ==
 openCR hosts the catalogues of several artists side by side. Some information belongs to a single artist's catalogue; other information is shared, so that it exists only once:
 
+<!--T:4-->
 * '''Belongs to one artist:''' the artworks, the artist's tags and the settings of the artist's catalogue.
 * '''Shared:''' people and institutions, publications and the vocabularies behind the dropdown lists. A museum holding works by three artists is one directory entry, not three. A book about several artists is one publication, linked to each of them.
 
+<!--T:5-->
 Shared records are a strength, but they need care: a change to a shared record shows up in every catalogue that uses it.
 
+<!--T:6-->
 == The building blocks ==
 openCR calls the main kinds of records '''entities'''. Each has its own form and its own page in this guide.
 
+<!--T:7-->
 {| class="wikitable"
 ! Entity !! What it records !! Scope
 |-
@@ -30,46 +39,59 @@ openCR calls the main kinds of records '''entities'''. Each has its own form and
 | '''[[Dealers and offers]]''' || Galleries and dealers who offer works for sale, and their offers. || A separate area for sellers
 |}
 
+<!--T:8-->
 Two kinds of supporting records complete the picture:
 * '''Vocabularies''' are the lists behind the dropdowns: object types, materials (''components''), date qualifiers such as ''approximate'' or ''before'', countries, languages, types of relations, and many more. They are shared by all catalogues and translated into the interface languages. Because a change affects everyone, new entries are best agreed with the platform administrator.
 * '''Tags''' are each artist's own keywords, such as epochs, styles, periods, topics and places, used to group and filter the artworks of one catalogue.
 
+<!--T:9-->
 == Records and their sections ==
 Every record has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
 
+<!--T:10-->
 Artworks have the most sections, from ''Titles'' and ''Components'' to ''Objects provenance'', ''Exhibitions'' and ''Relation with other objects''. Artists, publications, events and directory entries each have their own.
 
+<!--T:11-->
 '''→ [[/Records and their sections|All sections of each entity]]'''
 
+<!--T:12-->
 == How the pieces connect ==
 The entities are connected through these sections. Seen from the artwork, the most important links are:
 
+<!--T:13-->
 * '''Artwork → artist:''' every artwork belongs to one artist's catalogue.
 * '''Artwork → directory:''' owners in the ownership history, buyers and sellers in transactions, printers and photographers as agents.
 * '''Artwork → publications:''' the literature in which the work appears.
 * '''Artwork → events:''' the exhibitions in which the work was shown.
 * '''Artwork → other artworks:''' studies, versions and copies, the members of a suite, the parts of a multi-part work, the editions of a print or sculpture.
 
+<!--T:14-->
 Publications, events and directory entries are linked to each other in the same way: a publication has authors from the directory and can document an event; an event has participants from the directory and shows artworks. The page [[Relations]] describes every kind of link in detail.
 
+<!--T:15-->
 == What the public sees ==
 Nothing is published by accident. Several settings decide what a visitor sees:
 
+<!--T:16-->
 * '''Public''' on every main form: as long as it is not ticked, only editors see the record. This is the everyday switch between draft and published.
 * '''Public''' in many sections: single entries can stay hidden while the record itself is published. An artwork can be public while one entry of its ownership history stays private.
 * '''Privacy settings in the directory''': a directory entry can be hidden from collection lists, from ownership histories or from sales records, each separately, or limited to a single artist's catalogue. This lets a collector appear in the catalogue without their purchases becoming public.
 * '''Record type''' on artworks: ''main data'' are the artworks themselves. ''Correction data'' and ''supplementary data'' are additional records attached to a main record (through ''Parent object''); they never appear as artworks of their own in lists and reports.
 * '''Internal fields''': some fields are for editors only. Note that the artwork's main form has a field called ''Notes'' for internal notes, while the '''Notes''' section holds the notes meant for publication.
 
+<!--T:17-->
 == Languages ==
 The openCR interface is available in '''English''', '''Spanish''' and '''German'''. Catalogue content is translated in two different ways:
 
+<!--T:18-->
 * '''Vocabularies''' are translated once, centrally. If a translation is missing, visitors see the English term instead of an empty space.
 * '''Texts written by editors''', such as biographies, event descriptions, further titles and published notes, are entered separately for each language. A biography that has not been written in the visitor's language is '''not''' shown at all, so decide early which languages each catalogue will cover. The artist's ''Selected Languages'' section records that decision.
 
+<!--T:19-->
 == See also ==
 * [[Building a catalogue raisonné]]: in which order to enter all of this
 * [[Relations]]: every kind of link between records
 * [[Field reference]]: what each field means
+</translate>
 
 {{Editor guide}}

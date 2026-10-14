@@ -1,17 +1,24 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 openCR does not force an order of work: every record and every section can be edited at any time. But records refer to each other. An ownership history points to collectors in the directory, a literature entry points to a publication, an exhibition entry points to an event. If those records already exist, you simply pick them from a list; if not, you have to interrupt your work to create them first.
 
+<!--T:2-->
 This page describes an order of work that avoids those interruptions, two ways of approaching the material, and how to move from draft to publication. It assumes you know the building blocks described in [[How openCR is structured]].
 
+<!--T:3-->
 == Before you start: decisions ==
 A few decisions are hard to change once hundreds of records exist. Make them first, and write them down for everyone who works on the catalogue.
 
+<!--T:4-->
 * '''Numbering.''' Each artwork has an ''Internal reference'' field, typically used for the catalogue raisonné number. It is searchable and displayed prominently. Choose a stable numbering scheme before entering the first work.
 * '''Short names.''' Artists, publications, events and directory entries each have an ''Alias'': a short name that appears in the dropdown lists everywhere. Agree on a consistent pattern (for example ''Surname, First name'' for people, ''Author Year'' for publications), because renaming later changes every list in which the record appears.
 * '''Languages.''' Decide which languages the catalogue will be published in, and who writes the texts in each language. Record the decision in the artist's ''Selected Languages''.
 * '''Uncertain dates.''' Record what is known and qualify it (''approximate'', ''before'', ''after'' and similar) instead of leaving a date empty. Visitors see the qualifier; an empty field tells them nothing.
 * '''What will be public.''' Agree with the artist or estate which kinds of information may be published, especially ownership histories and sales.
 
+<!--T:5-->
 == The recommended order ==
 {| class="wikitable"
 ! Step !! What to enter !! Why at this point
@@ -29,8 +36,10 @@ A few decisions are hard to change once hundreds of records exist. Make them fir
 | 6 || '''Review and publish''' || See [[#From draft to publication|below]].
 |}
 
+<!--T:6-->
 The order is a guide, not a rule. In practice the directory grows throughout the project, and new literature turns up all the time. The point is to have the most-used records ready before the bulk of the artworks is entered.
 
+<!--T:7-->
 === Entering an artwork ===
 Within one artwork, this order works well:
 # '''Main data:''' title (or untick ''Has title ?'' for untitled works), ''Object type'', creation date, ''Internal reference''. Leave ''Public'' unticked.
@@ -41,39 +50,50 @@ Within one artwork, this order works well:
 # '''Images''', with one image marked as the main web image.
 # '''Editions''' for prints, '''Sculpture editions''' for sculptures.
 
+<!--T:8-->
 == Two ways to approach the material ==
 === From the sources ===
 Work through one source at a time, for example an exhibition catalogue: create the publication and the exhibition, then enter each work it lists, linking it to both as you go. Continue with the next source; works already in the catalogue only receive the new citation or exhibition entry.
 
+<!--T:9-->
 This suits catalogues built mainly from literature and archives. Each step leaves a complete, checkable result, and you always know which sources have been processed.
 
+<!--T:10-->
 === From the images ===
 Start from a collection of photographs, for example a studio or estate archive. '''Mass New Objects Upload''' creates a new artwork record for each uploaded image. You then complete each record and add the sources as you identify them. For single additions, '''Easy object creation''' in the ''PRO menu'' is the quick way in.
 
+<!--T:11-->
 This suits catalogues where the works are known before their documentation is.
 
+<!--T:12-->
 Most projects combine both: they start from the images to get an overview of the oeuvre, then work through the sources to document it.
 
+<!--T:13-->
 == From draft to publication ==
 Everything you create starts as a draft as long as ''Public'' is not ticked. Drafts are visible to editors only.
 
+<!--T:14-->
 # '''Enter''' the record with ''Public'' unticked and complete its sections.
 # '''Review''' the catalogue in the ''PRO menu'', which shows drafts and published records side by side and lets you jump to editing.
 # '''Check before publishing an artwork''': it has a title (or is marked as untitled), an ''Object type'', and a main web image. Without a main image, the artwork appears as an empty tile in the gallery views.
 # '''Check sensitive entries''': ownership histories and sales should only be public with the owners' consent. Use the ''Public'' tick of the single entry, or the privacy settings of the directory entry.
 # '''Publish''' by ticking ''Public''.
 
+<!--T:15-->
 == Correcting and deleting ==
 * '''Prefer hiding to deleting.''' Deleting is permanent, and records that refer to a deleted record are not cleaned up automatically. For anything other records refer to, untick ''Public'' instead.
 * '''Shared records''': a publication, event or directory entry used by several artists' catalogues can only be deleted by someone with editing rights for all of them. In practice, ask the platform administrator.
 * '''Images''' are removed through the image tools, so that the files and the catalogue stay in step.
 
+<!--T:16-->
 == Who can do what ==
 Each editor is assigned to one or more artists. Within those catalogues, '''artist administrators''' and '''artist experts''' currently have the same rights.
 
+<!--T:17-->
 == See also ==
 * [[How openCR is structured]]
 * [[Relations]]
 * [[Field reference]]
+</translate>
 
 {{Editor guide}}

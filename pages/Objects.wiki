@@ -1,49 +1,63 @@
+<languages/>
 {{Draft}}
+<translate>
+<!--T:1-->
 '''Objects''' are the artworks of a catalogue: every painting, print, sculpture, drawing, photograph, book or installation the artist made. They are the heart of a catalogue raisonné, and the record with the most detail. Each object belongs to the catalogue of one artist.
 
+<!--T:2-->
 This page explains how an object is built up and what to watch for. For the list of all its sections, see [[How openCR is structured/Records and their sections]]; for every single field, see the [[Field reference]].
 
+<!--T:3-->
 == Creating an object ==
 There are several ways in, all leading to the same kind of record:
 * '''Easy object creation''' in the ''PRO menu'': the quick way to add a single work.
 * '''Add a new record''' in the ''PRO menu'': the full form.
 * '''Mass New Objects Upload''': creates one object per uploaded image, for a whole folder at once. You choose the object type and a default year of creation for the batch; title, materials, measurements and everything else are added afterwards, work by work.
 
+<!--T:4-->
 Whatever the way in, a new object starts with ''Public'' unticked, so it stays a draft until you publish it.
 
+<!--T:5-->
 == The main form ==
 The main form holds the basic data of the work.
 
+<!--T:6-->
 === Identity and title ===
 * '''Title''' is the work's main title. For untitled works, untick '''Has title ?''': the catalogue then shows "No title". Leave ''Title'' empty in that case. A title stored there would still be found by the search, which confuses users.
 * '''Internal reference''' is typically the catalogue raisonné number. It is searchable and shown prominently, so use one consistent scheme throughout (see [[Building a catalogue raisonné#Before you start: decisions|Before you start]]).
 * Further titles, such as translated titles or titles used in particular publications, go into the '''Titles''' section, not into the main title.
 
+<!--T:7-->
 === Classification ===
 * '''Object type''' says what kind of work it is: painting, print, sculpture, drawing, photography, installation and so on. It is required, and it decides which type-specific fields apply (see below).
 * '''Record type''' is ''main data'' for the artwork itself. Choose ''correction data'' or ''supplementary data'' only for an additional record that corrects or supplements an existing artwork, and link it to that artwork with '''Parent object'''. Such records never appear as artworks of their own.
 * '''Data source type''' records what kind of source the information comes from: the artist, a catalogue raisonné, an exhibition catalogue, a physical examination, the printer, the owner, the heirs and so on.
 
+<!--T:8-->
 === Date and place of creation ===
 * Enter what is known: '''Year creation''', and where known '''Creation month''' and '''Creation date (day)'''.
 * For a period of several years, the field ''All Creation Year From'' holds the first year and ''Year creation'' the last.
 * Qualify uncertain dates (approximate, before, after, at the earliest and so on) instead of leaving them empty.
 * '''Location of creation''' and the country record where the work was made.
 
+<!--T:9-->
 === Type-specific fields ===
 Depending on the object type, further fields apply:
 * '''Prints:''' paper, watermark, paper weight, number of plates and colours, and the print run (''Print Tirage'') with its qualifier.
 * '''Sculptures:''' material, the material of the model, whether a model exists, and whether the work is a multiple.
 * '''Unique works:''' the present location and the conservation state.
 
+<!--T:10-->
 === Internal notes ===
 The '''Notes''' field on the main form is for editors only and is never published. Notes meant for readers go into the '''Notes''' section, one entry per language.
 
+<!--T:11-->
 == Describing the work ==
 * '''Components''': what the work is made of, such as oil on canvas, or etching on paper. The list of materials is long; type to search it.
 * '''Object Measurements''': the dimensions, with up to three values (typically height × width × depth), a unit and a qualifier for each value. Add one entry per measured extent, for example image, sheet and frame.
 * '''Object attributes''': every mark on the work: signed, dated, numbered, stamped, monogrammed, watermarked and many more. Each entry has a position on the work (front or back, in a grid of positions, corners and borders) and the transcription of what is written.
 
+<!--T:12-->
 == Multi-part works, suites and editions ==
 Several structures describe works that consist of, or belong to, more than one piece. The page [[Relations]] explains them in detail; in short:
 * '''Parts''': one work made of several pieces, such as a triptych. Create the parts '''first''': other sections (images, measurements, attributes, notes and more) can then refer to a single part.
@@ -52,6 +66,7 @@ Several structures describe works that consist of, or belong to, more than one p
 * '''Sculpture editions''': the casts of a sculpture.
 * '''Relation with other objects''': links such as ''study for'', ''copy of'' or ''version of''. Enter each link once; the reverse direction is shown automatically.
 
+<!--T:13-->
 {| class="wikitable"
 ! Question !! Then use
 |-
@@ -60,22 +75,28 @@ Several structures describe works that consist of, or belong to, more than one p
 | Are they separate works, each with its own title and date, that form a series? || '''Suite'''
 |}
 
+<!--T:14-->
 == People and history ==
 * '''Agents''': the people and institutions involved with the work: printer, publisher, foundry, photographer, co-author and others.
 * '''Objects provenance''': the ownership history, one entry per owner with the period of ownership. Use the order field to keep the sequence right when dates are incomplete.
 * '''Objects transactions''': sales and auctions, with date, price and currency, estimates, lot number, seller, buyer and intermediary. The available kinds are sale by the artist, sale at an exhibition or art fair, private sale, floor or internet auction, gallery sale and sale by the publisher.
 * '''Objects Actions''': dated events in the life of the work: finished, printed, signed, exhibited, restored, destroyed and many more.
 
+<!--T:15-->
 When the artist themselves was the owner or the one who acted, tick the box for that instead of creating a directory entry for the artist. It is called ''By the author himself'' or ''Author Itself'', depending on the section. When it is ticked, the catalogue shows the artist and ignores any directory entry chosen in the same entry.
 
+<!--T:16-->
 Ownership histories and sales are sensitive. Enter them with the entry's ''Public'' unticked, and publish them only with the owners' consent. A directory entry can also be hidden from ownership histories or sales as a whole (see [[Directory]]).
 
+<!--T:17-->
 == Literature and exhibitions ==
 * '''Reference''': every publication in which the work is mentioned or illustrated, with page, illustration number and whether the illustration is in colour. Always pick the publication from the list; use the free-text reference only when the publication cannot be recorded in openCR.
 * '''Exhibitions''': the exhibitions where the work was shown. Each exhibition is an [[Events|event]]. The entry can also record the lender and the title the work was shown under.
 
+<!--T:18-->
 Both lists can also be filled from the other side: from the [[Publications|publication]] or from the [[Events|event]].
 
+<!--T:19-->
 == Images ==
 Upload images from the object, or for many works at once with ''Mass New Objects Upload''. For each image:
 * Mark '''exactly one''' image per work as '''Is Main Image Web''': it becomes the thumbnail in lists and galleries. With none, the work appears as an empty tile; with several, the thumbnail is picked unpredictably.
@@ -84,9 +105,11 @@ Upload images from the object, or for many works at once with ''Mass New Objects
 * An image belongs to exactly one thing: the whole work, one of its parts, or one of its editions.
 * Never rename an image file by hand, and remove images only through the image tools. Otherwise the catalogue and the stored files drift apart.
 
+<!--T:20-->
 == Tags ==
 '''Object tags''' assign the artist's own keywords (epochs, styles, periods, topics, places) to the work. The keywords themselves are defined once per artist, in the [[Artists|artist's]] ''Tags'' section.
 
+<!--T:21-->
 == Before publishing ==
 Check that the work has:
 * a title, or ''Has title ?'' unticked for an untitled work;
@@ -95,8 +118,10 @@ Check that the work has:
 * materials, measurements and a year of creation, as far as they are known;
 * only those ownership and sales entries public that may be public.
 
+<!--T:22-->
 The ''PRO menu'' offers '''Verification lists''' that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, objects with more than one main image, duplicated titles or references, and missing translations. Then tick ''Public''.
 
+<!--T:23-->
 == Common pitfalls ==
 * '''Further titles in the main title.''' Keep the main title clean; translations and alternatives belong in ''Titles''.
 * '''Parts added late.''' If the parts are created after the images and measurements, each of those entries has to be opened again to assign it to its part.
@@ -104,10 +129,12 @@ The ''PRO menu'' offers '''Verification lists''' that find gaps across the whole
 * '''Renumbering.''' Catalogue numbers and positions in a suite are cited by others. Fix the scheme early and avoid renumbering later.
 * '''Deleting instead of hiding.''' Deleting a work is permanent. If anything refers to it, untick ''Public'' instead.
 
+<!--T:24-->
 == See also ==
 * [[How openCR is structured/Records and their sections]]
 * [[Relations]]
 * [[Building a catalogue raisonné]]
 * [[Field reference]]
+</translate>
 
 {{Editor guide}}
