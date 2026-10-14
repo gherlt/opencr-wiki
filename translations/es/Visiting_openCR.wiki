@@ -42,14 +42,14 @@ La página de cada artista se abre con un menú que guía por su catálogo:
 |-
 | '''Premios''' || Premios y distinciones
 |-
-| '''Menu PRO''' || El área de trabajo de los editores del catálogo (solo para editores registrados)
+| '''Menú PRO''' || El área de trabajo de los editores del catálogo (solo para editores registrados)
 |}
 
 <!--T:8-->
 Una entrada del menú en '''gris''' significa que el catálogo aún no tiene registros de ese tipo.
 
 <!--T:9-->
-Debajo del menú, la página del artista muestra los datos básicos y el texto de la biografía, y ofrece accesos rápidos a las obras: '''Descubre por tipo objeto''', '''Descubre por año''' y '''Descubre por marcador''', así como la sección '''Últimos objetos añadidos'''. '''Más detalles del artista''' lleva a una página más completa con los datos de contacto, otros nombres y las relaciones del artista, en la medida en que estén publicados.
+Debajo del menú, la página del artista muestra los datos básicos y el texto de la biografía, y ofrece accesos rápidos a las obras: '''Descubre por tipo de objeto''', '''Descubre por año''' y '''Descubre por marcador''', así como la sección '''Últimos objetos añadidos'''. '''Más detalles del artista''' lleva a una página más completa con los datos de contacto, otros nombres y las relaciones del artista, en la medida en que estén publicados.
 
 <!--T:10-->
 == Buscar ==

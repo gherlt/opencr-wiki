@@ -1,2 +1,2 @@
 <!--T:1-->
-'''Leitfaden für Besucher:''' [[Visiting openCR/de|openCR besuchen]] · [[Browsing a catalogue/de|Ein Werksverzeichnis durchsuchen]] · [[Reading an artwork page/de|Eine Werkseite lesen]] · [[Biography, bibliography and exhibitions/de|Biographie, Bibliographie und Ausstellungen]] · [[Your account/de|Ihr Konto]] · [[Glossary/de|Glossar]] · [[FAQ/de|Häufige Fragen]]
+'''Leitfaden für Besucher:''' [[Visiting openCR/de|openCR besuchen]] · [[Browsing a catalogue/de|Ein Werkverzeichnis durchsuchen]] · [[Reading an artwork page/de|Eine Werkseite lesen]] · [[Biography, bibliography and exhibitions/de|Biographie, Bibliographie und Ausstellungen]] · [[Your account/de|Ihr Konto]] · [[Glossary/de|Glossar]] · [[FAQ/de|Häufige Fragen]]
