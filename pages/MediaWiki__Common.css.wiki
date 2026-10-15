@@ -1,0 +1,12 @@
+/* openCR Wiki: site-wide styles. Source: opencr-wiki repository, pages/MediaWiki__Common.css.wiki */
+
+/* Phones and narrow windows: wide tables (field reference, sections, relations)
+   scroll sideways in their own box instead of being cut off at the screen edge. */
+@media screen and (max-width: 719px) {
+	.mw-parser-output table.wikitable {
+		display: block;
+		max-width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
