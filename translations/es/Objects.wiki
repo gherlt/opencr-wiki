@@ -31,7 +31,7 @@ El formulario principal contiene los datos básicos de la obra.
 === Clasificación ===
 * '''Tipo de obra''' indica qué clase de obra es: cuadro, obra gráfica, escultura, dibujo, fotografía, instalación, etc. Es obligatorio y determina qué campos específicos se aplican (véase más abajo).
 * '''Tipo de registro''' es ''datos principales'' para la obra misma. Elija ''datos corrección'' o ''datos suplementarios'' solo para un registro adicional que corrige o complementa una obra existente, y vincúlelo con esa obra mediante '''Objeto matriz'''. Esos registros nunca aparecen como obras propias.
-* '''Tipo de fuente de datos''' indica de qué clase de fuente procede la información: el artista, un catálogo razonado, un catálogo de exposición, un examen físico, la imprenta, el propietario, los herederos, etc.
+* De dónde procede la información se registra con '''fuentes''', para la obra en su conjunto, para campos concretos y para cada medida. Véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:8-->
 === Fecha y lugar de creación ===

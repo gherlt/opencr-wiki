@@ -1,0 +1,188 @@
+<!--T:Page display title-->
+Quellen und Quellenangaben
+
+<!--T:1-->
+Jede Angabe in einem Werkverzeichnis sollte nachprüfbar sein: Welches Buch nennt diese Katalognummer, wer hat dieses Werk vermessen, woher stammt dieses Datum? openCR hält das mit '''Quellen''' und '''Quellenangaben''' fest, den Fußnoten des Online-Werkverzeichnisses.
+
+<!--T:2-->
+* Eine '''Quelle''' ist das, woher eine Information stammt: eine Publikation, ein Brief, ein Gutachten, ein Interview, ein Gespräch mit dem Künstler, eine Website. Sie wird einmal erfasst und überall wiederverwendet, wo sie angeführt wird, in jedem Werkverzeichnis.
+* Eine '''Quellenangabe''' verknüpft einen Datensatz oder eines seiner Felder mit einer Quelle, zusammen mit der Stelle in der Quelle: „dieses Datum stammt aus jenem Brief, Seite 2“.
+
+<!--T:3-->
+Ein Datensatz oder ein Feld kann beliebig viele Quellenangaben haben.
+
+<!--T:4-->
+== Quellen ==
+Eine Quelle ist kein als Text ausgeschriebener Nachweis. Sie wird in einzelnen Feldern gespeichert, und openCR setzt ihren Titel daraus in der Sprache des Lesers zusammen. Derselbe Brief erscheint als
+* ''Letter from A to B, Paris, 12 March 1974'' auf Englisch,
+* ''Brief von A an B, Paris, 12. März 1974'' auf Deutsch,
+* ''Carta de A a B, Paris, 12 de marzo de 1974'' auf Spanisch.
+
+<!--T:5-->
+Die Art, die Rollen, das Land und das Datum werden übersetzt; Namen, die Stadt und der Originaltitel erscheinen so, wie sie eingegeben wurden.
+
+<!--T:6-->
+Eine Quelle hat die folgenden Felder. Welche davon das Formular anbietet, hängt von der Art ab.
+{| class="wikitable"
+! Feld !! Inhalt
+|-
+| '''Art''' || Um welche Art von Quelle es sich handelt; siehe [[#Arten von Quellen|Arten von Quellen]]. Pflichtfeld.
+|-
+| '''Personen''' || Eine Zeile je Rolle der Art, zum Beispiel ''Absender'' und ''Empfänger'' eines Briefs. Jede Person ist ein Eintrag im [[Directory/de|Adressbuch]] oder ein [[Artists/de|Künstler]] und wird mit ''Name suchen'' gefunden. Wenn niemand sagen kann, wer es war, wählen Sie '''Unbekannt''': Prüfer unbekannt, Eigentümer unbekannt.
+|-
+| '''Datum''' || Tag, Monat und Jahr, jeweils optional, mit einem Zusatz wie ''geschätzt''. Arten, die einen Zeitraum umfassen, haben ''Datum (von)'' und ''Datum (bis)''.
+|-
+| '''Stadt''', '''Land''' || Wo die Quelle geschrieben, ausgestellt oder aufbewahrt wurde.
+|-
+| '''Sprache''' || Die Sprache der Quelle.
+|-
+| '''Referenznummer''' || Eine Akten-, Zertifikats- oder Rechnungsnummer oder die Signatur eines Archivs.
+|-
+| '''Webadresse''', '''Abgerufen am''' || Für Websites: die Adresse und der Tag, an dem sie aufgerufen wurde. Beide sind Pflichtfelder.
+|-
+| '''Originaltitel''' || Der eigene Titel der Quelle, so wie er geschrieben ist, falls sie einen hat.
+|-
+| '''Beschreibung''' || Eine kurze Beschreibung, ein Text je Sprache der Oberfläche.
+|-
+| '''Bezeichnung in Listen''' || Der Name, unter dem Bearbeiter die Quelle bei der Suche finden. Bleibt das Feld leer, wird er aus dem Titel gebildet.
+|-
+| '''Öffentlich''' || Ob Besucher die Quelle sehen; siehe [[#Wer was sieht|Wer was sieht]].
+|}
+
+<!--T:7-->
+Eine Quelle der Art ''Publikation'' nennt nur eine [[Publications/de|Publikation]] der Bibliographie, die über ihren Titel gefunden wird. Ihr Titel ist der Titel und das Jahr der Publikation; die Autoren und alle weiteren Angaben stehen in der Bibliographie.
+
+<!--T:8-->
+=== Arten von Quellen ===
+Jede Art hat ihre eigenen Rollen. Eine als ''Pflicht'' markierte Rolle muss eine Person nennen oder auf ''Unbekannt'' gesetzt werden. Jede Art außer ''Publikation'' hat ein Datum; „Datum von–bis“ kennzeichnet die Arten, die einen Zeitraum umfassen.
+{| class="wikitable"
+! Art !! Rollen !! Weitere Felder
+|-
+| '''Publikation''' || — || die Publikation
+|-
+| '''Brief / Korrespondenz''' || Absender (Pflicht), Empfänger (Pflicht) || Datum von–bis, Stadt und Land, Sprache, Referenznummer
+|-
+| '''E-Mail''' || Absender (Pflicht), Empfänger (Pflicht) || Datum, Sprache
+|-
+| '''Zertifikat''' || Aussteller (Pflicht), Empfänger || Datum, Stadt und Land, Referenznummer
+|-
+| '''Rechnung / Lieferschein''' || Aussteller (Pflicht), Empfänger || Datum, Referenznummer
+|-
+| '''Manuskript / Notizen / Tagebuch''' || Autor (Pflicht) || Datum von–bis, Sprache, Referenznummer, Originaltitel
+|-
+| '''Gutachten''' || Prüfer (Pflicht) || Datum, Sprache, Referenznummer, Originaltitel
+|-
+| '''Archivakte''' || Verwahrendes Archiv (Pflicht) || Datum von–bis, Stadt und Land, Referenznummer (die Signatur), Originaltitel
+|-
+| '''Interview''' || Interviewpartner (Pflicht), Interviewer || Datum, Stadt und Land, Sprache
+|-
+| '''Persönliche Mitteilung''' || Informant (Pflicht), Empfänger || Datum
+|-
+| '''Untersuchung des Objekts''' || Prüfer (Pflicht) || Datum, Stadt und Land
+|-
+| '''Film / Video''' || Regisseur, Produzent || Datum von–bis, Sprache, Referenznummer, Originaltitel
+|-
+| '''Fotografie (als Beleg)''' || Fotograf || Datum, Stadt und Land, Referenznummer
+|-
+| '''Website''' || Autor, Verleger || Datum, Webadresse und Abrufdatum (Pflicht), Sprache, Originaltitel
+|-
+| '''Überlassenes Material''' || Lieferant (Pflicht), Empfänger || Datum
+|-
+| '''Sonstiges Dokument''' || Autor, Aussteller || Datum von–bis, Stadt und Land, Sprache, Referenznummer, Originaltitel
+|}
+
+<!--T:9-->
+=== Die Art wählen ===
+* Angaben aus einem Gespräch, am Telefon oder auf informellem Weg, zum Beispiel vom Künstler, von einem Erben, einem Eigentümer oder einem Händler, sind eine '''Persönliche Mitteilung''' mit dieser Person als ''Informant''.
+* Eine Untersuchung des Werks selbst, zum Beispiel um es zu vermessen, ist eine '''Untersuchung des Objekts'''. Die schriftliche Stellungnahme eines Sachverständigen ist ein '''Gutachten'''.
+* Fotos, Scans oder Dokumente, die Ihnen jemand überlassen hat, sind '''Überlassenes Material''', mit dieser Person oder Institution als ''Lieferant''.
+* Gedruckte und veröffentlichte Werke gehören in die Bibliographie: Erfassen Sie sie als [[Publications/de|Publikationen]] und führen Sie sie mit einer Quelle der Art '''Publikation''' an. Unveröffentlichte Briefe, E-Mails, Zertifikate, Rechnungen, Manuskripte und Tagebücher sind Quellen ihrer eigenen Art, keine Publikationen.
+* Verwenden Sie '''Sonstiges Dokument''' nur, wenn keine andere Art passt.
+
+<!--T:10-->
+=== Wer Quellen anlegen und ändern darf ===
+Jeder Bearbeiter kann eine Quelle anlegen. Sie wird sofort gespeichert (''Quelle speichern''), unabhängig vom gerade bearbeiteten Datensatz, und kann von da an in jedem Werkverzeichnis angeführt werden. Ändern können eine Quelle nur der Bearbeiter, der sie angelegt hat, und der Plattform-Administrator.
+
+<!--T:11-->
+Scans oder Fotos einer Quelle, etwa eines Briefs oder eines Zertifikats, werden auf der Seite der Quelle mit ''Scans hinzufügen'' ergänzt, von denen, die die Quelle ändern dürfen.
+
+<!--T:12-->
+== Quellenangaben ==
+Eine Quellenangabe verbindet einen Datensatz oder eines seiner Felder mit einer Quelle. Sie hat:
+{| class="wikitable"
+! Feld !! Inhalt
+|-
+| '''Feld''' || Das Feld, das die Quellenangabe belegt, oder ''Ganzer Datensatz''.
+|-
+| '''Quelle''' || Eine vorhandene Quelle, gesucht über ihre Bezeichnung, oder eine neue. Bevor etwas eingegeben wird, bietet die Liste die Quellen an, die im Werkverzeichnis des Künstlers bereits angeführt sind.
+|-
+| '''Fundstelle''' || Beliebig viele Stellenangaben, jede mit einer Art und einem Wert; siehe unten.
+|-
+| '''Zitat''' || Die Passage, die den Wert belegt, wörtlich und in der Sprache der Quelle, mit ihrer ''Sprache des Zitats''. Zitate werden nie übersetzt.
+|-
+| '''Kommentar''' || Eine Bemerkung zur Quellenangabe, ein Text je Sprache der Oberfläche: zum Beispiel, warum die Quelle angezweifelt wird oder wie ein Wert aus ihr abgeleitet wurde.
+|-
+| '''Öffentlich''' || Ob Besucher diese Quellenangabe sehen.
+|}
+
+<!--T:13-->
+Wer einen Datensatz bearbeiten darf, darf auch seine Quellenangaben hinzufügen, ändern und entfernen.
+
+<!--T:14-->
+=== Fundstelle ===
+''Seite, Abbildung … hinzufügen'' fügt eine Stellenangabe hinzu. Ihr Wert ist freier Text mit bis zu 50 Zeichen, etwa ''14'', ''12–14'' oder ''00:03:20''. Die Abkürzung wird in der Sprache des Lesers davorgesetzt: ''p. 14'', ''S. 14'', ''pág. 14''.
+{| class="wikitable"
+! Stellenangabe !! Englisch !! Deutsch !! Spanisch
+|-
+| Seite || p. || S. || pág.
+|-
+| Band || vol. || Bd. || vol.
+|-
+| Abbildung || fig. || Abb. || fig.
+|-
+| Tafel || pl. || Taf. || lám.
+|-
+| Katalognummer || no. || Nr. || n.º
+|-
+| Folio || fol. || fol. || fol.
+|-
+| Blatt || sheet || Bl. || h.
+|-
+| Zeitmarke || colspan="3" | (ohne Abkürzung)
+|-
+| Position || item || Pos. || part.
+|}
+
+<!--T:15-->
+=== Quellenangaben hinzufügen ===
+Formulare mit Quellen haben einen Bereich '''Quellen'''. Er listet die Quellenangaben des Datensatzes nach Feldern geordnet auf und fügt mit ''Quelle hinzufügen'' neue hinzu; jedes Feld hat dafür eine eigene Schaltfläche, die zeigt, wie viele Quellen das Feld hat. Quellenangaben werden zusammen mit dem Datensatz gespeichert: Beim Speichern des Datensatzes werden sie übernommen, beim Abbrechen verworfen. Eine unterwegs angelegte Quelle bleibt erhalten, weil sie sofort gespeichert wird.
+
+<!--T:16-->
+Der Bereich kommt mit den neuen Formularen, die die bisherigen nach und nach ersetzen; das Formular für Werke hat ihn noch nicht. An zwei Stellen lassen sich schon jetzt Quellen zuordnen:
+* '''Beim Hochladen von Abbildungen''': Der ''Massen-Upload neuer Objekte'' und das Hochladen einer einzelnen Abbildung haben das optionale Feld ''Quelle dieser Bilder''. Jedes Bild des Uploads erhält eine Quellenangabe zu dieser Quelle, die festhält, woher die Dateien stammen. Das ist nicht der Fotograf, der an der Abbildung selbst genannt wird.
+* '''Beim Kopieren eines Werks''': Mit ''Quellen kopieren'' (standardmäßig angehakt) behält jeder kopierte Bereich die Quellenangaben seines Originals.
+
+<!--T:17-->
+== Quellen lesen ==
+* Ein Wert mit Quellen trägt eine kleine Zahl in eckigen Klammern, etwa '''[1]''': die Anzahl seiner Quellenangaben. Zeigen Sie mit dem Mauszeiger darauf, tippen Sie sie an oder steuern Sie sie mit der Tastatur an, und ein Kasten listet sie auf: den Titel jeder Quelle mit der Stelle darin (''S. 14'', ''Nr. 25''), das Zitat in seiner Originalsprache und den Kommentar. Die Escape-Taste schließt den Kasten.
+* Jeder Titel ist ein Link. Eine Quelle der Art ''Publikation'' öffnet die Seite der Publikation. Jede andere Quelle öffnet ihre eigene '''Quellenseite''': Art, Personen (verlinkt mit ihren Seiten im Adressbuch oder als Künstler), Datum, Ort, Sprache, Originaltitel, Referenznummer, Webadresse und Beschreibung sowie die Datensätze, die sie anführen (''Zitiert in … Datensätzen'').
+* Auf der Seite eines Werks erscheinen die Quellenangaben zum Werk als Ganzem unten, in der Zeile '''Daten aus:''' (auf Englisch ''Data from:'', auf Spanisch ''Datos de:''). Jedes Maß zeigt seine eigene Markierung.
+* Die Seiten von Adressbucheinträgen, Publikationen, Ereignissen und Künstlern zeigen Markierungen auf dieselbe Weise, zum Beispiel bei Namen, Daten, Adressen und Beziehungen.
+
+<!--T:18-->
+=== Wer was sieht ===
+Besucher sehen eine Quellenangabe nur, wenn sowohl die Quellenangabe als auch ihre Quelle ''Öffentlich'' sind. In der Ansicht der Bearbeiter werden alle Quellenangaben gezeigt; die für Besucher verborgenen sind mit ''(nicht öffentlich)'' gekennzeichnet.
+
+<!--T:19-->
+== Das frühere Feld für die Datenquelle ==
+Bis Oktober 2026 hatten Werke und ihre Maße ein einziges Feld ''Art der Datenquelle'' mit der zugehörigen Quelle. Quellen und Quellenangaben haben es ersetzt. Seine Werte wurden zu Quellenangaben für den ganzen Datensatz:
+* eine Publikation (ein Werkverzeichnis, Literatur): eine Quelle der Art ''Publikation'', mit der ''Internen Referenz'' des Werks als ''Katalognummer'', wo das Werk eine hatte;
+* der Künstler, die Erben, ein Verlag oder ein Eigentümer: eine ''Persönliche Mitteilung'' mit dieser Person als ''Informant'';
+* eine Untersuchung des Objekts: eine ''Untersuchung des Objekts''.
+Wo die alten Daten keine Person nannten, ist der Informant oder Prüfer ''Unbekannt''. Wenn Sie wissen, wer es war, wenden Sie sich an den Plattform-Administrator, der die Quelle ergänzen kann.
+
+<!--T:20-->
+== Siehe auch ==
+* [[Publications/de|Publikationen]]: die Bibliographie
+* [[Objects/de|Werke]] · [[Directory/de|Adressbuch]] · [[Artists/de|Künstler]]
+* [[Reading an artwork page/de|Eine Werkseite lesen]]

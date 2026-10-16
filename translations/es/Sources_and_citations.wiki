@@ -1,0 +1,188 @@
+<!--T:Page display title-->
+Fuentes y citas
+
+<!--T:1-->
+Cada dato de un catálogo razonado debería poder comprobarse: ¿qué libro da este número de catálogo, quién midió esta obra, de dónde procede esta fecha? openCR lo registra con '''fuentes''' y '''citas''', las notas al pie del catálogo en línea.
+
+<!--T:2-->
+* Una '''fuente''' es el lugar del que procede la información: una publicación, una carta, un informe pericial, una entrevista, una conversación con el artista, un sitio web. Se introduce una sola vez y se reutiliza allí donde se cite, en cualquier catálogo.
+* Una '''cita''' vincula un registro, o uno de sus campos, con una fuente, junto con el lugar dentro de la fuente: «esta fecha procede de esa carta, página 2».
+
+<!--T:3-->
+Un registro o un campo puede tener cualquier número de citas.
+
+<!--T:4-->
+== Fuentes ==
+Una fuente no es una referencia escrita como texto. Se guarda en campos separados, y openCR compone su título a partir de ellos en el idioma del lector. La misma carta aparece como
+* ''Letter from A to B, Paris, 12 March 1974'' en inglés,
+* ''Brief von A an B, Paris, 12. März 1974'' en alemán,
+* ''Carta de A a B, Paris, 12 de marzo de 1974'' en español.
+
+<!--T:5-->
+El tipo, los papeles, el país y la fecha se traducen; los nombres, la ciudad y el título original se muestran tal como se introdujeron.
+
+<!--T:6-->
+Una fuente tiene los siguientes campos. Cuáles de ellos ofrece el formulario depende del tipo.
+{| class="wikitable"
+! Campo !! Contenido
+|-
+| '''Tipo''' || Qué clase de fuente es; véase [[#Tipos de fuente|Tipos de fuente]]. Obligatorio.
+|-
+| '''Personas''' || Una línea por cada papel del tipo, por ejemplo ''Remitente'' y ''Destinatario'' de una carta. Cada persona es una entrada del [[Directory/es|directorio]] o un [[Artists/es|artista]], que se busca con ''Buscar nombre''. Cuando nadie sabe quién fue, elija '''Desconocido''': el examinador desconocido, el propietario desconocido.
+|-
+| '''Fecha''' || Día, mes y año, cada uno opcional, con un calificador como ''aproximado''. Los tipos que abarcan un periodo tienen ''Fecha (desde)'' y ''Fecha (hasta)''.
+|-
+| '''Ciudad''', '''País''' || Dónde se escribió, se expidió o se conserva la fuente.
+|-
+| '''Idioma''' || El idioma de la fuente.
+|-
+| '''Número de referencia''' || Un número de expediente, de certificado o de factura, o la signatura de un archivo.
+|-
+| '''Dirección web''', '''Consultado el''' || Para sitios web: la dirección y el día en que se consultó. Ambos son obligatorios.
+|-
+| '''Título original''' || El título propio de la fuente, tal como está escrito, si lo tiene.
+|-
+| '''Descripción''' || Una breve descripción, un texto por cada idioma de la interfaz.
+|-
+| '''Etiqueta en listas''' || El nombre con el que los editores encuentran la fuente al buscarla. Si se deja vacío, se forma a partir del título.
+|-
+| '''Público''' || Si los visitantes ven la fuente; véase [[#Quién ve qué|Quién ve qué]].
+|}
+
+<!--T:7-->
+Una fuente del tipo ''Publicación'' solo nombra una [[Publications/es|publicación]] de la bibliografía, que se busca por su título. Su título es el título y el año de la publicación; los autores y todos los demás datos están en la bibliografía.
+
+<!--T:8-->
+=== Tipos de fuente ===
+Cada tipo tiene sus propios papeles. Un papel marcado como ''obligatorio'' debe nombrar a una persona o indicar ''Desconocido''. Todos los tipos salvo ''Publicación'' tienen una fecha; «fecha desde–hasta» señala los tipos que abarcan un periodo.
+{| class="wikitable"
+! Tipo !! Papeles !! Otros campos
+|-
+| '''Publicación''' || — || la publicación
+|-
+| '''Carta / correspondencia''' || Remitente (obligatorio), Destinatario (obligatorio) || fecha desde–hasta, ciudad y país, idioma, número de referencia
+|-
+| '''Correo electrónico''' || Remitente (obligatorio), Destinatario (obligatorio) || fecha, idioma
+|-
+| '''Certificado''' || Emisor (obligatorio), Destinatario || fecha, ciudad y país, número de referencia
+|-
+| '''Factura / albarán''' || Emisor (obligatorio), Destinatario || fecha, número de referencia
+|-
+| '''Manuscrito / notas / diario''' || Autor (obligatorio) || fecha desde–hasta, idioma, número de referencia, título original
+|-
+| '''Informe pericial''' || Examinador (obligatorio) || fecha, idioma, número de referencia, título original
+|-
+| '''Expediente de archivo''' || Archivo depositario (obligatorio) || fecha desde–hasta, ciudad y país, número de referencia (la signatura), título original
+|-
+| '''Entrevista''' || Entrevistado (obligatorio), Entrevistador || fecha, ciudad y país, idioma
+|-
+| '''Comunicación personal''' || Informante (obligatorio), Destinatario || fecha
+|-
+| '''Inspección física de la obra''' || Examinador (obligatorio) || fecha, ciudad y país
+|-
+| '''Película / vídeo''' || Director, Productor || fecha desde–hasta, idioma, número de referencia, título original
+|-
+| '''Fotografía (como prueba)''' || Fotógrafo || fecha, ciudad y país, número de referencia
+|-
+| '''Sitio web''' || Autor, Editorial || fecha, dirección web y fecha de consulta (obligatorias), idioma, título original
+|-
+| '''Material facilitado''' || Proveedor (obligatorio), Destinatario || fecha
+|-
+| '''Otro documento''' || Autor, Emisor || fecha desde–hasta, ciudad y país, idioma, número de referencia, título original
+|}
+
+<!--T:9-->
+=== Elegir el tipo ===
+* La información dada en una conversación, por teléfono o de manera informal, por ejemplo por el artista, un heredero, un propietario o un marchante, es una '''Comunicación personal''' con esa persona como ''Informante''.
+* El examen de la obra misma, por ejemplo para medirla, es una '''Inspección física de la obra'''. La opinión escrita de un experto es un '''Informe pericial'''.
+* Las fotografías, los escaneos o los documentos que alguien le haya facilitado son '''Material facilitado''', con esa persona o institución como ''Proveedor''.
+* Las obras impresas y publicadas pertenecen a la bibliografía: introdúzcalas como [[Publications/es|publicaciones]] y cítelas con una fuente del tipo '''Publicación'''. Las cartas, los correos electrónicos, los certificados, las facturas, los manuscritos y los diarios no publicados son fuentes de su propio tipo, no publicaciones.
+* Utilice '''Otro documento''' solo cuando no encaje ningún otro tipo.
+
+<!--T:10-->
+=== Quién puede crear y modificar fuentes ===
+Cualquier editor puede crear una fuente. Se guarda en el acto (''Guardar fuente''), con independencia del registro que se está editando, y a partir de entonces puede citarse en cualquier catálogo. Una fuente solo pueden modificarla el editor que la creó y el administrador de la plataforma.
+
+<!--T:11-->
+Los escaneos o fotografías de una fuente, como una carta o un certificado, se añaden en la página de la fuente con ''Añadir escaneos'', por quienes pueden modificar la fuente.
+
+<!--T:12-->
+== Citas ==
+Una cita conecta un registro, o uno de sus campos, con una fuente. Tiene:
+{| class="wikitable"
+! Campo !! Contenido
+|-
+| '''Campo''' || El campo que la cita respalda, o ''Registro completo''.
+|-
+| '''Fuente''' || Una fuente existente, que se busca por su etiqueta, o una nueva. Antes de escribir nada, la lista ofrece las fuentes ya citadas en el catálogo del artista.
+|-
+| '''Lugar en la fuente''' || Cualquier número de localizadores, cada uno con una clase y un valor; véase más abajo.
+|-
+| '''Cita textual''' || El pasaje que respalda el valor, palabra por palabra, en el idioma de la fuente, con su ''Idioma de la cita''. Las citas textuales nunca se traducen.
+|-
+| '''Comentario''' || Una observación sobre la cita, un texto por cada idioma de la interfaz: por ejemplo, por qué se duda de la fuente o cómo se dedujo de ella un valor.
+|-
+| '''Público''' || Si los visitantes ven esta cita.
+|}
+
+<!--T:13-->
+Quien puede editar un registro puede añadir, modificar y quitar sus citas.
+
+<!--T:14-->
+=== Lugar en la fuente ===
+''Añadir página, figura…'' añade un localizador. Su valor es texto libre de hasta 50 caracteres, como ''14'', ''12–14'' o ''00:03:20''. La abreviatura se antepone en el idioma del lector: ''p. 14'', ''S. 14'', ''pág. 14''.
+{| class="wikitable"
+! Localizador !! Inglés !! Alemán !! Español
+|-
+| Página || p. || S. || pág.
+|-
+| Volumen || vol. || Bd. || vol.
+|-
+| Figura || fig. || Abb. || fig.
+|-
+| Lámina || pl. || Taf. || lám.
+|-
+| Número de catálogo || no. || Nr. || n.º
+|-
+| Folio || fol. || fol. || fol.
+|-
+| Hoja || sheet || Bl. || h.
+|-
+| Código de tiempo || colspan="3" | (sin abreviatura)
+|-
+| Partida || item || Pos. || part.
+|}
+
+<!--T:15-->
+=== Añadir citas ===
+Los formularios con fuentes tienen un panel '''Fuentes'''. Enumera las citas del registro, agrupadas por campo, y añade otras nuevas con ''Añadir fuente''; cada campo tiene su propio botón, que muestra cuántas fuentes tiene el campo. Las citas se guardan junto con el registro: al guardar el registro se almacenan, al cancelar se descartan. Una fuente creada por el camino se conserva, porque se guarda en el acto.
+
+<!--T:16-->
+El panel llega con los nuevos formularios que van sustituyendo a los actuales; el formulario de obras aún no lo tiene. Ya hay dos lugares que asignan fuentes:
+* '''Al subir imágenes''': la ''Carga masiva de nuevos objetos'' y la carga de una sola imagen tienen el campo opcional ''Fuente de estas imágenes''. Cada imagen de la carga recibe una cita de esa fuente, que deja constancia de dónde proceden los archivos. No es el fotógrafo, que se acredita en la propia imagen.
+* '''Al copiar una obra''': con ''Copiar fuentes'' (marcado por defecto), cada sección copiada conserva las citas de su original.
+
+<!--T:17-->
+== Leer las fuentes ==
+* Un valor con fuentes lleva detrás un pequeño número entre corchetes, como '''[1]''': el número de sus citas. Señálelo con el puntero, tóquelo o llegue a él con el teclado, y un recuadro las enumera: el título de cada fuente con el lugar dentro de ella (''pág. 14'', ''n.º 25''), la cita textual en su idioma original y el comentario. La tecla Escape cierra el recuadro.
+* Cada título es un enlace. Una fuente del tipo ''Publicación'' abre la página de la publicación. Cualquier otra fuente abre su propia '''página de la fuente''': tipo, personas (enlazadas a sus páginas del directorio o de artista), fecha, lugar, idioma, título original, número de referencia, dirección web y descripción, y los registros que la citan (''Citada en … registros'').
+* En la página de una obra, las citas de la obra en su conjunto aparecen en la parte inferior, en la línea '''Datos de:''' (en inglés ''Data from:'', en alemán ''Daten aus:''). Cada medida muestra su propio marcador.
+* Las páginas de las entradas del directorio, de las publicaciones, de los eventos y de los artistas muestran marcadores del mismo modo, por ejemplo en nombres, fechas, direcciones y relaciones.
+
+<!--T:18-->
+=== Quién ve qué ===
+Los visitantes solo ven una cita cuando tanto la cita como su fuente son ''Público''. En la vista de los editores se muestran todas las citas, y las que están ocultas para los visitantes llevan la marca ''(no público)''.
+
+<!--T:19-->
+== El antiguo campo de fuente de datos ==
+Hasta octubre de 2026, las obras y sus medidas tenían un único campo, ''Tipo de fuente de datos'', con la fuente correspondiente. Las fuentes y citas lo han sustituido. Sus valores se convirtieron en citas del registro completo:
+* una publicación (un catálogo razonado, bibliografía): una fuente del tipo ''Publicación'', con la ''Referencia interna'' de la obra como ''número de catálogo'' cuando la obra la tenía;
+* el artista, los herederos, una editorial o un propietario: una ''Comunicación personal'' con esa persona como ''Informante'';
+* un examen físico: una ''Inspección física de la obra''.
+Cuando los datos antiguos no nombraban a ninguna persona, el informante o el examinador es ''Desconocido''. Si sabe quién fue, comuníqueselo al administrador de la plataforma, que puede completar la fuente.
+
+<!--T:20-->
+== Véase también ==
+* [[Publications/es|Publicaciones]]: la bibliografía
+* [[Objects/es|Obras]] · [[Directory/es|Directorio]] · [[Artists/es|Artistas]]
+* [[Reading an artwork page/es|Leer la página de una obra]]

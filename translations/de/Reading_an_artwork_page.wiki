@@ -53,11 +53,11 @@ Die Seite eines Werks (''Details Werk'') vereint alles, was das Werkverzeichnis 
 |}
 
 <!--T:5-->
-Namen von Personen, Institutionen, Ausstellungen und Publikationen sind meist Links: Sie führen zur jeweiligen Seite, zum Beispiel zu allem, was das Werkverzeichnis über eine Galerie enthält.
+Namen von Personen, Institutionen, Ausstellungen und Publikationen sind meist Links: Sie führen zur jeweiligen Seite, zum Beispiel zu allem, was das Werkverzeichnis über eine Galerie enthält. Eine kleine Zahl in eckigen Klammern hinter einem Wert, etwa [1], kennzeichnet seine Quellen: Zeigen Sie mit dem Mauszeiger darauf oder tippen Sie sie an, um sie zu sehen (siehe [[Sources and citations/de#Quellen lesen|Quellen lesen]]).
 
 <!--T:6-->
 == Unten ==
-* Wer die Daten bereitgestellt hat, und der '''Copyright'''-Hinweis für die Abbildungen.
+* '''Daten aus:''' woher die Angaben zum Werk stammen, und der '''Copyright'''-Hinweis für die Abbildungen.
 * '''Teile diese Seite''': Links, um die Seite zu teilen.
 * '''Kontaktiere den Künstler''': Wege, den Künstler oder die Autoren des Werkverzeichnisses zu erreichen, soweit sie diese veröffentlichen. ''E-Mail über open.cr'' öffnet Ihr eigenes E-Mail-Programm mit einer Nachricht an die Adresse des Künstlers bei openCR. Nutzen Sie es, um eine Frage zum Werk zu stellen oder Informationen weiterzugeben, etwa wenn Sie das Werk besitzen oder eine fehlende Ausstellung kennen.
 

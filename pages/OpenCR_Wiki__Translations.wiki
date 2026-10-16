@@ -3,13 +3,13 @@ The English pages of this wiki are the reference version. The pages are being tr
 Each translated page is a subpage of the English one, for example [[Glossary/es]] and [[Glossary/de]]. The language bar at the top of a page links its versions. When an English page changes, the passages concerned are marked as outdated in the translations until they are updated. The progress per language is shown on [[Special:LanguageStats/es]] and [[Special:LanguageStats/de]].
 
 == Status ==
-As of 14 October 2026:
+As of 16 October 2026:
 {| class="wikitable"
 ! Part !! Spanish !! German
 |-
 | Visitor guide (7 pages) || translated || translated
 |-
-| Editor guide (10 pages) || translated || translated
+| Editor guide (11 pages) || translated || translated
 |-
 | Navigation boxes and the draft notice || translated || translated
 |-
@@ -61,6 +61,8 @@ As of 14 October 2026:
 | [[Dealers and offers]] || [[Dealers and offers/es|Marchantes y ofertas]] || [[Dealers and offers/de|Händler und Angebote]]
 |-
 | [[Relations]] || [[Relations/es|Relaciones]] || [[Relations/de|Beziehungen]]
+|-
+| [[Sources and citations]] || [[Sources and citations/es|Fuentes y citas]] || [[Sources and citations/de|Quellen und Quellenangaben]]
 |}
 
 == How the translations are made ==

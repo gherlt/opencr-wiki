@@ -1,3 +1,3 @@
 <!--T:1-->
-'''Leitfaden für Bearbeiter:''' [[How openCR is structured/de|Wie openCR aufgebaut ist]] · [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]] · [[Relations/de|Beziehungen]] · [[Field reference/de|Feldreferenz]]<br />
+'''Leitfaden für Bearbeiter:''' [[How openCR is structured/de|Wie openCR aufgebaut ist]] · [[Building a catalogue raisonné/de|Ein Werkverzeichnis aufbauen]] · [[Relations/de|Beziehungen]] · [[Sources and citations/de|Quellen und Quellenangaben]] · [[Field reference/de|Feldreferenz]]<br />
 '''Entitäten:''' [[Artists/de|Künstler]] · [[Objects/de|Werke]] · [[Publications/de|Publikationen]] · [[Events/de|Ereignisse]] · [[Directory/de|Adressbuch]] · [[Dealers and offers/de|Händler und Angebote]]

@@ -31,7 +31,7 @@ Das Hauptformular enthält die Grunddaten des Werks.
 === Klassifizierung ===
 * '''Art von Werk''' gibt an, was für ein Werk es ist: Gemälde, Grafik, Skulptur, Zeichnung, Fotografie, Installation usw. Das Feld ist Pflicht und entscheidet, welche typspezifischen Felder gelten (siehe unten).
 * '''Art des Datensatzes''' ist ''Hauptdaten'' für das Kunstwerk selbst. Wählen Sie ''Korrekturdaten'' oder ''Ergänzungsdaten'' nur für einen zusätzlichen Datensatz, der ein bestehendes Werk korrigiert oder ergänzt, und verknüpfen Sie ihn über '''Übergeordnetes Objekt''' mit diesem Werk. Solche Datensätze erscheinen nie als eigene Werke.
-* '''Art der Datenquelle''' hält fest, aus welcher Art von Quelle die Angaben stammen: vom Künstler, aus einem Werkverzeichnis, aus einem Ausstellungskatalog, aus einer Untersuchung des Objekts, vom Drucker, vom Eigentümer, von den Erben usw.
+* Woher die Angaben stammen, wird mit '''Quellen''' festgehalten: für das Werk als Ganzes, für einzelne Felder und für jedes Maß. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
 <!--T:8-->
 === Datum und Ort der Entstehung ===
