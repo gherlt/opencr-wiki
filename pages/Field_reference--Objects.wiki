@@ -13,10 +13,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Parent object''' || For correction or supplementary data: the artwork (main data) this record belongs to. Leave empty for normal artworks. Not used for suites. || link to an artwork || 
 |-
-| '''Data source type''' || The kind of source the information on this artwork comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
-|-
-| '''Data source ID''' || The specific source the information comes from. || link to a source || 
-|-
 | '''Internal reference''' || The artwork's number in the catalogue raisonné, or another stable reference. Searchable and shown prominently; use one consistent scheme. || text || 
 |-
 | '''Has title ?''' || Tick if the work has a title. Untick for untitled works: the catalogue then shows "No title", and Title should stay empty. || tick box || 
@@ -177,10 +173,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 | '''Qualifier global meas.'''<br /><small>(Qualifier measure 1; Qualifier ID)</small> || A qualifier for the measurement as a whole, for example sight size or framed. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''By user''' || The editor who recorded the measurement. || link to a user || 
-|-
-| '''Data Source Type ID'''<br /><small>(Data source type)</small> || The kind of source the measurement comes from. || list || artist, catalogue raisonne, exhibition catalogue, physical examination, printer, publisher, owner, literature, documents from, heirs of the artist
-|-
-| '''Data Source ID'''<br /><small>(ID data source)</small> || The specific source the measurement comes from. || number || 
 |}
 
 == Object attributes ==

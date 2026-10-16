@@ -1,0 +1,191 @@
+<languages/>
+{{Draft}}
+<translate>
+<!--T:1-->
+Every statement in a catalogue raisonné should be traceable: which book gives this catalogue number, who measured this work, where does this date come from? openCR records this with '''sources''' and '''citations''', the footnotes of the online catalogue.
+
+<!--T:2-->
+* A '''source''' is where information comes from: a publication, a letter, an expert report, an interview, a conversation with the artist, a website. It is entered once and reused wherever it is cited, in any catalogue.
+* A '''citation''' links a record, or one field of it, to a source, together with the place in the source: "this date comes from that letter, page 2".
+
+<!--T:3-->
+A record or a field can have any number of citations.
+
+<!--T:4-->
+== Sources ==
+A source is not a reference typed out as text. It is stored as separate fields, and openCR composes its title from them in the reader's language. The same letter appears as
+* ''Letter from A to B, Paris, 12 March 1974'' in English,
+* ''Brief von A an B, Paris, 12. März 1974'' in German,
+* ''Carta de A a B, Paris, 12 de marzo de 1974'' in Spanish.
+
+<!--T:5-->
+The type, the roles, the country and the date are translated; names, the city and the original title are shown as entered.
+
+<!--T:6-->
+A source has the following fields. Which of them the form offers depends on the type.
+{| class="wikitable"
+! Field !! Content
+|-
+| '''Type''' || What kind of source it is; see [[#Source types|Source types]]. Required.
+|-
+| '''People''' || One line per role of the type, for example ''Sender'' and ''Recipient'' of a letter. Each person is a [[Directory|directory]] entry or an [[Artists|artist]], found with ''Search name''. When nobody can say who it was, choose '''Unknown''': the examiner unknown, the owner unknown.
+|-
+| '''Date''' || Day, month and year, each of them optional, with a qualifier such as ''approximate''. Types that cover a period have ''Date (from)'' and ''Date (to)''.
+|-
+| '''City''', '''Country''' || Where the source was written, issued or kept.
+|-
+| '''Language''' || The language of the source.
+|-
+| '''Reference number''' || A file, certificate or invoice number, or an archive's shelfmark.
+|-
+| '''Web address''', '''Accessed on''' || For websites: the address and the day it was consulted. Both are required.
+|-
+| '''Original title''' || The source's own title, as written, if it has one.
+|-
+| '''Description''' || A short description, one text per interface language.
+|-
+| '''Label in lists''' || The name under which editors find the source when they search. Left empty, it is made from the title.
+|-
+| '''Public''' || Whether visitors see the source; see [[#Who sees what|Who sees what]].
+|}
+
+<!--T:7-->
+A source of the type ''Publication'' only names a [[Publications|publication]] of the bibliography, found by its title. Its title is the publication's title and year; the authors and all other details are in the bibliography.
+
+<!--T:8-->
+=== Source types ===
+Each type has its own roles. A role marked ''required'' must name a person or be set to ''Unknown''. Every type except ''Publication'' has a date; "date from–to" marks the types that cover a period.
+{| class="wikitable"
+! Type !! Roles !! Further fields
+|-
+| '''Publication''' || — || the publication
+|-
+| '''Letter / correspondence''' || Sender (required), Recipient (required) || date from–to, city and country, language, reference number
+|-
+| '''E-mail''' || Sender (required), Recipient (required) || date, language
+|-
+| '''Certificate''' || Issuer (required), Recipient || date, city and country, reference number
+|-
+| '''Invoice / delivery note''' || Issuer (required), Recipient || date, reference number
+|-
+| '''Manuscript / notes / diary''' || Author (required) || date from–to, language, reference number, original title
+|-
+| '''Expert report''' || Examiner (required) || date, language, reference number, original title
+|-
+| '''Archive file''' || Holding archive (required) || date from–to, city and country, reference number (the shelfmark), original title
+|-
+| '''Interview''' || Interviewee (required), Interviewer || date, city and country, language
+|-
+| '''Personal communication''' || Informant (required), Recipient || date
+|-
+| '''Physical inspection''' || Examiner (required) || date, city and country
+|-
+| '''Film / video''' || Director, Producer || date from–to, language, reference number, original title
+|-
+| '''Photograph (as evidence)''' || Photographer || date, city and country, reference number
+|-
+| '''Website''' || Author, Publisher || date, web address and date accessed (required), language, original title
+|-
+| '''Supplied material''' || Supplier (required), Recipient || date
+|-
+| '''Other document''' || Author, Issuer || date from–to, city and country, language, reference number, original title
+|}
+
+<!--T:9-->
+=== Choosing the type ===
+* Information given in conversation, by telephone or informally, for example by the artist, an heir, an owner or a dealer, is a '''Personal communication''' with that person as ''Informant''.
+* An examination of the work itself, for example to measure it, is a '''Physical inspection'''. A written opinion by an expert is an '''Expert report'''.
+* Photographs, scans or documents that someone passed on to you are '''Supplied material''', with that person or institution as ''Supplier''.
+* Printed and published works belong in the bibliography: enter them as [[Publications|publications]] and cite them with a source of the type '''Publication'''. Unpublished letters, e-mails, certificates, invoices, manuscripts and diaries are sources of their own type, not publications.
+* Use '''Other document''' only when no other type fits.
+
+<!--T:10-->
+=== Who may create and change sources ===
+Any editor can create a source. It is saved at once (''Save source''), independently of the record being edited, and from then on it can be cited in any catalogue. A source can be changed only by the editor who created it and by the platform administrator.
+
+<!--T:11-->
+Scans or photographs of a source, such as a letter or a certificate, are added on the source's page with ''Add scans'', by those who may change the source.
+
+<!--T:12-->
+== Citations ==
+A citation connects a record, or one of its fields, to a source. It has:
+{| class="wikitable"
+! Field !! Content
+|-
+| '''Field''' || The field the citation supports, or ''Whole record''.
+|-
+| '''Source''' || An existing source, found by its label, or a new one. Before anything is typed, the list offers the sources already cited in the artist's catalogue.
+|-
+| '''Where in the source''' || Any number of locators, each a kind and a value; see below.
+|-
+| '''Quote''' || The passage that supports the value, word for word, in the language of the source, with its ''Language of the quote''. Quotes are never translated.
+|-
+| '''Comment''' || A remark on the citation, one text per interface language: for example why the source is doubted, or how a value was derived from it.
+|-
+| '''Public''' || Whether visitors see this citation.
+|}
+
+<!--T:13-->
+Whoever may edit a record may add, change and remove its citations.
+
+<!--T:14-->
+=== Where in the source ===
+''Add page, figure …'' adds a locator. Its value is free text of up to 50 characters, such as ''14'', ''12–14'' or ''00:03:20''. The abbreviation is put in front of it in the reader's language: ''p. 14'', ''S. 14'', ''pág. 14''.
+{| class="wikitable"
+! Locator !! English !! German !! Spanish
+|-
+| Page || p. || S. || pág.
+|-
+| Volume || vol. || Bd. || vol.
+|-
+| Figure || fig. || Abb. || fig.
+|-
+| Plate || pl. || Taf. || lám.
+|-
+| Catalogue number || no. || Nr. || n.º
+|-
+| Folio || fol. || fol. || fol.
+|-
+| Sheet || sheet || Bl. || h.
+|-
+| Timecode || colspan="3" | (no abbreviation)
+|-
+| Item || item || Pos. || part.
+|}
+
+<!--T:15-->
+=== Adding citations ===
+Forms with sources have a '''Sources''' panel. It lists the record's citations, grouped by field, and adds new ones with ''Add source''; each field has its own button, which shows how many sources the field has. Citations are saved together with the record: saving the record stores them, cancelling discards them. A source created on the way is kept, because it is saved at once.
+
+<!--T:16-->
+The panel comes with the new forms that are replacing the current ones; the artwork form does not have it yet. Two places attach sources already:
+* '''Uploading images''': ''Mass New Objects Upload'' and the upload of a single image have the optional field ''Source of these images''. Every image of the upload gets a citation to that source, which records where the files came from. This is not the photographer, who is credited on the image itself.
+* '''Copying an artwork''': with ''Copy sources'' (ticked by default), every copied section keeps the citations of its original.
+
+<!--T:17-->
+== Reading sources ==
+* A value with sources has a small number in square brackets after it, such as '''[1]''': the number of its citations. Point at it, tap it or move to it with the keyboard, and a box lists them: the title of each source with the place in it (''p. 14'', ''no. 25''), the quote in its original language, and the comment. Escape closes the box.
+* Each title is a link. A ''Publication'' source opens the page of the publication. Any other source opens its own '''source page''': type, people (linked to their directory or artist pages), date, place, language, original title, reference number, web address and description, and the records that cite it (''Cited in … records'').
+* On an artwork page, the citations of the work as a whole appear at the bottom, in the line '''Data from:''' (German ''Daten aus:'', Spanish ''Datos de:''). Each measurement shows its own marker.
+* Pages of directory entries, publications, events and artists show markers in the same way, for example at names, dates, addresses and relations.
+
+<!--T:18-->
+=== Who sees what ===
+Visitors see a citation only when both the citation and its source are ''Public''. In the editors' view all citations are shown, and those hidden from visitors are marked ''(not public)''.
+
+<!--T:19-->
+== The former data source field ==
+Until October 2026, artworks and their measurements had a single field ''Data source type'', with a ''Data source''. Sources and citations have replaced it. Its values became citations of the record as a whole:
+* a publication (a catalogue raisonné, literature): a ''Publication'' source, with the artwork's ''Internal reference'' as the ''catalogue number'' where the work had one;
+* the artist, the heirs, a publisher or an owner: a ''Personal communication'' with that person as ''Informant'';
+* a physical examination: a ''Physical inspection''.
+Where the old data named no person, the informant or examiner is ''Unknown''. If you know who it was, tell the platform administrator, who can complete the source.
+
+<!--T:20-->
+== See also ==
+* [[Publications]]: the bibliography
+* [[Objects]] · [[Directory]] · [[Artists]]
+* [[Reading an artwork page]]
+</translate>
+
+{{Editor guide}}

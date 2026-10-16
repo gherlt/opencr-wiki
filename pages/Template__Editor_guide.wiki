@@ -1,6 +1,6 @@
 <div style="border:1px solid #a2a9b1; background:#f8f9fa; color:#202122; padding:0.5em 1em; margin-top:2em; clear:both;">
 <translate><!--T:1-->
-'''Editor guide:''' [[How openCR is structured]] · [[Building a catalogue raisonné]] · [[Relations]] · [[Field reference]]<br />
+'''Editor guide:''' [[How openCR is structured]] · [[Building a catalogue raisonné]] · [[Relations]] · [[Sources and citations]] · [[Field reference]]<br />
 '''Entities:''' [[Artists]] · [[Objects]] · [[Publications]] · [[Events]] · [[Directory]] · [[Dealers and offers]]</translate>
 </div><includeonly>[[Category:Editor guide{{#translation:}}]]</includeonly><noinclude>
 Navigation box for the pages of the editor guide. Place <code><nowiki>{{Editor guide}}</nowiki></code> at the bottom of each guide page; it also adds the page to [[:Category:Editor guide]].

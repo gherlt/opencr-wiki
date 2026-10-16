@@ -15,7 +15,6 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * [[#Components (materials and techniques)|Components (materials and techniques)]] (333)
 * [[#Countries|Countries]] (265)
 * [[#Currencies|Currencies]] (7)
-* [[#Data source types|Data source types]] (10)
 * [[#Directory relation types|Directory relation types]] (20)
 * [[#Directory types|Directory types]] (3)
 * [[#Edition types|Edition types]] (53)
@@ -967,23 +966,6 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * British Pound
 * Japanese Yen
 * US Dollar
-</div>
-
-== Data source types ==
-'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Data source type''; [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''Data Source Type ID''.
-
-10 entries:
-<div style="column-width:15em; column-gap:2em;">
-* artist
-* catalogue raisonne
-* exhibition catalogue
-* physical examination
-* printer
-* publisher
-* owner
-* literature
-* documents from
-* heirs of the artist
 </div>
 
 == Directory relation types ==

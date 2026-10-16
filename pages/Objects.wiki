@@ -31,7 +31,7 @@ The main form holds the basic data of the work.
 === Classification ===
 * '''Object type''' says what kind of work it is: painting, print, sculpture, drawing, photography, installation and so on. It is required, and it decides which type-specific fields apply (see below).
 * '''Record type''' is ''main data'' for the artwork itself. Choose ''correction data'' or ''supplementary data'' only for an additional record that corrects or supplements an existing artwork, and link it to that artwork with '''Parent object'''. Such records never appear as artworks of their own.
-* '''Data source type''' records what kind of source the information comes from: the artist, a catalogue raisonné, an exhibition catalogue, a physical examination, the printer, the owner, the heirs and so on.
+* Where the information comes from is recorded with '''sources''', for the artwork as a whole, for single fields and for each measurement. See [[Sources and citations]].
 
 <!--T:8-->
 === Date and place of creation ===

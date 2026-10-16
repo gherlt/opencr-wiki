@@ -53,11 +53,11 @@ The page of an artwork (''Object details'') brings together everything the catal
 |}
 
 <!--T:5-->
-Names of people, institutions, exhibitions and publications are usually links: they lead to the respective page, for example to everything the catalogue holds about a gallery.
+Names of people, institutions, exhibitions and publications are usually links: they lead to the respective page, for example to everything the catalogue holds about a gallery. A small number in square brackets after a value, such as [1], marks its sources: point at it or tap it to see them (see [[Sources and citations#Reading sources|Reading sources]]).
 
 <!--T:6-->
 == At the bottom ==
-* Who provided the data, and the '''copyright''' notice for the images.
+* '''Data from:''' where the information on the work comes from, and the '''copyright''' notice for the images.
 * '''Share with others''': links to share the page.
 * '''Contact the artist''': ways to contact the artist or the catalogue's authors, as far as they publish them. ''email through open.cr'' opens your own email program with a message to the artist's address at openCR. Use it to ask a question about the work or to share information, for example if you own the work or know of an exhibition that is missing.
 
