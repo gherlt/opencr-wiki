@@ -57,21 +57,21 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 |-
 | '''Address Country ID''' || Country. || text || 
 |-
-| '''Date From Day''' || Day from which the address was valid, if known. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+| '''Date From Day''' || Day from which the address was valid, if known. || number || 
 |-
-| '''Date From Month''' || Month from which the address was valid, if known. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+| '''Date From Month''' || Month from which the address was valid, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
-| '''Date From Year''' || Year from which the address was valid. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+| '''Date From Year''' || Year from which the address was valid. || number || 
 |-
 | '''Date From Qualifier''' || How certain the start date is, for example approximate, before or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''Date To Day''' || Day up to which the address was valid, if known. || number || 
 |-
-| '''Date To Month''' || Month up to which the address was valid, if known. || number || 
+| '''Date To Month''' || Month up to which the address was valid, if known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Date To Year''' || Year up to which the address was valid. || number || 
 |-
-| '''Date To Qualifier''' || How certain the end date is, for example approximate, before or at latest. || number || 
+| '''Date To Qualifier''' || How certain the end date is, for example approximate, before or at latest. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
 | '''Date Note''' || A note on the dates, when they are too vague to enter, for example "in the 1950s". || text || 
 |-
