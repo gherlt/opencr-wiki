@@ -64,7 +64,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Agent'''<br /><small>(Agent ID)</small> || The contributor, as a directory entry. || link to a directory entry || 
 |-
-| '''Activity ID'''<br /><small>(Activity)</small> || The contributor's role. The byline shows only authors and editors, so record those roles as such. || list<br />'''required''' || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''Activity ID'''<br /><small>(Activity)</small> || The contributor's role. The byline shows only authors and editors, so record those roles as such. || list<br />'''required''' || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
 | '''Publication Part ID'''<br /><small>(Part)</small> || The part the contributor wrote, such as an essay, the introduction or the preface. Leave empty when the role applies to the whole publication. || list || Essay, Introduction, Prologue, Epigraph, Text, Epilogue, Afterword, Conclusion, Preface
 |-

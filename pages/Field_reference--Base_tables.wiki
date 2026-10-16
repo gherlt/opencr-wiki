@@ -5,7 +5,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 
 == Overview ==
 * [[#Action types|Action types]] (27)
-* [[#Activities|Activities]] (87)
+* [[#Activities|Activities]] (94)
 * [[#Address types|Address types]] (8)
 * [[#Artist relation types|Artist relation types]] (22)
 * [[#Artwork relation types|Artwork relation types]] (37)
@@ -37,7 +37,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * [[#Publication relation types|Publication relation types]] (9)
 * [[#Publication types|Publication types]] (23)
 * [[#Qualifiers|Qualifiers]] (29)
-* [[#Record kinds|Record kinds]] (11)
+* [[#Record kinds|Record kinds]] (21)
 * [[#Record types|Record types]] (3)
 * [[#Tag types|Tag types]] (5)
 * [[#Title qualifiers|Title qualifiers]] (10)
@@ -82,14 +82,14 @@ Each list below names the fields that use it. Some fields offer only part of a l
 == Activities ==
 '''Used in:''' [[Field reference/Objects#Agents|Objects → Agents]]: ''ActivityID''; [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Activity ID''; [[Field reference/Directory#Activities|Directory → Activities]]: ''Activity''.
 
-87 entries:
+94 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Gallery
 * Printer
 * Publisher
 * Museum
 * Exhibition Hall
-* Fundation
+* Foundation
 * Collector circle
 * Artist
 * Private Person
@@ -171,6 +171,13 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * Interviewer
 * Lyricist
 * Subject
+* Sender
+* Recipient
+* Issuer
+* Examiner
+* Informant
+* Holding archive
+* Supplier
 </div>
 
 == Address types ==
@@ -232,7 +239,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * is study for rendering of
 * is copy of
 * is related to
-* Is version of
+* is version of
 * is similar to
 * was part of
 * was larger context of
@@ -687,7 +694,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 
 265 entries:
 <div style="column-width:15em; column-gap:2em;">
-* ASCENSION
+* Ascension Island
 * Andorra
 * United Arab Emirates
 * Afghanistan
@@ -703,7 +710,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Austria
 * Australia
 * Aruba
-* ÅLAND
+* Åland Islands
 * Azerbaijan
 * Bosnia And Herzegovina
 * Barbados
@@ -718,7 +725,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Bermuda
 * Brunei Darussalam
 * Bolivia
-* BQ
+* Bonaire, Sint Eustatius and Saba
 * Brazil
 * Bahamas
 * Bhutan
@@ -729,7 +736,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Canada
 * Cocos (Keeling) Islands
 * Congo, The Democratic Republic
-* CE
+* European Community
 * Central African Republic
 * Congo
 * Switzerland
@@ -739,9 +746,9 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Cameroon
 * China
 * Colombia
-* CP
+* Clipperton Island
 * Costa Rica
-* CS
+* Serbia and Montenegro
 * Cuba
 * Cape Verde
 * Curaçao
@@ -749,13 +756,13 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Cyprus
 * Czech Republic
 * Germany
-* DG
+* Diego Garcia
 * Djibouti
 * Denmark
 * Dominica
 * Dominican Republic
 * Algeria
-* EA
+* Ceuta and Melilla
 * Ecuador
 * Estonia
 * Egypt
@@ -770,7 +777,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Micronesia, Federated States O
 * Faroe Islands
 * France
-* FX
+* Metropolitan France
 * Gabon
 * United Kingdom
 * Grenada
@@ -796,7 +803,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Croatia
 * Haiti
 * Hungary
-* IC
+* Canary Islands
 * Indonesia
 * Ireland
 * Israel
@@ -866,7 +873,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Norway
 * Nepal
 * Nauru
-* NT
+* Neutral Zone
 * Niue
 * New Zealand
 * Oman
@@ -905,14 +912,14 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Senegal
 * Somalia
 * Suriname
-* SS
+* South Sudan
 * Sao Tome And Principe
 * Urss - Soviet Union
 * El Salvador
 * Saint Martin (Dutch)
 * Syrian Arab Republic
 * Swaziland
-* TA
+* Tristan da Cunha
 * Turks And Caicos Islands
 * Chad
 * French Southern Territories
@@ -1127,7 +1134,7 @@ The participating artists (Events Artists) and the participating directory entri
 * Move / Migration
 * Professional
 * Illness
-* Colaboration
+* Collaboration
 * Religion
 * Other
 * Commission/order
@@ -1777,21 +1784,31 @@ Date fields offer only the date qualifiers: approximate, exact, estimate, minimu
 == Record kinds ==
 '''Used in:''' [[Field reference/Dealers and offers#Offers|Dealers and offers → Offers]]: ''Work type''.
 
-For offers, only the kind Object (an artwork) is currently shown to visitors.
+The offer form offers four of these kinds: the artwork itself (Object), its print and sculpture editions, and its parts.
 
-11 entries:
+21 entries:
 <div style="column-width:15em; column-gap:2em;">
+* Artist alias
 * Artist
+* Directory address
 * Directory
+* Directory relation
 * Event
+* Image
+* Object agent
 * Object Attribution
 * Object
+* Object measurement
 * ObjectPart
 * Print Edition
 * PhotoEdition
+* Object provenance
 * Object Repository
 * SculptureEdition
+* Object title
+* Object transaction
 * Publication
+* Source
 </div>
 
 == Record types ==

@@ -8,7 +8,8 @@ DATA_DIR      columns.tsv, fks.tsv, form_labels.tsv, vocab.tsv and the value
 TOOLTIPS_DIR  docs/tooltips of the (private) application repository: the field
               notes (*.md) and wiki-reference.json, which says which tables make
               up each page, which columns are automatic, and how vocabularies
-              are titled
+              are titled; a section may fix a field's caption ("labels"), input
+              ("kinds") or offered entries ("values") where the form differs
 PAGE          a page name from wiki-reference.json, e.g. "Objects"; or
               "Base tables": every vocabulary used by a field of any page
 
@@ -135,6 +136,8 @@ class Reference:
                 vals = self.system_languages
             elif target == self.config.get("qualifier_vocabulary") and self.qualifier_sets:
                 vals = self.qualifier_sets["date" if re.search(r"date|born|died", name, re.I) else "number"]
+            # where the form's code, not a flag in the data, limits the list
+            vals = section.get("values", {}).get(name, vals)
         elif ctype.startswith("tinyint(1)") or (ctype.startswith("tinyint") and tooltip.lower().startswith("tick")):
             kind = "tick box"
         elif re.match(r"(tiny|small|medium|big)?int|decimal|float|double", ctype):

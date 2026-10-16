@@ -318,7 +318,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''DirectoryID'''<br /><small>(Contact; Directory ID)</small> || The person or institution. || link to a directory entry || 
 |-
-| '''ActivityID'''<br /><small>(Activity ID)</small> || Their role: printer, publisher, foundry, photographer, co-author and so on. || list<br />'''required''' || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''ActivityID'''<br /><small>(Activity ID)</small> || Their role: printer, publisher, foundry, photographer, co-author and so on. || list<br />'''required''' || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
 | '''AuthorItself'''<br /><small>(By the author himself; Author Itself)</small> || Tick if the artist themselves had this role; the person field is then ignored. || tick box || 
 |-

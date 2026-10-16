@@ -37,7 +37,7 @@ Every field of the [[Dealers and offers]] forms, in the order of the form. Field
 |-
 | '''Selling dealer (leave blank = artist sells own work)''' || The dealer who sells. Leave empty when the artist sells their own work. || link to a dealer || 
 |-
-| '''Work type''' || What is offered. Choose "Object" for an artwork; offers of other kinds are saved but currently not shown to visitors. || list || Artist, Directory, Event, Object Attribution, Object, ObjectPart, Print Edition, PhotoEdition, Object Repository, SculptureEdition, Publication
+| '''Work type''' || What is offered: the artwork itself (Object), one of its print or sculpture editions, or one of its parts. Leave it empty, with Work ID, for a general advert for the artist's work. || list || Object, ObjectPart, Object print edition, SculptureEdition
 |-
 | '''Work ID''' || The number of the work offered, for example the artwork's ID. || number || 
 |-

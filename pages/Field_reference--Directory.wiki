@@ -32,7 +32,7 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Activity'''<br /><small>(ActivityID)</small> || What the person or institution does: gallery, publisher, photographer, curator and so on. Several activities are possible. || list || 87 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''Activity'''<br /><small>(ActivityID)</small> || What the person or institution does: gallery, publisher, photographer, curator and so on. Several activities are possible. || list || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
 | '''Comments'''<br /><small>(Comment)</small> || Further detail, such as a period or the exact role. || text || 
 |}
