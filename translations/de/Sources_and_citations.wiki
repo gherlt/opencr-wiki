@@ -186,3 +186,4 @@ Wo die alten Daten keine Person nannten, ist der Informant oder Prüfer ''Unbeka
 * [[Publications/de|Publikationen]]: die Bibliographie
 * [[Objects/de|Werke]] · [[Directory/de|Adressbuch]] · [[Artists/de|Künstler]]
 * [[Reading an artwork page/de|Eine Werkseite lesen]]
+* [[Field reference/Sources|Feldreferenz: Quellen]]: jedes Feld des Quellenformulars und der Quellenangaben (auf Englisch)

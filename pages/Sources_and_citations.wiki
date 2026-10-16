@@ -186,6 +186,7 @@ Where the old data named no person, the informant or examiner is ''Unknown''. If
 * [[Publications]]: the bibliography
 * [[Objects]] · [[Directory]] · [[Artists]]
 * [[Reading an artwork page]]
+* [[Field reference/Sources]]: every field of the source form and of the citations
 </translate>
 
 {{Editor guide}}

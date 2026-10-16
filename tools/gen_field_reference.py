@@ -9,7 +9,9 @@ TOOLTIPS_DIR  docs/tooltips of the (private) application repository: the field
               notes (*.md) and wiki-reference.json, which says which tables make
               up each page, which columns are automatic, and how vocabularies
               are titled; a section may fix a field's caption ("labels"), input
-              ("kinds") or offered entries ("values") where the form differs
+              ("kinds") or offered entries ("values") where the form differs,
+              and mark fields the form does not require ("optional"); a page
+              may name its guide page ("guide") when that is not the page name
 PAGE          a page name from wiki-reference.json, e.g. "Objects"; or
               "Base tables": every vocabulary used by a field of any page
 
@@ -150,14 +152,16 @@ class Reference:
             kind = "text"
         kind = section.get("kinds", {}).get(name, kind)
         required = (c["IS_NULLABLE"] == "NO" and c["COLUMN_DEFAULT"] in ("", "NULL")
-                    and kind != "tick box" and c["COLUMN_KEY"] != "PRI")
+                    and kind != "tick box" and c["COLUMN_KEY"] != "PRI"
+                    and name not in section.get("optional", []))
         return {"table": table, "name": name, "label": label, "caps": caps, "tooltip": tooltip.strip(),
                 "kind": kind, "required": required, "vocab": vocab, "values": vals}
 
     def entity_page(self, page):
         out, review, count, current = [], [], 0, None
+        guide = self.config["pages"][page].get("guide", page)
         out.append("{{Draft}}")
-        out.append(f"Every field of the [[{page}]] forms, in the order of the form. Field names are given as they "
+        out.append(f"Every field of the [[{guide}]] forms, in the order of the form. Field names are given as they "
                    "appear in the forms; where a field appears under another name in some forms, that name is given "
                    "in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.")
         out.append("")
@@ -198,7 +202,7 @@ class Reference:
         if current is not None:
             out.append("|}")
         out.append("\n== See also ==")
-        out.append(f"* [[{page}]]: how the {page.lower()} forms are used")
+        out.append(f"* [[{guide}]]: how the {guide.lower()} forms are used")
         out.append(f"* [[{BASE_PAGE}|Base tables]]: the shared lists behind the dropdowns")
         out.append("* [[Field reference]]")
         out.append("\n{{Editor guide}}")

@@ -1,0 +1,113 @@
+{{Draft}}
+Every field of the [[Sources and citations]] forms, in the order of the form. Field names are given as they appear in the forms; where a field appears under another name in some forms, that name is given in brackets. Fields filled in automatically (who created or changed an entry, and when) are not listed.
+
+'''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
+
+== Source ==
+The form for one source. Which fields it shows depends on the ''Type''; see [[Sources and citations#Source types|Source types]]. A source of the type ''Publication'' has only ''Publication'', ''Label in lists'' and ''Public''. Types that cover a period show the date as ''Date (from)'' and ''Date (to)''. The form opens from the ''Sources'' panel and from ''Source of these images'' in image uploads, with ''New source'' or ''Edit source''; ''Save source'' saves the source at once, independently of the record being edited.
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Type''' || What kind of source it is: a publication, a letter, an e-mail, an expert report, an interview, a website and so on. The type decides which other fields the form shows and which people it asks for. || list<br />'''required''' || Publication, Letter / correspondence, E-mail, Certificate, Invoice / delivery note, Manuscript / notes / diary, Expert report, Archive file, Interview, Personal communication, Physical inspection, Film / video, Photograph (as evidence), Website, Supplied material, Other document
+|-
+| '''Label in lists''' || The name under which editors find the source when they search for it. Left empty, it is made from the source's title in the editor's language. Visitors see the title, not this label. || text || 
+|-
+| '''Public''' || Tick to let visitors see the source. A citation is shown to visitors only when both the citation and its source are public; editors see everything, with non-public entries marked. || tick box || 
+|-
+| '''Publication''' || Only for the type Publication, and required there: the publication of the bibliography that is the source, found by its title. The source takes its title and year from the publication; all other details are in the bibliography. || link to a publication || 
+|-
+| '''Date: day''' || Day the source was written, issued or made, if known. Types that cover a period call this date "Date (from)". Publications have no date of their own. || number || 
+|-
+| '''Date: month''' || Month of the date, as a number from 1 to 12, if known. || number || 
+|-
+| '''Date: year''' || Year of the date. || number || 
+|-
+| '''Date: qualifier''' || How certain the date is, for example approximate, before or after. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Date (to): day''' || Last day of the period, only for types that cover one: letters and correspondence, manuscripts, notes and diaries, archive files, films and videos, and other documents. || number || 
+|-
+| '''Date (to): month''' || Month of the end of the period, as a number from 1 to 12. || number || 
+|-
+| '''Date (to): year''' || Year of the end of the period. || number || 
+|-
+| '''Date (to): qualifier''' || How certain the end of the period is, for example approximate or at latest. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
+|-
+| '''Language''' || The language the source is written or spoken in; any language can be chosen. For letters, e-mails, manuscripts, expert reports, interviews, films and videos, websites and other documents. || list || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
+|-
+| '''City''' || Where the source was written, issued or kept, shown as entered. For letters, certificates, archive files, interviews, physical inspections, photographs and other documents. || text || 
+|-
+| '''Country''' || The country of that place, shown in the reader's language. Same types as the city. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+|-
+| '''Reference number''' || A file, certificate or invoice number, or an archive's shelfmark. For letters, certificates, invoices and delivery notes, manuscripts, expert reports, archive files, films and videos, photographs and other documents. || text || 
+|-
+| '''Web address''' || For websites, and required there: the address of the page used. || text || 
+|-
+| '''Accessed on''' || For websites, and required there: the day the page was consulted. || date || 
+|-
+| '''Original title''' || The source's own title, as written, if it has one: the title of a manuscript, a report, a file, a film or a web page. It is shown in quotation marks and never translated. || text || 
+|}
+
+== People ==
+One line for each role of the type, for example ''Sender'' and ''Recipient'' of a letter; the roles of each type are listed under [[Sources and citations#Source types|Source types]]. Each line names a directory entry or an artist, found with ''Search name'', or is set to ''Unknown''. A required role is marked with an asterisk.
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Role''' || The role of the person in the source, such as Sender and Recipient of a letter or Examiner of an expert report. It is not chosen: the form shows one line for each role of the type, labelled with the role. A role marked with an asterisk is required and must name a person or be set to Unknown. || set by the type || Sender, Recipient, Issuer, Author, Examiner, Holding archive, Interviewee, Interviewer, Informant, Director, Producer, Photographer, Publisher, Supplier
+|-
+| '''Search name (address book)''' || The person or institution, as a directory entry (the form says address book), found with Search name. || link to a directory entry || 
+|-
+| '''Search name (artist)''' || The person, as an artist of openCR, found with Search name. || link to an artist || 
+|-
+| '''Unknown''' || Choose Unknown when nobody can say who it was, for example an examiner whose name was not recorded. The source then names the role as unknown. || button || 
+|}
+
+== Source description ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || The form has one Description box per system language, labelled with the language, for example Description (English). || one box per language || German, English, French, Italian, Spanish
+|-
+| '''Description''' || A short description of the source in this language. Optional: an empty box is not saved. Publications have none; their details are in the bibliography. || long text || 
+|}
+
+== Citations ==
+The ''Sources'' panel of a form lists the citations of the record and adds new ones with ''Add source''. Citations are saved together with the record: saving the record stores them, cancelling discards them. The panel comes with the new forms that are replacing the current ones; the artwork form does not have it yet. Image uploads cite the optional ''Source of these images'' for every uploaded image, as a citation of the whole image. See [[Sources and citations#Adding citations|Adding citations]].
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Field''' || The field the citation supports, or Whole record when the source supports the record as a whole. A field's own add-source button fills it in. || list || 
+|-
+| '''Source''' || The source cited: an existing source, found by its label in lists, or a new one created on the spot with New source. Before anything is typed, the list offers the sources already cited in the artist's catalogue. || link to a source<br />'''required''' || 
+|-
+| '''Quote''' || The passage that supports the value, word for word, in the language of the source. Quotes are never translated. || long text || 
+|-
+| '''Language of the quote''' || The language of the quote; any language can be chosen. || list || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
+|-
+| '''Public''' || Tick to let visitors see this citation. Visitors see it only when its source is public too. || tick box || 
+|}
+
+== Where in the source ==
+Any number of lines per citation, added with ''Add page, figure …''.
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Locator''' || What the value refers to: a page, volume, figure, plate, catalogue number, folio, sheet, timecode or item. Its abbreviation, such as p., fig. or no., is put in front of the value in the reader's language. || list<br />'''required''' || Page, Volume, Figure, Plate, Catalogue number, Folio, Sheet, Timecode, Item
+|-
+| '''Value''' || The place in the source, as free text of up to 50 characters, such as 14, 12–14 or 00:03:20. A line left empty is not saved. || text || 
+|}
+
+== Citation comment ==
+{| class="wikitable" style="width:100%"
+! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
+|-
+| '''Language''' || The form has one Comment box per system language, labelled with the language, for example Comment (English). || one box per language || German, English, French, Italian, Spanish
+|-
+| '''Comment''' || A remark on the citation in this language, for example why the source is doubted or how a value was derived from it. Optional: an empty box is not saved. || long text || 
+|}
+
+== See also ==
+* [[Sources and citations]]: how the sources and citations forms are used
+* [[Field reference/Base tables|Base tables]]: the shared lists behind the dropdowns
+* [[Field reference]]
+
+{{Editor guide}}

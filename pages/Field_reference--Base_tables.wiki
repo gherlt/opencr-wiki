@@ -25,6 +25,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * [[#Groupings|Groupings]] (5)
 * [[#Kinds of alternative names|Kinds of alternative names]] (4)
 * [[#Languages|Languages]] (109)
+* [[#Locators (where in the source)|Locators (where in the source)]] (9)
 * [[#Measurement extents|Measurement extents]] (45)
 * [[#Measurement types|Measurement types]] (21)
 * [[#Months|Months]] (12)
@@ -39,6 +40,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * [[#Qualifiers|Qualifiers]] (29)
 * [[#Record kinds|Record kinds]] (21)
 * [[#Record types|Record types]] (3)
+* [[#Source types|Source types]] (16)
 * [[#Tag types|Tag types]] (5)
 * [[#Title qualifiers|Title qualifiers]] (10)
 * [[#Transaction types|Transaction types]] (7)
@@ -80,7 +82,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 </div>
 
 == Activities ==
-'''Used in:''' [[Field reference/Objects#Agents|Objects → Agents]]: ''ActivityID''; [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Activity ID''; [[Field reference/Directory#Activities|Directory → Activities]]: ''Activity''.
+'''Used in:''' [[Field reference/Objects#Agents|Objects → Agents]]: ''ActivityID''; [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Activity ID''; [[Field reference/Directory#Activities|Directory → Activities]]: ''Activity''; [[Field reference/Sources#People|Sources → People]]: ''Role''.
 
 94 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -690,7 +692,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 </div>
 
 == Countries ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Sources''' ([[Field reference/Sources#Source|Source]]).
 
 265 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -1224,7 +1226,7 @@ The participating artists (Events Artists) and the participating directory entri
 </div>
 
 == Languages ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]], [[Field reference/Objects#Notes|Notes]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]], [[Field reference/Objects#Notes|Notes]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]); '''Sources''' ([[Field reference/Sources#Source|Source]], [[Field reference/Sources#Source description|Source description]], [[Field reference/Sources#Citations|Citations]], [[Field reference/Sources#Citation comment|Citation comment]]).
 
 The list holds the languages of the world. Most language fields offer only the five system languages (German, English, French, Italian, Spanish); the languages a publication is written in can be any language. The openCR interface itself is available in English, Spanish and German.
 
@@ -1339,6 +1341,24 @@ The list holds the languages of the world. Most language fields offer only the f
 * Yue Chinese
 * Zhuang
 * Zulu
+</div>
+
+== Locators (where in the source) ==
+'''Used in:''' [[Field reference/Sources#Where in the source|Sources → Where in the source]]: ''Locator''.
+
+Each locator has an abbreviation per language, which is put in front of the value in the reader's language: ''p. 14'', ''S. 14'', ''pág. 14''. Timecode has none. See [[Sources and citations#Where in the source|Where in the source]].
+
+9 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Page
+* Volume
+* Figure
+* Plate
+* Catalogue number
+* Folio
+* Sheet
+* Timecode
+* Item
 </div>
 
 == Measurement extents ==
@@ -1744,7 +1764,7 @@ The list holds the languages of the world. Most language fields offer only the f
 </div>
 
 == Qualifiers ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Object Measurements|Object Measurements]], [[Field reference/Objects#Editions|Editions]], [[Field reference/Objects#Sculpture editions|Sculpture editions]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Object Templates|Object Templates]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Addresses|Directory Addresses]], [[Field reference/Directory#Directory Relations|Directory Relations]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Object Measurements|Object Measurements]], [[Field reference/Objects#Editions|Editions]], [[Field reference/Objects#Sculpture editions|Sculpture editions]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Object Templates|Object Templates]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Addresses|Directory Addresses]], [[Field reference/Directory#Directory Relations|Directory Relations]]); '''Sources''' ([[Field reference/Sources#Source|Source]]).
 
 Date fields offer only the date qualifiers: approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part. Fields for quantities, measurements and print runs offer the others.
 
@@ -1821,6 +1841,31 @@ Only main data appear as artworks; correction and supplementary data are attache
 * main data
 * correction data
 * supplementary data
+</div>
+
+== Source types ==
+'''Used in:''' [[Field reference/Sources#Source|Sources → Source]]: ''Type''.
+
+Each type has its own roles and decides which fields the source form shows; see [[Sources and citations#Source types|Source types]].
+
+16 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Publication
+* Letter / correspondence
+* E-mail
+* Certificate
+* Invoice / delivery note
+* Manuscript / notes / diary
+* Expert report
+* Archive file
+* Interview
+* Personal communication
+* Physical inspection
+* Film / video
+* Photograph (as evidence)
+* Website
+* Supplied material
+* Other document
 </div>
 
 == Tag types ==

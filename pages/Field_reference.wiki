@@ -17,6 +17,8 @@ The field reference explains every field of every form in openCR: what it means,
 |-
 | '''[[Field reference/Dealers and offers|Dealers and offers]]''' || The dealer and offer pages: dealers, clearances, offers and their texts
 |-
+| '''[[Field reference/Sources|Sources]]''' || The source form and the citations: type, people, date, place, language, reference number, web address and description of a source; the cited field, the place in the source, the quote and the comment of a citation
+|-
 | '''[[Field reference/Base tables|Base tables]]''' || The shared lists behind the dropdowns, such as object types, materials, qualifiers and countries, with all their entries
 |}
 

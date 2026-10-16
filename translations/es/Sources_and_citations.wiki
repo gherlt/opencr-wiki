@@ -186,3 +186,4 @@ Cuando los datos antiguos no nombraban a ninguna persona, el informante o el exa
 * [[Publications/es|Publicaciones]]: la bibliografía
 * [[Objects/es|Obras]] · [[Directory/es|Directorio]] · [[Artists/es|Artistas]]
 * [[Reading an artwork page/es|Leer la página de una obra]]
+* [[Field reference/Sources|Referencia de campos: fuentes]]: cada campo del formulario de fuente y de las citas (en inglés)
