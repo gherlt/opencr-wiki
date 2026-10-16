@@ -2,7 +2,7 @@
 Publikationen
 
 <!--T:1-->
-'''Publikationen''' sind die Literatur eines Werkverzeichnisses: Bücher, Artikel, Ausstellungskataloge, Werkverzeichnisse, Zeitungsartikel, Broschüren, Briefe, Manuskripte, Interviews, Videos und jedes andere Dokument, das den Künstler behandelt oder die Werke abbildet. Zusammen bilden sie die '''Bibliographie''' des Künstlers, und sie sind die Quellen, die die Werke zitieren.
+'''Publikationen''' sind die Literatur eines Werkverzeichnisses: Bücher, Artikel, Ausstellungskataloge, Werkverzeichnisse, Zeitungsartikel, Broschüren, Videos und jedes andere veröffentlichte Werk, das den Künstler behandelt oder die Werke abbildet. Zusammen bilden sie die '''Bibliographie''' des Künstlers, und sie sind die Quellen, die die Werke zitieren. Unveröffentlichte Briefe, E-Mails, Zertifikate, Rechnungen, Manuskripte und Tagebücher sind keine Publikationen, sondern Quellen ihrer eigenen Art; siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
 <!--T:2-->
 Publikationen sind gemeinsam: Ein Buch über drei Künstler ist ein einziger Datensatz, der mit jedem von ihnen verknüpft ist. Diese Seite erklärt, wie eine Publikation erfasst und verknüpft wird. Die Liste der Abschnitte finden Sie unter [[How openCR is structured/Records and their sections/de#Publikationen|Datensätze und ihre Abschnitte]], jedes einzelne Feld in der [[Field reference/de|Feldreferenz]].
@@ -16,7 +16,7 @@ Publikationen sind gemeinsam: Ein Buch über drei Künstler ist ein einziger Dat
 <!--T:4-->
 == Das Hauptformular ==
 === Identität ===
-* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt etwa 35 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Interview, Thesis, Pressemitteilung, Brief, Manuscript, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO-Menü lässt sich die Bibliographie danach filtern und sortieren.
+* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt 23 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Thesis, Pressemitteilung, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO-Menü lässt sich die Bibliographie danach filtern und sortieren.
 * '''Titel''' und '''Untertitel'''.
 * '''Alias''': der Kurzname (siehe oben).
 * '''Abkürzung''': eine Kurzform für Fußnoten, falls das Werkverzeichnis eine verwendet.

@@ -35,7 +35,7 @@ Each list below names the fields that use it. Some fields offer only part of a l
 * [[#Print papers|Print papers]] (119)
 * [[#Publication parts|Publication parts]] (9)
 * [[#Publication relation types|Publication relation types]] (9)
-* [[#Publication types|Publication types]] (35)
+* [[#Publication types|Publication types]] (23)
 * [[#Qualifiers|Qualifiers]] (29)
 * [[#Record kinds|Record kinds]] (11)
 * [[#Record types|Record types]] (3)
@@ -1709,7 +1709,7 @@ The list holds the languages of the world. Most language fields offer only the f
 == Publication types ==
 '''Used in:''' [[Field reference/Publications#Main form|Publications → Main form]]: ''ID Publication type''.
 
-35 entries:
+23 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Book
 * Article in magazine
@@ -1731,21 +1731,9 @@ The list holds the languages of the world. Most language fields offer only the f
 * Article in catalogue
 * Magazine
 * Supplement
-* Letter
-* Report
-* Document
-* Certificate
 * Conference Paper
-* Email
-* Interview
-* Manuscript
 * Thesis
 * Press release
-* diary
-* letter
-* notes
-* shipping list
-* invoice
 </div>
 
 == Qualifiers ==

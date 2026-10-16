@@ -28,6 +28,10 @@ Begriffe aus Werkverzeichnissen und aus openCR, alphabetisch geordnet nach dem e
 ; Werkverzeichnis (''catalogue raisonné'')
 : Ein vollständiges, wissenschaftliches Verzeichnis aller bekannten Werke eines Künstlers (oder aller Werke einer Gattung, etwa der Grafik), mit Abbildungen, technischen Daten, Datierungen, Provenienz, Ausstellungen und Literatur zu jedem Werk.
 
+<!--T:30-->
+; Quellenangabe (''citation'')
+: In openCR die Verknüpfung eines Werts oder eines ganzen Datensatzes mit der [[#Source|Quelle]], aus der er stammt, samt der Stelle in der Quelle, etwa einer Seite. Eine Zahl in eckigen Klammern hinter einem Wert, etwa [1], zeigt, wie viele Quellenangaben er hat. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
+
 <!--T:8-->
 ; Komponente (''component'')
 : In openCR ein Material, ein Bildträger oder eine Technik eines Werks, zum Beispiel Öl, Leinwand, Papier oder Radierung.
@@ -99,6 +103,10 @@ Begriffe aus Werkverzeichnissen und aus openCR, alphabetisch geordnet nach dem e
 <!--T:25-->
 ; Lichtmaß (''sight size'')
 : Das Maß des sichtbaren Teils eines gerahmten Werks, innerhalb des Rahmens oder Passepartouts gemessen.
+
+<!--T:31-->
+; <span id="Source"></span>Quelle (''source'')
+: Woher eine Information stammt: eine Publikation, ein Brief, ein Gutachten, ein Interview, ein Gespräch mit dem Künstler, eine Website. In openCR wird eine Quelle einmal erfasst und kann in jedem Werkverzeichnis angeführt werden. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
 <!--T:26-->
 ; Suite

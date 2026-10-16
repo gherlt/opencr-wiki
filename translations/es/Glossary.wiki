@@ -28,6 +28,10 @@ Términos usados en los catálogos razonados y en openCR, ordenados alfabéticam
 ; Catálogo razonado (''catalogue raisonné'')
 : Un registro completo y científico de todas las obras conocidas de un artista (o de todas las obras de un tipo, como la obra gráfica), con imágenes, datos técnicos, fechas, procedencia, exposiciones y bibliografía de cada obra.
 
+<!--T:30-->
+; Cita (''citation'')
+: En openCR, el vínculo entre un dato, o un registro entero, y la [[#Source|fuente]] de la que procede, con el lugar dentro de la fuente, como una página. Un número entre corchetes detrás de un dato, como [1], indica cuántas citas tiene. Véase [[Sources and citations/es|Fuentes y citas]].
+
 <!--T:8-->
 ; Componente (''component'')
 : En openCR, un material, soporte o técnica de una obra, por ejemplo óleo, lienzo, papel o aguafuerte.
@@ -99,6 +103,10 @@ Términos usados en los catálogos razonados y en openCR, ordenados alfabéticam
 <!--T:25-->
 ; Medida vista (''sight size'')
 : La medida de la parte visible de una obra enmarcada, tomada dentro del marco o del paspartú.
+
+<!--T:31-->
+; <span id="Source"></span>Fuente (''source'')
+: El lugar del que procede una información: una publicación, una carta, un informe pericial, una entrevista, una conversación con el artista, un sitio web. En openCR, una fuente se introduce una sola vez y puede citarse en cualquier catálogo. Véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:26-->
 ; Suite

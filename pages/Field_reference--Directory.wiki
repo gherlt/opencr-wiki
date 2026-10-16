@@ -81,8 +81,6 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 |-
 | '''Public''' || Tick to publish this address. || tick box || 
 |-
-| '''Source ID''' || Where the address comes from. || link to a source || 
-|-
 | '''Comment''' || Further detail. || long text || 
 |}
 
@@ -120,8 +118,6 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 | '''Date To Year''' || Year the relation ended. || number || 
 |-
 | '''Date To Qualifier''' || How certain the end date is, for example approximate, before or at latest. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
-|-
-| '''Source ID''' || Where the relation is documented. || link to a source || 
 |-
 | '''Public''' || Tick to publish this relation. || tick box || 
 |}

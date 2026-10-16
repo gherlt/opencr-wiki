@@ -214,8 +214,6 @@ Las tablas enumeran, para cada tipo de registro, los enlaces que tiene con otros
 | Directorio || ''Colecciones'' || Instituciones que poseen obras del artista
 |-
 | Directorio || ''Entidad de gestión'' (formulario principal) || La entidad que gestiona los derechos del artista
-|-
-| Directorio || nombres alternativos || La fuente de un nombre alternativo
 |}
 
 <!--T:22-->
@@ -244,3 +242,4 @@ Un marchante está vinculado a una entrada del directorio y a los artistas para 
 == Véase también ==
 * [[How openCR is structured/es|Cómo está estructurado openCR]]
 * [[Objects/es|Obras]] · [[Publications/es|Publicaciones]] · [[Events/es|Eventos]] · [[Directory/es|Directorio]] · [[Artists/es|Artistas]]
+* [[Sources and citations/es|Fuentes y citas]]: de dónde procede la información

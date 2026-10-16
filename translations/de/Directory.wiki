@@ -43,7 +43,7 @@ Adressen stehen in einem eigenen Formular, '''Directory Addresses''', weil ein E
 * '''Is Primary''': die Hauptadresse des Eintrags. Listen von Adressbucheinträgen zeigen Ort und Land der Hauptadresse; markieren Sie daher genau eine Adresse als Hauptadresse;
 * '''Is Valid''': ob die Adresse noch gilt;
 * einen eigenen Haken '''Public''', damit eine Adresse erfasst werden kann, ohne veröffentlicht zu werden;
-* die Quelle der Angabe.
+* ihre Quellen, als Quellenangaben erfasst (siehe [[Sources and citations/de|Quellen und Quellenangaben]]); das jetzige Formular kann sie noch nicht hinzufügen.
 
 <!--T:9-->
 == Was die Öffentlichkeit sieht ==

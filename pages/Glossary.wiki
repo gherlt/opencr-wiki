@@ -28,6 +28,10 @@ Terms used in catalogues raisonnés and on openCR, in alphabetical order.
 ; Catalogue raisonné
 : A complete, scholarly record of all known works of an artist (or of all works of one kind, such as the prints), with images, technical data, dates, ownership history, exhibitions and literature for each work.
 
+<!--T:30-->
+; Citation
+: On openCR, the link between a value, or a whole record, and the [[#Source|source]] it comes from, with the place in the source, such as a page. A number in square brackets after a value, such as [1], shows how many citations it has. See [[Sources and citations]].
+
 <!--T:8-->
 ; Component
 : On openCR, a material, support or technique of a work, for example oil, canvas, paper or etching.
@@ -99,6 +103,10 @@ Terms used in catalogues raisonnés and on openCR, in alphabetical order.
 <!--T:25-->
 ; Sight size
 : The measurement of the visible part of a framed work, taken within the frame or mount.
+
+<!--T:31-->
+; <span id="Source"></span>Source
+: Where a piece of information comes from: a publication, a letter, an expert report, an interview, a conversation with the artist, a website. On openCR, a source is entered once and can be cited in any catalogue. See [[Sources and citations]].
 
 <!--T:26-->
 ; Suite

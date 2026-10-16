@@ -2,7 +2,7 @@
 Publicaciones
 
 <!--T:1-->
-Las '''publicaciones''' son la bibliografía de un catálogo: libros, artículos, catálogos de exposición, catálogos razonados, artículos de periódico, folletos, cartas, manuscritos, entrevistas, vídeos y cualquier otro documento que trate del artista o reproduzca las obras. Juntas forman la '''bibliografía''' del artista, y son las fuentes que citan las obras.
+Las '''publicaciones''' son la bibliografía de un catálogo: libros, artículos, catálogos de exposición, catálogos razonados, artículos de periódico, folletos, vídeos y cualquier otra obra publicada que trate del artista o reproduzca las obras. Juntas forman la '''bibliografía''' del artista, y son las fuentes que citan las obras. Las cartas, los correos electrónicos, los certificados, las facturas, los manuscritos y los diarios no publicados no son publicaciones, sino fuentes de su propio tipo; véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:2-->
 Las publicaciones son compartidas: un libro sobre tres artistas es un único registro, enlazado con cada uno de ellos. Esta página explica cómo se registra y se conecta una publicación. Para la lista de secciones, véase [[How openCR is structured/Records and their sections/es#Publicaciones|Registros y sus secciones]]; para cada campo, la [[Field reference/es|Referencia de campos]].
@@ -16,7 +16,7 @@ Las publicaciones son compartidas: un libro sobre tres artistas es un único reg
 <!--T:4-->
 == El formulario principal ==
 === Identidad ===
-* '''Id de Tipo de Publicación''': la clase de publicación. Hay unas 35 clases, entre ellas Libro, Artículo en revista, Artículo de periódico, Catálogo de la exposición, Catálogo razonado, Catálogo, Artículo en catálogo, Revista, Prospecto, Folleto, Interview, Thesis, Nota de prensa, Carta, Manuscript, Video, Audio e Internet (blog/review/etc). Elija la más cercana; en el Menú PRO, la bibliografía puede filtrarse y ordenarse por ella.
+* '''Id de Tipo de Publicación''': la clase de publicación. Hay 23 clases, entre ellas Libro, Artículo en revista, Artículo de periódico, Catálogo de la exposición, Catálogo razonado, Catálogo, Artículo en catálogo, Revista, Prospecto, Folleto, Thesis, Nota de prensa, Video, Audio e Internet (blog/review/etc). Elija la más cercana; en el Menú PRO, la bibliografía puede filtrarse y ordenarse por ella.
 * '''Título''' y '''Subtítulo'''.
 * '''Alias''': el nombre corto (véase más arriba).
 * '''Abreviatura''': una forma corta para las notas a pie de página, si el catálogo la usa.

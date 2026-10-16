@@ -245,8 +245,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Date Day''' || Day the photograph was taken. || number || 
 |-
-| '''Source ID''' || The source the image comes from. || link to a source || 
-|-
 | '''Owner ID''' || Who owns the photograph, for example an archive. || link to a directory entry || 
 |}
 

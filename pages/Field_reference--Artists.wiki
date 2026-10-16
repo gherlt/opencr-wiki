@@ -92,8 +92,6 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 | '''Alias''' || The alternative name. || text<br />'''required''' || 
 |-
 | '''Alias Category ID''' || The kind of name: translated, pseudonym, a spelling used by the artist, or one used by others. || list<br />'''required''' || Translated, Pseudonym, Alternative (by artist), Alternative (by 3rd parties)
-|-
-| '''Source ID''' || Where the name was found, as a directory entry. || link to a source || 
 |}
 
 == Communications ==

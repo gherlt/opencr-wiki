@@ -214,8 +214,6 @@ The table lists, for each kind of record, the links it holds to other kinds and 
 | Directory || ''Collections'' || Institutions holding works by the artist
 |-
 | Directory || ''Collecting Society'' (main form) || The society managing the artist's rights
-|-
-| Directory || alternative names || The source of an alternative name
 |}
 
 <!--T:22-->
@@ -244,6 +242,7 @@ A dealer is linked to a directory entry and to the artists they are cleared for;
 == See also ==
 * [[How openCR is structured]]
 * [[Objects]] · [[Publications]] · [[Events]] · [[Directory]] · [[Artists]]
+* [[Sources and citations]]: where the information comes from
 </translate>
 
 {{Editor guide}}

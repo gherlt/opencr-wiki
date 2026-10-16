@@ -214,8 +214,6 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 | Adressbuch || ''Sammlungen'' || Institutionen, die Werke des Künstlers besitzen
 |-
 | Adressbuch || ''Verwertungsgesellschaft'' (Hauptformular) || Die Gesellschaft, die die Rechte des Künstlers wahrnimmt
-|-
-| Adressbuch || alternative Namen || Die Quelle eines alternativen Namens
 |}
 
 <!--T:22-->
@@ -244,3 +242,4 @@ Ein Händler ist mit einem Adressbucheintrag und mit den Künstlern verknüpft, 
 == Siehe auch ==
 * [[How openCR is structured/de|Wie openCR aufgebaut ist]]
 * [[Objects/de|Werke]] · [[Publications/de|Publikationen]] · [[Events/de|Ereignisse]] · [[Directory/de|Adressbuch]] · [[Artists/de|Künstler]]
+* [[Sources and citations/de|Quellen und Quellenangaben]]: woher die Angaben stammen
