@@ -53,11 +53,12 @@ La página de una obra (''Detalle obra'') reúne todo lo que el catálogo sabe s
 |}
 
 <!--T:5-->
-Los nombres de personas, instituciones, exposiciones y publicaciones suelen ser enlaces: llevan a la página correspondiente, por ejemplo a todo lo que el catálogo contiene sobre una galería. Un pequeño número entre corchetes detrás de un valor, como [1], señala sus fuentes: señálelo con el puntero o tóquelo para verlas (véase [[Sources and citations/es#Leer las fuentes|Leer las fuentes]]).
+Los nombres de personas, instituciones, exposiciones y publicaciones suelen ser enlaces: llevan a la página correspondiente, por ejemplo a todo lo que el catálogo contiene sobre una galería. Un pequeño icono de libro detrás de un valor señala sus fuentes: señálelo con el puntero para ver sus títulos, o haga clic en él o tóquelo para enumerarlas (véase [[Sources and citations/es#Leer las fuentes|Leer las fuentes]]).
 
 <!--T:6-->
 == En la parte inferior ==
-* '''Datos de:''' de dónde procede la información sobre la obra, y la nota de '''copyright''' de las imágenes.
+* '''Fuentes''', si la obra tiene alguna: el número de sus citas y las de la obra en su conjunto, que indican de dónde procede la información sobre la obra (véase [[Sources and citations/es#Leer las fuentes|Leer las fuentes]]).
+* La nota de '''copyright''' de las imágenes.
 * '''Comparte con otros''': enlaces para compartir la página.
 * '''Contacta al artista''': formas de contactar con el artista o con los autores del catálogo, en la medida en que las publiquen. ''EMail a través de open.cr'' abre su propio programa de correo con un mensaje a la dirección del artista en openCR. Utilícelo para hacer una pregunta sobre la obra o para compartir información, por ejemplo si es propietario de la obra o conoce una exposición que falta.
 

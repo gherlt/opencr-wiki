@@ -43,7 +43,7 @@ Addresses are kept in their own form, '''Directory Addresses''', because an entr
 * '''Is Primary''': the main address of the entry. Lists of directory entries show the city and country of the primary address, so mark exactly one address as primary;
 * '''Is Valid''': whether the address is still current;
 * its own '''Public''' tick, so an address can be recorded without being published;
-* its sources, recorded as citations (see [[Sources and citations]]); the current form cannot add them yet.
+* its sources, recorded as citations (see [[Sources and citations]]). They are added on the entry's page, which shows the primary address; other addresses cannot be cited yet.
 
 <!--T:9-->
 == What the public sees ==

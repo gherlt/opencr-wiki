@@ -30,7 +30,7 @@ Begriffe aus Werkverzeichnissen und aus openCR, alphabetisch geordnet nach dem e
 
 <!--T:30-->
 ; Quellenangabe (''citation'')
-: In openCR die Verknüpfung eines Werts oder eines ganzen Datensatzes mit der [[#Source|Quelle]], aus der er stammt, samt der Stelle in der Quelle, etwa einer Seite. Eine Zahl in eckigen Klammern hinter einem Wert, etwa [1], zeigt, wie viele Quellenangaben er hat. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
+: In openCR die Verknüpfung eines Werts oder eines ganzen Datensatzes mit der [[#Source|Quelle]], aus der er stammt, samt der Stelle in der Quelle, etwa einer Seite. Ein kleines Buchsymbol hinter einem Wert kennzeichnet seine Quellenangaben; bei mehreren zeigt es ihre Anzahl. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
 <!--T:8-->
 ; Komponente (''component'')

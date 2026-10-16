@@ -43,7 +43,7 @@ Las direcciones se guardan en un formulario propio, '''Directory Addresses''', p
 * '''Is Primary''': la dirección principal de la entrada. Las listas de entradas del directorio muestran la ciudad y el país de la dirección principal, así que marque exactamente una dirección como principal;
 * '''Is Valid''': si la dirección sigue vigente;
 * su propia casilla '''Public''', para que una dirección pueda registrarse sin publicarse;
-* sus fuentes, registradas como citas (véase [[Sources and citations/es|Fuentes y citas]]); el formulario actual aún no permite añadirlas.
+* sus fuentes, registradas como citas (véase [[Sources and citations/es|Fuentes y citas]]). Se añaden en la página de la entrada, que muestra la dirección principal; las demás direcciones aún no pueden citarse.
 
 <!--T:9-->
 == Lo que ve el público ==

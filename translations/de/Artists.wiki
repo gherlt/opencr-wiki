@@ -55,7 +55,7 @@ Jede andere bekannte Form des Künstlernamens wird als '''alternativer Name''' e
 * ''Alternative (von Dritten)'': eine Schreibweise anderer, zum Beispiel in der Literatur.
 
 <!--T:12-->
-Jeder alternative Name hat einen eigenen Haken ''Public''. Wo ein Name gefunden wurde, wird als Quellenangabe erfasst, die die Seite des Künstlers als Markierung hinter dem Namen zeigt; siehe [[Sources and citations/de|Quellen und Quellenangaben]]. Das Formular für alternative Namen kann noch keine Quellenangaben hinzufügen.
+Jeder alternative Name hat einen eigenen Haken ''Public''. Wo ein Name gefunden wurde, wird als Quellenangabe erfasst, die die Seite des Künstlers als Markierung hinter dem Namen zeigt. In der Ansicht der Bearbeiter fügt die Schaltfläche ''Quelle hinzufügen'' hinter dem Namen eine hinzu; siehe [[Sources and citations/de#Quellenangaben hinzufügen|Quellenangaben hinzufügen]].
 
 <!--T:13-->
 == Kontakte, Beziehungen und Sammlungen ==

@@ -101,7 +101,7 @@ Each type has its own roles. A role marked ''required'' must name a person or be
 
 <!--T:10-->
 === Who may create and change sources ===
-Any editor can create a source. It is saved at once (''Save source''), independently of the record being edited, and from then on it can be cited in any catalogue. A source can be changed only by the editor who created it and by the platform administrator.
+Any editor can create a source. It is saved at once (''Save source and use it'' in the citation pop-up, ''Save source'' in image uploads), independently of the record being edited, and from then on it can be cited in any catalogue. A source can be changed only by the editor who created it and by the platform administrator.
 
 <!--T:11-->
 Scans or photographs of a source, such as a letter or a certificate, are added on the source's page with ''Add scans'', by those who may change the source.
@@ -126,7 +126,7 @@ A citation connects a record, or one of its fields, to a source. It has:
 |}
 
 <!--T:13-->
-Whoever may edit a record may add, change and remove its citations.
+Whoever may edit a record may add, change and remove its citations. The citations of a measurement follow its artwork, those of an address its directory entry, those of a relation either of the two entries it connects, and those of an alternative name its artist. The citations of a source can be changed by those who may change the source.
 
 <!--T:14-->
 === Where in the source ===
@@ -155,19 +155,31 @@ Whoever may edit a record may add, change and remove its citations.
 
 <!--T:15-->
 === Adding citations ===
-Forms with sources have a '''Sources''' panel. It lists the record's citations, grouped by field, and adds new ones with ''Add source''; each field has its own button, which shows how many sources the field has. Citations are saved together with the record: saving the record stores them, cancelling discards them. A source created on the way is kept, because it is saved at once.
+Citations are added on the page of the record itself, in the editors' view (''Edit Mode''): the page of an artwork, an artist, a directory entry, an event, a publication or a source. The buttons appear for those who may edit the record.
+* ''Add source'', a small book with a plus sign after a value, cites that value. Measurements, addresses, relations and alternative names shown on the page have a button of their own.
+* ''Add source for the whole record'', under '''Sources''' at the bottom of the page, cites the record as a whole.
+* ''Edit'' and ''Remove'' are in the box that lists a value's sources and in the ''Sources'' list at the bottom of the page. ''Remove'' asks for confirmation.
+Each button opens the '''citation pop-up'''. ''Save'' stores the citation straight away, on its own, and the page reloads to show it; ''Cancel'' closes the pop-up without saving.
+
+<!--T:21-->
+In the pop-up:
+* '''Field''' appears only when the button stands for several fields, such as the date, place and country of creation: choose the one the source supports.
+* '''Source''': under the list of types, the search box and ''New source'', the pop-up offers three of the sources already cited in the artist's catalogue (for a record without an artist, cited anywhere), as ''Recently used'', ''Most used'' or ''Recently created''; ''Recently created'' takes the newest sources of all. Choosing a type in place of ''All types'' narrows the offer to that type; typing searches all sources by their label in lists. Click a source to choose it; ''Change'' goes back to the list.
+* '''New source''' turns the pop-up into the source form. ''Save source and use it'' saves the source and returns to the citation with the source chosen; ''Back'' returns without it. A chosen source that you may change has ''Edit source''.
+* The other fields, from ''Where in the source'' to ''Public'', are described under [[#Citations|Citations]].
 
 <!--T:16-->
-The panel comes with the new forms that are replacing the current ones; the artwork form does not have it yet. Two places attach sources already:
+Two other places attach sources:
 * '''Uploading images''': ''Mass New Objects Upload'' and the upload of a single image have the optional field ''Source of these images''. Every image of the upload gets a citation to that source, which records where the files came from. This is not the photographer, who is credited on the image itself.
 * '''Copying an artwork''': with ''Copy sources'' (ticked by default), every copied section keeps the citations of its original.
 
 <!--T:17-->
 == Reading sources ==
-* A value with sources has a small number in square brackets after it, such as '''[1]''': the number of its citations. Point at it, tap it or move to it with the keyboard, and a box lists them: the title of each source with the place in it (''p. 14'', ''no. 25''), the quote in its original language, and the comment. Escape closes the box.
+* A value with sources has a small book icon after it, with the number of its citations when there are several. Point at it to see the titles of its sources. Click or tap it, or move to it with the keyboard and press Enter, and a box lists them: the title of each source with the place in it (''p. 14'', ''no. 25''), the quote in its original language, and the comment. Escape, a click elsewhere or the box's close button closes it.
 * Each title is a link. A ''Publication'' source opens the page of the publication. Any other source opens its own '''source page''': type, people (linked to their directory or artist pages), date, place, language, original title, reference number, web address and description, and the records that cite it (''Cited in … records'').
-* On an artwork page, the citations of the work as a whole appear at the bottom, in the line '''Data from:''' (German ''Daten aus:'', Spanish ''Datos de:''). Each measurement shows its own marker.
-* Pages of directory entries, publications, events and artists show markers in the same way, for example at names, dates, addresses and relations.
+* At the bottom of the page, '''Sources''' counts the citations, for example ''3 sources (2 on fields, 1 on the whole record)'', and lists those of the record as a whole, followed by any citation of a field the page does not show.
+* Pages of artworks, directory entries, publications, events, artists and sources show markers in the same way, for example at titles, names, dates, addresses and relations; each measurement of an artwork has its own.
+* The switch '''Accessible view''' at the top of the page puts words next to the icons, makes the buttons larger and writes the sources out under their value instead of in a box. The browser remembers the setting.
 
 <!--T:18-->
 === Who sees what ===

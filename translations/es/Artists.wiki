@@ -55,7 +55,7 @@ Toda otra forma conocida del nombre del artista se registra como '''nombre alter
 * ''Alternativa (por terceros)'': una grafía que usan otros, por ejemplo en la bibliografía.
 
 <!--T:12-->
-Cada nombre alternativo tiene su propia casilla ''Public''. Dónde se encontró un nombre se registra como una cita, que la página del artista muestra como un marcador detrás del nombre; véase [[Sources and citations/es|Fuentes y citas]]. El formulario de nombres alternativos aún no permite añadir citas.
+Cada nombre alternativo tiene su propia casilla ''Public''. Dónde se encontró un nombre se registra como una cita, que la página del artista muestra como un marcador detrás del nombre. En la vista de los editores, el botón ''Añadir fuente'' detrás del nombre añade una; véase [[Sources and citations/es#Añadir citas|Añadir citas]].
 
 <!--T:13-->
 == Contactos, relaciones y colecciones ==

@@ -30,7 +30,7 @@ Terms used in catalogues raisonnés and on openCR, in alphabetical order.
 
 <!--T:30-->
 ; Citation
-: On openCR, the link between a value, or a whole record, and the [[#Source|source]] it comes from, with the place in the source, such as a page. A number in square brackets after a value, such as [1], shows how many citations it has. See [[Sources and citations]].
+: On openCR, the link between a value, or a whole record, and the [[#Source|source]] it comes from, with the place in the source, such as a page. A small book icon after a value marks its citations; with several, it shows how many. See [[Sources and citations]].
 
 <!--T:8-->
 ; Component

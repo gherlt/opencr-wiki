@@ -101,7 +101,7 @@ Cada tipo tiene sus propios papeles. Un papel marcado como ''obligatorio'' debe 
 
 <!--T:10-->
 === Quién puede crear y modificar fuentes ===
-Cualquier editor puede crear una fuente. Se guarda en el acto (''Guardar fuente''), con independencia del registro que se está editando, y a partir de entonces puede citarse en cualquier catálogo. Una fuente solo pueden modificarla el editor que la creó y el administrador de la plataforma.
+Cualquier editor puede crear una fuente. Se guarda en el acto (''Guardar fuente y usarla'' en la ventana emergente de citas, ''Guardar fuente'' al subir imágenes), con independencia del registro que se está editando, y a partir de entonces puede citarse en cualquier catálogo. Una fuente solo pueden modificarla el editor que la creó y el administrador de la plataforma.
 
 <!--T:11-->
 Los escaneos o fotografías de una fuente, como una carta o un certificado, se añaden en la página de la fuente con ''Añadir escaneos'', por quienes pueden modificar la fuente.
@@ -126,7 +126,7 @@ Una cita conecta un registro, o uno de sus campos, con una fuente. Tiene:
 |}
 
 <!--T:13-->
-Quien puede editar un registro puede añadir, modificar y quitar sus citas.
+Quien puede editar un registro puede añadir, modificar y quitar sus citas. Las citas de una medida siguen a su obra; las de una dirección, a su entrada del directorio; las de una relación, a cualquiera de las dos entradas que une, y las de un nombre alternativo, a su artista. Las citas de una fuente pueden modificarlas quienes pueden modificar la fuente.
 
 <!--T:14-->
 === Lugar en la fuente ===
@@ -155,19 +155,31 @@ Quien puede editar un registro puede añadir, modificar y quitar sus citas.
 
 <!--T:15-->
 === Añadir citas ===
-Los formularios con fuentes tienen un panel '''Fuentes'''. Enumera las citas del registro, agrupadas por campo, y añade otras nuevas con ''Añadir fuente''; cada campo tiene su propio botón, que muestra cuántas fuentes tiene el campo. Las citas se guardan junto con el registro: al guardar el registro se almacenan, al cancelar se descartan. Una fuente creada por el camino se conserva, porque se guarda en el acto.
+Las citas se añaden en la página del propio registro, en la vista de los editores (''Modo de edición''): la página de una obra, de un artista, de una entrada del directorio, de un evento, de una publicación o de una fuente. Los botones aparecen para quienes pueden editar el registro.
+* ''Añadir fuente'', un pequeño libro con un signo más detrás de un valor, cita ese valor. Las medidas, direcciones, relaciones y nombres alternativos que se muestran en la página tienen su propio botón.
+* ''Añadir fuente para el registro completo'', bajo '''Fuentes''' al pie de la página, cita el registro en su conjunto.
+* ''Editar'' y ''Quitar'' están en el recuadro que enumera las fuentes de un valor y en la lista ''Fuentes'' al pie de la página. ''Quitar'' pide confirmación.
+Cada botón abre la '''ventana emergente de citas'''. ''Guardar'' almacena la cita en el acto, por sí sola, y la página se recarga para mostrarla; ''Cancelar'' cierra la ventana sin guardar.
+
+<!--T:21-->
+En la ventana:
+* '''Campo''' solo aparece cuando el botón representa varios campos, como la fecha, el lugar y el país de creación: elija aquel que respalda la fuente.
+* '''Fuente''': bajo la lista de tipos, el cuadro de búsqueda y ''Nueva fuente'', la ventana ofrece tres de las fuentes ya citadas en el catálogo del artista (para un registro sin artista, citadas en cualquier lugar), como ''Usadas recientemente'', ''Más usadas'' o ''Creadas recientemente''; ''Creadas recientemente'' toma las fuentes más recientes de todas. Elegir un tipo en lugar de ''Todos los tipos'' limita la oferta a ese tipo; al escribir se buscan todas las fuentes por su etiqueta en listas. Haga clic en una fuente para elegirla; ''Cambiar'' vuelve a la lista.
+* '''Nueva fuente''' convierte la ventana en el formulario de la fuente. ''Guardar fuente y usarla'' guarda la fuente y vuelve a la cita con la fuente elegida; ''Volver'' regresa sin ella. Una fuente elegida que usted puede modificar tiene ''Editar fuente''.
+* Los demás campos, de ''Lugar en la fuente'' a ''Público'', se describen en [[#Citas|Citas]].
 
 <!--T:16-->
-El panel llega con los nuevos formularios que van sustituyendo a los actuales; el formulario de obras aún no lo tiene. Ya hay dos lugares que asignan fuentes:
+Hay otros dos lugares que asignan fuentes:
 * '''Al subir imágenes''': la ''Carga masiva de nuevos objetos'' y la carga de una sola imagen tienen el campo opcional ''Fuente de estas imágenes''. Cada imagen de la carga recibe una cita de esa fuente, que deja constancia de dónde proceden los archivos. No es el fotógrafo, que se acredita en la propia imagen.
 * '''Al copiar una obra''': con ''Copiar fuentes'' (marcado por defecto), cada sección copiada conserva las citas de su original.
 
 <!--T:17-->
 == Leer las fuentes ==
-* Un valor con fuentes lleva detrás un pequeño número entre corchetes, como '''[1]''': el número de sus citas. Señálelo con el puntero, tóquelo o llegue a él con el teclado, y un recuadro las enumera: el título de cada fuente con el lugar dentro de ella (''pág. 14'', ''n.º 25''), la cita textual en su idioma original y el comentario. La tecla Escape cierra el recuadro.
+* Un valor con fuentes lleva detrás un pequeño icono de libro, con el número de sus citas cuando son varias. Señálelo con el puntero para ver los títulos de sus fuentes. Haga clic en él, tóquelo o llegue a él con el teclado y pulse Intro, y un recuadro las enumera: el título de cada fuente con el lugar dentro de ella (''pág. 14'', ''n.º 25''), la cita textual en su idioma original y el comentario. La tecla Escape, un clic fuera o el botón de cierre del recuadro lo cierran.
 * Cada título es un enlace. Una fuente del tipo ''Publicación'' abre la página de la publicación. Cualquier otra fuente abre su propia '''página de la fuente''': tipo, personas (enlazadas a sus páginas del directorio o de artista), fecha, lugar, idioma, título original, número de referencia, dirección web y descripción, y los registros que la citan (''Citada en … registros'').
-* En la página de una obra, las citas de la obra en su conjunto aparecen en la parte inferior, en la línea '''Datos de:''' (en inglés ''Data from:'', en alemán ''Daten aus:''). Cada medida muestra su propio marcador.
-* Las páginas de las entradas del directorio, de las publicaciones, de los eventos y de los artistas muestran marcadores del mismo modo, por ejemplo en nombres, fechas, direcciones y relaciones.
+* Al pie de la página, '''Fuentes''' cuenta las citas, por ejemplo ''3 fuentes (2 en campos, 1 en el registro completo)'', y enumera las del registro en su conjunto, seguidas de las citas de campos que la página no muestra.
+* Las páginas de obras, entradas del directorio, publicaciones, eventos, artistas y fuentes muestran marcadores del mismo modo, por ejemplo en títulos, nombres, fechas, direcciones y relaciones; cada medida de una obra tiene el suyo.
+* El interruptor '''Vista accesible''', en la parte superior de la página, pone palabras junto a los iconos, agranda los botones y escribe las fuentes bajo su valor en lugar de en un recuadro. El navegador recuerda el ajuste.
 
 <!--T:18-->
 === Quién ve qué ===

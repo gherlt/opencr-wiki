@@ -1344,7 +1344,7 @@ The list holds the languages of the world. Most language fields offer only the f
 </div>
 
 == Locators (where in the source) ==
-'''Used in:''' [[Field reference/Sources#Where in the source|Sources → Where in the source]]: ''Locator''.
+'''Used in:''' [[Field reference/Sources#Where in the source|Sources → Where in the source]]: ''Kind of locator''.
 
 Each locator has an abbreviation per language, which is put in front of the value in the reader's language: ''p. 14'', ''S. 14'', ''pág. 14''. Timecode has none. See [[Sources and citations#Where in the source|Where in the source]].
 

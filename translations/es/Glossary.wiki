@@ -30,7 +30,7 @@ Términos usados en los catálogos razonados y en openCR, ordenados alfabéticam
 
 <!--T:30-->
 ; Cita (''citation'')
-: En openCR, el vínculo entre un dato, o un registro entero, y la [[#Source|fuente]] de la que procede, con el lugar dentro de la fuente, como una página. Un número entre corchetes detrás de un dato, como [1], indica cuántas citas tiene. Véase [[Sources and citations/es|Fuentes y citas]].
+: En openCR, el vínculo entre un dato, o un registro entero, y la [[#Source|fuente]] de la que procede, con el lugar dentro de la fuente, como una página. Un pequeño icono de libro detrás de un dato señala sus citas; si son varias, indica cuántas. Véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:8-->
 ; Componente (''component'')

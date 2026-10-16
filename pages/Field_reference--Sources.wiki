@@ -4,7 +4,7 @@ Every field of the [[Sources and citations]] forms, in the order of the form. Fi
 '''Input:''' ''text'', ''number'', ''tick box'', ''list'' (choose from a fixed list) or a link to another record. '''Required''' fields must be filled in before saving. Long lists are shown on the [[Field reference/Base tables|Base tables]] page.
 
 == Source ==
-The form for one source. Which fields it shows depends on the ''Type''; see [[Sources and citations#Source types|Source types]]. A source of the type ''Publication'' has only ''Publication'', ''Label in lists'' and ''Public''. Types that cover a period show the date as ''Date (from)'' and ''Date (to)''. The form opens from the ''Sources'' panel and from ''Source of these images'' in image uploads, with ''New source'' or ''Edit source''; ''Save source'' saves the source at once, independently of the record being edited.
+The form for one source. Which fields it shows depends on the ''Type''; see [[Sources and citations#Source types|Source types]]. A source of the type ''Publication'' has only ''Publication'', ''Label in lists'' and ''Public''. Types that cover a period show the date as ''Date (from)'' and ''Date (to)''. The form opens in the citation pop-up, with ''New source'' or, on the selected source, ''Edit source'', and from ''Source of these images'' in image uploads. The source is saved at once, independently of the record: ''Save source and use it'' in the pop-up, ''Save source'' in uploads; either way it becomes the chosen source.
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
@@ -71,36 +71,36 @@ One line for each role of the type, for example ''Sender'' and ''Recipient'' of 
 |}
 
 == Citations ==
-The ''Sources'' panel of a form lists the citations of the record and adds new ones with ''Add source''. Citations are saved together with the record: saving the record stores them, cancelling discards them. The panel comes with the new forms that are replacing the current ones; the artwork form does not have it yet. Image uploads cite the optional ''Source of these images'' for every uploaded image, as a citation of the whole image. See [[Sources and citations#Adding citations|Adding citations]].
+Citations are added in the citation pop-up, on the pages of artworks, artists, directory entries, events, publications and sources, in the editors' view: ''Add source'' after a value cites that value, ''Add source for the whole record'' under ''Sources'' at the bottom of the page cites the record as a whole. Each citation is saved on its own with ''Save'', and the page reloads to show it; ''Edit'' and ''Remove'' are in the box that lists a value's sources and in the ''Sources'' list at the bottom. Image uploads cite the optional ''Source of these images'' for every uploaded image, as a citation of the whole image. See [[Sources and citations#Adding citations|Adding citations]].
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Field''' || The field the citation supports, or Whole record when the source supports the record as a whole. A field's own add-source button fills it in. || list || 
+| '''Field''' || The field the citation supports. The button that opens the pop-up decides it: the button after a value cites that value, Add source for the whole record at the bottom of the page cites the record as a whole. Where one button stands for several fields, such as the date, place and country of creation, the pop-up asks which of them. || set by the button, or a list || 
 |-
-| '''Source''' || The source cited: an existing source, found by its label in lists, or a new one created on the spot with New source. Before anything is typed, the list offers the sources already cited in the artist's catalogue. || link to a source<br />'''required''' || 
+| '''Source''' || The source cited. Before anything is typed, the pop-up offers three of the sources already cited in the artist's catalogue (for a record without an artist, cited anywhere), as Recently used, Most used or Recently created; Recently created takes the newest sources of all. The list of types narrows it to one type, and the search finds any source by its label in lists. New source creates one on the spot. The chosen source is shown with its type and how often it is cited; Change goes back to the list. || link to a source<br />'''required''' || 
 |-
 | '''Quote''' || The passage that supports the value, word for word, in the language of the source. Quotes are never translated. || long text || 
 |-
 | '''Language of the quote''' || The language of the quote; any language can be chosen. || list || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
 |-
-| '''Public''' || Tick to let visitors see this citation. Visitors see it only when its source is public too. || tick box || 
+| '''Public''' || Tick to show this citation in the public view. Visitors see it only when its source is public too. When the record itself is not public, the pop-up says so. || tick box || 
 |}
 
 == Where in the source ==
-Any number of lines per citation, added with ''Add page, figure …''.
+Any number of lines per citation, added with ''Add page, figure …'' and removed with ''Remove''. Each line is a list and a text box; their names below are what screen readers announce.
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Locator''' || What the value refers to: a page, volume, figure, plate, catalogue number, folio, sheet, timecode or item. Its abbreviation, such as p., fig. or no., is put in front of the value in the reader's language. || list<br />'''required''' || Page, Volume, Figure, Plate, Catalogue number, Folio, Sheet, Timecode, Item
+| '''Kind of locator''' || What the place next to it refers to: a page, volume, figure, plate, catalogue number, folio, sheet, timecode or item. Its abbreviation, such as p., fig. or no., is put in front of the place in the reader's language. || list<br />'''required''' || Page, Volume, Figure, Plate, Catalogue number, Folio, Sheet, Timecode, Item
 |-
-| '''Value''' || The place in the source, as free text of up to 50 characters, such as 14, 12–14 or 00:03:20. A line left empty is not saved. || text || 
+| '''Page, number …''' || The place in the source, as free text of up to 50 characters, such as 14, 12–14 or 00:03:20. A line left empty is not saved. || text || 
 |}
 
 == Citation comment ==
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Language''' || The form has one Comment box per system language, labelled with the language, for example Comment (English). || one box per language || German, English, French, Italian, Spanish
+| '''Language''' || The pop-up has one Comment box per system language, labelled with the language, for example Comment (English). || one box per language || German, English, French, Italian, Spanish
 |-
 | '''Comment''' || A remark on the citation in this language, for example why the source is doubted or how a value was derived from it. Optional: an empty box is not saved. || long text || 
 |}

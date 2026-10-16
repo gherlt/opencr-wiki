@@ -55,7 +55,7 @@ Every other known form of the artist's name is recorded as an '''alternative nam
 * ''Alternative (by 3rd parties)'': a spelling used by others, for example in literature.
 
 <!--T:12-->
-Each alternative name has its own ''Public'' tick. Where a name was found is recorded as a citation, which the artist's page shows as a marker after the name; see [[Sources and citations]]. The form for alternative names cannot add citations yet.
+Each alternative name has its own ''Public'' tick. Where a name was found is recorded as a citation, which the artist's page shows as a marker after the name. In the editors' view, the ''Add source'' button after the name adds one; see [[Sources and citations#Adding citations|Adding citations]].
 
 <!--T:13-->
 == Contacts, relations and collections ==

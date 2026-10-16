@@ -101,7 +101,7 @@ Jede Art hat ihre eigenen Rollen. Eine als ''Pflicht'' markierte Rolle muss eine
 
 <!--T:10-->
 === Wer Quellen anlegen und ändern darf ===
-Jeder Bearbeiter kann eine Quelle anlegen. Sie wird sofort gespeichert (''Quelle speichern''), unabhängig vom gerade bearbeiteten Datensatz, und kann von da an in jedem Werkverzeichnis angeführt werden. Ändern können eine Quelle nur der Bearbeiter, der sie angelegt hat, und der Plattform-Administrator.
+Jeder Bearbeiter kann eine Quelle anlegen. Sie wird sofort gespeichert (''Quelle speichern und verwenden'' im Quellenangaben-Fenster, ''Quelle speichern'' beim Hochladen von Abbildungen), unabhängig vom gerade bearbeiteten Datensatz, und kann von da an in jedem Werkverzeichnis angeführt werden. Ändern können eine Quelle nur der Bearbeiter, der sie angelegt hat, und der Plattform-Administrator.
 
 <!--T:11-->
 Scans oder Fotos einer Quelle, etwa eines Briefs oder eines Zertifikats, werden auf der Seite der Quelle mit ''Scans hinzufügen'' ergänzt, von denen, die die Quelle ändern dürfen.
@@ -126,7 +126,7 @@ Eine Quellenangabe verbindet einen Datensatz oder eines seiner Felder mit einer 
 |}
 
 <!--T:13-->
-Wer einen Datensatz bearbeiten darf, darf auch seine Quellenangaben hinzufügen, ändern und entfernen.
+Wer einen Datensatz bearbeiten darf, darf auch seine Quellenangaben hinzufügen, ändern und entfernen. Die Quellenangaben eines Maßes richten sich nach seinem Werk, die einer Adresse nach ihrem Adressbucheintrag, die einer Beziehung nach einem der beiden Einträge, die sie verbindet, und die eines alternativen Namens nach seinem Künstler. Die Quellenangaben einer Quelle dürfen diejenigen ändern, die die Quelle ändern dürfen.
 
 <!--T:14-->
 === Fundstelle ===
@@ -155,19 +155,31 @@ Wer einen Datensatz bearbeiten darf, darf auch seine Quellenangaben hinzufügen,
 
 <!--T:15-->
 === Quellenangaben hinzufügen ===
-Formulare mit Quellen haben einen Bereich '''Quellen'''. Er listet die Quellenangaben des Datensatzes nach Feldern geordnet auf und fügt mit ''Quelle hinzufügen'' neue hinzu; jedes Feld hat dafür eine eigene Schaltfläche, die zeigt, wie viele Quellen das Feld hat. Quellenangaben werden zusammen mit dem Datensatz gespeichert: Beim Speichern des Datensatzes werden sie übernommen, beim Abbrechen verworfen. Eine unterwegs angelegte Quelle bleibt erhalten, weil sie sofort gespeichert wird.
+Quellenangaben werden auf der Seite des Datensatzes selbst hinzugefügt, in der Ansicht der Bearbeiter (''Bearbeitungsmodus''): auf der Seite eines Werks, eines Künstlers, eines Adressbucheintrags, eines Ereignisses, einer Publikation oder einer Quelle. Die Schaltflächen erscheinen für diejenigen, die den Datensatz bearbeiten dürfen.
+* ''Quelle hinzufügen'', ein kleines Buch mit einem Pluszeichen hinter einem Wert, belegt diesen Wert. Maße, Adressen, Beziehungen und alternative Namen, die auf der Seite stehen, haben eine eigene Schaltfläche.
+* ''Quelle für den ganzen Datensatz hinzufügen'', unter '''Quellen''' am Ende der Seite, belegt den Datensatz als Ganzes.
+* ''Bearbeiten'' und ''Entfernen'' stehen im Kasten, der die Quellen eines Werts auflistet, und in der Liste ''Quellen'' am Ende der Seite. ''Entfernen'' fragt vorher nach.
+Jede Schaltfläche öffnet das '''Quellenangaben-Fenster'''. ''Speichern'' speichert die Quellenangabe sofort und für sich allein, und die Seite lädt neu, um sie zu zeigen; ''Abbrechen'' schließt das Fenster, ohne zu speichern.
+
+<!--T:21-->
+Im Fenster:
+* '''Feld''' erscheint nur, wenn die Schaltfläche für mehrere Felder steht, etwa für Datum, Ort und Land der Entstehung: Wählen Sie das Feld, das die Quelle belegt.
+* '''Quelle''': Unter der Liste der Arten, dem Suchfeld und ''Neue Quelle'' bietet das Fenster drei der Quellen an, die im Werkverzeichnis des Künstlers bereits angeführt sind (bei einem Datensatz ohne Künstler: irgendwo angeführt), als ''Zuletzt verwendet'', ''Am häufigsten verwendet'' oder ''Zuletzt angelegt''; ''Zuletzt angelegt'' nimmt die neuesten aller Quellen. Eine Art statt ''Alle Arten'' beschränkt das Angebot auf diese Art; die Eingabe durchsucht alle Quellen nach ihrer Bezeichnung in Listen. Ein Klick auf eine Quelle wählt sie; ''Ändern'' führt zurück zur Liste.
+* '''Neue Quelle''' macht aus dem Fenster das Formular der Quelle. ''Quelle speichern und verwenden'' speichert die Quelle und kehrt mit ihr als gewählter Quelle zur Quellenangabe zurück; ''Zurück'' kehrt ohne sie zurück. Eine gewählte Quelle, die Sie ändern dürfen, hat ''Quelle bearbeiten''.
+* Die übrigen Felder, von ''Fundstelle'' bis ''Öffentlich'', sind unter [[#Quellenangaben|Quellenangaben]] beschrieben.
 
 <!--T:16-->
-Der Bereich kommt mit den neuen Formularen, die die bisherigen nach und nach ersetzen; das Formular für Werke hat ihn noch nicht. An zwei Stellen lassen sich schon jetzt Quellen zuordnen:
+An zwei weiteren Stellen lassen sich Quellen zuordnen:
 * '''Beim Hochladen von Abbildungen''': Der ''Massen-Upload neuer Objekte'' und das Hochladen einer einzelnen Abbildung haben das optionale Feld ''Quelle dieser Bilder''. Jedes Bild des Uploads erhält eine Quellenangabe zu dieser Quelle, die festhält, woher die Dateien stammen. Das ist nicht der Fotograf, der an der Abbildung selbst genannt wird.
 * '''Beim Kopieren eines Werks''': Mit ''Quellen kopieren'' (standardmäßig angehakt) behält jeder kopierte Bereich die Quellenangaben seines Originals.
 
 <!--T:17-->
 == Quellen lesen ==
-* Ein Wert mit Quellen trägt eine kleine Zahl in eckigen Klammern, etwa '''[1]''': die Anzahl seiner Quellenangaben. Zeigen Sie mit dem Mauszeiger darauf, tippen Sie sie an oder steuern Sie sie mit der Tastatur an, und ein Kasten listet sie auf: den Titel jeder Quelle mit der Stelle darin (''S. 14'', ''Nr. 25''), das Zitat in seiner Originalsprache und den Kommentar. Die Escape-Taste schließt den Kasten.
+* Hinter einem Wert mit Quellen steht ein kleines Buchsymbol, bei mehreren Quellenangaben mit deren Anzahl. Zeigen Sie mit dem Mauszeiger darauf, um die Titel seiner Quellen zu sehen. Klicken oder tippen Sie es an oder steuern Sie es mit der Tastatur an und drücken Sie die Eingabetaste, und ein Kasten listet sie auf: den Titel jeder Quelle mit der Stelle darin (''S. 14'', ''Nr. 25''), das Zitat in seiner Originalsprache und den Kommentar. Die Escape-Taste, ein Klick daneben oder die Schließen-Schaltfläche des Kastens schließt ihn.
 * Jeder Titel ist ein Link. Eine Quelle der Art ''Publikation'' öffnet die Seite der Publikation. Jede andere Quelle öffnet ihre eigene '''Quellenseite''': Art, Personen (verlinkt mit ihren Seiten im Adressbuch oder als Künstler), Datum, Ort, Sprache, Originaltitel, Referenznummer, Webadresse und Beschreibung sowie die Datensätze, die sie anführen (''Zitiert in … Datensätzen'').
-* Auf der Seite eines Werks erscheinen die Quellenangaben zum Werk als Ganzem unten, in der Zeile '''Daten aus:''' (auf Englisch ''Data from:'', auf Spanisch ''Datos de:''). Jedes Maß zeigt seine eigene Markierung.
-* Die Seiten von Adressbucheinträgen, Publikationen, Ereignissen und Künstlern zeigen Markierungen auf dieselbe Weise, zum Beispiel bei Namen, Daten, Adressen und Beziehungen.
+* Am Ende der Seite zählt '''Quellen''' die Quellenangaben, zum Beispiel ''3 Quellen (2 bei Feldern, 1 zum ganzen Datensatz)'', und listet die zum Datensatz als Ganzem auf, gefolgt von Quellenangaben zu Feldern, die die Seite nicht zeigt.
+* Die Seiten von Werken, Adressbucheinträgen, Publikationen, Ereignissen, Künstlern und Quellen zeigen Markierungen auf dieselbe Weise, zum Beispiel bei Titeln, Namen, Daten, Adressen und Beziehungen; jedes Maß eines Werks hat seine eigene.
+* Der Schalter '''Barrierearme Ansicht''' oben auf der Seite setzt Wörter neben die Symbole, vergrößert die Schaltflächen und schreibt die Quellen unter ihrem Wert aus statt in einem Kasten. Der Browser merkt sich die Einstellung.
 
 <!--T:18-->
 === Wer was sieht ===
