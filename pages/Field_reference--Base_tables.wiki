@@ -1228,7 +1228,7 @@ The participating artists (Events Artists) and the participating directory entri
 == Languages ==
 '''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]], [[Field reference/Objects#Notes|Notes]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]); '''Sources''' ([[Field reference/Sources#Source|Source]], [[Field reference/Sources#Source description|Source description]], [[Field reference/Sources#Citations|Citations]], [[Field reference/Sources#Citation comment|Citation comment]]).
 
-The list holds the languages of the world. Most language fields offer only the five system languages (German, English, French, Italian, Spanish); the languages a publication is written in can be any language. The openCR interface itself is available in English, Spanish and German.
+The list holds the languages of the world. Most language fields offer only the five system languages (German, English, French, Italian, Spanish); the languages a publication is written in, the language of a source and the language of a quote can be any language. The openCR interface itself is available in English, Spanish and German.
 
 109 entries:
 <div style="column-width:15em; column-gap:2em;">
