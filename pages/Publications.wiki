@@ -41,9 +41,11 @@ When the record describes a specific extract rather than a whole work, '''Page''
 
 <!--T:8-->
 == Contributors ==
-'''Publications Agents''' lists everyone who contributed: author, editor, co-author, writer, journalist, publisher, gallery, organiser, sponsor and so on. Each entry points to a [[Directory|directory]] entry and gives the role.
-* The byline shown with the publication is made up of the '''authors''' and '''editors'''. Record those roles as such, or the byline stays empty.
-* A contributor can be limited to one part of the publication: an essay, the introduction, the preface, the afterword and so on. Leave this empty when the role applies to the whole publication.
+The '''Agents''' section of a publication lists everyone who contributed: author, editor, co-author, writer, journalist, publisher, gallery, organiser, sponsor and so on. Each entry points to a [[Directory|directory]] entry and gives the role.
+* In ''Edit Mode'', the plus icon next to ''Agents'' opens a pop-up: search the directory by any part of the name, then choose the role and, if needed, the part. The pencil icon before an entry opens the same pop-up to change it; the bin icon after it removes that one role.
+* A person can have several roles on the same publication, for example author and editor. Each role is entered once: openCR refuses the same person with the same role a second time.
+* The byline shown with the publication is made up of the '''authors''' and '''editors'''. Record those roles as such, or the byline stays empty. Someone who is both author and editor appears in it twice.
+* A contributor can be limited to one part of the publication: an essay, the introduction, the preface, the afterword and so on, chosen from the list or typed as a name. Leave this empty when the role applies to the whole publication. As each role is entered only once, someone who wrote both the preface and an essay is recorded once as author, without a part.
 
 <!--T:9-->
 == Featured artists ==

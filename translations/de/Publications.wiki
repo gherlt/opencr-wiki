@@ -41,9 +41,11 @@ Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, halte
 
 <!--T:8-->
 == Mitwirkende ==
-'''Publications Agents''' listet alle Mitwirkenden auf: Autor, Herausgeber, Mitautor, Schriftsteller, Journalist, Verlag, Galerie, Veranstalter, Sponsor usw. Jeder Eintrag verweist auf einen [[Directory/de|Adressbucheintrag]] und nennt die Rolle.
-* Die Verfasserangabe, die mit der Publikation angezeigt wird, setzt sich aus den '''Autoren''' und '''Herausgebern''' zusammen. Erfassen Sie diese Rollen als solche, sonst bleibt die Verfasserangabe leer.
-* Ein Mitwirkender kann auf einen Teil der Publikation beschränkt werden: einen Essay, die Einleitung, das Vorwort, das Nachwort usw. Lassen Sie das leer, wenn die Rolle für die ganze Publikation gilt.
+Der Abschnitt '''Beteiligte''' einer Publikation listet alle Mitwirkenden auf: Autor, Herausgeber, Mitautor, Schriftsteller, Journalist, Verlag, Galerie, Veranstalter, Sponsor usw. Jeder Eintrag verweist auf einen [[Directory/de|Adressbucheintrag]] und nennt die Rolle.
+* Im ''Bearbeitungsmodus'' öffnet das Plus-Symbol neben ''Beteiligte'' ein Pop-up: Suchen Sie im Adressbuch nach einem beliebigen Teil des Namens, wählen Sie dann die Rolle und bei Bedarf den Teil. Das Stift-Symbol vor einem Eintrag öffnet dasselbe Pop-up, um ihn zu ändern; das Papierkorb-Symbol dahinter entfernt genau diese eine Rolle.
+* Eine Person kann bei derselben Publikation mehrere Rollen haben, zum Beispiel Autor und Herausgeber. Jede Rolle wird einmal erfasst: Dieselbe Person mit derselben Rolle ein zweites Mal lehnt openCR ab.
+* Die Verfasserangabe, die mit der Publikation angezeigt wird, setzt sich aus den '''Autoren''' und '''Herausgebern''' zusammen. Erfassen Sie diese Rollen als solche, sonst bleibt die Verfasserangabe leer. Wer zugleich Autor und Herausgeber ist, erscheint darin zweimal.
+* Ein Mitwirkender kann auf einen Teil der Publikation beschränkt werden: einen Essay, die Einleitung, das Vorwort, das Nachwort usw., aus der Liste gewählt oder als Name eingegeben. Lassen Sie das leer, wenn die Rolle für die ganze Publikation gilt. Da jede Rolle nur einmal erfasst wird, steht jemand, der das Vorwort und einen Essay geschrieben hat, einmal als Autor da, ohne Teil.
 
 <!--T:9-->
 == Erwähnte Künstler ==
