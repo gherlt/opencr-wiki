@@ -49,6 +49,13 @@ def base_of(table):
     return t
 
 
+# Section on changing and deleting entries, shown after the intro of the Base tables page.
+BASE_TABLES_EDITING = [
+    '',
+    '== Changing and deleting entries ==', "The lists are edited under ''Dashboard'' → '''Lookup tables'''. Who may change a list depends on the list; a list you may not change opens read-only. Clicking an entry opens it with its fields and its translations.", '', "'''An entry that is still in use cannot be deleted.''' The button '''Delete record''' appears only when no record uses the entry any more. While it is in use, the page has no delete button. Instead, a yellow box at the bottom of the page, below ''Save'' and ''Cancel'', says why: '''Cannot delete — ''name'' is in use:''', followed by one line for each kind of record and field that still uses the entry, with the number of rows in brackets.", "* Under each line, up to ten of these records are listed as links, then ''… and n more''. A link opens, in a new tab, the page where the value can be changed: the artwork in edit mode, the directory entry, the event, the publication, the source, another list, and so on.", "* Records you may not open are only counted (''… and n you may not open''). Some uses have no page of their own, such as account settings and upload defaults; they show only their number.", '', "To delete the entry, change each of these records to another entry or clear the field, then reload the page: once nothing uses the entry, ''Delete record'' appears. It removes the entry together with all its translations, after two confirmations. When an entry is used by many records, as a unit used by thousands of measurements, it is usually better to keep it.", '', "''Delete record'' is not shown on narrow screens such as phones and small tablets; use a wider window. '''Delete all translations''' removes only the translations and keeps the entry.",
+]
+
+
 class Reference:
     def __init__(self, data_dir, tooltips_dir):
         self.data, tips_dir = Path(data_dir), Path(tooltips_dir)
@@ -228,6 +235,7 @@ class Reference:
                "",
                "Each list below names the fields that use it. Some fields offer only part of a list; "
                "the field reference of the form shows exactly which entries."]
+        out.extend(BASE_TABLES_EDITING)
         out.append("\n== Overview ==")
         for vocab in sorted(usage, key=lambda v: self.title(v).lower()):
             out.append(f"* [[#{self.title(vocab)}|{self.title(vocab)}]] ({len([v for v in self.vocab[vocab] if v])})")
