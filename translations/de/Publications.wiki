@@ -44,7 +44,7 @@ Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, halte
 Der Abschnitt '''Beteiligte''' einer Publikation listet alle Mitwirkenden auf: Autor, Herausgeber, Mitautor, Schriftsteller, Journalist, Verlag, Galerie, Veranstalter, Sponsor usw. Jeder Eintrag verweist auf einen [[Directory/de|Adressbucheintrag]] und nennt die Rolle.
 * Im ''Bearbeitungsmodus'' öffnet das Plus-Symbol neben ''Beteiligte'' ein Pop-up: Suchen Sie im Adressbuch nach einem beliebigen Teil des Namens, wählen Sie dann die Rolle und bei Bedarf den Teil. Das Stift-Symbol vor einem Eintrag öffnet dasselbe Pop-up, um ihn zu ändern; das Papierkorb-Symbol dahinter entfernt genau diese eine Rolle.
 * Eine Person kann bei derselben Publikation mehrere Rollen haben, zum Beispiel Autor und Herausgeber. Jede Rolle wird einmal erfasst: Dieselbe Person mit derselben Rolle ein zweites Mal lehnt openCR ab.
-* Die Verfasserangabe, die mit der Publikation angezeigt wird, setzt sich aus den '''Autoren''' und '''Herausgebern''' zusammen. Erfassen Sie diese Rollen als solche, sonst bleibt die Verfasserangabe leer. Wer zugleich Autor und Herausgeber ist, erscheint darin zweimal.
+* Die Verfasserangabe, die mit der Publikation angezeigt wird, setzt sich aus den '''Autoren''', '''Co-Autoren''', '''Schriftstellern''', '''Journalisten''' und '''Herausgebern''' zusammen. Co-Autoren, Schriftsteller und Journalisten tragen ihre Rolle in Klammern, Herausgeber ''(ed.)''. Andere Rollen wie Verleger oder Galerie erscheinen darin nicht. Wer zugleich Autor und Herausgeber ist, erscheint darin zweimal.
 * Ein Mitwirkender kann auf einen Teil der Publikation beschränkt werden: einen Essay, die Einleitung, das Vorwort, das Nachwort usw., aus der Liste gewählt oder als Name eingegeben. Lassen Sie das leer, wenn die Rolle für die ganze Publikation gilt. Da jede Rolle nur einmal erfasst wird, steht jemand, der das Vorwort und einen Essay geschrieben hat, einmal als Autor da, ohne Teil.
 
 <!--T:9-->
@@ -92,7 +92,7 @@ Haken Sie dann ''Veröffentlichbar'' an.
 == Häufige Fehler ==
 * '''Duplikate.''' Suchen Sie eine Publikation, bevor Sie sie anlegen; sie wurde vielleicht für einen anderen Künstler erfasst.
 * '''Fehlt in der Bibliographie.''' Erscheint eine Publikation nicht in der Bibliographie eines Künstlers, prüfen Sie zuerst ''Erwähnte Künstler'': Meist fehlt der Eintrag des Künstlers oder sein Schalter ''Use In Web''.
-* '''Leere Verfasserangabe.''' Autoren, die mit einer anderen Rolle wie ''Schriftsteller'' erfasst sind, erscheinen nicht in der Verfasserangabe.
+* '''Leere Verfasserangabe.''' In der Verfasserangabe erscheinen nur Autoren, Co-Autoren, Schriftsteller, Journalisten und Herausgeber. Wer einen Text verfasst hat, aber mit einer anderen Rolle wie ''Veranstalter'' erfasst ist, erscheint dort nicht.
 * '''Titel und übergeordnetes Werk verwechselt.''' Bei einem Artikel gehört der Titel des Artikels in ''Titel'', die Zeitschrift oder das Buch in ''Veröffentlichung''.
 * '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Publikationen wird einmal erfasst.
 

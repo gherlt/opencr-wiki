@@ -44,7 +44,7 @@ Cuando el registro describe un extracto concreto y no una obra completa, '''Pág
 La sección '''Partícipes''' de una publicación enumera a todos los que contribuyeron: autor, editor, coautor, escritor, periodista, editorial, galería, organizador, patrocinador, etc. Cada entrada remite a una entrada del [[Directory/es|directorio]] e indica la función.
 * En el ''Modo de edición'', el icono de más junto a ''Partícipes'' abre una ventana emergente: busque en el directorio por cualquier parte del nombre y elija después la función y, si hace falta, la parte. El icono del lápiz delante de una entrada abre la misma ventana para modificarla; el icono de la papelera detrás de ella elimina solo esa función.
 * Una persona puede tener varias funciones en la misma publicación, por ejemplo autor y editor. Cada función se registra una vez: openCR rechaza la misma persona con la misma función por segunda vez.
-* La autoría que se muestra con la publicación se compone de los '''autores''' y los '''editores'''. Registre esas funciones como tales, o la autoría quedará vacía. Quien es a la vez autor y editor aparece en ella dos veces.
+* La autoría que se muestra con la publicación se compone de los '''autores''', '''coautores''', '''escritores''', '''periodistas''' y '''editores'''. Coautores, escritores y periodistas llevan su función entre paréntesis, los editores ''(ed.)''. Otras funciones, como editorial o galería, no aparecen en ella. Quien es a la vez autor y editor aparece en ella dos veces.
 * Un colaborador puede limitarse a una parte de la publicación: un ensayo, la introducción, el prefacio, el epílogo, etc., elegida de la lista o escrita como nombre. Déjelo vacío cuando la función se aplica a toda la publicación. Como cada función se registra una sola vez, quien escribió el prefacio y un ensayo figura una vez como autor, sin parte.
 
 <!--T:9-->
@@ -92,7 +92,7 @@ Después marque ''Publicable''.
 == Errores frecuentes ==
 * '''Duplicados.''' Antes de crear una publicación, búsquela; puede que se haya introducido para otro artista.
 * '''Ausente de la bibliografía.''' Cuando una publicación no aparece en la bibliografía de un artista, compruebe primero ''Artistas tratados'': normalmente falta la entrada del artista o su interruptor ''Use In Web''.
-* '''Autoría vacía.''' Los autores introducidos con otra función, como ''Escritor'', no aparecen en la autoría.
+* '''Autoría vacía.''' En la autoría solo aparecen autores, coautores, escritores, periodistas y editores. Quien escribió un texto pero figura con otra función, como ''Organizador'', no aparece en ella.
 * '''Título y obra contenedora confundidos.''' En un artículo, el título del artículo va en ''Título'', y la revista o el libro en ''Publicación''.
 * '''Relaciones en espejo.''' Una relación entre dos publicaciones se introduce una sola vez.
 
