@@ -118,7 +118,7 @@ Viele Abschnitte eines Werks können sich auf das ganze Werk oder auf einen sein
 |-
 | Werkeigenschaften || ✓ || ✓ || ✓
 |-
-| Notizen/Kommentare || ✓ || ✓ || ✓
+| Anmerkungen || – || ✓ || ✓
 |-
 | Objektmaße || ✓ || ✓ || ✓
 |-

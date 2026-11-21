@@ -49,8 +49,6 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Reference''' || A citation key or reference code. Searchable. || text || 
 |-
-| '''Comments''' || Internal notes for editors. Not published. || text || 
-|-
 | '''ISBN (books)''' || ISBN of a book. || text || 
 |-
 | '''ISSN (magazines)''' || ISSN of a magazine or series. || text || 

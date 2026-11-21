@@ -118,7 +118,7 @@ Muchas secciones de una obra pueden referirse a la obra entera o a una de sus pa
 |-
 | Atributos de obras || ✓ || ✓ || ✓
 |-
-| Observaciones || ✓ || ✓ || ✓
+| Observaciones || – || ✓ || ✓
 |-
 | Medidas objeto || ✓ || ✓ || ✓
 |-

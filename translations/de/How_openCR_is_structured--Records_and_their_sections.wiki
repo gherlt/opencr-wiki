@@ -38,7 +38,7 @@ Diese Seite listet die Abschnitte jeder Entität auf, so benannt, wie sie in den
 |-
 | Ausstellungen || Die Ausstellungen, in denen das Werk gezeigt wurde
 |-
-| Notizen/Kommentare || Zur Veröffentlichung bestimmte Notizen zum Werk
+| Anmerkungen || Notizen zum Werk, öffentlich oder nicht, auf der Seite des Werks hinzugefügt
 |-
 | Tags Inhalt || Die Tags des Künstlers, die zu diesem Werk passen
 |-

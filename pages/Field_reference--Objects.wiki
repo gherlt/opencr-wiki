@@ -45,8 +45,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''All CreationDateQualifierID'''<br /><small>(Qualifier of creation date)</small> || How certain the creation date is, for example approximate, before or after. Use it instead of leaving the date empty. || list || approximate, exact, estimate, minimum, unknown, earliest, after, before, at latest, unverified, unlimited, in part
 |-
-| '''Notes''' || Internal notes for editors. Never published; notes for readers go into the Notes section. || long text || 
-|-
 | '''Location of creation''' || Place where the work was made. || text || 
 |-
 | '''All Creation Country'''<br /><small>(Country of creation)</small> || Country where the work was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
@@ -78,8 +76,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 | '''Unique PresentLocationCountryID'''<br /><small>(Current Location of object)</small> || For unique works: the country where the work is now. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
 |-
 | '''Conservation State''' || For unique works: the state of conservation, such as condition and restorations. || text || 
-|-
-| '''Comments''' || Internal comments for editors. Not published. || text || 
 |-
 | '''Lido Record Id'''<br /><small>(ID of the LIDO record)</small> || Identifier of the record in the LIDO file the artwork was imported from (LIDO is a data exchange format for museum objects). Filled by imports. || text || 
 |-
@@ -435,23 +431,6 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 | '''Lender''' || Who lent the work. || link to a directory entry || 
 |-
 | '''used title''' || Title under which the work was shown, if different from its main title. || text || 
-|}
-
-== Notes ==
-{| class="wikitable" style="width:100%"
-! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
-|-
-| '''Edition'''<br /><small>(not in the forms)</small> || Limits the entry to one print edition. Leave empty when it applies to the whole work. || link to a print edition || 
-|-
-| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
-|-
-| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
-|-
-| '''Language'''<br /><small>(Language ID)</small> || Language of the note; one entry per language. || list<br />'''required''' || German, English, French, Italian, Spanish
-|-
-| '''Description''' || Heading of the note, for example "Inscription". || text || 
-|-
-| '''Notes''' || The text of the note, as published. || long text || 
 |}
 
 == Object tags ==

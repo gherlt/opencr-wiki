@@ -48,8 +48,8 @@ Je nach Objekttyp gelten weitere Felder:
 * '''Unikate:''' der heutige Standort und der Erhaltungszustand.
 
 <!--T:10-->
-=== Interne Notizen ===
-Das Feld '''Anmerkungen''' im Hauptformular ist nur für die Bearbeiter und wird nie veröffentlicht. Notizen für die Leser gehören in den Abschnitt '''Notizen/Kommentare''', ein Eintrag je Sprache.
+=== Anmerkungen ===
+Notizen werden nicht in einem Formular erfasst. Auf der Seite des Werks hat der Block '''Anmerkungen''' im Bearbeitungsmodus ein Symbol zum Hinzufügen, das das Notiz-Fenster öffnet; Stift und Papierkorb neben einer Notiz ändern oder löschen sie. Eine Notiz hat eine '''Art''', ist '''Öffentlich''' oder nicht und enthält einen Text je Sprache, jeweils mit optionalem Titel. Nicht öffentliche Notizen sehen nur die Bearbeiter des Werkverzeichnisses. Öffentliche Notizen erscheinen auf der Werkseite in der Sprache des Besuchers; fehlt einer Notiz der Text in dieser Sprache, wird eine automatische Übersetzung angezeigt. Im Bearbeitungsmodus zeigt jede Notiz alle ihre Texte und nennt einen fehlenden deutschen, englischen oder spanischen Text, mit einer Schaltfläche, die die Übersetzung zur Prüfung vorbereitet. Jede Grafikauflage und jede Skulpturauflage hat ihren eigenen Block '''Anmerkungen'''.
 
 <!--T:11-->
 == Das Werk beschreiben ==

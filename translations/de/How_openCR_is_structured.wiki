@@ -77,7 +77,7 @@ Nichts wird versehentlich veröffentlicht. Mehrere Einstellungen entscheiden, wa
 * '''Veröffentlichbar''' in vielen Abschnitten: Einzelne Einträge können verborgen bleiben, während der Datensatz selbst veröffentlicht ist. Ein Werk kann öffentlich sein, während ein Eintrag seiner Provenienz privat bleibt.
 * '''Datenschutzeinstellungen im Adressbuch''': Ein Adressbucheintrag kann aus Sammlungslisten, aus Provenienzen oder aus Verkaufsdaten ausgeblendet werden, jeweils getrennt, oder auf das Werkverzeichnis eines einzigen Künstlers beschränkt werden. So kann ein Sammler im Werkverzeichnis erscheinen, ohne dass seine Käufe öffentlich werden.
 * '''Art des Datensatzes''' bei Werken: ''Hauptdaten'' sind die Werke selbst. ''Korrekturdaten'' und ''Ergänzungsdaten'' sind zusätzliche Datensätze, die einem Hauptdatensatz zugeordnet sind (über ''Übergeordnetes Objekt''); sie erscheinen in Listen und Berichten nie als eigene Werke.
-* '''Interne Felder''': Manche Felder sind nur für die Bearbeiter. Beachten Sie, dass das Hauptformular des Werks ein Feld ''Anmerkungen'' für interne Notizen hat, während der Abschnitt '''Notizen/Kommentare''' die zur Veröffentlichung bestimmten Notizen enthält.
+* '''Nicht öffentliche Notizen''': Jede Notiz hat ihren eigenen Schalter '''Öffentlich'''. Eine nicht öffentliche Notiz sehen nur die Bearbeiter des Werkverzeichnisses, auch bei einem öffentlichen Datensatz.
 
 <!--T:17-->
 == Sprachen ==

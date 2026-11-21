@@ -37,7 +37,7 @@ When the record describes a specific extract rather than a whole work, '''Page''
 
 <!--T:7-->
 === Internal ===
-'''Comments''' is for internal notes and is not published. '''Public''' publishes the publication; leave it unticked until the record is complete.
+'''Public''' publishes the publication; leave it unticked until the record is complete. Internal remarks go into private notes on the publication's page (see [[Objects#Notes|notes]]).
 
 <!--T:8-->
 == Contributors ==

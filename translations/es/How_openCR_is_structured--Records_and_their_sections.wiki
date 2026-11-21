@@ -38,7 +38,7 @@ Esta página enumera las secciones de cada entidad, con el nombre que tienen en 
 |-
 | Exposiciones || Las exposiciones en las que se mostró la obra
 |-
-| Observaciones || Notas sobre la obra destinadas a publicarse
+| Observaciones || Notas sobre la obra, públicas o no, añadidas en la página de la obra
 |-
 | Marcadores de Contenido || Los marcadores de contenido del artista que corresponden a esta obra
 |-

@@ -38,7 +38,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 |-
 | Exhibitions || The exhibitions where the work was shown
 |-
-| Notes || Notes about the work meant for publication
+| Notes || Remarks on the work, public or private, added on the artwork's page
 |-
 | Object tags || The artist's tags that apply to this work
 |-

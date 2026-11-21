@@ -37,7 +37,7 @@ Cuando el registro describe un extracto concreto y no una obra completa, '''Pág
 
 <!--T:7-->
 === Interno ===
-'''Comentarios''' es para notas internas y no se publica. '''Publicable''' publica la publicación; déjelo sin marcar hasta que el registro esté completo.
+'''Publicable''' publica la publicación; déjelo sin marcar hasta que el registro esté completo. Las observaciones internas van en notas no públicas en la página de la publicación (véase [[Objects/es#Observaciones|notas]]).
 
 <!--T:8-->
 == Colaboradores ==

@@ -77,7 +77,7 @@ Nada se publica por accidente. Varios ajustes deciden lo que ve un visitante:
 * '''Publicable''' en muchas secciones: entradas concretas pueden quedar ocultas aunque el registro esté publicado. Una obra puede ser pública mientras una entrada de su historial de propiedad sigue siendo privada.
 * '''Ajustes de privacidad en el directorio''': una entrada del directorio puede ocultarse de las listas de colecciones, de los historiales de propiedad o de los registros de ventas, cada cosa por separado, o limitarse al catálogo de un solo artista. Así un coleccionista puede aparecer en el catálogo sin que sus compras se hagan públicas.
 * '''Tipo de registro''' en las obras: los ''datos principales'' son las obras mismas. Los ''datos corrección'' y los ''datos suplementarios'' son registros adicionales vinculados a un registro principal (mediante ''Objeto matriz''); nunca aparecen como obras propias en listas e informes.
-* '''Campos internos''': algunos campos son solo para los editores. Tenga en cuenta que el formulario principal de la obra tiene un campo llamado ''Observaciones'' para notas internas, mientras que la sección '''Observaciones''' contiene las notas destinadas a publicarse.
+* '''Notas no públicas''': cada nota tiene su propia casilla '''Público'''. Una nota no pública solo la ven los editores del catálogo, aunque el registro sea público.
 
 <!--T:17-->
 == Idiomas ==

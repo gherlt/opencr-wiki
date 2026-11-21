@@ -37,7 +37,7 @@ Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, halte
 
 <!--T:7-->
 === Intern ===
-'''Kommentare''' ist für interne Notizen und wird nicht veröffentlicht. '''Veröffentlichbar''' veröffentlicht die Publikation; lassen Sie es ohne Haken, bis der Datensatz vollständig ist.
+'''Veröffentlichbar''' veröffentlicht die Publikation; lassen Sie es ohne Haken, bis der Datensatz vollständig ist. Interne Bemerkungen gehören in nicht öffentliche Notizen auf der Seite der Publikation (siehe [[Objects/de#Anmerkungen|Notizen]]).
 
 <!--T:8-->
 == Mitwirkende ==

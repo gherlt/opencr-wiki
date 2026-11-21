@@ -48,8 +48,8 @@ Según el tipo de obra se aplican otros campos:
 * '''Obras únicas:''' la ubicación actual y el estado de conservación.
 
 <!--T:10-->
-=== Notas internas ===
-El campo '''Observaciones''' del formulario principal es solo para los editores y nunca se publica. Las notas destinadas a los lectores van en la sección '''Observaciones''', una entrada por idioma.
+=== Observaciones ===
+Las notas no se introducen en un formulario. En la página de la obra, en modo de edición, el bloque '''Observaciones''' tiene un icono para añadir que abre la ventana de la nota; el lápiz y la papelera junto a una nota la modifican o la eliminan. Una nota tiene un '''Tipo''', es '''Público''' o no, y contiene un texto por idioma, cada uno con un título opcional. Las notas no públicas solo las ven los editores del catálogo. Las notas públicas aparecen en la página de la obra en el idioma del visitante; si una nota no tiene texto en ese idioma, se muestra una traducción automática. En modo de edición, cada nota muestra todos sus textos e indica si falta el texto en alemán, inglés o español, con un botón que prepara la traducción para revisarla. Cada edición de obra gráfica y cada edición de escultura tiene su propio bloque '''Observaciones'''.
 
 <!--T:11-->
 == Describir la obra ==

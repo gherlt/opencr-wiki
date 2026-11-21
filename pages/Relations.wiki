@@ -118,7 +118,7 @@ Many sections of an artwork can refer either to the whole work or to one of its 
 |-
 | Object attributes || ✓ || ✓ || ✓
 |-
-| Notes || ✓ || ✓ || ✓
+| Notes || – || ✓ || ✓
 |-
 | Object Measurements || ✓ || ✓ || ✓
 |-

@@ -48,8 +48,8 @@ Depending on the object type, further fields apply:
 * '''Unique works:''' the present location and the conservation state.
 
 <!--T:10-->
-=== Internal notes ===
-The '''Notes''' field on the main form is for editors only and is never published. Notes meant for readers go into the '''Notes''' section, one entry per language.
+=== Notes ===
+Notes are not entered in a form. On the artwork's page in edit mode, the '''Notes''' block has an add icon that opens the note pop-up; the pencil and the bin next to a note change or delete it. A note has a '''Type''', is '''Public''' or not, and holds one text per language, each with an optional title. Private notes are seen only by the catalogue's editors. Public notes appear on the artwork page in the visitor's language; where a note has no text in that language, an automatic translation is shown. In edit mode each note lists all its texts and names a missing German, English or Spanish text, with a button that drafts the translation for checking. Each print edition and sculpture edition has its own '''Notes''' block.
 
 <!--T:11-->
 == Describing the work ==

@@ -77,7 +77,7 @@ Nothing is published by accident. Several settings decide what a visitor sees:
 * '''Public''' in many sections: single entries can stay hidden while the record itself is published. An artwork can be public while one entry of its ownership history stays private.
 * '''Privacy settings in the directory''': a directory entry can be hidden from collection lists, from ownership histories or from sales records, each separately, or limited to a single artist's catalogue. This lets a collector appear in the catalogue without their purchases becoming public.
 * '''Record type''' on artworks: ''main data'' are the artworks themselves. ''Correction data'' and ''supplementary data'' are additional records attached to a main record (through ''Parent object''); they never appear as artworks of their own in lists and reports.
-* '''Internal fields''': some fields are for editors only. Note that the artwork's main form has a field called ''Notes'' for internal notes, while the '''Notes''' section holds the notes meant for publication.
+* '''Private notes''': every note has its own '''Public''' switch. A private note is seen only by the catalogue's editors, even on a public record.
 
 <!--T:17-->
 == Languages ==
