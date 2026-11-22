@@ -119,7 +119,7 @@ Check that the work has:
 * only those ownership and sales entries public that may be public.
 
 <!--T:22-->
-The ''PRO menu'' offers '''Verification lists''' that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, objects with more than one main image, duplicated titles or references, and missing translations. Then tick ''Public''.
+The ''PRO menu'' leads to '''Data maintenance''', with lists that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, objects with more than one main image, duplicated titles or references, and missing translations. The lists are grouped by subject (''Objects'', ''Images'', ''Publications'', ''Events'', ''Sources and citations'', ''Other''); click a heading to open it. Then tick ''Public''.
 
 <!--T:23-->
 == Common pitfalls ==

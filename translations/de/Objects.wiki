@@ -119,7 +119,7 @@ Prüfen Sie, ob das Werk Folgendes hat:
 * nur diejenigen Provenienz- und Verkaufseinträge öffentlich, die öffentlich sein dürfen.
 
 <!--T:22-->
-Das ''PRO-Menü'' bietet '''Überprüfungslisten''', die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Haken Sie dann ''Veröffentlichbar'' an.
+Das ''PRO-Menü'' führt zur '''Datenpflege''' mit Listen, die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Die Listen sind nach Themen gruppiert (''Werke'', ''Bilder'', ''Publikationen'', ''Events'', ''Quellen und Quellenangaben'', ''Sonstiges''); ein Klick auf eine Überschrift öffnet sie. Haken Sie dann ''Veröffentlichbar'' an.
 
 <!--T:23-->
 == Häufige Fehler ==

@@ -119,7 +119,7 @@ Compruebe que la obra tiene:
 * públicas solo las entradas de propiedad y de ventas que puedan serlo.
 
 <!--T:22-->
-El ''Menú PRO'' ofrece '''Listados de verificación''' que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, obras con más de una imagen principal, títulos o referencias duplicados y traducciones que faltan. Después marque ''Publicable''.
+El ''Menú PRO'' lleva a '''Mantenimiento de datos''', con listados que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, obras con más de una imagen principal, títulos o referencias duplicados y traducciones que faltan. Los listados están agrupados por tema (''Obras'', ''Imágenes'', ''Publicaciones'', ''Eventos'', ''Fuentes y citas'', ''Otros''); haga clic en un encabezado para abrirlo. Después marque ''Publicable''.
 
 <!--T:23-->
 == Errores frecuentes ==
