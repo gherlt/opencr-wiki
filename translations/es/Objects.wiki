@@ -99,7 +99,7 @@ Ambas listas pueden rellenarse también desde el otro lado: desde la [[Publicati
 <!--T:19-->
 == Imágenes ==
 Suba las imágenes desde la obra o, para muchas obras a la vez, con ''Carga masiva de nuevos objetos''. Para cada imagen:
-* Marque '''exactamente una''' imagen por obra como '''Is Main Image Web''': será la miniatura en listas y galerías. Sin ninguna, la obra aparece como una casilla vacía; con varias, la miniatura se elige de forma imprevisible.
+* Marque '''exactamente una''' imagen por obra como '''Is Main Image Web''': será la miniatura en listas y galerías. Sin ninguna, la obra aparece como una casilla vacía; con varias, la miniatura se elige de forma imprevisible. El listado ''Objetos con varias o ninguna imagen principal'' de ''Mantenimiento de datos'' encuentra ambos casos.
 * '''Use For Web''' y '''Use For CR''' deciden por separado si la imagen aparece en el sitio web y en el catálogo razonado impreso.
 * Indique el '''Fotógrafo''', describa lo que muestra la imagen (anverso, reverso, detalle, firma) y use la casilla ''Publicable'' propia de la imagen.
 * Una imagen pertenece exactamente a una cosa: la obra entera, una de sus partes o una de sus ediciones.
@@ -119,7 +119,7 @@ Compruebe que la obra tiene:
 * públicas solo las entradas de propiedad y de ventas que puedan serlo.
 
 <!--T:22-->
-El ''Menú PRO'' lleva a '''Mantenimiento de datos''', con listados que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, obras con más de una imagen principal, títulos o referencias duplicados y traducciones que faltan. Los listados están agrupados por tema (''Obras'', ''Imágenes'', ''Publicaciones'', ''Eventos'', ''Fuentes y citas'', ''Otros''); haga clic en un encabezado para abrirlo. Después marque ''Publicable''.
+El ''Menú PRO'' lleva a '''Mantenimiento de datos''', con listados que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, títulos o referencias duplicados y traducciones que faltan. El listado ''Objetos con varias o ninguna imagen principal'' (en ''Imágenes'') muestra las imágenes en cuestión con su tamaño en píxeles, y ''Hacer imagen principal'' bajo la imagen correcta corrige la obra en el acto. Los listados están agrupados por tema (''Obras'', ''Imágenes'', ''Publicaciones'', ''Eventos'', ''Fuentes y citas'', ''Otros''); haga clic en un encabezado para abrirlo. Después marque ''Publicable''.
 
 <!--T:23-->
 == Errores frecuentes ==

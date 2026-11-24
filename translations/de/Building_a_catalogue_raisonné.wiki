@@ -42,7 +42,7 @@ Die Reihenfolge ist eine Orientierung, keine Regel. In der Praxis wächst das Ad
 <!--T:7-->
 === Ein Werk erfassen ===
 Innerhalb eines Werks hat sich diese Reihenfolge bewährt:
-# '''Hauptdaten:''' Titel (oder bei Werken ohne Titel den Haken bei ''Hat Titel'' entfernen), ''Art von Werk'', Entstehungsdatum, ''Interne Referenz''. Lassen Sie ''Veröffentlichbar'' leer.
+# '''Hauptdaten:''' Titel (oder bei Werken ohne Titel den Haken bei ''Hat Titel'' entfernen), ''Objekttyp'', Entstehungsdatum, ''Interne Referenz''. Lassen Sie ''Veröffentlichbar'' leer.
 # '''Bestandteile''', wenn das Werk aus mehreren Teilen besteht. Andere Abschnitte können sich auf einen einzelnen Teil beziehen, daher müssen die Teile zuerst existieren.
 # '''Physische Beschreibung:''' ''Komponenten'', ''Objektmaße'', ''Werkeigenschaften'' (Signaturen und Inschriften).
 # '''Personen und Geschichte:''' ''Beteiligte'', ''Provenienz'', ''Transaktionen'', ''Objects Actions''.
@@ -75,7 +75,7 @@ Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht ang
 <!--T:14-->
 # '''Erfassen''' Sie den Datensatz, ohne ''Veröffentlichbar'' anzuhaken, und vervollständigen Sie seine Abschnitte.
 # '''Prüfen''' Sie das Werkverzeichnis im ''PRO-Menü'', das Entwürfe und veröffentlichte Datensätze nebeneinander zeigt und direkt zum Bearbeiten springen lässt.
-# '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), eine ''Art von Werk'' und ein Hauptbild für das Web. Ohne Hauptbild erscheint das Werk in den Galerieansichten als leere Kachel.
+# '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), einen ''Objekttyp'' und ein Hauptbild für das Web. Ohne Hauptbild erscheint das Werk in den Galerieansichten als leere Kachel.
 # '''Heikle Einträge prüfen''': Provenienzen und Verkäufe sollten nur mit Zustimmung der Eigentümer öffentlich sein. Verwenden Sie den Haken ''Veröffentlichbar'' des einzelnen Eintrags oder die Datenschutzeinstellungen des Adressbucheintrags.
 # '''Veröffentlichen''' Sie, indem Sie ''Veröffentlichbar'' anhaken.
 

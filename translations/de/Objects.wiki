@@ -29,7 +29,7 @@ Das Hauptformular enthält die Grunddaten des Werks.
 
 <!--T:7-->
 === Klassifizierung ===
-* '''Art von Werk''' gibt an, was für ein Werk es ist: Gemälde, Grafik, Skulptur, Zeichnung, Fotografie, Installation usw. Das Feld ist Pflicht und entscheidet, welche typspezifischen Felder gelten (siehe unten).
+* '''Objekttyp''' gibt an, was für ein Werk es ist: Gemälde, Grafik, Skulptur, Zeichnung, Fotografie, Installation usw. Das Feld ist Pflicht und entscheidet, welche typspezifischen Felder gelten (siehe unten).
 * '''Art des Datensatzes''' ist ''Hauptdaten'' für das Kunstwerk selbst. Wählen Sie ''Korrekturdaten'' oder ''Ergänzungsdaten'' nur für einen zusätzlichen Datensatz, der ein bestehendes Werk korrigiert oder ergänzt, und verknüpfen Sie ihn über '''Übergeordnetes Objekt''' mit diesem Werk. Solche Datensätze erscheinen nie als eigene Werke.
 * Woher die Angaben stammen, wird mit '''Quellen''' festgehalten: für das Werk als Ganzes, für einzelne Felder und für jedes Maß. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
@@ -99,7 +99,7 @@ Beide Listen lassen sich auch von der anderen Seite aus füllen: von der [[Publi
 <!--T:19-->
 == Abbildungen ==
 Laden Sie Abbildungen beim Werk hoch oder für viele Werke auf einmal mit ''Massen-Upload neuer Objekte''. Für jede Abbildung gilt:
-* Markieren Sie '''genau eine''' Abbildung je Werk als '''Is Main Image Web''': Sie wird zum Vorschaubild in Listen und Galerien. Ohne eine solche erscheint das Werk als leere Kachel; bei mehreren wird das Vorschaubild unvorhersehbar gewählt.
+* Markieren Sie '''genau eine''' Abbildung je Werk als '''Is Main Image Web''': Sie wird zum Vorschaubild in Listen und Galerien. Ohne eine solche erscheint das Werk als leere Kachel; bei mehreren wird das Vorschaubild unvorhersehbar gewählt. Die Liste ''Objekte mit mehreren oder ohne Hauptbild'' in der ''Datenpflege'' findet beide Fälle.
 * '''Use For Web''' und '''Use For CR''' entscheiden getrennt, ob die Abbildung auf der Website und im gedruckten Werkverzeichnis erscheint.
 * Nennen Sie den Fotografen ('''Fotograf'''), beschreiben Sie, was die Abbildung zeigt (Vorderseite, Rückseite, Detail, Signatur), und verwenden Sie den eigenen Haken ''Veröffentlichbar'' der Abbildung.
 * Eine Abbildung gehört zu genau einer Sache: dem ganzen Werk, einem seiner Bestandteile oder einer seiner Auflagen.
@@ -113,13 +113,13 @@ Laden Sie Abbildungen beim Werk hoch oder für viele Werke auf einmal mit ''Mass
 == Vor dem Veröffentlichen ==
 Prüfen Sie, ob das Werk Folgendes hat:
 * einen Titel oder, bei einem Werk ohne Titel, ''Hat Titel'' ohne Haken;
-* eine ''Art von Werk'';
+* einen ''Objekttyp'';
 * genau ein Hauptbild für das Web;
 * Materialien, Maße und ein Entstehungsjahr, soweit bekannt;
 * nur diejenigen Provenienz- und Verkaufseinträge öffentlich, die öffentlich sein dürfen.
 
 <!--T:22-->
-Das ''PRO-Menü'' führt zur '''Datenpflege''' mit Listen, die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, Werke mit mehr als einem Hauptbild, doppelte Titel oder Referenzen und fehlende Übersetzungen. Die Listen sind nach Themen gruppiert (''Werke'', ''Bilder'', ''Publikationen'', ''Events'', ''Quellen und Quellenangaben'', ''Sonstiges''); ein Klick auf eine Überschrift öffnet sie. Haken Sie dann ''Veröffentlichbar'' an.
+Das ''PRO-Menü'' führt zur '''Datenpflege''' mit Listen, die Lücken im ganzen Werkverzeichnis finden: zum Beispiel Werke ohne Abbildung, ohne Titel, ohne Maße oder ohne Entstehungsjahr, doppelte Titel oder Referenzen und fehlende Übersetzungen. Die Liste ''Objekte mit mehreren oder ohne Hauptbild'' (unter ''Bilder'') zeigt die betroffenen Abbildungen mit ihrer Größe in Pixeln, und ''Zum Hauptbild machen'' unter der richtigen Abbildung bringt das Werk sofort in Ordnung. Die Listen sind nach Themen gruppiert (''Werke'', ''Bilder'', ''Publikationen'', ''Events'', ''Quellen und Quellenangaben'', ''Sonstiges''); ein Klick auf eine Überschrift öffnet sie. Haken Sie dann ''Veröffentlichbar'' an.
 
 <!--T:23-->
 == Häufige Fehler ==

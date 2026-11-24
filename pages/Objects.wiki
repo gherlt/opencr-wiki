@@ -99,7 +99,7 @@ Both lists can also be filled from the other side: from the [[Publications|publi
 <!--T:19-->
 == Images ==
 Upload images from the object, or for many works at once with ''Mass New Objects Upload''. For each image:
-* Mark '''exactly one''' image per work as '''Is Main Image Web''': it becomes the thumbnail in lists and galleries. With none, the work appears as an empty tile; with several, the thumbnail is picked unpredictably.
+* Mark '''exactly one''' image per work as '''Is Main Image Web''': it becomes the thumbnail in lists and galleries. With none, the work appears as an empty tile; with several, the thumbnail is picked unpredictably. The list ''Objects with several or no main image'' in ''Data maintenance'' finds both cases.
 * '''Use For Web''' and '''Use For CR''' decide separately whether the image appears on the website and in the printed catalogue raisonné.
 * Credit the '''Photographer''', describe what the image shows (front, back, detail, signature) and use the image's own ''Public'' tick.
 * An image belongs to exactly one thing: the whole work, one of its parts, or one of its editions.
@@ -119,7 +119,7 @@ Check that the work has:
 * only those ownership and sales entries public that may be public.
 
 <!--T:22-->
-The ''PRO menu'' leads to '''Data maintenance''', with lists that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, objects with more than one main image, duplicated titles or references, and missing translations. The lists are grouped by subject (''Objects'', ''Images'', ''Publications'', ''Events'', ''Sources and citations'', ''Other''); click a heading to open it. Then tick ''Public''.
+The ''PRO menu'' leads to '''Data maintenance''', with lists that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, duplicated titles or references, and missing translations. The list ''Objects with several or no main image'' (under ''Images'') shows the images in question with their size in pixels, and ''Make main image'' under the right one fixes the work on the spot. The lists are grouped by subject (''Objects'', ''Images'', ''Publications'', ''Events'', ''Sources and citations'', ''Other''); click a heading to open it. Then tick ''Public''.
 
 <!--T:23-->
 == Common pitfalls ==
