@@ -12,9 +12,9 @@ This page describes an order of work that avoids those interruptions, two ways o
 A few decisions are hard to change once hundreds of records exist. Make them first, and write them down for everyone who works on the catalogue.
 
 <!--T:4-->
-* '''Numbering.''' Each artwork has an ''Internal reference'' field, typically used for the catalogue raisonné number. It is searchable and displayed prominently. Choose a stable numbering scheme before entering the first work.
+* '''Numbering.''' Each artwork has a ''Reference'' field, typically used for the catalogue raisonné number. It is searchable and displayed prominently. Choose a stable numbering scheme before entering the first work.
 * '''Short names.''' Artists, publications, events and directory entries each have an ''Alias'': a short name that appears in the dropdown lists everywhere. Agree on a consistent pattern (for example ''Surname, First name'' for people, ''Author Year'' for publications), because renaming later changes every list in which the record appears.
-* '''Languages.''' Decide which languages the catalogue will be published in, and who writes the texts in each language. Record the decision in the artist's ''Selected Languages''.
+* '''Languages.''' Decide which languages the catalogue will be published in, and who writes the texts in each language. Record the decision in the artist's ''Artist - selected languages''.
 * '''Uncertain dates.''' Record what is known and qualify it (''approximate'', ''before'', ''after'' and similar) instead of leaving a date empty. Visitors see the qualifier; an empty field tells them nothing.
 * '''What will be public.''' Agree with the artist or estate which kinds of information may be published, especially ownership histories and sales.
 
@@ -23,7 +23,7 @@ A few decisions are hard to change once hundreds of records exist. Make them fir
 {| class="wikitable"
 ! Step !! What to enter !! Why at this point
 |-
-| 1 || '''The artist''': main data, biographies, selected languages, tags, categories, object templates || Everything else belongs to the artist's catalogue; tags, categories and templates speed up entering the artworks.
+| 1 || '''The artist''': main data, biographies, selected languages, tags, categories, templates || Everything else belongs to the artist's catalogue; tags, categories and templates speed up entering the artworks.
 |-
 | 2 || '''The directory''': collectors, galleries, museums, printers, publishers, photographers, authors || Artworks, publications and events all refer to people and institutions.
 |-
@@ -42,13 +42,13 @@ The order is a guide, not a rule. In practice the directory grows throughout the
 <!--T:7-->
 === Entering an artwork ===
 Within one artwork, this order works well:
-# '''Main data:''' title (or untick ''Has title ?'' for untitled works), ''Object type'', creation date, ''Internal reference''. Leave ''Public'' unticked.
-# '''Parts''', if the work consists of several parts. Other sections can refer to a single part, so the parts must exist first.
-# '''Physical description:''' ''Components'', ''Object Measurements'', ''Object attributes'' (signatures and inscriptions).
-# '''People and history:''' ''Agents'', ''Objects provenance'', ''Objects transactions'', ''Objects Actions''.
-# '''Literature and exhibitions:''' ''Reference'', ''Exhibitions''.
-# '''Images''', with one image marked as the main web image.
-# '''Editions''' for prints, '''Sculpture editions''' for sculptures.
+# '''Main data:''' title (or untick ''The work has a title'' for untitled works), ''Type of work'', creation date, ''Reference''. Leave ''Public'' unticked, in the creation form and in the main data.
+# '''Parts of the object''', if the work consists of several parts. Other sections can refer to a single part, so the parts must exist first.
+# '''Physical description:''' ''Materials & Techniques'', ''Dimensions'', ''Attributes'' (signatures and inscriptions).
+# '''People and history:''' ''Agents'', ''Provenance'', ''Transactions'', ''Dates''.
+# '''Literature and exhibitions:''' ''References'', ''Exhibitions''.
+# '''Images''', with one image set as the main image for web.
+# '''Editions''' for prints, '''Copies''' for sculptures and multiples.
 
 <!--T:8-->
 == Two ways to approach the material ==
@@ -75,7 +75,7 @@ Everything you create starts as a draft as long as ''Public'' is not ticked. Dra
 <!--T:14-->
 # '''Enter''' the record with ''Public'' unticked and complete its sections.
 # '''Review''' the catalogue in the ''PRO menu'', which shows drafts and published records side by side and lets you jump to editing.
-# '''Check before publishing an artwork''': it has a title (or is marked as untitled), an ''Object type'', and a main web image. Without a main image, the artwork appears as an empty tile in the gallery views.
+# '''Check before publishing an artwork''': it has a title (or is marked as untitled), a ''Type of work'', and a main image, which lists and galleries show as its thumbnail.
 # '''Check sensitive entries''': ownership histories and sales should only be public with the owners' consent. Use the ''Public'' tick of the single entry, or the privacy settings of the directory entry.
 # '''Publish''' by ticking ''Public''.
 

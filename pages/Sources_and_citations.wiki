@@ -188,7 +188,7 @@ Visitors see a citation only when both the citation and its source are ''Public'
 <!--T:19-->
 == The former data source field ==
 Until October 2026, artworks and their measurements had a single field ''Data source type'', with a ''Data source''. Sources and citations have replaced it. Its values became citations of the record as a whole:
-* a publication (a catalogue raisonné, literature): a ''Publication'' source, with the artwork's ''Internal reference'' as the ''catalogue number'' where the work had one;
+* a publication (a catalogue raisonné, literature): a ''Publication'' source, with the artwork's ''Reference'' as the ''catalogue number'' where the work had one;
 * the artist, the heirs, a publisher or an owner: a ''Personal communication'' with that person as ''Informant'';
 * a physical examination: a ''Physical inspection''.
 Where the old data named no person, the informant or examiner is ''Unknown''. If you know who it was, tell the platform administrator, who can complete the source.

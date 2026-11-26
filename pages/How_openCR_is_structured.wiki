@@ -46,10 +46,10 @@ Two kinds of supporting records complete the picture:
 
 <!--T:9-->
 == Records and their sections ==
-Every record has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
+Every record has '''main data''' with its basic information, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
 
 <!--T:10-->
-Artworks have the most sections, from ''Titles'' and ''Components'' to ''Objects provenance'', ''Exhibitions'' and ''Relation with other objects''. Artists, publications, events and directory entries each have their own.
+Artworks have the most sections, from ''Materials & Techniques'' and ''Dimensions'' to ''Provenance'', ''Exhibitions'' and ''Related objects''. Artists, publications, events and directory entries each have their own.
 
 <!--T:11-->
 '''→ [[/Records and their sections|All sections of each entity]]'''
@@ -73,10 +73,10 @@ Publications, events and directory entries are linked to each other in the same 
 Nothing is published by accident. Several settings decide what a visitor sees:
 
 <!--T:16-->
-* '''Public''' on every main form: as long as it is not ticked, only editors see the record. This is the everyday switch between draft and published.
+* '''Public''' in the main data of every record: as long as it is not ticked, only editors see the record. This is the everyday switch between draft and published.
 * '''Public''' in many sections: single entries can stay hidden while the record itself is published. An artwork can be public while one entry of its ownership history stays private.
-* '''Privacy settings in the directory''': a directory entry can be hidden from collection lists, from ownership histories or from sales records, each separately, or limited to a single artist's catalogue. This lets a collector appear in the catalogue without their purchases becoming public.
-* '''Record type''' on artworks: ''main data'' are the artworks themselves. ''Correction data'' and ''supplementary data'' are additional records attached to a main record (through ''Parent object''); they never appear as artworks of their own in lists and reports.
+* '''Privacy settings in the directory''': three separate settings of a directory entry. ''Provenance private'' shows it as "Private collection" in ownership histories; ''Transactions private'' hides its name in sales; ''Collection private'' hides the list of artists it collects. This lets a collector appear in the catalogue without their purchases becoming public.
+* '''Record type''' on artworks, set by the platform administrator: ''main data'' are the artworks themselves. ''Correction data'' and ''supplementary data'' are additional records attached to a main record and shown below it; they never appear as artworks of their own in lists and reports.
 * '''Private notes''': every note has its own '''Public''' switch. A private note is seen only by the catalogue's editors, even on a public record.
 
 <!--T:17-->
@@ -85,7 +85,7 @@ The openCR interface is available in '''English''', '''Spanish''' and '''German'
 
 <!--T:18-->
 * '''Vocabularies''' are translated once, centrally. If a translation is missing, visitors see the English term instead of an empty space.
-* '''Texts written by editors''', such as biographies, event descriptions, further titles and published notes, are entered separately for each language. A biography that has not been written in the visitor's language is '''not''' shown at all, so decide early which languages each catalogue will cover. The artist's ''Selected Languages'' section records that decision.
+* '''Texts written by editors''', such as biographies, event descriptions, further titles and published notes, are entered separately for each language. A biography that has not been written in the visitor's language is '''not''' shown at all, so decide early which languages each catalogue will cover. The artist's section ''Artist - selected languages'' records that decision.
 
 <!--T:19-->
 == See also ==

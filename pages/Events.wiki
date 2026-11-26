@@ -9,77 +9,90 @@ An event is created for an artist; other artists can take part in it. This page 
 
 <!--T:3-->
 == Before creating an event ==
-* '''Search first.''' A group exhibition may already exist, entered for another participating artist. Add your artist to it instead of creating a second record.
-* '''Venues and people''': galleries, museums, curators, organisers, sponsors and lenders are [[Directory|directory]] entries. Create the ones you need first.
-* '''Choose the short name.''' The ''Alias'' identifies the event wherever it can be picked, for example when an artwork's exhibitions are entered. Use a consistent pattern, such as place and year.
+* '''Search first.''' A group exhibition may already exist, entered for another participating artist. On the editing site you see only the events of your own artists, so look for it on open.cr or ask the platform administrator. If it exists, the administrator can add your artist under ''Related artists''; do not create a second record.
+* '''People and institutions''': organisers, curators, galleries, museums, sponsors and lenders are [[Directory|directory]] entries. In the pop-up of ''Related agents'', the link ''New address-book entry'' opens ''Easy directory creation'' in a new tab for an entry that is missing; afterwards, search for it in the pop-up. Lenders must exist in the directory before they can be chosen. The venue of a place, on the other hand, is typed in as text.
+* '''Choose the short name.''' The ''Alias'' identifies the event wherever it can be picked, for example when an artwork's exhibitions are entered; most lists show it with the kind of event and the year. Use a consistent pattern, such as place and year.
+
+<!--T:17-->
+== Creating an event ==
+'''Easy event creation''' in the ''PRO menu'' creates an event for the artist in one form: the kind of event, the name, the alias, the reference, a first description (saved in the language of the page), the artist's relation to the event, a first place with its dates, and up to two agents with their roles, chosen from the directory entries of the artist's catalogue. The kind, the alias and the start year are required. The form does not check whether another event already has the alias: choose a new one, or the main data cannot be saved later. Its ''Public'' tick is set by default; untick it while the record is incomplete. Everything else is added afterwards on the event's page, in ''Edit Mode''.
 
 <!--T:4-->
-== The main form ==
-The main form is deliberately short:
-* '''Event type''': the kind of event. There are about 60 kinds, for example Solo exhibition, Group exhibition, Exhibition at fair, Award, Grant, Honour, Commission/order, Lecture, Performance, Publication, Birth, Death, Marriage, Trip and Move / Migration. The kind decides which further sections make sense, such as exhibited artworks for an exhibition.
-* '''Event name''': the name of the event. It is used whenever no name has been entered for the visitor's language (see below).
-* '''Alias''': the short name.
-* '''Reference''': a citation key or reference code, if you use one.
-* '''Public''': publishes the event. Leave it unticked until the record is complete.
+== The main data ==
+The main data of an event are edited in a pop-up: in ''Edit Mode'', the pencil before the event's ID opens ''Main data of the event''. It is deliberately short:
+* '''Public (shown on open.cr)''': publishes the event. Leave it unticked until the record is complete.
+* '''Kind of event''': there are about 60 kinds, for example Solo exhibition, Group exhibition, Exhibition at fair, Award, Grant, Honour, Commission/order, Lecture, Performance, Publication, Birth, Death, Marriage, Trip and Move / Migration. It is required. Works can be added only to kinds of event that can include works: the exhibitions and fairs, and also, for example, Award, Sale, Commission/order, Performance and Publication; not, for example, Exhibition (biography only), Grant, Honour, Lecture, Trip, Birth or Marriage (see [[#Artworks shown|below]]).
+* '''Name of the event''': one name for all languages. Without a name, the page shows only the kind of event.
+* '''Alias''': the short name (see above). It is required. When another event already has the same alias, the pop-up names that event and asks for a different one.
+* '''Reference''': a citation key or reference code, if you use one. It is shown in ''Edit Mode'' only, under the alias.
+For the birth, death, founding or closure of a [[Directory|directory]] entry, the kind and the alias cannot be changed.
+
+<!--T:18-->
+The bin after the main data deletes the whole event, with its places, participants, descriptions, notes and citations. It is refused while other records still refer to the event: works shown, publications, images, sales, artists' relations with the directory, or a source about the event; remove those links first. An event shared by artists of several catalogues, and its places, agents and publications, can be deleted only by someone who edits all of those artists, or by the platform administrator.
 
 <!--T:5-->
-== Name and description in each language ==
-'''Event description''' holds the name and the description of the event, one entry per language. Where such an entry exists for the visitor's language, its name replaces the ''Event name'' of the main form. So when you correct the name of an event that has descriptions, correct it in the description of each language as well.
+== Description in each language ==
+'''Description''' holds a text about the event, one per language of the website. It is always public. Visitors see the text in their language; where there is none, the English text, or else the text in another language. In ''Edit Mode'', the plus icon next to ''Description'' adds a text in a language that has none yet; the pencil before a text changes it, and the bin after it deletes it. The name of the event is not translated: the ''Name of the event'' of the main data is shown in every language.
 
 <!--T:6-->
 == Where and when ==
-'''Locations''' records where and when the event took place: venue, city and country, and the dates from and to, each with a qualifier for uncertain dates (approximate, before, after and so on). For events measured in hours, days or weeks rather than calendar dates, a duration can be recorded instead.
+'''Places and dates''' records where and when the event took place: the venue, the city and the country, and the dates from and to. Each date has a day, a month and a year, and a qualifier for uncertain dates (approximate, before and so on); leave the day and month empty when they are not known. A place can also have a duration with its unit of time, for example for a performance; the page shows it after the dates. At least the venue, the city, the country or the start year must be filled in.
 
 <!--T:7-->
-A touring exhibition is '''one''' event with several locations, one per venue and with its own dates. It is not a separate event per venue.
+A touring exhibition is '''one''' event with several places, one per venue and with its own dates. It is not a separate event per venue.
 
 <!--T:8-->
 == Who took part ==
 Two sections record the participants, each with its role:
-* '''Events Artists''': the artists involved, for example as exhibiting artist, invited artist, participant, guest, author or co-author, or as the recipient of an award.
-* '''Events Agents''': the people and institutions involved, for example as organiser, curator, exhibiting gallery, sponsor, patron, promoter or moderator. Each one is a [[Directory|directory]] entry.
+* '''Related artists''': the artists involved and their relation to the event, for example exhibiting artist, invited artist, participant, guest, author or co-author, or recipient of an award. The pop-up offers the artists whose catalogues you may edit. An artist can have several relations to the same event, each of them once.
+* '''Related agents''': the people and institutions involved, for example as organiser, curator, exhibiting gallery, sponsor, promoter or moderator. Each one is a [[Directory|directory]] entry: the pop-up searches the directory by any part of the name, and its link ''New address-book entry'' opens ''Easy directory creation'' in a new tab. A person can have several roles on the same event, each role once for the whole event and once per place. The public view lists only public directory entries.
 
 <!--T:9-->
-For a touring exhibition, a participant can be limited to one venue, for example a curator who worked on one stop only. Leave this empty for roles that apply to the whole event.
+For a touring exhibition, an agent can be limited to one place, for example a curator who worked on one stop only: choose that place under ''Venue''. Leave it at ''Whole event'' for roles that apply to the whole event. When a place is deleted, the roles limited to it apply to the whole event again. Artists are always related to the whole event.
 
 <!--T:10-->
 == Artworks shown ==
-'''Exhibited objects''' lists the artworks shown at an exhibition or fair. For each work it can record:
-* the '''Reference''': the catalogue or lot number, or the label used at the exhibition;
-* the '''Lender''': the [[Directory|directory]] entry that lent the work;
-* the '''used title''', when the work was shown under a different title.
+'''Related objects''' lists the works shown at the event, above all at an exhibition or fair. Its plus icon appears only for kinds of event that can include works (see [[#The main data|above]]). For each work it can record:
+* the '''Reference''': for example the work's number in the exhibition catalogue, or its lot number;
+* the '''Title used in the exhibition''', when the work was shown under a different title;
+* the '''Lender''': the [[Directory|directory]] entry that lent the work.
 
 <!--T:11-->
-This is the same list as the ''Exhibitions'' section of an [[Objects|artwork]], seen from the other side. To record a whole exhibition, it is quickest to add all its works here. Choosing an exhibition as the event type does not add any works by itself.
+This is the same list as the ''Exhibitions'' section of an [[Objects|artwork]], seen from the other side. To record a whole exhibition, it is quickest to add its works here: the pop-up searches the artist's works by catalogue number, title or ID, and when you choose a suite itself, a tick box also adds the suite's works that are not listed yet, with the same lender; their reference and title stay empty. A work can be listed only once per event. Works can be added only for artists listed under ''Related artists'' whose catalogues you may edit. Choosing an exhibition as the kind of event does not add any works by itself.
 
 <!--T:12-->
 == Publications ==
-'''Related publications''' lists the publications that document the event, above all its exhibition catalogue, and also reviews and articles. It is the same link as ''Related events'' on the [[Publications|publication]].
+'''Related publications''' lists the publications that document the event, above all its exhibition catalogue, and also reviews and articles, with page, illustration and reference where useful. The pop-up searches the publications by title, alias, abbreviation, year or ID, those of the event's artists first. It offers only publications already linked to your artists; if the catalogue is missing, link it to your artist first. It is the same link as ''Related events'' on the [[Publications|publication]]; the comment of an entry is shown on the publication's page only.
 
 <!--T:13-->
-== Images and files ==
-Images of the event, such as installation views, invitations or posters, are uploaded with the image upload and belong to the event.
+== Images ==
+Images of the event, such as installation views, invitations or posters, belong to the event. In ''Edit Mode'', the plus icon next to ''Event Images'' opens the image upload in a new tab; the pencil under an image opens a pop-up for its ''Public'' tick, its description in each language, its photographer, and ''Set as main image for web'', which picks the image shown when the event is shared. Images of an event shared by several artists are changed or deleted by the platform administrator.
+
+<!--T:19-->
+== Sources and notes ==
+The ''Sources'' and ''Notes'' blocks of the event's page record where the information comes from and any remarks on the event. The name, the kind of event and each work shown can also be cited one by one. See [[Sources and citations]].
 
 <!--T:14-->
 == Before publishing ==
-* Type, name and at least one location with dates are recorded.
-* For exhibitions: the participating artists and, as far as known, the exhibited works.
-* Names and descriptions exist in the languages the catalogue is published in.
+* Kind, name, alias and at least one place with dates are recorded.
+* For exhibitions: the participating artists and, as far as known, the works shown.
+* A description exists in the languages the catalogue is published in.
 * Participants who should not appear publicly are hidden in their [[Directory|directory]] entries.
-Then tick ''Public''.
+Then tick ''Public (shown on open.cr)'' in the main data.
 
 <!--T:15-->
 == Common pitfalls ==
-* '''One record per venue.''' A tour is one event with several locations.
-* '''Duplicate group exhibitions.''' Search before creating; the exhibition may exist for another artist.
-* '''Name corrected in one place only.''' The name in ''Event description'' replaces the main ''Event name'' in that language.
-* '''Exhibition without works.''' The exhibited works have to be added; nothing is added automatically.
+* '''One record per venue.''' A tour is one event with several places.
+* '''Duplicate group exhibitions.''' Before creating, check on open.cr or with the platform administrator whether the exhibition already exists for another artist.
+* '''Artist missing.''' Works of an artist can be added only after the artist has been listed under ''Related artists''.
+* '''Exhibition without works.''' The works shown have to be added; nothing is added automatically.
 
 <!--T:16-->
 == See also ==
 * [[Objects#Literature and exhibitions|Exhibitions of an artwork]]
 * [[Publications]]
 * [[Directory]]
+* [[Sources and citations]]
 * [[Field reference]]
 </translate>
 

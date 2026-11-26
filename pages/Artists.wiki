@@ -12,75 +12,92 @@ This page explains what the artist record holds and how to set it up. For the li
 Each editor is assigned to one or more artists, as '''artist administrator''' or '''artist expert'''. Both roles currently have the same rights within their artists' catalogues. To add or remove editors for an artist, contact the platform administrator.
 
 <!--T:4-->
-When a new artist is set up, a folder for the artist's image files is created as well. It is managed in the background and is never renamed, so that existing images keep working.
+New artists are set up by the platform administrator. At that point the name of the folder for the artist's image files is fixed as well. It is managed in the background and never renamed, so that existing images keep working; the main data show it as ''Image folder'', which cannot be changed.
+
+<!--T:25-->
+== The artist's pages ==
+An artist has two pages. The home page shows the main data: the names, the life dates and the address. ''More artist details'' leads to the details page with the other sections. The home page has no ''Edit Mode'' button of its own: it opens in ''Edit Mode'' from the artist's name on a page that is already in ''Edit Mode'', for example a work's page. In ''Edit Mode'', most sections have a plus icon next to their heading that adds an entry in a pop-up, a pencil before each entry and a bin after it. Tags and templates are edited on pages of their own (see below).
 
 <!--T:5-->
-== The main form ==
-=== Names ===
-* '''Last name''' and '''First name''' are the artist's names as used in the catalogue.
-* '''Alias''' is a short name for the artist that appears in lists and dropdowns. Choose it once and keep it.
+== The main data ==
+The main data of an artist are edited in a pop-up: on the artist's home page in ''Edit Mode'', the pencil before the artist's ID opens ''Main data of the artist''. The fields come in groups.
+=== Name and person ===
+* '''Last name''' and '''First name''' are the artist's names as used in the catalogue. The last name is required.
+* '''Gender''' (required) and '''Nationality''' come from shared lists.
 * Other forms of the name, such as pseudonyms, translations and alternative spellings, are '''not''' entered here but as alternative names (see [[#Alternative names|below]]).
 
 <!--T:6-->
-=== Life dates ===
-* Birth and death each have city, country, day, month and year, plus a qualifier. Enter what is known and qualify uncertain dates (approximate, before, after and so on) instead of leaving them empty.
-* '''Nationality''' and '''Gender''' come from shared lists.
+=== Birth and death ===
+* Birth and death each have a day, a month, a year and a qualifier, plus city and country. Enter what is known and qualify uncertain dates (approximate, before, after and so on) instead of leaving them empty.
+* A month needs a year, a day needs a month, and a qualifier needs a year. The date of death cannot be before the date of birth.
+
+<!--T:8-->
+=== Address ===
+* The postal address has its own switch, '''Address public'''. It is separate from ''Public'' on purpose: a living artist may want the catalogue to be public but not their address. While it is unticked, the home page shows ''private data'' instead of the address, except in ''Edit Mode''.
+
+<!--T:26-->
+=== Publication state ===
+* '''Web catalogue''' and '''Printed catalogue''' under ''Publication state of the catalogue'' are notes for the team on how far the catalogue has got. They hide nothing and change nothing on the pages.
 
 <!--T:7-->
 === Catalogue settings ===
-* '''Default language''' is the main language of the artist's catalogue.
-* '''CR web publicationstates''' and ''CROffline Publication State ID'' are workflow codes for publishing scripts. Leave them at their default unless your project has agreed on values for them.
-* '''Is member of Collecting Society''' and '''Collecting Society''' record whether, and with which society, the artist's rights are managed (for example VG Bild-Kunst or SIAE). The society itself is a [[Directory|directory]] entry.
-
-<!--T:8-->
-=== Address and visibility ===
-* The postal address has its own switch, '''Is Address Public'''. It is separate from ''Public'' on purpose: a living artist may want the catalogue to be public but not their address.
-* '''Public''' publishes the artist. Leave it unticked while the catalogue is being set up.
+Only the platform administrator can change these settings; other editors see them as text.
+* '''Public (shown on open.cr)''' publishes the artist. While it is unticked, open.cr shows neither the artist's pages nor the pages and images of their works; in the editors' view, the artist's editors still see everything.
+* '''Alias''' is the artist's short name in lists and drop-down menus. Each artist has their own: the pop-up refuses an alias another artist already has.
+* '''Default language''' is the main language of the artist's catalogue. No page uses it at present.
+* '''Duplicate check of images''' sets how strictly new images are compared with the artist's other images.
+* '''Member of a collecting society''' and '''Collecting society''' record whether, and with which society, the artist's rights are managed (for example VG Bild-Kunst). The society is a [[Directory|directory]] entry with the activity ''Collecting society''. The images of a member are not copied to open.cr, and copies already there are removed.
+* '''Own address-book entry''' is the person in the [[Directory|directory]] who is the artist.
 
 <!--T:9-->
 == Biographies ==
-The '''Biographies''' section holds the biography texts shown on the artist's page. There is one entry per language and type. There are two types:
-* '''Live''': the life biography (vita);
+The biographies are shown on the artist's details page under ''Artist - additional descriptions'', one text per language and type. Each is marked with its ''Description type'':
+* '''Life''': the life biography (vita);
 * '''Art''': the art-historical biography.
+At present they cannot be added or changed on the editing pages; ask the platform administrator.
 
 <!--T:10-->
-Write a biography for each language the catalogue is published in. A biography is '''not''' replaced by another language when it is missing: visitors who read the catalogue in a language without a biography see no biography at all. Simple formatting is possible, but keep the text plain.
+A biography is needed for each language the catalogue is published in. A biography is '''not''' replaced by another language when it is missing: visitors who read the catalogue in a language without a biography see no biography at all. Simple formatting is possible, but keep the text plain.
 
 <!--T:11-->
 == Alternative names ==
-Every other known form of the artist's name is recorded as an '''alternative name''', each with its kind:
+Every other known form of the artist's name is recorded as an '''alternative name''', in the section ''Alias of the artist'' of the details page. Each has its ''Kind of name'':
 * ''Translated'': the name in another language or script;
 * ''Pseudonym'';
 * ''Alternative (by artist)'': a spelling the artist used;
 * ''Alternative (by 3rd parties)'': a spelling used by others, for example in literature.
 
 <!--T:12-->
-Each alternative name has its own ''Public'' tick. Where a name was found is recorded as a citation, which the artist's page shows as a marker after the name. In the editors' view, the ''Add source'' button after the name adds one; see [[Sources and citations#Adding citations|Adding citations]].
+Each alternative name has its own ''Public'' tick, which is ticked for a new name. The same name cannot be entered twice. Where a name was found is recorded as a citation, which the artist's page shows as a marker after the name. In the editors' view, the ''Add source'' button after the name adds one; see [[Sources and citations#Adding citations|Adding citations]].
 
 <!--T:13-->
 == Contacts, relations and collections ==
-* '''Communications''': phone numbers, email addresses, websites and social media. Each entry has its own ''Public'' tick; usually only the website or a professional address is published.
-* '''Relations''': the people and institutions around the artist, such as gallerist, publisher, collector, friend, mentor, disciple, patron, representative, family and heir. Each relation points to a [[Directory|directory]] entry.
-* '''Collections''': the institutions that hold works by the artist. They make up the artist's list of works in collections, in the order you set.
+* '''Contact details''': phone numbers, email addresses, websites, social media and others. Each contact has its own ''Public'' tick, which is unticked for a new contact; usually only the website or a professional address is published. Email and web addresses are checked, and the same contact cannot be entered twice.
+* '''Artist - Relations with the directory''': the people and institutions around the artist, such as gallerist, publisher, collector, friend, mentor, disciple, patron, representative, family and heir. Each relation points to a [[Directory|directory]] entry and can also name one of the artist's events. It has its own ''Public'' tick, which is ticked for a new relation; the public page shows the relation only while the directory entry is public too. The same entry with the same relation cannot be entered twice.
+* '''Collections''': the institutions that hold works by the artist appear on their directory entries, under ''Collection of objects''. They cannot be changed on the editing pages at present.
 
 <!--T:14-->
-To connect a person or an institution with the artist, use '''Relations'''. The ''Directory Artists'' section of a directory entry is something different: it only decides in which artists' catalogues that entry can be used.
+To connect a person or an institution with the artist, use ''Artist - Relations with the directory''. Linking a directory entry to the artist's catalogue is something different: it lets the artist's editors edit the entry, and use it while it is not public (see [[Directory#Shared between catalogues|Directory]]). It says nothing about a relationship.
+
+<!--T:27-->
+== Publications used as reference ==
+'''Publications used as reference''' lists the publications that discuss the artist. Each entry records the page, the illustration, the reference and a comment; these are shown on the publication, under ''References to artists'', the same list seen from the other side. The public view lists only public publications that have the artist under ''Related artists'' with ''Use in web'' or ''Use in CR'' ticked; see [[Publications#Related artists|Publications]].
 
 <!--T:15-->
 == Setting up the catalogue ==
 These sections shape how the artworks are entered and presented. Set them up before entering artworks in bulk; afterwards they rarely change.
 
 <!--T:16-->
-=== Selected Languages ===
-The languages the artist's catalogue is meant to be published in. This is a declaration of intent: it records the plan, but every text in each language still has to be written.
+=== Selected languages ===
+The languages the artist's catalogue is meant to be published in, listed under ''Artist - selected languages'', in ''Edit Mode'' only. The pop-up adds one language at a time, from the catalogue languages German, English, French, Italian and Spanish; the bin removes one. This is a declaration of intent: it records the plan, but every text in each language still has to be written.
 
 <!--T:17-->
 === Definition of categories ===
-The artist's own grouping of artworks for filtering the catalogue. For each [[Objects#Classification|object type]] used by the artist, choose which categories apply. The available categories include Painting, Print (general), Sculpture, Sketch, Watercolor, Work on paper, Photography, Multimedia, Installation, Book, Multiple and the print techniques (etching, lithography, serigraphy, linocut, woodcut).
+The artist's own grouping of artworks for filtering the catalogue. Every [[Objects#Classification|object type]] belongs to a category. A general mapping applies to all catalogues; for the artist's catalogue, an object type can be given another category instead. The pop-up ''Definition of categories'' lists every object type with the number of the artist's works of that type and one category each; ''General mapping'' keeps the general one. The categories are Painting, Print, Sculpture, Drawing, Watercolour, Work on paper, Photography, Multimedia, Installation, Book, Multiple, Audio, Happening, Text, Other and the print techniques (lithography, etching, serigraphy, linocut, woodcut). The section shows the artist's own assignments only.
 
 <!--T:18-->
 === Tags ===
-The artist's own keywords for grouping artworks. Each tag has a type:
+The artist's own keywords for grouping artworks, in the section ''Artist specific Tags''. Its plus icon opens a page for a new tag, and the pencil before a tag the page to change it. Each tag has a ''Tag type'':
 * ''Art epoch'' (art history);
 * ''Style'';
 * ''Period'';
@@ -88,31 +105,27 @@ The artist's own keywords for grouping artworks. Each tag has a type:
 * ''Location''.
 
 <!--T:19-->
-A tag can have a period of validity (from year, up to year), which is useful for periods and epochs. The name you enter is the internal name; the label visitors see is entered per language. Tags belong to one artist and cannot be shared between catalogues. They are assigned to artworks in the artwork's ''Object tags'' section.
+A tag can have a period of validity (''Year from'', ''Year to''), which is useful for periods and epochs. The name entered under ''Tag'' is the internal name; the label visitors see is entered per language, as a translation. Tags belong to one artist; only general tags, set up by the platform administrator, are offered in every catalogue. A tag can be deleted only while no artwork or pending upload uses it. Tags are assigned to artworks in the artwork's ''Tags'' section.
 
 <!--T:20-->
-=== Object Templates ===
-Templates with default values for new artworks of a given object type, for example "Etching on Arches 300 g" with the usual paper, watermark and print-run qualifier. When an artwork is created from a template, these fields are filled in automatically. Templates save a lot of typing for print series and sculpture editions.
-
-<!--T:21-->
-=== External file ===
-Documents attached to the artist.
+=== Templates ===
+Templates for new artworks are kept in the section ''Template Management'', which only the artist's editors see. A template has a name, a type of work and lines of materials and techniques, for example "Etching on Arches 300 g". When artworks are uploaded with a template, its lines are copied into each new work. Templates save a lot of typing for print series. General templates, without an artist, are offered to every artist.
 
 <!--T:22-->
 == Before publishing ==
 * The names, life dates and nationality are complete, as far as they are known.
 * A biography exists in every language the catalogue is published in.
-* Only the contact details, alternative names, relations and collections that may be public are ticked ''Public''.
-* ''Is Address Public'' is ticked only if the address may really be published.
-Then tick ''Public''.
+* Only the contact details, alternative names and relations that may be public are ticked ''Public''.
+* ''Address public'' is ticked only if the address may really be published.
+Then ask the platform administrator to tick ''Public (shown on open.cr)''.
 
 <!--T:23-->
 == Common pitfalls ==
-* '''Alias versus alternative names.''' The ''Alias'' on the main form is the catalogue's short name. Pseudonyms and other names belong in the alternative names.
-* '''Address published with the artist.''' ''Public'' and ''Is Address Public'' are separate switches; check both.
-* '''Relations versus Directory Artists.''' A relation (gallerist, publisher and so on) is entered in the artist's ''Relations''. ''Directory Artists'' on a directory entry only controls visibility.
+* '''Alias versus alternative names.''' The ''Alias'' in the main data is the catalogue's short name. Pseudonyms and other names belong in the alternative names, even though their section is headed ''Alias of the artist''.
+* '''Address published with the artist.''' ''Public (shown on open.cr)'' and ''Address public'' are separate switches; check both.
+* '''Relations versus catalogue links.''' A relation (gallerist, publisher and so on) is entered in ''Artist - Relations with the directory''. Linking a directory entry to the catalogue only lets the artist's editors edit and use it.
 * '''Biographies in one language only.''' Without a translation, the biography disappears for visitors in other languages.
-* '''Deleting an artist.''' Deleting an artist does not delete their artworks, events or tags; they remain without an artist. Never delete an artist who has a catalogue; untick ''Public'' instead.
+* '''Deleting an artist.''' Only the platform administrator can delete an artist, and only while no artworks or other records refer to it. To take a catalogue off open.cr, ask the platform administrator to untick ''Public (shown on open.cr)'' instead.
 
 <!--T:24-->
 == See also ==

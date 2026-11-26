@@ -2,73 +2,75 @@
 {{Draft}}
 <translate>
 <!--T:1-->
-Every record in openCR has a '''main form''' with its basic data, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
+Every record in openCR has '''main data''' with its basic information, and '''sections''' for information that can occur more than once. An artwork, for example, can have several titles, several measurements (image, sheet, frame) and a long ownership history; each of these is a list of entries in its own section.
 
 <!--T:2-->
-This page lists the sections of each entity, named as they appear in the forms. For the overall picture, see [[How openCR is structured]].
+This page lists the sections of each entity, named as they appear on the record's page. In ''Edit Mode'', a pencil at the top of the page opens the main data in a pop-up; the plus icon next to a section's heading adds an entry, the pencil before an entry changes it, and the bin after it deletes it. Most pages also have the blocks ''Sources'' and ''Notes'' (see [[Sources and citations]]). For the overall picture, see [[How openCR is structured]].
 
 <!--T:3-->
 == Objects (artworks) ==
 {| class="wikitable"
 ! Section !! What goes there
 |-
-| Titles || Further titles of the work: alternative, translated, or as used in a particular publication
+| Materials & Techniques || What the work is made of: oil, canvas, paper, acrylic, etching and so on
 |-
-| Components || What the work is made of: oil, canvas, paper, acrylic, etching and so on
+| Attributes || Marks and inscriptions: signed, dated, numbered, stamped, with their location and the text on the work
 |-
-| Object Measurements || Dimensions, one entry per measured extent (for example image, sheet, frame)
+| Dimensions || The dimensions, one row per measured part (for example image, sheet, frame)
 |-
-| Object attributes || Marks and inscriptions: signed, dated, numbered, stamped, with their position and transcription
-|-
-| Parts || The named parts of a multi-part work, such as the panels of a triptych
-|-
-| Images || Photographs of the work
+| Parts of the object || The named parts of a multi-part work, such as the panels of a triptych
 |-
 | Editions || The editions of a print: regular edition, artist's proofs, trial proofs and so on
 |-
-| Sculpture editions || The casts of a sculpture
+| Copies || The casts or copies of a sculpture or multiple
+|-
+| Individual copies || Single physical copies, such as one cast or one impression, each entered on a page of its own
+|-
+| Other Titles || Further titles of the work: alternative, translated, or as used in a particular publication
 |-
 | Agents || People and institutions involved with the work: printer, publisher, foundry, photographer, co-author
 |-
-| Reference || The literature that mentions or reproduces the work
-|-
-| Objects provenance || The ownership history
-|-
-| Objects transactions || Sales and auctions
+| Dates || Dated events in the life of the work, such as signing, printing or restoration
 |-
 | Exhibitions || The exhibitions where the work was shown
 |-
-| Notes || Remarks on the work, public or private, added on the artwork's page
+| Provenance || The ownership history
 |-
-| Object tags || The artist's tags that apply to this work
+| Transactions || Sales and auctions
 |-
-| Relation with other objects || Links to other works: study for, copy of, version of and similar
+| References || The literature that mentions or reproduces the work
 |-
-| Objects Actions || Dated events in the life of the work, such as signing, printing or restoration
+| Tags || The artist's tags and the general tags that apply to this work
+|-
+| Related objects || Links to other works: study for, copy of, version of and similar
+|-
+| Notes || Remarks on the work, public or private
 |}
+The images are shown in the left-hand column of the page. In ''Edit Mode'', ''Upload an image'' adds one and ''Images management'' lists them (see [[Objects#Images|Images]]).
 
 <!--T:4-->
 == Artists ==
+The artist's home page shows the main data. The sections are on the details page, ''More artist details'':
 {| class="wikitable"
 ! Section !! What goes there
 |-
-| Biographies || The biography texts, one per language and type (life biography or art-historical biography)
+| Contact details || Phone numbers, email addresses, websites, social media
 |-
-| Communications || Phone numbers, email addresses, websites, social media
+| Alias of the artist || The alternative names: translations, pseudonyms and other spellings of the artist's name
 |-
-| Relations || Links to people and institutions: gallerist, publisher, family, mentor, heir and others
+| Artist - Relations with the directory || Links to people and institutions: gallerist, publisher, family, mentor, heir and others
 |-
-| Collections || Institutions that hold works by the artist
+| Publications used as reference || The pages where publications discuss the artist
 |-
-| Tags || The artist's own keywords for grouping artworks
+| Artist - selected languages || The languages the artist's catalogue is meant to be published in (shown in ''Edit Mode'' only)
 |-
-| Selected Languages || The languages the artist's catalogue is meant to be published in
+| Template Management || Templates with materials and techniques for new artworks (shown to the artist's editors only)
 |-
-| Definition of categories || The artist's own sub-categories of artworks, used for filtering the catalogue
+| Definition of categories || The object types that this catalogue assigns to another category than the general mapping, used for filtering the catalogue
 |-
-| Object Templates || Default values for new artworks, for example the usual paper of a print series
+| Artist specific Tags || The artist's own keywords for grouping artworks
 |-
-| External file || Documents attached to the artist
+| Artist - additional descriptions || The biographies, one per language and type (life biography or art-historical biography)
 |}
 
 <!--T:5-->
@@ -98,17 +100,19 @@ This page lists the sections of each entity, named as they appear in the forms. 
 {| class="wikitable"
 ! Section !! What goes there
 |-
-| Event description || The name and description of the event, per language
+| Related artists || The artists who took part, and their relation to the event
 |-
-| Locations || Where and when the event took place; a touring exhibition has several
+| Related agents || The people and institutions involved: organiser, curator, gallery, sponsor
 |-
-| Events Artists || The artists who took part, and in which role
-|-
-| Events Agents || The people and institutions involved: organiser, curator, gallery, sponsor
-|-
-| Exhibited objects || The artworks shown, with lender and the title used in the exhibition
+| Places and dates || Where and when the event took place; a touring exhibition has several
 |-
 | Related publications || Publications documenting the event
+|-
+| Description || A text about the event, one per language
+|-
+| Related objects || The artworks shown, with the reference, the lender and the title used in the exhibition
+|-
+| Event Images || Images of the event, such as installation views or posters
 |}
 
 <!--T:7-->
@@ -116,17 +120,19 @@ This page lists the sections of each entity, named as they appear in the forms. 
 {| class="wikitable"
 ! Section !! What goes there
 |-
+| Address || The primary address; in ''Edit Mode'', a link to the page ''Addresses'' with all addresses, each with its type and period of validity
+|-
+| Contact details || Phone numbers, email addresses, websites
+|-
 | Activities || What the person or institution does: gallery, publisher, photographer, curator and so on
 |-
-| Contact inform. || Phone numbers, email addresses, websites
+| Related persons and organizations || Links between directory entries, for example between a person and an institution
 |-
-| Directory Relations || Links between directory entries, for example between a person and an institution
+| Related events || The events in which the entry took part, with its role
 |-
-| Directory Artists || The artists' catalogues in which this entry is used
-|-
-| Addresses || The addresses of the entry, each with type and period of validity, on a page of their own
+| Description || A text about the entry
 |}
-The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
+The page also lists where the entry appears in other records. These lists are filled from those records (''Collection of objects'' cannot be changed at present): ''Relations with Artist'', ''Publications (as editor)'', ''Publications (as author)'', ''Collection of objects'', ''Objects in property'' (from ownership histories), ''Agent'' and ''Named on works''.
 </translate>
 
 {{Editor guide}}

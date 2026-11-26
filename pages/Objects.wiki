@@ -10,61 +10,71 @@ This page explains how an object is built up and what to watch for. For the list
 <!--T:3-->
 == Creating an object ==
 There are several ways in, all leading to the same kind of record:
-* '''Easy object creation''' in the ''PRO menu'': the quick way to add a single work.
-* '''Add a new record''' in the ''PRO menu'': the full form.
-* '''Mass New Objects Upload''': creates one object per uploaded image, for a whole folder at once. You choose the object type and a default year of creation for the batch; title, materials, measurements and everything else are added afterwards, work by work.
+* '''Easy object creation''' in the ''PRO menu'': the quick way to add a single work with its image.
+* '''Easy object creation – step by step''' in the ''PRO menu'': the same, in a form that leads through the work's data one step at a time.
+* '''Mass New Objects Upload''' under ''Mass Upload'': creates one object per uploaded image, for a whole folder at once. A screen of default values applies to the whole batch, among them the object type, the year of creation, the title, the suite, a template, tags, the measurements, the photographer and the image settings, attributes, up to two agents, and a source that is cited on every uploaded image; everything else is added afterwards, work by work.
+* '''Mass upload with duplicate check''', also under ''Mass Upload'', is for a batch of different works. It compares the photos with the artist's catalogue images and with each other. Once you have decided on the possible duplicates, you enter each remaining photo as a work of its own, in Easy object creation or in the step-by-step form.
+* '''Duplicate record''', at the top of an artwork's page in ''Edit Mode'', opens a page in a new tab where you tick which sections to copy into a new work. The copy's title and reference start with "copy of".
 
 <!--T:4-->
-Whatever the way in, a new object starts with ''Public'' unticked, so it stays a draft until you publish it.
+Easy object creation and the step-by-step form start a new object with ''Public'' unticked, so it stays a draft until you publish it; opened from ''Mass upload with duplicate check'', Easy object creation takes the batch's ''Image Public'' instead. In a mass upload, ''Object Public'' among the default values is ticked unless you untick it; a duplicated record keeps the ''Public'' of the original.
 
 <!--T:5-->
-== The main form ==
-The main form holds the basic data of the work.
+== The main data ==
+The main data of the work are edited in a pop-up: in ''Edit Mode'', the pencil before the work's ID opens ''Main data of the work''. The fields come in groups; the groups for print data, the print run, sculptures and the present location appear for the types of work they apply to, and for any work that already has values in them.
 
 <!--T:6-->
 === Identity and title ===
-* '''Title''' is the work's main title. For untitled works, untick '''Has title ?''': the catalogue then shows "Untitled". Leave ''Title'' empty in that case. A title stored there would still be found by the search, which confuses users.
-* '''Internal reference''' is typically the catalogue raisonné number. It is searchable and shown prominently, so use one consistent scheme throughout (see [[Building a catalogue raisonné#Before you start: decisions|Before you start]]).
-* Further titles, such as translated titles or titles used in particular publications, go into the '''Titles''' section, not into the main title.
+* '''Title''' is the work's main title. For an untitled work, untick '''The work has a title''': the title field disappears, and the catalogue shows "Untitled".
+* '''Reference''' is typically the catalogue raisonné number. It is searchable and shown prominently, so use one consistent scheme throughout (see [[Building a catalogue raisonné#Before you start: decisions|Before you start]]). When another work of the artist with the same object type has the same reference, the pop-up lists it and asks before saving.
+* '''Public (shown on open.cr)''' publishes the work.
+* Further titles, such as translated titles or titles used in particular publications, go into the '''Other Titles''' section, not into the main title.
 
 <!--T:7-->
 === Classification ===
-* '''Object type''' says what kind of work it is: painting, print, sculpture, drawing, photography, installation and so on. It is required, and it decides which type-specific fields apply (see below).
-* '''Record type''' is ''main data'' for the artwork itself. Choose ''correction data'' or ''supplementary data'' only for an additional record that corrects or supplements an existing artwork, and link it to that artwork with '''Parent object'''. Such records never appear as artworks of their own.
+* '''Type of work''' says what kind of work it is: painting, print, sculpture, drawing, photography, installation and so on. It is required, and it decides which type-specific fields and sections apply (see below).
+* '''Correction and supplementary records''' correct or supplement an existing artwork. They are shown below the work they belong to, each with its own pencil for its main data, and never appear as artworks of their own. Their record type and the work they belong to cannot be set in the pop-up; ask the platform administrator.
+* '''Status web''' and '''Status print''' under ''Editorial status'' record how far the work has got for the website and for the printed catalogue. They are notes for the team: they publish or hide nothing. The two selection lists at the top of the page change them as well.
 * Where the information comes from is recorded with '''sources''', for the artwork as a whole, for single fields and for each measurement. See [[Sources and citations]].
 
 <!--T:8-->
 === Date and place of creation ===
-* Enter what is known: '''Year creation''', and where known '''Creation month''' and '''Creation date (day)'''.
-* For a period of several years, the field ''All Creation Year From'' holds the first year and ''Year creation'' the last.
-* Qualify uncertain dates (approximate, before, after, at the earliest and so on) instead of leaving them empty.
-* '''Location of creation''' and the country record where the work was made.
+* Enter what is known: '''Year''', and where known '''Month''' and '''Day'''. A month needs a year, and a day needs a month.
+* For a period of several years, '''From year''' holds the first year and ''Year'' the last.
+* Qualify uncertain dates with the '''Qualifier''' (approximate, before, after, earliest, at latest and so on) instead of leaving them empty.
+* '''Place''' and '''Country''' record where the work was made.
 
 <!--T:9-->
 === Type-specific fields ===
-Depending on the object type, further fields apply:
-* '''Prints:''' paper, watermark, paper weight, number of plates and colours, and the print run (''Print Tirage'') with its qualifier.
-* '''Sculptures:''' material, the material of the model, whether a model exists, and whether the work is a multiple.
-* '''Unique works:''' the present location and the conservation state.
+Depending on the type of work, further groups appear:
+* '''Prints and books:''' ''Print data'', with paper, watermark, paper weight and the number of plates and colours, and ''Tirage (run)'', with the print run and its qualifier.
+* '''Sculptures and multiples:''' ''Sculpture and multiple'', with whether a model exists and whether there are several copies, and ''Tirage (run)''.
+* '''Paintings, drawings, watercolours, photographs, sculptures, multiples, installations and some other types:''' ''Present location'', with the location, the country and the condition. The condition is not shown on the page.
+Monotypes, posters, works on paper, drafts, colour drawings and texts have no such group.
 
 <!--T:10-->
 === Notes ===
-Notes are not entered in a form. On the artwork's page in edit mode, the '''Notes''' block has an add icon that opens the note pop-up; the pencil and the bin next to a note change or delete it. A note has a '''Type''', is '''Public''' or not, and holds one text per language, each with an optional title. Private notes are seen only by the catalogue's editors. Public notes appear on the artwork page in the visitor's language; where a note has no text in that language, an automatic translation is shown. In edit mode each note lists all its texts and names a missing German, English or Spanish text, with a button that drafts the translation for checking. Each print edition and sculpture edition has its own '''Notes''' block.
+Notes are not entered in the main data. On the artwork's page in edit mode, the '''Notes''' block has an add icon that opens the note pop-up; the pencil and the bin next to a note change or delete it. ''Add note'' after a single value adds a note on that value. A note has a '''Type''', is '''Public''' or not, and holds one text per language, each with an optional title. Private notes are seen only by the catalogue's editors. Public notes appear on the artwork page in the visitor's language; where a note has no text in that language, an automatic translation is shown. In edit mode each note lists all its texts and names a missing German, English or Spanish text, with a button that drafts the translation for checking. Each print edition and each entry of ''Copies'' has its own '''Notes''' block.
+
+<!--T:25-->
+== Sections of the artwork's page ==
+In ''Edit Mode'', the plus icon next to a section's heading opens a pop-up for a new entry, the pencil before an entry opens it, and the bin after it deletes it. The page reloads after saving. The exceptions are the tags (coloured buttons, see [[#Tags|below]]), the individual copies (a page of their own) and the images (''Images management'').
 
 <!--T:11-->
 == Describing the work ==
-* '''Components''': what the work is made of, such as oil on canvas, or etching on paper. The list of materials is long; type to search it.
-* '''Object Measurements''': the dimensions, with up to three values (typically height × width × depth), a unit and a qualifier for each value. Add one entry per measured extent, for example image, sheet and frame.
-* '''Object attributes''': every mark on the work: signed, dated, numbered, stamped, monogrammed, watermarked and many more. Each entry has a position on the work (front or back, in a grid of positions, corners and borders) and the transcription of what is written.
+* '''Materials & Techniques''': what the work is made of, such as oil on canvas, or etching on paper. The list of materials is long; type to search it. Each entry has a position that sets the order, and can have a quantity with its unit, a brand, the paper with its model and weight, and the country of origin. ''Apply template'' (for the work as a whole only) adds the lines of a template for this type of work, a general one or one of the artist's own, after the existing lines (see [[Artists#Templates|Templates]]).
+* '''Dimensions''': one row per measured part, for example image, sheet and frame. A row has up to three values (typically height × width × depth), each with its qualifier, and one unit for the whole row: centimetres unless you choose another.
+* '''Attributes''': every mark on the work: signed, dated, numbered, stamped, monogrammed, watermarked and many more. Each entry can have its location on the work, the text on the work as it is written, and a [[Directory|directory]] entry, for example the person named in a dedication; that entry is never the artist. An identical entry (same attribute, text, location and directory entry) is refused.
 
 <!--T:12-->
 == Multi-part works, suites and editions ==
 Several structures describe works that consist of, or belong to, more than one piece. The page [[Relations]] explains them in detail; in short:
-* '''Parts''': one work made of several pieces, such as a triptych. Create the parts '''first''': other sections (images, measurements, attributes, notes and more) can then refer to a single part.
-* '''Suites''': separately catalogued works that form a series, such as a portfolio of prints. The suite itself is a record with '''Is it a Suite ?''' ticked; each member points to it (''ID parent suite'') and has its position in the series.
-* '''Editions''' (prints): one entry per edition: the regular edition, artist's proofs, trial proofs, the ''bon à tirer'' and so on, each with its number of impressions and numbering.
-* '''Sculpture editions''': the casts of a sculpture.
-* '''Relation with other objects''': links such as ''is preparatory study for'', ''is copy after'' or ''is version of''. Enter each link once; the reverse direction is shown automatically.
+* '''Parts of the object''': one work made of several pieces, such as a triptych. Each part has a name and its own sections for materials and techniques, attributes, dimensions and agents. Create the parts '''first''', then add those entries under the part they belong to.
+* '''Suites''': separately catalogued works that form a series, such as a portfolio of prints. In the main data, ''Group (suite)'' makes the suite's own record the ''Head of a group''; each member is a ''Member of a group'', with the ''Head of the group'' and its ''Position'' in the series.
+* '''Editions''' (prints): one entry per edition: the regular edition, artist's proofs, trial proofs, the ''bon à tirer'' and so on, each with its kind, its number of impressions and its numbering. Each edition has its own sections for materials and techniques, attributes, dimensions, agents, dates and notes.
+* '''Copies''': the casts or copies of a sculpture or multiple, with the same sections as an edition.
+* '''Individual copies''': single physical copies, such as one cast or one impression, with their identification, inscription and holder. They are entered on a page of their own.
+* '''Related objects''': links such as ''is preparatory study for'', ''is copy after'' or ''is version of''. Enter each link once; the reverse direction is shown automatically, and the pop-up refuses the same link a second time. Only works of the same artist can be linked.
 
 <!--T:13-->
 {| class="wikitable"
@@ -77,55 +87,55 @@ Several structures describe works that consist of, or belong to, more than one p
 
 <!--T:14-->
 == People and history ==
-* '''Agents''': the people and institutions involved with the work: printer, publisher, foundry, photographer, co-author and others.
-* '''Objects provenance''': the ownership history, one entry per owner with the period of ownership. Use the order field to keep the sequence right when dates are incomplete.
-* '''Objects transactions''': sales and auctions, with date, price and currency, estimates, lot number, seller, buyer and intermediary. The available kinds are sale by the artist, sale at an exhibition or art fair, private sale, floor or internet auction, gallery sale and sale by the publisher.
-* '''Objects Actions''': dated events in the life of the work: finished, printed, signed, exhibited, restored, destroyed and many more.
+* '''Agents''': the people and institutions involved with the work: printer, publisher, foundry, photographer, co-author and others. A person can have several roles, each of them once.
+* '''Provenance''': the ownership history, one entry per owner with the period of ownership. Use ''Position'' to keep the sequence right when dates are incomplete.
+* '''Transactions''': sales and auctions, with the type of sale, date, price and currency, seller, buyer and intermediary, and the event at which the sale took place, such as an art fair; for auctions also the lot number, the starting bid and the estimates. The available kinds are sale by the artist, sale at an exhibition or art fair, private sale, floor or internet auction, gallery sale and sale by the publisher.
+* '''Dates''': dated events in the life of the work: finished, printed, signed, exhibited, restored, destroyed and many more, each with its date or period, who acted, and the place.
 
 <!--T:15-->
-When the artist themselves was the owner or the one who acted, tick the box for that instead of creating a directory entry for the artist. It is called ''By the author himself'' or ''Author Itself'', depending on the section. When it is ticked, the catalogue shows the artist and ignores any directory entry chosen in the same entry.
+When the artist themselves was the owner or the one who acted, choose the artist instead of a directory entry: tick ''The artist (“by the author”)'' in ''Agents'' or ''Artist's own collection'' in ''Provenance'', or choose ''The artist (“by the author”)'' under ''Who'' in ''Dates''. The search for a directory entry then disappears. A sale has no such choice.
 
 <!--T:16-->
-Ownership histories and sales are sensitive. Enter them with the entry's ''Public'' unticked, and publish them only with the owners' consent. A directory entry can also be hidden from ownership histories or sales as a whole (see [[Directory]]).
+Ownership histories and sales are sensitive. A new owner starts with ''Show on public pages'' ticked, and a new sale with ''Public'' ticked: untick them, and publish them only with the owners' consent. A directory entry can also be hidden from ownership histories or sales as a whole (see [[Directory]]).
 
 <!--T:17-->
 == Literature and exhibitions ==
-* '''Reference''': every publication in which the work is mentioned or illustrated, with page, illustration number and whether the illustration is in colour. Always pick the publication from the list; use the free-text reference only when the publication cannot be recorded in openCR.
-* '''Exhibitions''': the exhibitions where the work was shown. Each exhibition is an [[Events|event]]. The entry can also record the lender and the title the work was shown under.
+* '''References''': every publication in which the work is mentioned or illustrated, with the work's number in it, the volume, the page, the illustration reference and page, and whether the illustration is in colour. Pick the publication from the list; an entry needs a publication or a directory entry. The same entry cannot be made twice, and a second entry for the same publication asks before saving.
+* '''Exhibitions''': the exhibitions where the work was shown. Each exhibition is an [[Events|event]]; only events whose kind shows works can be chosen. The entry can also record the reference, such as the number in the exhibition catalogue, the title the work was shown under, and the lender.
 
 <!--T:18-->
-Both lists can also be filled from the other side: from the [[Publications|publication]] or from the [[Events|event]].
+Both lists can also be filled from the other side: from the [[Publications|publication]] (''Referenced Objects'', also in bulk) or from the [[Events|event]] (''Related objects'').
 
 <!--T:19-->
 == Images ==
-Upload images from the object, or for many works at once with ''Mass New Objects Upload''. For each image:
-* Mark '''exactly one''' image per work as '''Is Main Image Web''': it becomes the thumbnail in lists and galleries. With none, the work appears as an empty tile; with several, the thumbnail is picked unpredictably. The list ''Objects with several or no main image'' in ''Data maintenance'' finds both cases.
-* '''Use For Web''' and '''Use For CR''' decide separately whether the image appears on the website and in the printed catalogue raisonné.
-* Credit the '''Photographer''', describe what the image shows (front, back, detail, signature) and use the image's own ''Public'' tick.
-* An image belongs to exactly one thing: the whole work, one of its parts, or one of its editions.
+Upload images with ''Upload an image'' on the artwork's page in ''Edit Mode'', or for many new works at once with ''Mass New Objects Upload''. ''Images management'' lists the work's images; there, ''Edit record'' opens an image's pop-up. For each image:
+* '''Set as main image for web''' (public images only) makes it the work's only main image, the thumbnail in lists and galleries, and moves it to the front. Each work should have '''exactly one'''. The list ''Objects with several or no main image'' in ''Data maintenance'' finds works whose images include no main image, or several.
+* '''Use for web''' and '''Use for CR''' mark the images meant for the website and for the printed catalogue raisonné. Thumbnails in search results come only from images with ''Use for web'' ticked; the artwork's own page shows all its public images.
+* Choose the photographer in '''Photographer (directory)''' and tick ''Name the photographer under the image'' to show the credit. Describe what the image shows (front, back, detail, signature) and use the image's own ''Public'' tick.
+* Images are uploaded and managed for the work as a whole; an individual copy can also have images of its own, on its page.
 * Never rename an image file by hand, and remove images only through the image tools. Otherwise the catalogue and the stored files drift apart.
 
 <!--T:20-->
 == Tags ==
-'''Object tags''' assign the artist's own keywords (epochs, styles, periods, topics, places) to the work. The keywords themselves are defined once per artist, in the [[Artists|artist's]] ''Tags'' section.
+'''Tags''' assign keywords (epochs, styles, periods, topics, places) to the work: the artist's own tags and the general ones. In ''Edit Mode'', the plus icon opens a pop-up with the tags the work does not have yet. The tags the work has are shown as green buttons and the artist's other tags as red ones; a click on a button removes or adds that tag. The artist's own tags are defined once per artist, in the [[Artists|artist's]] ''Artist specific Tags''.
 
 <!--T:21-->
 == Before publishing ==
 Check that the work has:
-* a title, or ''Has title ?'' unticked for an untitled work;
-* an ''Object type'';
-* exactly one main web image;
-* materials, measurements and a year of creation, as far as they are known;
+* a title, or ''The work has a title'' unticked for an untitled work;
+* a ''Type of work'';
+* exactly one main image;
+* materials, dimensions and a year of creation, as far as they are known;
 * only those ownership and sales entries public that may be public.
 
 <!--T:22-->
-The ''PRO menu'' leads to '''Data maintenance''', with lists that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, duplicated titles or references, and missing translations. The list ''Objects with several or no main image'' (under ''Images'') shows the images in question with their size in pixels, and ''Make main image'' under the right one fixes the work on the spot. The lists are grouped by subject (''Objects'', ''Images'', ''Publications'', ''Events'', ''Sources and citations'', ''Other''); click a heading to open it. Then tick ''Public''.
+The ''PRO menu'' leads to '''Data maintenance''', with lists that find gaps across the whole catalogue: for example objects without image, without title, without dimensions or without year of creation, duplicated titles or references, and missing translations. The list ''Objects with several or no main image'' (under ''Images'') shows the images in question with their size in pixels, and ''Make main image'' under the right one fixes the work on the spot. The lists are grouped by subject (''Objects'', ''Images'', ''Publications'', ''Events'', ''Sources and citations'', ''Other''); click a heading to open it. Then tick ''Public (shown on open.cr)'' in the main data.
 
 <!--T:23-->
 == Common pitfalls ==
-* '''Further titles in the main title.''' Keep the main title clean; translations and alternatives belong in ''Titles''.
-* '''Parts added late.''' If the parts are created after the images and measurements, each of those entries has to be opened again to assign it to its part.
-* '''Mirror relations.''' A relation between two works is entered once, on one of them. Entering the reverse as well shows it twice.
+* '''Further titles in the main title.''' Keep the main title clean; translations and alternatives belong in ''Other Titles''.
+* '''Parts added late.''' Entries cannot be moved to a part afterwards. If the parts are created after the dimensions and attributes, those entries have to be entered again under each part and deleted from the work.
+* '''Mirror relations.''' A relation between two works is entered once, on one of them; the pop-up refuses the reverse.
 * '''Renumbering.''' Catalogue numbers and positions in a suite are cited by others. Fix the scheme early and avoid renumbering later.
 * '''Deleting instead of hiding.''' Deleting a work is permanent. If anything refers to it, untick ''Public'' instead.
 
