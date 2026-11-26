@@ -15,7 +15,7 @@ Un evento se crea para un artista; otros artistas pueden participar en él. Esta
 
 <!--T:17-->
 == Crear un evento ==
-'''Creación rápida de evento''', en el ''Menú PRO'', crea un evento para el artista en un solo formulario: el tipo de evento, el nombre, el alias, la referencia, una primera descripción (guardada en el idioma de la página), la relación del artista con el evento, un primer lugar con sus fechas y hasta dos partícipes con sus funciones, elegidos entre las entradas del directorio del catálogo del artista. El tipo, el alias y el año de inicio son obligatorios. El formulario no comprueba si otro evento ya tiene el alias: elija uno nuevo, o más tarde no podrán guardarse los datos principales. Su casilla ''Público'' está marcada por defecto; desmárquela mientras el registro esté incompleto. Todo lo demás se añade después en la página del evento, en el ''Modo de edición''.
+'''Creación rápida de evento''', en el ''Menú PRO'', crea un evento para el artista en un solo formulario: el tipo de evento, el nombre, el alias, la referencia, una primera descripción (guardada en el idioma de la página), la relación del artista con el evento, un primer lugar con sus fechas y hasta dos partícipes con sus funciones, elegidos entre las entradas del directorio del catálogo del artista. El tipo, el alias y el año de inicio son obligatorios. Como la ventana emergente, el formulario rechaza un alias que otro evento ya tiene: nombra ese evento y pide uno distinto. Su casilla ''Público'' está marcada por defecto; desmárquela mientras el registro esté incompleto. Todo lo demás se añade después en la página del evento, en el ''Modo de edición''.
 
 <!--T:4-->
 == Los datos principales ==

@@ -15,7 +15,7 @@ An event is created for an artist; other artists can take part in it. This page 
 
 <!--T:17-->
 == Creating an event ==
-'''Easy event creation''' in the ''PRO menu'' creates an event for the artist in one form: the kind of event, the name, the alias, the reference, a first description (saved in the language of the page), the artist's relation to the event, a first place with its dates, and up to two agents with their roles, chosen from the directory entries of the artist's catalogue. The kind, the alias and the start year are required. The form does not check whether another event already has the alias: choose a new one, or the main data cannot be saved later. Its ''Public'' tick is set by default; untick it while the record is incomplete. Everything else is added afterwards on the event's page, in ''Edit Mode''.
+'''Easy event creation''' in the ''PRO menu'' creates an event for the artist in one form: the kind of event, the name, the alias, the reference, a first description (saved in the language of the page), the artist's relation to the event, a first place with its dates, and up to two agents with their roles, chosen from the directory entries of the artist's catalogue. The kind, the alias and the start year are required. Like the pop-up, the form refuses an alias that another event already has: it names that event and asks for a different one. Its ''Public'' tick is set by default; untick it while the record is incomplete. Everything else is added afterwards on the event's page, in ''Edit Mode''.
 
 <!--T:4-->
 == The main data ==
