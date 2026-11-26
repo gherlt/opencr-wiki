@@ -78,7 +78,7 @@ El directorio contiene información delicada: quién posee qué, quién compró 
 Los ajustes pueden combinarse libremente. Un caso típico: un coleccionista acepta figurar como propietario de obras, pero no que se publiquen sus compras. Entonces la entrada es pública, mientras que ''Transacciones: privadas'' está marcada.
 
 <!--T:12-->
-Las casillas de privacidad actúan sobre todas las obras a la vez. Para ocultar una sola entrada del historial de propiedad de una obra, desmarque en su lugar ''Publicable'' en esa entrada.
+Las casillas de privacidad actúan sobre todas las obras a la vez. Para ocultar una sola entrada del historial de propiedad de una obra, desmarque en su lugar ''Mostrar en las páginas públicas'' en esa entrada.
 
 <!--T:13-->
 == Compartido entre catálogos ==

@@ -70,7 +70,7 @@ La mayoría de los proyectos combinan ambas: empiezan por las imágenes para ten
 
 <!--T:13-->
 == Del borrador a la publicación ==
-Todo lo que cree es un borrador mientras ''Publicable'' no esté marcado. Los borradores solo los ven los editores.
+Todo lo que cree es un borrador mientras ''Público'' no esté marcado. Los borradores solo los ven los editores.
 
 <!--T:14-->
 # '''Introduzca''' el registro con ''Público'' sin marcar y complete sus secciones.
@@ -81,7 +81,7 @@ Todo lo que cree es un borrador mientras ''Publicable'' no esté marcado. Los bo
 
 <!--T:15-->
 == Corregir y borrar ==
-* '''Mejor ocultar que borrar.''' Borrar es definitivo, y los registros que remiten a un registro borrado no se limpian automáticamente. En todo aquello a lo que remiten otros registros, desmarque ''Publicable'' en su lugar.
+* '''Mejor ocultar que borrar.''' Borrar es definitivo, y los registros que remiten a un registro borrado no se limpian automáticamente. En todo aquello a lo que remiten otros registros, desmarque ''Público'' en su lugar.
 * '''Registros compartidos''': una publicación, un evento o una entrada del directorio que usan los catálogos de varios artistas solo puede borrarlos alguien con derechos de edición en todos ellos. En la práctica, pídaselo al administrador de la plataforma.
 * Las '''imágenes''' se eliminan con las herramientas de imágenes, para que los archivos y el catálogo sigan en concordancia.
 

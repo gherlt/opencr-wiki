@@ -70,7 +70,7 @@ Die meisten Projekte verbinden beides: Sie beginnen mit den Abbildungen, um eine
 
 <!--T:13-->
 == Vom Entwurf zur Veröffentlichung ==
-Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht angehakt ist. Entwürfe sehen nur die Bearbeiter.
+Alles, was Sie anlegen, ist ein Entwurf, solange ''Öffentlich'' nicht angehakt ist. Entwürfe sehen nur die Bearbeiter.
 
 <!--T:14-->
 # '''Erfassen''' Sie den Datensatz, ohne ''Öffentlich'' anzuhaken, und vervollständigen Sie seine Abschnitte.
@@ -81,7 +81,7 @@ Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht ang
 
 <!--T:15-->
 == Korrigieren und löschen ==
-* '''Lieber verbergen als löschen.''' Löschen ist endgültig, und Datensätze, die auf einen gelöschten Datensatz verweisen, werden nicht automatisch bereinigt. Bei allem, worauf andere Datensätze verweisen, entfernen Sie stattdessen den Haken bei ''Veröffentlichbar''.
+* '''Lieber verbergen als löschen.''' Löschen ist endgültig, und Datensätze, die auf einen gelöschten Datensatz verweisen, werden nicht automatisch bereinigt. Bei allem, worauf andere Datensätze verweisen, entfernen Sie stattdessen den Haken bei ''Öffentlich''.
 * '''Gemeinsame Datensätze''': Eine Publikation, ein Ereignis oder ein Adressbucheintrag, den die Werkverzeichnisse mehrerer Künstler verwenden, kann nur löschen, wer Bearbeitungsrechte für alle diese Werkverzeichnisse hat. In der Praxis wenden Sie sich an den Plattform-Administrator.
 * '''Abbildungen''' werden über die Bildwerkzeuge entfernt, damit Dateien und Werkverzeichnis übereinstimmen.
 

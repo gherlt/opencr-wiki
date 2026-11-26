@@ -48,7 +48,7 @@ Die Seite zeigt auch, wo der Eintrag in anderen Datensätzen vorkommt. Diese Lis
 Ein Eintrag kann mehrere Adressen haben, und sie ändern sich mit der Zeit; deshalb haben sie eine eigene Seite, '''Adressen'''. Auf der Seite des Eintrags führt ''Adresse'' im ''Bearbeitungsmodus'' dorthin: mit einem Pluszeichen, solange der Eintrag keine Adresse hat, mit einem Stift, sobald er eine hat. Die Seite listet die Adressen auf: Das Pluszeichen hinter ''Adressen'' fügt eine hinzu, der Stift vor einer Adresse öffnet sie in einem Pop-up, und der Papierkorb dahinter löscht sie. Jede Adresse hat:
 * eine Art: Firmensitz, Postanschrift, Wohnadresse, Atelier, Büro / Verwaltung, Ausstellungsraum, Werkstatt oder Lager / Depot;
 * die Adresszeilen, Straße, Postleitzahl, Ort, Bundesland oder Region und Land. Mindestens eine dieser Angaben muss ausgefüllt sein; keine ist für sich allein Pflicht;
-* einen Gültigkeitszeitraum (von und bis, jeweils mit Klassifikation) und eine Anmerkung zum Zeitraum;
+* einen Gültigkeitszeitraum (von und bis, jeweils mit Zusatz) und eine Anmerkung zum Zeitraum;
 * einen Kommentar;
 * '''Hauptadresse (standardmäßig angezeigt)''': die Hauptadresse des Eintrags, die seine Seite zeigt. Listen von Adressbucheinträgen zeigen ihren Ort und ihr Land. Die erste Adresse eines Eintrags ist seine Hauptadresse, und sie bleibt es, bis eine andere Adresse als Hauptadresse angehakt wird. Wird die Hauptadresse gelöscht, tritt die erste aktuelle Adresse an ihre Stelle;
 * '''Derzeit gültig''': ob die Adresse noch gilt. Die Liste kennzeichnet die übrigen als ''Nicht aktuell'';
@@ -78,7 +78,7 @@ Das Adressbuch enthält heikle Informationen: wer was besitzt, wer was gekauft h
 Die Einstellungen lassen sich frei kombinieren. Ein typischer Fall: Ein Sammler ist einverstanden, als Eigentümer von Werken genannt zu werden, nicht aber, dass seine Käufe veröffentlicht werden. Dann ist der Eintrag öffentlich, und ''Transaktionen: privat'' ist angehakt.
 
 <!--T:12-->
-Die Datenschutz-Haken wirken für alle Werke zugleich. Um nur einen Eintrag in der Provenienz eines einzelnen Werks zu verbergen, entfernen Sie stattdessen den Haken ''Veröffentlichbar'' bei diesem Eintrag.
+Die Datenschutz-Haken wirken für alle Werke zugleich. Um nur einen Eintrag in der Provenienz eines einzelnen Werks zu verbergen, entfernen Sie stattdessen den Haken ''Auf öffentlichen Seiten zeigen'' bei diesem Eintrag.
 
 <!--T:13-->
 == Gemeinsam für mehrere Werkverzeichnisse ==

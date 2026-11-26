@@ -78,7 +78,7 @@ The directory holds sensitive information: who owns what, who bought what and fo
 The settings can be combined freely. A typical case: a collector agrees to be named as the owner of works, but not to have their purchases published. Then the entry is public, while ''Transactions private'' is ticked.
 
 <!--T:12-->
-The privacy ticks work across all artworks at once. To hide just one entry of one artwork's ownership history, untick ''Public'' on that entry instead.
+The privacy ticks work across all artworks at once. To hide just one entry of one artwork's ownership history, untick ''Show on public pages'' on that entry instead.
 
 <!--T:13-->
 == Shared between catalogues ==
