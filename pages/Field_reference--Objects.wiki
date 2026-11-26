@@ -452,7 +452,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Related object''' || The other artwork. || link to an artwork<br />'''required''' || 
 |-
-| '''Relation type''' || How the two works are related, seen from this work: is study of, version is and so on. See the Relations page. || list<br />'''required''' || 41 entries, see [[Field reference/Base tables#Artwork relation types|Artwork relation types]]
+| '''Relation type''' || How the two works are related, seen from this work: is preparatory study for, has version and so on. See the Relations page. || list<br />'''required''' || 41 entries, see [[Field reference/Base tables#Artwork relation types|Artwork relation types]]
 |}
 
 == Objects Actions ==
