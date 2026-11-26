@@ -9,35 +9,47 @@ Las publicaciones son compartidas: un libro sobre tres artistas es un único reg
 
 <!--T:3-->
 == Antes de crear una publicación ==
-* '''Busque primero.''' Puede que la publicación ya exista, introducida para otro artista. Use el registro existente y añada a su artista (véase [[#Artistas tratados|Artistas tratados]]) en lugar de crear un duplicado.
-* Los '''autores y editoriales''' son entradas del [[Directory/es|directorio]]. Cree primero las que necesite, para poder elegirlas de la lista.
-* '''Elija el nombre corto.''' El ''Alias'' identifica la publicación en todas las listas en las que puede elegirse, por ejemplo cuando una obra la cita, y esas listas se ordenan por él. Use un patrón coherente, como autor y año.
+* '''Busque primero.''' Puede que la publicación ya exista, introducida para otro artista. Use el registro existente en lugar de crear un duplicado. Si puede editarlo, añada a su artista en [[#Artistas relacionados|Artistas relacionados]]; si solo pertenece a artistas de otros catálogos, pida al administrador de la plataforma que añada el suyo.
+* Los '''autores y editoriales''' son entradas del [[Directory/es|directorio]]. Cree primero las que necesite, para poder encontrarlas cuando añada a los colaboradores.
+* '''Elija el nombre corto.''' El ''Alias'' es el nombre corto de la publicación. Las listas en las que se elige una publicación, por ejemplo cuando una obra la cita, la encuentran tanto por su alias como por su título. Use un patrón coherente, como autor y año.
 
 <!--T:4-->
-== El formulario principal ==
-=== Identidad ===
-* '''Id de Tipo de Publicación''': la clase de publicación. Hay 23 clases, entre ellas Libro, Artículo en revista, Artículo de periódico, Catálogo de la exposición, Catálogo razonado, Catálogo, Artículo en catálogo, Revista, Prospecto, Folleto, Thesis, Nota de prensa, Video, Audio e Internet (blog/review/etc). Elija la más cercana; en el Menú PRO, la bibliografía puede filtrarse y ordenarse por ella.
-* '''Título''' y '''Subtítulo'''.
-* '''Alias''': el nombre corto (véase más arriba).
-* '''Abreviatura''': una forma corta para las notas a pie de página, si el catálogo la usa.
-* '''Referencia''': una clave de cita o un código de referencia externo. Se puede buscar por ella.
+== Los datos principales ==
+Los datos principales de una publicación se editan en una ventana emergente: en el ''Modo de edición'', el lápiz delante del ID de la publicación abre ''Datos principales de la publicación''. El formulario para una publicación nueva aplica las mismas comprobaciones. ''Tipo de publicación'', ''Título'' y ''Alias'' son obligatorios. Los campos se reparten en seis grupos.
+
+<!--T:18-->
+=== Publicación ===
+* '''Tipo de publicación''': la clase de publicación. Hay 23 clases, entre ellas Libro, Artículo en revista, Artículo de periódico, Catálogo de la exposición, Catálogo razonado, Catálogo, Artículo en catálogo, Revista, Prospecto, Folleto, Thesis, Nota de prensa, Video, Audio e Internet (blog/review/etc). Elija la más cercana; en el Menú PRO, la bibliografía puede filtrarse y ordenarse por ella.
+* '''Pública (se muestra en open.cr)''': hace pública la publicación; deje la casilla sin marcar hasta que el registro esté completo. Las observaciones internas van en notas no públicas en la página de la publicación (véase [[Objects/es#Observaciones|notas]]).
+* '''Catálogo razonado autorizado''': márquelo solo para el catálogo razonado autorizado. Las listas muestran entonces una etiqueta tras su título, y la página de la publicación, tras el tipo de publicación.
+* '''Alias''': el nombre corto (véase más arriba). Si otra publicación ya tiene el mismo alias, la ventana emergente la nombra y pide uno distinto; ''Guardar de todos modos'' lo guarda igualmente.
+* '''Abreviatura''': una forma de cita abreviada, como ''[CabraDeLuna1992a]'', si el catálogo la usa. La página solo la muestra en el ''Modo de edición''.
+* '''Referencia''': una clave de cita o un código de referencia externo. La página de la publicación la muestra, también a los visitantes.
 
 <!--T:5-->
-=== Datos bibliográficos ===
+=== Título ===
+* '''Título''' y '''Subtítulo'''.
 * '''Publicación''': en un artículo o una contribución, la obra en la que aparece, como la revista, el periódico o el libro. En un libro independiente, déjelo vacío.
-* '''Series''', '''Volume''' y '''Total Volumes'''.
-* Fecha: '''Fecha Publicación (Día)''', '''Mes Publicación''' y '''Año Publicación'''. Deje vacíos el día y el mes cuando no se conozcan; no use nunca enero como relleno.
-* Lugar: '''Ciudad Publicación''' y '''País Publicación'''.
-* '''Number Pages''' y '''Number Copies''' (la tirada, si se conoce).
-* '''ISBN (libros)''', '''ISSN (revistas)''' y '''Link''' (una dirección web de la publicación o de su ficha).
+* '''Colección''', que se muestra en la página de la publicación.
+
+<!--T:19-->
+=== Fecha y lugar de publicación ===
+* '''Día''', '''Mes''' y '''Año'''. Deje vacíos el día y el mes cuando no se conozcan; no use nunca enero como relleno. Un mes necesita un año, y un día necesita un mes.
+* '''Ciudad''' y '''País'''.
+
+<!--T:20-->
+=== Edición y extensión ===
+* '''Edición''': la mención de edición tal como figura en la portada, como ''7. Auflage''. Déjela vacía en un libro con una sola edición. No es la tirada de una obra de arte.
+* '''Volumen''' y '''Número de volúmenes'''. El volumen no puede ser mayor que el total.
+* '''Número de páginas''' y '''Número de ejemplares''' (la tirada, si se conoce). Vacío o 0 significa desconocido.
 
 <!--T:6-->
-=== Extractos ===
-Cuando el registro describe un extracto concreto y no una obra completa, '''Página''', '''Ilustración''' y '''en color''' registran su intervalo de páginas, el número de figura o de lámina y si la ilustración es en color.
+=== Extracto ===
+Cuando el registro describe un extracto concreto y no una obra completa, como un artículo, '''Página(s)''', '''Ilustración''' y '''En color''' registran su página o sus páginas, el número de la ilustración y si la ilustración es en color.
 
-<!--T:7-->
-=== Interno ===
-'''Publicable''' hace pública la publicación; déjelo sin marcar hasta que el registro esté completo. Las observaciones internas van en notas no públicas en la página de la publicación (véase [[Objects/es#Observaciones|notas]]).
+<!--T:21-->
+=== ISBN, ISSN y enlace ===
+'''ISBN''' para libros, '''ISSN''' para revistas y '''Enlace''': una dirección web de la publicación o de su ficha, que empiece por http:// o https://.
 
 <!--T:8-->
 == Colaboradores ==
@@ -48,50 +60,52 @@ La sección '''Partícipes''' de una publicación enumera a todos los que contri
 * Un colaborador puede limitarse a una parte de la publicación: un ensayo, la introducción, el prefacio, el epílogo, etc., elegida de la lista o escrita como nombre. Déjelo vacío cuando la función se aplica a toda la publicación. Como cada función se registra una sola vez, quien escribió el prefacio y un ensayo figura una vez como autor, sin parte.
 
 <!--T:9-->
-== Artistas tratados ==
-'''Artistas tratados''' enumera los artistas de los que trata la publicación. Es lo que incluye una publicación en la bibliografía de un artista: '''una publicación sin una entrada aquí no aparece en la bibliografía del artista''', aunque sea pública.
+== Artistas relacionados ==
+'''Artistas relacionados''' enumera a los artistas de los que trata la publicación. Esto es lo que hace que una publicación figure en la bibliografía de un artista: '''una publicación sin una entrada aquí no aparece en la bibliografía del artista''', aunque sea pública. Los artistas relacionados deciden también quién puede editar la publicación: los editores de sus catálogos.
+* En el ''Modo de edición'', el icono de más junto a ''Artistas relacionados'' abre una ventana emergente que ofrece los artistas que usted puede editar y que aún no están relacionados con la publicación. El lápiz delante de una entrada modifica sus tres ajustes; para relacionar otro artista en su lugar, quite la entrada con la papelera y añada el otro.
+* Quitar el último artista relacionado saca la publicación de la bibliografía de todos los artistas, y después solo el administrador de la plataforma puede editarla. La papelera avisa antes de hacerlo.
 
 <!--T:10-->
-Cada entrada tiene tres interruptores independientes:
+Cada entrada tiene tres ajustes independientes:
 {| class="wikitable"
-! Interruptor !! Efecto
+! Ajuste !! Efecto
 |-
-| '''Use In Web''' || La publicación aparece en la bibliografía del artista en el sitio web.
+| '''Usar en la web''' || Lo lee el filtro ''Limitación uso'' de las listas de publicaciones del Menú PRO. No oculta la publicación: la bibliografía de open.cr la muestra en cualquier caso.
 |-
-| '''Use In CR''' || La publicación se incluye en el catálogo razonado impreso del artista.
+| '''Usar en el CR''' || Los borradores del catálogo razonado imprimen las referencias de una obra solo de las publicaciones que lo tienen marcado para el artista de la obra.
 |-
-| '''Use As Ref CR''' || La publicación es una de las referencias autorizadas del catálogo razonado.
+| '''Usar como referencia en el CR''' || Marca una publicación de referencia del catálogo. Lo lee el filtro ''Limitación uso'' de las listas PRO.
 |}
-Los interruptores no dependen unos de otros: ''Use In CR'' por sí solo no pone la publicación en el sitio web, y ''Use In Web'' por sí solo no la pone en el catálogo impreso.
+Una entrada añadida en la ventana emergente empieza con ''Usar en la web'' y ''Usar en el CR'' marcados y ''Usar como referencia en el CR'' sin marcar. Una publicación creada con ''Creación rápida de publicación'' recibe a su artista con ''Usar en la web'' y ''Usar en el CR'' sin marcar: marque ''Usar en el CR'' si los borradores del catálogo razonado deben imprimir sus referencias. En la página del artista, ''Publicaciones usadas como referencia'' enumera las entradas del artista en ''Referencias a artistas'' (véase más abajo). En la vista pública, muestra una publicación solo si la publicación es pública y ''Usar en la web'' o ''Usar en el CR'' está marcado para ese artista; en el ''Modo de edición'', muestra todas las entradas.
 
 <!--T:11-->
-Cuando una publicación trata de varios artistas en páginas distintas, los intervalos de páginas de cada artista se registran en un formulario aparte, ''Publications Artist References''.
+Cuando una publicación trata de varios artistas en páginas distintas, las páginas de cada artista se registran en '''Referencias a artistas'''. En el ''Modo de edición'', el icono de más de esta sección abre una ventana emergente con el artista, ''Página'', ''Ilustración'', ''Referencia'' y un ''Comentario'', que la página de la publicación muestra bajo la entrada, también en la vista pública. Un artista puede tener varias entradas. Las mismas entradas aparecen en la página del artista bajo ''Publicaciones usadas como referencia'' (en la vista pública, solo como se ha descrito más arriba), donde también pueden añadirse y modificarse.
 
 <!--T:12-->
 == Eventos, idiomas y publicaciones relacionadas ==
-* '''Eventos relacionados''': los eventos que documenta la publicación, por ejemplo la exposición a la que acompaña un catálogo de exposición, con referencias de página e ilustración cuando sean útiles.
-* '''Idiomas utilizados''': los idiomas en los que está escrita la publicación. Describe la publicación misma y no tiene nada que ver con los idiomas del catálogo de openCR.
-* '''Publications Relations''': enlaces a otras publicaciones: parte de, versión de, copia de, facsímil de, basada en, preparación para, derivada de, similar a, relacionada con. Introduzca cada enlace una sola vez, en una de las dos publicaciones; la dirección inversa se muestra automáticamente.
+* '''Eventos relacionados''': los eventos que documenta la publicación, por ejemplo la exposición a la que acompaña un catálogo de exposición, con referencias de página e ilustración cuando sean útiles. La ventana emergente busca los eventos por nombre, sede, ciudad, año o número.
+* '''Idiomas empleados''': los idiomas en los que está escrita la publicación, cada uno una sola vez. La ventana emergente muestra primero los idiomas del sitio web y después todos los idiomas. Describe la publicación misma y no tiene nada que ver con los idiomas del catálogo de openCR.
+* '''Publicaciones relacionadas''': enlaces a otras publicaciones: parte de, versión de, copia de, facsímil de, basada en, preparación para, derivada de, similar a, relacionada con. Introduzca cada enlace una sola vez, en una de las dos publicaciones; la página de cada una muestra el enlace desde su propio lado. openCR rechaza el mismo enlace por segunda vez, en cualquier dirección, y una publicación no puede relacionarse consigo misma.
 
 <!--T:13-->
 == Obras citadas ==
-La sección '''Referencias''' enumera las obras que la publicación menciona o reproduce, con página, número de ilustración y si la ilustración es en color. Es la misma lista que la sección ''Referencias'' de una [[Objects/es|obra]], vista desde el otro lado. Cuando se trabaja con una publicación, a menudo lo más rápido es añadir aquí todas sus obras de una vez.
+La sección '''Obras referenciadas''' enumera las obras que la publicación menciona o reproduce, con su número de referencia, la página, el número de ilustración y la página de la ilustración. Cada entrada registra también si la ilustración es en color, lo que muestra la bibliografía de la obra. Es la misma lista que la bibliografía de una [[Objects/es|obra]], vista desde el otro lado. Cuando revise una publicación de principio a fin, ''Introducir referencias en serie'' añade sus obras una tras otra en una sola ventana emergente.
 
 <!--T:14-->
-== Imágenes y archivos ==
-Las imágenes de la publicación, como su cubierta, se suben con la carga de imágenes y pertenecen a la publicación. ''Externalfiles'' contiene otros documentos relacionados con la publicación.
+== Imágenes ==
+Las imágenes de la publicación, como su cubierta, se suben con la carga de imágenes y pertenecen a la publicación; la página las muestra en su columna derecha, en el ''Modo de edición'' bajo el encabezado ''Imágenes de la Publicación''. En el ''Modo de edición'', el lápiz de una imagen abre una ventana emergente para su casilla ''Pública'', su descripción en cada idioma y su fotógrafo. Las imágenes de una publicación compartida por varios artistas las modifica o elimina el administrador de la plataforma.
 
 <!--T:15-->
 == Antes de publicar ==
 * El tipo, el título, la fecha y el lugar están completos, en la medida en que se conocen.
 * Los autores y los editores están registrados con esas funciones.
-* Cada artista del que trata la publicación figura en ''Artistas tratados'', con los interruptores correctos.
-Después marque ''Publicable''.
+* Cada artista del que trata la publicación figura en ''Artistas relacionados''.
+Después marque ''Pública (se muestra en open.cr)'' en los datos principales.
 
 <!--T:16-->
 == Errores frecuentes ==
 * '''Duplicados.''' Antes de crear una publicación, búsquela; puede que se haya introducido para otro artista.
-* '''Ausente de la bibliografía.''' Cuando una publicación no aparece en la bibliografía de un artista, compruebe primero ''Artistas tratados'': normalmente falta la entrada del artista o su interruptor ''Use In Web''.
+* '''Ausente de la bibliografía.''' Cuando una publicación no aparece en la bibliografía de un artista, compruebe primero ''Artistas relacionados'': normalmente falta la entrada del artista. Si no es así, compruebe que la publicación sea pública.
 * '''Autoría vacía.''' En la autoría solo aparecen autores, coautores, escritores, periodistas y editores. Quien escribió un texto pero figura con otra función, como ''Organizador'', no aparece en ella.
 * '''Título y obra contenedora confundidos.''' En un artículo, el título del artículo va en ''Título'', y la revista o el libro en ''Publicación''.
 * '''Relaciones en espejo.''' Una relación entre dos publicaciones se introduce una sola vez.

@@ -76,19 +76,21 @@ Diese Seite listet die Abschnitte jeder Entität auf, so benannt, wie sie in den
 {| class="wikitable"
 ! Abschnitt !! Was hier erfasst wird
 |-
-| Publications Agents || Autoren, Herausgeber, Verlage und andere Mitwirkende
-|-
-| Erwähnte Künstler || Die Künstler, von denen die Publikation handelt, und ob sie auf der Website oder im gedruckten Werkverzeichnis erscheint
-|-
-| Erwähnte Ereignisse || Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint
+| Beteiligte || Autoren, Herausgeber, Verlage und andere Mitwirkende
 |-
 | Verwendete Sprachen || Die Sprachen, in denen die Publikation geschrieben ist
 |-
-| Publications Relations || Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie oder Faksimile von, basiert auf und Ähnliches
+| Erwähnte Künstler || Die Künstler, von denen die Publikation handelt; sie nehmen die Publikation in ihre Bibliographie auf und entscheiden, wer sie bearbeiten darf
 |-
-| Referenzen || Die Werke, die diese Publikation zitieren
+| Referenzen auf Künstler || Die Seiten, auf denen die Publikation jeden Künstler behandelt
 |-
-| Externalfiles || Beigefügte Dateien, etwa Scans
+| In Beziehung stehende Ereignisse || Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint
+|-
+| In Beziehung stehende Publikationen || Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie oder Faksimile von, basiert auf und Ähnliches
+|-
+| Referenzierte Werke || Die Werke, die diese Publikation zitieren
+|-
+| Abbildungen Publikation || Abbildungen der Publikation, etwa ihr Umschlag
 |}
 
 <!--T:6-->
@@ -122,6 +124,6 @@ Diese Seite listet die Abschnitte jeder Entität auf, so benannt, wie sie in den
 |-
 | Directory Artists || Die Werkverzeichnisse der Künstler, in denen dieser Eintrag verwendet wird
 |-
-| Directory Addresses || Die Adressen des Eintrags, jede mit Art und Gültigkeitszeitraum (ein eigenes Formular)
+| Adressen || Die Adressen des Eintrags, jede mit Art und Gültigkeitszeitraum, auf einer eigenen Seite
 |}
 Das Adressbuchformular zeigt auch, wo ein Eintrag anderswo verwendet wird: in Provenienzen (''Provenienz''), bei Verkäufen (''Transaktionen''), bei Ereignissen (''Events Agents'') und in Publikationen (''Publications Agents'').

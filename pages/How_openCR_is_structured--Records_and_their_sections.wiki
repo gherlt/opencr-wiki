@@ -76,19 +76,21 @@ This page lists the sections of each entity, named as they appear in the forms. 
 {| class="wikitable"
 ! Section !! What goes there
 |-
-| Publications Agents || Authors, editors, publishers and other contributors
+| Agents || Authors, editors, publishers and other contributors
 |-
-| Featured artists || The artists the publication is about, and whether it appears on the website or in the printed catalogue
+| Used Languages || The languages the publication is written in
+|-
+| Related artists || The artists the publication is about; they put it into their bibliography and decide who may edit it
+|-
+| References to artists || The pages where the publication discusses each artist
 |-
 | Related events || Events the publication documents, for example the exhibition an exhibition catalogue accompanies
 |-
-| Used languages || The languages the publication is written in
+| Related Publications || Links to other publications: part of, version of, copy or facsimile of, based on and similar
 |-
-| Publications Relations || Links to other publications: part of, version of, copy or facsimile of, based on and similar
+| Referenced Objects || The artworks that cite this publication
 |-
-| Reference || The artworks that cite this publication
-|-
-| Externalfiles || Attached files, such as scans
+| Publication Images || Images of the publication, such as its cover
 |}
 
 <!--T:6-->
@@ -122,7 +124,7 @@ This page lists the sections of each entity, named as they appear in the forms. 
 |-
 | Directory Artists || The artists' catalogues in which this entry is used
 |-
-| Directory Addresses || The addresses of the entry, each with type and period of validity (a separate form)
+| Addresses || The addresses of the entry, each with type and period of validity, on a page of their own
 |}
 The directory form also shows where an entry is used elsewhere: in ownership histories (''Objects provenance''), sales (''Objects transactions''), events (''Events Agents'') and publications (''Publications Agents'').
 </translate>

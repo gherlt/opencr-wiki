@@ -36,14 +36,15 @@ Das Formular zeigt auch, wo der Eintrag anderswo erscheint: in Provenienzen (''P
 
 <!--T:8-->
 == Adressen ==
-Adressen stehen in einem eigenen Formular, '''Directory Addresses''', weil ein Eintrag mehrere haben kann und sie sich mit der Zeit ändern. Jede Adresse hat:
+Ein Eintrag kann mehrere Adressen haben, und sie ändern sich mit der Zeit; deshalb haben sie eine eigene Seite, '''Adressen'''. Auf der Seite des Eintrags führt ''Adresse'' im ''Bearbeitungsmodus'' dorthin: mit einem Pluszeichen, solange der Eintrag keine Adresse hat, mit einem Stift, sobald er eine hat. Die Seite listet die Adressen auf: Das Pluszeichen hinter ''Adressen'' fügt eine hinzu, der Stift vor einer Adresse öffnet sie in einem Pop-up, und der Papierkorb dahinter löscht sie. Jede Adresse hat:
 * eine Art: Firmensitz, Postanschrift, Wohnadresse, Atelier, Büro / Verwaltung, Ausstellungsraum, Werkstatt oder Lager / Depot;
-* die Adresszeilen, Straße, Postleitzahl, Ort, Bundesland oder Region und Land;
-* einen Gültigkeitszeitraum (von und bis, jeweils mit Klassifikation) und eine Notiz zu den Daten;
-* '''Is Primary''': die Hauptadresse des Eintrags. Listen von Adressbucheinträgen zeigen Ort und Land der Hauptadresse; markieren Sie daher genau eine Adresse als Hauptadresse;
-* '''Is Valid''': ob die Adresse noch gilt;
-* einen eigenen Haken '''Public''', damit eine Adresse erfasst werden kann, ohne veröffentlicht zu werden;
-* ihre Quellen, als Quellenangaben erfasst (siehe [[Sources and citations/de|Quellen und Quellenangaben]]). Sie werden auf der Seite des Eintrags hinzugefügt, die die Hauptadresse zeigt; andere Adressen lassen sich noch nicht belegen.
+* die Adresszeilen, Straße, Postleitzahl, Ort, Bundesland oder Region und Land. Mindestens eine dieser Angaben muss ausgefüllt sein; keine ist für sich allein Pflicht;
+* einen Gültigkeitszeitraum (von und bis, jeweils mit Klassifikation) und eine Anmerkung zum Zeitraum;
+* einen Kommentar;
+* '''Hauptadresse (standardmäßig angezeigt)''': die Hauptadresse des Eintrags, die seine Seite zeigt. Listen von Adressbucheinträgen zeigen ihren Ort und ihr Land. Die erste Adresse eines Eintrags ist seine Hauptadresse, und sie bleibt es, bis eine andere Adresse als Hauptadresse angehakt wird. Wird die Hauptadresse gelöscht, tritt die erste aktuelle Adresse an ihre Stelle;
+* '''Derzeit gültig''': ob die Adresse noch gilt. Die Liste kennzeichnet die übrigen als ''Nicht aktuell'';
+* einen eigenen Haken '''Öffentlich''', damit eine Adresse erfasst werden kann, ohne veröffentlicht zu werden;
+* ihre Quellen und Notizen (siehe [[Sources and citations/de|Quellen und Quellenangaben]]). Sobald eine Adresse gespeichert ist, hat ihr Pop-up Schaltflächen ''Quelle hinzufügen'' für Straße, Postleitzahl, Ort und Land sowie eine für die Adresse als Ganzes; Notizen werden auf dieselbe Weise hinzugefügt. Die Hauptadresse lässt sich auch auf der Seite des Eintrags belegen.
 
 <!--T:9-->
 == Was die Öffentlichkeit sieht ==

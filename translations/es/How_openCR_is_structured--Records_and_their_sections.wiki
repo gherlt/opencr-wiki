@@ -76,19 +76,21 @@ Esta página enumera las secciones de cada entidad, con el nombre que tienen en 
 {| class="wikitable"
 ! Sección !! Qué se registra
 |-
-| Publications Agents || Autores, editores, editoriales y otros colaboradores
+| Partícipes || Autores, editores, editoriales y otros colaboradores
 |-
-| Artistas tratados || Los artistas de los que trata la publicación, y si aparece en el sitio web o en el catálogo impreso
+| Idiomas empleados || Los idiomas en los que está escrita la publicación
+|-
+| Artistas relacionados || Los artistas de los que trata la publicación; la incluyen en su bibliografía y deciden quién puede editarla
+|-
+| Referencias a artistas || Las páginas en las que la publicación trata de cada artista
 |-
 | Eventos relacionados || Los eventos que documenta la publicación, por ejemplo la exposición a la que acompaña un catálogo de exposición
 |-
-| Idiomas utilizados || Los idiomas en los que está escrita la publicación
+| Publicaciones relacionadas || Enlaces a otras publicaciones: parte de, versión de, copia o facsímil de, basada en y similares
 |-
-| Publications Relations || Enlaces a otras publicaciones: parte de, versión de, copia o facsímil de, basada en y similares
+| Obras referenciadas || Las obras que citan esta publicación
 |-
-| Referencias || Las obras que citan esta publicación
-|-
-| Externalfiles || Archivos adjuntos, como escaneos
+| Imágenes de la Publicación || Las imágenes de la publicación, como su cubierta
 |}
 
 <!--T:6-->
@@ -122,6 +124,6 @@ Esta página enumera las secciones de cada entidad, con el nombre que tienen en 
 |-
 | Directory Artists || Los catálogos de artistas en los que se usa esta entrada
 |-
-| Directory Addresses || Las direcciones de la entrada, cada una con su tipo y su periodo de validez (un formulario aparte)
+| Direcciones || Las direcciones de la entrada, cada una con su tipo y su periodo de validez, en una página propia
 |}
 El formulario del directorio también muestra dónde se usa una entrada en otros lugares: en los historiales de propiedad (''Historial de propiedad''), en las ventas (''Historial de ventas''), en los eventos (''Events Agents'') y en las publicaciones (''Publications Agents'').

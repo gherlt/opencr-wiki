@@ -36,14 +36,15 @@ El formulario también muestra dónde aparece la entrada en otros lugares: en lo
 
 <!--T:8-->
 == Direcciones ==
-Las direcciones se guardan en un formulario propio, '''Directory Addresses''', porque una entrada puede tener varias y cambian con el tiempo. Cada dirección tiene:
+Una entrada puede tener varias direcciones, y cambian con el tiempo, así que tienen una página propia, '''Direcciones'''. En la página de la entrada, en el ''Modo de edición'', ''Dirección'' lleva a ella: con un signo más mientras la entrada no tiene dirección, con un lápiz en cuanto tiene una. La página enumera las direcciones: el signo más detrás de ''Direcciones'' añade una, el lápiz delante de una dirección la abre en una ventana emergente y la papelera detrás de ella la elimina. Cada dirección tiene:
 * un tipo: Domicilio fiscal, Correspondencia, Domicilio, Estudio (atelier), Oficina / Administración, Sala de exposición, Taller / Producción o Almacén / Depósito;
-* las líneas de dirección, la calle, el código postal, la ciudad, la provincia o el estado y el país;
-* un periodo de validez (desde y hasta, cada uno con una clasificación) y una nota sobre las fechas;
-* '''Is Primary''': la dirección principal de la entrada. Las listas de entradas del directorio muestran la ciudad y el país de la dirección principal, así que marque exactamente una dirección como principal;
-* '''Is Valid''': si la dirección sigue vigente;
-* su propia casilla '''Public''', para que una dirección pueda registrarse sin publicarse;
-* sus fuentes, registradas como citas (véase [[Sources and citations/es|Fuentes y citas]]). Se añaden en la página de la entrada, que muestra la dirección principal; las demás direcciones aún no pueden citarse.
+* las líneas de dirección, la calle, el código postal, la ciudad, la provincia o el estado y el país. Debe rellenarse al menos uno de estos datos; ninguno es obligatorio por sí solo;
+* un periodo de validez (desde y hasta, cada uno con una clasificación) y una nota sobre el periodo;
+* un comentario;
+* '''Dirección principal (mostrada por defecto)''': la dirección principal de la entrada, la que muestra su página. Las listas de entradas del directorio muestran su ciudad y su país. La primera dirección de una entrada es su dirección principal, y lo sigue siendo hasta que se marca otra dirección como principal. Si se elimina la dirección principal, la primera dirección vigente ocupa su lugar;
+* '''Actualmente válida''': si la dirección sigue vigente. La lista marca las demás como ''No vigente'';
+* su propia casilla '''Público''', para que una dirección pueda registrarse sin publicarse;
+* sus fuentes y notas (véase [[Sources and citations/es|Fuentes y citas]]). Una vez guardada una dirección, su ventana emergente tiene botones ''Añadir fuente'' para la calle, el código postal, la ciudad y el país, y uno para la dirección en su conjunto; las notas se añaden del mismo modo. La dirección principal también puede citarse en la página de la entrada.
 
 <!--T:9-->
 == Lo que ve el público ==

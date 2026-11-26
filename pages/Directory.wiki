@@ -36,14 +36,15 @@ The form also shows where the entry appears elsewhere: in ownership histories ('
 
 <!--T:8-->
 == Addresses ==
-Addresses are kept in their own form, '''Directory Addresses''', because an entry can have several, and they change over time. Each address has:
+An entry can have several addresses, and they change over time, so they have a page of their own, '''Addresses'''. On the entry's page, in ''Edit Mode'', ''Address'' leads there: with a plus sign while the entry has no address, with a pencil once it has one. The page lists the addresses: the plus sign after ''Addresses'' adds one, the pencil before an address opens it in a pop-up, and the bin after it deletes it. Each address has:
 * a type: Legal address, Mailing / Correspondence, Residence, Studio / Atelier, Office / Administration, Exhibition space / Showroom, Workshop / Production, or Storage / Depot;
-* the address lines, street, ZIP code, city, state and country;
-* a period of validity (from and to, each with a qualifier) and a note on the dates;
-* '''Is Primary''': the main address of the entry. Lists of directory entries show the city and country of the primary address, so mark exactly one address as primary;
-* '''Is Valid''': whether the address is still current;
+* the address lines, street, ZIP code, city, state and country. At least one of them must be filled in; none is required on its own;
+* a period of validity (from and to, each with a qualifier) and a note on the period;
+* a comment;
+* '''Primary address (shown by default)''': the main address of the entry, the one its page shows. Lists of directory entries show its city and country. The first address of an entry is its primary address, and it stays primary until another address is ticked as primary. When the primary address is deleted, the first current address takes its place;
+* '''Currently valid''': whether the address is still current. The list marks the others as ''Not current'';
 * its own '''Public''' tick, so an address can be recorded without being published;
-* its sources, recorded as citations (see [[Sources and citations]]). They are added on the entry's page, which shows the primary address; other addresses cannot be cited yet.
+* its sources and notes (see [[Sources and citations]]). Once an address is saved, its pop-up has ''Add source'' buttons for the street, the ZIP code, the city and the country, and one for the address as a whole; notes are added in the same way. The primary address can also be cited on the entry's page.
 
 <!--T:9-->
 == What the public sees ==

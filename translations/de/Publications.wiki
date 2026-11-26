@@ -9,35 +9,47 @@ Publikationen sind gemeinsam: Ein Buch über drei Künstler ist ein einziger Dat
 
 <!--T:3-->
 == Bevor Sie eine Publikation anlegen ==
-* '''Zuerst suchen.''' Die Publikation existiert vielleicht schon, für einen anderen Künstler erfasst. Verwenden Sie den vorhandenen Datensatz und fügen Sie Ihren Künstler hinzu (siehe [[#Erwähnte Künstler|Erwähnte Künstler]]), statt ein Duplikat anzulegen.
-* '''Autoren und Verlage''' sind [[Directory/de|Adressbucheinträge]]. Legen Sie die benötigten zuerst an, damit Sie sie aus der Liste wählen können.
-* '''Den Kurznamen wählen.''' Der ''Alias'' kennzeichnet die Publikation in jeder Liste, in der sie gewählt werden kann, zum Beispiel wenn ein Werk sie zitiert, und diese Listen sind danach sortiert. Verwenden Sie ein einheitliches Muster, etwa Autor und Jahr.
+* '''Zuerst suchen.''' Die Publikation existiert vielleicht schon, für einen anderen Künstler erfasst. Verwenden Sie den vorhandenen Datensatz, statt ein Duplikat anzulegen. Wenn Sie ihn bearbeiten dürfen, fügen Sie Ihren Künstler unter [[#Erwähnte Künstler|Erwähnte Künstler]] hinzu; gehört er nur zu Künstlern anderer Werkverzeichnisse, bitten Sie den Plattform-Administrator, Ihren hinzuzufügen.
+* '''Autoren und Verlage''' sind [[Directory/de|Adressbucheinträge]]. Legen Sie die benötigten zuerst an, damit Sie sie finden, wenn Sie die Mitwirkenden hinzufügen.
+* '''Den Kurznamen wählen.''' Der ''Alias'' ist der Kurzname der Publikation. Die Listen, in denen eine Publikation gewählt wird, zum Beispiel wenn ein Werk sie zitiert, finden sie über ihren Alias ebenso wie über ihren Titel. Verwenden Sie ein einheitliches Muster, etwa Autor und Jahr.
 
 <!--T:4-->
-== Das Hauptformular ==
-=== Identität ===
-* '''ID Art der Veröffentlichung''': die Art der Publikation. Es gibt 23 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Thesis, Pressemitteilung, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO-Menü lässt sich die Bibliographie danach filtern und sortieren.
-* '''Titel''' und '''Untertitel'''.
-* '''Alias''': der Kurzname (siehe oben).
-* '''Abkürzung''': eine Kurzform für Fußnoten, falls das Werkverzeichnis eine verwendet.
-* '''Referenz''': ein Zitierschlüssel oder ein externer Referenzcode. Er ist durchsuchbar.
+== Die Hauptdaten ==
+Die Hauptdaten einer Publikation werden in einem Pop-up bearbeitet: Im ''Bearbeitungsmodus'' öffnet der Stift vor der ID der Publikation ''Hauptdaten der Publikation''. Das Formular für eine neue Publikation wendet dieselben Prüfungen an. ''Publikationsform'', ''Titel'' und ''Alias'' sind Pflichtfelder. Die Felder sind in sechs Gruppen geordnet.
+
+<!--T:18-->
+=== Publikation ===
+* '''Publikationsform''': die Art der Publikation. Es gibt 23 Arten, darunter Buch, Artikel in Zeitschrift, Zeitungsartikel, Ausstellungskatalog, Werkverzeichnis, Katalog, Artikel in Katalog, Zeitschrift, Broschüre, Faltblatt, Thesis, Pressemitteilung, Video, Audio und Internet (blog/review/etc). Wählen Sie die passendste; im PRO-Menü lässt sich die Bibliographie danach filtern und sortieren.
+* '''Öffentlich (auf open.cr sichtbar)''': veröffentlicht die Publikation; setzen Sie den Haken erst, wenn der Datensatz vollständig ist. Interne Bemerkungen gehören in nicht öffentliche Notizen auf der Seite der Publikation (siehe [[Objects/de#Anmerkungen|Notizen]]).
+* '''Autorisiertes Werkverzeichnis''': nur für das autorisierte Werkverzeichnis anhaken. Listen zeigen dann eine Kennzeichnung nach ihrem Titel, die Seite der Publikation nach der Publikationsform.
+* '''Alias''': der Kurzname (siehe oben). Hat schon eine andere Publikation denselben Alias, nennt das Pop-up sie und bittet um einen anderen; ''Trotzdem speichern'' behält ihn bei.
+* '''Abkürzung''': eine kurze Zitierform wie ''[CabraDeLuna1992a]'', falls das Werkverzeichnis eine verwendet. Die Seite zeigt sie nur im ''Bearbeitungsmodus''.
+* '''Referenz''': ein Zitierschlüssel oder ein externer Referenzcode. Die Seite der Publikation zeigt ihn, auch Besuchern.
 
 <!--T:5-->
-=== Bibliographische Daten ===
+=== Titel ===
+* '''Titel''' und '''Untertitel'''.
 * '''Veröffentlichung''': bei einem Artikel oder Beitrag das Werk, in dem er erscheint, etwa die Zeitschrift, die Zeitung oder das Buch. Bei einem eigenständigen Buch bleibt das Feld leer.
-* '''Series''', '''Volume''' und '''Total Volumes'''.
-* Datum: '''Datum Veröffentlichung (Tag)''', '''Datum Veröffentlichung (Monat)''' und '''Datum Veröffentlichung (Jahr)'''. Lassen Sie Tag und Monat leer, wenn sie unbekannt sind; verwenden Sie nie den Januar als Platzhalter.
-* Ort: '''Ort der Veröffentlichung''' und '''Land der Veröffentlichung'''.
-* '''Number Pages''' und '''Number Copies''' (die Auflagenhöhe, falls bekannt).
-* '''ISBN (Bücher)''', '''ISSN (Zeitschriften)''' und '''Link''' (eine Webadresse der Publikation oder ihres Katalogeintrags).
+* '''Reihe''', die auf der Seite der Publikation angezeigt wird.
+
+<!--T:19-->
+=== Erscheinungsdatum und -ort ===
+* '''Tag''', '''Monat''' und '''Jahr'''. Lassen Sie Tag und Monat leer, wenn sie unbekannt sind; verwenden Sie nie den Januar als Platzhalter. Ein Monat braucht ein Jahr, ein Tag einen Monat.
+* '''Ort''' und '''Land'''.
+
+<!--T:20-->
+=== Auflage und Umfang ===
+* '''Auflage''': die Auflagenbezeichnung, wie sie auf dem Titelblatt steht, etwa ''7. Auflage''. Bei einem Buch mit nur einer Auflage bleibt sie leer. Sie ist nicht die Gesamtauflage eines Kunstwerks.
+* '''Band''' und '''Anzahl Bände'''. Der Band kann nicht höher sein als die Gesamtzahl.
+* '''Anzahl Seiten''' und '''Anzahl Exemplare''' (die Auflagenhöhe, falls bekannt). Leer oder 0 heißt: nicht bekannt.
 
 <!--T:6-->
-=== Auszüge ===
-Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, halten '''Seite''', '''Abbildung''' und '''in Farbe''' den Seitenbereich, die Abbildungs- oder Tafelnummer und die Angabe fest, ob die Abbildung farbig ist.
+=== Auszug ===
+Beschreibt der Datensatz einen bestimmten Auszug statt eines ganzen Werks, etwa einen Artikel, halten '''Seite(n)''', '''Abbildung''' und '''Farbig''' die Seite oder die Seiten, die Nummer der Abbildung und die Angabe fest, ob die Abbildung farbig ist.
 
-<!--T:7-->
-=== Intern ===
-'''Veröffentlichbar''' veröffentlicht die Publikation; setzen Sie den Haken erst, wenn der Datensatz vollständig ist. Interne Bemerkungen gehören in nicht öffentliche Notizen auf der Seite der Publikation (siehe [[Objects/de#Anmerkungen|Notizen]]).
+<!--T:21-->
+=== ISBN, ISSN und Link ===
+'''ISBN''' für Bücher, '''ISSN''' für Zeitschriften und '''Link''': eine Webadresse der Publikation oder ihres Katalogeintrags, die mit http:// oder https:// beginnt.
 
 <!--T:8-->
 == Mitwirkende ==
@@ -49,52 +61,54 @@ Der Abschnitt '''Beteiligte''' einer Publikation listet alle Mitwirkenden auf: A
 
 <!--T:9-->
 == Erwähnte Künstler ==
-'''Erwähnte Künstler''' listet die Künstler auf, von denen die Publikation handelt. Das bringt eine Publikation in die Bibliographie eines Künstlers: '''Eine Publikation ohne Eintrag hier erscheint nicht in der Bibliographie des Künstlers''', auch wenn sie öffentlich ist.
+'''Erwähnte Künstler''' listet die Künstler auf, von denen die Publikation handelt. Das bringt eine Publikation in die Bibliographie eines Künstlers: '''Eine Publikation ohne Eintrag hier erscheint nicht in der Bibliographie des Künstlers''', auch wenn sie öffentlich ist. Die erwähnten Künstler entscheiden auch, wer die Publikation bearbeiten darf: die Bearbeiter ihrer Werkverzeichnisse.
+* Im ''Bearbeitungsmodus'' öffnet das Plus-Symbol neben ''Erwähnte Künstler'' ein Pop-up, das die Künstler anbietet, die Sie bearbeiten dürfen und die noch nicht mit der Publikation verknüpft sind. Der Stift vor einem Eintrag ändert seine drei Einstellungen; um stattdessen einen anderen Künstler zu verknüpfen, entfernen Sie den Eintrag mit dem Papierkorb und fügen den anderen hinzu.
+* Wird der letzte erwähnte Künstler entfernt, fällt die Publikation aus der Bibliographie aller Künstler, und danach kann nur noch der Plattform-Administrator sie bearbeiten. Der Papierkorb warnt vorher davor.
 
 <!--T:10-->
-Jeder Eintrag hat drei unabhängige Schalter:
+Jeder Eintrag hat drei unabhängige Einstellungen:
 {| class="wikitable"
-! Schalter !! Wirkung
+! Einstellung !! Wirkung
 |-
-| '''Use In Web''' || Die Publikation erscheint in der Bibliographie des Künstlers auf der Website.
+| '''Verwendung im Web''' || Wird vom Filter ''Verwendung'' der Publikationslisten im PRO-Menü gelesen. Die Einstellung blendet die Publikation nicht aus: Die Bibliographie auf open.cr zeigt sie in jedem Fall.
 |-
-| '''Use In CR''' || Die Publikation wird in das gedruckte Werkverzeichnis des Künstlers aufgenommen.
+| '''Verwendung in WVZ''' || Die Werkverzeichnis-Entwürfe drucken die Referenzen eines Werks nur aus Publikationen, bei denen dies für den Künstler des Werks angehakt ist.
 |-
-| '''Use As Ref CR''' || Die Publikation ist eine der maßgeblichen Referenzen des Werkverzeichnisses.
+| '''Verwendung als Referenz in WVZ''' || Kennzeichnet eine Referenzpublikation des Werkverzeichnisses. Die Einstellung wird vom Filter ''Verwendung'' der PRO-Listen gelesen.
 |}
-Die Schalter hängen nicht voneinander ab: ''Use In CR'' allein bringt die Publikation nicht auf die Website, und ''Use In Web'' allein bringt sie nicht in das gedruckte Werkverzeichnis.
+Bei einem im Pop-up hinzugefügten Eintrag sind ''Verwendung im Web'' und ''Verwendung in WVZ'' angehakt, ''Verwendung als Referenz in WVZ'' nicht. Eine mit ''Einfache Publikationserstellung'' angelegte Publikation erhält ihren Künstler ohne Haken bei ''Verwendung im Web'' und ''Verwendung in WVZ'': Haken Sie ''Verwendung in WVZ'' an, wenn die Werkverzeichnis-Entwürfe ihre Referenzen drucken sollen. Auf der Seite des Künstlers listet ''Als Referenz benutzte Publikationen'' die Einträge des Künstlers in ''Referenzen auf Künstler'' auf (siehe unten). In der öffentlichen Ansicht zeigt sie eine Publikation nur, wenn die Publikation öffentlich ist und ''Verwendung im Web'' oder ''Verwendung in WVZ'' für diesen Künstler angehakt ist; im ''Bearbeitungsmodus'' zeigt sie jeden Eintrag.
 
 <!--T:11-->
-Behandelt eine Publikation mehrere Künstler auf verschiedenen Seiten, werden die Seitenbereiche je Künstler in einem eigenen Formular erfasst, ''Publications Artist References''.
+Behandelt eine Publikation mehrere Künstler auf verschiedenen Seiten, werden die Seiten je Künstler in '''Referenzen auf Künstler''' erfasst. Im ''Bearbeitungsmodus'' öffnet das Plus-Symbol dieses Abschnitts ein Pop-up mit dem Künstler, ''Seite'', ''Abbildung'', ''Referenz'' und einem ''Kommentar'', den die Seite der Publikation unter dem Eintrag zeigt, auch in der öffentlichen Ansicht. Ein Künstler kann mehrere Einträge haben. Dieselben Einträge erscheinen auf der Seite des Künstlers unter ''Als Referenz benutzte Publikationen'' (in der öffentlichen Ansicht nur wie oben beschrieben), wo sie ebenfalls hinzugefügt und geändert werden können.
 
 <!--T:12-->
 == Ereignisse, Sprachen und verwandte Publikationen ==
-* '''Erwähnte Ereignisse''': die Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint, wo sinnvoll mit Seiten- und Abbildungsangaben.
-* '''Verwendete Sprachen''': die Sprachen, in denen die Publikation geschrieben ist. Das beschreibt die Publikation selbst und hat nichts mit den Sprachen des openCR-Werkverzeichnisses zu tun.
-* '''Publications Relations''': Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie von, Faksimile von, basiert auf, Vorbereitung für, abgeleitet von, ähnlich wie, steht in Beziehung mit. Erfassen Sie jede Verknüpfung einmal, bei einer der beiden Publikationen; die umgekehrte Richtung wird automatisch angezeigt.
+* '''In Beziehung stehende Ereignisse''': die Ereignisse, die die Publikation dokumentiert, zum Beispiel die Ausstellung, zu der ein Ausstellungskatalog erscheint, wo sinnvoll mit Seiten- und Abbildungsangaben. Das Pop-up sucht Ereignisse nach Namen, Veranstaltungsort, Stadt, Jahr oder Nummer.
+* '''Verwendete Sprachen''': die Sprachen, in denen die Publikation geschrieben ist, jede einmal. Das Pop-up zeigt zuerst die Sprachen der Website, dann alle Sprachen. Das beschreibt die Publikation selbst und hat nichts mit den Sprachen des openCR-Werkverzeichnisses zu tun.
+* '''In Beziehung stehende Publikationen''': Verknüpfungen mit anderen Publikationen: Teil von, Version von, Kopie von, Faksimile von, basiert auf, Vorbereitung für, abgeleitet von, ähnlich wie, steht in Beziehung mit. Erfassen Sie jede Verknüpfung einmal, bei einer der beiden Publikationen; jede der beiden Publikationsseiten zeigt die Verknüpfung aus ihrer eigenen Sicht. openCR lehnt dieselbe Verknüpfung ein zweites Mal ab, in beiden Richtungen, und eine Publikation kann nicht mit sich selbst verknüpft werden.
 
 <!--T:13-->
 == Zitierte Werke ==
-Der Abschnitt '''Referenzen''' listet die Werke auf, die die Publikation erwähnt oder abbildet, mit Seite, Abbildungsnummer und der Angabe, ob die Abbildung farbig ist. Es ist dieselbe Liste wie der Abschnitt ''Referenzen'' eines [[Objects/de|Werks]], von der anderen Seite gesehen. Wenn Sie eine Publikation durcharbeiten, ist es oft am schnellsten, alle ihre Werke hier auf einmal hinzuzufügen.
+Der Abschnitt '''Referenzierte Werke''' listet die Werke auf, die die Publikation erwähnt oder abbildet, mit ihrer Referenznummer, Seite, Abbildungsnummer und Abbildungsseite. Jeder Eintrag hält außerdem fest, ob die Abbildung farbig ist; das zeigt die Bibliographie des Werks. Es ist dieselbe Liste wie die Bibliographie eines [[Objects/de|Werks]], von der anderen Seite gesehen. Wenn Sie eine Publikation durcharbeiten, fügt ''Referenzen in Serie erfassen'' ihre Werke nacheinander in einem einzigen Pop-up hinzu.
 
 <!--T:14-->
-== Abbildungen und Dateien ==
-Abbildungen der Publikation, etwa ihr Umschlag, werden mit dem Bild-Upload hochgeladen und gehören zur Publikation. ''Externalfiles'' enthält andere Dokumente zur Publikation.
+== Abbildungen ==
+Abbildungen der Publikation, etwa ihr Umschlag, werden mit dem Bild-Upload hochgeladen und gehören zur Publikation; die Seite zeigt sie in ihrer rechten Spalte, im ''Bearbeitungsmodus'' unter der Überschrift ''Abbildungen Publikation''. Im ''Bearbeitungsmodus'' öffnet der Stift einer Abbildung ein Pop-up für ihren Haken ''Öffentlich'', ihre Beschreibung in jeder Sprache und ihren Fotografen. Abbildungen einer Publikation, die mehrere Künstler teilen, ändert oder löscht der Plattform-Administrator.
 
 <!--T:15-->
 == Vor dem Veröffentlichen ==
 * Art, Titel, Datum und Ort sind vollständig, soweit bekannt.
 * Autoren und Herausgeber sind mit diesen Rollen erfasst.
-* Jeder Künstler, von dem die Publikation handelt, steht in ''Erwähnte Künstler'', mit den richtigen Schaltern.
-Haken Sie dann ''Veröffentlichbar'' an.
+* Jeder Künstler, von dem die Publikation handelt, steht in ''Erwähnte Künstler''.
+Haken Sie dann in den Hauptdaten ''Öffentlich (auf open.cr sichtbar)'' an.
 
 <!--T:16-->
 == Häufige Fehler ==
 * '''Duplikate.''' Suchen Sie eine Publikation, bevor Sie sie anlegen; sie wurde vielleicht für einen anderen Künstler erfasst.
-* '''Fehlt in der Bibliographie.''' Erscheint eine Publikation nicht in der Bibliographie eines Künstlers, prüfen Sie zuerst ''Erwähnte Künstler'': Meist fehlt der Eintrag des Künstlers oder sein Schalter ''Use In Web''.
+* '''Fehlt in der Bibliographie.''' Erscheint eine Publikation nicht in der Bibliographie eines Künstlers, prüfen Sie zuerst ''Erwähnte Künstler'': Meist fehlt der Eintrag des Künstlers. Andernfalls prüfen Sie, ob die Publikation öffentlich ist.
 * '''Leere Verfasserangabe.''' In der Verfasserangabe erscheinen nur Autoren, Co-Autoren, Schriftsteller, Journalisten und Herausgeber. Wer einen Text verfasst hat, aber mit einer anderen Rolle wie ''Veranstalter'' erfasst ist, erscheint dort nicht.
 * '''Titel und übergeordnetes Werk verwechselt.''' Bei einem Artikel gehört der Titel des Artikels in ''Titel'', die Zeitschrift oder das Buch in ''Veröffentlichung''.
-* '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Publikationen wird einmal erfasst.
+* '''Gespiegelte Beziehungen.''' Eine Beziehung zwischen zwei Publikationen wird nur einmal erfasst.
 
 <!--T:17-->
 == Siehe auch ==

@@ -156,7 +156,7 @@ Quien puede editar un registro puede añadir, modificar y quitar sus citas. Las 
 <!--T:15-->
 === Añadir citas ===
 Las citas se añaden en la página del propio registro, en la vista de los editores (''Modo de edición''): la página de una obra, de un artista, de una entrada del directorio, de un evento, de una publicación o de una fuente. Los botones se muestran a quienes pueden editar el registro.
-* ''Añadir fuente'', un pequeño libro con un signo más detrás de un valor, cita ese valor. Las medidas, direcciones, relaciones y nombres alternativos que se muestran en la página tienen su propio botón.
+* ''Añadir fuente'', un pequeño libro con un signo más detrás de un valor, cita ese valor. Las medidas, direcciones, relaciones y nombres alternativos que se muestran en la página tienen su propio botón. Las direcciones de una entrada del directorio se citan en su ventana emergente, en la página ''Direcciones'' de la entrada (véase [[Directory/es#Direcciones|Direcciones]]).
 * ''Añadir fuente para el registro completo'', bajo '''Fuentes''' al pie de la página, cita el registro en su conjunto.
 * ''Editar'' y ''Quitar'' están en el recuadro que enumera las fuentes de un valor y en la lista ''Fuentes'' al pie de la página. ''Quitar'' pide confirmación.
 Cada botón abre la '''ventana emergente de citas'''. ''Guardar'' almacena la cita en el acto, por sí sola, y la página se recarga para mostrarla; ''Cancelar'' cierra la ventana sin guardar.
@@ -176,7 +176,7 @@ Hay otros dos lugares que asignan fuentes:
 <!--T:17-->
 == Leer las fuentes ==
 * Un valor con fuentes lleva detrás un pequeño icono de libro, con el número de sus citas cuando son varias. Señálelo con el puntero para ver los títulos de sus fuentes. Si hace clic en él, lo toca o llega a él con el teclado y pulsa Intro, se abre un recuadro que las enumera: el título de cada fuente con el lugar dentro de ella (''pág. 14'', ''n.º 25''), la cita textual en su idioma original y el comentario. La tecla Escape, un clic fuera o el botón de cierre del recuadro lo cierran.
-* Cada título es un enlace. Una fuente del tipo ''Publicación'' abre la página de la publicación. Cualquier otra fuente abre su propia '''página de la fuente''': tipo, personas (enlazadas a sus páginas del directorio o de artista), fecha, lugar, idioma, título original, número de referencia, dirección web y descripción, y los registros que la citan (''Citada en … registros'').
+* Cada título es un enlace. Una fuente del tipo ''Publicación'' abre la página de la publicación. Cualquier otra fuente abre su propia '''página de la fuente''': tipo, personas (enlazadas a sus páginas del directorio o de artista), fecha, lugar, idioma, título original, número de referencia, dirección web y descripción, y los registros que la citan, bajo ''Citas en registros'' con su número.
 * Al pie de la página, '''Fuentes''' cuenta las citas, por ejemplo ''3 fuentes (2 en campos, 1 en el registro completo)'', y enumera las del registro en su conjunto, seguidas de las citas de campos que la página no muestra.
 * Las páginas de obras, entradas del directorio, publicaciones, eventos, artistas y fuentes muestran marcadores del mismo modo, por ejemplo en títulos, nombres, fechas, direcciones y relaciones; cada medida de una obra tiene el suyo.
 * El interruptor '''Vista accesible''', en la parte superior de la página, añade texto junto a los iconos, agranda los botones y muestra las fuentes bajo su valor en lugar de en un recuadro. El navegador recuerda el ajuste.
