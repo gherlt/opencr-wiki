@@ -14,10 +14,10 @@ For the building blocks themselves, see [[How openCR is structured]].
 
 <!--T:4-->
 == Two rules for all links ==
-'''Enter each link once.''' A link between two records is stored once, and openCR shows it from both sides. Where a link has a direction, the other side shows the reverse wording automatically: if a drawing ''is study of'' a painting, the painting shows the reverse wording, ''study is''. Entering the reverse link as well makes it appear twice.
+'''Enter each link once.''' A link between two records is stored once, and openCR shows it from both sides. Where a link has a direction, the other side shows the reverse wording automatically: if a drawing ''is preparatory study for'' a painting, the painting shows the reverse wording, ''has preparatory study''. Entering the reverse link as well makes it appear twice.
 
 <!--T:5-->
-'''Mind the direction.''' "A ''is study of'' B" means that A is the study. Entered the wrong way round, every displayed phrase is reversed. For symmetric links, such as ''is similar to'', the direction does not matter, but they are still entered only once.
+'''Mind the direction.''' "A ''is preparatory study for'' B" means that A is the study. Entered the wrong way round, every displayed phrase is reversed. For symmetric links, such as ''is similar to'', the direction does not matter, but they are still entered only once.
 
 <!--T:6-->
 == Links between artworks ==
@@ -54,47 +54,51 @@ Artworks have the richest set of links among themselves. Each kind has its own p
 
 <!--T:9-->
 === Catalogue relations ===
-The ''Relation with other objects'' section offers these links. The list contains both wordings of each pair, so a link can be entered on either of the two works: on the drawing choose ''is study of'' and pick the painting, or on the painting choose ''study is'' and pick the drawing. Either way, enter it only once; the other work shows the reverse wording automatically.
+The ''Relation with other objects'' section offers these links. The list contains both wordings of each pair, so a link can be entered on either of the two works: on the drawing choose ''is preparatory study for'' and pick the painting, or on the painting choose ''has preparatory study'' and pick the drawing. Either way, enter it only once; the other work shows the reverse wording automatically.
 {| class="wikitable"
 ! Link !! Shown on the other work as
 |-
-| is study of || study is
+| is preparatory study for || has preparatory study
 |-
-| is study for rendering of || study for rendering is
+| is study after || has study
 |-
-| is model of || model is
+| is rendering of || has rendering
 |-
-| is plan of || plan is
+| is model for || has model
 |-
-| is cartoon of || cartoon is
+| is plan of || has plan
 |-
-| is printing plate for || printing plate is
+| is cartoon for || has cartoon
 |-
-| is version of || version is
+| is printing surface for || is printed from printing surface
 |-
-| is copy of || copy is
+| is version of || has version
 |-
-| replica of || replica is
+| is copy after || has copy
 |-
-| facsimile of || facsimile is
+| is replica of || has replica
 |-
-| derived from || source for
+| is facsimile of || has facsimile
 |-
-| is based on || is preparatory for
+| is derived from || is source for
 |-
-| is base for || is based on
+| is based on preparatory work || is preparatory for
 |-
-| is part of || is larger context for
+| is based on || is base of
 |-
-| was part of || was larger context of
+| is reworking of || was reworked as
 |-
-| designed for || context is
+| is part of || has part
 |-
-| depicts || is depicted
+| was formerly part of || had formerly part
+|-
+| has context || is context for
+|-
+| depicts || is depicted in
 |-
 | is similar to || is similar to
 |-
-| pendant of || pendant of
+| is pendant of || is pendant of
 |-
 | is related to || is related to
 |}

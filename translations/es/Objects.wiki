@@ -64,7 +64,7 @@ Varias estructuras describen obras que constan de más de una pieza o que perten
 * '''Suites''': obras catalogadas por separado que forman una serie, como una carpeta de estampas. La suite misma es un registro con '''Es una Suite (S/N) ?''' marcado; cada obra que forma parte de ella remite a la suite (''ID Suite perteneciente'') y tiene su posición en la serie.
 * '''Ediciones''' (obra gráfica): una entrada por edición: la tirada normal, las pruebas de artista, las pruebas de estado, el ''bon à tirer'', etc., cada una con su número de ejemplares y su numeración.
 * '''Ediciones Escultura''': las fundiciones de una escultura.
-* '''Relac. con otros Objetos''': enlaces como ''estudio para'', ''copia de'' o ''versión de''. Introduzca cada enlace una sola vez; la dirección inversa se muestra automáticamente.
+* '''Relac. con otros Objetos''': enlaces como ''es estudio preparatorio para'', ''es copia de'' o ''es una versión de''. Introduzca cada enlace una sola vez; la dirección inversa se muestra automáticamente.
 
 <!--T:13-->
 {| class="wikitable"

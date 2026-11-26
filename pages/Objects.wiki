@@ -64,7 +64,7 @@ Several structures describe works that consist of, or belong to, more than one p
 * '''Suites''': separately catalogued works that form a series, such as a portfolio of prints. The suite itself is a record with '''Is it a Suite ?''' ticked; each member points to it (''ID parent suite'') and has its position in the series.
 * '''Editions''' (prints): one entry per edition: the regular edition, artist's proofs, trial proofs, the ''bon à tirer'' and so on, each with its number of impressions and numbering.
 * '''Sculpture editions''': the casts of a sculpture.
-* '''Relation with other objects''': links such as ''study for'', ''copy of'' or ''version of''. Enter each link once; the reverse direction is shown automatically.
+* '''Relation with other objects''': links such as ''is preparatory study for'', ''is copy after'' or ''is version of''. Enter each link once; the reverse direction is shown automatically.
 
 <!--T:13-->
 {| class="wikitable"

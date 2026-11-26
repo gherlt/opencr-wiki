@@ -64,7 +64,7 @@ Mehrere Strukturen beschreiben Werke, die aus mehr als einem Stück bestehen ode
 * '''Suiten''': einzeln verzeichnete Werke, die eine Serie bilden, etwa eine Grafikmappe. Die Suite selbst ist ein Datensatz, bei dem '''Ist es eine Suite ?''' angehakt ist; jedes zugehörige Werk verweist auf sie (''ID zugehörige Suite'') und hat seine Position in der Serie.
 * '''Auflagen''' (Grafik): ein Eintrag je Auflage: die reguläre Auflage, Künstlerexemplare, Zustandsdrucke, das ''Bon à tirer'' usw., jeweils mit Zahl der Abzüge und Nummerierung.
 * '''Auflagen Skulptur''': die Güsse einer Skulptur.
-* '''Objektbeziehungen''': Verknüpfungen wie ''Studie für'', ''Kopie von'' oder ''Version von''. Erfassen Sie jede Verknüpfung einmal; die umgekehrte Richtung wird automatisch angezeigt.
+* '''Objektbeziehungen''': Verknüpfungen wie ''ist vorbereitende Studie für'', ''ist Kopie nach'' oder ''ist Version von''. Erfassen Sie jede Verknüpfung einmal; die umgekehrte Richtung wird automatisch angezeigt.
 
 <!--T:13-->
 {| class="wikitable"

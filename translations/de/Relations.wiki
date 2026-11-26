@@ -14,10 +14,10 @@ Zu den Bausteinen selbst siehe [[How openCR is structured/de|Wie openCR aufgebau
 
 <!--T:4-->
 == Zwei Regeln für alle Verknüpfungen ==
-'''Jede Verknüpfung einmal erfassen.''' Eine Verknüpfung zwischen zwei Datensätzen wird einmal gespeichert, und openCR zeigt sie von beiden Seiten. Hat eine Verknüpfung eine Richtung, zeigt die andere Seite automatisch die umgekehrte Formulierung: Wenn eine Zeichnung ''ist eine Studie zu'' einem Gemälde, zeigt das Gemälde die umgekehrte Formulierung, ''Studie ist''. Wird auch die umgekehrte Verknüpfung erfasst, erscheint sie doppelt.
+'''Jede Verknüpfung einmal erfassen.''' Eine Verknüpfung zwischen zwei Datensätzen wird einmal gespeichert, und openCR zeigt sie von beiden Seiten. Hat eine Verknüpfung eine Richtung, zeigt die andere Seite automatisch die umgekehrte Formulierung: Ist eine Zeichnung über ''ist vorbereitende Studie für'' mit einem Gemälde verknüpft, zeigt das Gemälde die umgekehrte Formulierung, ''hat vorbereitende Studie''. Wird auch die umgekehrte Verknüpfung erfasst, erscheint sie doppelt.
 
 <!--T:5-->
-'''Auf die Richtung achten.''' „A ''ist eine Studie zu'' B“ bedeutet, dass A die Studie ist. Falsch herum erfasst, ist jede angezeigte Formulierung umgekehrt. Bei symmetrischen Verknüpfungen wie ''ist ähnlich wie'' spielt die Richtung keine Rolle, aber auch sie werden nur einmal erfasst.
+'''Auf die Richtung achten.''' „A ''ist vorbereitende Studie für'' B“ bedeutet, dass A die Studie ist. Falsch herum erfasst, ist jede angezeigte Formulierung umgekehrt. Bei symmetrischen Verknüpfungen wie ''ist ähnlich wie'' spielt die Richtung keine Rolle, aber auch sie werden nur einmal erfasst.
 
 <!--T:6-->
 == Verknüpfungen zwischen Werken ==
@@ -54,49 +54,53 @@ Werke haben untereinander die meisten Arten von Verknüpfungen. Jede Art hat ihr
 
 <!--T:9-->
 === Werkverzeichnis-Beziehungen ===
-Der Abschnitt ''Objektbeziehungen'' bietet diese Verknüpfungen. Die Liste enthält beide Formulierungen jedes Paars, sodass eine Verknüpfung bei jedem der beiden Werke erfasst werden kann: bei der Zeichnung ''ist eine Studie zu'' wählen und das Gemälde auswählen, oder beim Gemälde ''Studie ist'' wählen und die Zeichnung auswählen. In beiden Fällen nur einmal erfassen; das andere Werk zeigt automatisch die umgekehrte Formulierung.
+Der Abschnitt ''Objektbeziehungen'' bietet diese Verknüpfungen. Die Liste enthält beide Formulierungen jedes Paars, sodass eine Verknüpfung bei jedem der beiden Werke erfasst werden kann: bei der Zeichnung ''ist vorbereitende Studie für'' wählen und das Gemälde auswählen, oder beim Gemälde ''hat vorbereitende Studie'' wählen und die Zeichnung auswählen. In beiden Fällen nur einmal erfassen; das andere Werk zeigt automatisch die umgekehrte Formulierung.
 {| class="wikitable"
 ! Verknüpfung !! Beim anderen Werk angezeigt als
 |-
-| ist eine Studie zu || Studie ist
+| ist vorbereitende Studie für || hat vorbereitende Studie
 |-
-| ist eine Studie zur Darstellung von || Studie zur Darstellung ist
+| ist Studie nach || hat Studie
 |-
-| ist ein Modell von || Modell ist
+| ist Visualisierung von || hat Visualisierung
 |-
-| ist ein Plan von || Plan ist
+| ist Modell für || hat Modell
 |-
-| ist ein Karton zu || Karton ist
+| ist Plan von || hat Plan
 |-
-| ist eine Druckplatte für || Druckplatte ist
+| ist Karton für || hat Karton
 |-
-| ist eine Version von || Version ist
+| ist Druckform für || ist Abzug von Druckform
 |-
-| ist eine Kopie von || Kopie ist
+| ist Version von || hat Version
 |-
-| Replik von || Replik ist
+| ist Kopie nach || hat Kopie
 |-
-| Faksimile von || Faksimile ist
+| ist Replik von || hat Replik
 |-
-| abgeleitet von || Quelle für
+| ist Faksimile von || hat Faksimile
 |-
-| basiert auf || ist Vorarbeit für
+| ist abgeleitet von || ist Quelle für
 |-
-| ist Basis für || basiert auf
+| basiert auf Vorarbeit || ist vorbereitend für
 |-
-| ist Teil von || ist ein größerer Kontext für
+| basiert auf || ist Basis für
 |-
-| war Teil von || war ein größerer Kontext von
+| ist eine Überarbeitung von || wurde überarbeitet zu
 |-
-| entwickelt für || Kontext ist
+| ist Teil von || hat Teil
 |-
-| stellt dar || wird dargestellt
+| war früher Teil von || hatte früher Teil
+|-
+| hat Kontext || ist Kontext für
+|-
+| bildet ab || ist abgebildet in
 |-
 | ist ähnlich wie || ist ähnlich wie
 |-
-| Pendant zu || Pendant zu
+| ist Pendant von || ist Pendant von
 |-
-| bezieht sich auf || bezieht sich auf
+| hat Bezug zu || hat Bezug zu
 |}
 
 <!--T:10-->

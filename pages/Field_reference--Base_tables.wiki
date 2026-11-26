@@ -242,45 +242,49 @@ To delete the entry, change each of these records to another entry or clear the 
 
 Each link has a reverse wording, which the other artwork shows. The list contains both wordings, so a link can be entered on either work. See [[Relations]].
 
-37 entries:
+41 entries:
 <div style="column-width:15em; column-gap:2em;">
 * is part of
-* is larger context for
-* is model of
-* model is
-* is study of
-* is study for rendering of
-* is copy of
+* has part
+* is model for
+* has model
+* is preparatory study for
+* is rendering of
+* is copy after
 * is related to
 * is version of
 * is similar to
-* was part of
-* was larger context of
-* is based on
+* was formerly part of
+* had formerly part
+* is based on preparatory work
 * is preparatory for
 * is plan of
-* plan is
-* is cartoon of
-* cartoon is
-* is printing plate for
-* printing plate is
-* study is
-* copy is
-* version is
-* study for rendering is
-* designed for
-* context is
-* pendant of
+* has plan
+* is cartoon for
+* has cartoon
+* is printing surface for
+* is printed from printing surface
+* has preparatory study
+* has copy
+* has version
+* has rendering
+* has context
+* is context for
+* is pendant of
 * depicts
-* is depicted
-* derived from
-* source for
-* facsimile of
-* facsimile is
-* replica of
-* replica is
+* is depicted in
+* is derived from
+* is source for
+* is facsimile of
+* has facsimile
+* is replica of
+* has replica
 * is based on
-* is base for
+* is base of
+* is reworking of
+* was reworked as
+* is study after
+* has study
 </div>
 
 == Attributes (marks and inscriptions) ==

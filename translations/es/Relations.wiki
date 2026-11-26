@@ -14,10 +14,10 @@ Para las piezas básicas en sí, véase [[How openCR is structured/es|Cómo est�
 
 <!--T:4-->
 == Dos reglas para todos los enlaces ==
-'''Introduzca cada enlace una sola vez.''' Un enlace entre dos registros se guarda una vez, y openCR lo muestra desde ambos lados. Cuando un enlace tiene dirección, el otro lado muestra automáticamente la formulación inversa: si un dibujo ''es el estudio de'' un cuadro, el cuadro muestra la formulación inversa, ''estudio es''. Si se introduce también el enlace inverso, aparece dos veces.
+'''Introduzca cada enlace una sola vez.''' Un enlace entre dos registros se guarda una vez, y openCR lo muestra desde ambos lados. Cuando un enlace tiene dirección, el otro lado muestra automáticamente la formulación inversa: si un dibujo ''es estudio preparatorio para'' un cuadro, el cuadro muestra la formulación inversa, ''tiene como estudio preparatorio''. Si se introduce también el enlace inverso, aparece dos veces.
 
 <!--T:5-->
-'''Atención a la dirección.''' «A ''es el estudio de'' B» significa que A es el estudio. Si se introduce al revés, cada frase mostrada queda invertida. En los enlaces simétricos, como ''es similar a'', la dirección no importa, pero también se introducen una sola vez.
+'''Atención a la dirección.''' «A ''es estudio preparatorio para'' B» significa que A es el estudio. Si se introduce al revés, cada frase mostrada queda invertida. En los enlaces simétricos, como ''es similar a'', la dirección no importa, pero también se introducen una sola vez.
 
 <!--T:6-->
 == Enlaces entre obras ==
@@ -54,47 +54,51 @@ Las obras tienen entre sí el conjunto de enlaces más rico. Cada tipo tiene su 
 
 <!--T:9-->
 === Relaciones de catálogo ===
-La sección ''Relac. con otros Objetos'' ofrece estos enlaces. La lista contiene las dos formulaciones de cada par, así que un enlace puede introducirse en cualquiera de las dos obras: en el dibujo, elija ''es el estudio de'' y seleccione el cuadro, o en el cuadro, elija ''estudio es'' y seleccione el dibujo. En ambos casos, introdúzcalo una sola vez; la otra obra muestra automáticamente la formulación inversa.
+La sección ''Relac. con otros Objetos'' ofrece estos enlaces. La lista contiene las dos formulaciones de cada par, así que un enlace puede introducirse en cualquiera de las dos obras: en el dibujo, elija ''es estudio preparatorio para'' y seleccione el cuadro, o en el cuadro, elija ''tiene como estudio preparatorio'' y seleccione el dibujo. En ambos casos, introdúzcalo una sola vez; la otra obra muestra automáticamente la formulación inversa.
 {| class="wikitable"
 ! Enlace !! Se muestra en la otra obra como
 |-
-| es el estudio de || estudio es
+| es estudio preparatorio para || tiene como estudio preparatorio
 |-
-| es un estudio para la representación de || estudio para la representación es
+| es estudio según || tiene como estudio
 |-
-| es modelo de || modelo es
+| es perspectiva de presentación de || tiene como perspectiva de presentación
 |-
-| es el plan de || el plan es
+| es modelo para || tiene como modelo
 |-
-| es cartón de || cartón es
+| es el plano de || tiene como plano
 |-
-| es una plancha de impresión para || plancha de impresión es
+| es cartón para || tiene como cartón
 |-
-| es la versión de || versión es
+| es superficie de impresión para || está impreso desde la superficie de impresión
 |-
-| es copia de || copia es
+| es una versión de || tiene como versión
 |-
-| réplica de || réplica es
+| es copia de || tiene como copia
 |-
-| facsímil de || facsímil es
+| es réplica de || tiene como réplica
 |-
-| derivado de || fuente de
+| es facsímil de || tiene como facsímil
 |-
-| se basa en || es preparatorio para
+| deriva de || es fuente de
 |-
-| es la base de || se basa en
+| se basa en un trabajo preparatorio || es preparatorio para
 |-
-| forma parte de || es un contexto más amplio para
+| se basa en || es la base de
 |-
-| era parte de || era el contexto más amplio de
+| es una reelaboración de || fue reelaborada como
 |-
-| diseñado para || el contexto es
+| forma parte de || tiene como parte
 |-
-| representa || está representado
+| formaba parte de || tenía como parte
+|-
+| tiene como contexto || es el contexto de
+|-
+| representa || está representado en
 |-
 | es similar a || es similar a
 |-
-| pendant de || pendant de
+| es pieza compañera de || es pieza compañera de
 |-
 | está relacionado con || está relacionado con
 |}
