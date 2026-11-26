@@ -239,7 +239,7 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 |-
 | [[Events/de|Ereignisse]] || ''In Beziehung stehende Ereignisse'' || Die Ereignisse, an denen der Eintrag teilgenommen hat, mit seiner Rolle (dieselbe Verknüpfung wie ''In Beziehung stehende Beteiligte'' beim Ereignis)
 |-
-| [[Artists/de|Künstler]] || (Verknüpfung mit dem Werkverzeichnis) || Die Bearbeiter dieser Künstler können den Eintrag bearbeiten und ihn auch dann sehen und verwenden, wenn er nicht öffentlich ist; festgelegt mit ''Einfache Adressbuch-Erstellung'' oder auf der Seite ''Adressbuch''. Keine Beziehung.
+| [[Artists/de|Künstler]] || (Verknüpfung mit dem Werkverzeichnis) || Die Bearbeiter dieser Künstler können den Eintrag bearbeiten und ihn auch dann sehen und verwenden, wenn er nicht öffentlich ist; festgelegt mit ''Adressbuch-Erstellung'' oder auf der Seite ''Adressbuch''. Keine Beziehung.
 |}
 Die Seite des Adressbucheintrags listet auch die Verknüpfungen auf, die andere Datensätze zu ihm haben: die Beziehungen der Künstler (''Beziehungen zum Künstler''), seine Publikationen, seine Sammlung, die Werke, die er besitzt oder besaß, die Werke, an denen er beteiligt war, und die Werke, deren Zeichen ihn nennen.
 

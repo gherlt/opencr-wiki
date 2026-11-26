@@ -10,14 +10,14 @@ Diese Seite erklärt, wie ein Werk aufgebaut ist und worauf zu achten ist. Die L
 <!--T:3-->
 == Ein Werk anlegen ==
 Es gibt mehrere Wege, die alle zum gleichen Datensatz führen:
-* '''Einfache Objekterstellung''' im ''PRO-Menü'': der schnelle Weg, ein einzelnes Werk mit seiner Abbildung hinzuzufügen.
-* '''Einfache Objekterstellung – Schritt für Schritt''' im ''PRO-Menü'': dasselbe in einem Formular, das Schritt für Schritt durch die Daten des Werks führt.
+* '''Objekterstellung''' im ''PRO-Menü'': der schnelle Weg, ein einzelnes Werk mit seiner Abbildung hinzuzufügen.
+* '''Objekterstellung – Schritt für Schritt''' im ''PRO-Menü'': dasselbe in einem Formular, das Schritt für Schritt durch die Daten des Werks führt.
 * '''Massen-Upload neuer Objekte''' unter ''Massen-Upload'': legt für einen ganzen Ordner auf einmal je hochgeladener Abbildung ein Werk an. Eine Seite mit Vorgabewerten gilt für den ganzen Stapel, darunter der Objekttyp, das Entstehungsjahr, der Titel, die Suite, eine Vorlage, Tags, die Maße, der Fotograf und die Bildeinstellungen, Attribute, bis zu zwei Beteiligte und eine Quelle, die bei jeder hochgeladenen Abbildung als Quellenangabe eingetragen wird; alles andere ergänzen Sie danach Werk für Werk.
-* '''Massen-Upload mit Dublettenprüfung''', ebenfalls unter ''Massen-Upload'', ist für einen Stapel verschiedener Werke gedacht. Er vergleicht die Fotos mit den Abbildungen im Werkverzeichnis des Künstlers und untereinander. Sobald Sie über die möglichen Dubletten entschieden haben, erfassen Sie jedes verbleibende Foto als eigenes Werk, mit der Einfachen Objekterstellung oder im Schritt-für-Schritt-Formular.
+* '''Massen-Upload mit Dublettenprüfung''', ebenfalls unter ''Massen-Upload'', ist für einen Stapel verschiedener Werke gedacht. Er vergleicht die Fotos mit den Abbildungen im Werkverzeichnis des Künstlers und untereinander. Sobald Sie über die möglichen Dubletten entschieden haben, erfassen Sie jedes verbleibende Foto als eigenes Werk, mit der ''Objekterstellung'' oder im Schritt-für-Schritt-Formular.
 * '''Datensatzkopie erstellen''' oben auf der Seite eines Werks im ''Bearbeitungsmodus'' öffnet in einem neuen Tab eine Seite, auf der Sie anhaken, welche Abschnitte in ein neues Werk kopiert werden. Titel und Referenz der Kopie beginnen mit „copy of“.
 
 <!--T:4-->
-Die Einfache Objekterstellung und das Schritt-für-Schritt-Formular legen ein neues Werk ohne Haken bei ''Öffentlich'' an, sodass es ein Entwurf bleibt, bis Sie es veröffentlichen; aus dem ''Massen-Upload mit Dublettenprüfung'' heraus geöffnet, übernimmt die Einfache Objekterstellung stattdessen die Einstellung ''Bild öffentlich'' des Stapels. Bei einem Massen-Upload ist ''Objekt öffentlich'' unter den Vorgabewerten angehakt, sofern Sie den Haken nicht entfernen; ein kopierter Datensatz behält die Einstellung ''Öffentlich'' des Originals.
+Die ''Objekterstellung'' und das Schritt-für-Schritt-Formular legen ein neues Werk ohne Haken bei ''Öffentlich'' an, sodass es ein Entwurf bleibt, bis Sie es veröffentlichen; aus dem ''Massen-Upload mit Dublettenprüfung'' heraus geöffnet, übernimmt die ''Objekterstellung'' stattdessen die Einstellung ''Bild öffentlich'' des Stapels. Bei einem Massen-Upload ist ''Objekt öffentlich'' unter den Vorgabewerten angehakt, sofern Sie den Haken nicht entfernen; ein kopierter Datensatz behält die Einstellung ''Öffentlich'' des Originals.
 
 <!--T:5-->
 == Die Hauptdaten ==

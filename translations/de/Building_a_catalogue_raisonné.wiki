@@ -60,7 +60,7 @@ Das eignet sich für Werkverzeichnisse, die hauptsächlich auf Literatur und Arc
 
 <!--T:10-->
 === Von den Abbildungen aus ===
-Beginnen Sie mit einer Sammlung von Fotografien, zum Beispiel einem Atelier- oder Nachlassarchiv. '''Massen-Upload neuer Objekte''' legt für jede hochgeladene Abbildung einen neuen Werkdatensatz an. Danach vervollständigen Sie jeden Datensatz und ergänzen die Quellen, sobald Sie sie identifizieren. Für einzelne Ergänzungen ist '''Einfache Objekterstellung''' im ''PRO-Menü'' der schnelle Weg.
+Beginnen Sie mit einer Sammlung von Fotografien, zum Beispiel einem Atelier- oder Nachlassarchiv. '''Massen-Upload neuer Objekte''' legt für jede hochgeladene Abbildung einen neuen Werkdatensatz an. Danach vervollständigen Sie jeden Datensatz und ergänzen die Quellen, sobald Sie sie identifizieren. Für einzelne Ergänzungen ist '''Objekterstellung''' im ''PRO-Menü'' der schnelle Weg.
 
 <!--T:11-->
 Das eignet sich für Werkverzeichnisse, bei denen die Werke bekannt sind, bevor es ihre Dokumentation ist.
