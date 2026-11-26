@@ -73,7 +73,7 @@ Publikationen, Ereignisse und Adressbucheinträge sind auf die gleiche Weise mit
 Nichts wird versehentlich veröffentlicht. Mehrere Einstellungen entscheiden, was Besucher sehen:
 
 <!--T:16-->
-* '''Veröffentlichbar''' in jedem Hauptformular: Solange es nicht angehakt ist, sehen nur die Bearbeiter den Datensatz. Das ist der alltägliche Schalter zwischen Entwurf und veröffentlicht.
+* '''Veröffentlichbar''' in jedem Hauptformular: Solange es nicht angehakt ist, sehen nur die Bearbeiter den Datensatz. Das ist der alltägliche Schalter zwischen Entwurf und Veröffentlichung.
 * '''Veröffentlichbar''' in vielen Abschnitten: Einzelne Einträge können verborgen bleiben, während der Datensatz selbst veröffentlicht ist. Ein Werk kann öffentlich sein, während ein Eintrag seiner Provenienz privat bleibt.
 * '''Datenschutzeinstellungen im Adressbuch''': Ein Adressbucheintrag kann aus Sammlungslisten, aus Provenienzen oder aus Verkaufsdaten ausgeblendet werden, jeweils getrennt, oder auf das Werkverzeichnis eines einzigen Künstlers beschränkt werden. So kann ein Sammler im Werkverzeichnis erscheinen, ohne dass seine Käufe öffentlich werden.
 * '''Art des Datensatzes''' bei Werken: ''Hauptdaten'' sind die Werke selbst. ''Korrekturdaten'' und ''Ergänzungsdaten'' sind zusätzliche Datensätze, die einem Hauptdatensatz zugeordnet sind (über ''Übergeordnetes Objekt''); sie erscheinen in Listen und Berichten nie als eigene Werke.
