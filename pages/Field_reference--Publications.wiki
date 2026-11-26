@@ -7,7 +7,9 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné and so on. In the PRO menu, the bibliography can be filtered and sorted by it. || list || Book, Article in magazine, Newspaper article, Internet (blog/review/etc), Video, Audio, Other media, Works Catalogue, Exhibition Catalogue, Brochure, Flyer, Article in book, Conference proceedings, book of arrivals, Inventory catalogue, book series, Catalogue, Article in catalogue, Magazine, Supplement, Conference Paper, Thesis, Press release
+| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné and so on. In the PRO menu, the bibliography can be filtered and sorted by it. || list || Book, Article in magazine, Newspaper article, Internet (blog/review/etc), Video, Audio, Other media, Works Catalogue, Exhibition Catalogue, Brochure, Flyer, Article in book, Conference proceedings, Entry register, Inventory catalogue, Book series, Catalogue, Article in catalogue, Magazine, Supplement, Conference paper, Thesis, Press release
+|-
+| '''Authorized catalogue raisonné''' || Tick if this is an authorized catalogue raisonné. It is then highlighted in the bibliography and on its page. || tick box || 
 |-
 | '''Public''' || Tick to publish the publication. || tick box || 
 |-
@@ -19,7 +21,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Series''' || The series the publication belongs to. || text || 
 |-
-| '''Alias''' || Short name shown in every list where the publication can be picked; the lists are sorted by it. Use a consistent pattern, such as author and year. || text || 
+| '''Alias''' || The short name of the publication. The lists where a publication is picked find it by its alias as well as by its title. Use a consistent pattern, such as author and year. || text || 
 |-
 | '''Abbreviation''' || Short form for footnotes, if the catalogue uses one. || text || 
 |-
@@ -39,6 +41,8 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Total Volumes''' || Number of volumes of the whole work. || number || 
 |-
+| '''Edition''' || Which edition of the book this is, written exactly as its title page writes it, for example "7. Auflage" or "2nd revised edition". Leave it empty for a book that has only one edition, and for a reprint that changed nothing. A later edition that really differs — other works, other numbers — is recorded as its own publication, linked to this one with "is a version of". This is not the edition of an artwork: a print run is on the work itself. || text || 
+|-
 | '''Number Pages''' || Number of pages. || number || 
 |-
 | '''Page''' || For an extract: its page or pages. || text || 
@@ -47,7 +51,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Coloured ?''' || For an extract: tick if the illustration is in colour. || tick box || 
 |-
-| '''Reference''' || A citation key or reference code. Searchable. || text || 
+| '''Reference''' || A citation key or reference code. It is printed on the publication page, for visitors too. || text || 
 |-
 | '''ISBN (books)''' || ISBN of a book. || text || 
 |-
@@ -62,7 +66,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Agent'''<br /><small>(Agent ID)</small> || The contributor, as a directory entry. || link to a directory entry || 
 |-
-| '''Activity ID'''<br /><small>(Activity)</small> || The contributor's role. A person may have several roles here, each role once. The byline shows authors, co-authors, writers, journalists and editors. || list<br />'''required''' || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''Activity ID'''<br /><small>(Activity)</small> || The contributor's role. A person may have several roles here, each role once. The byline shows authors, co-authors, writers, journalists and editors. || list<br />'''required''' || 92 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
 | '''Publication Part ID'''<br /><small>(Part)</small> || The part the contributor wrote, such as an essay, the introduction or the preface. Leave empty when the role applies to the whole publication. || list || Essay, Introduction, Prologue, Epigraph, Text, Epilogue, Afterword, Conclusion, Preface
 |-
@@ -75,11 +79,11 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Artist ID'''<br /><small>(Artist)</small> || An artist the publication is about. Only artists listed here get the publication in their bibliography. || link to an artist || 
 |-
-| '''Use In Web'''<br /><small>(For use in web)</small> || Tick to show the publication in the artist's bibliography on the website. || tick box || 
+| '''Use In Web'''<br /><small>(For use in web)</small> || Read by the "Usage" filter of the PRO lists and, with "Use in CR", by the artist page's "Publications used as reference". The artist's bibliography on open.cr shows the publication either way. || tick box || 
 |-
-| '''Use In CR'''<br /><small>(For use in CR)</small> || Tick to include the publication in the artist's printed catalogue raisonné. || tick box || 
+| '''Use In CR'''<br /><small>(For use in CR)</small> || The CR drafts print a work's references only from publications with this ticked for the work's artist. || tick box || 
 |-
-| '''Use As Ref CR''' || Tick if the publication is one of the authoritative references of the catalogue raisonné. || tick box || 
+| '''Use As Ref CR''' || Marks a reference publication for the catalogue; read by the "Usage" filter of the PRO lists. || tick box || 
 |}
 
 == Publications Artist References ==
@@ -116,7 +120,7 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Language'''<br /><small>(LanguageID)</small> || A language the publication is written in. || list || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
+| '''Language'''<br /><small>(LanguageID)</small> || A language the publication is written in. || list<br />'''required''' || 109 entries, see [[Field reference/Base tables#Languages|Languages]]
 |}
 
 == Publications Relations ==
