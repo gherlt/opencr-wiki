@@ -25,14 +25,14 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 |-
 | '''transactions: private ?''' || Tick to keep the entry out of the sales records of all artworks. || tick box || 
 |-
-| '''Limited To Artist ID''' || Restricts the entry to one artist's catalogue; it is then invisible to all others. Use sparingly. || link to an artist || 
+| '''Limited To Artist ID''' || For a private entry: also shows it to this artist's editors on the editing domain. A public entry stays visible to all. Use sparingly. || link to an artist || 
 |}
 
 == Activities ==
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Activity'''<br /><small>(ActivityID)</small> || What the person or institution does: gallery, publisher, photographer, curator and so on. Several activities are possible. || list || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''Activity'''<br /><small>(ActivityID)</small> || What the person or institution does: gallery, publisher, photographer, curator and so on. Several activities are possible. || list || 92 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
 | '''Comments'''<br /><small>(Comment)</small> || Further detail, such as a period or the exact role. || text || 
 |}
@@ -55,7 +55,7 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 |-
 | '''Address State''' || State, province or region. || text || 
 |-
-| '''Address Country ID''' || Country. || text || 
+| '''Address Country ID''' || Country. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
 |-
 | '''Date From Day''' || Day from which the address was valid, if known. || number || 
 |-
@@ -75,7 +75,7 @@ Every field of the [[Directory]] forms, in the order of the form. Field names ar
 |-
 | '''Date Note''' || A note on the dates, when they are too vague to enter, for example "in the 1950s". || text || 
 |-
-| '''Is Primary''' || Tick for the main address. Lists of directory entries show the city and country of this address, so mark exactly one. || tick box || 
+| '''Is Primary''' || Tick for the main address. Lists of directory entries show the city and country of this address. || tick box || 
 |-
 | '''Is Valid''' || Tick if the address is still current. || tick box || 
 |-

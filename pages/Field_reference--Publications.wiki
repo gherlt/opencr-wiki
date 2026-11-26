@@ -7,13 +7,13 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''ID Publication type''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné and so on. In the PRO menu, the bibliography can be filtered and sorted by it. || list || Book, Article in magazine, Newspaper article, Internet (blog/review/etc), Video, Audio, Other media, Works Catalogue, Exhibition Catalogue, Brochure, Flyer, Article in book, Conference proceedings, Entry register, Inventory catalogue, Book series, Catalogue, Article in catalogue, Magazine, Supplement, Conference paper, Thesis, Press release
+| '''Type of publication''' || The kind of publication: book, article, exhibition catalogue, catalogue raisonné and so on. In the PRO menu, the bibliography can be filtered and sorted by it. || list<br />'''required''' || Book, Article in magazine, Newspaper article, Internet (blog/review/etc), Video, Audio, Other media, Works Catalogue, Exhibition Catalogue, Brochure, Flyer, Article in book, Conference proceedings, Entry register, Inventory catalogue, Book series, Catalogue, Article in catalogue, Magazine, Supplement, Conference paper, Thesis, Press release
 |-
 | '''Authorized catalogue raisonné''' || Tick if this is an authorized catalogue raisonné. It is then highlighted in the bibliography and on its page. || tick box || 
 |-
-| '''Public''' || Tick to publish the publication. || tick box || 
+| '''Public (shown on open.cr)''' || Tick to publish the publication. || tick box || 
 |-
-| '''Title''' || Title of the publication; for an article, the title of the article. || text || 
+| '''Title''' || Title of the publication; for an article, the title of the article. || text<br />'''required''' || 
 |-
 | '''Subtitle''' || Subtitle. || text || 
 |-
@@ -21,41 +21,41 @@ Every field of the [[Publications]] forms, in the order of the form. Field names
 |-
 | '''Series''' || The series the publication belongs to. || text || 
 |-
-| '''Alias''' || The short name of the publication. The lists where a publication is picked find it by its alias as well as by its title. Use a consistent pattern, such as author and year. || text || 
+| '''Alias''' || The short name of the publication. The lists where a publication is picked find it by its alias as well as by its title. Use a consistent pattern, such as author and year. || text<br />'''required''' || 
 |-
 | '''Abbreviation''' || Short form for footnotes, if the catalogue uses one. || text || 
 |-
-| '''Publication date (day)''' || Day of publication, if known. || number || 
+| '''Day''' || Day of publication, if known. || number || 
 |-
-| '''Publication month''' || Month of publication, if known. Leave it empty when unknown; never use January as a placeholder. || list || January, February, March, April, May, June, July, August, September, October, November, December
+| '''Month''' || Month of publication, if known. Leave it empty when unknown; never use January as a placeholder. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
-| '''Year of publication''' || Year of publication. || number || 
+| '''Year''' || Year of publication. || number || 
 |-
-| '''Publication city''' || Place of publication. || text || 
+| '''City''' || Place of publication. || text || 
 |-
-| '''Published in country''' || Country of publication. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
+| '''Country''' || Country of publication. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
 |-
-| '''Number Copies''' || Print run, if known. || number || 
+| '''Number of copies''' || Print run, if known. || number || 
 |-
 | '''Volume''' || Volume number, for a work in several volumes. || number || 
 |-
-| '''Total Volumes''' || Number of volumes of the whole work. || number || 
+| '''Total number of volumes''' || Number of volumes of the whole work. || number || 
 |-
 | '''Edition''' || Which edition of the book this is, written exactly as its title page writes it, for example "7. Auflage" or "2nd revised edition". Leave it empty for a book that has only one edition, and for a reprint that changed nothing. A later edition that really differs — other works, other numbers — is recorded as its own publication, linked to this one with "is a version of". This is not the edition of an artwork: a print run is on the work itself. || text || 
 |-
-| '''Number Pages''' || Number of pages. || number || 
+| '''Number of pages''' || Number of pages. || number || 
 |-
-| '''Page''' || For an extract: its page or pages. || text || 
+| '''Page(s)''' || For an extract: its page or pages. || text || 
 |-
 | '''Illustration''' || For an extract: the number of the figure or plate. || text || 
 |-
-| '''Coloured ?''' || For an extract: tick if the illustration is in colour. || tick box || 
+| '''Coloured''' || For an extract: tick if the illustration is in colour. || tick box || 
 |-
 | '''Reference''' || A citation key or reference code. It is printed on the publication page, for visitors too. || text || 
 |-
-| '''ISBN (books)''' || ISBN of a book. || text || 
+| '''ISBN''' || ISBN of a book. || text || 
 |-
-| '''ISSN (magazines)''' || ISSN of a magazine or series. || text || 
+| '''ISSN''' || ISSN of a magazine or series. || text || 
 |-
 | '''Link''' || Web address of the publication or of its record, for example in a library. || text || 
 |}

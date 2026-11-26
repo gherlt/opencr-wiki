@@ -183,7 +183,7 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 {| class="wikitable"
 ! Zu !! Abschnitt !! Bedeutung
 |-
-| [[Artists/de|Künstler]] || ''Erwähnte Künstler'' || Die Künstler, von denen die Publikation handelt, und ob sie in deren Bibliographie steht
+| [[Artists/de|Künstler]] || ''Erwähnte Künstler'' || Die Künstler, von denen die Publikation handelt; das bringt sie in deren Bibliographie
 |-
 | Künstler || ''Publications Artist References'' (eigenes Formular) || Seitenbereiche je Künstler
 |-

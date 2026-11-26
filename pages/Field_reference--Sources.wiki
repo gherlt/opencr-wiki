@@ -77,7 +77,7 @@ Citations are added in the citation pop-up, on the pages of artworks, artists, d
 |-
 | '''Field''' || The field the citation supports. The button that opens the pop-up decides it: the button after a value cites that value, Add source for the whole record at the bottom of the page cites the record as a whole. Where one button stands for several fields, such as the date, place and country of creation, the pop-up asks which of them. || set by the button, or a list || 
 |-
-| '''Source''' || The source cited. Before anything is typed, the pop-up offers three of the sources already cited in the artist's catalogue (for a record without an artist, cited anywhere), as Recently used, Most used or Recently created; Recently created takes the newest sources of all. The list of types narrows it to one type, and the search finds any source by its label in lists. New source creates one on the spot. The chosen source is shown with its type and how often it is cited; Change goes back to the list. || link to a source<br />'''required''' || 
+| '''Source''' || The source cited. Before anything is typed, the pop-up offers three of the sources already cited in the artist's catalogue (for a record without an artist, cited anywhere), as Recently used, Most used or Recently created; Recently created takes the newest sources of all. The list of types narrows it to one type, and the search finds any source by its label in lists. New source creates one on the spot. Each offered source shows its title, its type and how often it is cited, and under that a publication shows what its title cannot carry — the kind of publication, who wrote or published it and the place — while any other source shows its label in lists. The chosen source is shown with its type and how often it is cited; Change source goes back to the list. || link to a source<br />'''required''' || 
 |-
 | '''Quote''' || The passage that supports the value, word for word, in the language of the source. Quotes are never translated. || long text || 
 |-
@@ -100,9 +100,9 @@ Any number of lines per citation, added with ''Add page, figure …'' and remove
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Language''' || The pop-up has one Comment box per system language, labelled with the language, for example Comment (English). || one box per language || German, English, French, Italian, Spanish
+| '''Language''' || Chosen when a comment is added: one comment per language. The page's language is preselected; a language that already has a comment is not offered again. || one box per language || German, English, French, Italian, Spanish
 |-
-| '''Comment''' || A remark on the citation in this language, for example why the source is doubted or how a value was derived from it. Optional: an empty box is not saved. || long text || 
+| '''Comment''' || A remark on the citation in this language, for example why the source is doubted or how a value was derived from it. Optional. "Apply" adds it to the pop-up's list, where it can be edited or removed; "Save" stores the citation with its comments. || long text || 
 |}
 
 == See also ==

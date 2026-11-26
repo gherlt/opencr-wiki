@@ -7,7 +7,7 @@ Every field of the [[Dealers and offers]] forms, in the order of the form. Field
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Login user''' || The openCR login of the dealer; one dealer per login. || link to a user<br />'''required''' || 
+| '''Login user''' || The openCR login of the dealer; one dealer per login. Set the account's role to Advertiser or Advertiser unlimited on its profile page first. || link to a user<br />'''required''' || 
 |-
 | '''Directory record''' || The directory entry of the dealer, which is how visitors see the dealer; one dealer per directory entry. || link to a directory entry<br />'''required''' || 
 |-
@@ -49,7 +49,7 @@ Every field of the [[Dealers and offers]] forms, in the order of the form. Field
 |-
 | '''Price on request''' || Tick to show "price on request" instead of the price. || tick box || 
 |-
-| '''Object condition''' || The condition of the offered work. || list || pristine, near pristine, very good, good, fair, poor, Very poor
+| '''Object condition''' || The condition of the offered work. || list || pristine, near pristine, very good, good, fair, poor, very poor
 |-
 | '''Runs from (optional)''' || First day the offer is shown. Leave empty for no limit. || date || 
 |-

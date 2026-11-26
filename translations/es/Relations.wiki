@@ -183,7 +183,7 @@ Las tablas enumeran, para cada tipo de registro, los enlaces que tiene con otros
 {| class="wikitable"
 ! Hacia !! Sección !! Significado
 |-
-| [[Artists/es|Artistas]] || ''Artistas tratados'' || Los artistas de los que trata la publicación, y si está en su bibliografía
+| [[Artists/es|Artistas]] || ''Artistas relacionados'' || Los artistas de los que trata la publicación; esto es lo que la hace figurar en su bibliografía
 |-
 | Artistas || ''Publications Artist References'' (formulario aparte) || Intervalos de páginas por artista
 |-

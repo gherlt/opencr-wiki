@@ -9,13 +9,13 @@ Every field of the [[Events]] forms, in the order of the form. Field names are g
 |-
 | '''Artist'''<br /><small>(not in the forms)</small> || The artist the event was created for. Set automatically from the artist's catalogue. || link to an artist || 
 |-
-| '''DirectoryID'''<br /><small>(not in the forms)</small> || An institution connected with the event. Not shown in the forms; record participants in Events Agents. || number || 
+| '''DirectoryID'''<br /><small>(not in the forms)</small> || The directory entry whose birth, death, founding or dissolution the event records. Not shown in the event forms; record participants in Events Agents. || link to a directory entry || 
 |-
-| '''Event type'''<br /><small>(Event Type ID)</small> || The kind of event: solo or group exhibition, fair, award, lecture, birth, move and so on. Decides which sections make sense. || list || 63 entries, see [[Field reference/Base tables#Event types|Event types]]
+| '''Event type'''<br /><small>(Event Type ID)</small> || The kind of event: solo or group exhibition, fair, award, lecture, birth, move and so on. Decides which sections make sense. || list<br />'''required''' || 63 entries, see [[Field reference/Base tables#Event types|Event types]]
 |-
 | '''Public''' || Tick to publish the event. || tick box || 
 |-
-| '''Event name'''<br /><small>(Event Name)</small> || Name of the event. Used in every language for which the Event description has no name of its own. || text || 
+| '''Event name'''<br /><small>(Event Name)</small> || Name of the event, shown in every language. || text || 
 |-
 | '''Alias''' || Short name shown in every list where the event can be picked. Use a consistent pattern, such as place and year. || text<br />'''required''' || 
 |-
@@ -26,11 +26,9 @@ Every field of the [[Events]] forms, in the order of the form. Field names are g
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Language''' || Language of the name and description; one entry per language. || list<br />'''required''' || German, English, French, Italian, Spanish
+| '''Language''' || The language of this text. Each language once. || one text per language<br />'''required''' || German, English, French, Italian, Spanish
 |-
-| '''Event Name'''<br /><small>(Event name)</small> || Name of the event in this language. Replaces the main Event name in this language. || text<br />'''required''' || 
-|-
-| '''Description'''<br /><small>(Event description)</small> || Description of the event in this language. || long text || 
+| '''Description''' || A description of the record in this language. Always public: it shows wherever the record shows. || long text<br />'''required''' || 
 |}
 
 == Locations ==
@@ -61,14 +59,14 @@ Every field of the [[Events]] forms, in the order of the form. Field names are g
 |-
 | '''Duration''' || For events measured in time rather than dates: how long the event lasted. || number || 
 |-
-| '''Time unit''' || Unit of the duration, such as min. or h. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+| '''Time unit''' || Unit of the duration, such as min. or h. || list || unit, kg, g, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |}
 
 == Events Artists ==
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''ArtistID'''<br /><small>(Artist)</small> || An artist who took part. || link to an artist || 
+| '''ArtistID'''<br /><small>(Artist)</small> || An artist who took part. || link to an artist<br />'''required''' || 
 |-
 | '''RelationID'''<br /><small>(Relation type)</small> || The artist's role, for example exhibiting artist, invited artist, author or recipient of an award. || list || Relation, Exhibiting artist, Inspired, Guest, Organizer, Sponsor, Promoter, Doer, Author, Co-Author, Helper, Receives award, Participant, Invited artist, Curator, Moderator, Is honored, Lender
 |}
@@ -77,7 +75,7 @@ Every field of the [[Events]] forms, in the order of the form. Field names are g
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''DirectoryID'''<br /><small>(Contact)</small> || A person or institution involved, as a directory entry. || link to a directory entry || 
+| '''DirectoryID'''<br /><small>(Contact)</small> || A person or institution involved, as a directory entry. || link to a directory entry<br />'''required''' || 
 |-
 | '''RelationID'''<br /><small>(Relation type)</small> || Their role, for example organiser, curator, exhibiting gallery, sponsor or lender. || list<br />'''required''' || Relation, Inspired, Guest, Organizer, Sponsor, Promoter, Doer, Participant, Curator, Moderator, Exhibiting gallery, Lender
 |-
@@ -88,7 +86,7 @@ Every field of the [[Events]] forms, in the order of the form. Field names are g
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Object''' || The artwork shown. || link to an artwork || 
+| '''Object''' || The artwork shown. || link to an artwork<br />'''required''' || 
 |-
 | '''Reference''' || Catalogue or lot number, or the label used at the exhibition. || text || 
 |-

@@ -11,7 +11,9 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''First name''' || The artist's first name or names as used in the catalogue. || text || 
 |-
-| '''Alias''' || Short name of the artist shown in lists and dropdowns. Choose it once and keep it. Other names of the artist go into the alternative names. || text || 
+| '''Alias''' || Short name of the artist shown in lists and dropdowns. Other names of the artist go into the alternative names. || text || 
+|-
+| '''Own address-book entry''' || The directory entry that is this artist, so the artist can be named as an agent like any other person. || link to a directory entry || 
 |-
 | '''Gender''' || The artist's gender. || list<br />'''required''' || female, male, other, trans to female, trans to male, hermaphrodite, undecided, not known, not applicable
 |-
@@ -57,13 +59,15 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Default language''' || The main language of the artist's catalogue. || list || German, English, French, Italian, Spanish
 |-
-| '''CR web publicationstates''' || Workflow code for publishing scripts. Leave it at its default unless your project has agreed on values. || number || 
+| '''CR web publicationstates''' || Editorial note on the catalogue's state for the web. It hides nothing and triggers nothing. Leave it at its default unless your team tracks it. || number || 
 |-
-| '''CROffline Publication State ID''' || Workflow code for the printed catalogue. Leave it at its default unless your project has agreed on values. || number || 
+| '''CROffline Publication State ID''' || Editorial note on the state of the printed catalogue. It hides nothing and triggers nothing. Leave it at its default unless your team tracks it. || number || 
 |-
 | '''Is Address Public''' || Tick to publish the postal address. Independent of Public, so a published artist can keep the address private. || tick box || 
 |-
-| '''Images directory'''<br /><small>(not in the forms)</small> || The folder for the artist's image files, set up when the artist is created. Never renamed. || text || 
+| '''Image folder''' || The folder for the artist's image files. Never renamed. || text || 
+|-
+| '''Duplicate check of images''' || How closely a new image is compared with this artist's images in the duplicate check: "Standard", or "Fine" for abstract work that differs only in fine detail. Only the super admin sets it. || list || Standard, Fine
 |-
 | '''Is member of Collecting Society''' || Tick if the artist's rights are managed by a collecting society, such as VG Bild-Kunst or SIAE. || tick box || 
 |-
@@ -80,7 +84,7 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Biography text''' || The text of the biography. Simple formatting is possible; keep it plain. || long text || 
 |-
-| '''Biography type''' || "Live" for the life biography (vita), "Art" for the art-historical biography. || list || Live, Art
+| '''Biography type''' || "Life" for the life biography (vita), "Art" for the art-historical biography. || list || Life, Art
 |}
 
 == Alternative names ==
@@ -140,8 +144,6 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 | '''Year From''' || First year the tag applies to, for periods and epochs. Leave empty otherwise. || number || 
 |-
 | '''Year Upto''' || Last year the tag applies to. || number || 
-|-
-| '''ID Type''' || Used by imports. Leave empty for tags created in openCR. || text || 
 |}
 
 == Tag labels ==
@@ -164,9 +166,9 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''ObjectTypeID''' || An object type used by the artist. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+| '''ObjectTypeID''' || An object type used by the artist. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour drawing
 |-
-| '''CategoryID''' || A category offered for filtering the artist's works of that object type. || list<br />'''required''' || Painting, Print, Sculpture, Sketch, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Print (Lithography), Print (Etching), Print (Serigraphy), Print (Linocut), Print (Woodcut), Multiple
+| '''CategoryID''' || A category offered for filtering the artist's works of that object type. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Print (Lithography), Print (Etching), Print (Serigraphy), Print (Linocut), Print (Woodcut), Multiple
 |}
 
 == Object Templates ==
@@ -175,9 +177,9 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Template Name''' || Name of the template, for example "Etching on Arches 300 g". || text<br />'''required''' || 
 |-
-| '''Object Type ID''' || The object type the template is for. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+| '''Object Type ID''' || The object type the template is for. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour drawing
 |-
-| '''Print Paper ID''' || Default paper for prints. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+| '''Print Paper ID''' || Default paper for prints. || list || 116 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
 | '''Print Watermark ID''' || Default watermark for prints. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
 |-
@@ -191,9 +193,9 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Print Tirage Qualifier ID''' || Default qualifier of the print run. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Sculpture Material''' || Like the same field on the artwork: currently accepts only a number. || number || 
+| '''Sculpture Material''' || Like the same field on the artwork: accepts only the number of a component (materials and techniques). || number || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
-| '''Sculpture Modelmaterial''' || Like the same field on the artwork: currently accepts only a number. || number || 
+| '''Sculpture Modelmaterial''' || Like the same field on the artwork: accepts only the number of a component (materials and techniques). || number || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
 | '''Sculpture Modelexists''' || Default for "model exists". || tick box || 
 |-
@@ -206,13 +208,13 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Sort Order''' || Order of the components. || number<br />'''required''' || 
 |-
-| '''Component ID''' || A material, support or technique the template adds to new artworks. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
+| '''Component ID''' || A material, support or technique the template adds to new artworks. || list<br />'''required''' || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
 | '''Quantity''' || How many. || number || 
 |-
 | '''Quantity Qualifier''' || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Unit ID''' || Unit of the quantity. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+| '''Unit ID''' || Unit of the quantity. || list || unit, kg, g, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |-
 | '''Brand''' || Manufacturer or brand. || text || 
 |-
@@ -220,7 +222,7 @@ Every field of the [[Artists]] forms, in the order of the form. Field names are 
 |-
 | '''Comment''' || Further detail. || text || 
 |-
-| '''Component Paper Type ID''' || If the component is paper: its type. || number || 
+| '''Component Paper Type ID''' || If the component is paper: its type. || list || 116 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
 | '''Component Paper Model''' || If the component is paper: its model or variety. || text || 
 |-

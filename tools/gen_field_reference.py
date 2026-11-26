@@ -10,7 +10,8 @@ TOOLTIPS_DIR  docs/tooltips of the (private) application repository: the field
               up each page, which columns are automatic, and how vocabularies
               are titled; a section may fix a field's caption ("labels"), input
               ("kinds") or offered entries ("values") where the form differs,
-              and mark fields the form does not require ("optional"); a page
+              and mark fields the form does not require ("optional") or
+              requires although the database allows them empty ("required"); a page
               may name its guide page ("guide") when that is not the page name
 PAGE          a page name from wiki-reference.json, e.g. "Objects"; or
               "Base tables": every vocabulary used by a field of any page
@@ -158,9 +159,10 @@ class Reference:
         else:
             kind = "text"
         kind = section.get("kinds", {}).get(name, kind)
-        required = (c["IS_NULLABLE"] == "NO" and c["COLUMN_DEFAULT"] in ("", "NULL")
-                    and kind != "tick box" and c["COLUMN_KEY"] != "PRI"
-                    and name not in section.get("optional", []))
+        required = ((c["IS_NULLABLE"] == "NO" and c["COLUMN_DEFAULT"] in ("", "NULL")
+                     and kind != "tick box" and c["COLUMN_KEY"] != "PRI"
+                     and name not in section.get("optional", []))
+                    or name in section.get("required", []))
         return {"table": table, "name": name, "label": label, "caps": caps, "tooltip": tooltip.strip(),
                 "kind": kind, "required": required, "vocab": vocab, "values": vals}
 

@@ -7,9 +7,9 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Artist'''<br /><small>(not in the forms)</small> || The artist whose catalogue the artwork belongs to. Set automatically when the artwork is created in the artist's catalogue. || link to an artist || 
+| '''Artist'''<br /><small>(not in the forms)</small> || The artist whose catalogue the artwork belongs to. Set automatically when the artwork is created in the artist's catalogue. || link to an artist<br />'''required''' || 
 |-
-| '''Record type''' || "main data" for the artwork itself. "correction data" or "supplementary data" for an additional record that corrects or supplements another artwork's data; such records never appear as artworks of their own. || list || main data, correction data, supplementary data
+| '''Record type''' || "main data" for the artwork itself. "correction data" or "supplementary data" for an additional record that corrects or supplements another artwork's data; such records never appear as artworks of their own. Not for drafts: a draft is a main record with Public unticked. || list || main data, correction data, supplementary data
 |-
 | '''Parent object''' || For correction or supplementary data: the artwork (main data) this record belongs to. Leave empty for normal artworks. Not used for suites. || link to an artwork || 
 |-
@@ -19,17 +19,17 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Title''' || The main title of the work, in the catalogue's main language. Further titles go into the Titles section. || text || 
 |-
-| '''Object type''' || What kind of work it is. Decides which of the fields for prints, sculptures or unique works apply. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour Drawing
+| '''Object type''' || What kind of work it is. Decides which of the fields for prints, sculptures or unique works apply. || list<br />'''required''' || Painting, Print, Sculpture, Drawing, Multimedia, Photography, Audio, Watercolour, Other, Happening, Book, Text, Installation, Work on paper, Lithography, Etching, Serigraphy, Linocut, Woodcut, Multiple, Digital print, Poster, Draft, Monotype, Colour drawing
 |-
-| '''StatusWeb''' || Editorial status of the artwork for the website, for teams that track review steps. It does not show or hide anything; only Public does. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requieres verification
+| '''StatusWeb''' || Editorial note on the artwork's status for the website, for teams that track review steps. It hides nothing and triggers nothing; only Public shows or hides. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requires verification
 |-
-| '''StatusPrint''' || Editorial status of the artwork for the printed catalogue raisonné, for teams that track review steps. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requieres verification
+| '''StatusPrint''' || Editorial note on the artwork's status for the printed catalogue raisonné, for teams that track review steps. It hides nothing and triggers nothing. || list || Not ready for publication, Ready for publication, Approved for publication, NOT approved for publication, Requires verification
 |-
 | '''Public''' || Tick to publish the artwork. As long as it is unticked, only editors see it. || tick box || 
 |-
-| '''Is it a Suite ?''' || Tick if this record is a suite: a series of separately catalogued works, such as a portfolio of prints. The members point to it with "ID parent suite". || tick box || 
+| '''Is it a Suite ?''' || Tick if this record takes part in a suite (a series of separately catalogued works, such as a portfolio of prints): both on the suite's own record and on every member. Without a "suite parent" the record is the suite itself; with one, it is a member. || tick box || 
 |-
-| '''All Grouping ID'''<br /><small>(Type of grouping)</small> || Groups works together in the layout of a printed catalogue (suite, folder, installation, group, book). Has no further meaning. || list || Suite, Folder, Installation, Group, Book
+| '''All Grouping ID'''<br /><small>(Type of grouping)</small> || On the suite's own record: what kind of group it is — suite, folder, installation, group, book or series. Members don't need it. || list || Suite, Folder, Installation, Group, Book, Series
 |-
 | '''ID parent suite''' || For a member of a suite: the suite it belongs to. || link to an artwork || 
 |-
@@ -49,7 +49,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''All Creation Country'''<br /><small>(Country of creation)</small> || Country where the work was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
 |-
-| '''Print PaperID'''<br /><small>(Used print paper)</small> || For prints: the paper. An edition can record a different paper. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+| '''Print PaperID'''<br /><small>(Used print paper)</small> || For prints: the paper. An edition can record a different paper. || list || 116 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
 | '''Watermark''' || For prints: the watermark of the paper. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
 |-
@@ -63,9 +63,9 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Print TirageQualifierID'''<br /><small>(Qualifier for total number of prints)</small> || How certain the print run is: approximate, estimate, minimum, maximum, exact and so on. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Sculpture: Material''' || Intended for the material of a sculpture, but the field currently accepts only a number. Record the material in the Components section. || number || 
+| '''Sculpture: Material''' || Intended for the material of a sculpture, but the field accepts only the number of a component (materials and techniques); the artwork page then shows that component's name. Record the material in the Components section. || number || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
-| '''Sculpture: Material of model''' || Intended for the material of the sculpture's model, but the field currently accepts only a number. Record it in the Components section or the notes. || number || 
+| '''Sculpture: Material of model''' || Intended for the material of the sculpture's model, but the field accepts only the number of a component (materials and techniques); the artwork page then shows that component's name. Record it in the Components section or the notes. || number || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
 | '''Sculpture: Model exists''' || For sculptures: tick if the model still exists. || tick box || 
 |-
@@ -105,27 +105,29 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
+| '''Print edition'''<br /><small>(not in the forms)</small> || The print edition whose own technique line the entry belongs to. Set automatically by the edition's (+) in the pop-up; the edition's line is complete, the work's line stays for the work and its other editions. || link to a print edition || 
 |-
-| '''Sculpture edition'''<br /><small>(not in the forms)</small> || Limits the entry to one sculpture edition. Leave empty when it applies to the whole work. || link to a sculpture edition || 
+| '''Part'''<br /><small>(not in the forms)</small> || The part whose own technique line the entry belongs to. Set automatically by the part's (+) in the pop-up. || link to a part of the artwork || 
+|-
+| '''Sculpture edition'''<br /><small>(not in the forms)</small> || The sculpture edition whose own technique line the entry belongs to. Set automatically by the edition's (+) in the pop-up; "Copy the work's line" starts it from the work's. || link to a sculpture edition || 
 |-
 | '''Position'''<br /><small>(Sort Order)</small> || Order of the entries in the list. || number<br />'''required''' || 
 |-
-| '''Component'''<br /><small>(Component ID)</small> || The material, support or technique, for example oil, canvas or etching. || list<br />'''required''' || 333 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
+| '''Component'''<br /><small>(Component ID)</small> || The material, support or technique, for example oil, canvas or etching. || list<br />'''required''' || 335 entries, see [[Field reference/Base tables#Components (materials and techniques)|Components (materials and techniques)]]
 |-
 | '''Quantity''' || How many, for example 2 for two panels. || number || 
 |-
 | '''OPENCR_QuantityQualifier'''<br /><small>(Quantity Qualifier)</small> || How certain the quantity is. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Unit'''<br /><small>(Unit ID)</small> || Unit of the quantity. || list || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+| '''Unit'''<br /><small>(Unit ID)</small> || Unit of the quantity. || list || unit, kg, g, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |-
 | '''Brand''' || Manufacturer or brand, if known. || text || 
 |-
 | '''Country of origin'''<br /><small>(Country Of Origin ID)</small> || Country where the material was made. || list || 265 entries, see [[Field reference/Base tables#Countries|Countries]]
 |-
-| '''Comments'''<br /><small>(Comment)</small> || Further detail on this component. || text || 
+| '''Comments'''<br /><small>(Comment)</small> || Further detail on this component. Not shown on the page. || text || 
 |-
-| '''Type paper'''<br /><small>(Component Paper Type ID)</small> || If the component is paper: its type. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+| '''Type paper'''<br /><small>(Component Paper Type ID)</small> || If the component is paper: its type. || list || 116 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
 | '''Model'''<br /><small>(Component Paper Model)</small> || If the component is paper: its model or variety. || text || 
 |-
@@ -146,23 +148,23 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Measurement 1'''<br /><small>(Value 1)</small> || The first measured value, typically height, width or depth. || text<br />'''required''' || 
 |-
-| '''unit'''<br /><small>(Type ID 1)</small> || What the first value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+| '''unit'''<br /><small>(Type ID 1)</small> || What the first value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, Bit depth, Kilobytes, Megabytes, Resolution, Material thickness
 |-
 | '''Clasific. measure 1'''<br /><small>(Qualifier ID 1; QualifierID 1)</small> || How exact the first value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Measurement 2'''<br /><small>(Value 2)</small> || The second measured value, typically height, width or depth. || text || 
 |-
-| '''unit'''<br /><small>(Type ID 2)</small> || What the second value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+| '''unit'''<br /><small>(Type ID 2)</small> || What the second value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, Bit depth, Kilobytes, Megabytes, Resolution, Material thickness
 |-
 | '''Qualifier measure 2'''<br /><small>(Qualifier ID 2; QualifierID 2)</small> || How exact the second value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
 | '''Measurement 3'''<br /><small>(Value 3)</small> || The third measured value, typically height, width or depth. || text || 
 |-
-| '''unit'''<br /><small>(Type ID 3)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, bit-depth, KBytes, MBytes, Resolution, Scale, Material thickness
+| '''unit'''<br /><small>(Type ID 3)</small> || What the third value measures, for example height, width or diameter. (Some forms label this field "unit".) || list || Height, Width, Depth, Length, Diameter, Volume, Weight, Area, Running time, Circumference, Size, Duration, Scale, Distance, Count, Bit depth, Kilobytes, Megabytes, Resolution, Material thickness
 |-
 | '''Qualifier measure 3'''<br /><small>(Qualifier ID 3; QualifierID 3)</small> || How exact the third value is, for example approximate or maximum. || list || approximate, sight, maximum, largest, smallest, average, variable, assembled, before restoration, at corners, rounded, framed, with base, exact, estimate, minimum, unknown, some, many, irregular, few, visible, unverified, unlimited, in part
 |-
-| '''Unit'''<br /><small>(OPENCR_UnitID1; Unit ID)</small> || Unit of all values in this entry, for example cm. || list<br />'''required''' || unit, kg, gr, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
+| '''Unit'''<br /><small>(OPENCR_UnitID1; Unit ID)</small> || Unit of all values in this entry, for example cm. || list<br />'''required''' || unit, kg, g, cm, inch, m, feet, cm², m², square inch, square feet, sec., min., h., m:s, h:m:s, liter, cm³, mm³, m³, mm
 |-
 | '''Meas. extent'''<br /><small>(Extend ID)</small> || What was measured: image, sheet, plate, frame and so on. || list || 45 entries, see [[Field reference/Base tables#Measurement extents|Measurement extents]]
 |-
@@ -181,13 +183,15 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Part'''<br /><small>(not in the forms)</small> || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
-| '''Copy'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || number || 
+| '''Copy'''<br /><small>(not in the forms)</small> || Limits the entry to one recorded copy of an edition, such as a particular impression. Leave empty otherwise. || link to a repository record || 
 |-
-| '''Attribute'''<br /><small>(Attribute ID)</small> || The kind of mark: signed, dated, numbered, stamped, monogrammed, watermark and many more. || list<br />'''required''' || 46 entries, see [[Field reference/Base tables#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]]
+| '''Attribute'''<br /><small>(Attribute ID)</small> || The kind of mark: signed, dated, numbered, stamped, monogrammed, watermark and many more. || list<br />'''required''' || 47 entries, see [[Field reference/Base tables#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]]
 |-
 | '''Location'''<br /><small>(Location ID)</small> || Where on the work the mark is: front or back, in a grid of positions, corners and borders. || list || 35 entries, see [[Field reference/Base tables#Positions on the work|Positions on the work]]
 |-
 | '''OPENCR_AttributeText'''<br /><small>(Attribute Text)</small> || The transcription of the mark, or a description of it. || text || 
+|-
+| '''Person or institution (directory)''' || The address-book entry the mark names: who co-signed, whose stamp it is, to whom it is dedicated. Leave empty for the artist himself. || link to a directory entry || 
 |}
 
 == Parts ==
@@ -270,7 +274,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Autorized by'''<br /><small>(OPENCR_AuthorizedBy ID)</small> || Who authorised the edition, especially for posthumous editions. || link to a directory entry || 
 |-
-| '''Paper''' || The paper of this edition, if different from the artwork's. || list || 119 entries, see [[Field reference/Base tables#Print papers|Print papers]]
+| '''Paper''' || The paper of this edition, if different from the artwork's. || list || 116 entries, see [[Field reference/Base tables#Print papers|Print papers]]
 |-
 | '''Watermark''' || The watermark of this edition's paper. || list || 46 entries, see [[Field reference/Base tables#Watermarks|Watermarks]]
 |}
@@ -314,9 +318,9 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''DirectoryID'''<br /><small>(Contact; Directory ID)</small> || The person or institution. || link to a directory entry || 
 |-
-| '''ActivityID'''<br /><small>(Activity ID)</small> || Their role: printer, publisher, foundry, photographer, co-author and so on. || list<br />'''required''' || 94 entries, see [[Field reference/Base tables#Activities|Activities]]
+| '''ActivityID'''<br /><small>(Activity ID)</small> || Their role: printer, publisher, foundry, photographer, co-author and so on. || list<br />'''required''' || 92 entries, see [[Field reference/Base tables#Activities|Activities]]
 |-
-| '''AuthorItself'''<br /><small>(By the author himself; Author Itself)</small> || Tick if the artist themselves had this role; the person field is then ignored. || tick box || 
+| '''AuthorItself'''<br /><small>(By the author himself; Author Itself)</small> || Tick if the artist themselves had this role; the artwork page then says "by the author" instead of naming the person. || tick box || 
 |-
 | '''Comment'''<br /><small>(Comments)</small> || Further detail, such as dates or the exact role. || text || 
 |}
@@ -354,7 +358,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Position''' || Order of the owners; keeps the sequence right when dates are incomplete. || number || 
 |-
-| '''Author Itself''' || Tick if the artist owned the work during this period; the owner field is then ignored. || tick box || 
+| '''Author Itself''' || Tick if the artist owned the work during this period; the artwork page then says "Artist's collection" instead of naming the owner. || tick box || 
 |-
 | '''Contact''' || The owner. || link to a directory entry || 
 |-
@@ -383,15 +387,15 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Public''' || Tick to publish this sale. Publish sales only with the consent of those involved. || tick box || 
 |-
-| '''Transaction Type ID''' || The kind of sale. || list || sale by artist, sale at exhibition/art fair, private sale, auction (floor), auction (internet), Gallery sale, Sale by publisher
+| '''Transaction Type ID''' || The kind of sale. || list || sale by artist, sale at exhibition/art fair, private sale, auction (floor), auction (internet), gallery sale, sale by publisher
 |-
 | '''Day''' || Date of the sale. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
-| '''Month''' || Date of the sale. || number || 
+| '''Month''' || Date of the sale. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
 | '''Year''' || Date of the sale. || number || 
 |-
-| '''Value''' || The price, as a whole number. || number || 
+| '''Value''' || The price. || number || 
 |-
 | '''Currency ID''' || Currency of the price. || list || Australian Dollar, Canadian Dollar, Swiss Franc, Euro, British Pound, Japanese Yen, US Dollar
 |-
@@ -424,7 +428,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Event''' || The exhibition or fair. || link to an event || 
+| '''Event''' || The exhibition or fair. || link to an event<br />'''required''' || 
 |-
 | '''Reference''' || Catalogue or lot number, or the label used at the exhibition. || text || 
 |-
@@ -437,9 +441,9 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 {| class="wikitable" style="width:100%"
 ! style="width:18%" | Field !! Meaning !! style="width:14%" | Input !! style="width:28%" | Values
 |-
-| '''Tag''' || One of the artist's tags. || link to a tag of the artist || 
+| '''Tag''' || One of the artist's own tags or a generic tag. || link to a tag of the artist || 
 |-
-| '''Tag type''' || Not used: the type comes from the tag itself. || number || 
+| '''Tag type''' || Not used: the type comes from the tag itself. || list || Art epoch, Style, Period, Topic, Location
 |}
 
 == Relation with other objects ==
@@ -448,7 +452,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Related object''' || The other artwork. || link to an artwork<br />'''required''' || 
 |-
-| '''Relation type''' || How the two works are related, seen from this work: is preparatory study for, has version and so on. See the Relations page. || list<br />'''required''' || 41 entries, see [[Field reference/Base tables#Artwork relation types|Artwork relation types]]
+| '''Relation type''' || How the two works are related, seen from this work: is study of, version is and so on. See the Relations page. || list<br />'''required''' || 41 entries, see [[Field reference/Base tables#Artwork relation types|Artwork relation types]]
 |}
 
 == Objects Actions ==
@@ -461,7 +465,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Part ID''' || Limits the entry to one part of the work. Leave empty when it applies to the whole work. || link to a part of the artwork || 
 |-
-| '''Date Eventype'''<br /><small>(Date Event Type ID; Event type)</small> || The kind of event: finished, printed, signed, exhibited, restored and so on. || list || Finished, Bon A Tire (BAT), Printed, Plate created, Drafted, Crafted, Issued, Happened, Realized, Produced, Shown, Exhibited, Published, Met, Destroyed, Put on sale, Signed, Altered, Broadcast, Commissioned, Discovered, Performed, Restored, Designed, Viewed, Other, Plate destroyed
+| '''Date Eventype'''<br /><small>(Date Event Type ID; Event type)</small> || The kind of event: finished, printed, signed, exhibited, restored and so on. || list || Finished, Bon A Tire (BAT), Printed, Plate created, Drafted, Created, Issued, Happened, Realized, Produced, Shown, Exhibited, Published, Met, Destroyed, Put on sale, Signed, Altered, Broadcast, Commissioned, Discovered, Performed, Restored, Designed, Viewed, Other, Plate destroyed
 |-
 | '''Begin date (day)'''<br /><small>(From (day); Begin Date Day)</small> || Start date, as far as known. || list || January, February, March, April, May, June, July, August, September, October, November, December
 |-
@@ -485,7 +489,7 @@ Every field of the [[Objects]] forms, in the order of the form. Field names are 
 |-
 | '''Agent'''<br /><small>(Agent ID)</small> || Who performed the action. || link to a directory entry || 
 |-
-| '''By the author himself'''<br /><small>(Author Itself)</small> || Tick if the artist themselves performed it; the agent field is then ignored. || tick box || 
+| '''By the author himself'''<br /><small>(Author Itself)</small> || Tick if the artist themselves performed it; the artwork page then says "by the author" instead of naming the agent. || tick box || 
 |}
 
 == See also ==

@@ -16,14 +16,14 @@ To delete the entry, change each of these records to another entry or clear the 
 
 == Overview ==
 * [[#Action types|Action types]] (27)
-* [[#Activities|Activities]] (94)
+* [[#Activities|Activities]] (92)
 * [[#Address types|Address types]] (8)
 * [[#Artist relation types|Artist relation types]] (22)
-* [[#Artwork relation types|Artwork relation types]] (37)
-* [[#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]] (46)
+* [[#Artwork relation types|Artwork relation types]] (41)
+* [[#Attributes (marks and inscriptions)|Attributes (marks and inscriptions)]] (47)
 * [[#Biography types|Biography types]] (2)
 * [[#Communication types|Communication types]] (10)
-* [[#Components (materials and techniques)|Components (materials and techniques)]] (333)
+* [[#Components (materials and techniques)|Components (materials and techniques)]] (335)
 * [[#Countries|Countries]] (265)
 * [[#Currencies|Currencies]] (7)
 * [[#Directory relation types|Directory relation types]] (20)
@@ -33,23 +33,24 @@ To delete the entry, change each of these records to another entry or clear the 
 * [[#Event roles|Event roles]] (19)
 * [[#Event types|Event types]] (63)
 * [[#Genders|Genders]] (9)
-* [[#Groupings|Groupings]] (5)
+* [[#Groupings|Groupings]] (6)
+* [[#Image check levels|Image check levels]] (2)
 * [[#Kinds of alternative names|Kinds of alternative names]] (4)
 * [[#Languages|Languages]] (109)
 * [[#Locators (where in the source)|Locators (where in the source)]] (9)
 * [[#Measurement extents|Measurement extents]] (45)
-* [[#Measurement types|Measurement types]] (21)
+* [[#Measurement types|Measurement types]] (20)
 * [[#Months|Months]] (12)
 * [[#Object categories|Object categories]] (20)
 * [[#Object conditions|Object conditions]] (7)
 * [[#Object types|Object types]] (25)
 * [[#Positions on the work|Positions on the work]] (35)
-* [[#Print papers|Print papers]] (119)
+* [[#Print papers|Print papers]] (116)
 * [[#Publication parts|Publication parts]] (9)
 * [[#Publication relation types|Publication relation types]] (9)
 * [[#Publication types|Publication types]] (23)
 * [[#Qualifiers|Qualifiers]] (29)
-* [[#Record kinds|Record kinds]] (21)
+* [[#Record kinds|Record kinds]] (22)
 * [[#Record types|Record types]] (3)
 * [[#Source types|Source types]] (16)
 * [[#Tag types|Tag types]] (5)
@@ -68,7 +69,7 @@ To delete the entry, change each of these records to another entry or clear the 
 * Printed
 * Plate created
 * Drafted
-* Crafted
+* Created
 * Issued
 * Happened
 * Realized
@@ -95,7 +96,7 @@ To delete the entry, change each of these records to another entry or clear the 
 == Activities ==
 '''Used in:''' [[Field reference/Objects#Agents|Objects → Agents]]: ''ActivityID''; [[Field reference/Publications#Publications Agents|Publications → Publications Agents]]: ''Activity ID''; [[Field reference/Directory#Activities|Directory → Activities]]: ''Activity''; [[Field reference/Sources#People|Sources → People]]: ''Role''.
 
-94 entries:
+92 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Gallery
 * Printer
@@ -113,7 +114,7 @@ To delete the entry, change each of these records to another entry or clear the 
 * Private Company
 * Art dealer
 * Heir
-* Association
+* Club
 * Family
 * Academy
 * University
@@ -130,14 +131,14 @@ To delete the entry, change each of these records to another entry or clear the 
 * Photographer
 * Author
 * Foundry
-* Commissioneer
+* Commissioner
 * Editor
 * Visit
-* collaborator
+* Collaborator
 * Lender
-* helper
+* Helper
 * Letterpress printer
-* art club
+* Art club
 * Translator
 * Collecting society
 * School
@@ -156,8 +157,8 @@ To delete the entry, change each of these records to another entry or clear the 
 * Attorney
 * Agent
 * Curator
-* co-artist
-* co-author
+* Co-artist
+* Co-author
 * Cultural Centre
 * Actor
 * Cinematographer
@@ -170,7 +171,6 @@ To delete the entry, change each of these records to another entry or clear the 
 * Illustrator
 * Musician
 * Narrator
-* Performer
 * Researcher
 * Rights holder
 * Screenwriter
@@ -181,7 +181,6 @@ To delete the entry, change each of these records to another entry or clear the 
 * Designer
 * Donor
 * Interviewee
-* Interviewer
 * Lyricist
 * Subject
 * Sender
@@ -290,7 +289,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 == Attributes (marks and inscriptions) ==
 '''Used in:''' [[Field reference/Objects#Object attributes|Objects → Object attributes]]: ''Attribute''.
 
-46 entries:
+47 entries:
 <div style="column-width:15em; column-gap:2em;">
 * signed
 * titled
@@ -304,7 +303,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * marked
 * numbered
 * written
-* bestowed
+* dedicated
 * not signed
 * not numbered
 * hand signed in pencil
@@ -314,11 +313,11 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * posthumously - estate/heir stamp
 * posthumously - stamped signature
 * monogrammed in pencil
-* Monogrammed in ink
+* monogrammed in ink
 * hand signed
-* hands
+* handsigned at the colophon
 * Avant la lettre
-* Numbered on plate
+* numbered on plate
 * monogrammed
 * handcoloured
 * folded
@@ -326,18 +325,19 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * in colour
 * in black and white
 * monochrome
-* Not llimited
+* not limited
 * numbered on the certificate
 * posthumously - estate / heir signature
 * signed on the certificate
 * stamped on the certificate
 * dated on the certificate
-* Printed signature
+* printed signature
 * on both sides
 * stamp numbered
 * destroyed
 * overpainted
-* label
+* labeled
+* copyright notice
 </div>
 
 == Biography types ==
@@ -345,7 +345,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 
 2 entries:
 <div style="column-width:15em; column-gap:2em;">
-* Live
+* Life
 * Art
 </div>
 
@@ -367,9 +367,9 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 </div>
 
 == Components (materials and techniques) ==
-'''Used in:''' [[Field reference/Objects#Components|Objects → Components]]: ''Component''; [[Field reference/Artists#Components of a template|Artists → Components of a template]]: ''Component ID''.
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Sculpture: Material''; [[Field reference/Objects#Main form|Objects → Main form]]: ''Sculpture: Material of model''; [[Field reference/Objects#Components|Objects → Components]]: ''Component''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Sculpture Material''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Sculpture Modelmaterial''; [[Field reference/Artists#Components of a template|Artists → Components of a template]]: ''Component ID''.
 
-333 entries:
+335 entries:
 <div style="column-width:15em; column-gap:2em;">
 * oil
 * acrylic
@@ -388,17 +388,17 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * glued to
 * with
 * primer
-* carton paper
+* cardboard
 * photographic paper
-* ILUMINACION
+* hand colouring
 * copper
 * steel
 * iron
-* gypsum
-* Granite
-* copper
+* plaster
+* granite
+* bronze
 * gold
-* ILUMINACION BY THE ARTIST
+* hand-coloured by the artist
 * watercolor
 * gouache
 * cotton
@@ -408,9 +408,9 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * ribbon
 * glue
 * collage
-* color
+* colour
 * drawing
-* strings
+* string
 * graphite
 * metal mesh
 * matter
@@ -423,7 +423,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * ink
 * triptych
 * diptych
-* indian ink
+* India ink
 * cloth/textile
 * cotton textile
 * steel mesh
@@ -436,7 +436,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * asphalt emulsion
 * ink (diluted)
 * india ink (diluted)
-* watercolor (dliuted)
+* watercolor (diluted)
 * wash drawing
 * ink (sepia)
 * drawing (colored)
@@ -448,12 +448,10 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * color pencil
 * paper (recycled)
 * aquatint (one color)
-* aquatints in colors
-* Etching, aquatint (one color)
-* Etching, aquatint in colors
+* aquatint in colors
 * silkscreen (one color)
 * silkscreen in colors
-* engraving
+* engraving (one color)
 * etching in colors
 * lithograph in colors
 * etching (one color)
@@ -464,18 +462,18 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * woodcut in colors
 * linocut (one color)
 * drypoint (one color)
-* Multiple
-* Heliography
+* multiple
+* heliogravure
 * poster (one color)
 * color poster
 * offset (one color)
-* Photocopy
-* Photolithograph
-* Offset lithograph (one color)
-* Offset lithograph in colors
-* Offset in colors
+* photocopy
+* photolithograph
+* offset lithograph (one color)
+* offset lithograph in colors
+* offset in colors
 * linocut in colors
-* Other
+* other
 * copper plate
 * metal plate
 * aluminium plate
@@ -487,8 +485,8 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * aluminium
 * stone
 * linoleum
-* Zinc
-* Zinc plate
+* zinc
+* zinc plate
 * ,
 * (
 * )
@@ -496,14 +494,14 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * of
 * wrapping paper
 * Formica®
-* Print, a la poupée
+* print (à la poupée)
 * crayon / chalk
-* drawing (tecnical)
-* Airbrush
-* drawing (Architectural)
-* Blind stamping
+* drawing (technical)
+* airbrush
+* drawing (architectural)
+* blind stamping
 * digital print
-* Calligraphy
+* calligraphy
 * carborundum
 * ex libris
 * charcoal
@@ -519,13 +517,13 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * aquatint
 * lithograph
 * silkscreen
-* SANGUINE
+* sanguine
 * Papier-mâché
-* etching by sugar
+* sugar-lift etching
 * PLANTILLA DE PLÁSTICO
 * GRABADO AL AZÚCAR (UN COLOR)
 * GRABADO AL AZÚCAR (COLORES)
-* APAREJO
+* preparatory ground
 * black paper
 * mounting board
 * white cardboard
@@ -536,7 +534,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * aquatint (sugar-lift)
 * aquatint (resin)
 * aquatint (asphaltum/tar)
-* aquatint (varnish )
+* aquatint (varnish)
 * aquatint (spit-bite)
 * chine collé
 * or
@@ -544,7 +542,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * template
 * plastic template
 * wood template
-* CDROM
+* CD-ROM
 * box
 * specimen
 * piece
@@ -568,11 +566,11 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * document
 * enhanced
 * revised
-* tabla
+* wood panel
 * coloured writing ink
 * stencil
 * intaglio with burin
-* Mezzotint
+* mezzotint
 * cardboard relief print
 * Rhodoïd™
 * digital print
@@ -581,10 +579,10 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * wrapping paper
 * blotting paper
 * newsprint
-* silk paper
-* Marble powder
+* tissue paper
+* marble powder
 * Braille text
-* Facsimile
+* facsimile
 * reproduction
 * replica
 * photography
@@ -597,40 +595,40 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * structure
 * frame
 * support
-* Patinated bronze
+* patinated bronze
 * patina
 * x-ray plate
-* Sanguine
-* Pressboard
+* sanguine
+* pressboard
 * chipboard
 * crayon
 * corrugated fiberboard
-* Wood (cedar)
-* Sheet metal
-* Black Sand
+* wood (cedar)
+* sheet metal
+* black sand
 * sculpture
 * metal structure
 * mounted on
-* Terracotta
-* Light box
-* Soil
-* Polyester
-* Graphite pencil
+* terracotta
+* light box
+* soil
+* polyester
+* graphite pencil
 * wax crayon
 * rabbit-skin glue
 * chocolate
 * bottle
 * felt
-* Linen cloth
-* Text
-* ***Katalog-Kassette
-* ***Kassette
-* Woodbox
-* Film
+* linen cloth
+* text
+* catalogue slipcase
+* slipcase
+* wooden box
+* film
 * sledge
 * belt
 * grease
-* Flashlight
+* flashlight
 * magnetic tape
 * album
 * LP box
@@ -643,13 +641,13 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * stamped
 * sewn
 * cassette recorder
-* adhesive tape
+* sticking plaster
 * fishbone
 * parchment paper
 * stationery
 * label
 * wooden broom
-* silver plate
+* silver foil
 * gauze
 * sulphur
 * zinc cliché
@@ -703,11 +701,15 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * background
 * gel pen
 * charcoal pencil
-* Varnish
+* varnish
+* granolith
+* drypoint in colors
+* pochoir colouring
+* Plaster
 </div>
 
 == Countries ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Sources''' ([[Field reference/Sources#Source|Source]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Components|Components]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Components of a template|Components of a template]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Addresses|Directory Addresses]]); '''Sources''' ([[Field reference/Sources#Source|Source]]).
 
 265 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -729,7 +731,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Aruba
 * Åland Islands
 * Azerbaijan
-* Bosnia And Herzegovina
+* Bosnia and Herzegovina
 * Barbados
 * Bangladesh
 * Belgium
@@ -752,12 +754,12 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Belize
 * Canada
 * Cocos (Keeling) Islands
-* Congo, The Democratic Republic
+* Congo, the Democratic Republic of the
 * European Community
 * Central African Republic
 * Congo
 * Switzerland
-* Cote D'ivoire
+* Côte d'Ivoire
 * Cook Islands
 * Chile
 * Cameroon
@@ -791,7 +793,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Finland
 * Fiji
 * Falkland Islands (Malvinas)
-* Micronesia, Federated States O
+* Micronesia, Federated States of
 * Faroe Islands
 * France
 * Metropolitan France
@@ -800,7 +802,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Grenada
 * Georgia
 * French Guiana
-* Guernesey
+* Guernsey
 * Ghana
 * Gibraltar
 * Greenland
@@ -809,13 +811,13 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Guadeloupe
 * Equatorial Guinea
 * Greece
-* South Georgia And The South Sa
+* South Georgia and the South Sandwich Islands
 * Guatemala
 * Guam
 * Guinea-Bissau
 * Guyana
 * Hong Kong
-* Heard Island And Mcdonald Isla
+* Heard Island and McDonald Islands
 * Honduras
 * Croatia
 * Haiti
@@ -824,11 +826,11 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Indonesia
 * Ireland
 * Israel
-* Isla De Man
+* Isle of Man
 * India
 * British Indian Ocean Territory
 * Iraq
-* Iran, Islamic Republic Of
+* Iran, Islamic Republic of
 * Iceland
 * Italy
 * Jersey
@@ -840,13 +842,13 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Cambodia
 * Kiribati
 * Comoros
-* Saint Kitts And Nevis
-* Korea, Democratic People's Rep
-* Korea, Republic Of
+* Saint Kitts and Nevis
+* Korea, Democratic People's Republic of
+* Korea, Republic of
 * Kuwait
 * Cayman Islands
-* Kazakstan
-* Lao People's Democratic Republ
+* Kazakhstan
+* Lao People's Democratic Republic
 * Lebanon
 * Saint Lucia
 * Liechtenstein
@@ -864,7 +866,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Saint-Martin (French)
 * Madagascar
 * Marshall Islands
-* Macedonia, The Former Yugoslav
+* Macedonia, the former Yugoslav Republic of
 * Mali
 * Myanmar
 * Mongolia
@@ -901,15 +903,15 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Philippines
 * Pakistan
 * Poland
-* Saint Pierre And Miquelon
+* Saint Pierre and Miquelon
 * Pitcairn
 * Puerto Rico
-* Palestinian Territory, Occupie
+* Palestinian Territory, Occupied
 * Portugal
 * Palau
 * Paraguay
 * Qatar
-* Reunion
+* Réunion
 * Romania
 * Serbia
 * Russian Federation
@@ -922,7 +924,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Singapore
 * Saint Helena
 * Slovenia
-* Svalbard And Jan Mayen
+* Svalbard and Jan Mayen
 * Slovakia
 * Sierra Leone
 * San Marino
@@ -930,14 +932,14 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Somalia
 * Suriname
 * South Sudan
-* Sao Tome And Principe
-* Urss - Soviet Union
+* São Tomé and Príncipe
+* Soviet Union (USSR)
 * El Salvador
 * Saint Martin (Dutch)
 * Syrian Arab Republic
 * Swaziland
 * Tristan da Cunha
-* Turks And Caicos Islands
+* Turks and Caicos Islands
 * Chad
 * French Southern Territories
 * Togo
@@ -950,25 +952,25 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Tonga
 * East Timor
 * Turkey
-* Trinidad And Tobago
+* Trinidad and Tobago
 * Tuvalu
-* Taiwan, Province Of China
-* Tanzania, United Republic Of
+* Taiwan, Province of China
+* Tanzania, United Republic of
 * Ukraine
 * Uganda
 * United Kingdom
-* United States Minor Outlying I
+* United States Minor Outlying Islands
 * United States
 * Uruguay
 * Uzbekistan
 * Holy See (Vatican City State)
-* Saint Vincent And The Grenadin
+* Saint Vincent and the Grenadines
 * Venezuela
 * Virgin Islands, British
-* Virgin Islands, U.s.
+* Virgin Islands, U.S.
 * Viet Nam
 * Vanuatu
-* Wallis And Futuna
+* Wallis and Futuna
 * Samoa
 * Yemen
 * Mayotte
@@ -1050,7 +1052,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Probedruck
 * assai
 * BAT
-* bon a tire
+* bon à tirer
 * Gut zum Druck
 * bon a tirer
 * b.a.t.
@@ -1077,7 +1079,7 @@ Each link has a reverse wording, which the other artwork shows. The list contain
 * Künstlerhandabzug
 * state proof
 * printer proof
-* P.P
+* P.P.
 * PP
 * p.p.
 * pp
@@ -1100,7 +1102,7 @@ Editorial status for teams that track review steps. It does not show or hide any
 * Ready for publication
 * Approved for publication
 * NOT approved for publication
-* Requieres verification
+* Requires verification
 </div>
 
 == Event roles ==
@@ -1145,7 +1147,7 @@ The participating artists (Events Artists) and the participating directory entri
 * Group exhibition
 * Solo exhibition
 * Birth of child
-* Stroke
+* Stroke of fate
 * Award
 * Trip
 * Move / Migration
@@ -1220,13 +1222,23 @@ The participating artists (Events Artists) and the participating directory entri
 == Groupings ==
 '''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''All Grouping ID''.
 
-5 entries:
+6 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Suite
 * Folder
 * Installation
 * Group
 * Book
+* Series
+</div>
+
+== Image check levels ==
+'''Used in:''' [[Field reference/Artists#Main form|Artists → Main form]]: ''Duplicate check of images''.
+
+2 entries:
+<div style="column-width:15em; column-gap:2em;">
+* Standard
+* Fine
 </div>
 
 == Kinds of alternative names ==
@@ -1241,7 +1253,7 @@ The participating artists (Events Artists) and the participating directory entri
 </div>
 
 == Languages ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]], [[Field reference/Objects#Notes|Notes]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]); '''Sources''' ([[Field reference/Sources#Source|Source]], [[Field reference/Sources#Source description|Source description]], [[Field reference/Sources#Citations|Citations]], [[Field reference/Sources#Citation comment|Citation comment]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Titles|Titles]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]], [[Field reference/Artists#Biographies|Biographies]], [[Field reference/Artists#Tag labels|Tag labels]], [[Field reference/Artists#Selected Languages|Selected Languages]]); '''Publications''' ([[Field reference/Publications#Used languages|Used languages]]); '''Events''' ([[Field reference/Events#Event description|Event description]]); '''Dealers and offers''' ([[Field reference/Dealers and offers#Offer texts per language|Offer texts per language]]); '''Sources''' ([[Field reference/Sources#Source|Source]], [[Field reference/Sources#Source description|Source description]], [[Field reference/Sources#Citations|Citations]], [[Field reference/Sources#Citation comment|Citation comment]]).
 
 The list holds the languages of the world. Most language fields offer only the five system languages (German, English, French, Italian, Spanish); the languages a publication is written in, the language of a source and the language of a quote can be any language. The openCR interface itself is available in English, Spanish and German.
 
@@ -1314,7 +1326,7 @@ The list holds the languages of the world. Most language fields offer only the f
 * Modern Greek
 * Mossi
 * Nepali
-* Chewa o Nyanja
+* Chichewa or Nyanja
 * Oriya
 * Oromo
 * Panjabi
@@ -1407,10 +1419,10 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * fabric
 * wood
 * case
-* Envelope
+* envelope
 * cover
 * dust jacket
-* Album
+* album
 * poster
 * China paper
 * wood plate
@@ -1431,7 +1443,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 == Measurement types ==
 '''Used in:''' [[Field reference/Objects#Object Measurements|Objects → Object Measurements]]: ''unit''.
 
-21 entries:
+20 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Height
 * Width
@@ -1448,16 +1460,15 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Scale
 * Distance
 * Count
-* bit-depth
-* KBytes
-* MBytes
+* Bit depth
+* Kilobytes
+* Megabytes
 * Resolution
-* Scale
 * Material thickness
 </div>
 
 == Months ==
-'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Images|Images]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Relations|Directory Relations]]).
+'''Used in:''' '''Objects''' ([[Field reference/Objects#Main form|Main form]], [[Field reference/Objects#Images|Images]], [[Field reference/Objects#Objects provenance|Objects provenance]], [[Field reference/Objects#Objects transactions|Objects transactions]], [[Field reference/Objects#Objects Actions|Objects Actions]]); '''Artists''' ([[Field reference/Artists#Main form|Main form]]); '''Publications''' ([[Field reference/Publications#Main form|Main form]]); '''Events''' ([[Field reference/Events#Locations|Locations]]); '''Directory''' ([[Field reference/Directory#Directory Addresses|Directory Addresses]], [[Field reference/Directory#Directory Relations|Directory Relations]]); '''Sources''' ([[Field reference/Sources#Source|Source]]).
 
 12 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -1483,7 +1494,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Painting
 * Print
 * Sculpture
-* Sketch
+* Drawing
 * Multimedia
 * Photography
 * Audio
@@ -1513,7 +1524,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * good
 * fair
 * poor
-* Very poor
+* very poor
 </div>
 
 == Object types ==
@@ -1545,7 +1556,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Poster
 * Draft
 * Monotype
-* Colour Drawing
+* Colour drawing
 </div>
 
 == Positions on the work ==
@@ -1575,15 +1586,15 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * right border
 * upper border
 * lower border
-* Front lower left corner
-* Front lower right corner
-* Front upper left corner
-* Front upper right corner
+* front lower left corner
+* front lower right corner
+* front upper left corner
+* front upper right corner
 * verso lower left corner
 * verso lower right corner
 * verso upper left corner
 * verso upper right corner
-* Front
+* front
 * verso
 * bottom
 * top
@@ -1591,9 +1602,9 @@ Each locator has an abbreviation per language, which is put in front of the valu
 </div>
 
 == Print papers ==
-'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Print PaperID''; [[Field reference/Objects#Components|Objects → Components]]: ''Type paper''; [[Field reference/Objects#Editions|Objects → Editions]]: ''Paper''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Print Paper ID''.
+'''Used in:''' [[Field reference/Objects#Main form|Objects → Main form]]: ''Print PaperID''; [[Field reference/Objects#Components|Objects → Components]]: ''Type paper''; [[Field reference/Objects#Editions|Objects → Editions]]: ''Paper''; [[Field reference/Artists#Object Templates|Artists → Object Templates]]: ''Print Paper ID''; [[Field reference/Artists#Components of a template|Artists → Components of a template]]: ''Component Paper Type ID''.
 
-119 entries:
+116 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Arches
 * BFK Rives
@@ -1669,7 +1680,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Kraft
 * Vélin Chiffon
 * Lana
-* Holanda Van Gelder
+* Papier de Hollande / van Gelder
 * Vitela
 * Ile de France
 * Montval
@@ -1681,15 +1692,12 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Ingres
 * Chine
 * Van Gelder Zonen
-* Hollande
 * Vélin Bouffant
 * Vergé d'Arches
-* Nontvale
 * Turner
 * Mandeure
 * Japan Imperial
 * pergamino
-* Montval
 * Roy Louis
 * Japan "Misumi"
 * Sirène
@@ -1697,11 +1705,10 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Hosho
 * Piera
 * Japan "Bun Koshi"
-* estrassa
+* estraza / estrassa
 * Manila
 * Iris de Larroque
 * Molivell Guarro
-* Auverge Richard-de-Bas
 * Japan "Hodomura"
 * Vitela de Arches
 * Offset
@@ -1714,6 +1721,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Lucisioni
 * Connoisseur
 * Epson
+* Vitela de Montval
 </div>
 
 == Publication parts ==
@@ -1749,7 +1757,7 @@ Each locator has an abbreviation per language, which is put in front of the valu
 </div>
 
 == Publication types ==
-'''Used in:''' [[Field reference/Publications#Main form|Publications → Main form]]: ''ID Publication type''.
+'''Used in:''' [[Field reference/Publications#Main form|Publications → Main form]]: ''Type of publication''.
 
 23 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -1766,14 +1774,14 @@ Each locator has an abbreviation per language, which is put in front of the valu
 * Flyer
 * Article in book
 * Conference proceedings
-* book of arrivals
+* Entry register
 * Inventory catalogue
-* book series
+* Book series
 * Catalogue
 * Article in catalogue
 * Magazine
 * Supplement
-* Conference Paper
+* Conference paper
 * Thesis
 * Press release
 </div>
@@ -1821,25 +1829,26 @@ Date fields offer only the date qualifiers: approximate, exact, estimate, minimu
 
 The offer form offers four of these kinds: the artwork itself (Object), its print and sculpture editions, and its parts.
 
-21 entries:
+22 entries:
 <div style="column-width:15em; column-gap:2em;">
 * Artist alias
 * Artist
 * Directory address
 * Directory
 * Directory relation
+* Event exhibited object
 * Event
 * Image
 * Object agent
-* Object Attribution
+* Object attribution
 * Object
 * Object measurement
-* ObjectPart
+* Object part
 * Print Edition
-* PhotoEdition
+* Photo Edition
 * Object provenance
-* Object Repository
-* SculptureEdition
+* Object repository
+* Sculpture Edition
 * Object title
 * Object transaction
 * Publication
@@ -1884,7 +1893,7 @@ Each type has its own roles and decides which fields the source form shows; see 
 </div>
 
 == Tag types ==
-'''Used in:''' [[Field reference/Artists#Tags|Artists → Tags]]: ''Tag Type ID''.
+'''Used in:''' [[Field reference/Objects#Object tags|Objects → Object tags]]: ''Tag type''; [[Field reference/Artists#Tags|Artists → Tags]]: ''Tag Type ID''.
 
 5 entries:
 <div style="column-width:15em; column-gap:2em;">
@@ -1922,8 +1931,8 @@ Each type has its own roles and decides which fields the source form shows; see 
 * private sale
 * auction (floor)
 * auction (internet)
-* Gallery sale
-* Sale by publisher
+* gallery sale
+* sale by publisher
 </div>
 
 == Units ==
@@ -1933,7 +1942,7 @@ Each type has its own roles and decides which fields the source form shows; see 
 <div style="column-width:15em; column-gap:2em;">
 * unit
 * kg
-* gr
+* g
 * cm
 * inch
 * m

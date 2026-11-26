@@ -183,7 +183,7 @@ The table lists, for each kind of record, the links it holds to other kinds and 
 {| class="wikitable"
 ! To !! Section !! Meaning
 |-
-| [[Artists]] || ''Featured artists'' || The artists the publication is about, and whether it is in their bibliography
+| [[Artists]] || ''Related artists'' || The artists the publication is about; this is what puts it into their bibliography
 |-
 | Artists || ''Publications Artist References'' (separate form) || Page ranges per artist
 |-
