@@ -12,10 +12,10 @@ Esta página describe un orden de trabajo que evita esas interrupciones, dos man
 Algunas decisiones son difíciles de cambiar cuando ya existen cientos de registros. Tómelas primero y déjelas por escrito para todos los que trabajan en el catálogo.
 
 <!--T:4-->
-* '''Numeración.''' Cada obra tiene un campo ''Referencia interna'', que suele usarse para el número del catálogo razonado. Se puede buscar por él y se muestra de forma destacada. Elija un sistema de numeración estable antes de introducir la primera obra.
+* '''Numeración.''' Cada obra tiene un campo ''Referencia'', que suele usarse para el número del catálogo razonado. Se puede buscar por él y se muestra de forma destacada. Elija un sistema de numeración estable antes de introducir la primera obra.
 * '''Nombres cortos.''' Los artistas, las publicaciones, los eventos y las entradas del directorio tienen un ''Alias'': un nombre corto que aparece en las listas desplegables de todas partes. Acuerden un patrón coherente (por ejemplo ''Apellido, Nombre'' para personas y ''Autor Año'' para publicaciones), porque cambiarlo más tarde modifica todas las listas en las que aparece el registro.
-* '''Idiomas.''' Decida en qué idiomas se publicará el catálogo y quién redacta los textos en cada idioma. Registre la decisión en la sección ''Idiomas seleccionados'' del artista.
-* '''Fechas inciertas.''' Registre lo que se sabe y clasifíquelo (''aproximado'', ''antes de'', ''después de'' y similares) en lugar de dejar una fecha vacía. Los visitantes ven la clasificación; un campo vacío no les dice nada.
+* '''Idiomas.''' Decida en qué idiomas se publicará el catálogo y quién redacta los textos en cada idioma. Registre la decisión en la sección ''Artista - idiomas seleccionados'' del artista.
+* '''Fechas inciertas.''' Registre lo que se sabe y califíquelo (''aproximado'', ''antes de'', ''después de'' y similares) en lugar de dejar una fecha vacía. Los visitantes ven el calificador; un campo vacío no les dice nada.
 * '''Qué será público.''' Acuerde con el artista o con la sucesión qué tipos de información pueden publicarse, sobre todo los historiales de propiedad y las ventas.
 
 <!--T:5-->
@@ -23,7 +23,7 @@ Algunas decisiones son difíciles de cambiar cuando ya existen cientos de regist
 {| class="wikitable"
 ! Paso !! Qué introducir !! Por qué en este momento
 |-
-| 1 || '''El artista''': datos principales, biografías, idiomas seleccionados, marcadores de contenido, categorías, plantillas de obra || Todo lo demás pertenece al catálogo del artista; los marcadores, las categorías y las plantillas agilizan la introducción de las obras.
+| 1 || '''El artista''': datos principales, biografías, idiomas seleccionados, marcadores de contenido, categorías, plantillas || Todo lo demás pertenece al catálogo del artista; los marcadores, las categorías y las plantillas agilizan la introducción de las obras.
 |-
 | 2 || '''El directorio''': coleccionistas, galerías, museos, imprentas, editoriales, fotógrafos, autores || Las obras, las publicaciones y los eventos remiten a personas e instituciones.
 |-
@@ -42,13 +42,13 @@ El orden es una orientación, no una regla. En la práctica, el directorio crece
 <!--T:7-->
 === Introducir una obra ===
 Dentro de una obra, este orden funciona bien:
-# '''Datos principales:''' título (o desmarque ''Tiene Título'' en las obras sin título), ''Tipo de obra'', fecha de creación, ''Referencia interna''. Deje ''Publicable'' sin marcar.
-# '''Partes''', si la obra consta de varias partes. Otras secciones pueden referirse a una parte concreta, así que las partes deben existir primero.
-# '''Descripción física:''' ''Componentes'', ''Medidas objeto'', ''Atributos de obras'' (firmas e inscripciones).
-# '''Personas e historia:''' ''Partícipes'', ''Historial de propiedad'', ''Historial de ventas'', ''Objects Actions''.
+# '''Datos principales:''' título (o desmarque ''La obra tiene título'' en las obras sin título), ''Tipo de obra'', fecha de creación, ''Referencia''. Deje ''Público'' sin marcar, en el formulario de creación y en los datos principales.
+# '''Partes del objeto''', si la obra consta de varias partes. Otras secciones pueden referirse a una parte concreta, así que las partes deben existir primero.
+# '''Descripción física:''' ''Materiales & Técnicas'', ''Dimensiones'', ''Atributos'' (firmas e inscripciones).
+# '''Personas e historia:''' ''Partícipes'', ''Proveniencia'', ''Transacciones'', ''Fechas''.
 # '''Bibliografía y exposiciones:''' ''Referencias'', ''Exposiciones''.
-# '''Imágenes''', con una imagen marcada como imagen web principal.
-# '''Ediciones''' para la obra gráfica, '''Ediciones Escultura''' para las esculturas.
+# '''Imágenes''', con una imagen fijada como imagen principal web.
+# '''Ediciones''' para la obra gráfica, '''Ejemplares''' para las esculturas y los múltiples.
 
 <!--T:8-->
 == Dos maneras de abordar el material ==
@@ -73,11 +73,11 @@ La mayoría de los proyectos combinan ambas: empiezan por las imágenes para ten
 Todo lo que cree es un borrador mientras ''Publicable'' no esté marcado. Los borradores solo los ven los editores.
 
 <!--T:14-->
-# '''Introduzca''' el registro con ''Publicable'' sin marcar y complete sus secciones.
+# '''Introduzca''' el registro con ''Público'' sin marcar y complete sus secciones.
 # '''Revise''' el catálogo en el ''Menú PRO'', que muestra borradores y registros publicados uno junto a otro y permite saltar a la edición.
-# '''Compruebe antes de publicar una obra''' que tenga un título (o esté marcada como sin título), un ''Tipo de obra'' y una imagen web principal. Sin imagen principal, la obra aparece como una casilla vacía en las vistas de galería.
-# '''Compruebe las entradas delicadas''': los historiales de propiedad y las ventas solo deben ser públicos con el consentimiento de los propietarios. Use la casilla ''Publicable'' de la entrada concreta o los ajustes de privacidad de la entrada del directorio.
-# '''Publique''' marcando ''Publicable''.
+# '''Compruebe antes de publicar una obra''' que tenga un título (o esté marcada como sin título), un ''Tipo de obra'' y una imagen principal, que las listas y las galerías muestran como su miniatura.
+# '''Compruebe las entradas delicadas''': los historiales de propiedad y las ventas solo deben ser públicos con el consentimiento de los propietarios. Use la casilla ''Público'' de la entrada concreta o los ajustes de privacidad de la entrada del directorio.
+# '''Publique''' marcando ''Público''.
 
 <!--T:15-->
 == Corregir y borrar ==

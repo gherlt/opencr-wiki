@@ -239,7 +239,7 @@ The table lists, for each kind of record, the links it holds to other kinds and 
 |-
 | [[Events]] || ''Related events'' || The events in which the entry took part, with its role (the same link as the event's ''Related agents'')
 |-
-| [[Artists]] || (catalogue link) || Which artists' editors may edit the entry, and use it while it is not public; set with ''Easy directory creation'' or on the page ''Address Book''. Not a relationship.
+| [[Artists]] || (catalogue link) || Lets the editors of those artists edit the entry, and see and use it even while it is not public; set with ''Easy directory creation'' or on the page ''Address Book''. Not a relationship.
 |}
 The directory entry's page also lists the links other records hold to it: the artists' relations (''Relations with Artist''), its publications, its collection, the works it owns or owned, the works in which it was an agent, and the works whose marks name it.
 

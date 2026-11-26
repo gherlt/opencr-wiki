@@ -10,61 +10,71 @@ Esta página explica cómo se compone una obra y a qué hay que prestar atenció
 <!--T:3-->
 == Crear una obra ==
 Hay varias vías, y todas llevan al mismo tipo de registro:
-* '''Creación rápida de objeto''' en el ''Menú PRO'': la vía rápida para añadir una sola obra.
-* '''Añadir registro''' en el ''Menú PRO'': el formulario completo.
-* '''Carga masiva de nuevos objetos''': crea una obra por cada imagen subida, para una carpeta entera de una vez. Se elige el tipo de obra y un año de creación por defecto para todo el lote; el título, los materiales, las medidas y todo lo demás se añaden después, obra por obra.
+* '''Creación rápida de objeto''' en el ''Menú PRO'': la vía rápida para añadir una sola obra con su imagen.
+* '''Creación rápida de objeto – paso a paso''' en el ''Menú PRO'': lo mismo, en un formulario que recorre los datos de la obra paso a paso.
+* '''Carga masiva de nuevos objetos''', en ''Carga masiva'': crea una obra por cada imagen subida, para una carpeta entera de una vez. Una pantalla de valores por defecto se aplica a todo el lote; entre ellos están el tipo de obra, el año de creación, el título, la suite, una plantilla, los marcadores de contenido, las medidas, el fotógrafo y los ajustes de las imágenes, los atributos, hasta dos partícipes y una fuente que se cita en cada imagen subida. Todo lo demás se añade después, obra por obra.
+* '''Carga masiva con comprobación de duplicados''', también en ''Carga masiva'', sirve para un lote de obras distintas. Compara las fotos con las imágenes del catálogo del artista y entre sí. Una vez que ha decidido sobre los posibles duplicados, introduce cada foto restante como una obra propia, en la Creación rápida de objeto o en el formulario paso a paso.
+* '''Duplicar registro''', en la parte superior de la página de una obra en el ''Modo de edición'', abre en una pestaña nueva una página en la que usted marca qué secciones se copian en una obra nueva. El título y la referencia de la copia empiezan por «copy of».
 
 <!--T:4-->
-Sea cual sea la vía, una obra nueva empieza con ''Publicable'' sin marcar, así que sigue siendo un borrador hasta que la publique.
+La Creación rápida de objeto y el formulario paso a paso empiezan una obra nueva con ''Público'' sin marcar, así que sigue siendo un borrador hasta que la publique; abierta desde ''Carga masiva con comprobación de duplicados'', la Creación rápida de objeto toma en su lugar la ''Imagen Pública'' del lote. En una carga masiva, ''Objeto Público'' está marcado entre los valores por defecto salvo que usted lo desmarque; un registro duplicado conserva el ''Público'' del original.
 
 <!--T:5-->
-== El formulario principal ==
-El formulario principal contiene los datos básicos de la obra.
+== Los datos principales ==
+Los datos principales de la obra se editan en una ventana emergente: en el ''Modo de edición'', el lápiz delante del ID de la obra abre ''Datos principales de la obra''. Los campos se reparten en grupos; los grupos de los datos de impresión, del tiraje, de las esculturas y de la ubicación actual aparecen para los tipos de obra a los que se aplican, y para cualquier obra que ya tenga valores en ellos.
 
 <!--T:6-->
 === Identidad y título ===
-* '''Título''' es el título principal de la obra. En las obras sin título, desmarque '''Tiene Título''': el catálogo muestra entonces «Sin título». En ese caso deje ''Título'' vacío. Un título guardado ahí seguiría apareciendo en las búsquedas, lo que confunde a los usuarios.
-* '''Referencia interna''' suele ser el número del catálogo razonado. Se puede buscar por él y se muestra de forma destacada, así que use un mismo sistema en todo el catálogo (véase [[Building a catalogue raisonné/es#Antes de empezar: decisiones|Antes de empezar]]).
-* Los demás títulos, como los títulos traducidos o los usados en publicaciones concretas, van en la sección '''Títulos''', no en el título principal.
+* '''Título''' es el título principal de la obra. En una obra sin título, desmarque '''La obra tiene título''': el campo del título desaparece y el catálogo muestra «Sin título».
+* '''Referencia''' suele ser el número del catálogo razonado. Se puede buscar por ella y se muestra de forma destacada, así que use un mismo sistema en todo el catálogo (véase [[Building a catalogue raisonné/es#Antes de empezar: decisiones|Antes de empezar]]). Cuando otra obra del artista con el mismo tipo de obra tiene la misma referencia, la ventana emergente la indica y pregunta antes de guardar.
+* '''Público (se muestra en open.cr)''' publica la obra.
+* Los demás títulos, como los títulos traducidos o los usados en publicaciones concretas, van en la sección '''Otros títulos''', no en el título principal.
 
 <!--T:7-->
 === Clasificación ===
-* '''Tipo de obra''' indica qué clase de obra es: cuadro, obra gráfica, escultura, dibujo, fotografía, instalación, etc. Es obligatorio y determina qué campos específicos se aplican (véase más abajo).
-* '''Tipo de registro''' es ''datos principales'' para la obra misma. Elija ''datos corrección'' o ''datos suplementarios'' solo para un registro adicional que corrige o complementa una obra existente, y vincúlelo con esa obra mediante '''Objeto matriz'''. Esos registros nunca aparecen como obras propias.
+* '''Tipo de obra''' indica qué clase de obra es: cuadro, obra gráfica, escultura, dibujo, fotografía, instalación, etc. Es obligatorio y determina qué campos y secciones específicos se aplican (véase más abajo).
+* Los '''registros de corrección y suplementarios''' corrigen o complementan una obra existente. Se muestran debajo de la obra a la que pertenecen, cada uno con su propio lápiz para sus datos principales, y nunca aparecen como obras propias. Su tipo de registro y la obra a la que pertenecen no pueden fijarse en la ventana emergente; pídaselo al administrador de la plataforma.
+* '''Estado web''' y '''Estado impresión''', bajo ''Estado editorial'', registran lo avanzada que está la obra para el sitio web y para el catálogo impreso. Son notas para el equipo: no publican ni ocultan nada. Las dos listas de selección de la parte superior de la página también los cambian.
 * De dónde procede la información se registra con '''fuentes''', para la obra en su conjunto, para campos concretos y para cada medida. Véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:8-->
 === Fecha y lugar de creación ===
-* Introduzca lo que se sabe: '''Año Creación''' y, si se conocen, '''Mes Creación''' y '''Fecha Creación (Día)'''.
-* Para un periodo de varios años, el campo ''All Creation Year From'' contiene el primer año y ''Año Creación'' el último.
-* Clasifique las fechas inciertas (aproximado, antes de, después de, como muy pronto, etc.) en lugar de dejarlas vacías.
-* '''Lugar creación''' y el país registran dónde se hizo la obra.
+* Introduzca lo que se sabe: '''Año''' y, si se conocen, '''Mes''' y '''Día'''. Un mes necesita un año, y un día necesita un mes.
+* Para un periodo de varios años, '''Desde el año''' contiene el primer año y ''Año'' el último.
+* Califique las fechas inciertas con el '''Calificador''' (aproximado, antes de, después de, como muy pronto, como muy tarde, etc.) en lugar de dejarlas vacías.
+* '''Lugar''' y '''País''' registran dónde se hizo la obra.
 
 <!--T:9-->
 === Campos según el tipo ===
-Según el tipo de obra se aplican otros campos:
-* '''Obra gráfica:''' papel, filigrana, gramaje, número de planchas y de colores, y la tirada total (''Print Tirage'') con su clasificación.
-* '''Esculturas:''' material, material del modelo, si existe un modelo y si la obra es un múltiple.
-* '''Obras únicas:''' la ubicación actual y el estado de conservación.
+Según el tipo de obra, aparecen otros grupos:
+* '''Obra gráfica y libros:''' ''Datos de impresión'', con el papel, la marca de agua, el gramaje y el número de planchas y de colores, y ''Tiraje'', con la tirada y su calificador.
+* '''Esculturas y múltiples:''' ''Escultura y múltiple'', con si existe un modelo y si hay varios ejemplares, y ''Tiraje''.
+* '''Cuadros, dibujos, acuarelas, fotografías, esculturas, múltiples, instalaciones y algunos otros tipos:''' ''Ubicación actual'', con la ubicación, el país y el estado de conservación. El estado de conservación no se muestra en la página.
+Los monotipos, los carteles, las obras sobre papel, los bocetos, los dibujos en color y los textos no tienen ningún grupo de este tipo.
 
 <!--T:10-->
 === Observaciones ===
-Las notas no se introducen en un formulario. En la página de la obra, en modo de edición, el bloque '''Observaciones''' tiene un icono para añadir que abre la ventana de la nota; el lápiz y la papelera junto a una nota la modifican o la eliminan. Una nota tiene un '''Tipo''', es '''Público''' o no, y contiene un texto por idioma, cada uno con un título opcional. Las notas no públicas solo las ven los editores del catálogo. Las notas públicas aparecen en la página de la obra en el idioma del visitante; si una nota no tiene texto en ese idioma, se muestra una traducción automática. En modo de edición, cada nota muestra todos sus textos e indica si falta el texto en alemán, inglés o español, con un botón que prepara la traducción para revisarla. Cada edición de obra gráfica y cada edición de escultura tiene su propio bloque '''Observaciones'''.
+Las notas no se introducen en los datos principales. En la página de la obra, en modo de edición, el bloque '''Observaciones''' tiene un icono para añadir que abre la ventana de la nota; el lápiz y la papelera junto a una nota la modifican o la eliminan. ''Añadir nota'' detrás de un valor concreto añade una nota sobre ese valor. Una nota tiene un '''Tipo''', es '''Público''' o no, y contiene un texto por idioma, cada uno con un título opcional. Las notas no públicas solo las ven los editores del catálogo. Las notas públicas aparecen en la página de la obra en el idioma del visitante; si una nota no tiene texto en ese idioma, se muestra una traducción automática. En modo de edición, cada nota muestra todos sus textos e indica si falta el texto en alemán, inglés o español, con un botón que prepara la traducción para revisarla. Cada edición de obra gráfica y cada entrada de ''Ejemplares'' tiene su propio bloque '''Observaciones'''.
+
+<!--T:25-->
+== Secciones de la página de la obra ==
+En el ''Modo de edición'', el icono de más junto al encabezado de una sección abre una ventana emergente para una entrada nueva, el lápiz delante de una entrada la abre y la papelera detrás de ella la borra. La página se recarga después de guardar. Las excepciones son los marcadores de contenido (botones de colores, véase [[#Marcadores de contenido|más abajo]]), los ejemplares individuales (una página propia) y las imágenes (''Gestión imágenes'').
 
 <!--T:11-->
 == Describir la obra ==
-* '''Componentes''': de qué está hecha la obra, como óleo sobre lienzo o aguafuerte sobre papel. La lista de materiales es larga; escriba para buscar en ella.
-* '''Medidas objeto''': las dimensiones, con hasta tres valores (normalmente altura × anchura × profundidad), una unidad y una clasificación para cada valor. Añada una entrada por cada alcance medido, por ejemplo imagen, hoja y marco.
-* '''Atributos de obras''': cada marca de la obra: firmado, fechado, numerado, sellado, monogramado, con filigrana y muchas más. Cada entrada tiene una posición en la obra (anverso o reverso, en una cuadrícula de posiciones, esquinas y bordes) y la transcripción de lo que está escrito.
+* '''Materiales & Técnicas''': de qué está hecha la obra, como óleo sobre lienzo o aguafuerte sobre papel. La lista de materiales es larga; escriba para buscar en ella. Cada entrada tiene una posición que fija el orden, y puede tener una cantidad con su unidad, una marca comercial, el papel con su modelo y su gramaje, y el país de origen. ''Aplicar plantilla'' (solo para la obra en su conjunto) añade, detrás de las líneas existentes, las líneas de una plantilla para este tipo de obra, una general o una propia del artista (véase [[Artists/es#Plantillas|Plantillas]]).
+* '''Dimensiones''': una fila por cada parte medida, por ejemplo imagen, hoja y marco. Una fila tiene hasta tres valores (normalmente altura × anchura × profundidad), cada uno con su calificador, y una unidad para toda la fila: centímetros, salvo que elija otra.
+* '''Atributos''': cada marca de la obra: firmado, fechado, numerado, sellado, monogramado, con filigrana y muchas más. Cada entrada puede tener su ubicación en la obra, el texto que figura en la obra tal como está escrito y una entrada del [[Directory/es|directorio]], por ejemplo la persona nombrada en una dedicatoria; esa entrada nunca es el artista. Una entrada idéntica (mismo atributo, texto, ubicación y entrada del directorio) se rechaza.
 
 <!--T:12-->
 == Obras de varias partes, suites y ediciones ==
 Varias estructuras describen obras que constan de más de una pieza o que pertenecen a un conjunto. La página [[Relations/es|Relaciones]] las explica en detalle; en resumen:
-* '''Partes''': una obra hecha de varias piezas, como un tríptico. Cree las partes '''primero''': así otras secciones (imágenes, medidas, atributos, observaciones y más) pueden referirse a una parte concreta.
-* '''Suites''': obras catalogadas por separado que forman una serie, como una carpeta de estampas. La suite misma es un registro con '''Es una Suite (S/N) ?''' marcado; cada obra que forma parte de ella remite a la suite (''ID Suite perteneciente'') y tiene su posición en la serie.
-* '''Ediciones''' (obra gráfica): una entrada por edición: la tirada normal, las pruebas de artista, las pruebas de estado, el ''bon à tirer'', etc., cada una con su número de ejemplares y su numeración.
-* '''Ediciones Escultura''': las fundiciones de una escultura.
-* '''Relac. con otros Objetos''': enlaces como ''es estudio preparatorio para'', ''es copia de'' o ''es una versión de''. Introduzca cada enlace una sola vez; la dirección inversa se muestra automáticamente.
+* '''Partes del objeto''': una obra hecha de varias piezas, como un tríptico. Cada parte tiene un nombre y sus propias secciones de materiales y técnicas, atributos, dimensiones y partícipes. Cree las partes '''primero''' y añada después esas entradas bajo la parte a la que pertenecen.
+* '''Suites''': obras catalogadas por separado que forman una serie, como una carpeta de estampas. En los datos principales, ''Grupo (suite)'' convierte el registro propio de la suite en la ''Cabecera de un grupo''; cada obra que forma parte de ella es un ''Miembro de un grupo'', con la ''Cabecera del grupo'' y su ''Posición'' en la serie.
+* '''Ediciones''' (obra gráfica): una entrada por edición: la tirada normal, las pruebas de artista, las pruebas de estado, el ''bon à tirer'', etc., cada una con su tipo, su número de ejemplares y su numeración. Cada edición tiene sus propias secciones de materiales y técnicas, atributos, dimensiones, partícipes, fechas y observaciones.
+* '''Ejemplares''': las fundiciones o copias de una escultura o de un múltiple, con las mismas secciones que una edición.
+* '''Ejemplares individuales''': ejemplares físicos concretos, como una fundición o una estampa, con su identificación, su inscripción y su poseedor. Se introducen en una página propia.
+* '''Obras relacionadas''': enlaces como ''es estudio preparatorio para'', ''es copia de'' o ''es una versión de''. Introduzca cada enlace una sola vez; la dirección inversa se muestra automáticamente, y la ventana emergente rechaza el mismo enlace una segunda vez. Solo pueden enlazarse obras del mismo artista.
 
 <!--T:13-->
 {| class="wikitable"
@@ -77,57 +87,57 @@ Varias estructuras describen obras que constan de más de una pieza o que perten
 
 <!--T:14-->
 == Personas e historia ==
-* '''Partícipes''': las personas e instituciones que intervienen en la obra: imprenta, editorial, fundición, fotógrafo, coautor y otros.
-* '''Historial de propiedad''': la sucesión de propietarios, una entrada por propietario con su periodo de propiedad. Use el campo de orden para mantener la secuencia correcta cuando las fechas están incompletas.
-* '''Historial de ventas''': ventas y subastas, con fecha, precio y moneda, estimaciones, número de lote, vendedor, comprador e intermediario. Los tipos disponibles son venta del artista, venta en exposición o feria, venta privada, subasta presencial o por internet, venta de galería y venta por el editor.
-* '''Objects Actions''': acontecimientos fechados de la vida de la obra: terminada, estampada, firmada, expuesta, restaurada, destruida y muchos más.
+* '''Partícipes''': las personas e instituciones que intervienen en la obra: imprenta, editorial, fundición, fotógrafo, coautor y otros. Una persona puede tener varias funciones, cada una de ellas una sola vez.
+* '''Proveniencia''': la sucesión de propietarios, una entrada por propietario con su periodo de propiedad. Use ''Posición'' para mantener la secuencia correcta cuando las fechas están incompletas.
+* '''Transacciones''': ventas y subastas, con el tipo de venta, la fecha, el precio y la moneda, el vendedor, el comprador y el intermediario, y el evento en el que tuvo lugar la venta, como una feria de arte; en las subastas, además, el número de lote, el precio de salida y las estimaciones. Los tipos disponibles son venta del artista, venta en exposición o feria, venta privada, subasta presencial o por internet, venta de galería y venta por el editor.
+* '''Fechas''': acontecimientos fechados de la vida de la obra: terminada, estampada, firmada, expuesta, restaurada, destruida y muchos más, cada uno con su fecha o periodo, quién intervino y el lugar.
 
 <!--T:15-->
-Cuando el propio artista fue el propietario o quien intervino, marque la casilla correspondiente en lugar de crear una entrada del directorio para el artista. Se llama ''Por el autor mismo'' o ''Author Itself'', según la sección. Si está marcada, el catálogo muestra al artista e ignora cualquier entrada del directorio elegida en esa misma entrada.
+Cuando el propio artista fue el propietario o quien intervino, elija al artista en lugar de una entrada del directorio: marque ''El artista («por el autor»)'' en ''Partícipes'' o ''Colección del propio artista'' en ''Proveniencia'', o elija ''El artista («por el autor»)'' en ''Quién'' en ''Fechas''. La búsqueda de una entrada del directorio desaparece entonces. Una venta no ofrece esta opción.
 
 <!--T:16-->
-Los historiales de propiedad y las ventas son delicados. Introdúzcalos con la casilla ''Publicable'' de la entrada sin marcar, y publíquelos solo con el consentimiento de los propietarios. Una entrada del directorio también puede ocultarse por completo de los historiales de propiedad o de las ventas (véase [[Directory/es|Directorio]]).
+Los historiales de propiedad y las ventas son delicados. Un propietario nuevo empieza con ''Mostrar en las páginas públicas'' marcado, y una venta nueva con ''Público'' marcado: desmárquelos y publíquelos solo con el consentimiento de los propietarios. Una entrada del directorio también puede ocultarse por completo de los historiales de propiedad o de las ventas (véase [[Directory/es|Directorio]]).
 
 <!--T:17-->
 == Bibliografía y exposiciones ==
-* '''Referencias''': cada publicación en la que se menciona o reproduce la obra, con página, número de ilustración y si la ilustración es en color. Elija siempre la publicación de la lista; use la referencia en texto libre solo cuando la publicación no pueda registrarse en openCR.
-* '''Exposiciones''': las exposiciones en las que se mostró la obra. Cada exposición es un [[Events/es|evento]]. La entrada también puede registrar el prestador y el título con el que se mostró la obra.
+* '''Referencias''': cada publicación en la que se menciona o reproduce la obra, con el número de la obra en ella, el volumen, la página, la referencia y la página de la ilustración, y si la ilustración es en color. Elija la publicación de la lista; una entrada necesita una publicación o una entrada del directorio. La misma entrada no puede hacerse dos veces, y una segunda entrada para la misma publicación pregunta antes de guardar.
+* '''Exposiciones''': las exposiciones en las que se mostró la obra. Cada exposición es un [[Events/es|evento]]; solo pueden elegirse eventos de un tipo que muestra obras. La entrada también puede registrar la referencia, como el número en el catálogo de la exposición, el título con el que se mostró la obra y el prestador.
 
 <!--T:18-->
-Ambas listas pueden rellenarse también desde el otro lado: desde la [[Publications/es|publicación]] o desde el [[Events/es|evento]].
+Ambas listas pueden rellenarse también desde el otro lado: desde la [[Publications/es|publicación]] (''Obras referenciadas'', también en bloque) o desde el [[Events/es|evento]] (''Objetos relacionados'').
 
 <!--T:19-->
 == Imágenes ==
-Suba las imágenes desde la obra o, para muchas obras a la vez, con ''Carga masiva de nuevos objetos''. Para cada imagen:
-* Marque '''exactamente una''' imagen por obra como '''Is Main Image Web''': será la miniatura en listas y galerías. Sin ninguna, la obra aparece como una casilla vacía; con varias, la miniatura se elige de forma imprevisible. El listado ''Objetos con varias o ninguna imagen principal'' de ''Mantenimiento de datos'' encuentra ambos casos.
-* '''Use For Web''' y '''Use For CR''' deciden por separado si la imagen aparece en el sitio web y en el catálogo razonado impreso.
-* Indique el '''Fotógrafo''', describa lo que muestra la imagen (anverso, reverso, detalle, firma) y use la casilla ''Publicable'' propia de la imagen.
-* Una imagen pertenece exactamente a una cosa: la obra entera, una de sus partes o una de sus ediciones.
+Suba las imágenes con ''Subir una imagen'' en la página de la obra, en el ''Modo de edición'', o, para muchas obras nuevas a la vez, con ''Carga masiva de nuevos objetos''. ''Gestión imágenes'' enumera las imágenes de la obra; allí, ''Editar registro'' abre la ventana emergente de una imagen. Para cada imagen:
+* '''Fijar como imagen principal web''' (solo imágenes públicas) la convierte en la única imagen principal de la obra, la miniatura en listas y galerías, y la pone en primer lugar. Cada obra debe tener '''exactamente una'''. El listado ''Objetos con varias o ninguna imagen principal'' de ''Mantenimiento de datos'' encuentra las obras entre cuyas imágenes no hay ninguna imagen principal, o hay varias.
+* '''Usar para web''' y '''Usar para CR''' marcan las imágenes destinadas al sitio web y al catálogo razonado impreso. Las miniaturas de los resultados de búsqueda proceden solo de imágenes con ''Usar para web'' marcado; la página de la obra muestra todas sus imágenes públicas.
+* Elija el fotógrafo en '''Fotógrafo (directorio)''' y marque ''Nombrar al fotógrafo bajo la imagen'' para mostrar el crédito. Describa lo que muestra la imagen (anverso, reverso, detalle, firma) y use la casilla ''Pública'' propia de la imagen.
+* Las imágenes se suben y se gestionan para la obra en su conjunto; un ejemplar individual también puede tener imágenes propias, en su página.
 * No cambie nunca a mano el nombre de un archivo de imagen, y elimine imágenes solo con las herramientas de imágenes. De lo contrario, el catálogo y los archivos guardados dejan de coincidir.
 
 <!--T:20-->
 == Marcadores de contenido ==
-'''Marcadores de Contenido''' asigna a la obra las palabras clave propias del artista (épocas, estilos, periodos, temas, lugares). Las palabras clave se definen una vez por artista, en la sección ''Tags'' del [[Artists/es|artista]].
+Los '''Marcadores de contenido''' asignan a la obra palabras clave (épocas, estilos, periodos, temas, lugares): los marcadores propios del artista y los generales. En el ''Modo de edición'', el icono de más abre una ventana emergente con los marcadores que la obra aún no tiene. Los marcadores que tiene la obra se muestran como botones verdes, y los demás marcadores del artista, como botones rojos; un clic en un botón quita o añade ese marcador. Los marcadores propios del artista se definen una vez por artista, en los ''Marcadores de contenido específicos del artista'' del [[Artists/es|artista]].
 
 <!--T:21-->
 == Antes de publicar ==
 Compruebe que la obra tiene:
-* un título, o ''Tiene Título'' desmarcado en una obra sin título;
+* un título, o ''La obra tiene título'' desmarcado en una obra sin título;
 * un ''Tipo de obra'';
-* exactamente una imagen web principal;
-* materiales, medidas y un año de creación, en la medida en que se conozcan;
+* exactamente una imagen principal;
+* materiales, dimensiones y un año de creación, en la medida en que se conozcan;
 * públicas solo las entradas de propiedad y de ventas que puedan serlo.
 
 <!--T:22-->
-El ''Menú PRO'' lleva a '''Mantenimiento de datos''', con listados que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, títulos o referencias duplicados y traducciones que faltan. El listado ''Objetos con varias o ninguna imagen principal'' (en ''Imágenes'') muestra las imágenes en cuestión con su tamaño en píxeles, y ''Hacer imagen principal'' bajo la imagen correcta corrige la obra en el acto. Los listados están agrupados por tema (''Obras'', ''Imágenes'', ''Publicaciones'', ''Eventos'', ''Fuentes y citas'', ''Otros''); haga clic en un encabezado para abrirlo. Después marque ''Publicable''.
+El ''Menú PRO'' lleva a '''Mantenimiento de datos''', con listados que detectan lagunas en todo el catálogo: por ejemplo obras sin imagen, sin título, sin dimensiones o sin año de creación, títulos o referencias duplicados y traducciones que faltan. El listado ''Objetos con varias o ninguna imagen principal'' (en ''Imágenes'') muestra las imágenes en cuestión con su tamaño en píxeles, y ''Hacer imagen principal'' bajo la imagen correcta corrige la obra en el acto. Los listados están agrupados por tema (''Obras'', ''Imágenes'', ''Publicaciones'', ''Eventos'', ''Fuentes y citas'', ''Otros''); haga clic en un encabezado para abrirlo. Después marque ''Público (se muestra en open.cr)'' en los datos principales.
 
 <!--T:23-->
 == Errores frecuentes ==
-* '''Otros títulos en el título principal.''' Mantenga limpio el título principal; las traducciones y las alternativas van en ''Títulos''.
-* '''Partes añadidas tarde.''' Si las partes se crean después de las imágenes y las medidas, hay que volver a abrir cada una de esas entradas para asignarla a su parte.
-* '''Relaciones en espejo.''' Una relación entre dos obras se introduce una vez, en una de ellas. Si se introduce también la inversa, aparece dos veces.
+* '''Otros títulos en el título principal.''' Mantenga limpio el título principal; las traducciones y las alternativas van en ''Otros títulos''.
+* '''Partes añadidas tarde.''' Las entradas no pueden trasladarse después a una parte. Si las partes se crean después de las dimensiones y los atributos, hay que volver a introducir esas entradas bajo cada parte y borrarlas de la obra.
+* '''Relaciones en espejo.''' Una relación entre dos obras se introduce una vez, en una de ellas; la ventana emergente rechaza la inversa.
 * '''Renumerar.''' Otros citan los números de catálogo y las posiciones en una suite. Fije el sistema pronto y evite renumerar más tarde.
-* '''Borrar en lugar de ocultar.''' Borrar una obra es definitivo. Si algo remite a ella, desmarque ''Publicable'' en su lugar.
+* '''Borrar en lugar de ocultar.''' Borrar una obra es definitivo. Si algo remite a ella, desmarque ''Público'' en su lugar.
 
 <!--T:24-->
 == Véase también ==

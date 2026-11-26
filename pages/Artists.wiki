@@ -77,7 +77,7 @@ Each alternative name has its own ''Public'' tick, which is ticked for a new nam
 * '''Collections''': the institutions that hold works by the artist appear on their directory entries, under ''Collection of objects''. They cannot be changed on the editing pages at present.
 
 <!--T:14-->
-To connect a person or an institution with the artist, use ''Artist - Relations with the directory''. Linking a directory entry to the artist's catalogue is something different: it lets the artist's editors edit the entry, and use it while it is not public (see [[Directory#Shared between catalogues|Directory]]). It says nothing about a relationship.
+To connect a person or an institution with the artist, use ''Artist - Relations with the directory''. Linking a directory entry to the artist's catalogue is something different: it lets the artist's editors edit the entry, and see and use it even while it is not public (see [[Directory#Shared between catalogues|Directory]]). It says nothing about a relationship.
 
 <!--T:27-->
 == Publications used as reference ==

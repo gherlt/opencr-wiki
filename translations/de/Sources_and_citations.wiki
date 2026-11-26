@@ -188,7 +188,7 @@ Besucher sehen eine Quellenangabe nur, wenn sowohl die Quellenangabe als auch ih
 <!--T:19-->
 == Das frühere Feld für die Datenquelle ==
 Bis Oktober 2026 hatten Werke und ihre Maße ein einziges Feld ''Art der Datenquelle'' mit der zugehörigen Quelle. Quellen und Quellenangaben haben es ersetzt. Seine Werte wurden zu Quellenangaben für den ganzen Datensatz:
-* eine Publikation (ein Werkverzeichnis, Literatur): eine Quelle der Art ''Publikation'', mit der ''Internen Referenz'' des Werks als ''Katalognummer'', wo das Werk eine hatte;
+* eine Publikation (ein Werkverzeichnis, Literatur): eine Quelle der Art ''Publikation'', mit der ''Referenz'' des Werks als ''Katalognummer'', wo das Werk eine hatte;
 * der Künstler, die Erben, ein Verlag oder ein Eigentümer: eine ''Persönliche Mitteilung'' mit dieser Person als ''Informant'';
 * eine Untersuchung des Objekts: eine ''Untersuchung des Objekts''.
 Wo die alten Daten keine Person nannten, ist der Informant oder Prüfer ''Unbekannt''. Wenn Sie wissen, wer es war, wenden Sie sich an den Plattform-Administrator, der die Quelle ergänzen kann.

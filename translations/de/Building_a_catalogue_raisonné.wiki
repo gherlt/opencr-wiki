@@ -12,9 +12,9 @@ Diese Seite beschreibt eine Arbeitsreihenfolge, die solche Unterbrechungen verme
 Einige Entscheidungen lassen sich kaum noch ändern, wenn Hunderte von Datensätzen existieren. Treffen Sie sie zuerst und halten Sie sie für alle schriftlich fest, die am Werkverzeichnis arbeiten.
 
 <!--T:4-->
-* '''Nummerierung.''' Jedes Werk hat ein Feld ''Interne Referenz'', das meist für die Werkverzeichnisnummer verwendet wird. Es ist durchsuchbar und wird gut sichtbar angezeigt. Wählen Sie ein stabiles Nummerierungsschema, bevor Sie das erste Werk erfassen.
+* '''Nummerierung.''' Jedes Werk hat ein Feld ''Referenz'', das meist für die Werkverzeichnisnummer verwendet wird. Es ist durchsuchbar und wird gut sichtbar angezeigt. Wählen Sie ein stabiles Nummerierungsschema, bevor Sie das erste Werk erfassen.
 * '''Kurznamen.''' Künstler, Publikationen, Ereignisse und Adressbucheinträge haben jeweils einen ''Alias'': einen Kurznamen, der überall in den Auswahllisten erscheint. Einigen Sie sich auf ein einheitliches Muster (zum Beispiel ''Nachname, Vorname'' für Personen und ''Autor Jahr'' für Publikationen), denn eine spätere Umbenennung ändert jede Liste, in der der Datensatz erscheint.
-* '''Sprachen.''' Legen Sie fest, in welchen Sprachen das Werkverzeichnis veröffentlicht wird und wer die Texte in jeder Sprache schreibt. Halten Sie die Entscheidung im Abschnitt ''Ausgewählte Sprachen'' des Künstlers fest.
+* '''Sprachen.''' Legen Sie fest, in welchen Sprachen das Werkverzeichnis veröffentlicht wird und wer die Texte in jeder Sprache schreibt. Halten Sie die Entscheidung beim Künstler in ''Künstler - ausgewählte Sprachen'' fest.
 * '''Unsichere Datierungen.''' Erfassen Sie, was bekannt ist, und klassifizieren Sie es (''geschätzt'', ''vor'', ''nach'' und Ähnliches), statt ein Datum leer zu lassen. Besucher sehen die Klassifikation; ein leeres Feld sagt ihnen nichts.
 * '''Was öffentlich wird.''' Vereinbaren Sie mit dem Künstler oder dem Nachlass, welche Arten von Informationen veröffentlicht werden dürfen, besonders Provenienzen und Verkäufe.
 
@@ -23,7 +23,7 @@ Einige Entscheidungen lassen sich kaum noch ändern, wenn Hunderte von Datensät
 {| class="wikitable"
 ! Schritt !! Was Sie erfassen !! Warum an dieser Stelle
 |-
-| 1 || '''Der Künstler''': Hauptdaten, Biographien, ausgewählte Sprachen, Tags, Kategorien, Objektvorlagen || Alles andere gehört zum Werkverzeichnis des Künstlers; Tags, Kategorien und Vorlagen beschleunigen die Erfassung der Werke.
+| 1 || '''Der Künstler''': Hauptdaten, Biographien, ausgewählte Sprachen, Tags, Kategorien, Vorlagen || Alles andere gehört zum Werkverzeichnis des Künstlers; Tags, Kategorien und Vorlagen beschleunigen die Erfassung der Werke.
 |-
 | 2 || '''Das Adressbuch''': Sammler, Galerien, Museen, Drucker, Verlage, Fotografen, Autoren || Werke, Publikationen und Ereignisse verweisen alle auf Personen und Institutionen.
 |-
@@ -42,13 +42,13 @@ Die Reihenfolge ist eine Orientierung, keine Regel. In der Praxis wächst das Ad
 <!--T:7-->
 === Ein Werk erfassen ===
 Innerhalb eines Werks hat sich diese Reihenfolge bewährt:
-# '''Hauptdaten:''' Titel (oder bei Werken ohne Titel den Haken bei ''Hat Titel'' entfernen), ''Objekttyp'', Entstehungsdatum, ''Interne Referenz''. Lassen Sie ''Veröffentlichbar'' leer.
-# '''Bestandteile''', wenn das Werk aus mehreren Teilen besteht. Andere Abschnitte können sich auf einen einzelnen Teil beziehen, daher müssen die Teile zuerst existieren.
-# '''Physische Beschreibung:''' ''Komponenten'', ''Objektmaße'', ''Werkeigenschaften'' (Signaturen und Inschriften).
-# '''Personen und Geschichte:''' ''Beteiligte'', ''Provenienz'', ''Transaktionen'', ''Objects Actions''.
+# '''Hauptdaten:''' Titel (oder bei Werken ohne Titel den Haken bei ''Das Werk hat einen Titel'' entfernen), ''Objekttyp'', Entstehungsdatum, ''Referenz''. Lassen Sie ''Öffentlich'' ohne Haken, im Erstellungsformular und in den Hauptdaten.
+# '''Bestandteile des Objektes''', wenn das Werk aus mehreren Teilen besteht. Andere Abschnitte können sich auf einen einzelnen Teil beziehen, daher müssen die Teile zuerst existieren.
+# '''Physische Beschreibung:''' ''Materialien & Techniken'', ''Maße'', ''Attribute'' (Signaturen und Inschriften).
+# '''Personen und Geschichte:''' ''Beteiligte'', ''Provenienz'', ''Transaktionen'', ''Daten/Dauer''.
 # '''Literatur und Ausstellungen:''' ''Referenzen'', ''Ausstellungen''.
-# '''Abbildungen''', davon eine als Hauptbild für das Web markiert.
-# '''Auflagen''' bei Grafiken, '''Auflagen Skulptur''' bei Skulpturen.
+# '''Abbildungen''', davon eine als Hauptbild für das Web festgelegt.
+# '''Auflagen''' bei Grafiken, '''Exemplare''' bei Skulpturen und Multiples.
 
 <!--T:8-->
 == Zwei Herangehensweisen an das Material ==
@@ -73,11 +73,11 @@ Die meisten Projekte verbinden beides: Sie beginnen mit den Abbildungen, um eine
 Alles, was Sie anlegen, ist ein Entwurf, solange ''Veröffentlichbar'' nicht angehakt ist. Entwürfe sehen nur die Bearbeiter.
 
 <!--T:14-->
-# '''Erfassen''' Sie den Datensatz, ohne ''Veröffentlichbar'' anzuhaken, und vervollständigen Sie seine Abschnitte.
+# '''Erfassen''' Sie den Datensatz, ohne ''Öffentlich'' anzuhaken, und vervollständigen Sie seine Abschnitte.
 # '''Prüfen''' Sie das Werkverzeichnis im ''PRO-Menü'', das Entwürfe und veröffentlichte Datensätze nebeneinander zeigt und direkt zum Bearbeiten springen lässt.
-# '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), einen ''Objekttyp'' und ein Hauptbild für das Web. Ohne Hauptbild erscheint das Werk in den Galerieansichten als leere Kachel.
-# '''Heikle Einträge prüfen''': Provenienzen und Verkäufe sollten nur mit Zustimmung der Eigentümer öffentlich sein. Verwenden Sie den Haken ''Veröffentlichbar'' des einzelnen Eintrags oder die Datenschutzeinstellungen des Adressbucheintrags.
-# '''Veröffentlichen''' Sie, indem Sie ''Veröffentlichbar'' anhaken.
+# '''Vor dem Veröffentlichen eines Werks prüfen''', ob es einen Titel hat (oder als ohne Titel markiert ist), einen ''Objekttyp'' und ein Hauptbild, das Listen und Galerien als sein Vorschaubild zeigen.
+# '''Heikle Einträge prüfen''': Provenienzen und Verkäufe sollten nur mit Zustimmung der Eigentümer öffentlich sein. Verwenden Sie den Haken ''Öffentlich'' des einzelnen Eintrags oder die Datenschutzeinstellungen des Adressbucheintrags.
+# '''Veröffentlichen''' Sie, indem Sie ''Öffentlich'' anhaken.
 
 <!--T:15-->
 == Korrigieren und löschen ==

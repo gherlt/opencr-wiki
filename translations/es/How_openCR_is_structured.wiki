@@ -46,10 +46,10 @@ Dos tipos de registros auxiliares completan el cuadro:
 
 <!--T:9-->
 == Registros y sus secciones ==
-Cada registro tiene un '''formulario principal''' con sus datos básicos, y '''secciones''' para la información que puede aparecer más de una vez. Una obra, por ejemplo, puede tener varios títulos, varias medidas (imagen, hoja, marco) y un largo historial de propiedad; cada una de estas informaciones es una lista de entradas en su propia sección.
+Cada registro tiene '''datos principales''' con su información básica, y '''secciones''' para la información que puede aparecer más de una vez. Una obra, por ejemplo, puede tener varios títulos, varias medidas (imagen, hoja, marco) y un largo historial de propiedad; cada una de estas informaciones es una lista de entradas en su propia sección.
 
 <!--T:10-->
-Las obras son las que más secciones tienen, desde ''Títulos'' y ''Componentes'' hasta ''Historial de propiedad'', ''Exposiciones'' y ''Relac. con otros Objetos''. Los artistas, las publicaciones, los eventos y las entradas del directorio tienen las suyas.
+Las obras son las que más secciones tienen, desde ''Materiales & Técnicas'' y ''Dimensiones'' hasta ''Proveniencia'', ''Exposiciones'' y ''Obras relacionadas''. Los artistas, las publicaciones, los eventos y las entradas del directorio tienen las suyas.
 
 <!--T:11-->
 '''→ [[How openCR is structured/Records and their sections/es|Todas las secciones de cada entidad]]'''
@@ -73,10 +73,10 @@ Las publicaciones, los eventos y las entradas del directorio se enlazan entre s�
 Nada se publica por accidente. Varios ajustes deciden lo que ve un visitante:
 
 <!--T:16-->
-* '''Publicable''' en cada formulario principal: mientras no esté marcado, solo los editores ven el registro. Es el interruptor habitual entre borrador y publicado.
-* '''Publicable''' en muchas secciones: entradas concretas pueden quedar ocultas aunque el registro esté publicado. Una obra puede ser pública mientras una entrada de su historial de propiedad sigue siendo privada.
-* '''Ajustes de privacidad en el directorio''': una entrada del directorio puede ocultarse de las listas de colecciones, de los historiales de propiedad o de los registros de ventas, por separado, o limitarse al catálogo de un solo artista. Así un coleccionista puede aparecer en el catálogo sin que sus compras se hagan públicas.
-* '''Tipo de registro''' en las obras: los ''datos principales'' son las obras mismas. Los ''datos corrección'' y los ''datos suplementarios'' son registros adicionales vinculados a un registro principal (mediante ''Objeto matriz''); nunca aparecen como obras propias en listas e informes.
+* '''Público''' en los datos principales de cada registro: mientras no esté marcado, solo los editores ven el registro. Es el interruptor habitual entre borrador y publicado.
+* '''Público''' en muchas secciones: entradas concretas pueden quedar ocultas aunque el registro esté publicado. Una obra puede ser pública mientras una entrada de su historial de propiedad sigue siendo privada.
+* '''Ajustes de privacidad en el directorio''': tres ajustes separados de una entrada del directorio. ''Proveniencia: privada'' la muestra como «Colección privada» en los historiales de propiedad; ''Transacciones: privadas'' oculta su nombre en las ventas; ''Colección: privada'' oculta la lista de artistas que colecciona. Así un coleccionista puede aparecer en el catálogo sin que sus compras se hagan públicas.
+* '''Tipo de registro''' en las obras, que fija el administrador de la plataforma: los ''datos principales'' son las obras mismas. Los ''datos de corrección'' y los ''datos suplementarios'' son registros adicionales vinculados a un registro principal y mostrados debajo de él; nunca aparecen como obras propias en listas e informes.
 * '''Notas no públicas''': cada nota tiene su propia casilla '''Público'''. Una nota no pública solo la ven los editores del catálogo, aunque el registro sea público.
 
 <!--T:17-->
@@ -85,7 +85,7 @@ La interfaz de openCR está disponible en '''inglés''', '''español''' y '''ale
 
 <!--T:18-->
 * Los '''vocabularios''' se traducen una vez, de forma centralizada. Si falta una traducción, los visitantes ven el término inglés en lugar de un espacio vacío.
-* Los '''textos escritos por los editores''', como biografías, descripciones de eventos, otros títulos y observaciones publicadas, se introducen por separado para cada idioma. Una biografía que no se ha redactado en el idioma del visitante '''no''' se muestra en absoluto, así que decida pronto qué idiomas cubrirá cada catálogo. La sección ''Idiomas seleccionados'' del artista recoge esa decisión.
+* Los '''textos escritos por los editores''', como biografías, descripciones de eventos, otros títulos y observaciones publicadas, se introducen por separado para cada idioma. Una biografía que no se ha redactado en el idioma del visitante '''no''' se muestra en absoluto, así que decida pronto qué idiomas cubrirá cada catálogo. La sección ''Artista - idiomas seleccionados'' del artista recoge esa decisión.
 
 <!--T:19-->
 == Véase también ==

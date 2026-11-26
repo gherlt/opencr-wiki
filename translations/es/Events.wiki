@@ -9,75 +9,88 @@ Un evento se crea para un artista; otros artistas pueden participar en él. Esta
 
 <!--T:3-->
 == Antes de crear un evento ==
-* '''Busque primero.''' Puede que una exposición colectiva ya exista, introducida para otro artista participante. Añada su artista a ella en lugar de crear un segundo registro.
-* '''Sedes y personas''': las galerías, museos, comisarios, organizadores, patrocinadores y prestadores son entradas del [[Directory/es|directorio]]. Cree primero las que necesite.
-* '''Elija el nombre corto.''' El ''Alias'' identifica el evento allí donde puede elegirse, por ejemplo al introducir las exposiciones de una obra. Use un patrón coherente, como lugar y año.
+* '''Busque primero.''' Puede que una exposición colectiva ya exista, introducida para otro artista participante. En el sitio de edición usted solo ve los eventos de sus propios artistas, así que búsquela en open.cr o pregunte al administrador de la plataforma. Si existe, el administrador puede añadir a su artista en ''Artistas relacionados''; no cree un segundo registro.
+* '''Personas e instituciones''': los organizadores, comisarios, galerías, museos, patrocinadores y prestadores son entradas del [[Directory/es|directorio]]. En la ventana emergente de ''Partícipes relacionados'', el enlace ''Nueva entrada del directorio'' abre ''Creación rápida de directorio'' en una pestaña nueva para una entrada que falta; después, búsquela en la ventana emergente. Los prestadores deben existir en el directorio antes de poder elegirse. La sede de un lugar, en cambio, se escribe como texto.
+* '''Elija el nombre corto.''' El ''Alias'' identifica el evento allí donde puede elegirse, por ejemplo al introducir las exposiciones de una obra; la mayoría de las listas lo muestran con el tipo de evento y el año. Use un patrón coherente, como lugar y año.
+
+<!--T:17-->
+== Crear un evento ==
+'''Creación rápida de evento''', en el ''Menú PRO'', crea un evento para el artista en un solo formulario: el tipo de evento, el nombre, el alias, la referencia, una primera descripción (guardada en el idioma de la página), la relación del artista con el evento, un primer lugar con sus fechas y hasta dos partícipes con sus funciones, elegidos entre las entradas del directorio del catálogo del artista. El tipo, el alias y el año de inicio son obligatorios. El formulario no comprueba si otro evento ya tiene el alias: elija uno nuevo, o más tarde no podrán guardarse los datos principales. Su casilla ''Público'' está marcada por defecto; desmárquela mientras el registro esté incompleto. Todo lo demás se añade después en la página del evento, en el ''Modo de edición''.
 
 <!--T:4-->
-== El formulario principal ==
-El formulario principal es breve a propósito:
-* '''Tipificación Evento''': la clase de evento. Hay unas 60 clases, por ejemplo Exposición individual, Exposición colectiva, Exposición en feria, Premio, Beca, Homenaje, Encargo, Ponencia, Performance, Publicación, Nacimiento, Fallecimiento, Matrimonio, Viaje y Mudanza / Emigración. La clase determina qué otras secciones tienen sentido, como las obras expuestas en una exposición.
-* '''Nombre del evento''': el nombre del evento. Se usa siempre que no se ha introducido un nombre para el idioma del visitante (véase más abajo).
-* '''Alias''': el nombre corto.
-* '''Referencia''': una clave de cita o un código de referencia, si los usa.
-* '''Publicable''': publica el evento. Déjelo sin marcar hasta que el registro esté completo.
+== Los datos principales ==
+Los datos principales de un evento se editan en una ventana emergente: en el ''Modo de edición'', el lápiz delante del ID del evento abre ''Datos principales del evento''. La ventana es breve a propósito:
+* '''Público (se muestra en open.cr)''': publica el evento. Déjelo sin marcar hasta que el registro esté completo.
+* '''Tipo de evento''': hay unos 60 tipos, por ejemplo Exposición individual, Exposición colectiva, Exposición en feria, Premio, Beca, Homenaje, Encargo, Ponencia, Performance, Publicación, Nacimiento, Fallecimiento, Matrimonio, Viaje y Mudanza / Emigración. Es obligatorio. Solo pueden añadirse obras a los tipos de evento que pueden incluir obras: las exposiciones y ferias y también, por ejemplo, Premio, Venta, Encargo, Performance y Publicación; no, por ejemplo, Exposición (solo para biografía), Beca, Homenaje, Ponencia, Viaje, Nacimiento o Matrimonio (véase [[#Obras mostradas|más abajo]]).
+* '''Nombre del evento''': un solo nombre para todos los idiomas. Sin nombre, la página solo muestra el tipo de evento.
+* '''Alias''': el nombre corto (véase más arriba). Es obligatorio. Cuando otro evento ya tiene el mismo alias, la ventana emergente nombra ese evento y pide uno distinto.
+* '''Referencia''': una clave de cita o un código de referencia, si los usa. Solo se muestra en el ''Modo de edición'', debajo del alias.
+En el nacimiento, el fallecimiento, la fundación o la disolución de una entrada del [[Directory/es|directorio]], el tipo y el alias no pueden cambiarse.
+
+<!--T:18-->
+La papelera detrás de los datos principales borra el evento entero, con sus lugares, participantes, descripciones, notas y citas. Se rechaza mientras otros registros sigan remitiendo al evento: obras mostradas, publicaciones, imágenes, ventas, relaciones de artistas con el directorio o una fuente sobre el evento; elimine primero esos vínculos. Un evento compartido por artistas de varios catálogos, así como sus lugares, partícipes y publicaciones, solo puede borrarlo quien edita todos esos artistas, o el administrador de la plataforma.
 
 <!--T:5-->
-== Nombre y descripción en cada idioma ==
-'''Descripciones del Evento''' contiene el nombre y la descripción del evento, una entrada por idioma. Cuando existe una entrada para el idioma del visitante, su nombre sustituye al ''Nombre del evento'' del formulario principal. Así que, cuando corrija el nombre de un evento que tiene descripciones, corríjalo también en la descripción de cada idioma.
+== Descripción en cada idioma ==
+'''Descripción''' contiene un texto sobre el evento, uno por idioma del sitio web. Siempre es público. Los visitantes ven el texto en su idioma; si no lo hay, el texto en inglés o, en su defecto, el texto en otro idioma. En el ''Modo de edición'', el icono de más junto a ''Descripción'' añade un texto en un idioma que aún no tiene ninguno; el lápiz delante de un texto lo modifica y la papelera detrás de él lo borra. El nombre del evento no se traduce: el ''Nombre del evento'' de los datos principales se muestra en todos los idiomas.
 
 <!--T:6-->
 == Dónde y cuándo ==
-'''Localización''' registra dónde y cuándo tuvo lugar el evento: sede, ciudad y país, y las fechas de inicio y fin, cada una con una clasificación para fechas inciertas (aproximado, antes de, después de, etc.). Para eventos que se miden en horas, días o semanas y no en fechas del calendario, puede registrarse en su lugar una duración.
+'''Lugares y fechas''' registra dónde y cuándo tuvo lugar el evento: la sede, la ciudad y el país, y las fechas desde y hasta. Cada fecha tiene día, mes y año, y un calificador para las fechas inciertas (aproximado, antes de, etc.); deje vacíos el día y el mes cuando no se conozcan. Un lugar puede tener también una duración con su unidad de tiempo, por ejemplo para una performance; la página la muestra detrás de las fechas. Hay que rellenar al menos la sede, la ciudad, el país o el año inicial.
 
 <!--T:7-->
-Una exposición itinerante es '''un solo''' evento con varias localizaciones, una por sede y con sus propias fechas. No es un evento distinto por cada sede.
+Una exposición itinerante es '''un solo''' evento con varios lugares, uno por sede y con sus propias fechas. No es un evento distinto por cada sede.
 
 <!--T:8-->
 == Quién participó ==
 Dos secciones registran a los participantes, cada uno con su función:
-* '''Events Artists''': los artistas implicados, por ejemplo como artista que expone, artista invitado, partícipe, invitado, autor o coautor, o como receptor de un premio.
-* '''Events Agents''': las personas e instituciones implicadas, por ejemplo como organizador, comisario, galería que expone, patrocinador, mecenas, promotor o moderador. Cada una es una entrada del [[Directory/es|directorio]].
+* '''Artistas relacionados''': los artistas implicados y su relación con el evento, por ejemplo artista que expone, artista invitado, partícipe, invitado, autor o coautor, o receptor de un premio. La ventana emergente ofrece los artistas cuyos catálogos usted puede editar. Un artista puede tener varias relaciones con el mismo evento, cada una de ellas una sola vez.
+* '''Partícipes relacionados''': las personas e instituciones implicadas, por ejemplo como organizador, comisario, galería que expone, patrocinador, promotor o moderador. Cada una es una entrada del [[Directory/es|directorio]]: la ventana emergente busca en el directorio por cualquier parte del nombre, y su enlace ''Nueva entrada del directorio'' abre ''Creación rápida de directorio'' en una pestaña nueva. Una persona puede tener varias funciones en el mismo evento, cada función una vez para todo el evento y una vez por lugar. La vista pública enumera solo las entradas públicas del directorio.
 
 <!--T:9-->
-En una exposición itinerante, un participante puede limitarse a una sede, por ejemplo un comisario que solo trabajó en una etapa. Déjelo vacío en las funciones que se aplican a todo el evento.
+En una exposición itinerante, un partícipe puede limitarse a un lugar, por ejemplo un comisario que solo trabajó en una etapa: elija ese lugar en ''Lugar''. Deje ''Todo el evento'' en las funciones que se aplican a todo el evento. Cuando se borra un lugar, las funciones limitadas a él vuelven a aplicarse a todo el evento. Los artistas siempre están relacionados con todo el evento.
 
 <!--T:10-->
 == Obras mostradas ==
-'''Obras Expuestas''' enumera las obras mostradas en una exposición o una feria. Para cada obra puede registrar:
-* la '''Referencia''': el número de catálogo o de lote, o la etiqueta usada en la exposición;
-* el '''Prestador''': la entrada del [[Directory/es|directorio]] que prestó la obra;
-* el '''Título utilizado''', cuando la obra se mostró con otro título.
+'''Objetos relacionados''' enumera las obras mostradas en el evento, sobre todo en una exposición o una feria. Su icono de más solo aparece en los tipos de evento que pueden incluir obras (véase [[#Los datos principales|más arriba]]). Para cada obra puede registrar:
+* la '''Referencia''': por ejemplo el número de la obra en el catálogo de la exposición, o su número de lote;
+* el '''Título usado en la exposición''', cuando la obra se mostró con otro título;
+* el '''Prestador''': la entrada del [[Directory/es|directorio]] que prestó la obra.
 
 <!--T:11-->
-Es la misma lista que la sección ''Exposiciones'' de una [[Objects/es|obra]], vista desde el otro lado. Para registrar una exposición completa, lo más rápido es añadir aquí todas sus obras. Elegir una exposición como tipo de evento no añade ninguna obra por sí solo.
+Es la misma lista que la sección ''Exposiciones'' de una [[Objects/es|obra]], vista desde el otro lado. Para registrar una exposición completa, lo más rápido es añadir aquí sus obras: la ventana emergente busca entre las obras del artista por número de catálogo, título o ID, y cuando usted elige la propia suite, una casilla añade también las obras de la suite que aún no figuran, con el mismo prestador; su referencia y su título quedan vacíos. Una obra solo puede figurar una vez por evento. Solo pueden añadirse obras de los artistas que figuran en ''Artistas relacionados'' y cuyos catálogos usted puede editar. Elegir una exposición como tipo de evento no añade ninguna obra por sí solo.
 
 <!--T:12-->
 == Publicaciones ==
-'''Publicaciones relacionadas''' enumera las publicaciones que documentan el evento, sobre todo su catálogo de exposición, y también reseñas y artículos. Es el mismo enlace que ''Eventos relacionados'' en la [[Publications/es|publicación]].
+'''Publicaciones relacionadas''' enumera las publicaciones que documentan el evento, sobre todo su catálogo de exposición, y también reseñas y artículos, con página, ilustración y referencia cuando resulte útil. La ventana emergente busca las publicaciones por título, alias, abreviatura, año o ID, primero las de los artistas del evento. Solo ofrece publicaciones ya vinculadas a sus artistas; si falta el catálogo, vincúlelo primero a su artista. Es el mismo enlace que ''Eventos relacionados'' en la [[Publications/es|publicación]]; el comentario de una entrada solo se muestra en la página de la publicación.
 
 <!--T:13-->
-== Imágenes y archivos ==
-Las imágenes del evento, como vistas de la instalación, invitaciones o carteles, se suben con la carga de imágenes y pertenecen al evento.
+== Imágenes ==
+Las imágenes del evento, como vistas de la instalación, invitaciones o carteles, pertenecen al evento. En el ''Modo de edición'', el icono de más junto a ''Imágenes del evento'' abre la carga de imágenes en una pestaña nueva; el lápiz bajo una imagen abre una ventana emergente para su casilla ''Pública'', su descripción en cada idioma, su fotógrafo y ''Fijar como imagen principal web'', que elige la imagen que se muestra cuando se comparte el evento. Las imágenes de un evento compartido por varios artistas las modifica o borra el administrador de la plataforma.
+
+<!--T:19-->
+== Fuentes y notas ==
+Los bloques ''Fuentes'' y ''Notas'' de la página del evento registran de dónde procede la información y cualquier observación sobre el evento. El nombre, el tipo de evento y cada obra mostrada también pueden citarse uno por uno. Véase [[Sources and citations/es|Fuentes y citas]].
 
 <!--T:14-->
 == Antes de publicar ==
-* Están registrados el tipo, el nombre y al menos una localización con fechas.
-* En las exposiciones: los artistas participantes y, en la medida en que se conozcan, las obras expuestas.
-* Existen nombres y descripciones en los idiomas en que se publica el catálogo.
+* Están registrados el tipo, el nombre, el alias y al menos un lugar con fechas.
+* En las exposiciones: los artistas participantes y, en la medida en que se conozcan, las obras mostradas.
+* Existe una descripción en los idiomas en que se publica el catálogo.
 * Los participantes que no deben aparecer públicamente están ocultos en sus entradas del [[Directory/es|directorio]].
-Después marque ''Publicable''.
+Después marque ''Público (se muestra en open.cr)'' en los datos principales.
 
 <!--T:15-->
 == Errores frecuentes ==
-* '''Un registro por sede.''' Una gira es un solo evento con varias localizaciones.
-* '''Exposiciones colectivas duplicadas.''' Busque antes de crear; puede que la exposición exista para otro artista.
-* '''Nombre corregido en un solo sitio.''' El nombre de ''Descripciones del Evento'' sustituye al ''Nombre del evento'' principal en ese idioma.
-* '''Exposición sin obras.''' Las obras expuestas hay que añadirlas; no se añade nada automáticamente.
+* '''Un registro por sede.''' Una gira es un solo evento con varios lugares.
+* '''Exposiciones colectivas duplicadas.''' Antes de crearla, compruebe en open.cr o con el administrador de la plataforma si la exposición ya existe para otro artista.
+* '''Falta el artista.''' Las obras de un artista solo pueden añadirse después de que el artista figure en ''Artistas relacionados''.
+* '''Exposición sin obras.''' Las obras mostradas hay que añadirlas; no se añade nada automáticamente.
 
 <!--T:16-->
 == Véase también ==
 * [[Objects/es#Bibliografía y exposiciones|Exposiciones de una obra]]
 * [[Publications/es|Publicaciones]]
 * [[Directory/es|Directorio]]
+* [[Sources and citations/es|Fuentes y citas]]
 * [[Field reference/es|Referencia de campos]]

@@ -46,10 +46,10 @@ Zwei Arten unterstützender Datensätze vervollständigen das Bild:
 
 <!--T:9-->
 == Datensätze und ihre Abschnitte ==
-Jeder Datensatz hat ein '''Hauptformular''' mit seinen Grunddaten und '''Abschnitte''' für Angaben, die mehr als einmal vorkommen können. Ein Werk kann zum Beispiel mehrere Titel, mehrere Maße (Bild, Blatt, Rahmen) und eine lange Provenienz haben; jede dieser Angaben ist eine Liste von Einträgen in einem eigenen Abschnitt.
+Jeder Datensatz hat '''Hauptdaten''' mit seinen grundlegenden Informationen und '''Abschnitte''' für Angaben, die mehr als einmal vorkommen können. Ein Werk kann zum Beispiel mehrere Titel, mehrere Maße (Bild, Blatt, Rahmen) und eine lange Provenienz haben; jede dieser Angaben ist eine Liste von Einträgen in einem eigenen Abschnitt.
 
 <!--T:10-->
-Werke haben die meisten Abschnitte, von ''Titel'' und ''Komponenten'' bis ''Provenienz'', ''Ausstellungen'' und ''Objektbeziehungen''. Künstler, Publikationen, Ereignisse und Adressbucheinträge haben jeweils ihre eigenen.
+Werke haben die meisten Abschnitte, von ''Materialien & Techniken'' und ''Maße'' bis ''Provenienz'', ''Ausstellungen'' und ''Verknüpfte Werke''. Künstler, Publikationen, Ereignisse und Adressbucheinträge haben jeweils ihre eigenen.
 
 <!--T:11-->
 '''→ [[How openCR is structured/Records and their sections/de|Alle Abschnitte jeder Entität]]'''
@@ -73,10 +73,10 @@ Publikationen, Ereignisse und Adressbucheinträge sind auf die gleiche Weise mit
 Nichts wird versehentlich veröffentlicht. Mehrere Einstellungen entscheiden, was Besucher sehen:
 
 <!--T:16-->
-* '''Veröffentlichbar''' in jedem Hauptformular: Solange es nicht angehakt ist, sehen nur die Bearbeiter den Datensatz. Das ist der alltägliche Schalter zwischen Entwurf und Veröffentlichung.
-* '''Veröffentlichbar''' in vielen Abschnitten: Einzelne Einträge können verborgen bleiben, während der Datensatz selbst veröffentlicht ist. Ein Werk kann öffentlich sein, während ein Eintrag seiner Provenienz privat bleibt.
-* '''Datenschutzeinstellungen im Adressbuch''': Ein Adressbucheintrag kann aus Sammlungslisten, aus Provenienzen oder aus Verkaufsdaten ausgeblendet werden, jeweils getrennt, oder auf das Werkverzeichnis eines einzigen Künstlers beschränkt werden. So kann ein Sammler im Werkverzeichnis erscheinen, ohne dass seine Käufe öffentlich werden.
-* '''Art des Datensatzes''' bei Werken: ''Hauptdaten'' sind die Werke selbst. ''Korrekturdaten'' und ''Ergänzungsdaten'' sind zusätzliche Datensätze, die einem Hauptdatensatz zugeordnet sind (über ''Übergeordnetes Objekt''); sie erscheinen in Listen und Berichten nie als eigene Werke.
+* '''Öffentlich''' in den Hauptdaten jedes Datensatzes: Solange es nicht angehakt ist, sehen nur die Bearbeiter den Datensatz. Das ist der alltägliche Schalter zwischen Entwurf und Veröffentlichung.
+* '''Öffentlich''' in vielen Abschnitten: Einzelne Einträge können verborgen bleiben, während der Datensatz selbst veröffentlicht ist. Ein Werk kann öffentlich sein, während ein Eintrag seiner Provenienz privat bleibt.
+* '''Datenschutzeinstellungen im Adressbuch''': drei getrennte Einstellungen eines Adressbucheintrags. ''Provenienz: privat'' zeigt ihn in Provenienzen als „Privatsammlung“; ''Transaktionen: privat'' verbirgt seinen Namen bei Verkäufen; ''Sammlung: privat'' verbirgt die Liste der Künstler, die er sammelt. So kann ein Sammler im Werkverzeichnis erscheinen, ohne dass seine Käufe öffentlich werden.
+* '''Art des Datensatzes''' bei Werken, vom Plattform-Administrator festgelegt: ''Hauptdaten'' sind die Werke selbst. ''Korrekturdaten'' und ''Ergänzungsdaten'' sind zusätzliche Datensätze, die einem Hauptdatensatz zugeordnet sind und unter ihm angezeigt werden; sie erscheinen in Listen und Berichten nie als eigene Werke.
 * '''Nicht öffentliche Notizen''': Jede Notiz hat ihren eigenen Schalter '''Öffentlich'''. Eine nicht öffentliche Notiz sehen nur die Bearbeiter des Werkverzeichnisses, auch bei einem öffentlichen Datensatz.
 
 <!--T:17-->
@@ -85,7 +85,7 @@ Die Oberfläche von openCR gibt es auf '''Englisch''', '''Spanisch''' und '''Deu
 
 <!--T:18-->
 * '''Vokabulare''' werden einmal zentral übersetzt. Fehlt eine Übersetzung, sehen Besucher den englischen Begriff statt einer leeren Stelle.
-* '''Von den Bearbeitern geschriebene Texte''', etwa Biographien, Beschreibungen von Ereignissen, weitere Titel und veröffentlichte Notizen, werden für jede Sprache getrennt erfasst. Eine Biographie, die nicht in der Sprache des Besuchers verfasst wurde, wird '''gar nicht''' angezeigt; legen Sie daher früh fest, welche Sprachen jedes Werkverzeichnis abdecken soll. Der Abschnitt ''Ausgewählte Sprachen'' des Künstlers hält diese Entscheidung fest.
+* '''Von den Bearbeitern geschriebene Texte''', etwa Biographien, Beschreibungen von Ereignissen, weitere Titel und veröffentlichte Notizen, werden für jede Sprache getrennt erfasst. Eine Biographie, die nicht in der Sprache des Besuchers verfasst wurde, wird '''gar nicht''' angezeigt; legen Sie daher früh fest, welche Sprachen jedes Werkverzeichnis abdecken soll. Der Abschnitt ''Künstler - ausgewählte Sprachen'' des Künstlers hält diese Entscheidung fest.
 
 <!--T:19-->
 == Siehe auch ==

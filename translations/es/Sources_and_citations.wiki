@@ -188,7 +188,7 @@ Los visitantes solo ven una cita cuando tanto la cita como su fuente son ''Públ
 <!--T:19-->
 == El antiguo campo de fuente de datos ==
 Hasta octubre de 2026, las obras y sus medidas tenían un único campo, ''Tipo de fuente de datos'', con la fuente correspondiente. Las fuentes y citas lo han sustituido. Sus valores se convirtieron en citas del registro completo:
-* una publicación (un catálogo razonado, bibliografía): una fuente del tipo ''Publicación'', con la ''Referencia interna'' de la obra como ''número de catálogo'' cuando la obra la tenía;
+* una publicación (un catálogo razonado, bibliografía): una fuente del tipo ''Publicación'', con la ''Referencia'' de la obra como ''número de catálogo'' cuando la obra la tenía;
 * el artista, los herederos, una editorial o un propietario: una ''Comunicación personal'' con esa persona como ''Informante'';
 * un examen físico: una ''Inspección física de la obra''.
 Cuando los datos antiguos no nombraban a ninguna persona, el informante o el examinador es ''Desconocido''. Si sabe quién fue, comuníqueselo al administrador de la plataforma, que puede completar la fuente.

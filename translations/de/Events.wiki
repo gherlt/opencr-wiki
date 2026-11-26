@@ -9,26 +9,34 @@ Ein Ereignis wird für einen Künstler angelegt; andere Künstler können daran 
 
 <!--T:3-->
 == Bevor Sie ein Ereignis anlegen ==
-* '''Zuerst suchen.''' Eine Gruppenausstellung existiert vielleicht schon, für einen anderen teilnehmenden Künstler erfasst. Fügen Sie Ihren Künstler hinzu, statt einen zweiten Datensatz anzulegen.
-* '''Orte und Personen''': Galerien, Museen, Kuratoren, Veranstalter, Sponsoren und Leihgeber sind [[Directory/de|Adressbucheinträge]]. Legen Sie die benötigten zuerst an.
-* '''Den Kurznamen wählen.''' Der ''Alias'' kennzeichnet das Ereignis überall, wo es gewählt werden kann, zum Beispiel beim Erfassen der Ausstellungen eines Werks. Verwenden Sie ein einheitliches Muster, etwa Ort und Jahr.
+* '''Zuerst suchen.''' Eine Gruppenausstellung existiert vielleicht schon, für einen anderen teilnehmenden Künstler erfasst. Auf der Website der Bearbeiter sehen Sie nur die Ereignisse Ihrer eigenen Künstler; suchen Sie daher auf open.cr danach oder fragen Sie den Plattform-Administrator. Existiert sie, kann der Administrator Ihren Künstler unter ''In Beziehung stehende Künstler'' hinzufügen; legen Sie keinen zweiten Datensatz an.
+* '''Personen und Institutionen''': Veranstalter, Kuratoren, Galerien, Museen, Sponsoren und Leihgeber sind [[Directory/de|Adressbucheinträge]]. Im Pop-up von ''In Beziehung stehende Agenten'' öffnet der Link ''Neuer Adressbucheintrag'' für einen fehlenden Eintrag ''Einfache Adressbuch-Erstellung'' in einem neuen Tab; suchen Sie ihn danach im Pop-up. Leihgeber müssen im Adressbuch existieren, bevor sie gewählt werden können. Der Veranstaltungsort eines Orts wird dagegen als Text eingegeben.
+* '''Den Kurznamen wählen.''' Der ''Alias'' kennzeichnet das Ereignis überall, wo es gewählt werden kann, zum Beispiel beim Erfassen der Ausstellungen eines Werks; die meisten Listen zeigen ihn mit der Art des Ereignisses und dem Jahr. Verwenden Sie ein einheitliches Muster, etwa Ort und Jahr.
+
+<!--T:17-->
+== Ein Ereignis anlegen ==
+'''Einfache Event-Erstellung''' im ''PRO-Menü'' legt in einem einzigen Formular ein Ereignis für den Künstler an: die Art des Ereignisses, den Namen, den Alias, die Referenz, eine erste Beschreibung (gespeichert in der Sprache der Seite), die Beziehung des Künstlers zum Ereignis, einen ersten Ort mit seinen Daten und bis zu zwei Beteiligte mit ihren Rollen, gewählt aus den Adressbucheinträgen des Werkverzeichnisses des Künstlers. Art, Alias und Anfangsjahr sind Pflicht. Das Formular prüft nicht, ob ein anderes Ereignis den Alias schon hat: Wählen Sie einen neuen, sonst lassen sich die Hauptdaten später nicht speichern. Sein Haken ''Öffentlich'' ist standardmäßig gesetzt; entfernen Sie ihn, solange der Datensatz unvollständig ist. Alles Weitere wird danach auf der Seite des Ereignisses im ''Bearbeitungsmodus'' ergänzt.
 
 <!--T:4-->
-== Das Hauptformular ==
-Das Hauptformular ist bewusst kurz:
-* '''Art des Events''': die Art des Ereignisses. Es gibt etwa 60 Arten, zum Beispiel Einzelausstellung, Gruppenausstellung, Ausstellung auf Messe, Preis, Stipendium, Ehrung, Auftrag, Vortrag/Vorlesung, Performance, Veröffentlichung, Geburt, Tod, Heirat, Reise und Umzug/Auswanderung. Die Art entscheidet, welche weiteren Abschnitte sinnvoll sind, etwa ausgestellte Werke bei einer Ausstellung.
-* '''Name des Events''': der Name des Ereignisses. Er wird immer dann verwendet, wenn für die Sprache des Besuchers kein Name erfasst ist (siehe unten).
-* '''Alias''': der Kurzname.
-* '''Referenz''': ein Zitierschlüssel oder Referenzcode, falls Sie einen verwenden.
-* '''Veröffentlichbar''': veröffentlicht das Ereignis. Lassen Sie es ohne Haken, bis der Datensatz vollständig ist.
+== Die Hauptdaten ==
+Die Hauptdaten eines Ereignisses werden in einem Pop-up bearbeitet: Im ''Bearbeitungsmodus'' öffnet der Stift vor der ID des Ereignisses ''Hauptdaten des Ereignisses''. Sie sind bewusst kurz:
+* '''Öffentlich (auf open.cr sichtbar)''': veröffentlicht das Ereignis. Lassen Sie es ohne Haken, bis der Datensatz vollständig ist.
+* '''Art der Veranstaltung''': Es gibt etwa 60 Arten, zum Beispiel Einzelausstellung, Gruppenausstellung, Ausstellung auf Messe, Preis, Stipendium, Ehrung, Auftrag, Vortrag/Vorlesung, Performance, Veröffentlichung, Geburt, Tod, Heirat, Reise und Umzug/Auswanderung. Das Feld ist Pflicht. Werke lassen sich nur bei Arten von Ereignissen hinzufügen, die Werke umfassen können: bei den Ausstellungen und Messen und zum Beispiel auch bei Preis, Verkauf, Auftrag, Performance und Veröffentlichung; nicht zum Beispiel bei Ausstellung (nur für Biographie), Stipendium, Ehrung, Vortrag/Vorlesung, Reise, Geburt oder Heirat (siehe [[#Gezeigte Werke|unten]]).
+* '''Name der Veranstaltung''': ein Name für alle Sprachen. Ohne Namen zeigt die Seite nur die Art des Ereignisses.
+* '''Alias''': der Kurzname (siehe oben). Er ist Pflicht. Hat ein anderes Ereignis bereits denselben Alias, nennt das Pop-up dieses Ereignis und verlangt einen anderen.
+* '''Referenz''': ein Zitierschlüssel oder Referenzcode, falls Sie einen verwenden. Sie wird nur im ''Bearbeitungsmodus'' angezeigt, unter dem Alias.
+Bei Geburt, Tod, Gründung oder Auflösung eines [[Directory/de|Adressbucheintrags]] lassen sich Art und Alias nicht ändern.
+
+<!--T:18-->
+Der Papierkorb hinter den Hauptdaten löscht das ganze Ereignis mit seinen Orten, Teilnehmern, Beschreibungen, Notizen und Quellenangaben. Das Löschen wird abgelehnt, solange andere Datensätze noch auf das Ereignis verweisen: gezeigte Werke, Publikationen, Abbildungen, Verkäufe, Beziehungen von Künstlern zum Adressbuch oder eine Quelle über das Ereignis; entfernen Sie diese Verknüpfungen zuerst. Ein Ereignis, das Künstler mehrerer Werkverzeichnisse teilen, sowie seine Orte, Beteiligten und Publikationen kann nur löschen, wer alle diese Künstler bearbeitet, oder der Plattform-Administrator.
 
 <!--T:5-->
-== Name und Beschreibung in jeder Sprache ==
-'''Beschreibung des Events''' enthält Name und Beschreibung des Ereignisses, ein Eintrag je Sprache. Gibt es einen solchen Eintrag für die Sprache des Besuchers, ersetzt sein Name den ''Name des Events'' aus dem Hauptformular. Wenn Sie also den Namen eines Ereignisses mit Beschreibungen korrigieren, korrigieren Sie ihn auch in der Beschreibung jeder Sprache.
+== Beschreibung in jeder Sprache ==
+'''Beschreibung''' enthält einen Text über das Ereignis, einen je Sprache der Website. Er ist immer öffentlich. Besucher sehen den Text in ihrer Sprache; gibt es keinen, den englischen Text oder sonst den Text in einer anderen Sprache. Im ''Bearbeitungsmodus'' fügt das Plus-Symbol neben ''Beschreibung'' einen Text in einer Sprache hinzu, die noch keinen hat; der Stift vor einem Text ändert ihn, und der Papierkorb dahinter löscht ihn. Der Name des Ereignisses wird nicht übersetzt: Der ''Name der Veranstaltung'' aus den Hauptdaten wird in jeder Sprache angezeigt.
 
 <!--T:6-->
 == Wo und wann ==
-'''Position''' hält fest, wo und wann das Ereignis stattfand: Veranstaltungsort, Stadt und Land sowie die Daten von und bis, jeweils mit einer Klassifikation für unsichere Datierungen (geschätzt, vor, nach usw.). Für Ereignisse, die in Stunden, Tagen oder Wochen statt in Kalenderdaten gemessen werden, kann stattdessen eine Dauer erfasst werden.
+'''Orte und Daten''' hält fest, wo und wann das Ereignis stattfand: Veranstaltungsort, Stadt und Land sowie die Daten von und bis. Jedes Datum hat Tag, Monat und Jahr und einen Zusatz für unsichere Datierungen (geschätzt, vor usw.); lassen Sie Tag und Monat leer, wenn sie nicht bekannt sind. Ein Ort kann auch eine Dauer mit ihrer Zeiteinheit haben, zum Beispiel bei einer Performance; die Seite zeigt sie nach den Daten. Mindestens Veranstaltungsort, Stadt, Land oder Anfangsjahr müssen ausgefüllt sein.
 
 <!--T:7-->
 Eine Wanderausstellung ist '''ein''' Ereignis mit mehreren Orten, einem je Station und mit eigenen Daten. Sie ist nicht ein eigenes Ereignis je Station.
@@ -36,48 +44,53 @@ Eine Wanderausstellung ist '''ein''' Ereignis mit mehreren Orten, einem je Stati
 <!--T:8-->
 == Wer teilgenommen hat ==
 Zwei Abschnitte erfassen die Teilnehmer, jeweils mit ihrer Rolle:
-* '''Events Artists''': die beteiligten Künstler, zum Beispiel als ausstellender Künstler, eingeladener Künstler, Teilnehmer, Gast, Autor oder Co-Autor oder als Empfänger einer Auszeichnung.
-* '''Events Agents''': die beteiligten Personen und Institutionen, zum Beispiel als Veranstalter, Kurator, ausstellende Galerie, Sponsor, Mäzen, Förderer oder Moderator. Jede ist ein [[Directory/de|Adressbucheintrag]].
+* '''In Beziehung stehende Künstler''': die beteiligten Künstler und ihre Beziehung zum Ereignis, zum Beispiel ausstellender Künstler, eingeladener Künstler, Teilnehmer, Gast, Autor oder Co-Autor oder Empfänger einer Auszeichnung. Das Pop-up bietet die Künstler an, deren Werkverzeichnisse Sie bearbeiten dürfen. Ein Künstler kann mehrere Beziehungen zum selben Ereignis haben, jede davon einmal.
+* '''In Beziehung stehende Agenten''': die beteiligten Personen und Institutionen, zum Beispiel als Veranstalter, Kurator, ausstellende Galerie, Sponsor, Förderer oder Moderator. Jede ist ein [[Directory/de|Adressbucheintrag]]: Das Pop-up durchsucht das Adressbuch nach einem beliebigen Teil des Namens, und sein Link ''Neuer Adressbucheintrag'' öffnet ''Einfache Adressbuch-Erstellung'' in einem neuen Tab. Eine Person kann beim selben Ereignis mehrere Rollen haben, jede Rolle einmal für das ganze Ereignis und einmal je Ort. Die öffentliche Ansicht listet nur öffentliche Adressbucheinträge auf.
 
 <!--T:9-->
-Bei einer Wanderausstellung kann ein Teilnehmer auf eine Station beschränkt werden, zum Beispiel ein Kurator, der nur an einer Station mitgewirkt hat. Lassen Sie das bei Rollen leer, die für das ganze Ereignis gelten.
+Bei einer Wanderausstellung kann ein Beteiligter auf einen Ort beschränkt werden, zum Beispiel ein Kurator, der nur an einer Station mitgewirkt hat: Wählen Sie diesen Ort unter ''Ort''. Lassen Sie ''Ganzes Ereignis'' stehen, wenn eine Rolle für das ganze Ereignis gilt. Wird ein Ort gelöscht, gelten die auf ihn beschränkten Rollen wieder für das ganze Ereignis. Künstler stehen immer mit dem ganzen Ereignis in Beziehung.
 
 <!--T:10-->
 == Gezeigte Werke ==
-'''Ausgestellte Werke''' listet die Werke auf, die bei einer Ausstellung oder Messe gezeigt wurden. Für jedes Werk lässt sich festhalten:
-* die '''Referenz''': die Katalog- oder Losnummer oder die bei der Ausstellung verwendete Beschriftung;
-* der '''Leihgeber''': der [[Directory/de|Adressbucheintrag]], der das Werk ausgeliehen hat;
-* der '''Verwendete Titel''', wenn das Werk unter einem anderen Titel gezeigt wurde.
+'''In Beziehung stehende Werke''' listet die Werke auf, die bei dem Ereignis gezeigt wurden, vor allem bei einer Ausstellung oder Messe. Sein Plus-Symbol erscheint nur bei Arten von Ereignissen, die Werke umfassen können (siehe [[#Die Hauptdaten|oben]]). Für jedes Werk lässt sich festhalten:
+* die '''Referenz''': zum Beispiel die Nummer des Werks im Ausstellungskatalog oder seine Losnummer;
+* der '''Titel in der Ausstellung''', wenn das Werk unter einem anderen Titel gezeigt wurde;
+* der '''Leihgeber''': der [[Directory/de|Adressbucheintrag]], der das Werk ausgeliehen hat.
 
 <!--T:11-->
-Das ist dieselbe Liste wie der Abschnitt ''Ausstellungen'' eines [[Objects/de|Werks]], von der anderen Seite gesehen. Um eine ganze Ausstellung zu erfassen, fügen Sie am schnellsten alle ihre Werke hier hinzu. Eine Ausstellung als Art des Ereignisses zu wählen, fügt von selbst keine Werke hinzu.
+Das ist dieselbe Liste wie der Abschnitt ''Ausstellungen'' eines [[Objects/de|Werks]], von der anderen Seite gesehen. Um eine ganze Ausstellung zu erfassen, fügen Sie ihre Werke am schnellsten hier hinzu: Das Pop-up durchsucht die Werke des Künstlers nach Werkverzeichnisnummer, Titel oder ID, und wenn Sie eine Suite selbst wählen, fügt ein Ankreuzfeld auch die Werke der Suite hinzu, die noch nicht aufgeführt sind, mit demselben Leihgeber; ihre Referenz und ihr Titel bleiben leer. Ein Werk kann je Ereignis nur einmal aufgeführt werden. Werke lassen sich nur für Künstler hinzufügen, die unter ''In Beziehung stehende Künstler'' aufgeführt sind und deren Werkverzeichnisse Sie bearbeiten dürfen. Eine Ausstellung als Art des Ereignisses zu wählen, fügt von selbst keine Werke hinzu.
 
 <!--T:12-->
 == Publikationen ==
-'''In Beziehung stehende Publikationen''' listet die Publikationen auf, die das Ereignis dokumentieren, vor allem seinen Ausstellungskatalog, aber auch Rezensionen und Artikel. Es ist dieselbe Verknüpfung wie ''Erwähnte Ereignisse'' bei der [[Publications/de|Publikation]].
+'''In Beziehung stehende Publikationen''' listet die Publikationen auf, die das Ereignis dokumentieren, vor allem seinen Ausstellungskatalog, aber auch Rezensionen und Artikel, wo sinnvoll mit Seite, Abbildung und Referenz. Das Pop-up sucht die Publikationen nach Titel, Alias, Abkürzung, Jahr oder ID; die Publikationen der Künstler des Ereignisses stehen vorn. Es bietet nur Publikationen an, die bereits mit Ihren Künstlern verknüpft sind; fehlt der Katalog, verknüpfen Sie ihn zuerst mit Ihrem Künstler. Es ist dieselbe Verknüpfung wie ''In Beziehung stehende Ereignisse'' bei der [[Publications/de|Publikation]]; der Kommentar eines Eintrags wird nur auf der Seite der Publikation angezeigt.
 
 <!--T:13-->
-== Abbildungen und Dateien ==
-Abbildungen des Ereignisses, etwa Ausstellungsansichten, Einladungen oder Plakate, werden mit dem Bild-Upload hochgeladen und gehören zum Ereignis.
+== Abbildungen ==
+Abbildungen des Ereignisses, etwa Ausstellungsansichten, Einladungen oder Plakate, gehören zum Ereignis. Im ''Bearbeitungsmodus'' öffnet das Plus-Symbol neben ''Abbildungen Ereignis'' den Bild-Upload in einem neuen Tab; der Stift unter einer Abbildung öffnet ein Pop-up für ihren Haken ''Öffentlich'', ihre Beschreibung in jeder Sprache, ihren Fotografen und ''Als Hauptbild Web festlegen'', womit die Abbildung gewählt wird, die beim Teilen des Ereignisses erscheint. Abbildungen eines Ereignisses, das mehrere Künstler teilen, ändert oder löscht der Plattform-Administrator.
+
+<!--T:19-->
+== Quellen und Notizen ==
+Die Blöcke ''Quellen'' und ''Notizen'' auf der Seite des Ereignisses halten fest, woher die Angaben stammen, und nehmen Bemerkungen zum Ereignis auf. Der Name, die Art des Ereignisses und jedes gezeigte Werk lassen sich auch einzeln mit Quellenangaben belegen. Siehe [[Sources and citations/de|Quellen und Quellenangaben]].
 
 <!--T:14-->
 == Vor dem Veröffentlichen ==
-* Art, Name und mindestens ein Ort mit Daten sind erfasst.
-* Bei Ausstellungen: die teilnehmenden Künstler und, soweit bekannt, die ausgestellten Werke.
-* Namen und Beschreibungen gibt es in den Sprachen, in denen das Werkverzeichnis veröffentlicht wird.
+* Art, Name, Alias und mindestens ein Ort mit Daten sind erfasst.
+* Bei Ausstellungen: die teilnehmenden Künstler und, soweit bekannt, die gezeigten Werke.
+* Eine Beschreibung gibt es in den Sprachen, in denen das Werkverzeichnis veröffentlicht wird.
 * Teilnehmer, die nicht öffentlich erscheinen sollen, sind in ihren [[Directory/de|Adressbucheinträgen]] verborgen.
-Haken Sie dann ''Veröffentlichbar'' an.
+Haken Sie dann in den Hauptdaten ''Öffentlich (auf open.cr sichtbar)'' an.
 
 <!--T:15-->
 == Häufige Fehler ==
 * '''Ein Datensatz je Station.''' Eine Tournee ist ein Ereignis mit mehreren Orten.
-* '''Doppelte Gruppenausstellungen.''' Suchen Sie, bevor Sie anlegen; die Ausstellung existiert vielleicht für einen anderen Künstler.
-* '''Name nur an einer Stelle korrigiert.''' Der Name in ''Beschreibung des Events'' ersetzt in dieser Sprache den ''Name des Events'' aus dem Hauptformular.
-* '''Ausstellung ohne Werke.''' Die ausgestellten Werke müssen hinzugefügt werden; nichts wird automatisch ergänzt.
+* '''Doppelte Gruppenausstellungen.''' Prüfen Sie vor dem Anlegen auf open.cr oder beim Plattform-Administrator, ob die Ausstellung für einen anderen Künstler schon existiert.
+* '''Künstler fehlt.''' Werke eines Künstlers lassen sich erst hinzufügen, wenn der Künstler unter ''In Beziehung stehende Künstler'' aufgeführt ist.
+* '''Ausstellung ohne Werke.''' Die gezeigten Werke müssen hinzugefügt werden; nichts wird automatisch ergänzt.
 
 <!--T:16-->
 == Siehe auch ==
 * [[Objects/de#Literatur und Ausstellungen|Ausstellungen eines Werks]]
 * [[Publications/de|Publikationen]]
 * [[Directory/de|Adressbuch]]
+* [[Sources and citations/de|Quellen und Quellenangaben]]
 * [[Field reference/de|Feldreferenz]]

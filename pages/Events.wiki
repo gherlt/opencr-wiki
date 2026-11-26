@@ -25,7 +25,7 @@ The main data of an event are edited in a pop-up: in ''Edit Mode'', the pencil b
 * '''Name of the event''': one name for all languages. Without a name, the page shows only the kind of event.
 * '''Alias''': the short name (see above). It is required. When another event already has the same alias, the pop-up names that event and asks for a different one.
 * '''Reference''': a citation key or reference code, if you use one. It is shown in ''Edit Mode'' only, under the alias.
-For the birth, death, founding or closure of a [[Directory|directory]] entry, the kind and the alias cannot be changed.
+For the birth, death, founding or dissolution of a [[Directory|directory]] entry, the kind and the alias cannot be changed.
 
 <!--T:18-->
 The bin after the main data deletes the whole event, with its places, participants, descriptions, notes and citations. It is refused while other records still refer to the event: works shown, publications, images, sales, artists' relations with the directory, or a source about the event; remove those links first. An event shared by artists of several catalogues, and its places, agents and publications, can be deleted only by someone who edits all of those artists, or by the platform administrator.
