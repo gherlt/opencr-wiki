@@ -132,4 +132,4 @@ La página de inicio del artista muestra los datos principales. Las secciones es
 |-
 | Descripción || Un texto sobre la entrada
 |}
-La página también enumera dónde aparece la entrada en otros registros. Estas listas se rellenan desde esos registros (por ahora ''Colección de obra de'' no puede modificarse): ''Relaciones con Artistas'', ''Publicaciones (como editor)'', ''Publicaciones (como autor)'', ''Colección de obra de'', ''Obras en propiedad'' (a partir de los historiales de propiedad), ''Partícipe'' y ''Mencionado en obras''.
+La página también enumera dónde aparece la entrada en otros registros. Estas listas se rellenan desde esos registros (por ahora ''Artistas en la colección'' no puede modificarse): ''Relaciones con artistas'', ''Publicaciones (como editor)'', ''Publicaciones (como autor)'', ''Artistas en la colección'', ''Obras en propiedad'' (a partir de los historiales de propiedad), ''Partícipe'' y ''Mencionado en obras''.

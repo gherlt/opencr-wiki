@@ -68,7 +68,7 @@ The artist's home page shows the main data. The sections are on the details page
 |-
 | Definition of categories || The object types that this catalogue assigns to another category than the general mapping, used for filtering the catalogue
 |-
-| Artist specific Tags || The artist's own keywords for grouping artworks
+| Artist-specific tags || The artist's own keywords for grouping artworks
 |-
 | Artist - additional descriptions || The biographies, one per language and type (life biography or art-historical biography)
 |}
@@ -132,7 +132,7 @@ The artist's home page shows the main data. The sections are on the details page
 |-
 | Description || A text about the entry
 |}
-The page also lists where the entry appears in other records. These lists are filled from those records (''Collection of objects'' cannot be changed at present): ''Relations with Artist'', ''Publications (as editor)'', ''Publications (as author)'', ''Collection of objects'', ''Objects in property'' (from ownership histories), ''Agent'' and ''Named on works''.
+The page also lists where the entry appears in other records. These lists are filled from those records (''Artists in the collection'' cannot be changed at present): ''Relations with Artist'', ''Publications (as publisher)'', ''Publications (as author)'', ''Artists in the collection'', ''Objects in property'' (from ownership histories), ''Agent'' and ''Named on works''.
 </translate>
 
 {{Editor guide}}

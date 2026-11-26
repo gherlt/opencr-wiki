@@ -102,7 +102,7 @@ Die Startseite des Künstlers zeigt die Hauptdaten. Die Abschnitte stehen auf de
 |-
 | In Beziehung stehende Künstler || Die Künstler, die teilgenommen haben, und ihre Beziehung zum Ereignis
 |-
-| In Beziehung stehende Agenten || Die beteiligten Personen und Institutionen: Veranstalter, Kurator, Galerie, Sponsor
+| In Beziehung stehende Beteiligte || Die beteiligten Personen und Institutionen: Veranstalter, Kurator, Galerie, Sponsor
 |-
 | Orte und Daten || Wo und wann das Ereignis stattfand; eine Wanderausstellung hat mehrere
 |-
@@ -132,4 +132,4 @@ Die Startseite des Künstlers zeigt die Hauptdaten. Die Abschnitte stehen auf de
 |-
 | Beschreibung || Ein Text über den Eintrag
 |}
-Die Seite listet auch auf, wo der Eintrag in anderen Datensätzen vorkommt. Diese Listen werden aus jenen Datensätzen gefüllt (''Sammlung von Werken von'' lässt sich derzeit nicht ändern): ''Beziehungen zum Künstler'', ''Publikationen (als Verleger)'', ''Publikationen (als Autor)'', ''Sammlung von Werken von'', ''Werke in Besitz'' (aus Provenienzen), ''Beteiligter'' und ''Auf Werken genannt''.
+Die Seite listet auch auf, wo der Eintrag in anderen Datensätzen vorkommt. Diese Listen werden aus jenen Datensätzen gefüllt (''Künstler in der Sammlung'' lässt sich derzeit nicht ändern): ''Beziehungen zum Künstler'', ''Publikationen (als Verleger)'', ''Publikationen (als Autor)'', ''Künstler in der Sammlung'', ''Werke in Besitz'' (aus Provenienzen), ''Beteiligter'' und ''Auf Werken genannt''.

@@ -221,7 +221,7 @@ The table lists, for each kind of record, the links it holds to other kinds and 
 |-
 | [[Directory]] || ''Artist - Relations with the directory'' || Gallerist, publisher, collector, mentor, family, heir and others
 |-
-| Directory || (no section; shown on the directory entry as ''Collection of objects'') || Institutions holding works by the artist
+| Directory || (no section; shown on the directory entry as ''Artists in the collection'') || Institutions holding works by the artist
 |-
 | Directory || ''Collecting society'' (main data) || The society managing the artist's rights
 |-

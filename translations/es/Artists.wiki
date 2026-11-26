@@ -51,7 +51,7 @@ Solo el administrador de la plataforma puede cambiar estos ajustes; los demás e
 
 <!--T:9-->
 == Biografías ==
-Las biografías se muestran en la página de detalles del artista bajo ''Artista - Descripciones adicionales'', un texto por idioma y tipo. Cada una lleva su ''Descripción tipo'':
+Las biografías se muestran en la página de detalles del artista bajo ''Artista - Descripciones adicionales'', un texto por idioma y tipo. Cada una lleva su ''Tipo de descripción'':
 * '''Vida''': la biografía vital (vita);
 * '''Arte''': la biografía histórico-artística.
 Por ahora no pueden añadirse ni modificarse en las páginas de edición; pídaselo al administrador de la plataforma.
@@ -74,7 +74,7 @@ Cada nombre alternativo tiene su propia casilla ''Público'', que está marcada 
 == Contactos, relaciones y colecciones ==
 * '''Información de contacto''': teléfonos, direcciones de correo electrónico, sitios web, redes sociales y otros. Cada contacto tiene su propia casilla ''Público'', que está sin marcar en un contacto nuevo; normalmente solo se publica el sitio web o una dirección profesional. Las direcciones de correo electrónico y las direcciones web se comprueban, y el mismo contacto no puede introducirse dos veces.
 * '''Artista - Relaciones con el directorio''': las personas e instituciones del entorno del artista, como galerista, editor, coleccionista, amigo, mentor, discípulo, mecenas, representante, familia y heredero. Cada relación remite a una entrada del [[Directory/es|directorio]] y puede nombrar además uno de los eventos del artista. Tiene su propia casilla ''Público'', que está marcada en una relación nueva; la página pública muestra la relación solo mientras la entrada del directorio también es pública. La misma entrada con la misma relación no puede introducirse dos veces.
-* '''Colecciones''': las instituciones que poseen obras del artista aparecen en sus entradas del directorio, bajo ''Colección de obra de''. Por ahora no pueden modificarse en las páginas de edición.
+* '''Colecciones''': las instituciones que poseen obras del artista aparecen en sus entradas del directorio, bajo ''Artistas en la colección''. Por ahora no pueden modificarse en las páginas de edición.
 
 <!--T:14-->
 Para relacionar a una persona o una institución con el artista, use ''Artista - Relaciones con el directorio''. Vincular una entrada del directorio al catálogo del artista es otra cosa: permite a los editores del artista editar la entrada, y verla y usarla incluso mientras no es pública (véase [[Directory/es#Compartido entre catálogos|Directorio]]). No dice nada sobre una relación.

@@ -207,7 +207,7 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 |-
 | [[Artists/de|Künstler]] || ''In Beziehung stehende Künstler'' || Die teilnehmenden Künstler und ihre Beziehung zum Ereignis
 |-
-| [[Directory/de|Adressbuch]] || ''In Beziehung stehende Agenten'' || Veranstalter, Kuratoren, Galerien, Sponsoren und andere
+| [[Directory/de|Adressbuch]] || ''In Beziehung stehende Beteiligte'' || Veranstalter, Kuratoren, Galerien, Sponsoren und andere
 |-
 | [[Objects/de|Werke]] || ''In Beziehung stehende Werke'' || Die gezeigten Werke (dieselbe Verknüpfung wie die ''Ausstellungen'' des Werks)
 |-
@@ -221,7 +221,7 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 |-
 | [[Directory/de|Adressbuch]] || ''Künstler - Beziehungen Adressbuch'' || Galerist, Verleger, Sammler, Mentor, Familie, Erbe und andere
 |-
-| Adressbuch || (kein Abschnitt; beim Adressbucheintrag als ''Sammlung von Werken von'' angezeigt) || Institutionen, die Werke des Künstlers besitzen
+| Adressbuch || (kein Abschnitt; beim Adressbucheintrag als ''Künstler in der Sammlung'' angezeigt) || Institutionen, die Werke des Künstlers besitzen
 |-
 | Adressbuch || ''Verwertungsgesellschaft'' (Hauptdaten) || Die Gesellschaft, die die Rechte des Künstlers wahrnimmt
 |-
@@ -237,7 +237,7 @@ Die Tabellen listen für jede Art von Datensatz die Verknüpfungen zu anderen Ar
 |-
 | Adressbuch || ''Verknüpfte Personen und Organisationen'' || Andere Personen und Institutionen (siehe [[#Verknüpfungen zwischen Adressbucheinträgen|oben]])
 |-
-| [[Events/de|Ereignisse]] || ''In Beziehung stehende Ereignisse'' || Die Ereignisse, an denen der Eintrag teilgenommen hat, mit seiner Rolle (dieselbe Verknüpfung wie ''In Beziehung stehende Agenten'' beim Ereignis)
+| [[Events/de|Ereignisse]] || ''In Beziehung stehende Ereignisse'' || Die Ereignisse, an denen der Eintrag teilgenommen hat, mit seiner Rolle (dieselbe Verknüpfung wie ''In Beziehung stehende Beteiligte'' beim Ereignis)
 |-
 | [[Artists/de|Künstler]] || (Verknüpfung mit dem Werkverzeichnis) || Die Bearbeiter dieser Künstler können den Eintrag bearbeiten und ihn auch dann sehen und verwenden, wenn er nicht öffentlich ist; festgelegt mit ''Einfache Adressbuch-Erstellung'' oder auf der Seite ''Adressbuch''. Keine Beziehung.
 |}

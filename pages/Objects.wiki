@@ -117,7 +117,7 @@ Upload images with ''Upload an image'' on the artwork's page in ''Edit Mode'', o
 
 <!--T:20-->
 == Tags ==
-'''Tags''' assign keywords (epochs, styles, periods, topics, places) to the work: the artist's own tags and the general ones. In ''Edit Mode'', the plus icon opens a pop-up with the tags the work does not have yet. The tags the work has are shown as green buttons and the artist's other tags as red ones; a click on a button removes or adds that tag. The artist's own tags are defined once per artist, in the [[Artists|artist's]] ''Artist specific Tags''.
+'''Tags''' assign keywords (epochs, styles, periods, topics, places) to the work: the artist's own tags and the general ones. In ''Edit Mode'', the plus icon opens a pop-up with the tags the work does not have yet. The tags the work has are shown as green buttons and the artist's other tags as red ones; a click on a button removes or adds that tag. The artist's own tags are defined once per artist, in the [[Artists|artist's]] ''Artist-specific tags''.
 
 <!--T:21-->
 == Before publishing ==

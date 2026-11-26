@@ -221,7 +221,7 @@ Las tablas enumeran, para cada tipo de registro, los enlaces que tiene con otros
 |-
 | [[Directory/es|Directorio]] || ''Artista - Relaciones con el directorio'' || Galerista, editor, coleccionista, mentor, familia, heredero y otros
 |-
-| Directorio || (ninguna sección; se muestra en la entrada del directorio como ''Colección de obra de'') || Instituciones que poseen obras del artista
+| Directorio || (ninguna sección; se muestra en la entrada del directorio como ''Artistas en la colección'') || Instituciones que poseen obras del artista
 |-
 | Directorio || ''Entidad de gestión'' (datos principales) || La entidad que gestiona los derechos del artista
 |-
@@ -241,7 +241,7 @@ Las tablas enumeran, para cada tipo de registro, los enlaces que tiene con otros
 |-
 | [[Artists/es|Artistas]] || (vínculo con el catálogo) || Permite a los editores de esos artistas editar la entrada, y verla y usarla incluso mientras no es pública; se fija con ''Creación rápida de directorio'' o en la página ''Libreta de direcciones''. No es una relación.
 |}
-La página de la entrada del directorio también enumera los enlaces que otros registros tienen con ella: las relaciones de los artistas (''Relaciones con Artistas''), sus publicaciones, su colección, las obras que posee o poseyó, las obras en las que fue partícipe y las obras cuyas marcas la nombran.
+La página de la entrada del directorio también enumera los enlaces que otros registros tienen con ella: las relaciones de los artistas (''Relaciones con artistas''), sus publicaciones, su colección, las obras que posee o poseyó, las obras en las que fue partícipe y las obras cuyas marcas la nombran.
 
 <!--T:23-->
 === Marchantes y ofertas ===

@@ -36,9 +36,9 @@ En el ''Modo de edición'', el icono de más junto al encabezado de una sección
 
 <!--T:7-->
 La página también muestra dónde aparece la entrada en otros registros. Estas listas se modifican en esos registros, no aquí:
-* ''Relaciones con Artistas'': las relaciones de los artistas con la entrada, introducidas en la [[Artists/es#Contactos, relaciones y colecciones|página del artista]];
+* ''Relaciones con artistas'': las relaciones de los artistas con la entrada, introducidas en la [[Artists/es#Contactos, relaciones y colecciones|página del artista]];
 * ''Publicaciones (como editor)'' y ''Publicaciones (como autor)'': las publicaciones que la entrada publicó o escribió, introducidas en los ''Partícipes'' de la publicación;
-* ''Colección de obra de'': los artistas cuyas obras posee la entrada como colección (por ahora no puede modificarse en las páginas de edición);
+* ''Artistas en la colección'': los artistas cuyas obras posee la entrada como colección (por ahora no puede modificarse en las páginas de edición);
 * ''Obras en propiedad'': las obras que la entrada posee o poseyó, a partir de sus historiales de propiedad;
 * ''Partícipe'': las obras en las que intervino la entrada, por función, a partir de sus ''Partícipes'';
 * ''Mencionado en obras'': las obras cuyas marcas e inscripciones nombran la entrada, por ejemplo en una dedicatoria.
@@ -63,13 +63,13 @@ El directorio contiene información delicada: quién posee qué, quién compró 
 {| class="wikitable"
 ! Ajuste !! Efecto
 |-
-| '''Público (se muestra en open.cr)''' || Sin marcar: open.cr no muestra la página de la entrada, y las páginas públicas muestran ''Colección privada'', ''Transacciones &#39;Privado&#39;'' o ''Datos privados'' en lugar de su nombre. En la vista de los editores, la ven los editores de los catálogos a los que está vinculada.
+| '''Público (se muestra en open.cr)''' || Sin marcar: open.cr no muestra la página de la entrada, y las páginas públicas muestran ''Colección privada'', ''Transacciones privadas'' o ''Datos privados'' en lugar de su nombre. En la vista de los editores, la ven los editores de los catálogos a los que está vinculada.
 |-
-| '''Colección: privada''' || La página pública de la entrada no muestra su ''Colección de obra de'', y la entrada no se nombra como destinataria de una dedicatoria.
+| '''Colección: privada''' || La página pública de la entrada no muestra la lista ''Artistas en la colección'', y la entrada no se nombra como destinataria de una dedicatoria.
 |-
 | '''Proveniencia: privada''' || Donde la entrada posee o poseyó una obra, el historial de propiedad muestra ''Colección privada'' en lugar de su nombre. Su página pública no muestra sus ''Obras en propiedad'', y la entrada no se nombra como destinataria de una dedicatoria.
 |-
-| '''Transacciones: privadas''' || Donde la entrada vendió o compró una obra, o actuó como intermediaria, la venta muestra ''Transacciones &#39;Privado&#39;'' en lugar de su nombre.
+| '''Transacciones: privadas''' || Donde la entrada vendió o compró una obra, o actuó como intermediaria, la venta muestra ''Transacciones privadas'' en lugar de su nombre.
 |-
 | ''Público'' de las entradas concretas || Los datos de contacto, las direcciones y las relaciones pueden ocultarse uno a uno; también una sola entrada del historial de propiedad de una obra.
 |}
@@ -82,7 +82,7 @@ Las casillas de privacidad actúan sobre todas las obras a la vez. Para ocultar 
 
 <!--T:13-->
 == Compartido entre catálogos ==
-Como el directorio es compartido, una entrada puede usarse en los catálogos de varios artistas: cualquier catálogo puede usar una entrada pública. Una entrada también puede vincularse a catálogos de artistas. Los editores de un catálogo vinculado pueden editar la entrada, y verla y usarla aunque no sea pública; para cualquier otra entrada, pregunte al administrador de la plataforma. ''Creación rápida de directorio'' vincula una entrada nueva al artista para el que se crea. En la página ''Libreta de direcciones'' del ''Menú PRO'', una entrada pública de una organización privada o pública cuya dirección principal tiene un país puede vincularse al catálogo del artista con ''Link'', o desvincularse con ''Unlink''; las personas y las entradas que no son públicas no aparecen allí.
+Como el directorio es compartido, una entrada puede usarse en los catálogos de varios artistas: cualquier catálogo puede usar una entrada pública. Una entrada también puede vincularse a catálogos de artistas. Los editores de un catálogo vinculado pueden editar la entrada, y verla y usarla aunque no sea pública; para cualquier otra entrada, pregunte al administrador de la plataforma. ''Creación rápida de directorio'' vincula una entrada nueva al artista para el que se crea. En la página ''Libreta de direcciones'' del ''Menú PRO'', una entrada pública de una organización privada o pública cuya dirección principal tiene un país puede vincularse al catálogo del artista con ''Vincular'', o desvincularse con ''Desvincular''; las personas y las entradas que no son públicas no aparecen allí.
 * Este vínculo no es una relación. Para registrar que una galería representa a un artista, añada en su lugar una relación en la [[Artists/es#Contactos, relaciones y colecciones|página del artista]].
 
 <!--T:14-->
@@ -99,7 +99,7 @@ Después marque ''Público (se muestra en open.cr)'' en el registro principal.
 <!--T:16-->
 == Errores frecuentes ==
 * '''Duplicados.''' Busque antes de crear; puede que la entrada exista para otro artista.
-* '''Propietario mostrado como colección privada.''' Cuando un propietario aparece inesperadamente como ''Colección privada'', o un vendedor como ''Transacciones &#39;Privado&#39;'', compruebe ''Público (se muestra en open.cr)'' y las casillas de privacidad en el registro principal de la entrada.
+* '''Propietario mostrado como colección privada.''' Cuando un propietario aparece inesperadamente como ''Colección privada'', o un vendedor como ''Transacciones privadas'', compruebe ''Público (se muestra en open.cr)'' y las casillas de privacidad en el registro principal de la entrada.
 * '''Vínculo con el catálogo usado como relación.''' El galerista, el editor o el coleccionista de un artista se registran en las relaciones del artista con el directorio; vincular la entrada al catálogo del artista solo permite a los editores del artista editarla y usarla, y no dice nada sobre su relación.
 * '''Relaciones en espejo.''' Una relación entre dos entradas del directorio se introduce una sola vez.
 * '''El artista como entrada del directorio.''' Cuando el propio artista poseyó una obra o realizó una acción, use la casilla del artista en esa entrada (véase [[Objects/es#Personas e historia|Obras]]) en lugar de crear una entrada del directorio para el artista.

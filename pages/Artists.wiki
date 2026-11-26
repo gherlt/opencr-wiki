@@ -74,7 +74,7 @@ Each alternative name has its own ''Public'' tick, which is ticked for a new nam
 == Contacts, relations and collections ==
 * '''Contact details''': phone numbers, email addresses, websites, social media and others. Each contact has its own ''Public'' tick, which is unticked for a new contact; usually only the website or a professional address is published. Email and web addresses are checked, and the same contact cannot be entered twice.
 * '''Artist - Relations with the directory''': the people and institutions around the artist, such as gallerist, publisher, collector, friend, mentor, disciple, patron, representative, family and heir. Each relation points to a [[Directory|directory]] entry and can also name one of the artist's events. It has its own ''Public'' tick, which is ticked for a new relation; the public page shows the relation only while the directory entry is public too. The same entry with the same relation cannot be entered twice.
-* '''Collections''': the institutions that hold works by the artist appear on their directory entries, under ''Collection of objects''. They cannot be changed on the editing pages at present.
+* '''Collections''': the institutions that hold works by the artist appear on their directory entries, under ''Artists in the collection''. They cannot be changed on the editing pages at present.
 
 <!--T:14-->
 To connect a person or an institution with the artist, use ''Artist - Relations with the directory''. Linking a directory entry to the artist's catalogue is something different: it lets the artist's editors edit the entry, and see and use it even while it is not public (see [[Directory#Shared between catalogues|Directory]]). It says nothing about a relationship.
@@ -97,7 +97,7 @@ The artist's own grouping of artworks for filtering the catalogue. Every [[Objec
 
 <!--T:18-->
 === Tags ===
-The artist's own keywords for grouping artworks, in the section ''Artist specific Tags''. Its plus icon opens a page for a new tag, and the pencil before a tag the page to change it. Each tag has a ''Tag type'':
+The artist's own keywords for grouping artworks, in the section ''Artist-specific tags''. Its plus icon opens a page for a new tag, and the pencil before a tag the page to change it. Each tag has a ''Tag type'':
 * ''Art epoch'' (art history);
 * ''Style'';
 * ''Period'';

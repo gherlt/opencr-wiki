@@ -37,8 +37,8 @@ In ''Edit Mode'', the plus icon next to a section's heading opens a pop-up for a
 <!--T:7-->
 The page also shows where the entry appears in other records. These lists are changed in those records, not here:
 * ''Relations with Artist'': the artists' relations to the entry, entered on the [[Artists#Contacts, relations and collections|artist's page]];
-* ''Publications (as editor)'' and ''Publications (as author)'': the publications the entry published or wrote, entered in the publication's ''Agents'';
-* ''Collection of objects'': the artists whose works the entry holds as a collection (it cannot be changed on the editing pages at present);
+* ''Publications (as publisher)'' and ''Publications (as author)'': the publications the entry published or wrote, entered in the publication's ''Agents'';
+* ''Artists in the collection'': the artists whose works the entry holds as a collection (it cannot be changed on the editing pages at present);
 * ''Objects in property'': the works the entry owns or owned, from their ownership histories;
 * ''Agent'': the works in which the entry was involved, by role, from their ''Agents'';
 * ''Named on works'': the works whose marks and inscriptions name the entry, for example in a dedication.
@@ -65,7 +65,7 @@ The directory holds sensitive information: who owns what, who bought what and fo
 |-
 | '''Public (shown on open.cr)''' || Unticked: open.cr does not show the entry's page, and public pages show ''Private collection'', ''Transactions are private'' or ''private data'' instead of its name. In the editors' view, the editors of the catalogues it is linked to see it.
 |-
-| '''Collection private''' || The entry's public page does not show its ''Collection of objects'', and the entry is not named as the recipient of a dedication.
+| '''Collection private''' || The entry's public page does not show the list ''Artists in the collection'', and the entry is not named as the recipient of a dedication.
 |-
 | '''Provenance private''' || Where the entry owns or owned a work, the ownership history shows ''Private collection'' instead of its name. Its public page does not show its ''Objects in property'', and the entry is not named as the recipient of a dedication.
 |-
