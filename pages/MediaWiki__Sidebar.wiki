@@ -6,6 +6,7 @@
 ** Visiting openCR|Visiting openCR
 ** Browsing a catalogue|Browsing a catalogue
 ** Reading an artwork page|Reading an artwork page
+** Search by photo|Search by photo
 ** Glossary|Glossary
 ** FAQ|FAQ
 * Editor guide

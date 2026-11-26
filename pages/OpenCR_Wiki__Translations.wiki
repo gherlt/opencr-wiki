@@ -7,7 +7,7 @@ As of 16 October 2026:
 {| class="wikitable"
 ! Part !! Spanish !! German
 |-
-| Visitor guide (7 pages) || translated || translated
+| Visitor guide (8 pages) || translated || translated
 |-
 | Editor guide (11 pages) || translated || translated
 |-
@@ -31,6 +31,8 @@ As of 16 October 2026:
 | [[Browsing a catalogue]] || [[Browsing a catalogue/es|Explorar un catálogo]] || [[Browsing a catalogue/de|Ein Werkverzeichnis durchsuchen]]
 |-
 | [[Reading an artwork page]] || [[Reading an artwork page/es|Leer la página de una obra]] || [[Reading an artwork page/de|Eine Werkseite lesen]]
+|-
+| [[Search by photo]] || [[Search by photo/es|Buscar por foto]] || [[Search by photo/de|Suche per Foto]]
 |-
 | [[Biography, bibliography and exhibitions]] || [[Biography, bibliography and exhibitions/es|Biografía, bibliografía y exposiciones]] || [[Biography, bibliography and exhibitions/de|Biographie, Bibliographie und Ausstellungen]]
 |-

@@ -1,0 +1,47 @@
+<!--T:Page display title-->
+Buscar por foto
+
+<!--T:1-->
+El catálogo razonado de Enrique Brinkmann en [https://www.enriquebrinkmann.es enriquebrinkmann.es] puede encontrar una obra a partir de una foto. Usted sube una foto de una obra, la página la compara con las fotos de todas las obras publicadas en el catálogo y le muestra las 15 más parecidas. Está pensada para propietarios que quieren saber si su obra ya figura en el catálogo, y con qué ficha. Por ahora la búsqueda por foto solo existe en ese sitio.
+
+<!--T:2-->
+== Dónde encontrarla ==
+En el menú de la derecha del sitio: '''Buscar por foto''' (en inglés ''Search by photo'', en alemán ''Suche per Foto''), o directamente en [https://www.enriquebrinkmann.es/reports/image_search.php?lang=spa enriquebrinkmann.es/reports/image_search.php].
+
+<!--T:3-->
+== Cómo hacer la foto ==
+La búsqueda compara imágenes completas. Solo encuentra una obra con seguridad cuando la foto muestra la obra sola, y entera:
+* tomada '''de frente''', no en ángulo;
+* '''recortada exactamente por los bordes de la obra''': sin pared ni fondo alrededor;
+* '''sin marco ni paspartú''';
+* '''completa''': un detalle o una parte de la obra no basta;
+* '''sin reflejos ni brillos''', por ejemplo de un cristal.
+
+<!--T:4-->
+Recorte y enderece la foto antes de subirla, por ejemplo con el editor de fotos de su móvil: la página no recorta ni corrige nada. Unos dibujos en la página muestran fotos que sirven y fotos que no.
+
+<!--T:5-->
+La foto puede ser un archivo JPEG, PNG o WebP de hasta 25 MB y 50 megapíxeles; las fotos HEIC del iPhone se pueden exportar como JPEG. Las fotos tomadas con el móvil de lado se enderezan solas. Su foto solo se usa para la búsqueda y se borra en seguida; no se guarda. El número de búsquedas por hora es limitado.
+
+<!--T:6-->
+== Los resultados ==
+Tras unos segundos, la página muestra hasta 15 obras en dos grupos, la más parecida primero, numeradas del 1 al 15 a lo largo de ambos grupos. Cada obra aparece con su imagen, su '''Referencia''' en el catálogo, su título, el tipo de obra y la fecha. Haga clic en una obra para abrir su página.
+
+<!--T:7-->
+=== Probablemente su obra ===
+Este grupo solo aparece cuando la foto de una obra coincide con la suya claramente mejor que cualquier otra. Normalmente contiene una obra; puede contener más cuando el catálogo tiene casi la misma imagen para varias obras. Si ninguna obra destaca, el grupo no aparece y la lista empieza con las obras parecidas: entonces probablemente la obra no figura en el catálogo, o la foto no cumple las reglas anteriores.
+
+<!--T:8-->
+=== Obras parecidas ===
+El resto de la lista: obras que se parecen a su foto, no coincidencias. Están ordenadas por su aspecto general: los '''tonos''' (lo clara u oscura que es), los '''colores''' y la '''textura''' (trazos finos o gruesos, la dirección de las líneas). No importa dónde están los trazos en la imagen, por eso aquí suelen aparecer obras de la misma serie.
+* Se compara el aspecto, no el tema: puede faltar una obra con el mismo tema pero otra superficie, y pueden aparecer obras de otros años con una superficie parecida.
+* Los puestos cercanos son decisiones ajustadas: la 2.ª obra se parece claramente más que la 15.ª, pero el orden entre obras vecinas dice poco.
+* Una obra con varias fotos en el catálogo aparece una sola vez, con la foto más parecida a la suya.
+
+<!--T:9-->
+== Si su obra no aparece ==
+Haga clic en '''Mi obra no está en esta lista'''. La página que se abre propone primero probar otra vez con una foto tomada de frente y recortada exactamente por los bordes de la obra: una foto con pared, marco o una parte cortada casi nunca encuentra la obra. Si la obra sigue sin aparecer, puede que aún no figure en el catálogo o que no tenga foto publicada. La página indica entonces a quién escribir y qué enviar: buenas imágenes del anverso y del reverso de la obra, su título, medidas, soporte y técnica, año de creación y procedencia.
+
+<!--T:10-->
+== Lo que una coincidencia no demuestra ==
+Que una obra aparezca en la lista solo significa que su foto se parece a la foto del catálogo. No confirma que su obra sea auténtica: una reproducción de la foto del catálogo se parece igual.

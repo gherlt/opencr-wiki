@@ -18,6 +18,7 @@ This wiki explains how openCR works. It is written for the people who build cata
 * '''[[Visiting openCR]]''': a short tour of the site, its languages and the search
 * '''[[Browsing a catalogue]]''': finding, filtering and sorting an artist's works
 * '''[[Reading an artwork page]]''': what each section of a work's page tells you
+* '''[[Search by photo]]''': finding a work from a photo (on enriquebrinkmann.es so far)
 * '''[[Biography, bibliography and exhibitions]]''': the artist's chronology, literature, exhibitions and awards
 * '''[[Your account]]''': registering, favourites and the cart
 * '''[[Glossary]]''' and '''[[FAQ]]'''

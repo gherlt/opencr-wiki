@@ -1,0 +1,47 @@
+<!--T:Page display title-->
+Suche per Foto
+
+<!--T:1-->
+Das Werkverzeichnis von Enrique Brinkmann auf [https://www.enriquebrinkmann.es enriquebrinkmann.es] kann ein Werk anhand eines Fotos finden. Sie laden ein Foto eines Werks hoch, die Seite vergleicht es mit den Fotos aller veröffentlichten Werke im Werkverzeichnis und zeigt Ihnen die 15 ähnlichsten. Sie ist für Besitzer gedacht, die wissen möchten, ob ihr Werk schon im Werkverzeichnis steht, und unter welchem Eintrag. Bisher gibt es die Suche per Foto nur auf dieser Website.
+
+<!--T:2-->
+== Wo Sie sie finden ==
+Im Menü rechts auf der Website: '''Suche per Foto''' (auf Spanisch ''Buscar por foto'', auf Englisch ''Search by photo''), oder direkt unter [https://www.enriquebrinkmann.es/reports/image_search.php?lang=deu enriquebrinkmann.es/reports/image_search.php].
+
+<!--T:3-->
+== Das Foto aufnehmen ==
+Die Suche vergleicht ganze Bilder. Sie findet ein Werk nur dann zuverlässig, wenn das Foto nur das Werk zeigt, und zwar ganz:
+* '''von vorn''' aufgenommen, nicht schräg;
+* '''genau an den Kanten des Werks zugeschnitten''': keine Wand und kein Hintergrund drumherum;
+* '''ohne Rahmen und ohne Passepartout''';
+* '''vollständig''': ein Ausschnitt oder ein Teil des Werks genügt nicht;
+* '''ohne Spiegelungen oder Glanzlichter''', zum Beispiel vom Glas.
+
+<!--T:4-->
+Schneiden Sie das Foto zu und richten Sie es gerade aus, bevor Sie es hochladen, zum Beispiel mit der Foto-App Ihres Handys: Die Seite schneidet und korrigiert nichts. Skizzen auf der Seite zeigen Fotos, die funktionieren, und Fotos, die nicht funktionieren.
+
+<!--T:5-->
+Das Foto kann eine JPEG-, PNG- oder WebP-Datei mit höchstens 25 MB und 50 Megapixeln sein; HEIC-Fotos vom iPhone lassen sich als JPEG exportieren. Fotos, die mit seitlich gehaltenem Handy aufgenommen wurden, werden automatisch aufgerichtet. Ihr Foto wird nur für die Suche verwendet und sofort gelöscht; es wird nicht gespeichert. Die Zahl der Suchen pro Stunde ist begrenzt.
+
+<!--T:6-->
+== Die Ergebnisse ==
+Nach einigen Sekunden zeigt die Seite bis zu 15 Werke in zwei Gruppen, das ähnlichste zuerst, über beide Gruppen hinweg von 1 bis 15 nummeriert. Jedes Werk erscheint mit seinem Bild, seiner '''Referenz''' im Werkverzeichnis, seinem Titel, dem Objekttyp und dem Datum. Klicken Sie auf ein Werk, um seine Seite zu öffnen.
+
+<!--T:7-->
+=== Wahrscheinlich Ihr Werk ===
+Diese Gruppe erscheint nur, wenn das Foto eines Werks deutlich besser zu Ihrem passt als jedes andere. Meist enthält sie ein Werk; sie kann mehrere enthalten, wenn das Werkverzeichnis fast dasselbe Bild für mehrere Werke hat. Sticht kein Werk heraus, fehlt die Gruppe, und die Liste beginnt mit den ähnlichen Werken: Dann steht das Werk wahrscheinlich nicht im Werkverzeichnis, oder das Foto folgt nicht den Regeln oben.
+
+<!--T:8-->
+=== Ähnliche Werke ===
+Der Rest der Liste: Werke, die Ihrem Foto ähneln, keine Treffer. Sie sind nach ihrem Gesamteindruck geordnet: den '''Tönen''' (wie hell oder dunkel), den '''Farben''' und der '''Struktur''' (feine oder grobe Spuren, die Richtung von Linien). Wo die Spuren im Bild sitzen, spielt keine Rolle, deshalb erscheinen hier oft Werke derselben Serie.
+* Verglichen wird das Aussehen, nicht das Motiv: Ein Werk mit demselben Motiv, aber anderer Oberfläche kann fehlen, und Werke aus anderen Jahren mit ähnlicher Oberfläche können erscheinen.
+* Nahe Plätze sind knappe Entscheidungen: Das 2. Werk ist deutlich ähnlicher als das 15., aber die Reihenfolge benachbarter Werke sagt wenig.
+* Ein Werk mit mehreren Fotos im Werkverzeichnis erscheint nur einmal, mit dem Foto, das Ihrem am nächsten kommt.
+
+<!--T:9-->
+== Wenn Ihr Werk nicht dabei ist ==
+Klicken Sie auf '''Mein Werk ist nicht in dieser Liste'''. Die Seite, die sich öffnet, schlägt vor, es zuerst noch einmal mit einem Foto zu versuchen, das von vorn aufgenommen und genau an den Kanten des Werks zugeschnitten ist: Ein Foto mit Wand, Rahmen oder abgeschnittenem Teil findet das Werk fast nie. Erscheint das Werk auch dann nicht, steht es vielleicht noch nicht im Werkverzeichnis oder hat kein veröffentlichtes Foto. Die Seite sagt dann, wohin Sie schreiben und was Sie schicken können: gute Bilder der Vorder- und der Rückseite des Werks, Titel, Maße, Bildträger und Technik, Entstehungsjahr und Provenienz.
+
+<!--T:10-->
+== Was ein Treffer nicht beweist ==
+Dass ein Werk in der Liste erscheint, heißt nur, dass Ihr Foto dem Foto im Werkverzeichnis ähnelt. Es bestätigt nicht, dass Ihr Werk echt ist: Eine Reproduktion des Fotos im Werkverzeichnis sieht genauso ähnlich aus.

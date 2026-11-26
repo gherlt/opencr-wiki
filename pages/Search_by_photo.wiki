@@ -1,0 +1,50 @@
+<languages/>
+{{Draft}}
+<translate>
+<!--T:1-->
+The catalogue raisonné of Enrique Brinkmann at [https://www.enriquebrinkmann.es enriquebrinkmann.es] can find a work from a photo. You upload a photo of a work, the page compares it with the photos of all published works in the catalogue and lists the 15 most similar ones. It is meant for owners who want to know whether their work is already in the catalogue, and under which entry. So far the photo search exists only on that site.
+
+<!--T:2-->
+== Where to find it ==
+In the menu on the right of the site: '''Search by photo''' (in Spanish ''Buscar por foto'', in German ''Suche per Foto''), or directly at [https://www.enriquebrinkmann.es/reports/image_search.php?lang=eng enriquebrinkmann.es/reports/image_search.php].
+
+<!--T:3-->
+== Taking the photo ==
+The search compares whole pictures. It finds a work reliably only when the photo shows the work alone, and all of it:
+* taken '''straight from the front''', not at an angle;
+* '''cut exactly to the edges of the work''': no wall or background around it;
+* '''without frame or passe-partout''';
+* '''complete''': a detail or part of the work is not enough;
+* '''without reflections or glare''', for example from glass.
+
+<!--T:4-->
+Crop and straighten the photo before you upload it, for example with the photo editor on your phone: the page does not crop or correct anything. Sketches on the page show photos that work and photos that do not.
+
+<!--T:5-->
+The photo can be a JPEG, PNG or WebP file of up to 25 MB and 50 megapixels; iPhone photos in HEIC format can be exported as JPEG. Photos taken with the phone turned sideways are turned upright automatically. Your photo is used for the search only and deleted right away; it is not stored. The number of searches per hour is limited.
+
+<!--T:6-->
+== The results ==
+After a few seconds the page lists up to 15 works in two groups, the most similar first, numbered from 1 to 15 across both groups. Each work is shown with its picture, its '''Reference''' in the catalogue, its title, the type of work and the date. Click a work to open its page.
+
+<!--T:7-->
+=== Probably your work ===
+This group appears only when the photo of one work matches yours clearly better than any other. Usually it holds one work; it can hold more when the catalogue has nearly the same picture for several works. If no work stands out, the group is missing and the list starts with the similar works: the work is then probably not in the catalogue, or the photo does not follow the rules above.
+
+<!--T:8-->
+=== Similar works ===
+The rest of the list: works that look like your photo, not matches. They are ordered by their overall look: the '''tones''' (how light or dark), the '''colours''' and the '''texture''' (fine or coarse marks, the direction of lines). Where the marks sit in the picture does not matter, so works of the same series often appear here.
+* The look is compared, not the subject: a work with the same subject but a different surface can be missing, and works from other years with a similar surface can appear.
+* Close places are close calls: the 2nd work is clearly more alike than the 15th, but the order of neighbouring works says little.
+* A work with several photos in the catalogue appears once, with the photo closest to yours.
+
+<!--T:9-->
+== If your work is not listed ==
+Click '''My work is not in this list'''. The page that opens suggests trying again first with a photo taken straight from the front and cut exactly to the edges of the work: a photo with wall, frame or a part cut off almost never finds the work. If the work still does not appear, it may not be in the catalogue yet, or it may have no published photo. The page then says where to write and what to send: good images of the front and the back of the work, its title, dimensions, support and technique, year of creation and provenance.
+
+<!--T:10-->
+== What a match does not prove ==
+A work in the list only means that your photo looks like the photo in the catalogue. It does not confirm that your work is authentic: a reproduction of the catalogue photo looks just as similar.
+</translate>
+
+{{Visitor guide}}
